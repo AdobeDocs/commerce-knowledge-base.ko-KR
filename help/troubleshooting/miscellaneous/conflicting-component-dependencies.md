@@ -4,9 +4,9 @@ description: 이 문서에서는 충돌하는 구성 요소 종속성에 대한 
 exl-id: 782049c4-b6e1-4ead-a00f-80d2aa8475c9
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ We have detected conflicts with the following packages:
 ## Adobe Commerce {#magento-commerce-magento-commerce-cloud}
 
 1. 확장 개발자에게 연락하여 도움을 받으십시오. 확장을 구입한 페이지에서 Commerce Marketplace의 연락처 정보를 찾을 수 있습니다. 다음 항목을 찾습니다. **판매자 연락처** 오른쪽 패널에 단추가 표시됩니다. 모든 Commerce 개발자는 Marketplace에 확장을 게시할 때 사용자 및 설치 안내서를 제공해야 합니다. 두 기능은 모두 랜딩 페이지의 오른쪽에서 찾을 수 있습니다.
-1. 적절한 시간 내에 판매자로부터 회신을 받지 못한 경우, [Commerce Marketplace에게 알림](https://marketplacesupport.magento.com/hc/en-us) 이를 통해 고객 지원 약속을 상기시킬 수 있습니다.
+1. 적절한 시간 내에 판매자로부터 회신을 받지 못한 경우, [마켓플레이스 지원에 문의](mailto:commercemarketplacesupport@adobe.com) 이를 통해 고객 지원 약속을 상기시킬 수 있습니다.
 
 ## Magento Open Source {#opensource}
 
-에 지원 요청 [주요 포럼](https://community.magento.com/) 또는 [Adobe Commerce 파트너에게 문의](https://magento.com/find-a-partner) 이는 오픈 소스 문제에 도움이 됩니다.
+에 지원 요청 [주요 포럼](https://community.magento.com/) 또는 [Adobe Commerce 파트너에게 문의](https://magento.com/find-a-partner) 이는 Source 열기 문제에 도움이 됩니다.

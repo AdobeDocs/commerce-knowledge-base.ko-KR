@@ -3,9 +3,9 @@ title: 클라우드 인프라 샌드박스 요청에 대한 파트너 Adobe Comm
 description: 이 FAQ 문서에는 클라우드 인프라 샌드박스 요청에 있는 Adobe Commerce에 유용한 리소스에 대한 링크가 포함되어 있습니다.
 exl-id: 3ec1cbc0-1a71-4753-8fc5-51c5f1928f12
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 0%
 ## 솔루션 파트너나 기술 파트너는 지원 요청을 어디에 / 어떻게 제출합니까? {#wherehow-do-solution-partners-or-tech-partners-submit-a-support-request}
 
 * 솔루션 파트너는 (으)로 이메일을 전송하여 샌드박스 관련 문제에 대한 티켓을 제출할 수 있습니다. [SPPHelp@adobe.com](mailto:SPPHelp@adobe.com) 그리고 파트너 기술 지원 팀으로 전달됩니다.
-* 기술 파트너는 다음에 대한 지원 요청을 제출할 수 있습니다 [Commerce Marketplace 도움말 센터](https://marketplacesupport.magento.com/hc/en-us/requests) 페이지를 가리키도록 업데이트하는 중입니다.
+* 기술 파트너는 다음과 같은 작업을 수행할 수 있습니다 [마켓플레이스 지원에 문의](mailto:commercemarketplacesupport@adobe.com).
