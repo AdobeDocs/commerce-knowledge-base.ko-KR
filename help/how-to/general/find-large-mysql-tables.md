@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 큰 MySQL 테이블 찾기
 
-큰 테이블을 식별하려면에 설명된 대로 데이터베이스에 접속합니다. [데이터베이스에 연결](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) 문서를 복사하고 다음 명령을 실행합니다. 여기서 `project_id` 은 클라우드 프로젝트 ID입니다.
+큰 테이블을 식별하려면 [데이터베이스에 연결](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) 문서에 설명된 대로 데이터베이스에 연결하고 다음 명령을 실행합니다. 여기서 `project_id`은(는) 클라우드 프로젝트 ID입니다.
 
 ```sql
 SELECT TABLE_NAME AS `Table`,

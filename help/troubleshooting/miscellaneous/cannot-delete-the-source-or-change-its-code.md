@@ -37,6 +37,6 @@ ht-degree: 0%
 
 재고를 이전하거나 특정 위치의 모든 납품에서 제품을 드롭하여 제품에서 출처를 제거할 수 있습니다.
 
-다음에서 소스를 제거해야 하는 경우 [SSA](https://devdocs.magento.com/guides/v2.3/inventory/source-selection-algorithms.html) 계산 및 Adobe Commerce Inventory 주문 처리에서 출처를 사용 안함으로 설정할 수 있습니다. 비활성화된 소스는 모든 데이터, 지정된 제품 및 재고 수량을 유지하고 언제든지 다시 활성화하여 배송을 시작할 수 있습니다.
+[SSA](https://devdocs.magento.com/guides/v2.3/inventory/source-selection-algorithms.html) 계산 및 Adobe Commerce 인벤토리 주문 처리에서 원본을 제거해야 하는 경우 원본을 사용하지 않도록 설정할 수 있습니다. 비활성화된 소스는 모든 데이터, 지정된 제품 및 재고 수량을 유지하고 언제든지 다시 활성화하여 배송을 시작할 수 있습니다.
 
-다음을 참조하십시오. [소스 만들기 안내서](https://github.com/magento/inventory/wiki/Create-Sources#disable-sources) 소스를 비활성화하는 방법에 대한 자세한 내용.
+원본을 사용하지 않도록 설정하는 방법에 대한 자세한 내용은 [원본 만들기 가이드](https://github.com/magento/inventory/wiki/Create-Sources#disable-sources)를 참조하세요.

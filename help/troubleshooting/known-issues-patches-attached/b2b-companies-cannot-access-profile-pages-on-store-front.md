@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 문제
 
-고객(회사)은 사이트에서 회사 계정을 성공적으로 만들 수 있지만 *&quot;customerId = &quot;인 해당 엔티티가 없습니다.* 및 *&quot;아직 회사 계정이 없습니다.&quot;* 오류 메시지. 또한 다음을 얻을 수 있습니다. *&quot;500 내부 서버 오류&quot;* 회사 프로필 페이지에 액세스하려고 할 때.
+고객(회사)은 사이트에서 회사 계정을 만들 수 있지만 *을(를) 가져옵니다.&quot;customerId = &quot;* 및 *&quot;아직 회사 계정이 없습니다.&quot;* 오류 메시지가 있습니다. 회사 프로필 페이지에 액세스하려고 할 때 *&quot;500 내부 서버 오류&quot;*&#x200B;가 발생할 수도 있습니다.
 
 ## 패치
 
@@ -38,4 +38,4 @@ ht-degree: 0%
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 설명서를 참조하십시오.
+지침은 [Adobe에서 제공한 작성기 패치 적용 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.

@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ### 종속성 충돌 {#trouble-depend-conflict}
 
-메시지 *충돌하는 구성 요소 종속성을 찾았습니다.* 작성기가 설치하거나 업데이트할 구성 요소를 결정할 수 없는 경우 표시됩니다. 구성 요소 종속성 문제를 해결하려면 Composer의 작동 방식을 철저히 이해하는 기술 인력이어야 합니다.
+작성기에서 설치 또는 업데이트할 구성 요소를 결정할 수 없는 경우 *충돌하는 구성 요소 종속성을 찾았습니다* 메시지가 표시됩니다. 구성 요소 종속성 문제를 해결하려면 Composer의 작동 방식을 철저히 이해하는 기술 인력이어야 합니다.
 
 다음은 실패 메시지의 예입니다.
 
@@ -40,7 +40,7 @@ We found conflicting component dependencies.
 >
 >표시되는 메시지는 다를 수 있습니다.
 
-을(를) 참조하십시오 [솔루션에 대한 구성 요소 종속성 충돌](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md) 을 참조하십시오.
+지원 기술 자료에서 [솔루션에 대한 구성 요소 종속성 충돌](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md)을(를) 참조하십시오.
 
 ## 파일 시스템 권한 문제 {#trouble-depend-permission}
 
@@ -51,10 +51,10 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-이 문서에 설명된 대로 파일 시스템 권한을 설정해야 합니다 [소유권 및 권한 개요](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) 개발자 설명서에서 확인할 수 있습니다.
+개발자 설명서의 [소유권 및 권한 개요](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) 문서에 설명된 대로 파일 시스템 권한을 설정해야 합니다.
 
 ## 구성 요소 종속성 확인 상태는 변경되지 않습니다 {#trouble-depend-state}
 
-문제를 해결한 후에도 구성 요소 종속성 확인의 상태가 변경되지 않는 경우가 있습니다. 이 경우 이름이 인 파일을 삭제하거나 이름을 바꿀 수 있습니다 `<magento_root>/var/.update_cronjob_status` 및 `<magento_root>/var/.setup_cronjob_status` 구성 요소 관리자를 다시 실행하십시오.
+문제를 해결한 후에도 구성 요소 종속성 확인의 상태가 변경되지 않는 경우가 있습니다. 이 경우 `<magento_root>/var/.update_cronjob_status` 및 `<magento_root>/var/.setup_cronjob_status` 파일을 삭제하거나 이름을 바꾸고 구성 요소 관리자를 다시 실행할 수 있습니다.
 
 이러한 파일의 이름을 바꾸거나 파일을 제거하면 구성 요소 관리자가 검사를 다시 실행해야 합니다.

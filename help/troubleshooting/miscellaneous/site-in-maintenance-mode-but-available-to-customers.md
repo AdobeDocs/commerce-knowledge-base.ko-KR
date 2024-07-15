@@ -41,8 +41,8 @@ ht-degree: 0%
 ## 유지 관리 모드에 있음에도 불구하고 사이트에 대한 솔루션이 표시됨
 
 1. SSH를 환경에 추가합니다.
-1. 실행 `php bin/magento cache:clean` 명령입니다.
+1. `php bin/magento cache:clean` 명령을 실행합니다.
 
 ## 관련 읽기
 
-[유지 관리 모드 활성화 또는 비활성화](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) 개발자 설명서에서 확인할 수 있습니다.
+개발자 설명서에서 [유지 관리 모드를 사용하거나 사용하지 않도록 설정](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html).

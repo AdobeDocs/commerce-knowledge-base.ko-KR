@@ -15,7 +15,7 @@ ht-degree: 1%
 
 ![기술 자료 홈 페이지](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
 
-본 기술 자료의 정보는 다음과 상호 보완적으로 설계되었습니다. [Adobe Commerce 개발자 설명서](https://developer.adobe.com/commerce/docs), 및 [Adobe Commerce Merchant 안내서](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)및 기타 Adobe Commerce 발행물. 문제 해결 및 모범 사례를 다루고, 발표를 호스팅하고, FAQ에 답변하고, 공식 설명서에서 (어떤 이유로든) 언급되지 않은 특정 시나리오를 강조합니다.
+이 기술 자료의 정보는 [Adobe Commerce 개발자 설명서](https://developer.adobe.com/commerce/docs), [Adobe Commerce 판매자 안내서](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) 및 기타 Adobe Commerce 발행물을 보완하는 것으로 디자인되었습니다. 문제 해결 및 모범 사례를 다루고, 발표를 호스팅하고, FAQ에 답변하고, 공식 설명서에서 (어떤 이유로든) 언급되지 않은 특정 시나리오를 강조합니다.
 
 ## 기술 자료에는 무엇이 있습니까?
 
@@ -30,9 +30,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->새 티켓을 신청하려면에 로그인하십시오 [Adobe Commerce 도움말 센터](https://support.magento.com/) 아래에 자세히 설명된 단계를 따르십시오. [지원 티켓 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket).
+>새 티켓을 제출하려면 [Adobe Commerce 도움말 센터](https://support.magento.com/)에 로그인하고 [지원 티켓 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)에 설명된 단계를 따르십시오.
 >
->티켓을 제출하는 옵션이 표시되지 않으면 다음을 참조하십시오. *[티켓 제출 링크가 표시되지 않음](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)* 의 섹션 [도움말 센터 사용 안내서](/help/help-center-guide/help-center/magento-help-center-user-guide.md).
+>티켓을 제출하는 옵션이 표시되지 않으면 [도움말 센터 사용 안내서](/help/help-center-guide/help-center/magento-help-center-user-guide.md)의 *[표시되지 않은 티켓 링크 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)* 섹션을 참조하십시오.
 
 ## 새로운 기능
 
@@ -45,14 +45,14 @@ ht-degree: 1%
 
 <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-update-the-cloud-account-profile">클라우드 계정 프로필을 업데이트하는 방법:</a> 이 문서에서는 Cloud 계정에서 프로필을 수정하는 방법에 대한 단계를 제공합니다.
+    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-update-the-cloud-account-profile">클라우드 계정 프로필을 업데이트하는 방법:</a> 이 문서에서는 클라우드 계정에서 프로필을 수정하는 방법에 대한 단계를 제공합니다.
     </td>
     <td>새 문서</td>
     <td>2024년 4월 22일</td>
   </tr>
 
 <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/admin-create-order-page-in-csp-restricted-mode">CSP 제한 모드에서 주문 만들기 페이지 문제 해결:</a> 이 문서에서는 CSP 제한 모드가 인 경우 관리자 측에서 주문을 만드는 동안 발생하는 Adobe Commerce 2.4.7 문제에 대한 설명 및 수정 사항을 제공합니다 <em>활성화됨</em>.  
+    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/admin-create-order-page-in-csp-restricted-mode">CSP 제한 모드에서 주문 만들기 페이지 문제 해결:</a> 이 문서에서는 CSP 제한 모드가 <em>사용</em>일 때 관리자 측에서 주문을 만드는 동안 Adobe Commerce 2.4.7 문제에 대한 설명과 수정 사항을 제공합니다.  
     </td>
     <td>새 문서</td>
     <td>2024년 4월 22일</td>
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/storefront-checkout-page-in-csp-restricted-mode">CSP 제한 모드에서 storefront 체크아웃 페이지 문제 해결:</a> 이 문서에서는 CSP 제한 모드에서 체크아웃 페이지를 보는 동안 Adobe Commerce 2.4.7 문제에 대한 설명 및 수정 사항을 제공합니다. <em>"다음 콘텐츠 보안 정책 지시문 "script-src ..."를 위반하므로 인라인 스크립트 실행을 거부했습니다."</em> 브라우저 콘솔 로그에 오류 메시지가 표시됩니다. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/storefront-checkout-page-in-csp-restricted-mode">CSP 제한 모드에서 Storefront 체크아웃 페이지 문제 해결:</a> 이 문서에서는 CSP 제한 모드에서 체크아웃 페이지를 보는 동안 Adobe Commerce 2.4.7 문제에 대한 설명 및 수정 사항을 제공합니다. <em>"Rejected to execute inline script because because this will will will to execute inline script because the following Content Security Policy directive: "script-src ..."</em> error message in the browser console log. 
     </td>
     <td>새 문서 </td>
     <td>2024년 4월 22일</td>
@@ -68,7 +68,7 @@ ht-degree: 1%
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-46/acsd-54656-invisible-recaptcha-fails-during-checkout-preventing-order-placement">ACSD-54656: 체크아웃 중에 보이지 않는 reCAPTCHA가 작동하지 않아 주문 배치가 금지됨:</a> ACSD-54656 패치는 체크아웃 중에 보이지 않는 reCAPTCHA가 제대로 작동하지 않아 주문이 들어가지 않는 문제를 해결합니다. 이 패치는 다음 경우에 사용할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.46이 설치되었습니다. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-46/acsd-54656-invisible-recaptcha-fails-during-checkout-preventing-order-placement">ACSD-54656: 체크 아웃 중에 보이지 않는 reCAPTCHA가 작동하지 않아 주문 배치 방지:</a> ACSD-54656 패치는 체크 아웃 중에 보이지 않는 reCAPTCHA가 제대로 작동하지 않아 주문 배치가 되지 않는 문제를 해결합니다. 이 패치는 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.46이 설치된 경우에 사용할 수 있습니다. 
     </td>
     <td>새 문서 </td>
     <td>2024년 4월 22일</td>
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-46/acsd-46767-category-page-caches-invalidate-when-the-stock-quantity-changes">ACSD-46767: 재고 수량이 변경되면 범주 페이지가 무효화됩니다.</a> ACSD-46767 패치는 제품이 아직 재고가 있는 경우에도 재고 수량이 변경되면 카테고리 페이지가 캐시되는 문제가 해결됩니다. 이 패치는 다음 경우에 사용할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.46이 설치되었습니다.  
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-46/acsd-46767-category-page-caches-invalidate-when-the-stock-quantity-changes">ACSD-46767: 재고 수량이 변경되면 범주 페이지가 캐시됩니다.</a> ACSD-46767 패치는 제품이 아직 재고가 있는 경우에도 재고 수량이 변경되면 범주 페이지가 캐시되는 문제를 해결합니다. 이 패치는 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.46이 설치된 경우에 사용할 수 있습니다.  
     </td>
     <td>새 문서 </td>
     <td>2024년 4월 22일</td>
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-45/acsd-56415-performance-of-partial-price-indexing-is-slowed-down-due-to-a-delete-query">ACSD-56415: DELETE 쿼리로 인해 부분 가격 색인화의 성능이 느려집니다.</a> ACSD-56415 패치는 데이터베이스에 부분 가격 데이터 색인이 많을 때 DELETE 쿼리로 인해 부분 가격 색인화의 성능이 느려지는 문제를 해결합니다. 이 패치는 다음 경우에 사용할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.45가 설치되어 있습니다.  
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-45/acsd-56415-performance-of-partial-price-indexing-is-slowed-down-due-to-a-delete-query">ACSD-56415: DELETE 쿼리로 인해 부분 가격 인덱싱의 성능이 느려집니다.</a> 데이터베이스에 부분 가격 데이터 인덱스가 많이 있을 때 DELETE 쿼리로 인해 부분 가격 인덱싱의 성능이 느려지는 문제를 ACSD-56415 패치가 해결합니다. 이 패치는 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.45가 설치되어 있을 때 사용할 수 있습니다.  
     </td>
     <td>새 문서 </td>
     <td>2024년 4월 22일</td>
@@ -92,7 +92,7 @@ ht-degree: 1%
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-47/acsd-56858-role-permissions-display-issue-in-b2b-company-admin-panel">ACSD-56858: B2B 회사 관리자의 역할 권한 불일치:</a> ACSD-56858 패치는 B2B 환경에서 제한된 회사 관리자에 대한 역할 권한이 잘못 표시되는 문제를 해결합니다. 이 패치는 다음 경우에 사용할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.47이 설치되었습니다. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-47/acsd-56858-role-permissions-display-issue-in-b2b-company-admin-panel">ACSD-56858: B2B 회사 관리자의 역할 권한 불일치:</a> ACSD-56858 패치는 B2B 환경에서 제한된 회사 관리자에 대해 역할 권한이 잘못 표시되는 문제를 해결합니다. 이 패치는 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html">[!DNL Quality Patches Tool (QPT)]</a> 1.1.47이 설치된 경우에 사용할 수 있습니다. 
     </td>
     <td>새 문서 </td>
     <td>2024년 4월 22일</td>

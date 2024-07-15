@@ -23,7 +23,7 @@ ht-degree: 0%
 
 이 문제의 일반적인 원인은 다음과 같습니다.
 
-* 의 PHP 설정 [`max_execution_time`](http://php.net/manual/en/info.configuration.php#ini.max-execution-time)
+* [`max_execution_time`](http://php.net/manual/en/info.configuration.php#ini.max-execution-time)에 대한 PHP 설정
 * nginx 및 Varnish에 대한 시간 제한 값
 
 ## 해결 방법:
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 ### 모든 웹 서버 및 Vannish {#all-web-servers-and-varnish}
 
-1. 다음 위치 찾기 `php.ini` 사용 [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) 파일.
-1. 을 사용하는 사용자로서 `root` 권한, 열기 `php.ini` 텍스트 편집기에서.
-1. 를 찾습니다. `max_execution_time` 설정.
-1. 값을 다음으로 변경 `18000` .
-1. 변경 내용 저장 `php.ini` 텍스트 편집기를 종료합니다.
+1. [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) 파일을 사용하여 `php.ini`을(를) 찾습니다.
+1. `root` 권한이 있는 사용자는 텍스트 편집기에서 `php.ini`을(를) 엽니다.
+1. `max_execution_time` 설정을 찾습니다.
+1. 값을 `18000`(으)로 변경합니다.
+1. 변경 내용을 `php.ini`에 저장하고 텍스트 편집기를 종료합니다.
 1. Apache 다시 시작:
 
    * CentOS: `service httpd restart`
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ### nginx만 {#nginx-only}
 
-nginx를 사용하는 경우 포함된 `nginx.conf.sample` 또는 nginx 호스트 구성 파일의 시간 제한 설정을 `location ~ ^/setup/index.php` 다음과 같은 섹션:
+nginx를 사용하는 경우 다음과 같이 포함된 `nginx.conf.sample`을(를) 사용하거나 nginx 호스트 구성 파일의 시간 제한 설정을 `location ~ ^/setup/index.php` 섹션에 추가하십시오.
 
 ```php
 location ~ ^/setup/index.php {
@@ -60,7 +60,7 @@ nginx 다시 시작: `service nginx restart`
 
 ### 니스만 {#varnish-only}
 
-바니시를 사용하는 경우 다음을 편집합니다. `default.vcl` 시간 제한 값을 `backend` stanza는 다음과 같습니다.
+Vannish를 사용하는 경우 `default.vcl`을(를) 편집하고 다음과 같이 `backend` 스타자에 시간 제한 값을 추가하십시오.
 
 ```php
 backend default {

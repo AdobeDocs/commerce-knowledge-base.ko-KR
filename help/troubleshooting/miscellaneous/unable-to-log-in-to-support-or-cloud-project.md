@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ## 영향을 받는 제품 및 버전
 
-Adobe Commerce(모든 배포 메서드) 모두 [지원되는 버전](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce(모든 배포 메서드) 모든 [지원되는 버전](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## 문제
 
-다음으로 이동 시 [https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/) 또는 [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user) 이제 통합 로그인 양식이 있으며 이전처럼 자격 증명을 더 이상 입력할 수 없습니다.
+[https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/) 또는 [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user)(으)로 이동하면 이제 통합 로그인 양식이 있으며 이전처럼 자격 증명을 더 이상 입력할 수 없습니다.
 
 <u>재현 단계</u>:
 
@@ -51,7 +51,7 @@ Adobe Commerce을 다른 Adobe 솔루션과 통합하는 프로세스의 일부�
 - 기존 Adobe 기업/개인 계정.
 - Adobe 계정이 없는 경우 동일한 이메일 주소로 계정을 만드십시오.
 
-단계는 를 참조하십시오. [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html) Adobe Experience League.
+단계는 Adobe Experience League의 [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html)을(를) 참조하십시오.
 
 ## 관련 읽기
 

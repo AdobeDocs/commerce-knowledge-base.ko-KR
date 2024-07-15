@@ -25,19 +25,21 @@ ht-degree: 0%
 
 이러한 필드를 수정하려면 다음 단계를 수행합니다.
 
-1. 다음 위치에서 계정에 액세스 [Adobe 계정 로그인](https://accounts.magento.cloud).
-1. 을(를) 클릭합니다 **[!UICONTROL Account Settings]** 탭.
-1. 다음 항목 선택 *새 암호 만들기* 확인란.
-1. 필요한 사항을 변경한 다음 를 클릭합니다. *저장*.
+1. [Adobe 계정 로그인](https://accounts.magento.cloud)에서 계정에 액세스하세요.
+1. **[!UICONTROL Account Settings]** 탭을 클릭합니다.
+1. *새 암호 만들기* 확인란을 선택하십시오.
+1. 필요한 사항을 변경하고 *저장*&#x200B;을 클릭합니다.
 
-**참고**: *암호는 변경되지 않습니다.*
+**참고**: *암호가 변경되지 않습니다.*
 
 ## 수정할 수 없는 사항
 
-1. **[!UICONTROL Password]**: 암호를 변경하려면 다음을 방문하십시오. [Adobe 암호 재설정](https://account.adobe.com/): 이 프로필이 계정/이메일 주소에 연결되어 있습니다.
+1. **[!UICONTROL Password]**:
+암호를 변경하려면 [Adobe 암호 재설정](https://account.adobe.com/)을 방문하세요. 이 프로필은 계정/전자 메일 주소에 연결되어 있습니다.
 
-1. **[!UICONTROL Email Address]**: 이 필드를 수정하는 것은 개별 상황에 따라 다릅니다.
+1. **[!UICONTROL Email Address]**:
+이 필드를 수정하는 것은 개인의 상황에 따라 다릅니다.
 
 현재 계정의 소유권을 새 소유자 또는 다른 이메일 주소로 전송해야 하는 경우 계정과 연결된 기본 사용자 이메일을 업데이트해야 합니다.
 
-다음을 참조하십시오. [https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en)
+다음을 참조하세요. [https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en)

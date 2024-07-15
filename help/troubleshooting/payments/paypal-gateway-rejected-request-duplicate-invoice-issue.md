@@ -53,17 +53,17 @@ PayPal은 결제를 처리하고 주문을 완료할 수 없습니다.
 
 송장 ID당 복수 지급을 허용하도록 PayPal 프로필을 변경합니다. 이러한 변경은 PayPal을 통해 수행해야 합니다.
 
-1. 다음 위치에서 계정에 로그인합니다. [https://www.paypal.com](https://www.paypal.com/).
-1. 클릭 **프로필** > **프로필 및 설정** (오른쪽 상단)
-1. 다음으로 이동 **내 판매 도구**.
-1. 다음으로 이동 **지불 및 위험 관리** > **결제 차단** 및 클릭 **업데이트**.
-1. **판매 환경 설정**, 클릭 **지급 입고 환경설정**.
-1. 아래 **우발적 결제 차단**, 선택 **아니요, 송장 ID당 복수 지급을 허용합니다.**.    ![paypal_allow_multiple_payments_per_invoice_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)
-1. 아래로 스크롤하고 를 클릭합니다. **저장**.
+1. [https://www.paypal.com](https://www.paypal.com/)에서 계정에 로그인합니다.
+1. **프로필** > **프로필 및 설정**(오른쪽 상단)을 클릭합니다.
+1. **내 판매 도구**(으)로 이동합니다.
+1. **결제 및 내 위험 관리** > **결제 차단**(으)로 이동한 다음 **업데이트**&#x200B;를 클릭합니다.
+1. **판매 환경 설정**&#x200B;에서 **결제 수신 환경 설정**&#x200B;을 클릭하세요.
+1. **실수로 인한 결제 차단**&#x200B;에서 **아니요, 송장 ID당 여러 번 결제 허용**&#x200B;을 선택하세요.    ![paypal_allow_multiple_payments_per_invoice_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)
+1. 맨 아래로 스크롤하여 **저장**&#x200B;을 클릭합니다.
 
 ## 추가 정보
 
-* [우발적 결제 차단](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments) PayPal 개발자 문서에서
+* PayPal 개발자 문서에서 [실수로 인한 결제 차단](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments).
 * 사용 안내서의 PayPal 결제:
    * [PayPal Express 체크아웃](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html)
    * [기타 PayPal 솔루션](/docs/commerce-admin/stores-sales/payments/paypal/paypal.html)

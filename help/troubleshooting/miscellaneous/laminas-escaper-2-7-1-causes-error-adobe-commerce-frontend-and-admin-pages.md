@@ -33,7 +33,7 @@ Laminas/laminas-escaper를 2.7.1로 업데이트합니다.
 
 <u>실제 결과</u>:
 
-Laminas/laminas-escaper:2.7.1로 업데이트하면 제품 편집(또는 제품 관리) 페이지에 오류 메시지가 표시됩니다. *TypeError: rawurlencode()에서는 매개 변수 1이 문자열, int가 /var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php:246에 제공되어야 합니다.*
+Laminas/laminas-escaper:2.7.1로 업데이트하면 제품 편집(또는 제품 관리) 페이지에 오류 메시지가 표시됩니다. *TypeError: rawurlencode() 매개 변수 1은 문자열, int가 /var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php:246*에 제공됩니다.
 이 오류는 프론트엔드 및 관리 페이지에서 발생하여 페이지 콘텐츠가 왜곡됩니다.
 
 ## 원인
@@ -42,8 +42,8 @@ laminas/laminas-escaper 2.7.1은 Escaper 클래스에 대해 엄격한 유형 �
 
 ## 솔루션
 
-실행 `composer require laminas/laminas-escaper:2.7.0` (각 프로젝트의 루트 디렉터리)
+각 프로젝트의 루트 디렉터리에서 `composer require laminas/laminas-escaper:2.7.0` 실행
 
 ## 관련 읽기
 
-laminas 설명서: [라미나스 이스케이프기](https://docs.laminas.dev/laminas-escaper/)
+laminas 설명서: [laminas-escaper](https://docs.laminas.dev/laminas-escaper/)

@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Commerce 관리에서 디자인 구성 사용자 지정
 
-Commerce 관리자의 디자인 구성 사용자 정의에 대한 최신 정보는 를 참조하십시오. [Adobe Commerce 관리 디자인 사용자 지정](https://devdocs.magento.com/guides/v2.4/howdoi/admin/customize_admin.html) 개발자 설명서에서 확인할 수 있습니다.
+Commerce 관리자의 디자인 구성 사용자 지정에 대한 최신 정보는 개발자 설명서에서 [Adobe Commerce 관리 디자인 사용자 지정](https://devdocs.magento.com/guides/v2.4/howdoi/admin/customize_admin.html)을 참조하십시오.

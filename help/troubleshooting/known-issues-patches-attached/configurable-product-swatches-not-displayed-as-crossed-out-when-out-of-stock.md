@@ -54,6 +54,6 @@ ht-degree: 0%
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 설명서를 참조하십시오.
+지침은 [Adobe Commerce에서 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

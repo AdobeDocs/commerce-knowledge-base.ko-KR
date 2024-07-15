@@ -21,22 +21,22 @@ ht-degree: 0%
 
 ## 문제
 
-구성 파일 `config.php` 및/또는 `env.php` 이(가) 잘못 변경되었거나 누락되었습니다.
+구성 파일 `config.php` 및/또는 `env.php`이(가) 잘못 변경되었거나 없습니다.
 
 ## 솔루션
 
 배포 프로세스는 각 구성 파일에 대한 백업 파일을 작성합니다.
 
-* `app/etc/config.php.bak` — 시스템별 설정을 포함하며, 시스템 관련 설정이 없는 경우 빌드하는 동안 자동으로 생성됩니다.
+* `app/etc/config.php.bak` — 시스템별 설정이 포함되어 있으며, 없는 경우 빌드하는 동안 자동으로 생성됩니다.
 * `app/etc/env.php.bak` — 중요한 구성 데이터를 포함합니다.
 
-ECE 도구를 사용하여 복원할 수 있습니다 `backup:restore` 명령입니다.
+ECE-tools `backup:restore` 명령을 사용하여 복원할 수 있습니다.
 
 BAK 파일은 배포 프로세스의 결과입니다. 배포 후 구성 파일을 수동으로 변경하는 경우 변경 사항이 기존 BAK 파일에 반영되지 않습니다.
 
 구성 파일을 복원하려면 다음을 수행하십시오.
 
-1. 를 사용하여 원격 저장소에 로그인합니다. [SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
+1. [SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)을(를) 사용하여 원격 저장소에 로그인합니다.
 1. 사용 가능한 백업 파일을 나열합니다.
 
    ```
@@ -62,7 +62,7 @@ BAK 파일은 배포 프로세스의 결과입니다. 배포 후 구성 파일�
    app/etc/config.php file exists! If you want to rewrite existed files use --force
    ```
 
-1. 사용 `--force` 모든 파일을 덮어쓰는 옵션입니다.
+1. `--force` 옵션을 사용하여 모든 파일을 덮어씁니다.
 
    ```
    ./vendor/bin/ece-tools backup:restore --force

@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Adobe Commerce의 Apache log4j2 취약성
 
-다음을 참조하십시오. [Adobe Commerce의 Apache Log4j2 취약성](https://community.magento.com/t5/Magento-DevBlog/Apache-Log4j2-Vulnerability-in-Adobe-Commerce/ba-p/488683) Apache log4j 라이브러리 취약성과 관련된 최신 Adobe Commerce 커뮤니케이션에 대한 DevBlog 게시물입니다.
+Apache log4j 라이브러리 취약성과 관련된 최신 Adobe Commerce Adobe Commerce 통신은 [Apache Log4j2 취약성](https://community.magento.com/t5/Magento-DevBlog/Apache-Log4j2-Vulnerability-in-Adobe-Commerce/ba-p/488683) DevBlog 게시물을 참조하십시오.

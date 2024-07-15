@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: 컴파일을 시작하기 전에 Webpack이 중단됨
 
-이 문서에서는 Javascript 발생 시 제안된 해결 방법에 대해 설명합니다 [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) 프로그레시브 웹 앱 스튜디오(PWA Studio)에서 컴파일을 시작하기 전에 잠시 중단됩니다.
+이 문서에서는 Progressive Web App Studio(PWA Studio)에서 컴파일을 시작하기 전에 Javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)이 오랫동안 중단되는 경우에 대한 제안 해결 방법에 대해 설명합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 ## 문제
 
-[pwa-buildpack의 최신 릴리스가 무엇인지 확인합니다.](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack)및
+[pwa-buildpack의 최신 릴리스 확인](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack) 및
 
 ```yaml
 pwa-buildpack
 ```
 
-버전 번호는 다음 옆에 있습니다. `package.json` 파일 이름 목록입니다. 이전 버전의 가 있는 경우
+버전 번호는 `package.json` 파일 이름 목록 옆에 있습니다. 이전 버전의 가 있는 경우
 
 ```yaml
 pwa-buildpack
@@ -37,7 +37,7 @@ pwa-buildpack
 
 <u>재현 단계</u>:
 
-<u>전제 조건</u>: 로컬 Adobe Commerce 인스턴스로 Venia와 같은 PWA Studio 스토어를 설정하고
+<u>필수 구성 요소</u>: 로컬 Adobe Commerce 인스턴스로 Venia와 같은 PWA Studio 상점(storefront)을 설정하고
 
 ```yaml
 build
@@ -88,7 +88,7 @@ openssl version
 
 버전은 1.0 이상이어야 합니다(OSX High Sierra의 경우 LibreSSL 2).
 
-을 사용하여 상위 버전의 OpenSSL을 설치할 수 있습니다. [홈브루](https://brew.sh/) OSX에서, [쇼콜라티](https://chocolatey.org/) Windows 또는 Linux 배포판의 패키지 관리자
+OSX의 경우 [Homebrew](https://brew.sh/), Windows의 경우 [Chocolatey](https://chocolatey.org/) 또는 Linux 배포판의 패키지 관리자로 더 높은 버전의 OpenSSL을 설치할 수 있습니다.
 
 ## 관련 읽기
 

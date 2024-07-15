@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 클라우드 인프라의 Adobe Commerce v2.3.5 GraphQL 캐싱 무효화가 작동하지 않음
 
-이 문서에서는 GraphQL에 문제가 있는 경우 패치를 제공합니다 `GET` 고객이 제품 정보를 변경하는 경우 요청이 오래된 정보를 반환합니다.
+이 문서에서는 고객이 제품 정보를 변경할 경우 GraphQL `GET` 요청이 오래된 정보를 반환하는 문제에 대한 패치를 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -33,11 +33,11 @@ GraphQL 요청은 Fastly에 의해 캐시되며, 캐시된 버전은 Fastly의 �
 
 <u>예상 결과</u>:
 
-다음 `X-Cache` 헤더 포함 항목 `MISS`.
+`X-Cache` 헤더에 `MISS`이(가) 포함되어 있습니다.
 
 <u>실제 결과</u>:
 
-다음 `X-Cache` 헤더 포함 항목 `HIT`: 응답이 캐시됨을 의미합니다.
+`X-Cache` 헤더에 `HIT`이(가) 있습니다. 즉, 응답이 캐시됩니다.
 
 ## 솔루션
 
@@ -73,6 +73,6 @@ GraphQL 요청은 Fastly에 의해 캐시되며, 캐시된 버전은 Fastly의 �
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 작성기 패치 적용 방법에 대한 지침을 참조하십시오.
+작성기 패치 적용 방법에 대한 지침은 [Adobe에서 제공하는 작성기 패치 적용 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

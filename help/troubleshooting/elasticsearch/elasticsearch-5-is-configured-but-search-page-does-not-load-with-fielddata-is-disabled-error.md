@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 원인
 
-기본적으로 레이어 탐색에는 특정 유형의 제품 속성만 사용할 수 있습니다. 예/아니요, 드롭다운, 다중 선택 및 가격입니다. 따라서 Commerce 관리에서 다른 유형의 속성을 로 설정할 수 없습니다. **레이어 탐색에서 사용** = *필터링 가능* 또는 **검색 결과 레이어 탐색에 사용** = *예*. 그러나 을(를) 직접 변경하여 이 제한을 극복할 수 있는 기술적인 가능성이 있습니다. `is_filterable` 및 `is_filterable_in_search` 데이터베이스의 값입니다. 이 경우 날짜, 텍스트 등과 같은 다른 속성 유형이 레이어 탐색에서 사용되도록 설정되면 Elasticsearch 5에서 예외가 발생합니다.
+기본적으로 레이어 탐색에는 특정 유형의 제품 속성만 사용할 수 있습니다. 예/아니요, 드롭다운, 다중 선택 및 가격입니다. 따라서 Commerce 관리에서는 다른 유형의 특성을 **계층화된 탐색에서 사용** = *필터링 가능한* 또는 **검색 결과에서 사용** = *예*(으)로 설정할 수 없습니다. 그러나 데이터베이스에서 `is_filterable` 및 `is_filterable_in_search` 값을 직접 변경하여 이 제한을 극복할 수 있는 기술적인 가능성이 있습니다. 이 경우 날짜, 텍스트 등과 같은 다른 속성 유형이 레이어 탐색에서 사용되도록 설정되면 Elasticsearch 5에서 예외가 발생합니다.
 
 이 경우 Dropdown, Multiselect 및 Price 이외의 다른 속성 중 레이어 탐색에서 사용하도록 설정된 속성이 있는지 확인해야 합니다. 다음 쿼리를 실행하여 이러한 속성을 검색합니다.
 
@@ -53,10 +53,10 @@ SELECT ea.attribute_code, ea.frontend_input, cea.is_filterable, cea.is_filterabl
 
 ## 솔루션
 
-문제를 해결하려면 다음을 설정해야 합니다. `is_filterable` (즉, 레이어 탐색에 사용됨) 및 `filterable_in_search` (즉, 검색 결과의 레이어 탐색에 사용됨)에서 &quot;0&quot;(사용되지 않음)으로 변환해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
+이 문제를 해결하려면 `is_filterable`(즉, 계층 탐색에서 사용됨)과 `filterable_in_search`(즉, 검색 결과 계층 탐색에서 사용됨)을(를) &quot;0&quot;(사용되지 않음)으로 설정해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
 1. 데이터베이스 백업을 만듭니다.
-1. 다음과 같은 데이터베이스 도구 사용 [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)또는 명령줄에서 수동으로 DB에 액세스하여 다음 SQL 쿼리를 실행합니다.
+1. [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다.
 
    ```sql
    UPDATE catalog_eav_attribute AS cea
@@ -79,6 +79,6 @@ SELECT ea.attribute_code, ea.frontend_input, cea.is_filterable, cea.is_filterabl
    bin/magento cache:clean
    ```
 
-또는 아래의 Commerce 관리자 **시스템** > **도구** > **캐시 관리**.
+또는 **시스템** > **도구** > **캐시 관리**&#x200B;의 Commerce 관리에서 사용할 수 있습니다.
 
 이제 문제 없이 카탈로그 검색을 수행할 수 있습니다.

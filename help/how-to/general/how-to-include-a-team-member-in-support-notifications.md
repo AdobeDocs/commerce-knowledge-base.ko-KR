@@ -17,28 +17,28 @@ ht-degree: 0%
 
 ## 영향을 받는 제품 및 버전
 
-* 클라우드 인프라의 Adobe Commerce, 모두 [지원되는 버전](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
+* 클라우드 인프라의 Adobe Commerce, 모든 [지원되는 버전](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
 
 ## 원인
 
-* 팀원이 다음에 추가되지 않았습니다. [!DNL cloud project] 필요한 권한과 함께.
+* 팀원이 필요한 권한을 가진 [!DNL cloud project]에 추가되지 않았습니다.
 * 팀원에게 지원 계정이 없습니다.
 
 ## 솔루션
 
-1. 로 이동 **[!DNL Cloud Project URL]** (예: `https://us-3.magento.cloud/projects/xxxxxx/edit`).
-1. 팀원이 프로젝트에 추가되었고 이(가) [!DNL Super User].
+1. **[!DNL Cloud Project URL]**(예: `https://us-3.magento.cloud/projects/xxxxxx/edit`)로 이동합니다.
+1. 팀 구성원이 프로젝트에 추가되었으며 [!DNL Super User]인지 확인하십시오.
 
-필요하지 않은 경우 [!DNL cloud project] 액세스, 제출 [Adobe Commerce 지원 센터의 지원 요청](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) 자동으로 참조: 모든 티켓에서 참조하며 **[!DNL MAGE ID]** (가능한 경우).
+[!DNL cloud project] 액세스가 필요하지 않은 경우 Adobe Commerce 지원 센터에서 [지원 요청을 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)하여 모든 티켓에서 자동으로 참조하고 **[!DNL MAGE ID]**&#x200B;을(를) 제공합니다(가능한 경우).
 
-프로젝트에 추가되지 않은 경우 (으)로 추가해야 합니다. [!DNL Super User] 및 부여 [!DNL Shared Access]:
+프로젝트에 추가되지 않은 경우 [!DNL Super User](으)로 추가하고 [!DNL Shared Access]을(를) 부여해야 합니다.
 
-* [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 사용 안내서에서 참조하십시오.
-* [Adobe Commerce 클라우드 프로젝트에 사용자를 추가할 수 없음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html) Commerce 기술 자료.
-* [Adobe Commerce 도움말 센터 사용 안내서: 공유 액세스](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access) Commerce 기술 자료.
+* 사용 안내서에서 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
+* [Adobe Commerce 기술 자료에서 사용자를 Commerce 클라우드 프로젝트에 추가할 수 없습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html).
+* [Adobe Commerce 도움말 센터 사용 안내서: Commerce 기술 자료에서 액세스 공유](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access).
 
-항목이 다음에 추가된 경우 [!DNL cloud project], 하지만 은(는) [!DNL Super User role], 업데이트 [!DNL role] 이에 따라 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
+[!DNL cloud project]에 추가되었지만 [!DNL Super User role]이(가) 없는 경우 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)에서 해당 [!DNL role]을(를) 업데이트합니다.
 
 ## 관련 읽기
 
-[이전 팀원이 Adobe Commerce 클라우드 알림 이메일을 받습니다.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+[이전 팀원이 Adobe Commerce 클라우드 알림 이메일을 받습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)

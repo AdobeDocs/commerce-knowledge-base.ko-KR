@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ## P1 인시던트 정의
 
-에 정의된대로 [Adobe Commerce 지원 서비스 약관](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf): &quot;P1 사고는 고객 사이트에 심각한 영향을 미치는 서비스 내의 심각한 프로덕션 인시던트로, 사이트 운영 중단 또는 주문 수령 중단의 원인이 되거나 고객 사이트가 완전히 다운되었거나 작동하지 않아 프로덕션 데이터가 손실되고 해결 방법이 없습니다. 신속한 해결을 위해서는 Adobe의 수신자 부담 P1 전화번호에 P1 인시던트를 보고해야 합니다. Adobe은 고위 경영진에게 적절한 에스컬레이션을 제공하여 상업적으로 합당한 대로 P1 사고에 대한 해결책을 제공하기 위해 지속적인 노력을 기울일 것입니다.&quot;
+[Adobe Commerce 지원 서비스 약관](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf)에 정의된 대로: &quot;P1 인시던트는 고객 사이트에 심각한 영향을 미치는 서비스 내 치명적인 프로덕션 인시던트로, 사이트 운영 중단 또는 주문 수령 중단, 고객 사이트 가동 중단 또는 기능 미가동, 프로덕션 데이터 손실 및 해결 방법이 존재하지 않습니다. 신속한 해결을 위해서는 Adobe의 수신자 부담 P1 전화번호에 P1 인시던트를 보고해야 합니다. Adobe은 고위 경영진에게 적절한 에스컬레이션을 제공하여 상업적으로 합당한 대로 P1 사고에 대한 해결책을 제공하기 위해 지속적인 노력을 기울일 것입니다.&quot;
 
 ## P1 알림 핫라인 전화 정책
 
 * P1 알림 핫라인은 P1 수준 문제를 보고할 수 있습니다. (이전 섹션에서 P1 인시던트 정의 참조).
-* [지원 티켓 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) Adobe Commerce P1 알림 핫라인으로 전화하기 전.
+* Adobe Commerce P1 알림 핫라인으로 전화하기 전에 [지원 티켓을 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket).
 * 조사, 문제 해결 및 커뮤니케이션은 지원 티켓 내에서만 이루어집니다.
 * 문의 전화 전에 티켓에 문제와 관련된 모든 추가 정보를 직접 추가합니다.
 * 전화하실 때는 티켓 번호를 꼭 지참하세요.

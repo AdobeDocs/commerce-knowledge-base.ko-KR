@@ -22,22 +22,22 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->핵심 Adobe Commerce Cybersource 결제 통합은 2.3.3부터 더 이상 사용되지 않으며 2.4.0에서 완전히 제거됩니다. 사용 [공식 연장](https://marketplace.magento.com/cybersource-global-payment-management.html) marketplace에서 가져옵니다.
+>핵심 Adobe Commerce Cybersource 결제 통합은 2.3.3부터 더 이상 사용되지 않으며 2.4.0에서 완전히 제거됩니다. 대신 마켓플레이스에서 [공식 확장](https://marketplace.magento.com/cybersource-global-payment-management.html)을 사용하십시오.
 
 ## 문제
 
-<u>전제 조건</u>: Commerce 관리에서 PayPal 및 Cybersource 결제 방법을 활성화하고 구성하고 스토어에 대해 다중 배송을 활성화합니다.
+<u>사전 요구 사항</u>: Commerce 관리에서 PayPal 및 Cybersource 결제 방법을 사용 및 구성하고 스토어에 대해 다중 배송을 사용하도록 설정하십시오.
 
 <u>재현 단계</u>:
 
 1. 상점 첫 화면에서 장바구니에 여러 제품을 추가합니다.
 1. 장바구니 페이지로 이동합니다.
-1. 클릭 **여러 주소로 체크아웃**.
+1. **여러 주소로 체크 아웃**&#x200B;을 클릭합니다.
 1. 로그인하거나 계정을 만듭니다.
 1. 복수 주소로 출하 페이지의 주소 간에 제품을 분할합니다.
-1. 클릭 **배송 정보로 이동**.
+1. **배송 정보로 이동**&#x200B;을 클릭합니다.
 1. 각 선적에 대해 운송 방법을 선택합니다.
-1. 클릭 **청구 정보로 계속**.
+1. **결제 정보 계속**&#x200B;을 클릭합니다.
 
 <u>예상 결과</u>: PayPal 및 Cybersource를 결제 옵션으로 사용할 수 있습니다.
 

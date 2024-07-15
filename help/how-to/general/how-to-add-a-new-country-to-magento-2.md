@@ -14,7 +14,7 @@ ht-degree: 0%
 
 이 문서에서는 Adobe Commerce 및 Zend 로케일 라이브러리에 없는 국가를 추가하는 방법에 대해 설명합니다. 이를 위해서는 적용 가능한 계약 조건에 따라 고객 맞춤화를 구성하는 코드 및 데이터베이스 변경 사항이 필요합니다. 이 문서에 포함된 예제 자료는 어떠한 종류의 보증도 없이 &quot;있는 그대로&quot; 제공됩니다. Adobe 및 관련 업체는 이러한 자료를 유지, 수정, 업데이트, 변경, 수정 또는 지원할 의무가 없습니다. 여기에서 우리는 이것을 달성하기 위해 무엇이 행해져야 하는지에 대한 기본 원칙을 기술할 것이다.
 
-이 예제에서는 Adobe Commerce 설치 또는 업그레이드 프로세스 시 적용되는 데이터 패치를 사용하여 새 Adobe Commerce 모듈을 만들고 국가 코드가 XX인 Abstract Country를 Adobe Commerce에 추가합니다. 다음 [Adobe Commerce 디렉토리](https://developer.adobe.com/commerce/php/module-reference/module-directory/) 초기 국가 목록을 작성한 다음 설정 패치를 사용하여 해당 목록에 영역을 추가합니다. 이 문서에서는 새 국가를 목록에 추가할 새 모듈을 만드는 방법을 설명합니다. 기존 Adobe Commerce 디렉토리 모듈의 코드를 참조하여 검토할 수 있습니다. 이는 다음 예제 모듈이 국가 및 지역 목록을 작성하는 디렉토리 모듈 작업을 계속하고 Adobe Commerce 디렉토리 모듈 설치 패치 코드의 일부를 재사용하기 때문입니다.
+이 예제에서는 Adobe Commerce 설치 또는 업그레이드 프로세스 시 적용되는 데이터 패치를 사용하여 새 Adobe Commerce 모듈을 만들고 국가 코드가 XX인 Abstract Country를 Adobe Commerce에 추가합니다. [Adobe Commerce 디렉터리](https://developer.adobe.com/commerce/php/module-reference/module-directory/)에서 초기 국가 목록을 만든 다음 설치 패치를 사용하여 해당 목록에 영역을 추가합니다. 이 문서에서는 새 국가를 목록에 추가할 새 모듈을 만드는 방법을 설명합니다. 기존 Adobe Commerce 디렉토리 모듈의 코드를 참조하여 검토할 수 있습니다. 이는 다음 예제 모듈이 국가 및 지역 목록을 작성하는 디렉토리 모듈 작업을 계속하고 Adobe Commerce 디렉토리 모듈 설치 패치 코드의 일부를 재사용하기 때문입니다.
 
 ## 권장 설명서
 
@@ -35,20 +35,34 @@ ht-degree: 0%
 
 이 예제에서는 다음 디렉터리 구조로 \`ExtraCountries\`라는 새 모듈을 만듭니다.
 
-(모듈 구조에 대한 자세한 내용은 [모듈 개요](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html) 개발자 설명서 참조).
+모듈 구조에 대한 자세한 내용은 개발자 설명서에서 [모듈 개요](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)를 참조하십시오.
 
 <pre><ExtraCountries>
  |
  <etc>
- | | | config.xml | di.xml | module.xml |
+ | |
+ | config.xml
+ | di.xml
+ | module.xml
+ |
  <Plugin>
- | | | <Framework>
- | | |   <Locale>
- | | | TranslatedListsPlugin.php |
+ | |
+ | <Framework>
+ |   |
+ |   <Locale>
+ |     |
+ |     TranslatedListsPlugin.php
+ |
  <Setup>
- | | | <Patch>
- | | |   <Data>
- | | | AddDataForAbstractCountry.php | composer.json registration.php</pre>
+ | |
+ | <Patch>
+ |   |
+ |   <Data>
+ |     |
+ |     AddDataForAbstractCountry.php
+ |
+ composer.json
+ registration.php</pre>
 
 >[!NOTE]
 >
@@ -58,9 +72,9 @@ ht-degree: 0%
 
 이 XML 파일에 새 모듈 구성이 정의되어 있습니다. 새 국가 기본 설정을 조정하기 위해 다음 구성 및 태그를 편집할 수 있습니다.
 
-* `allow` - 기본적으로 새로 추가된 국가를 &quot;허용 국가&quot; 목록에 추가하려면 새 국가 코드를 의 끝에 추가합니다. `allow` 태그 콘텐츠. 국가 코드는 쉼표로 구분됩니다. 이 태그가 의 데이터를 덮어씁니다. `Directory` 모듈 구성 파일 *(Directory/etc/config.xml)* `allow` 태그, 그래서 여기에 있는 모든 코드와 새로운 코드를 추가 하는 것입니다.
-* `optional_zip_countries` - 새로 추가된 국가의 우편 번호를 선택 사항이어야 하는 경우 국가 번호를 컨텐츠의 끝에 추가합니다. `optional_zip_countries` 태그에 가깝게 배치하십시오. 국가 코드는 쉼표로 구분됩니다. 이 태그가 의 데이터를 덮어씁니다. `Directory` 모듈 구성 파일 *(Directory/etc/config.xml)* `optional_zip_countries` 태그, 그래서 여기에 있는 모든 코드와 새로운 코드를 추가 하는 것입니다.
-* `eu_countries` - 새로 추가된 국가가 기본적으로 유럽 연합 국가 목록에 속해야 하는 경우 의 콘텐츠 끝에 국가 코드를 추가합니다. `eu_countries` 태그에 가깝게 배치하십시오. 국가 코드는 쉼표로 구분됩니다. 이 태그가 의 데이터를 덮어씁니다. `Store` 모듈 구성 파일 *(\_Store/etc/config.xml\_)* `eu_countries` 태그, 그래서 여기에 있는 모든 코드와 새로운 코드를 추가 하는 것입니다.
+* `allow` - 기본적으로 새로 추가된 국가를 &quot;허용 국가&quot; 목록에 추가하려면 `allow` 태그 콘텐츠의 끝에 새 국가 코드를 추가하십시오. 국가 코드는 쉼표로 구분됩니다. 이 태그는 `Directory` 모듈 구성 파일 *(Directory/etc/config.xml)* `allow` 태그의 데이터를 덮어씁니다. 따라서 여기에 있는 모든 코드와 새 코드를 추가합니다.
+* `optional_zip_countries` - 새로 추가된 국가의 우편 번호를 선택 사항이어야 하는 경우 `optional_zip_countries` 태그의 콘텐츠 끝에 국가 번호를 추가하십시오. 국가 코드는 쉼표로 구분됩니다. 이 태그는 `Directory` 모듈 구성 파일 *(Directory/etc/config.xml)* `optional_zip_countries` 태그의 데이터를 덮어씁니다. 따라서 여기에 있는 모든 코드와 새 코드를 추가합니다.
+* `eu_countries` - 새로 추가된 국가가 기본적으로 유럽 연합 국가 목록의 일부여야 하는 경우 `eu_countries` 태그의 콘텐츠 끝에 국가 코드를 추가합니다. 국가 코드는 쉼표로 구분됩니다. 이 태그는 `Store` 모듈 구성 파일 *(\_Store/etc/config.xml\_)* `eu_countries` 태그의 데이터를 덮어씁니다. 따라서 여기에 있는 모든 코드와 새 코드를 추가합니다.
 * `config.xml` 파일 예제
 
 ```xml
@@ -83,15 +97,15 @@ ht-degree: 0%
 </config>
 ```
 
-모듈 구성 파일에 대한 자세한 내용은 [PHP 개발자 안내서 > 구성 파일 정의](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html) 개발자 설명서에서 확인할 수 있습니다.
+모듈 구성 파일에 대한 자세한 내용은 개발자 설명서에서 [PHP 개발자 안내서 > 구성 파일 정의](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html)를 참조하십시오.
 
-이러한 변경 사항은 선택 사항이며 &quot;허용 국가&quot;, &quot;우편 번호는 선택 사항입니다&quot; 및 &quot;유럽 연합 국가&quot; 목록에 대한 새 국가의 기본 속성인 경우에만 영향을 미칩니다. 이 파일을 모듈 구조에서 건너뛰면 새 국가가 추가되지만 **관리자** > **스토어** > *설정* > **구성** > **일반** > **국가 옵션** 설정 페이지를 참조하십시오.
+이러한 변경 사항은 선택 사항이며 &quot;허용 국가&quot;, &quot;우편 번호는 선택 사항입니다&quot; 및 &quot;유럽 연합 국가&quot; 목록에 대한 새 국가의 기본 속성인 경우에만 영향을 미칩니다. 이 파일을 모듈 구조에서 건너뛰면 새 국가가 추가되지만 **관리자** > **스토어** > *설정* > **구성** > **일반** > **국가 옵션** 설정 페이지에서 수동으로 구성해야 합니다.
 
 ### ExtraCountries/etc/di.xml
 
-다음 `di.xml` 파일은 객체 관리자가 주입할 종속성을 구성합니다. 다음을 참조하십시오 <a>PHP 개발자 안내서 > di.xml</a> 에 대한 자세한 내용은 개발자 설명서 를 참조하십시오. `di.xml`.
+`di.xml` 파일은 개체 관리자가 삽입하는 종속성을 구성합니다. `di.xml`에 대한 자세한 내용은 개발자 설명서에서 <a>PHP 개발자 안내서 > di.xml</a>을 참조하십시오.
 
-이 예제에서는 를 등록해야 합니다. `_TranslatedListsPlugin_` Zend 로케일 라이브러리 현지화 데이터에 코드가 없는 경우 새로 도입된 국가 코드를 전체 국가 이름으로 변환합니다.
+이 예제에서는 Zend 로케일 라이브러리 지역화 데이터에 코드가 없는 경우 새로 도입된 국가 코드를 전체 국가 이름으로 변환하는 `_TranslatedListsPlugin_`을(를) 등록해야 합니다.
 
 `di.xml` 예
 
@@ -109,7 +123,7 @@ ht-degree: 0%
 
 모듈 등록 파일에서 &quot;Adobe Commerce Directory&quot; 모듈에 대한 종속성을 지정해야 하므로 &quot;Extra Countries&quot; 모듈이 Directory 모듈 다음에 등록 및 실행됩니다.
 
-다음을 참조하십시오 [모듈 종속성 관리](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies) 모듈 종속성에 대한 자세한 내용은 개발자 설명서 를 참조하십시오.
+모듈 종속성에 대한 자세한 내용은 개발자 설명서에서 [모듈 종속성 관리](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies)를 참조하십시오.
 
 `module.xml` 예
 
@@ -126,7 +140,7 @@ ht-degree: 0%
 
 ### ExtraCountries/Plugin/Framework/Locale/TranslatedListsPlugin.php
 
-다음에서 `aroundGetCountryTranslation()` plugin 메서드 우리는 국가 코드를 전체 국가 이름으로 번역해야 합니다. Zend 로케일 라이브러리에서 새 국가 코드와 연결된 전체 이름이 없는 국가에 대해 필요한 단계입니다.
+`aroundGetCountryTranslation()` 플러그인 메서드에서 국가 코드를 전체 국가 이름으로 변환해야 합니다. Zend 로케일 라이브러리에서 새 국가 코드와 연결된 전체 이름이 없는 국가에 대해 필요한 단계입니다.
 
 ```php
 <?php
@@ -171,9 +185,9 @@ class TranslatedListsPlugin
 
 이 데이터 패치는 Adobe Commerce 설치/업그레이드 프로세스 중에 실행되며 새 국가 레코드를 데이터베이스에 추가합니다.
 
-다음을 참조하십시오 [데이터 및 스키마 패치 개발](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html) 데이터 패치에 대한 자세한 내용은 개발자 설명서 를 참조하십시오.
+데이터 패치에 대한 자세한 내용은 개발자 설명서에서 [데이터 및 스키마 패치 개발](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html)을 참조하십시오.
 
-아래 예제에서 `$data` 메서드의 배열 `apply()` 새 국가의 국가 ID, ISO2 및 ISO3 코드가 포함되어 있으며 이 데이터는 데이터베이스에 삽입됩니다.
+아래 예제에서 `apply()` 메서드의 `$data` 배열에 새 국가의 국가 ID, ISO2 및 ISO3 코드가 포함되어 있으며 이 데이터가 데이터베이스에 삽입되어 있음을 확인할 수 있습니다.
 
 ```php
 <?php
@@ -252,7 +266,7 @@ class AddDataForAbstractCountry implements DataPatchInterface, PatchVersionInter
 
 ### ExtraCountries/registration.php
 
-다음은 registration.php 파일의 예입니다. 모듈 등록에 대한 자세한 내용은 [PHP 개발자 안내서 > 구성 요소 등록](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html) 개발자 설명서에서 확인할 수 있습니다.
+다음은 registration.php 파일의 예입니다. 모듈 등록에 대한 자세한 내용은 개발자 설명서에서 [PHP 개발자 안내서 > 구성 요소 등록](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html)을 참조하십시오.
 
 ```php
 <?php
@@ -265,7 +279,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 다음은 composer.json 파일의 예입니다.
 
-composer.json에 대한 자세한 내용은 다음을 참조하십시오. [PHP 개발자 안내서 > Composer.json 파일](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html) 개발자 설명서에서 확인할 수 있습니다.
+composer.json에 대한 자세한 내용은 개발자 설명서에서 [PHP 개발자 안내서 > composer.json 파일](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html)을 참조하십시오.
 
 ```json
 {
@@ -296,8 +310,8 @@ composer.json에 대한 자세한 내용은 다음을 참조하십시오. [PHP �
 
 ## 모듈 설치
 
-모듈을 설치하는 방법을 알아보려면 [모듈 위치](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations) 개발자 설명서에서 확인할 수 있습니다.
+모듈을 설치하는 방법은 개발자 설명서에서 [모듈 위치](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations)를 참조하십시오.
 
-모듈 디렉토리가 올바른 위치에 배치되면 를 실행합니다. `bin/magento setup:upgrade` 를 사용하여 데이터 패치를 적용하고 번역 플러그인을 등록합니다.
+모듈 디렉터리가 올바른 위치에 배치되면 `bin/magento setup:upgrade`을(를) 실행하여 데이터 패치를 적용하고 번역 플러그인을 등록합니다.
 
 새 변경 사항이 작동하려면 브라우저 캐시를 정리해야 할 수 있습니다.

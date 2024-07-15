@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 이미지 및 기타 정적 컨텐츠에 대한 캐시 TTL 설정
 
-다음을 참조하십시오. [정적 파일에 대한 캐시 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/set-cache.html) 사용 안내서에서 참조하십시오.
+사용 안내서에서 [정적 파일에 대한 캐시 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/set-cache.html)을 참조하십시오.

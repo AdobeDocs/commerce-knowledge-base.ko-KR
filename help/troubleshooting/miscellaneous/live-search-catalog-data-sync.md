@@ -25,9 +25,9 @@ ht-degree: 0%
 
 <u>재현 단계</u>
 
-1. 에 설명된 대로 Adobe Commerce 인스턴스에 대한 라이브 검색 구성 및 연결 [Live Search 설치 > API 키 구성](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) 사용 설명서에서 참조하십시오.
-1. 30분 후에에 설명된 대로 내보낸 카탈로그 데이터를 확인합니다 [Live Search 설치 > 내보내기 확인](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) 사용 설명서에서 참조하십시오.
-1. 30분 후에에 설명된 대로 연결을 테스트합니다. [Live Search 설치 > 연결 테스트](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) 사용 설명서에서 참조하십시오.
+1. 사용자 설명서의 [라이브 검색 설치 > API 키 구성](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys)에 설명된 대로 Adobe Commerce 인스턴스에 대한 라이브 검색을 구성하고 연결합니다.
+1. 30분 후 사용자 설명서의 [라이브 검색 설치 > 내보내기 확인](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export)에 설명된 대로 내보낸 카탈로그 데이터를 확인합니다.
+1. 30분 후 사용자 설명서의 [라이브 검색 설치 > 연결 테스트](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection)에 설명된 대로 연결을 테스트하십시오.
 
 또는
 
@@ -56,7 +56,7 @@ API 키가 변경되어 내보낸 카탈로그를 확인할 수 없거나 연결
 
 제품 데이터가 특정 SKU에 대해 올바르게 동기화되지 않는 경우 다음을 수행합니다.
 
-1. 다음 SQL 쿼리를 사용하여 다음에 예상한 데이터가 있는지 확인하십시오. `feed_data` 열. 또한 다음을 기록합니다. `modified_at` 타임스탬프.
+1. 다음 SQL 쿼리를 사용하여 `feed_data` 열에 필요한 데이터가 있는지 확인하십시오. `modified_at` 타임스탬프도 메모해 두십시오.
 
    ```sql
    select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
@@ -68,11 +68,11 @@ API 키가 변경되어 내보낸 카탈로그를 확인할 수 없거나 연결
    bin/magento indexer:reindex catalog_data_exporter_products
    ```
 
-1. 그래도 올바른 데이터가 표시되지 않으면 [지원 티켓 만들기](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. 그래도 올바른 데이터가 표시되지 않으면 [지원 티켓을 만듭니다](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### 마지막 제품 내보내기의 타임스탬프 확인
 
-1. 에 올바른 데이터가 표시되면 `catalog_data_exporter_products`을(를) 통해 다음 SQL 쿼리를 사용하여 마지막 내보내기의 타임스탬프를 확인합니다. 다음 이후여야 합니다. `modified_at` 타임스탬프:
+1. `catalog_data_exporter_products`에 올바른 데이터가 표시되면 다음 SQL 쿼리를 사용하여 마지막 내보내기의 타임스탬프를 확인하십시오. `modified_at` 타임스탬프 이후여야 합니다.
 
    ```sql
    select * from flag where flag_code = 'products-feed-version';
@@ -84,13 +84,13 @@ API 키가 변경되어 내보낸 카탈로그를 확인할 수 없거나 연결
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. 대기 `<>` 시간(증분 업데이트 시간). 데이터가 여전히 표시되지 않으면 [지원 티켓 만들기](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. `<>`시간 동안(증분 업데이트 시간) 기다립니다. 데이터가 여전히 표시되지 않으면 [지원 티켓을 만드세요](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### 특정 속성 코드 동기화
 
 제품 속성 데이터가 특정 속성 코드에 대해 올바르게 동기화되지 않는 경우 다음을 수행합니다.
 
-1. 다음 SQL 쿼리를 사용하여 다음에 예상한 데이터가 있는지 확인하십시오. `feed_data` 열. 또한 다음을 기록합니다. `modified_at` 타임스탬프.
+1. 다음 SQL 쿼리를 사용하여 `feed_data` 열에 필요한 데이터가 있는지 확인하십시오. `modified_at` 타임스탬프도 메모해 두십시오.
 
    ```sql
    select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
@@ -102,13 +102,13 @@ API 키가 변경되어 내보낸 카탈로그를 확인할 수 없거나 연결
    bin/magento indexer:reindex catalog_data_exporter_product_attributes
    ```
 
-1. 그래도 올바른 데이터가 표시되지 않으면 [지원 티켓 만들기](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. 그래도 올바른 데이터가 표시되지 않으면 [지원 티켓을 만듭니다](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### 마지막 제품 속성 내보내기의 타임스탬프 확인
 
-에 올바른 데이터가 표시되면 `catalog_data_exporter_product_attributes`:
+`catalog_data_exporter_product_attributes`에 올바른 데이터가 표시되면:
 
-1. 다음 SQL 쿼리를 사용하여 마지막 내보내기의 타임스탬프를 확인하십시오. 다음 이후여야 합니다. `modified_at` 타임스탬프.
+1. 다음 SQL 쿼리를 사용하여 마지막 내보내기의 타임스탬프를 확인하십시오. `modified_at` 타임스탬프 이후여야 합니다.
 
    ```sql
    select * from flag where flag_code = 'product-attributes-feed-version';
@@ -120,7 +120,7 @@ API 키가 변경되어 내보낸 카탈로그를 확인할 수 없거나 연결
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. 15~20분 동안(증분 업데이트 시간) 기다립니다. 데이터가 여전히 표시되지 않으면 다음을 수행하십시오. [지원 티켓 만들기](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. 15~20분 동안(증분 업데이트 시간) 기다립니다. 데이터가 여전히 표시되지 않으면 [지원 티켓을 만드십시오](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### API 구성 변경 후 동기화
 
@@ -133,4 +133,4 @@ bin/magento saas:resync --feed productattributes
 
 ## 관련 읽기
 
-다음을 참조하십시오 [Live Search 온보드](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) 사용 설명서에서 참조하십시오.
+사용자 설명서에서 [실시간 검색 온보드](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)를 참조하십시오.

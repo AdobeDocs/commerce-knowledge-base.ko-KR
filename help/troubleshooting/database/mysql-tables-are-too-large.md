@@ -28,10 +28,10 @@ MySQL 테이블 크기는 사이트 성능에 직접적인 영향을 주지 않�
 
 성능 저하를 방지하려면 다음 옵션을 고려하십시오.
 
-* CRON 작업을 만들어 큰 테이블을 정리합니다. 다음을 참조하십시오 [큰 MySQL 테이블 찾기](/help/how-to/general/find-large-mysql-tables.md) 큰 테이블을 식별하는 방법에 대한 권장 사항을 보려면 지원 기술 자료에서 을 참조하십시오.
+* CRON 작업을 만들어 큰 테이블을 정리합니다. 큰 테이블을 식별하는 방법에 대한 권장 사항을 보려면 지원 기술 자료에서 [큰 MySQL 테이블 찾기](/help/how-to/general/find-large-mysql-tables.md)를 참조하십시오.
 * 1GB보다 큰 테이블의 경우 로그 쓰기에 최적화된 MySQL 엔진을 사용합니다. 예를 들어 아카이브 엔진이 있습니다.
 * DB에 로그를 저장하지 않도록 기능을 업데이트합니다.
 
 ## 관련 읽기
 
-[크기가 너무 커서 엔티티 업데이트가 지연되는 변경 로그 테이블](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md) 을 참조하십시오.
+지원 기술 자료에서 [크기가 너무 커서 엔터티 업데이트가 지연됨](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)이(가) 발생했습니다.

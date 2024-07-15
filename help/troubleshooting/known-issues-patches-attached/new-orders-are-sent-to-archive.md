@@ -26,8 +26,8 @@ ht-degree: 0%
 <u>재현 단계</u>:
 
 1. 상점 앞의 장바구니에 제품을 추가하고 체크아웃을 진행한 후 주문합니다.
-1. Commerce 관리에서 다음 위치로 이동합니다. **판매** > **작업** > **주문**. 눈금에 순서가 나타납니다.
-1. 다음으로 이동 **판매** > **보관** > **주문 수**. 표에서 새 순서를 확인합니다.
+1. Commerce 관리에서 **판매** > **작업** > **주문**(으)로 이동합니다. 눈금에 순서가 나타납니다.
+1. **판매** > **보관** > **주문**(으)로 이동합니다. 표에서 새 순서를 확인합니다.
 
 <u>예상 결과</u>:
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 패치 적용 방법
 
-자세한 내용은 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 을 참조하십시오.
+자세한 지침은 지원 기술 자료에서 [Adobe Commerce에서 제공하는 작성기 패치 적용 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 사용 안내서의 유용한 링크
 

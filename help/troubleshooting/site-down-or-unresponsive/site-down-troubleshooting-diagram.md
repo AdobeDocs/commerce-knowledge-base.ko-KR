@@ -15,4 +15,4 @@ ht-degree: 0%
 
 이 Adobe Commerce 사이트 작동 중지 문제 해결 다이어그램을 사용하여 사이트 작동 중지의 원인을 식별하고 해결할 수 있습니다.
 
-![사이트 다운 문제 해결 다이어그램 이미지](assets/updated_site_down_1.jpeg)
+![사이트 작동 중지 문제 해결 다이어그램 이미지](assets/updated_site_down_1.jpeg)

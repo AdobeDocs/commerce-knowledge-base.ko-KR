@@ -33,7 +33,7 @@ ht-degree: 0%
 <u>재현 단계</u>:
 
 Adobe Commerce을 설치 또는 업그레이드하거나 작성기 업데이트를 실행할 때 다음 오류 메시지와 함께 실행이 실패합니다.
-*호환되지 않는 인수 유형: 필수 유형: int. 실제 유형: 문자열*
+*호환되지 않는 인수 형식: 필수 형식: int. 실제 형식: 문자열*
 
 ## 원인
 
@@ -57,10 +57,10 @@ CLI/Terminal에서 다음 명령을 실행합니다.
 
 **클라우드 인프라에서 Adobe Commerce을 해결하는 방법:**
 
-위의 명령을 실행하거나 7월 29일 목요일에 사용할 수 있는 최신 ECE 도구 버전(ece-tools: 2002.1.7)으로 업그레이드하십시오. 단계는 를 참조하십시오. [Cloud for Adobe Commerce > ece-tools 버전 업데이트](https://devdocs.magento.com/cloud/project/ece-tools-update.html) 개발자 설명서에서 확인할 수 있습니다.
+위의 명령을 실행하거나 7월 29일 목요일에 사용할 수 있는 최신 ECE 도구 버전(ece-tools: 2002.1.7)으로 업그레이드하십시오. 단계는 개발자 설명서에서 [Adobe Commerce용 클라우드 > ece-tools 버전 업데이트](https://devdocs.magento.com/cloud/project/ece-tools-update.html)를 참조하십시오.
 
 전체 수정 사항은 Adobe Commerce(모든 배포 방법) 2.4.4에서 릴리스됩니다.
 
 ## 관련 읽기
 
-* Github: [2021-07-27 작성기 업데이트 호환되지 않는 인수 유형: 필수 유형: int. 실제 유형: 문자열](https://github.com/magento/magento2/issues/33595)
+* Github: [2021-07-27 작성기 업데이트와 호환되지 않는 인수 유형: 필수 유형: int. 실제 형식: 문자열](https://github.com/magento/magento2/issues/33595)

@@ -26,11 +26,11 @@ ht-degree: 0%
 
 ## 원인
 
-다음 `slave_parallel_mode` 데이터베이스의 구성이 기본적으로 (으)로 변경되었습니다. *최적화* 값은 다음과 같아야 합니다. *보수주의자*&#x200B;및 `synchronous_replication` ece-Tools 의 값은 기본적으로 *true* 값은 다음과 같아야 합니다. *false*.
+값이 *보수적*&#x200B;이어야 하는 경우 데이터베이스의 `slave_parallel_mode` 구성이 기본적으로 *optimistics*(으)로 변경되었으며, 값이 *false*&#x200B;여야 하는 경우 Ece-Tools의 `synchronous_replication` 값이 *true*(으)로 기본 설정됩니다.
 
 ## 솔루션
 
-1. 다음을 확인하십시오. `slave_parallel_mode` 매개 변수가 로 설정되어 있습니다. *보수주의자* (다음을 수행해야 합니다. [지원 티켓 올리기](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) 값이 로 표시되지 않는 경우 *보수주의자*). 확인하려면 다음 명령을 실행합니다.
+1. `slave_parallel_mode` 매개 변수가 *conservative*(값이 *conservative*(으)로 표시되지 않는 경우 [지원 티켓을 높여야 함](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket))로 설정되어 있는지 확인하십시오. 확인하려면 다음 명령을 실행합니다.
 
    ```
     MariaDB [main]> show variables like 'slave_parallel_mode';
@@ -42,7 +42,7 @@ ht-degree: 0%
     1 row in set (0.001 sec)
    ```
 
-1. 업데이트 `.magento.env.yaml` 데이터베이스 구성 대상:
+1. `.magento.env.yaml` 데이터베이스 구성을 다음으로 업데이트:
 
    ```yaml
        DATABASE_CONFIGURATION:
@@ -54,10 +54,10 @@ ht-degree: 0%
 
 
 
-데이터베이스 구성을 업데이트하는 단계는 다음을 참조하십시오. [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) Commerce on Cloud Infrastructure 안내서의 변수 배포 항목.
+데이터베이스 구성을 업데이트하는 단계는 Commerce on Cloud Infrastructure Guide의 Deploy variables 항목에서 [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration)을 참조하십시오.
 
 
 ## 관련 읽기
 
-* [배포를 위한 환경 변수 구성](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) Commerce on Cloud Infrastructure Guide를 참조하십시오.
-* [데이터베이스 구성 모범 사례](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) 를 참조하십시오.
+* Commerce on Cloud Infrastructure 안내서의 [배포를 위한 환경 변수 구성](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html).
+* 구현 플레이북의 [데이터베이스 구성 모범 사례](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html).

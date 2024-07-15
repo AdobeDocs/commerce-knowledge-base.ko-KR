@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 영향을 받는 제품 및 버전
 
-* Adobe Commerce(모든 배포 메서드) 모두  [지원되는 버전](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* Adobe Commerce(모든 배포 메서드) 모든 [지원되는 버전](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## 문제
 
@@ -31,8 +31,8 @@ ht-degree: 0%
 
 ## 솔루션
 
-공식 확장을 별도로 설치/구매합니다. 다음에서 사용할 수 있습니다. [Commerce Marketplace](https://marketplace.magento.com/extensions.html).
+공식 확장을 별도로 설치/구매합니다. [Commerce Marketplace](https://marketplace.magento.com/extensions.html)에서 사용할 수 있습니다.
 
 ## 관련 읽기
 
-[공급업체가 번들로 제공하는 확장](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions) Adobe Commerce 설명서 > 릴리스 정보 > Adobe Commerce 2.4.4 릴리스 정보에서.
+Adobe Commerce 설명서 > 릴리스 정보 > Adobe Commerce 2.4.4 릴리스 노트의 [공급업체 번들 확장](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions).

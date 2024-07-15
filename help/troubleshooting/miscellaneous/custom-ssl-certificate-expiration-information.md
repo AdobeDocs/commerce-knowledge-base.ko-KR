@@ -41,11 +41,11 @@ Adobe Commerce은 만료 후 30일이 경과하면 모든 인증서를 업데이
 
 판매자가 자체 사용자 정의 SSL 인증서를 사용하도록 선택하는 경우 내부 Adobe Commerce SSL 인증서로 대체되지 않도록 인증서 만료 30일 이상 전에 업데이트해야 합니다.
 
-사용자 정의 SSL이 내부 SSL로 대체되고 업데이트된 사용자 정의 SSL 인증서로 대체하려는 경우 [지원 요청 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 새 인증서 파일을 업로드한 위치를 사용합니다. 새 SSL의 시작 날짜를 포함하십시오. 이 정보가 있으면 새 SSL 인증서를 설치할 수 있습니다.
+사용자 지정 SSL이 내부 SSL로 대체되었으며 업데이트된 사용자 지정 SSL 인증서로 대체하려는 경우 새 인증서 파일을 업로드한 위치로 [지원 요청을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오. 새 SSL의 시작 날짜를 포함하십시오. 이 정보가 있으면 새 SSL 인증서를 설치할 수 있습니다.
 
 ## 관련 읽기
 
-* [Magento Commerce Cloud에 대한 SSL(TLS) 인증서: FAQ](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) 을 참조하십시오.
-* [명령줄 도구 참조: magento-cloud 인증서:추가](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd) 개발자 설명서에서 확인할 수 있습니다.
-* [시작 체크리스트](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)개발자 설명서에서 확인할 수 있습니다.
-* [사이트 전체 분석 도구 액세스](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html#step-2-access-site-wide-analysis-tool) 사용 안내서에서 참조하십시오.
+* 지원 기술 자료의 [Magento Commerce Cloud에 대한 SSL(TLS) 인증서: FAQ](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md).
+* 개발자 설명서에서 [명령줄 도구 참조: magento-cloud certificate:add](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd).
+* 개발자 설명서에서 [Launch 검사 목록](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)을 참조하세요.
+* 사용 안내서에서 [사이트 전체 분석 도구에 액세스](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html#step-2-access-site-wide-analysis-tool)합니다.

@@ -13,9 +13,9 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [MySQL 카탈로그 검색 엔진이 Adobe Commerce 2.4.0에서 제거됩니다.](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 를 구성해야 합니다. 을(를) 참조하십시오 [설치 및 구성 Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+> [MySQL 카탈로그 검색 엔진이 Adobe Commerce 2.4.0에서 제거됩니다](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 를 구성해야 합니다. [Elasticsearch 설치 및 구성](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)을 참조하세요.
 
-이 문서에서는 Elasticsearch 인덱스 상태가 &#39;&#39;가 아닌 경우에 대한 수정 사항을 제공합니다.*녹색*&#39;. &#39;*노랑*&#39;는 일반을 나타내고, &#39;*빨강*&#39;은(는) 잘못된 을(를) 나타냅니다. &#39;노란색&#39; 또는 &#39;빨간색&#39; 상태는 제품 누락 또는 이전 제품 정보 표시와 함께 발생할 수 있습니다.
+이 문서에서는 Elasticsearch 인덱스 상태가 &#39;*녹색*&#39;이(가) 아닌 경우에 대한 수정 사항을 제공합니다. &#39;*노란색*&#39;은(는) 일반을 나타내고 &#39;*빨간색*&#39;은(는) 잘못된 것을 나타냅니다. &#39;노란색&#39; 또는 &#39;빨간색&#39; 상태는 제품 누락 또는 이전 제품 정보 표시와 함께 발생할 수 있습니다.
 
 ## 영향을 받는 버전 및 제품
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 문제
 
-Elasticsearch 카탈로그 검색 색인이 느려 상태가 &quot;&quot;입니다.*노랑*&#39; 또는 &#39;*빨강*&#39; 대신 &#39;*녹색*&#39;. 프론트엔드에서 변경 사항이 누락될 수도 있습니다.
+Elasticsearch 카탈로그 검색 색인이 느려 &#39;*녹색*&#39;이(가) 아닌 &#39;*노란색*&#39; 또는 &#39;*빨간색*&#39; 상태가 됩니다. 프론트엔드에서 변경 사항이 누락될 수도 있습니다.
 
 ## 원인
 
@@ -55,8 +55,8 @@ Elasticsearch 카탈로그 검색 색인이 느려 상태가 &quot;&quot;입니�
    curl --silent -X GET localhost:9200/_cat/indices?v
    ```
 
-이 단계가 잘 안되면, [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+이 단계가 작동하지 않으면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오.
 
 ## 관련 읽기
 
-자세한 내용은 다음을 참조하십시오. [Elasticsearch 클러스터 상태 API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html).
+자세한 내용은 [Elasticsearch 클러스터 상태 API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html)를 참조하세요.

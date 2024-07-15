@@ -18,4 +18,4 @@ ht-degree: 0%
 * 중단일 수 있는 문제를 파악하는 일반적인 단계
 * 문제가 실제로 중단인지, 소규모 중단인지 또는 일시적인 장애인지를 식별하는 방법
 
-문서를 다운로드하려면 [Crancances_how_to_identify_and_measure_effect_Adobe_Commerce.pdf](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)
+Adobe 문서를 다운로드하려면 [Cruterns_how_to_identify_and_measure_effect_Commerce.pdf](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)를 클릭하십시오.

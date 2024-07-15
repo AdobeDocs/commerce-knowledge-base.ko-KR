@@ -28,7 +28,7 @@ ht-degree: 0%
 
 배포가 실패하고 배포 로그에 다음과 유사한 정보가 포함됩니다.
 
-*치명적인 오류: 발견되지 않은 UnexpectedValueException: github.com의 github oauth 토큰에 /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129에 잘못된 문자 &quot;ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;가 포함되어 있습니다.*
+*치명적인 오류: 발견되지 않은 UnexpectedValueException: github.com에 대한 github oauth 토큰에 /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*&#x200B;에 잘못된 문자 &quot;ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;가 포함되어 있습니다.
 
 ## 원인
 
@@ -38,13 +38,13 @@ ht-degree: 0%
 
 이 문제를 해결하려면 Composer 버전을 1.10.22로 업데이트하십시오.
 
-1. 로컬 환경에서 를 실행합니다 `composer require “composer/composer”:”>1.10.21`.
-1. 이렇게 하면 해당 Composer 패키지 버전에 대한 요구 사항이 추가됩니다. 잠금 파일 확인 - `composer/composer` 버전은 1.0.22 이상이어야 합니다.
-1. 커밋 `composer.json` 및 `composer.lock` 배포를 푸시합니다.
+1. 로컬 환경에서 `composer require “composer/composer”:”>1.10.21` 실행.
+1. 이렇게 하면 해당 Composer 패키지 버전에 대한 요구 사항이 추가됩니다. 잠금 파일을 확인하십시오. `composer/composer` 버전은 1.0.22 이상이어야 합니다.
+1. `composer.json` 및 `composer.lock`을(를) 커밋하고 배포를 푸시합니다.
 
-이 방법이 효과가 없으면 [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+이 메서드가 작동하지 않으면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오.
 
 ## 관련 읽기
 
-* [Github 블로그: GitHub의 새로운 인증 토큰 형식 뒤에](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
-* [InfoQ.com 뉴스 문서: GitHub는 식별 가능성, 비밀 검색 및 엔트로피를 개선하기 위해 토큰 형식을 변경합니다.](https://www.infoq.com/news/2021/04/github-new-token-format/)
+* [Github 블로그: GitHub의 새로운 인증 토큰 형식 지원](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
+* [InfoQ.com 뉴스 문서: GitHub가 식별 가능성, 비밀 검색 및 엔트로피를 개선하기 위해 토큰 형식을 변경함](https://www.infoq.com/news/2021/04/github-new-token-format/)

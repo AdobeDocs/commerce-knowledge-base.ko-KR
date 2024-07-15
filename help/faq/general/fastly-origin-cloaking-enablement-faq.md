@@ -1,6 +1,6 @@
 ---
-title: "[!DNL Fastly] 원본 클로킹 지원 FAQ"
-description: 이 FAQ에서는 다음에 대한 일반적인 질문에 대해 설명합니다. [!DNL Fastly] Adobe Commerce(2021년부터 완전히 구현됨)의 원본 클로킹 지원.
+title: "[!DNL Fastly] 원본 차단 사용 FAQ"
+description: 이 FAQ에서는 Adobe Commerce(2021년부터 완전히 구현됨)의  [!DNL Fastly] 원본 차단 활성화에 대한 일반적인 질문에 대해 설명합니다.
 exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
 source-git-commit: 1021a1ab81481f92e850bd49330f1742fe9a21f2
 workflow-type: tm+mt
@@ -11,15 +11,15 @@ ht-degree: 0%
 
 # [!DNL Fastly] 원본 차단 사용 FAQ
 
-이 FAQ에서는 다음에 대한 일반적인 질문에 대해 설명합니다. [!DNL Fastly] Adobe Commerce(2021년부터 완전히 구현됨)의 원본 클로킹 지원.
+이 FAQ에서는 Adobe Commerce(2021년부터 완전히 구현됨)의 [!DNL Fastly] 원본 차단 사용에 대한 일반적인 질문에 대해 설명합니다.
 
-## 이란? [!DNL Fastly] 원본 클로킹?
+## [!DNL Fastly] 원본 클로킹은 무엇입니까?
 
-원본 차단은 클라우드 인프라의 Adobe Commerce에서 다음을 차단할 수 있는 보안 기능입니다. [!DNL non-Fastly] 트래픽(DDoS 공격을 방지하기 위해 클라우드 인프라(원본)로 이동).
+원본 클로킹은 클라우드 인프라의 Adobe Commerce에서 [!DNL non-Fastly] 트래픽을 차단할 수 있는 보안 기능입니다(DDoS 공격을 방지하기 위해 클라우드 인프라(원본)로 이동).
 
 ## Origin Cloaking의 이점은 무엇입니까?
 
-원본 클로킹은 트래픽이 [!DNL Fastly Web Application Firewall] (WAF) 및 엄격하게 정의된 플로우 **[!DNL Fastly]** > **로드 밸런서** > **인스턴스**. 이 구현으로 모든 트래픽은 [!DNL Fastly] 로드 밸런서에 내장된 내부 WAF 및 WAF.
+원본 클로킹은 트래픽이 [!DNL Fastly Web Application Firewall](WAF)을 건너뛰고 엄격하게 정의된 흐름(**[!DNL Fastly]** > **로드 밸런서** > **인스턴스**)을 통해 라우팅되는 것을 방지하기 위해 설계되었습니다. 이 구현에서는 모든 트래픽이 [!DNL Fastly] WAF와 부하 분산 장치에 내장된 내부 WAF를 통과하도록 보장됩니다.
 
 ## 이 원본 차단 활성화가 발생하는 이유는 무엇입니까?
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 원본 클로킹이 REST API에 영향을 줍니까?
 
-[!DNL Fastly] 는 API 호출을 캐시하지 않으므로 클라이언트는 변경 사항이 적합해야 합니다. 원본 클로킹은 다음과 같이 원본으로 직접 이동하는 요청만 차단합니다.
+[!DNL Fastly]은(는) API 호출을 캐시하지 않으므로 클라이언트는 변경하지 않아도 됩니다. 원본 클로킹은 다음과 같이 원본으로 직접 이동하는 요청만 차단합니다.
 
 * 프로덕션
 
@@ -55,7 +55,7 @@ mcstaging2.mywebsite.com.c.abcdefghijkl.dev.ent.magento.cloud
 mcstagingX.mywebsite.com.c.abcdefghijkl.X.dev.ent.magento.cloud
 ```
 
-이 예에서 URL을 로 변경하면 클라이언트는 여전히 API를 히트할 수 있습니다. ``mywebsite.com``:
+이 예제에서 클라이언트는 URL을 ``mywebsite.com``(으)로 변경하는 경우에도 API를 히트할 수 있습니다.
 
 ```php
 mywebsite.com/rest/default/V1/integration/admin/token?username=XXXX&password=XXXXX;
@@ -66,7 +66,7 @@ mywebsite.com/rest/default/V1/inventory/source-items
 
 ## 이러한 변경 사항이 배포 및 다운타임에 영향을 미칩니까?
 
-아니요, 이 변경 사항은 **아님** 배포와 다운타임에 영향을 미칩니다.
+아니요. 이 변경 사항은 배포 및 가동 중지에 영향을 **NOT**&#x200B;합니다.
 
 ## 프로젝트에 여러 스테이징 환경이 있는 경우 원본 클로킹이 모든 스테이징 환경에 적용됩니까?
 

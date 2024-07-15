@@ -26,29 +26,29 @@ ht-degree: 0%
 
 <u>재현 단계:</u>
 
-Commerce 관리에서 **판매** > **Braintree 가상 터미널** . ** **
+Commerce 관리에서 **판매** > **가상 터미널 Braintree**(으)로 이동합니다** **
 
 <u>예상 결과:</u>
 
-다음 **Braintree 가상 터미널** 적절한 UI로 페이지가 로드됩니다.
+**Braintree 가상 터미널** 페이지가 적절한 UI를 사용하여 로드됩니다.
 
 <u>실제 결과:</u>
 
-의 UI **Braintree 가상 터미널** 페이지가 손상되었습니다.
+**가상 터미널 Braintree** 페이지의 UI가 손상되었습니다.
 
 ### 시나리오 2: Braintree 결제 방법이 구성됨
 
 <u>재현 단계:</u>
 
-Commerce 관리에서 **판매** > **Braintree 가상 터미널** . ** **
+Commerce 관리에서 **판매** > **가상 터미널 Braintree**(으)로 이동합니다** **
 
 <u>예상 결과:</u>
 
-다음 **Braintree 가상 터미널** 페이지가 적절한 UI와 함께 로드되고 Braintree이 아직 구성되지 않았음을 알리는 경고가 표시됩니다.
+**Braintree 가상 터미널** 페이지가 적절한 UI와 함께 로드되고 Braintree이 아직 구성되지 않았음을 알리는 경고가 표시됩니다.
 
 <u>실제 결과:</u>
 
-의 UI **Braintree 가상 터미널** 페이지가 손상되었으며 경고가 표시되지 않습니다.
+**Braintree 가상 터미널** 페이지의 UI가 손상되어 경고가 표시되지 않습니다.
 
 ## 솔루션
 
@@ -69,6 +69,6 @@ Commerce 관리에서 **판매** > **Braintree 가상 터미널** . ** **
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 설명서를 참조하십시오.
+지침은 [Adobe에서 제공한 작성기 패치 적용 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

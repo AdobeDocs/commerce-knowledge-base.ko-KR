@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 영향을 받는 제품 및 버전
 
-* 클라우드 인프라의 Adobe Commerce, 모두 [지원되는 버전](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* 클라우드 인프라의 Adobe Commerce, 모든 [지원되는 버전](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## 문제
 
@@ -37,8 +37,8 @@ ht-degree: 0%
 
 ## 솔루션
 
-캐시 준비 중 동시 연결 수를 제한합니다. 이 경우 를 추가해야 합니다. `WARM_UP_CONCURRENCY` 사후 배포 변수를 사용하여 캐시 준비 스크립트가 동시에 보낼 수 있는 준비 요청의 수를 지정합니다. 이 옵션을 설정하면 Adobe Commerce 클라우드 인프라의 로드를 관리하는 데 도움이 될 수 있습니다. 단계는 를 참조하십시오. [배포 후 변수 > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) 개발자 설명서에서 확인할 수 있습니다.
+캐시 준비 중 동시 연결 수를 제한합니다. 이를 위해서는 `WARM_UP_CONCURRENCY` 사후 배포 변수를 추가하여 캐시 준비 스크립트에서 동시에 보낼 수 있는 준비 요청의 수를 지정해야 합니다. 이 옵션을 설정하면 Adobe Commerce 클라우드 인프라의 로드를 관리하는 데 도움이 될 수 있습니다. 단계는 개발자 설명서에서 [Post 배포 변수 > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency)을 참조하십시오.
 
 ## 관련 읽기
 
-[전체 페이지 캐시](https://docs.magento.com/user-guide/system/cache-full-page.html) 사용 안내서에서
+사용 안내서의 [전체 페이지 캐시](https://docs.magento.com/user-guide/system/cache-full-page.html)

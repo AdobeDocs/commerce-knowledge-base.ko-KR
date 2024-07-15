@@ -24,10 +24,10 @@ ht-degree: 0%
 
 <u>재현 단계</u>
 
-1. 다음으로 이동 **관리 패널** > **콘텐츠** > **페이지**, 및 선택 **편집** 모든 페이지의
-1. 다음으로 이동 **콘텐츠** 을(를) 클릭하고 **페이지 빌더로 편집** 단추를 클릭합니다.
-1. 드래그 **dotdigital 양식** 차단 및 선택 **편집**.
-1. 테스트 양식 중 하나를 선택한 다음 선택합니다 **포함됨** 을 클릭하고 양식을 저장합니다.
+1. **관리 패널** > **콘텐츠** > **페이지**(으)로 이동한 다음 모든 페이지에서 **편집**&#x200B;을 선택합니다.
+1. **콘텐츠**(으)로 이동한 다음 **페이지 빌더로 편집** 단추를 클릭합니다.
+1. **dotdigital 양식** 블록을 드래그하고 **편집**&#x200B;을 선택합니다.
+1. 테스트 양식 중 하나를 선택한 다음 **임베드됨** 모드를 선택하고 양식을 저장하십시오.
 1. 페이지 수정 사항을 저장합니다.
 
 <u>예상 결과:</u>
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* [페이지 빌더란 무엇입니까?](https://devdocs.magento.com/page-builder/docs/) 개발자 설명서에서 확인할 수 있습니다.
-* [페이지 빌더 설정](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html) 개발자 설명서에서 확인할 수 있습니다.
-* [페이지 빌더](https://docs.magento.com/user-guide/cms/page-builder.html) 사용 안내서에서 참조하십시오.
-* [페이지 빌더 - 요소](https://docs.magento.com/user-guide/cms/page-builder-elements.html) 사용 안내서에서 참조하십시오.
+* [페이지 빌더란 무엇입니까?개발자 설명서에서 ](https://devdocs.magento.com/page-builder/docs/).
+* 개발자 설명서에서 [페이지 빌더 설정](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html)을 참조하십시오.
+* 사용 안내서의 [페이지 빌더](https://docs.magento.com/user-guide/cms/page-builder.html).
+* 사용 안내서의 [페이지 빌더 - 요소](https://docs.magento.com/user-guide/cms/page-builder-elements.html).

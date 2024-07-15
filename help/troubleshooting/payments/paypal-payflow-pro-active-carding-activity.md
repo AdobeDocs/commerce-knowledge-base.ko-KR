@@ -55,11 +55,11 @@ Adobe Commerce(모든 배포 방법) 및 Magento Open Source 2.1.x, 2.2.x, 2.3.x
 
 #### Google reCAPTCHA 및 체크아웃 양식 업데이트 설치
 
-다음 `magento/module-paypal-recaptcha` 패키지에는 Google reCAPTCHA 및 Payflow Pro 결제 양식 업데이트와의 통합이 포함되어 있습니다. reCAPTCHA 모듈이 설치 및 구성되어 있더라도 이 패키지를 설치하는 것이 좋습니다.
+`magento/module-paypal-recaptcha` 패키지에는 Google reCAPTCHA 및 Payflow Pro 결제 양식 업데이트와의 통합이 포함되어 있습니다. reCAPTCHA 모듈이 설치 및 구성되어 있더라도 이 패키지를 설치하는 것이 좋습니다.
 
 다음 명령을 실행하여 설치합니다.
 
-**Adobe Commerce 온-프레미스의 경우:**
+**Adobe Commerce 온-프레미스용:**
 
 ```bash
 composer require magento/module-paypal-recaptcha
@@ -68,7 +68,7 @@ bin/magento setup:upgrade
 bin/magento cache:clean
 ```
 
-**클라우드 인프라의 Adobe Commerce:**
+**클라우드 인프라의 Adobe Commerce용:**
 
 1. 다음 명령을 실행합니다.
 
@@ -86,11 +86,11 @@ bin/magento cache:clean
 
 #### CAPTCHA용 체크아웃 양식 업데이트 설치
 
-다음 `magento/module-paypal-captcha` 패키지에는 기본 Adobe Commerce CAPTCHA 모듈과의 통합이 포함되어 있습니다.
+`magento/module-paypal-captcha` 패키지에는 기본 Adobe Commerce CAPTCHA 모듈과의 통합이 포함되어 있습니다.
 
 다음 명령을 실행하여 설치합니다.
 
-**Adobe Commerce 온-프레미스의 경우:**
+**Adobe Commerce 온-프레미스용:**
 
 ```bash
 composer require magento/module-paypal-captcha
@@ -99,7 +99,7 @@ bin/magento setup:upgrade
 bin/magento cache:clean
 ```
 
-**클라우드 인프라의 Adobe Commerce:**
+**클라우드 인프라의 Adobe Commerce용:**
 
 1. 다음 명령을 실행합니다.
 
@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 패키지를 설치한 후 다음 문서에 설명된 대로 Google reCAPTCHA(권장) 또는 CAPTCHA를 구성합니다.
 
-* [Google recaptcha](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) 사용 안내서에서 참조하십시오.
-* [CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html) 사용 안내서에서 참조하십시오.
+* 사용 안내서의 [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html).
+* 사용 안내서의 [CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html).
 
 새로운 체크아웃 양식 옵션은 다음과 같습니다.
 
@@ -129,11 +129,11 @@ bin/magento cache:clean
 
 ## PayPal 지원 및 연락처
 
-사기 방지 서비스에 대한 자세한 내용은 PayPal Payflow 판매자 지원 센터에 문의하십시오. PayPal 지원 팀에 활성화를 요청할 수 있습니다. [기본 사기 방지 서비스](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/) 필터를 사용하면 부정 거래를 초래할 수 있는 지급을 자동으로 거부하고 일반적으로 문제가 아닌 지급을 수락할 수 있도록 지급에 대해 가능한 엄격한 제어를 제공할 수 있습니다. PayPal Fraud Protection Services 필터를 켜면 거래가 정산되는 데 최대 2시간이 걸릴 수 있습니다.
+사기 방지 서비스에 대한 자세한 내용은 PayPal Payflow 판매자 지원 센터에 문의하십시오. PayPal 지원 팀에 [기본 사기 방지 서비스](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/) 필터를 사용하여 결제를 최대한 제어할 수 있도록 요청하면, 사기성 거래를 일으킬 가능성이 있는 결제를 자동으로 거부하고 일반적으로 문제가 아닌 결제를 수락할 수 있습니다. PayPal Fraud Protection Services 필터를 켜면 거래가 정산되는 데 최대 2시간이 걸릴 수 있습니다.
 
 >[!NOTE]
 >
->자세한 내용은 PayPal의 KB 를 참조하십시오 [&quot;Adobe이 내 Payflow Pro 통합에 대해 내게 연락했습니다. 어떻게 해야 합니까?&quot;](https://www.paypal.com/us/smarthelp/article/ts2242).
+>자세한 내용은 PayPal의 KB [&quot;Adobe이 내 Payflow Pro 통합에 대해 내게 연락했습니다. 어떻게 해야 합니까?&quot;](https://www.paypal.com/us/smarthelp/article/ts2242).
 
 **PayPal Payflow 판매자 지원 세부 정보**
 

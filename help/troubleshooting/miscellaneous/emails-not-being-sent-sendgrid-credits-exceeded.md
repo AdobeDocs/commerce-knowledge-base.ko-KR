@@ -25,7 +25,7 @@ SendGrid 크레딧은 전송 가능한 허용된 이메일 수를 나타냅니�
 
 ## 크레딧이 초과되었는지 확인하는 방법:
 
-Adobe Commerce on cloud infrastructure Pro 계획 아키텍처: 다음을 확인하십시오. `/var/log/mail.log` - 다음과 같은 메시지가 표시될 수 있습니다.
+Adobe Commerce on cloud infrastructure Pro 플랜 아키텍처: `/var/log/mail.log`을(를) 확인하십시오. 다음과 같은 메시지가 표시될 수 있습니다.
 
 `May 28 21:13:00 <i-node> postfix/error[21335]: BC7941A2BBF: to=<to@email.com>, relay=none, delay=4642, delays=4642/0.56/0/0.03, dsn=4.0.0, status=deferred (delivery temporarily suspended: SASL authentication failed; server smtp.sendgrid.net[ip address] said: 451 Authentication failed: Maximum credits exceeded).`
 
@@ -35,9 +35,9 @@ Adobe Commerce on cloud infrastructure Pro 계획 아키텍처: 다음을 확인
 
 ## 솔루션
 
-* 프로덕션 환경에서 이 메시지가 표시되면 [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 그리고 위의 메시지를 제공하고 크레딧을 늘려달라고 요청합니다.
-* 이 메시지가 표시되지 않거나 Adobe Commerce on cloud infrastructure Starter 계획 아키텍처에 있는 경우 [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 그리고 언급하기를 `mail.log` 파일이 크레딧이 초과되었음을 나타내지 않습니다.
+* 프로덕션 환경에서 이 메시지가 표시되면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하고 위의 메시지를 제공하고 크레딧 증가를 요청하세요.
+* 이 메시지가 표시되지 않거나 Adobe Commerce on cloud infrastructure 시작 계획 아키텍처에 있는 경우 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하고 `mail.log` 파일이 크레딧이 초과되었음을 나타내지 않습니다.
 
 ## 관련 읽기
 
-* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) 개발자 설명서에서 확인할 수 있습니다.
+* 개발자 설명서에서 [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html)

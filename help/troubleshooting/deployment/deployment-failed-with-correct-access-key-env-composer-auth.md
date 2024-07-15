@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # env:COMPOSER_AUTH 또는 auth.json에 올바른 액세스 키가 있어 배포가 실패합니다.
 
-이 문서는에서 아래 오류와 같이 배포가 실패할 때 발생하는 문제에 대한 해결 방법을 제공합니다. [배포 로그](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
+이 문서에서는 [배포 로그](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에서 아래와 같은 오류와 함께 배포가 실패하는 경우 발생하는 문제에 대한 해결 방법을 제공합니다.
 
 ```
 W:   [Composer\Downloader\TransportException]
@@ -40,20 +40,20 @@ W:   The "https://repo.magento.com/archives/magento/module-customer-balance/mage
 >
 >예제 오류입니다. 배포하는 Adobe Commerce 버전에 따라 다른 파일을 나타내는 오류가 발생할 수 있습니다.
 
-을 배포하지 못했습니다. 다음과 같은 오류가 표시됩니다. *&quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; 파일을 다운로드할 수 없습니다(HTTP/1.1 404 찾을 수 없음).* 다음에서 [배포 로그](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+을 배포하지 못했습니다. [배포 로그](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에 *https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip 파일을 다운로드할 수 없습니다(HTTP/1.1 404 찾을 수 없음)*.
 
 ### 원인
 
 다음 위치 중 하나에 있는 지정된 작성기 액세스 키에 코드에 대한 액세스 권한이 없을 수 있습니다.
 
-* 다음에서 `env:COMPOSER_AUTH` 프로젝트 수준의 변수
-* 다음에서 `auth.json file`, 이는 보다 우선합니다. `env:COMPOSER_AUTH` 변수를 채우는 방법에 따라 페이지를 순서대로 표시합니다.
+* 프로젝트 수준의 `env:COMPOSER_AUTH` 변수
+* `auth.json file`에서 `env:COMPOSER_AUTH` 변수보다 우선합니다.
 
 ### 솔루션
 
-업데이트 `env:COMPOSER_AUTH` 변수에 값을 추가하고, 코드에 대한 액세스 권한이 있는 키로 구성되었는지 확인하십시오.
+프로젝트 수준에서 `env:COMPOSER_AUTH` 변수를 업데이트하고 코드에 액세스할 수 있는 키로 구성되었는지 확인하십시오.
 
-단계는 를 참조하십시오. [변수 수준](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) Commerce on Cloud Infrastructure 안내서에서 확인할 수 있습니다.
+단계는 Commerce on Cloud Infrastructure Guide의 [변수 수준](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels)을 참조하세요.
 
 ## 관련 읽기
 

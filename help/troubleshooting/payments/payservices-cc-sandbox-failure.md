@@ -18,11 +18,11 @@ ht-degree: 0%
 ## 영향을 받는 제품 및 버전
 
 
-* Adobe Commerce 2.4.0 - 2.4.4 , 모든 배포 옵션, [결제 서비스](https://marketplace.magento.com/magento-payment-services.html)
+* Adobe Commerce 2.4.0 - 2.4.4 , 모든 배포 옵션, [결제 서비스](https://marketplace.magento.com/magento-payment-services.html) 포함
 
 ## 문제
 
-테스트 비자 신용 카드를 사용할 때 `4111 1111 1111 1111` payPal에서 다음과 같은 오류로 인해 PayPal 사기 정책으로 인해 실패하는 경우가 있습니다.
+PayPal에서 테스트 Visa 신용 카드 `4111 1111 1111 1111`을(를) 사용할 때 다음 오류가 발생하여 PayPal 사기 정책으로 인해 실패하는 경우가 있습니다.
 
 ```terminal
 Error happened when processing the request. Please try again later.
@@ -36,6 +36,6 @@ Error happened when processing the request. Please try again later.
 
 다른 테스트 신용 카드를 사용하십시오. 테스트에 사용할 수 있는 모의 신용 카드를 생성하려면:
 
-1. PayPal 개발자 포털로 이동 [신용 카드 생성기](https://developer.paypal.com/developer/creditCardGenerator/) 페이지를 가리키도록 업데이트하는 중입니다.
+1. PayPal 개발자 포털 [신용 카드 생성기](https://developer.paypal.com/developer/creditCardGenerator/) 페이지로 이동합니다.
 1. PayPal 개발자 포털 대시보드에 로그인합니다.
 1. 테스트 신용 카드를 생성합니다.

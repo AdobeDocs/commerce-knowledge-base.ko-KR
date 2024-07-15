@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 클라우드 인프라에서 Adobe Commerce의 데이터베이스 쿼리를 프로파일링하는 방법
 
-다음을 참조하십시오. [프로필 데이터베이스 쿼리](https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html) 개발자 설명서에서 확인할 수 있습니다.
+개발자 설명서에서 [프로필 데이터베이스 쿼리](https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html)를 참조하십시오.

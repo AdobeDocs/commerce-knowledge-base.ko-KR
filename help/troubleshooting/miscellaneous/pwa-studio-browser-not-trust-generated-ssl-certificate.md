@@ -35,20 +35,20 @@ storefront 프로젝트에서 로컬 개발 인스턴스에 사용자 지정 호
 yarn buildpack create-custom-origin ./
 ```
 
-인증서 생성은에서 처리됩니다. [devcert](https://github.com/davewasmer/devcert). OpenSSL에 따라 다르므로 다음 명령을 사용하여 시스템에 현재 버전의 openssl이 있는지 확인합니다.
+인증서 생성은 [devcert](https://github.com/davewasmer/devcert)에서 처리됩니다. OpenSSL에 따라 다르므로 다음 명령을 사용하여 시스템에 현재 버전의 openssl이 있는지 확인합니다.
 
 `openssl version`
 
 버전은 1.0 이상이어야 합니다(또는 OSX High Sierra의 경우 LibreSSL 2).
 
-을 사용하여 상위 버전의 OpenSSL을 설치할 수 있습니다. [홈브루](https://brew.sh/) OSX에서, [쇼콜라티](https://chocolatey.org/) Windows 또는 Linux 배포판의 패키지 관리자
+OSX의 경우 [Homebrew](https://brew.sh/), Windows의 경우 [Chocolatey](https://chocolatey.org/) 또는 Linux 배포판의 패키지 관리자로 더 높은 버전의 OpenSSL을 설치할 수 있습니다.
 
-Linux를 실행하는 경우 다음을 확인하십시오. `libnss3-tools` (또는 이와 동등한 기능)이 시스템에 설치되어 있습니다. 이 섹션에 추가 정보가 제공됩니다. [devcert](https://github.com/davewasmer/devcert#skipcertutil) readme.
+Linux를 실행 중인 경우 `libnss3-tools`(또는 이에 상응하는)이(가) 시스템에 설치되어 있는지 확인하십시오. [devcert](https://github.com/davewasmer/devcert#skipcertutil) readme의 이 섹션에 추가 정보가 제공됩니다.
 
 일부 사용자가 인증서 재생성을 트리거하기 위해 devcert 폴더를 삭제하는 것을 제안했습니다.
 
-* macOS 사용자의 경우 이 폴더는 일반적으로 다음 위치에 있습니다. `{{~/Library/Application Support/devcert }}`
-* Windows 사용자의 경우 이 폴더는 일반적으로 다음 위치에 있습니다. `${User}\AppData\Local\devcert`
+* macOS 사용자의 경우 이 폴더는 일반적으로 `{{~/Library/Application Support/devcert }}`에 있습니다.
+* Windows 사용자의 경우 이 폴더는 일반적으로 `${User}\AppData\Local\devcert`에 있습니다.
 
 ## 지원 기술 자료의 관련 읽기
 

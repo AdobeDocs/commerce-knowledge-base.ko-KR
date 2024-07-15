@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <u>재현 단계</u>:
 
-1. 을(를) 통해 주문 **주문 확인 보내기** 확인란이 선택되었습니다.
+1. **주문 보내기 확인** 상자를 선택한 상태로 주문합니다.
 1. 이메일을 확인합니다.
 
 <u>예상 결과</u>:
@@ -59,6 +59,6 @@ Adobe Commerce에서 구성한 전송 주소에서 이메일을 보냈습니다.
 
 ## 패치 적용 방법
 
-자세한 내용은 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 을 참조하십시오.
+지침은 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

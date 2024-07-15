@@ -30,18 +30,18 @@ ht-degree: 0%
 
 ## 솔루션
 
-1. 먼저 Adobe Commerce 캐시의 상태를 확인하여 문제가 있는지 확인합니다. 이를 위해, [환경에 SSH 추가](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh) 다음 명령을 실행합니다.
+1. 먼저 Adobe Commerce 캐시의 상태를 확인하여 문제가 있는지 확인합니다. 이를 위해 [환경에 SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)를 실행하고 다음 명령을 실행하십시오.
 
    ```bash
    php bin/magento cache:status
    ```
 
-   각 캐시 유형의 상태가 표시됩니다( 비활성화의 경우 &quot;0&quot;, 활성화의 경우 &quot;1&quot;). 또는 다음 위치에서 이 정보를 가져올 수 있습니다. `app/etc/env.php` 파일.
+   각 캐시 유형의 상태가 표시됩니다( 비활성화의 경우 &quot;0&quot;, 활성화의 경우 &quot;1&quot;). 또는 `app/etc/env.php` 파일에서 이 정보를 가져올 수 있습니다.
 
 1. 비활성화된 캐시 유형을 조사합니다. Adobe에서 대체 지침을 받지 않은 경우 모든 Adobe Commerce 캐시 유형을 활성화해야 합니다. 타사 확장을 사용하려면 Adobe Commerce 캐시를 비활성화할 필요가 없습니다.
-1. 조사 결과 실수로 일부 캐시 유형을 비활성화한 것으로 확인되면 각 캐시 유형에 대해 다음 명령을 실행하여 활성화하십시오. `php bin/magento cache:enable <your_disabled_cache_type>`
+1. 검사 결과 실수로 일부 캐시 유형을 사용하지 않도록 설정한 경우 각 캐시 유형에 대해 다음 명령을 실행하여 사용하도록 설정하십시오. `php bin/magento cache:enable <your_disabled_cache_type>`
 
-특정 Adobe Commerce 캐시 유형을 비활성화할 수 있는지 여부에 대한 우려 및/또는 질문이 있는 경우 [Adobe Commerce 지원 문의](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 추천을 요청합니다.
+특정 Adobe Commerce 캐시 유형을 비활성화할 수 있는지 또는 비활성화해야 하는지에 대한 우려 및/또는 질문이 있는 경우 [Adobe Commerce 지원 센터에 문의](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 권장 사항을 요청하십시오.
 
 ## 관련 읽기
 

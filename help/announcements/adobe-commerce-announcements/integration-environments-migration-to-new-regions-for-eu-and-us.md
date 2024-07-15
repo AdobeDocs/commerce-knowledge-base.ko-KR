@@ -1,6 +1,6 @@
 ---
 title: 기존 EU 지역에 대한 통합 환경 마이그레이션
-description: '"최신 인프라 기반을 제공하기 위해 기존 ''EU'' 지역에 속한 모든 고객을 위한 통합 환경을 새로운 EU 지역으로 마이그레이션하고 있습니다. 나머지 지역 &ndash; EU-3, EU-5, EU-6 &ndash; 은 그대로 유지됩니다.  '''
+description: '"최신 인프라 기반을 제공하기 위해 기존 ''EU'' 지역에 속한 모든 고객을 위한 통합 환경을 새로운 EU 지역으로 마이그레이션하고 있습니다. 나머지 지역 &ndash; EU-3, EU-5, EU-6 &ndash;은 그대로 유지됩니다.  '''
 exl-id: 71c0d241-7ba8-48c3-acf1-2b28be5c80e7
 feature: Integration
 role: Admin

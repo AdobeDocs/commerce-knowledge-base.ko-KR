@@ -29,12 +29,12 @@ PayPal Express Checkout 결제 방법을 사용하여 주문하면 이전에 주
 
 1. 매장 앞쪽에서 장바구니에 제품을 추가합니다(제품 A, 가격 $50).
 1. 장바구니 링크를 클릭하여 장바구니를 엽니다.
-1. 다음을 클릭합니다. **PayPal 결제** 단추를 클릭합니다.
+1. **PayPal 체크아웃** 단추를 클릭합니다.
 1. PayPal 자격 증명을 사용하여 PayPal에 로그인하고 결제를 제출합니다.
 1. 스토어 측의 주문 배치를 완료합니다.
 1. 카탈로그로 돌아가서 다른 제품(제품 B, 가격 $100)을 장바구니에 추가하십시오.
 1. 장바구니 링크를 클릭하여 장바구니를 엽니다.
-1. 다음을 클릭합니다. **PayPal 결제** 단추를 클릭합니다.
+1. **PayPal 체크아웃** 단추를 클릭합니다.
 
 <u>실제 결과:</u>
 
@@ -51,7 +51,7 @@ B 제품이 주문에 추가됩니다.
 
 ## 패치
 
-다음 링크를 사용하여 해당 패치가 포함된 .zip 파일을 다운로드합니다. [MC42674-composer.patch.zip](assets/MC42674-composer.patch.zip).
+다음 링크를 사용하여 패치가 포함된 .zip 파일을 다운로드합니다. [MC42674-composer.patch.zip](assets/MC42674-composer.patch.zip)
 
 ### 호환 가능한 Adobe Commerce 버전
 
@@ -60,4 +60,4 @@ B 제품이 주문에 추가됩니다.
 ## 패치 적용 방법
 
 1. 다운로드한 .zip 파일의 압축을 해제합니다.
-1. 다음을 참조하십시오 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 추가 지침을 보려면.
+1. 자세한 지침은 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.

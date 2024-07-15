@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Adobe에서 제공하는 SSL/TLS 인증서는 무엇입니까?
 
-Adobe에서 도메인 유효성 검사 제공 [SSL/TLS 인증서 암호화](https://letsencrypt.org/) 에서 보안 HTTPS 트래픽을 제공하려면 [!DNL Fastly]. Adobe은 클라우드 인프라의 각 Adobe Commerce Pro 계획 아키텍처, 스테이징 및 Adobe Commerce 클라우드 인프라의 시작 계획 아키텍처 환경에서 해당 환경의 모든 도메인을 보호할 수 있는 하나의 인증서를 제공합니다.
+Adobe은 [!DNL Fastly]에서 보안 HTTPS 트래픽을 제공하기 위해 도메인 유효성 검사 [SSL/TLS 인증서를 암호화하겠습니다](https://letsencrypt.org/). Adobe은 클라우드 인프라의 각 Adobe Commerce Pro 계획 아키텍처, 스테이징 및 Adobe Commerce 클라우드 인프라의 시작 계획 아키텍처 환경에서 해당 환경의 모든 도메인을 보호할 수 있는 하나의 인증서를 제공합니다.
 
 ## 인증서는 무엇을 포함합니까?
 
@@ -26,10 +26,10 @@ Pro 플랜 아키텍처의 경우, 스테이징 및 프로덕션 전용 환경 �
 
 ## 기존 인증서에 대한 새 도메인을 추가하는 방법
 
-에서 서비스에 도메인을 추가하려면 [!DNL Fastly]:
+[!DNL Fastly]의 서비스에 도메인을 추가하려면 다음을 수행하십시오.
 
 1. DNS의 도메인을 prod.magentocloud.map.fastly.net으로 지정하고 최대 6시간 동안 기다립니다.
-1. [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) nginx 구성에서 이 도메인을 추가하도록 요청(이전에 수행하지 않은 경우).
+1. [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) Nginx 구성에서 이 도메인을 추가할 것을 요청합니다(이전에 수행하지 않은 경우).
 
 ## 인증서를 요청하는 방법
 
@@ -39,18 +39,18 @@ Pro 플랜 아키텍처의 경우, 스테이징 및 프로덕션 전용 환경 �
 
 사례 2
 
-사이트가 이미 라이브되어 있거나 라이브 사이트에 사용될 URL을 바로 지정할 수 있는 경우 ACME CNAME을 요청할 필요가 없습니다. 필요에 따라 클라우드 인프라 사이트의 Adobe Commerce에 URL을 추가하고 DNS를에 지정합니다. [!DNL Fastly], HTTP 유효성 검사가 작동하며 처음으로 SSL 인증서를 생성하거나 추가 URL로 인증서를 업데이트합니다.
+사이트가 이미 라이브되어 있거나 라이브 사이트에 사용될 URL을 바로 지정할 수 있는 경우 ACME CNAME을 요청할 필요가 없습니다. 필요에 따라 클라우드 인프라 사이트의 Adobe Commerce에 URL을 추가하고 [!DNL Fastly]에 DNS를 가리키면 HTTP 유효성 검사가 작동하여 SSL 인증서를 처음 만들거나 추가 URL로 인증서를 업데이트합니다.
 
 ## 나만의 SSL/TLS 인증서를 사용할 수 있습니까?
 
-를 사용하는 대신 고유한 SSL/TLS 인증서를 제공할 수 있습니다. [인증서를 암호화하겠습니다.](https://letsencrypt.org/) Adobe 제공.
+Adobe에서 제공한 [인증서를 암호화하겠습니다](https://letsencrypt.org/). 대신 SSL/TLS 인증서를 제공할 수 있습니다.
 
 그러나 이 프로세스를 설정하고 유지 관리하려면 추가 작업이 필요합니다. 먼저 웹 사이트의 도메인 이름(또는 일반 이름)에 대한 CSR(인증서 서명 요청)을 생성하고 SSL 인증서를 제공하도록 SSL 공급업체에 제공해야 합니다.
 
-SSL 인증서가 있으면 을 제출합니다. [Adobe Commerce 지원 티켓](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 또는 CTA와 협력하여 클라우드 환경에 사용자 지정 호스팅 인증서를 추가합니다.
+SSL 인증서가 있으면 [Adobe Commerce 지원 티켓](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)을 제출하거나 CTA와 함께 클라우드 환경에 사용자 지정 호스팅 인증서를 추가합니다.
 
 * 더 이상 사용되지 않는 도메인은 시스템에서 자동으로 제거되며, 추가 작업이 필요하지 않습니다.
-* 인증서가 이미 있는 경우 SFTP(SSH File Transfer Protocol) 클라이언트를 사용하여 서버의 웹에 액세스할 수 없는 파일 위치에 인증서를 업로드합니다. [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 파일 경로를 알려 줍니다.
+* 이미 인증서를 소유하고 있는 경우 SFTP(SSH File Transfer Protocol) 클라이언트를 사용하여 서버의 웹에 액세스할 수 없는 파일 위치에 인증서를 업로드하고 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 파일 경로를 알 수 있습니다.
 
 >[!WARNING]
 >
@@ -63,16 +63,16 @@ SSL 인증서의 이름은 기본 URL에만 해당되며, 첫 번째 URL에 의�
 
 ## 인증서의 일반 이름 필드에 표시될 도메인은 무엇입니까?
 
-인증서에 표시된 도메인은 TLS 인증서에 추가된 첫 번째 도메인일 뿐이며, **일반 이름** (**CN**) 필드를 입력하면 브라우저에 이 이름이 먼저 표시됩니다. 다음 **주체 대체 이름** (**SAN**) 필드에는 TLS 인증서에 대한 모든 DNS 이름이 포함됩니다. 표시된 일반 이름을 변경하거나 요청할 방법이 없습니다.
+인증서에 표시된 도메인은 TLS 인증서에 추가된 첫 번째 도메인일 뿐이며, **일반 이름**(**CN**) 필드를 채우고 브라우저에서는 이 이름을 먼저 표시합니다. **주체 대체 이름**(**SAN**) 필드에 TLS 인증서에 대한 모든 DNS 이름이 포함되어 있습니다. 표시된 일반 이름을 변경하거나 요청할 방법이 없습니다.
 
 ## 와일드카드 TLS 인증서를 사용할 수 있습니까?
 
-와일드카드 TLS 인증서는 사용자 정의 인증서에만 사용할 수 있고 Adobe Commerce Let&#39;s Encrypt 인증서에는 사용할 수 없습니다. TLS 최적화의 일환으로 Adobe은 와일드카드 TLS 인증서에 대한 지원을 종료합니다. Adobe의 Let&#39;s Encrypt 인증서와 함께 와일드카드 인증서를 사용하며 [!DNL Fastly] Adobe Commerce용 콘솔 우리는 TLS의 적용 범위를 보장하기 위해 이러한 와일드카드 인증서를 정확한 도메인으로 바꿀 것을 요구하고 있다. 와일드카드 TLS 인증서를 바꾸려면 [도메인 섹션](https://devdocs.magento.com/cloud/cdn/configure-fastly-customize-cache.html#manage-domains) / [!DNL Fastly] 플러그인입니다. 여기서 정확한 도메인을 추가하고 와일드카드를 제거할 수 있습니다. DNS가 다음을 가리켜야 합니다. [!DNL Fastly] 이러한 새 도메인이 CDN을 통해 라우팅되도록 하는 데 사용됩니다. 도메인이 추가되고 DNS가 업데이트되면 [암호화하겠습니다.](https://letsencrypt.org/) 인증서가 프로비저닝됩니다. 을 가리키고 있는 도메인을 제거하지 않는 경우 [!DNL Fastly] Adobe은 와일드카드를 사용하여 공유 인증서를 삭제합니다. URL FQDN을 구성하지 않고 DNS에 동일한 URL FQDN을 설정하면 사이트가 중단될 수 있습니다. 따라서 구성된 URL도 해당 DNS가 가리키는 것과 일대일로 일치하는지 확인해야 합니다 [!DNL Fastly].
+와일드카드 TLS 인증서는 사용자 정의 인증서에만 사용할 수 있고 Adobe Commerce Let&#39;s Encrypt 인증서에는 사용할 수 없습니다. TLS 최적화의 일환으로 Adobe은 와일드카드 TLS 인증서에 대한 지원을 종료합니다. Adobe의 Let&#39;s Encrypt 인증서로 와일드카드 인증서를 사용하며 Adobe Commerce용 [!DNL Fastly] 콘솔에 구성된 판매자를 식별하고 연락하고 있습니다. 우리는 TLS의 적용 범위를 보장하기 위해 이러한 와일드카드 인증서를 정확한 도메인으로 바꿀 것을 요구하고 있다. 와일드카드 TLS 인증서를 바꾸려면 [!DNL Fastly] 플러그인의 [도메인 섹션](https://devdocs.magento.com/cloud/cdn/configure-fastly-customize-cache.html#manage-domains)을(를) 방문하십시오. 여기서 정확한 도메인을 추가하고 와일드카드를 제거할 수 있습니다. CDN을 통해 라우팅하려면 DNS가 이러한 새 도메인에 대해 [!DNL Fastly]을(를) 가리켜야 합니다. 도메인이 추가되고 DNS가 업데이트되면 일치하는 [Let&#39;s Encrypt](https://letsencrypt.org/) 인증서가 제공됩니다. 와일드카드를 사용하여 [!DNL Fastly]을(를) 가리키는 도메인을 제거하지 않으면 Adobe이 공유 인증서를 삭제합니다. URL FQDN을 구성하지 않고 DNS에 동일한 URL FQDN을 설정하면 사이트가 중단될 수 있습니다. 따라서 구성된 URL도 [!DNL Fastly]을(를) 가리키는 DNS에서 일대일 일치하는지 확인해야 합니다.
 
 ## 도메인이 더 이상 Adobe Commerce을 가리키지 않으면 어떻게 해야 합니까?
 
-도메인이 더 이상 Adobe Commerce을 가리키지 않는 경우 [!DNL Fastly]/Adobe Commerce 시스템. 다음을 참조하십시오 [!DNL Fastly] [도메인 삭제](https://docs.fastly.com/en/guides/working-with-domains#deleting-a-domain) 자세히 알아보십시오. 도메인을 Adobe Commerce으로 가리킬 필요는 없지만 최상위 도메인 TLS 인증서가 필요한지 확인하십시오. 최상위 도메인이 필요한 경우 Adobe Commerce을 가리키도록 DNS를 업데이트하십시오. 이미 Adobe Commerce을 가리키고 있는 경우 다음을 포함하도록 CAA 레코드를 업데이트합니다. [let-encrypt](https://letsencrypt.org/). 이 단계를 수행하면 LE 인증서가 포함된 필요한 보조 URL로 업데이트된 것이 표시됩니다&#x200B;.
+도메인이 더 이상 Adobe Commerce을 가리키지 않는 경우 [!DNL Fastly]/Adobe Commerce 시스템에서 제거하십시오. 자세한 내용은 [!DNL Fastly] [도메인 삭제](https://docs.fastly.com/en/guides/working-with-domains#deleting-a-domain)를 참조하십시오. 도메인을 Adobe Commerce으로 가리킬 필요는 없지만 최상위 도메인 TLS 인증서가 필요한지 확인하십시오. 최상위 도메인이 필요한 경우 Adobe Commerce을 가리키도록 DNS를 업데이트하십시오. 이미 Adobe Commerce을 가리키고 있는 경우 [lets-encrypt](https://letsencrypt.org/)를 포함하도록 CAA 레코드를 업데이트하십시오. 이 단계를 수행하면 LE 인증서가 포함된 필요한 보조 URL로 업데이트된 것이 표시됩니다&#x200B;.
 
 ## 관련 읽기
 
-[SSL/TLS 인증서 프로비저닝](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) 개발자 설명서에서
+개발자 설명서에서 [SSL/TLS 인증서 프로비저닝](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates)

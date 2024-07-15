@@ -41,8 +41,8 @@ PHP 8.1에는 이미 JSON 지원이 포함되어 있으므로 확장을 별도�
 
 ## 솔루션
 
-에서 JSON 제거 **런타임** > **확장** 의 섹션 `.magento.app.yaml` 다시 배포합니다.
+`.magento.app.yaml`의 **런타임** > **확장** 섹션에서 JSON을 제거하고 다시 배포합니다.
 
 ## 관련 읽기
 
-[PHP 애플리케이션](https://devdocs.magento.com/cloud/project/magento-app-php-application.html) 개발자 설명서에서 확인할 수 있습니다.
+개발자 설명서에서 [PHP 응용 프로그램](https://devdocs.magento.com/cloud/project/magento-app-php-application.html).

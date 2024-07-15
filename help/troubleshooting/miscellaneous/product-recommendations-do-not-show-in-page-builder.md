@@ -29,13 +29,13 @@ ht-degree: 0%
 
 ## 솔루션
 
-1. 명령을 실행하여 모듈을 별도로 설치했는지 확인합니다. `composer show magento/module-page-builder-product-recommendations`
-1. 다음 메시지를 반환하는 경우: *패키지 magento/module-page-builder-product-recommendations를 찾을 수 없음*&#x200B;를 사용하려면 다음 명령을 실행하여 설치해야 합니다. `composer require magento/module-page-builder-product-recommendations`
+1. `composer show magento/module-page-builder-product-recommendations` 명령을 실행하여 모듈을 별도로 설치했는지 확인하십시오.
+1. 다음 메시지를 반환하는 경우: *Package magento/module-page-builder-product-recommendations를 찾을 수 없습니다*. `composer require magento/module-page-builder-product-recommendations` 명령을 실행하여 설치해야 합니다.
 
-Page Builder에서 제품 Recommendations을 활성화하면 [추천 단위 추가](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) 을 추가하여 페이지 빌더에서 만든 모든 컨텐츠를 작성합니다.
+페이지 빌더에서 제품 Recommendations을 활성화하면 페이지 빌더에서 만든 콘텐츠에 [추천 단위를 추가](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html)할 수 있습니다.
 
 ## 관련 읽기
 
-* [컨텐츠 추가 - 제품 Recommendations](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) 사용 안내서에서 참조하십시오.
-* [제품 Recommendations 설치 및 구성](https://devdocs.magento.com/recommendations/install-configure.html) 개발자 설명서에서 확인할 수 있습니다.
+* 사용 안내서에서 [콘텐츠 추가 - 제품 Recommendations](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html).
+* 개발자 설명서에서 [제품 Recommendations 설치 및 구성](https://devdocs.magento.com/recommendations/install-configure.html).
 * [Adobe Commerce 사용 안내서](https://docs.magento.com/user-guide/)

@@ -28,13 +28,13 @@ ht-degree: 0%
 <tr>
 <td>
 <p><u>New Relic에서 프로젝트를 볼 수 없습니다.</u></p>
-<p>에 로그인했습니다. <em>New Relic</em> 하지만 보기/액세스 권한이 있어야 하는 프로젝트를 볼 수 없습니다.</p>
+<p><em>New Relic</em>에 로그인했지만 보기/액세스 권한이 있는 프로젝트를 볼 수 없습니다.</p>
 </td>
 <td>
 <p>이러한 경우 관리자는 사용자를 프로젝트에 추가해야 합니다.</p>
 </td>
 <td>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">New Relic 서비스 액세스</a> 을 참조하십시오.</p>
+<p>지원 기술 자료에서 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">New Relic 서비스에 액세스</a>.</p>
 </td>
 </tr>
 <tr>
@@ -43,7 +43,7 @@ ht-degree: 0%
 <tr>
 <td>
 <p><u>설치 후 데이터가 누락되었습니다.</u></p>
-<p>사용 <a href="https://docs.newrelic.com/docs/agents/manage-apm-agents/troubleshooting/new-relic-diagnostics">New Relic 진단 유틸리티</a> 원인을 파악하기 위해. 도움이 되지 않는 경우 에이전트별 솔루션을 확인하십시오. 이러한 솔루션이 포함된 문서에 대한 링크는 오른쪽 열에 있습니다.</p>
+<p><a href="https://docs.newrelic.com/docs/agents/manage-apm-agents/troubleshooting/new-relic-diagnostics">New Relic 진단 유틸리티</a>를 사용하여 원인을 식별하십시오. 도움이 되지 않는 경우 에이전트별 솔루션을 확인하십시오. 이러한 솔루션이 포함된 문서에 대한 링크는 오른쪽 열에 있습니다.</p>
 </td>
 <td>
 <p>데이터 누락의 원인은 다를 수 있습니다. 다음을 수행해야 합니다.</p>
@@ -77,13 +77,13 @@ ht-degree: 0%
 </tr>
 <tr>
 <td>
-<p><u>NerdGraph GraphQL <code>curl</code> 다음과 같은 특수 문자를 사용하는 쿼리 <code>|</code> 및 <code>%</code> 작동하지 않음</u>.</p>
+<p><code>|</code> 및 <code>%</code>과(와) 같은 특수 문자를 사용하는 <u>NerdGraph GraphQL <code>curl</code> 쿼리가 작동하지 않습니다</u>.</p>
 </td>
 <td>
-<p>NerdGraph 내의 New Relic "curl로 복사" 기능은 현재 다음과 같은 특수 문자를 처리하는 방법을 제공하지 않습니다. <code>|</code> 및 <code>%</code>.</p>
+<p>NerdGraph 내의 New Relic "curl로 복사" 기능은 현재 <code>|</code> 및 <code>%</code>과(와) 같은 특수 문자를 처리하는 방법을 제공하지 않습니다.</p>
 </td>
 <td>
-<p>다른 API 라이브러리를 사용하여 특수 문자로 문제를 해결합니다. 예를 들어 Python의 Graphql API용 GraphQLClient 라이브러리 또는 Java 언어 호출별 Apache.commons입니다. 클라이언트 라이브러리 검토 <a href="https://graphql.org/code/">GraphQL</a>.</p>
+<p>다른 API 라이브러리를 사용하여 특수 문자로 문제를 해결합니다. 예를 들어 Python의 Graphql API용 GraphQLClient 라이브러리 또는 Java 언어 호출별 Apache.commons입니다. <a href="https://graphql.org/code/">GraphQL</a>에서 클라이언트 라이브러리를 검토하십시오.</p>
 </td>
 </tr>
 <tr>
@@ -94,7 +94,7 @@ ht-degree: 0%
 <p>New Relic 도메인을 허용 목록에 추가하거나 문제를 일으키는 브라우저 확장을 제거하여 누락된 차트를 해결합니다.</p>
 </td>
 <td>
-<p><a href="https://docs.newrelic.com/docs/apm/new-relic-apm/troubleshooting/charts-missing-or-do-not-render">New Relic 설명서 &gt; 차트 누락 또는 렌더링 안 함</a> </p>
+<p><a href="https://docs.newrelic.com/docs/apm/new-relic-apm/troubleshooting/charts-missing-or-do-not-render">New Relic 설명서 &gt; 차트가 없거나 렌더링되지 않음</a> </p>
 </td>
 </tr>
 <tr>

@@ -21,4 +21,4 @@ ht-degree: 0%
 
 ## 문서 다운로드
 
-클릭 [Check_host_s_CPU_Configuration_-_Application_to_host_resizes.pdf](assets/Check_host_s_CPU_Configuration_-_Application_to_host_resizes.pdf) 문서를 다운로드하려면 다음을 수행하십시오.
+문서를 다운로드하려면 [Check_host_s_CPU_Configuration_-_Application_to_host_resizes.pdf](assets/Check_host_s_CPU_Configuration_-_Application_to_host_resizes.pdf)을(를) 클릭하십시오.

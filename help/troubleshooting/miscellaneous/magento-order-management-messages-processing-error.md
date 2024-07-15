@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce 처리 오류에 대한 OMS(Magento Order Management 시스템)
-description: 이 문서에서는 'bin/magento oms'를 실행하는 CLI에서 'getMode()' 오류가 발생하는 문제에 대한 해결 방법을 제공합니다:messages:Adobe Commerce용 Magento Order Management 시스템(OMS)의 '프로세스'
+description: 이 문서에서는 Adobe Commerce용 Magento Order Management 시스템(OMS)에서 'bin/magento oms:messages:process'를 실행하는 CLI에서 'getMode()' 오류가 발생하는 문제에 대한 해결 방법을 제공합니다.
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 처리 오류에 대한 OMS(Magento Order Management 시스템)
 
-이 문서에서는 을(를) 가져올 때 발생하는 문제에 대한 해결 방법을 제공합니다. `getMode()` 실행 중인 CLI에서 오류 발생 `bin/magento oms:messages:process` (Adobe Commerce용 Magento Order Management 시스템(OMS)에서).
+이 문서에서는 Adobe Commerce용 Magento Order Management 시스템(OMS)에서 `bin/magento oms:messages:process`을(를) 실행하는 CLI에서 `getMode()` 오류가 발생하는 문제에 대한 해결 방법을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -56,14 +56,15 @@ Stack trace:
 
 ## 원인
 
-이 문제는 커넥터가 처리를 시도할 때 발생합니다 `magento.inventory.source_management` 메시지. 커넥터는 이러한 메시지를 다음과 같이 처리하려고 합니다. `magento.inventory.source_stock_management.update` 모드 값이 필요한 메시지입니다. 왜냐하면 `magento.inventory.source_mangement` 메시지가 표시되면 오류가 발생합니다.
+E
+이 문제는 커넥터가 `magento.inventory.source_management`개 메시지를 처리하려고 할 때 발생합니다. 커넥터는 이러한 메시지를 모드 값이 필요한 `magento.inventory.source_stock_management.update` 메시지인 것처럼 처리하려고 합니다. `magento.inventory.source_mangement` 메시지에 모드가 없으므로 오류가 발생합니다.
 
 ## 솔루션
 
-이 문제를 해결하려면 CLI에서 다음 SQL 문을 실행하여 `mcom_api_messages` 표:
+이 문제를 해결하려면 CLI에서 다음 SQL 문을 실행하여 `mcom_api_messages` 테이블의 모든 레코드를 삭제합니다.
 
 `delete from mcom_api_messages;`
 
 ## 관련 읽기
 
-OMS 문서 보기 [OMS 커넥터 설정 자습서](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+OMS 문서 [OMS 커넥터 설정 자습서](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)를 참조하십시오.

@@ -16,9 +16,9 @@ ht-degree: 0%
    * [개요](/help/support-tools/overview.md)
    * 사이트 전체 분석 도구 {#site-wide-analysis-tool}
       * [Adobe에 의한 사이트 전체 분석 도구: 개요](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
-   * Adobe Commerce 관찰 {#observation}
+   * Adobe Commerce {#observation}에 대한 관찰
       * [Adobe Commerce 관찰 개요](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)
-   * Adobe Commerce에서 관리되는 경고 {#managed-alerts}
+   * Adobe Commerce {#managed-alerts}에서 관리되는 경고
       * [Adobe Commerce에 대한 관리 경고: Redis 메모리 위험 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
       * [Adobe Commerce에 대한 관리 경고: 디스크 경고 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert.md)
       * [Adobe Commerce에 대한 관리 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md)
@@ -31,7 +31,7 @@ ht-degree: 0%
       * [Adobe Commerce에 대한 관리 경고: MariaDB 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts.md)
       * [Adobe Commerce에 대한 관리 경고: Apdex 경고 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
       * [Adobe Commerce에 대한 관리 경고: CPU 경고 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
-   * QPT 도구에서 사용할 수 있는 패치 {#patches}
+   * QPT 도구 {#patches}에서 사용할 수 있는 패치
       * [MDVA-24201: 카탈로그 가격 규칙이 작동하지 않음](/help/support-tools/patches-available-in-qpt-tool/mdva-24201-magento-patch-catalog-price-rules-don-t-work.md)
       * [MDVA-33281 패치: 인벤토리 불일치 문제](/help/support-tools/patches-available-in-qpt-tool/mdva-33281-magento-patch-inventory-inconsistency-issues.md)
       * [MDVA-42950: 제품 페이지에서 비디오가 재생되지 않음](/help/support-tools/patches-available-in-qpt-tool/mdva-42950-videos-dont-play-on-the-product-page.md)
@@ -331,16 +331,16 @@ ht-degree: 0%
       * [MBI 설명서를 이동했습니다.](/help/announcements/help-center-news/mbi-documentation-got-moved.md)
       * [격주 Adobe Commerce 지원 KB 뉴스레터: 새로운 문서 및 업데이트](/help/announcements/help-center-news/bi-weekly-adobe-commerce-support-kb-newsletter-what-new-and-what-updated.md)
       * [Adobe Commerce 지원 기술 자료에서 기여 접수를 시작합니다.](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
-* 우수 사례 {#best-practices}
+* 모범 사례 {#best-practices}
    * [개요](/help/best-practices/overview.md)
    * 구성 {#configuration}
       * [Adobe Commerce의 OPcache 메모리 크기에 대한 우수 사례](/help/best-practices/configuration/best-practice-for-opcache-memory-size-in-magento-commerce.md)
       * [Realpath 캐시 크기 모범 사례](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
       * [Adobe Commerce에서 CSS 및 JS 파일 최적화](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
    * 데이터베이스 {#database}
-      * [Adobe Commerce 2.3.5 업그레이드: 컴팩트한 테이블에서 동적 테이블로](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
+      * [Adobe Commerce 2.3.5 업그레이드: 동적 테이블로 축소](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
       * [트리거 사용에 대한 우수 사례](/help/best-practices/database/best-practice-for-triggers-usage.md)
-      * [클라우드 인프라의 Adobe Commerce에서 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
+      * [클라우드 인프라에서 Adobe Commerce의 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
       * [MySQL 슬레이브 연결을 위한 클라우드 인프라의 Adobe Commerce 모범 사례](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
       * [클라우드 인프라의 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
    * 일반 {#general}
@@ -360,7 +360,7 @@ ht-degree: 0%
       * [Adobe Commerce 제품 옵션에 대한 우수 사례](/help/best-practices/general/best-practices-for-magento-product-options.md)
       * [페이지당 제품 수 제한 Adobe Commerce](/help/best-practices/general/products-per-page-limit-magento.md)
       * [Adobe Commerce의 최대 영업 규칙 모범 사례](/help/best-practices/general/max-sales-rules-best-practice-in-magento.md)
-   * 레디스 {#redis}
+   * Redis {#redis}
       * [확장된 Redis 캐시 구현 Adobe Commerce 2.3.5+](/help/best-practices/redis/extended-redis-cache-implementation-magento-commerce-2.3.5.md)
    * 성능 {#performance}
       * [우수 사례 Adobe Commerce 제품 속성](/help/best-practices/performance/best-practice-magento-product-attributes.md)
@@ -370,14 +370,14 @@ ht-degree: 0%
       * [클라우드 인프라에서 Adobe Commerce의 이미지에 대한 우수 사례](/help/best-practices/performance/best-practice-for-images-in-magento-commerce-cloud.md)
       * [Adobe Commerce 우수 사례: 관리에서 중요한 작업 수행](/help/best-practices/performance/magento-best-practice-conducting-critical-actions-in-admin.md)
       * [Adobe Commerce 우수 사례: 을 사용하지 않을 경우 보고서 비활성화](/help/best-practices/performance/magento-best-practice-disable-reports-if-not-using.md)
-      * [인덱서 &quot;일정에 따라 업데이트&quot;는 Adobe Commerce 성능을 최적화합니다.](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
+      * [인덱서 &quot;일정에 따라 업데이트&quot;가 Adobe Commerce 성능을 최적화합니다](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
       * [모범 사례 Adobe Commerce 제품 변형](/help/best-practices/performance/best-practice-magento-product-variations.md)
       * [Adobe Commerce 주문 배치 성능 모범 사례](/help/best-practices/performance/best-practice-magento-order-placement-performance.md)
       * [Adobe Commerce 우수 사례: 비동기 주문 처리 활성화](/help/best-practices/performance/magento-best-practice-enable-asynchronous-orders-processing.md)
       * [Adobe Commerce의 렌더링 차단 리소스에 대한 모범 사례](/help/best-practices/performance/best-practices-for-render-blocking-resources-in-magento.md)
       * [Adobe Commerce의 장바구니에 있는 제품 수에 대한 우수 사례](/help/best-practices/performance/best-practice-for-number-of-products-in-cart-in-magento.md)
       * [Adobe Commerce 제품 속성 옵션에 대한 우수 사례](/help/best-practices/performance/best-practices-for-magento-product-attribute-options.md)
-* 문제 해결 {#troubleshooting}
+* {#troubleshooting} 문제 해결
    * [개요](/help/troubleshooting/overview.md)
    * 일반 문제 해결 {#general}
       * [Adobe Commerce의 Product Recommendations 모듈 문제 해결](/help/troubleshooting/general/troubleshoot-product-recommendations-module-in-magento-commerce.md)
@@ -598,7 +598,7 @@ ht-degree: 0%
       * [처리량이 많은 AJAX 요청으로 인해 성능이 저하됨](/help/troubleshooting/general/high-throughput-ajax-requests-cause-poor-performance.md)
       * [PWA Studio: 브라우저에 &quot;프록시 대상 불가&quot; 오류 표시](/help/troubleshooting/general/pwa-studio-browser-displays-cannot-proxy-to-error.md)
       * [Adobe Commerce 2.4.0 알려진 문제: Klarna 온사이트 메시징 빈 페이지](/help/troubleshooting/general/magento-2-4-0-known-issue-klarna-on-site-messaging-blank-pages.md)
-      * [설치 프로그램 실행:static-content:deployed_version.txt 문제 배포](/help/troubleshooting/general/run-setup-static-content-deploy-deployed-version-txt-issue.md)
+      * [setup:static-content:deployed_version.txt 문제 실행](/help/troubleshooting/general/run-setup-static-content-deploy-deployed-version-txt-issue.md)
       * [단일 사용을 위한 쿠폰은 여러 번 사용됨, Adobe Commerce](/help/troubleshooting/general/coupon-code-used-more-than-once-adobe-commerce.md)
       * [&quot;계정이 일시적으로 비활성화됨&quot; 오류가 표시된 Commerce 관리자 로그인 양식으로 다시 리디렉션합니다.](/help/troubleshooting/general/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
       * [Google Analytics은 배포 후 비활성화됩니다.](/help/troubleshooting/general/google-analytics-gets-disabled-after-deployment.md)
@@ -1058,7 +1058,7 @@ ht-degree: 0%
    * [ACSD-45488: 자동으로 재고로 반환되지 않는 여러 소스를 사용하여 구성 가능한 제품](/help/support-tools/patches-available-in-qpt-tool/acsd-45488-configurable-product-with-multiple-sources-not-returned-to-in-stock.md)
    * [ACSD-46146: 관리자 주문 후 전송된 2개의 주문 확인 이메일](/help/support-tools/patches-available-in-qpt-tool/acsd-46146-two-order-confirmation-emails-are-sent-after-placing-order-from-admin.md)
    * [MDVA-43824: &quot;항목을 취소하지 않았습니다.&quot;라는 오류가 발생하여 주문 취소 작업이 실패했습니다.](/help/support-tools/patches-available-in-qpt-tool/mdva-43824-order-cancellation-action-failed-with-error.md)
-   * [MDVA-39605: Redis 캐시 TTL(만료 날짜)에 잘못된 값이 있습니다.](/help/support-tools/patches-available-in-qpt-tool/mdva-39605-redis-cache-ttl-expiration date-has-wrong-value.md)
+   * [MDVA-39605: Redis cache TTL(만료 날짜)에 잘못된 값이 있습니다.](/help/support-tools/patches-available-in-qpt-tool/mdva-39605-redis-cache-ttl-expiration date-has-wrong-value.md)
    * [MDVA-30599: customer_is_guest가 잘못 설정되었습니다.](/help/support-tools/patches-available-in-qpt-tool/mdva-30599-magento-patch-customer_is_guest-is-set-incorrectly.md)
    * [MDVA-44100: 장바구니에 있는 마지막 제품에 모든 FPT가 할당됨](/help/support-tools/patches-available-in-qpt-tool/mdva-44100-all-fpts-are-assigned-to-the-last-product-in-the-shopping-cart-and-reset-for-other-product.md)
    * [MDVA-21095: 대량 속성 업데이트 후 &quot;search_tmp..&quot;에 INSERT가 종료되지 않음](/help/support-tools/patches-available-in-qpt-tool/mdva-21095-insert-into-search_tmp...-never-ends-after-mass-attribute-update.md)

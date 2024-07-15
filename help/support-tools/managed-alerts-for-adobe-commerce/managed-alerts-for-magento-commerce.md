@@ -14,11 +14,11 @@ ht-degree: 0%
 # Adobe Commerce에 대한 관리 경고
 
 
-주요 대시보드 및 경고를 설정하여 사이트가 중요한 스토리지 및 Apdex 수준에 도달하는 시점을 파악할 수 있습니다(애플리케이션 및 서비스 응답 시간에 대한 사용자의 만족도). 이렇게 하면 응답 시간이 느려지거나 중단이 발생하기 전에 조치를 취하는 데 도움이 될 수 있습니다. 아래 나열된 기사로 경고 문제를 해결할 수 있습니다. 경고를 사용하려면 먼저 알림 채널을 설정하십시오. 다음을 참조하십시오. [New Relic 알림 채널 구성](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels) 개발자 설명서에서 확인할 수 있습니다.
+주요 대시보드 및 경고를 설정하여 사이트가 중요한 스토리지 및 Apdex 수준에 도달하는 시점을 파악할 수 있습니다(애플리케이션 및 서비스 응답 시간에 대한 사용자의 만족도). 이렇게 하면 응답 시간이 느려지거나 중단이 발생하기 전에 조치를 취하는 데 도움이 될 수 있습니다. 아래 나열된 기사로 경고 문제를 해결할 수 있습니다. 경고를 사용하려면 먼저 알림 채널을 설정하십시오. 개발자 설명서에서 [New Relic 알림 채널 구성](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels)을 참조하십시오.
 
 >[!NOTE]
 >
->Adobe Commerce 경고 정책에 대한 관리 경고를 사용할 수 없는 경우 이 계정이 새로 생성되었거나 New Relic이 최근에 구성되었기 때문일 수 있습니다. 매주 화요일에 해당 계정에 경고 정책을 추가하는 프로세스가 실행됩니다. 다음 프로세스가 실행된 다음 날에 경고 정책을 사용할 수 있습니다. 방침이 아직도 안 나오면, [Adobe Commerce 지원 요청 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket) 프로젝트 ID를 포함합니다.
+>Adobe Commerce 경고 정책에 대한 관리 경고를 사용할 수 없는 경우 이 계정이 새로 생성되었거나 New Relic이 최근에 구성되었기 때문일 수 있습니다. 매주 화요일에 해당 계정에 경고 정책을 추가하는 프로세스가 실행됩니다. 다음 프로세스가 실행된 다음 날에 경고 정책을 사용할 수 있습니다. 정책이 여전히 누락된 경우 [Adobe Commerce 지원 요청을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket)하고 프로젝트 ID를 포함하십시오.
 
 이러한 경고에 대한 문제 해결 단계를 제공하는 KB 문서에 대한 링크는 아래 표의 를 참조하십시오.
 

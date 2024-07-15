@@ -37,19 +37,19 @@ Adobe Commerce 온프레미스 또는 클라우드 인프라의 Adobe Commerce�
 yarn run validate-queries
 ```
 
-호환성 보고서를 표시합니다. 호환되지 않는 경우 PWA Studio 또는 Adobe Commerce 인스턴스를 업그레이드해야 합니다. 다음 확인: [Adobe Commerce 호환성 매트릭스](https://developer.adobe.com/commerce/pwa-studio/integrations/adobe-commerce/version-compatibility/) 필요한 버전을 정확히 확인합니다.
+호환성 보고서를 표시합니다. 호환되지 않는 경우 PWA Studio 또는 Adobe Commerce 인스턴스를 업그레이드해야 합니다. 필요한 버전을 확인하려면 [Adobe Commerce 호환성 매트릭스](https://developer.adobe.com/commerce/pwa-studio/integrations/adobe-commerce/version-compatibility/)를 확인하십시오.
 
 업그레이드 방법에 대한 지침은 다음 설명서를 참조하십시오.
 
-* PWA Studio 업그레이드의 경우 의 &quot;이전 버전에서 업그레이드&quot; 섹션을 검색합니다. [PWA 릴리스 노트](https://github.com/magento/pwa-studio/releases/) 로 업그레이드해야 하는 버전입니다.
-* [클라우드 인프라 버전의 Adobe Commerce 업그레이드](https://devdocs.magento.com/cloud/project/project-upgrade.html) 개발자 설명서에서
-* [Adobe Commerce 온-프레미스 업그레이드(&quot;작성기 create-project&quot; 또는 아카이브를 사용하여 설치됨)](https://devdocs.magento.com/guides/v2.3/comp-mgr/cli/cli-upgrade.html) 개발자 설명서에서
-* [Adobe Commerce 온-프레미스 업그레이드(Adobe Commerce 저장소 복제에 의해 설치됨)](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/dev_update-magento.html) 개발자 설명서에서
+* PWA Studio 업그레이드를 위해 업그레이드해야 하는 버전에 대한 [PWA 릴리스 정보](https://github.com/magento/pwa-studio/releases/)의 &quot;이전 버전에서 업그레이드&quot; 섹션을 검색합니다.
+* 개발자 설명서에서 [클라우드 인프라 버전에서 Adobe Commerce 업그레이드](https://devdocs.magento.com/cloud/project/project-upgrade.html)
+* 개발자 설명서에서 [Adobe Commerce 온-프레미스 업그레이드(&quot;작성기 만들기 프로젝트&quot; 또는 아카이브를 사용하여 설치됨)](https://devdocs.magento.com/guides/v2.3/comp-mgr/cli/cli-upgrade.html)
+* 개발자 설명서에서 [Adobe Commerce 온-프레미스 업그레이드(Adobe Commerce 저장소를 복제하여 설치)](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/dev_update-magento.html)
 
 ## 관련 읽기
 
-* [PWA Studio: 컴파일을 시작하기 전에 Webpack이 중단됨](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md) 지원 기술 자료
-* [PWA Studio: 개발자 모드를 실행할 때 유효성 검사 오류 발생](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md) 지원 기술 자료
-* [PWA Studio: 브라우저에 &quot;프록시 대상 불가&quot; 오류 표시](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md) 지원 기술 자료
-* [PWA Studio을 사용할 수 있도록 NPM 구성](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md) 지원 기술 자료
+* [PWA Studio: 지원 기술 자료에서 컴파일을 시작하기 전에 Webpack이 중지됨](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
+* [PWA Studio: 지원 기술 자료에서 개발자 모드를 실행할 때 유효성 검사 오류](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
+* [PWA Studio: 브라우저가 지원 기술 자료에 &quot;프록시할 수 없음&quot; 오류](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)을(를) 표시합니다.
+* 지원 기술 자료에서 [PWA Studio을 사용할 수 있도록 NPM을 구성](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md)
 * [Adobe Commerce 설명서 PWA](https://magento.github.io/pwa-studio/)

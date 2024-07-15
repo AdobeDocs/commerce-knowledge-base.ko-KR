@@ -31,5 +31,5 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* [VertexAddress Cleaning을 사용하여 &#39;내 청구 및 배송 주소가 동일&#39;을 선택 해제할 때 다른 주소가 허용되지 않음](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md) 을 참조하십시오.
-* [Adobe Commerce 2.4.1 Vertex Address 유효성 검사 메시지 주소 업데이트 이후](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) 을 참조하십시오.
+* [지원 기술 자료에서 VertexAddress Cleaning을 사용하여 &#39;내 청구 주소와 배송 주소가 동일&#39;을 선택 해제할 때는 다른 주소를 사용할 수 없습니다](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md).
+* 지원 기술 자료에서 [Adobe Commerce 2.4.1 Vertex 주소 유효성 검사 메시지 주소 업데이트 이후](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md).

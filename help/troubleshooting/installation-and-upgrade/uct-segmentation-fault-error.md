@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 영향을 받는 제품 및 버전
 
-* [업그레이드 호환성 도구](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) 는 2.3.0 이상의 Adobe Commerce 버전과 호환됩니다.
+* [호환성 업그레이드 도구](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html)이(가) 2.3.0 이상에서 Adobe Commerce 버전과 호환됩니다.
 
 ## 세분화 오류
 
@@ -47,7 +47,7 @@ bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
    bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
    ```
 
-1. 유일한 출력은 `Upgrade compatibility tool`:
+1. 출력만 `Upgrade compatibility tool`입니다.
 
    ```terminal
    bin/uct upgrade:check /var/www/project/magento/ -c 2.4.1
@@ -62,7 +62,7 @@ bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
 
 <u>솔루션 1</u>:
 
-설정으로 메모리 제한 재정의 `memory_limit` 끝 `-1`:
+`memory_limit`을(를) `-1`(으)로 설정하여 메모리 제한을 재정의합니다.
 
 ```bash
 php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
@@ -70,11 +70,11 @@ php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
 
 >[!NOTE]
 >
-> 다음 `M2_VERSION` 는 Adobe Commerce 인스턴스와 비교할 target Adobe Commerce 버전입니다.
+> `M2_VERSION`은(는) Adobe Commerce 인스턴스와 비교할 대상 Adobe Commerce 버전입니다.
 
 <u>솔루션 2</u>:
 
-추가 `-m` 옵션을 사용하면 업그레이드 호환성 도구에서 각 특정 모듈을 독립적으로 분석하여 Adobe Commerce 인스턴스에서 이름이 같은 두 모듈이 발생하지 않도록 할 수 있습니다.
+`-m` 옵션을 추가하면 업그레이드 호환성 도구에서 각 특정 모듈을 독립적으로 분석하여 Adobe Commerce 인스턴스에서 이름이 같은 두 모듈이 발생하지 않도록 할 수 있습니다.
 
 또한 이 명령 옵션을 사용하면 업그레이드 호환성 도구에서 여러 모듈이 포함된 폴더를 분석할 수 있습니다.
 
@@ -82,4 +82,4 @@ php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
 bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/
 ```
 
-다음을 참조하십시오. [명령줄 인터페이스에서 도구 실행](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) 명령줄 인터페이스 옵션에 대한 자세한 내용을 보려면 페이지를 참조하십시오.
+명령줄 인터페이스 옵션에 대한 자세한 내용은 [명령줄 인터페이스에서 도구 실행](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) 페이지를 참조하십시오.

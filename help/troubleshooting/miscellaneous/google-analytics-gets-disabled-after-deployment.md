@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 문제
 
-여러 환경에 코드를 배포할 때 빌드 및 배포 스크립트는 `master/production/staging` 분기가 배포되어 Google Analytics이 계속 활성화됩니다. 마스터 의 개발(또는 하위) 분기를 개발자 환경(통합)에 배포할 때 배포 스크립트는 Google Analytics을 비활성화합니다.
+환경 간에 코드를 배포할 때 빌드 및 배포 스크립트는 `master/production/staging` 분기가 배포되어 Google Analytics이 활성화되었는지 확인합니다. 마스터 의 개발(또는 하위) 분기를 개발자 환경(통합)에 배포할 때 배포 스크립트는 Google Analytics을 비활성화합니다.
 
 ## 원인
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-Google Analytics을 항상 활성화하려면 배포 변수를 설정합니다 `ENABLE_GOOGLE_ANALYTICS = true`에 설명된 대로 [변수 배포](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics) 개발자 설명서에서 확인할 수 있습니다.
+Google Analytics을 항상 활성화하려면 개발자 설명서의 [변수 배포](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics)에 설명된 대로 배포 변수 `ENABLE_GOOGLE_ANALYTICS = true`을(를) 설정하십시오.
 
 >[!NOTE]
 >

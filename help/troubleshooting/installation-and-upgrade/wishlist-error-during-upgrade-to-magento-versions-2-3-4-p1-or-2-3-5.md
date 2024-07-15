@@ -28,7 +28,7 @@ Adobe Commerce(모든 배포 방법) 및 Magento Open Source을 버전 2.3.5 또
 Magento_Wishlist
 ```
 
-Adobe Commerce(모든 배포 방법)/Magneto Open Source 버전 2.3.4-p1에서 업그레이드 **대상 버전 2.3.4-p2** 또는 Adobe Commerce(모든 배포 방법)/Magneto Open Source 버전 2.3.5에서 **대상 버전 2.3.5-p1** 이(가) 오류를 수정합니다.
+Adobe Commerce(모든 배포 방법)/Magneto Open Source 버전 2.3.4-p1 **에서 버전 2.3.4-p2** 또는 Adobe Commerce(모든 배포 방법)/Magneto Open Source 버전 2.3.5 **에서 버전 2.3.5-p1**(으)로 업그레이드하면 오류가 해결됩니다.
 
 <u>재현 단계</u>:
 
@@ -50,15 +50,15 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 ## 솔루션
 
-* Adobe Commerce(모든 배포 방법)/Magneto Open Source 버전 2.3.5로 업그레이드하는 경우 **버전 2.3.5-p1로 업그레이드**. Adobe Commerce(모든 배포 방법)/Magento Open Source 버전 2.3.5-p1은 2.3.5를 대체합니다.
-* Adobe Commerce(모든 배포 방법)/Magento Open Source 버전 2.3.4-p1로 업그레이드하는 경우 **버전 2.3.4-p2로 업그레이드**. Adobe Commerce(모든 배포 방법)/Magneto Open Source 버전 2.3.4-p2는 버전 2.3.4-p1을 대체합니다.
+* Adobe Commerce(모든 배포 방법)/Magneto Open Source 버전 2.3.5로 업그레이드하는 경우 **버전 2.3.5-p1로 업그레이드하십시오**. Adobe Commerce(모든 배포 방법)/Magento Open Source 버전 2.3.5-p1은 2.3.5를 대체합니다.
+* Adobe Commerce(모든 배포 방법)/Magento Open Source 버전 2.3.4-p1로 업그레이드하는 경우 **버전 2.3.4-p2로 업그레이드**&#x200B;하십시오. Adobe Commerce(모든 배포 방법)/Magneto Open Source 버전 2.3.4-p2는 버전 2.3.4-p1을 대체합니다.
 
 ## 관련 읽기
 
 개발자 설명서에서:
 
-* [Adobe Commerce on cloud infrastructure 안내서](https://devdocs.magento.com/cloud/bk-cloud.html)
+* [클라우드 인프라의 Adobe Commerce 안내서](https://devdocs.magento.com/cloud/bk-cloud.html)
 * [클라우드 인프라의 Adobe Commerce - Adobe Commerce 버전 업그레이드](https://devdocs.magento.com/cloud/project/project-upgrade.html)
-* [Adobe Commerce 온-프레미스 및 Magento Open Source - Adobe Commerce 애플리케이션 및 모듈 업그레이드](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
+* [Adobe Commerce 온-프레미스 및 Magento Open Source - Adobe Commerce 응용 프로그램 및 모듈 업그레이드](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
 * [위시리스트 항목 구성 페이지](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)
 * [고급 보고를 제공하는 모듈](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)

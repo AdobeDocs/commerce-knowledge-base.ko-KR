@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # &quot;클래스를 코드 디렉터리에 저장할 수 없습니다&quot; 오류
 
-이 문서에서는 종속성을 지정한 방식으로 인해 즉석에서 클래스가 자동 생성되지 않는 문제를 해결하는 방법에 대해 설명합니다. *&quot;생성된/코드 디렉터리에 클래스를 저장할 수 없습니다.&quot;* 오류 메시지입니다.
+이 문서에서는 종속성을 지정한 방식으로 인해 클래스가 즉시 자동 생성되지 않고 *&quot;클래스가 생성된/코드 디렉터리&quot;* 오류 메시지가 표시되는 문제를 해결하는 방법에 대해 설명합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 1. 로컬 환경에서 자동 생성된 클래스에 종속된 사용자 지정 클래스를 작성합니다.
 1. 사용자 지정 클래스가 트리거되는 시나리오를 실행하고 제대로 작동하는지 확인합니다.
 1. 통합 환경에 변경 사항을 커밋하고 푸시합니다. 이렇게 하면 배포 프로세스가 트리거됩니다. 배포가 완료되었습니다.
-1. 다음에서 [통합 환경](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)사용자 지정 클래스가 트리거되는 시나리오를 실행합니다.
+1. [통합 환경](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)에서 사용자 지정 클래스가 트리거되는 시나리오를 실행합니다.
 
 <u>예상 결과</u>
 
@@ -34,15 +34,15 @@ ht-degree: 0%
 
 <u>실제 결과</u>
 
-클래스를 저장할 수 없다는 오류 메시지가 표시되는 오류 발생 `generated/code` 디렉토리.
+클래스를 `generated/code` 디렉터리에 저장할 수 없다는 오류 메시지가 표시되면서 오류가 발생했습니다.
 
 ## 원인
 
-이 문제의 원인은 종속성이 있는 클래스가 배포 중에 생성되지 않으며 클래스가 트리거될 때 나중에는 즉시 생성될 수 없기 때문입니다. `generated/code` 배포가 완료된 후 디렉토리를 쓰기에 사용할 수 없습니다.
+배포 완료 후 `generated/code` 디렉터리를 쓰기에 사용할 수 없으므로 종속성이 있는 클래스가 배포 중에 생성되지 않으며 클래스를 트리거할 때 나중에 바로 생성할 수 없는 것이 문제의 원인입니다.
 
 이러한 상황이 발생할 수 있는 이유는 두 가지가 있습니다.
 
-* 사례 1: 자동 생성된 클래스에 대한 종속성이 있는 클래스는 진입점에 있습니다(예: `index.php` ) - 배포 중에 종속성이 검색되지 않습니다.
+* 사례 1: 자동 생성된 클래스에 대한 종속성이 있는 클래스가 배포 중에 종속성에 대해 검사되지 않는 진입점( 예: `index.php`)에 있습니다.
 * 사례 2: 자동 생성된 클래스에 대한 종속성이 직접 지정됩니다(종속성을 선언하는 생성자의 권장 사용과 비교).
 
 ## 솔루션
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 <u>예</u>
 
-원본 코드(예: ) `index2.php` :
+원본 코드(예: `index2.php`:
 
 ```php
 <?php
@@ -85,7 +85,7 @@ $someObject = $bootstrap->getObjectManager()->create(SomeClass::class);
 
 다음 단계를 수행해야 합니다.
 
-1. 클래스 정의를 다음으로 이동 `app/code/YourVendor/YourModule`:
+1. 클래스 정의를 `app/code/YourVendor/YourModule`(으)로 이동:
 
    ```php
       <?php
@@ -103,7 +103,7 @@ $someObject = $bootstrap->getObjectManager()->create(SomeClass::class);
        }
    ```
 
-1. 진입점 편집 `my_api/index.php` 따라서 다음과 같이 표시됩니다.
+1. 다음과 같이 표시되도록 진입점 `my_api/index.php`을(를) 편집합니다.
 
    ```php
      <?php
@@ -170,4 +170,4 @@ class YourClass
 
 ## 관련 읽기
 
-* [코드 생성](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) 개발자 설명서에서 확인할 수 있습니다.
+* 개발자 설명서에서 [코드 생성](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html).

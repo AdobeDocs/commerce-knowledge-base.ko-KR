@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ## Markdown 작성자
 
-일반적으로 [Adobe Experience League Markdown 구문 스타일 안내서](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), 그러나 몇 가지 차이점과 예외가 있습니다. 또한 경우에 따라 특정 HTML 태그가 필요합니다.
+일반적으로 [Adobe Experience League Markdown 구문 스타일 가이드](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en)를 사용하지만 몇 가지 차이점과 예외가 있습니다. 또한 경우에 따라 특정 HTML 태그가 필요합니다.
 
 다음은 보고서에서 가장 일반적으로 사용되는 Markdown 서식의 예입니다.
 
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 `This text will be *italics*`
 
-텍스트 서식을 밑줄로 지정하려면 `<ins>` 태그:
+밑줄로 텍스트 서식을 지정하려면 `<ins>` 태그를 사용하십시오.
 
 `<ins>This text will be underlined</ins>`
 
-줄 바꿈을 추가하려면 `<br>` HTML 태그입니다.
+줄 바꿈을 추가하려면 `<br>` HTML 태그를 사용하십시오.
 
 
 ## 헤더
@@ -54,8 +54,11 @@ H2에서 H5까지의 헤더에 대해 다음 서식을 사용합니다. 문서 �
 
 \`\`\` sql
 
-TABLE_NAME을 다음으로 선택 `Table`, ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
-TABLE_SCHEMA = &quot;%project_id%&quot; ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC인 information_schema.TABLES에서
+TABLE_NAME을 `Table`(으)로 선택합니다.
+ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024)(`Size (MB)`)
+FROM 정보_스키마.테이블
+여기서 TABLE_SCHEMA = &quot;%project_id%&quot;
+(DATA_LENGTH + INDEX_LENGTH) 내림차순;
 
 \`\`\`
 
@@ -81,7 +84,7 @@ your code here
 </pre></code>
 ```
 
-위치 ``%language-code%`` 는 정의한 코드입니다. [Prism.js 지원 언어](https://prismjs.com/#supported-languages).
+여기서 ``%language-code%``은(는) [Prism.js 지원 언어](https://prismjs.com/#supported-languages)로 정의된 코드입니다.
 
 ## 목록
 
@@ -130,7 +133,7 @@ your code here
 
 모든 종류의 첨부 파일은 .png, .jpg 및 .jpeg 형식이어야 합니다. 보안을 위해 다음 세 가지 형식 중 하나에 해당하는 첨부 파일만 허용합니다.
 
-이미지를 삽입하려면 이미지를 *assets* 문서에 이미지를 삽입하려면 다음 구문을 사용하고 문서와 동일한 섹션 폴더에 하위 폴더를 추가합니다.
+이미지를 삽입하려면 해당 문서와 동일한 섹션 폴더에 있는 *assets* 하위 폴더에 이미지를 넣고 다음 구문을 사용하여 이미지를 문서에 삽입합니다.
 
 ```markdown
 ![alt text](assets/image.png)
@@ -162,17 +165,17 @@ your code here
 [this is link to the anchor in the same article](#this-is-header)
 ```
 
-헤더 이외의 요소를 참조해야 하는 경우 HTML을 사용하여 추가할 요소를 정의합니다. [id 속성](https://www.w3schools.com/html/html_id.asp). 그런 다음 Markdown 또는 HTML 을 사용하여 이 ID를 참조할 수 있습니다.
+헤더가 아닌 요소를 참조해야 하는 경우 HTML을 사용하여 추가할 요소를 정의하십시오. [id 특성](https://www.w3schools.com/html/html_id.asp)을 사용하십시오. 그런 다음 Markdown 또는 HTML 을 사용하여 이 ID를 참조할 수 있습니다.
 
 ### 상대 링크 및 기타 문서에 대한 링크
 
-관련 링크를 사용하여 지원 기술 문서를 참조하지 마십시오. 문서가 다음에 게시되면 해당 링크가 작동하지 않습니다 [Adobe Commerce 도움말 센터](https://support.magento.com/hc/en-us).
-의 전체 하이퍼링크를 사용하십시오. [Adobe Commerce 도움말 센터](https://support.magento.com/hc/en-us).
+관련 링크를 사용하여 지원 기술 문서를 참조하지 마십시오. 문서가 [Adobe Commerce 도움말 센터](https://support.magento.com/hc/en-us)에 게시되면 해당 링크가 작동하지 않습니다.
+[Adobe Commerce 도움말 센터](https://support.magento.com/hc/en-us)에서 전체 하이퍼링크를 사용하십시오.
 
 
 ## 표
 
-사용 [테이블에 대한 HTML 서식](https://www.w3schools.com/html/html_tables.asp).
+테이블에 [HTML 서식을 사용합니다](https://www.w3schools.com/html/html_tables.asp).
 
 
 ## 경고 및 정보 블록

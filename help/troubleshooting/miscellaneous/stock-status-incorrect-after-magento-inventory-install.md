@@ -27,10 +27,10 @@ ht-degree: 0%
 
 ## 원인
 
-처음 설치/업그레이드할 때 모든 제품은 기본 출처에 지정되며 모든 수량을 해당 출처에 연관시킵니다. 기본 출처는 기본 웹 사이트가 연결된 기본 재고에 지정됩니다.
+처음 설치/업그레이드할 때 모든 제품은 기본 출처에 지정되며 모든 수량을 해당 출처에 연관시킵니다. 기본 Source은 기본 웹 사이트가 연결된 기본 스톡에 할당됩니다.
 
 ## 솔루션
 
 웹 사이트가 두 개 이상 있는 경우 이러한 웹 사이트를 Default Stock 또는 기타 사용자 지정 스톡에 Sales Channel으로 추가해야 합니다.
 
-다음을 참조하십시오. [Wiki/사용 안내서의 스톡 섹션](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html) 자세한 내용은 사용 안내서를 참조하십시오.
+이 작업을 수행하는 방법에 대한 자세한 내용은 사용 안내서의 [위키/사용 안내서의 재고 섹션](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html)을 참조하십시오.

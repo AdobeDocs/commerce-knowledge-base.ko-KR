@@ -24,7 +24,7 @@ ht-degree: 0%
 
 쇼핑객이 Amazon 페이로 체크아웃하고 로그인하여 결제 단계로 진행한 후 결제 위젯에서 결제 신용카드를 변경하려고 하면 오류 메시지가 나타납니다. 쇼핑객이 오류를 무시하고 체크아웃을 진행하면 체크아웃을 완료할 수 없습니다.
 
-이 문제를 해결하고 오류를 제거하기 위해 [patch](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip).
+이 문제를 해결하고 오류를 제거하기 위해 [패치](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip)를 만들었습니다.
 
 <u>재현 단계</u>:
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 
 <u>예상 결과</u>: 다른 신용 카드가 오류 없이 결제 방법으로 선택됩니다.
 
-<u>실제 결과</u>: 오류 메시지가 표시됩니다. *&quot;이 판매자에게 연락하여 주문을 완료해 주십시오.&quot;*
+<u>실제 결과</u>: 오류 메시지가 나타납니다. *&quot;이 판매자에게 문의하여 주문을 완료하십시오.&quot;*
 
 ## 솔루션
 
-[패치 적용](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip) 아래요.
+아래의 [패치를 적용](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip)합니다.
 
 ## 패치
 
@@ -61,6 +61,6 @@ ht-degree: 0%
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 지침에 대해서는 지원 기술 자료에서 참조하십시오.
+자세한 내용은 지원 기술 자료에서 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

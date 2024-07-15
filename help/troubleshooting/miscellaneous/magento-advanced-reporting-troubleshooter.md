@@ -19,10 +19,10 @@ Adobe Commerce의 고급 보고 문제는 이 문제 해결사 도구를 사용�
 
 +++**웹 사이트가 고급 보고 요구 사항을 충족합니까?**
 
-고급 보고를 사용할 때 404 오류 페이지가 표시됩니다. 웹 사이트 충족 여부 [고급 보고 요구 사항](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements)?
+고급 보고를 사용할 때 404 오류 페이지가 표시됩니다. 웹 사이트가 [고급 보고 요구 사항](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements)을 충족합니까?
 
-a. 예 - 진행합니다. [2단계](#step-2).\
-b. 아니오 - 의 단계에 따라 사이트에 대한 고급 보고 요구 사항을 완료합니다. [고급 보고 요구 사항](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements). 그런 다음 로 진행합니다. [2단계](#step-2).
+a. 예 - [2단계](#step-2)로 진행합니다.\
+b. 아니요 - [고급 보고 요구 사항](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements)의 단계에 따라 사이트에 대한 고급 보고 요구 사항을 완료합니다. 그런 다음 [2단계](#step-2)로 진행합니다.
 
 +++
 
@@ -33,21 +33,21 @@ b. 아니오 - 의 단계에 따라 사이트에 대한 고급 보고 요구 사
 주문 및 구성에서 여러 기본 통화가 사용됩니까? 이 SQL 명령을 실행하여 현재 구성을 가져옵니다. `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` .
 
 a. 예 - 쿼리에서 반환된 행이 여러 개인 경우 한 통화만 지원하므로 고급 보고를 사용할 수 없습니다.\
-b. NO - 출력에 하나의 통화만 표시됩니다. 예: `USD`. 주문에서 여러 기본 통화가 사용된 적이 있습니까? 다음 SQL 명령을 실행하여 내역 주문 데이터를 가져옵니다.\
+b. NO - 출력에 하나의 통화만 표시됩니다. 예: `USD` 주문에서 여러 기본 통화가 사용된 적이 있습니까? 다음 SQL 명령을 실행하여 내역 주문 데이터를 가져옵니다.\
 `SELECT DISTINCT base_currency_code FROM sales_order;`.
-**참고: 이 명령을 사용하려면 전체 테이블을 스캔해야 하므로 레코드 수가 많은 테이블의 경우 쿼리가 실행되는 동안 성능에 영향을 줄 수 있습니다** 기록 주문 데이터를 가져옵니다.
-여러 기본 통화가 사용된 경우 하나의 통화만 지원되므로 고급 보고를 사용할 수 없습니다. 출력에 하나의 통화만 표시되면 다음으로 진행합니다. [3단계](#step-3).
+**참고: 이 명령을 사용하려면 전체 테이블을 검사해야 하므로 레코드 수가 많은 테이블의 경우 쿼리가 실행되는 동안 성능에 영향을 줄 수 있습니다.** 이전 주문 데이터를 가져옵니다.
+여러 기본 통화가 사용된 경우 하나의 통화만 지원되므로 고급 보고를 사용할 수 없습니다. 출력에 하나의 통화만 표시되면 [3단계](#step-3)로 진행합니다.
 
 +++
 
 ## 3단계 - 분할 데이터베이스가 사용 중인지 확인 {#step-3}
 
-+++**데이터베이스 분할 솔루션을 사용하고 있습니까?**
++++**분할 데이터베이스 솔루션을 사용하고 있습니까?**
 
-을(를) 사용 중입니다. [데이터베이스 분할 솔루션](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)?
+[분할 데이터베이스 솔루션](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)을 사용하고 있습니까?
 
-a. 예 - 패치 사용 **MDVA-26831** 위치: [분할 데이터베이스 솔루션의 고급 보고 404 오류](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md) 캐시를 지웁니다. 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
-b. 아니요 - 진행합니다. [4단계](#step-4).
+a. 예 - 분할 데이터베이스 솔루션 ](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)에서 [고급 보고 404 오류의 **MDVA-26831** 패치를 사용하고 캐시를 지우십시오. 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
+b. 아니요 - [4단계](#step-4)로 진행합니다.
 
 +++
 
@@ -55,21 +55,21 @@ b. 아니요 - 진행합니다. [4단계](#step-4).
 
 +++**고급 보고가 활성화되어 있습니까?**
 
-확인 **관리자** > **스토어** > **설정** > **구성** > **일반** > **고급**. 자세한 단계는 을 참조하십시오. [고급 보고: 고급 보고 활성화](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting).
+**관리자** > **스토어** > **설정** > **구성** > **일반** > **고급**&#x200B;을 확인하세요. 자세한 단계는 [고급 보고: 고급 보고 사용](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)을 검토하십시오.
 
-a. 예 - 진행합니다. [5단계](#step-5).\
-b. 아니요 - [고급 보고 활성화](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) 저장하고 Adobe Commerce 및 고급 보고가 동기화되도록 24시간 동안 기다립니다. 이제 데이터가 로드되는지 확인합니다. 만약 당신이 문제를 해결했다면. 진행되지 않는 경우 [5단계](#step-5).
+a. 예 - [5단계](#step-5)로 진행합니다.\
+b. 아니요 - [고급 보고를 사용하도록 설정](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)하고 저장하고 Adobe Commerce 및 고급 보고가 동기화되도록 24시간 동안 기다립니다. 이제 데이터가 로드되는지 확인합니다. 만약 당신이 문제를 해결했다면. [5단계](#step-5)로 진행되지 않는 경우
 
 +++
 
 ## 5단계 - 토큰 확인 {#step-5}
 
-+++**토큰 있어요?**
++++**토큰이 있습니까?**
 
-다음 쿼리를 실행하여 토큰이 있는지 확인하십시오. `SELECT * FROM core_config_data WHERE path LIKE 'analytics/general/token' \G` 토큰 있어요?
+다음 쿼리를 실행하여 토큰이 있는지 확인하십시오. `SELECT * FROM core_config_data WHERE path LIKE 'analytics/general/token' \G` 토큰이 있습니까?
 
-a. 예 - 진행합니다. [7단계](#step-7).\
-b. NO - 토큰 값이 NULL이거나 데이터베이스에 레코드가 없는 경우 [6단계](#step-6).
+a. 예 - [7단계](#step-7)로 진행합니다.\
+b. 아니요 - 토큰 값이 NULL이거나 데이터베이스에 레코드가 없으면 [6](#step-6)단계로 진행합니다.
 
 +++
 
@@ -77,47 +77,47 @@ b. NO - 토큰 값이 NULL이거나 데이터베이스에 레코드가 없는 �
 
 +++**쿼리가 행을 반환합니까?**
 
-이 쿼리를 실행하여 플래그 테이블의 카운터 값 확인: ``SELECT * FROM `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter'\G`` 쿼리가 행을 반환합니까?
+이 쿼리를 실행하여 플래그 테이블에서 카운터 값을 확인합니다. ``SELECT * FROM `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter'\G`` 쿼리가 행을 반환합니까?
 
 a. 예 - 다음 단계를 수행합니다. 1. 아래 쿼리를 실행합니다.\
 ``DELETE from `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter';``\
-2\. [고급 보고 모듈 비활성화 및 활성화](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) 설정 및 [토큰 재인증](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active).\
-3\. Adobe Commerce 및 고급 보고가 동기화할 때까지 24시간 대기합니다. 여전히 고급 보고에서 데이터를 볼 수 없는 경우 [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-b. 아니오 - 쿼리가 아무 것도 반환하지 않으면 다음 단계를 수행합니다. 1. [고급 보고 모듈 비활성화 및 활성화](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) 설정 및 [토큰 재인증](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active).\
-2\. Adobe Commerce 및 고급 보고가 동기화할 때까지 24시간 대기합니다. 여전히 고급 보고에서 데이터를 볼 수 없는 경우 [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+2\. [고급 보고 모듈을 사용하지 않도록 설정](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) 및 [토큰 재인증](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active)을 사용합니다.\
+3\. Adobe Commerce 및 고급 보고가 동기화할 때까지 24시간 대기합니다. 고급 보고에서 여전히 데이터를 볼 수 없는 경우 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오.\
+b. 아니오 - 쿼리가 아무 것도 반환하지 않으면 다음 단계를 수행합니다. 1. [고급 보고 모듈을 사용하지 않도록 설정](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) 및 [토큰 재인증](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active)을 사용합니다.\
+2\. Adobe Commerce 및 고급 보고가 동기화할 때까지 24시간 대기합니다. 고급 보고에서 여전히 데이터를 볼 수 없는 경우 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오.
 
 +++
 
-## 7단계 - 다음 위치에서 레코드 확인 `cron_schedule` 표 {#step-7}
+## 7단계 - `cron_schedule` 테이블의 레코드 확인 {#step-7}
 
-+++**다음 항목에 레코드가 있습니까? `cron_schedule` 테이블?**
++++**`cron_schedule` 테이블에 레코드가 있습니까?**
 
-해당 작업 확인 `analytics_collect_data` 이(가) 이 쿼리를 실행하여 실행되었습니다. `SELECT * FROM cron_schedule WHERE job_code LIKE 'analytics_collect_data' \G`
+`SELECT * FROM cron_schedule WHERE job_code LIKE 'analytics_collect_data' \G` 쿼리를 실행하여 `analytics_collect_data` 작업이 실행되었는지 확인하십시오.
 
-a. 예 - 레코드와 **상태** 열 메시지 _누락_, 이 KB 문서의 패치 사용 [자체 cron 그룹에서 실행되도록 고급 보고 업데이트](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md).\
-b. 예 - 레코드와 **상태** 열 메시지 _성공_, 다음으로 진행 [9단계](#step-9).\
-c. 예 - 레코드와 **상태** 열 메시지 _오류_, 다음으로 진행 [8단계.](#step-8)\
-d. NO - 레코드가 없는 경우 다음 단계로 진행합니다. [8단계](#step-8).
-
-+++
-
-## 8단계 - 작업 확인 `support_report.log` {#step-8}
-
-+++**작업이 로그인되었습니다. `support_report.log`?**
-
-다음 명령을 실행합니다. `zgrep analytics_collect_data var/log/support_report.log var/log/support_report.log.1.gz | tail`
-
-a. 예 - 질의 출력이 성공적인 작업을 나타내는 경우, 예를 들어 `Cron Job analytics_collect_data is successfully finished` 다음으로 진행 [9단계](#step-9).\
-b. 아니요 - 로그에 레코드가 없으면 [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-c. 예 - 레코드가 있지만 오류가 있는 경우 [10단계](#step-10).
+a. 예 - 레코드가 있고 **상태** 열에 _누락_&#x200B;이 표시되면 이 KB 문서 [고급 보고 업데이트](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md)의 패치를 사용하여 자체 cron 그룹에서 실행하십시오.\
+b. 예 - 레코드가 있고 **상태** 열에 _성공_&#x200B;이 표시되면 [9](#step-9)단계를 진행하십시오.\
+c. 예 - 레코드가 있고 **status** 열에 _error_&#x200B;이(가) 표시되면 [8단계](#step-8)로 진행하십시오.\
+d. 아니요 - 레코드가 없으면 [8단계](#step-8)로 진행합니다.
 
 +++
 
-## 9단계 - 확인 `data.tgz` 파일 {#step-9}
+## 8단계 - `support_report.log`에서 작업 확인 {#step-8}
 
-+++**파일이 `data.tgz` 시스템에 있고 액세스 로그에 레코드가 있습니까?**
++++**작업이 `support_report.log`에 기록되었습니까?**
 
-파일을 확인하려면 `data.tgz` 존재함, 명령 실행:
+명령 실행: `zgrep analytics_collect_data var/log/support_report.log var/log/support_report.log.1.gz | tail`
+
+a. 예 - 쿼리의 출력이 성공적인 작업을 나타내는 경우, 예를 들어 `Cron Job analytics_collect_data is successfully finished`은(는) [9](#step-9)단계로 진행합니다.\
+b. 아니요 - 로그에 레코드가 없으면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)합니다.\
+c. 예 - 레코드가 있지만 오류가 있으면 [10단계](#step-10)로 진행합니다.
+
++++
+
+## 9단계 - `data.tgz` 파일 확인 {#step-9}
+
++++**파일 `data.tgz`이(가) 시스템에 있고 액세스 로그에 레코드가 있습니까?**
+
+`data.tgz` 파일이 있는지 확인하려면 명령을 실행하십시오.
 
 ```
 ls -ltr pub/media/analytics/<there should be a directory with hash name>/
@@ -129,8 +129,8 @@ access.logs에 레코드가 있는지 확인하려면 명령을 실행합니다.
 zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
 ```
 
-a. 예 - 파일이 `data.tgz` 이(가) 있고 액세스 로그에 레코드가 있지만 404 오류가 여전히 있으므로 다음을 수행해야 합니다. [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-b. 아니요 - 진행합니다. [10단계](#step-10).
+a. 예 - `data.tgz` 파일이 있고 액세스 로그에 레코드가 있지만 404 오류가 여전히 있는 경우 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)해야 합니다.\
+b. 아니요 - [10단계](#step-10)로 진행합니다.
 
 +++
 
@@ -138,21 +138,21 @@ b. 아니요 - 진행합니다. [10단계](#step-10).
 
 +++**cron 작업에서 오류 메시지가 표시됩니까?**
 
-예: `core_config_data` 오류를 표시한 표 *&quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0 파일을 삭제할 수 없습니다.*. 경고!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): 해당 파일 또는 디렉터리가 없습니다.*
+예: `core_config_data` 테이블에 *&quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0 파일을 삭제할 수 없습니다*. 경고!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): 해당 파일 또는 디렉터리가 없습니다.*
 
-a. 예 - ACSD-50165 패치 사용 [파일을 삭제할 수 없습니다. 경고!unlink: 관리자의 파일 또는 디렉터리 오류가 없습니다.](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md), 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
-b. 아니요 - 진행합니다. [11단계](#step-11).
+a. 예 - [에서 ACSD-50165 패치를 사용합니다. 파일을 삭제할 수 없습니다. 경고!연결 해제: Admin](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)에서 이러한 파일 또는 디렉터리 오류가 없습니다. 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
+b. 아니요 - [11단계](#step-11)로 진행합니다.
 
 +++
 
 ## 11단계 - 페이지 빌더 오류가 있는지 확인 {#step-11}
 
-+++**페이지 빌더로 인해 오류가 발생합니까?**
++++**페이지 빌더로 인해 오류가 발생했습니까?**
 
 예: `report.ERROR: Cron Job analytics_collect_data has an error: substr_count() expects parameter 1 to be string, null given. Statistics: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":224919552,"emalloc_start":216398384} [] []`
 
-a. 예 - MDVA-19391 패치 사용 [Adobe Commerce의 일반적인 고급 보고 cron 작업 오류](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md), 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
-b. 아니요 - [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. 예 - [Adobe Commerce의 일반 고급 보고 크론 작업 오류](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md)에서 MDVA-19391 패치를 사용합니다. 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
+b. 아니요 - [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 

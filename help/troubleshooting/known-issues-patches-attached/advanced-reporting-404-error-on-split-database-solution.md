@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 분할 데이터베이스 솔루션의 고급 보고 404 오류
 
-이 문서에서는 Adobe Commerce 2.3.x 사용자에게 [데이터베이스 분할 솔루션](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) 고급 보고를 사용하려고 할 때 404 오류가 발생합니다.
+이 문서에서는 고급 보고를 사용하려고 할 때 404 오류가 발생하는 [분할 데이터베이스 솔루션](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)을 사용하는 Adobe Commerce 2.3.x 사용자를 위한 패치를 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -25,7 +25,7 @@ Adobe Commerce 2.3.0 - 2.3.5-p1
 
 ## 솔루션
 
-적용 [patch](assets/MDVA-26831_EE_2.3.4_v1.composer.patch.zip) 이 문서에서 제공됩니다.
+이 문서에 제공된 [패치](assets/MDVA-26831_EE_2.3.4_v1.composer.patch.zip)를 적용합니다.
 
 ## 패치
 
@@ -35,4 +35,4 @@ Adobe Commerce 2.3.0 - 2.3.5-p1
 
 ## 패치 적용 방법
 
-파일의 압축을 풀고 의 지침을 따릅니다. [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+파일의 압축을 풀고 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)의 지침을 따릅니다.

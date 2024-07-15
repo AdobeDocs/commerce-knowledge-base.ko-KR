@@ -43,9 +43,9 @@ ht-degree: 0%
 
 이 기능은 클라우드 인프라의 Adobe Commerce에서 비활성화됩니다.
 
-다음을 참조하십시오 [확장 설치, 관리 및 업그레이드](https://devdocs.magento.com/cloud/howtos/install-components.html) 업데이트를 수행하거나 Adobe Commerce의 외부 모듈을 클라우드 인프라에 설치하는 방법에 대한 자세한 내용은 개발자 설명서에서 확인하십시오.
-다음을 참조하십시오 [빠른 시작 설치](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) Adobe Commerce 온프레미스에 대한 업데이트를 수행하거나 외부 모듈을 설치하는 방법에 대한 자세한 내용은 개발자 설명서에서 확인하십시오.
+업데이트를 수행하거나 클라우드 인프라에 Adobe Commerce용 외부 모듈을 설치하는 방법에 대한 자세한 내용은 개발자 설명서에서 [확장 설치, 관리 및 업그레이드](https://devdocs.magento.com/cloud/howtos/install-components.html)를 참조하십시오.
+Adobe Commerce 온-프레미스에 대한 업데이트를 수행하거나 외부 모듈을 설치하는 방법에 대한 자세한 내용은 개발자 설명서에서 [빠른 시작 설치](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)를 참조하십시오.
 
 ## 관련 읽기
 
-* 다음을 참조하십시오 [확장 설치](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) 개발자 설명서에서 확인할 수 있습니다.
+* 개발자 설명서에서 [확장 설치](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension)를 참조하십시오.

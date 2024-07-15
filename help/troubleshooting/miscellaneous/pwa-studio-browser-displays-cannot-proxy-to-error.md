@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: 브라우저에 &quot;프록시 대상 불가&quot; 오류 표시
 
-이 항목에서는 웹 브라우저에 &quot;*에 프록시를 지정할 수 없음*&quot;콘솔에는
+이 항목에서는 웹 브라우저에 &quot;*에 대해*&#x200B;프록시를 사용할 수 없음&quot;이 표시되고 콘솔에
 
 ```
 ENOTFOUND
@@ -37,7 +37,7 @@ Adobe Commerce용 점진적 웹 앱(PWA) Studio를 사용할 때 오류가 발�
 
 <u>실제 결과</u>:
 
-* 웹 브라우저에 &quot;*에 프록시를 지정할 수 없음*&quot;오류이며 콘솔에는 다음과 같은 오류가 표시됩니다.
+* 웹 브라우저에 &quot;*프록시를*&#x200B;에 사용할 수 없음&quot; 오류가 표시되고 콘솔에 다음과 같은 오류가 표시됩니다.
 
 ```
     ENOTFOUND
@@ -51,7 +51,7 @@ NodeJS가 Adobe Commerce 저장소의 호스트 이름을 확인할 수 없습�
 ## 솔루션
 
 1. Adobe Commerce 스토어가 둘 이상의 웹 브라우저에 로드되는지 확인하십시오.
-1. 로컬 DNS 서버 또는 VPN을 실행 중인 경우 호스트 파일( 위치: `/etc/hosts`) 이 도메인을 수동으로 매핑([호스트 파일 편집에 대한 일반 지침](https://linuxize.com/post/how-to-edit-your-hosts-file/))를 클릭하여 NodeJS로 확인할 수 있습니다.
+1. 로컬 DNS 서버나 VPN을 실행 중인 경우 `/etc/hosts`에 있는 호스트 파일에 항목을 추가하고 이 도메인([호스트 파일 편집에 대한 일반 지침](https://linuxize.com/post/how-to-edit-your-hosts-file/))을 수동으로 매핑하여 NodeJS가 확인할 수 있도록 합니다.
 
 ## 관련 읽기
 

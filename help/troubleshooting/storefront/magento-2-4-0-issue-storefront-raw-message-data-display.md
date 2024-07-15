@@ -24,14 +24,14 @@ ht-degree: 0%
 
 <u>재현 단계:</u>
 
-1. 다음으로 이동 **새 계정 만들기** 상점 첫 페이지에요.
+1. 상점 첫 화면의 **새 계정 만들기** 페이지로 이동합니다.
 1. 등록된 이메일을 사용하여 새 계정을 만듭니다. 다음 메시지가 표시됩니다.
 
 `There+is+already+an+account+with+this+email+address.+If+you+are+sure+that+it+is+your+email+address,+click+here+to+get+your+password+and+access+your+account.`
 
 ## 원인
 
-이 문제는 set\\read 쿠키와 관련된 PHP 7.4.2 문제로 인해 발생합니다. 다음을 참조하십시오 [PHP BUG \#79174 setcookie() 는 공백을 \`+\`로 인코딩하지만 $\_COOKIE는 더 이상 디코딩하지 않습니다.](https://bugs.php.net/bug.php?id=79174).
+이 문제는 set\\read 쿠키와 관련된 PHP 7.4.2 문제로 인해 발생합니다. [PHP BUG \#79174 setcookie() 는 공백을 \`+\`로 인코딩하지만 $\_COOKIE는 더 이상 디코딩하지 않습니다](https://bugs.php.net/bug.php?id=79174).
 
 ## 솔루션
 

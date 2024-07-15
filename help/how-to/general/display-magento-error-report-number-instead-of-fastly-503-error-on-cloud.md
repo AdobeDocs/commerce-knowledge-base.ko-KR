@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Fastly 503 오류 대신 Adobe Commerce 오류 보고서 번호 표시
 
-기본적으로 Fastly는 모든 Adobe Commerce 오류를 **503 서비스를 사용할 수 없음** 오류. Adobe Commerce 오류 로그 보고서 번호(로그에서 찾아 오류 세부 정보를 볼 수 있음)를 표시하려면 다음 단계를 사용하여 Fastly를 생략하고 웹 사이트를 엽니다.
+기본적으로 Fastly는 **503 Service Unavailable** 오류 뒤에 있는 모든 Adobe Commerce 오류를 숨깁니다. Adobe Commerce 오류 로그 보고서 번호(로그에서 찾아 오류 세부 정보를 볼 수 있음)를 표시하려면 다음 단계를 사용하여 Fastly를 생략하고 웹 사이트를 엽니다.
 
 1. 로컬 컴퓨터의 호스트 파일에 응용 프로그램의 도메인 및 IP 주소를 추가합니다.
 1. 브라우저 캐시와 쿠키를 지웁니다(또는 시크릿 모드로 전환).
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 정품 Adobe Commerce 오류와 오류 보고서 번호가 표시되면 다음 단계에 따라 오류 보고서 파일에 세부 정보를 가져올 수 있습니다.
 
-1. 영향을 받는 환경에 SSH를 추가합니다. 을(를) 참조하십시오 [환경에 SSH](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) 개발자 설명서에서 확인할 수 있습니다.
-1. 를 찾습니다. `./var/report/{error_number}` 파일.
+1. 영향을 받는 환경에 SSH를 추가합니다. 개발자 설명서에서 [환경에 대한 SSH](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh)을(를) 참조하십시오.
+1. `./var/report/{error_number}` 파일을 찾습니다.
 
 ## 호스트 파일에 애플리케이션 도메인 및 IP 주소 추가: 자세한 단계
 
-1. 다음을 실행하여 저장소의 서버 IP를 확인합니다. `nslookup` 로컬 컴퓨터의 명령줄에 있는 명령:
+1. 로컬 컴퓨터의 명령줄에서 `nslookup` 명령을 실행하여 저장소의 서버 IP를 확인합니다.
    * Pro 아키텍처 사용자(스테이징 및 프로덕션 환경):
 
    ```

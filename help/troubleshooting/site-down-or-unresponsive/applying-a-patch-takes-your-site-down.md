@@ -48,15 +48,15 @@ Adobe Commerce 온-프레미스 및 Magento Open Source 2.x 버전의 경우,
    patch -p1 -R %patch_name%.composer.patch
    ```
 
-   (위 명령이 작동하지 않으면 다음을 사용해 보십시오.) `-p2` 대신 `-p1`)
+   (위 명령이 작동하지 않으면 `-p1` 대신 `-p2`을(를) 사용해 보십시오.)
 
-1. 변경 사항을 반영하려면 아래 관리자의 캐시를 새로 고침하십시오. **시스템** > **캐시 관리**.
+1. 변경 내용을 반영하려면 **시스템** > **캐시 관리**&#x200B;에서 관리자의 캐시를 새로 고치십시오.
 
 ### 클라우드 인프라의 Adobe Commerce, 모든 버전
 
 클라우드 인프라의 Adobe Commerce, 모든 버전
 
-1. 제거 `%patch_name%.composer.patch` 의 파일 `m2-hotfixes` 디렉토리.
+1. `m2-hotfixes` 디렉터리에서 `%patch_name%.composer.patch` 파일을 제거합니다.
 1. 코드 변경 사항을 커밋하고 푸시합니다.
 
    ```
@@ -65,4 +65,4 @@ Adobe Commerce 온-프레미스 및 Magento Open Source 2.x 버전의 경우,
 
 ## 관련 읽기
 
-* [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 을 참조하십시오.
+* 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).

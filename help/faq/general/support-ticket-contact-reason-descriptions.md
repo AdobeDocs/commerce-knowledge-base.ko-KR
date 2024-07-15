@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 지원 티켓 연락처 사유 설명
 
-이 문서에는 지원 티켓 목록이 있습니다. **연락처 사유** 필드 옵션 및 각 옵션에 대한 자세한 설명
+이 문서에서는 지원 티켓 **연락처 이유** 필드 옵션과 각 옵션에 대한 자세한 설명을 나열합니다.
 
 ## 연락처 이유
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## Adobe Commerce 애플리케이션 이유
 
-다음과 같은 경우에 표시되는 옵션입니다. **Adobe Commerce 애플리케이션** 이(가) (으)로 선택됨 **연락처 사유**:
+**Adobe Commerce 응용 프로그램**&#x200B;을(를) **연락처 이유**(으)로 선택한 경우 표시되는 옵션입니다.
 
 <table class="tg">
 <thead>
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 ## Adobe Commerce Cloud 인프라의 이유
 
-다음과 같은 경우에 표시되는 옵션입니다. **Adobe Commerce Cloud 인프라** 이(가) (으)로 선택됨 **연락처 사유**:
+**Adobe Commerce Cloud 인프라**&#x200B;를 **연락처 이유**(으)로 선택한 경우 표시되는 옵션입니다.
 
 <table class="tg">
 <thead>
@@ -150,4 +150,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-을(를) 참조하십시오 [도움말 센터 안내서 > 지원 티켓 필드 설명](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets) 다른 티켓 접수 양식 필드에 대한 세부 정보를 보려면 다음을 수행하십시오.
+다른 티켓 접수 양식 필드에 대한 자세한 내용은 [도움말 센터 가이드 > 지원 티켓 필드 설명](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets)을 참조하세요.

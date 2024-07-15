@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 유지 관리 모드가 활성화되었기 때문에 사이트 로드 실패
 
-이 문서에서는 유지 관리 모드가 계속 활성화되어 있거나 자동으로 비활성화되지 않아 사이트가 로드되지 않는 경우에 대한 수정 사항을 제공합니다. 다음과 같은 오류 메시지가 표시될 수 있습니다. *서비스를 일시적으로 사용할 수 없음 유지 관리 다운타임 또는 용량 문제로 인해 서버가 요청을 일시적으로 처리할 수 없습니다.*
+이 문서에서는 유지 관리 모드가 계속 활성화되어 있거나 자동으로 비활성화되지 않아 사이트가 로드되지 않는 경우에 대한 수정 사항을 제공합니다. 오류 메시지가 나타날 수 있습니다. *서비스를 일시적으로 사용할 수 없습니다. 유지 관리 중단 시간 또는 용량 문제로 인해 서버가 요청을 일시적으로 처리할 수 없습니다.*
 
 ## 영향을 받는 버전 및 제품
 
@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## 관련 읽기
 
-유지 관리 모드 사용 시기에 대해 알아보려면 다음을 참조하십시오. [유지 관리 모드 활성화 또는 비활성화](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode) 개발자 설명서에서 확인할 수 있습니다.
+유지 관리 모드를 사용하는 방법에 대해 알아보려면 개발자 설명서에서 [유지 관리 모드 사용 또는 사용 안 함](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode)을 참조하세요.

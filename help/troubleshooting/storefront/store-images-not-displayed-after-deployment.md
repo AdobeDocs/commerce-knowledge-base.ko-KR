@@ -31,9 +31,9 @@ ht-degree: 0%
 
 이 경우 Magento 명령을 사용하여 이미지 캐시를 재생성하고 이미지를 올바르게 표시할 수 있습니다.
 
-이를 수행하려면 SSH 정보와 저장소 URL을 통해 사용할 수 있어야 합니다. [클라우드 콘솔](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
+이를 수행하려면 SSH 정보와 [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)을 통해 사용할 수 있는 저장소 URL이 필요합니다.
 
-1. SSH를 프로젝트에 추가합니다. [데이터베이스 덤프](/help/how-to/general/create-database-dump-on-cloud.md)에 설명된 대로 [환경에 SSH](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) 개발자 설명서에서 확인할 수 있습니다.
+1. 개발자 설명서의 [환경에 대한 SSH](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh)에 설명된 대로 [데이터베이스 덤프](/help/how-to/general/create-database-dump-on-cloud.md)의 소스인 프로젝트에 대한 SSH입니다.
 1. 다음을 실행하여 이미지 캐시를 재생성합니다.
 
    ```bash

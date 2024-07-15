@@ -34,7 +34,8 @@ Adobe Commerce 지원 기술 자료에서는 Adobe Commerce 지원 팀에서 제
 <td>웹 사이트</td>
 </tr>
 <tr>
-<td rowspan="2">Adobe Commerce 온-프레미스 및 Adobe Commerce 온 클라우드 인프라</td>
+<td rowspan="2">Adobe Commerce 온-프레미스 및
+클라우드 인프라의 Adobe Commerce</td>
 <td>
 <p>개발자(기술) 설명서:</p>
 <p><a href="https://developer.adobe.com/commerce/docs/">https://developer.adobe.com/commerce/docs/</a></p>
@@ -101,5 +102,5 @@ Adobe Commerce 지원 기술 자료에서는 Adobe Commerce 지원 팀에서 제
 ## 블로그 및 커뮤니케이션
 
 * Adobe 트러스트 센터(보안 업데이트 및 패치): [https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
-* Adobe Commerce Community Developer 블로그(방법, 모범 사례 및 커뮤니티의 기술 뉴스): [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
-* Adobe Commerce 블로그(높은 수준의 전자 상거래):[https://business.adobe.com/blog/](https://business.adobe.com/blog/)
+* Adobe Commerce 커뮤니티 개발자 블로그(사용 방법, 모범 사례 및 커뮤니티의 기술 뉴스): [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
+* Adobe Commerce 블로그(고급 전자 상거래):[https://business.adobe.com/blog/](https://business.adobe.com/blog/)

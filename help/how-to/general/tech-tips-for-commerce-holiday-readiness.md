@@ -18,8 +18,8 @@ ht-degree: 0%
 
 ## 영향을 받는 제품 및 버전
 
-* 클라우드 인프라의 Adobe Commerce, 모두 [지원되는 버전](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
+* 클라우드 인프라의 Adobe Commerce, 모든 [지원되는 버전](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
 
 ## pdf 다운로드
 
-클릭 [Commerce 휴일 준비.pdf를 위한 기술 팁](assets/tech-tips-for-commerce-holiday-readiness.pdf) pdf를 다운로드하려면 다음을 수행하십시오.
+PDF를 다운로드하려면 [Commerce holiday readiness.pdf를 위한 기술 팁](assets/tech-tips-for-commerce-holiday-readiness.pdf)을(를) 클릭하십시오.

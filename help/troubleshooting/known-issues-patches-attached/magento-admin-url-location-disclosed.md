@@ -29,9 +29,9 @@ ht-degree: 0%
 
 이 문제를 해결하려면 이 문서에 첨부된 패치를 적용하십시오. 다운로드하려면 다음 링크를 클릭하십시오.
 
-* 다운로드 [PRODSECBUG-2432\_EE\_2.1.17\_composer.patch](assets/PRODSECBUG-2432_EE_2.1.17_composer.patch.zip) - 버전 2.1.13-2.1.17, Adobe Commerce, Magento Open Source
-* 다운로드 [PRODSECBUG-2432\_EE\_2.2.8\_composer.patch](assets/PRODSECBUG-2432_EE_2.2.8_composer.patch.zip) - 버전 2.2.0-2.2.8의 경우 모든 에디션
-* 다운로드 [PRODSECBUG-2432\_EE\_2.3.1\_composer.patch](assets/PRODSECBUG-2432_EE_2.3.1_composer.patch.zip) - 버전 2.3.0-2.3.1의 경우, 모든 에디션
+* 버전 2.1.13-2.1.17, Adobe Commerce, Magento Open Source의 경우 [PRODSECBUG-2432\_EE\_2.1.17\_composer.patch](assets/PRODSECBUG-2432_EE_2.1.17_composer.patch.zip) 다운로드
+* [PRODSECBUG-2432\_EE\_2.2.8\_composer.patch](assets/PRODSECBUG-2432_EE_2.2.8_composer.patch.zip) 다운로드 - 버전 2.2.0-2.2.8의 경우 모든 버전
+* [PRODSECBUG-2432\_EE\_2.3.1\_composer.patch](assets/PRODSECBUG-2432_EE_2.3.1_composer.patch.zip) 다운로드 - 버전 2.3.0-2.3.1, 모든 에디션
 
 제품/버전에 대한 패치가 표시되지 않으면 최신 보안 릴리스로 업그레이드한 다음 패치를 적용하십시오.
 
@@ -39,13 +39,13 @@ Adobe은 발작 증상이 없어도 가능한 한 빨리 패치를 붙일 것을
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 설명서를 참조하십시오.
+지침은 [Adobe Commerce에서 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 기타 보안 권장 사항
 
 또한 Adobe은 판매자가 2단계 인증, VPN, IP 허용 목록에 추가 등을 포함하여 관리 패널을 보호하기 위해 도구를 배포할 것을 강력히 권장합니다. 자세한 내용은 다음 블로그 및 설명서를 참조하십시오.
 
-* [브루트 포스 공격에 대한 Protect의 즉각적인 조치 5개](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
-* [Protect Magento 설치 암호 새로운 업데이트 추측하기](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
+* Brute Force 공격에 대한 Protect에 대한 [5 즉각적인 조치](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
+* [새 업데이트를 예상하는 Magento 설치 암호 Protect](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [보안 모범 사례](https://magento.com/security/best-practices/security-best-practices)
-* Adobe Commerce에서 2단계 인증 추가 및 구성 [2.3.x](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html) 및 [2.4.x](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)
+* Adobe Commerce에서 [2.3.x](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html) 및 [2.4.x](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)에 대한 2단계 인증 추가 및 구성

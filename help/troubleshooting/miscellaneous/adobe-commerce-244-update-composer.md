@@ -29,8 +29,8 @@ ht-degree: 0%
 
 사전 요구 사항: Adobe Commerce 2.4.3 이하가 설치되었습니다.
 
-1. 에 설명된 대로 업그레이드를 시작합니다. [업그레이드 수행](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html).
-1. 실행 `composer update` Adobe Commerce 응용 프로그램을 업그레이드하는 명령입니다.
+1. [업그레이드 수행](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)에 설명된 대로 업그레이드를 시작합니다.
+1. `composer update` 명령을 실행하여 Adobe Commerce 응용 프로그램을 업그레이드합니다.
 
 <u>예상 결과</u>:
 
@@ -58,13 +58,13 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
 
 ## 원인
 
-2022년 7월 이후 작성기가 의 기본값을 [`allow-plugins` 옵션](https://getcomposer.org/doc/06-config.md#allow-plugins) 끝 `{}` 및 플러그인은 허용되지 않는 한 더 이상 로드되지 않습니다.
+2022년 7월 이후 작성기가 [`allow-plugins` 옵션](https://getcomposer.org/doc/06-config.md#allow-plugins)의 기본값을 `{}`(으)로 변경하고, 허용되지 않는 한 플러그인은 더 이상 로드되지 않습니다.
 
 ## 솔루션
 
-다음에 추가 `composer.json` 파일, Adobe Commerce 설치 방법에 따라 다음 작업을 수행하십시오.
+Adobe Commerce 설치 방법에 따라 `composer.json` 파일에 다음 내용을 추가하십시오.
 
-* 프로젝트가 생성된 경우 [사용 `composer create-project` 명령](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage):
+* 프로젝트가 [`composer create-project` 명령을 사용하여](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage) 만들어진 경우:
 
   ```json
   "config": {
@@ -76,7 +76,7 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
   }
   ```
 
-* 프로젝트가 다른 방식으로 생성되었으며 이 없는 경우 `"dealerdirect/phpcodesniffer-installer"` 위치: `"require-dev"` 섹션:
+* 다른 방법으로 프로젝트를 만들었지만 `"require-dev"` 섹션에 `"dealerdirect/phpcodesniffer-installer"`이(가) 없는 경우:
 
   ```json
   "config": {
@@ -87,4 +87,4 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
   }
   ```
 
-업데이트 후 `composer.json` 파일, 실행 `composer update` 명령을 실행하고 업그레이드 프로세스를 다시 시작합니다.
+`composer.json` 파일을 업데이트한 후 `composer update` 명령을 실행하고 업그레이드 프로세스를 다시 시작하십시오.

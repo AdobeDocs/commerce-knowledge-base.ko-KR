@@ -1,6 +1,6 @@
 ---
-title: '"[!DNL Cron] 작업이 **실행 중** 상태로 남아 있습니다.'
-description: 이 문서에서는 Adobe Commerce 발생 시 솔루션을 제공합니다 [!DNL cron] 작업이 실행을 완료하지 않고 "실행 중" 상태로 유지되므로 다른 작업이 수행되지 않습니다. [!DNL cron] 작업이 실행되지 않습니다. 이 문제는 네트워크 문제, 애플리케이션 충돌, 재배포 문제 등 여러 가지 이유로 발생할 수 있습니다.
+title: "[!DNL Cron] 작업이 **실행 중** 상태에서 중단되었습니다."
+description: 이 문서에서는 Adobe Commerce [!DNL cron] 작업 실행이 완료되지 않고 "실행 중" 상태로 유지되어 다른  [!DNL cron] 작업이 실행되지 않는 경우에 대한 해결 방법을 제공합니다. 이 문제는 네트워크 문제, 애플리케이션 충돌, 재배포 문제 등 여러 가지 이유로 발생할 수 있습니다.
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Cron] 작업이 &quot;실행 중&quot; 상태에서 중단됨
+# [!DNL Cron] 작업이 &quot;실행 중&quot; 상태에서 중단되었습니다.
 
-이 문서에서는 Adobe Commerce 발생 시 솔루션을 제공합니다 [!DNL cron] 작업이 실행을 완료하지 않고 &quot;실행 중&quot; 상태로 유지되므로 다른 작업이 수행되지 않습니다. [!DNL cron] 작업이 실행되지 않습니다. 이 문제는 네트워크 문제, 애플리케이션 충돌, 재배포 문제 등 여러 가지 이유로 발생할 수 있습니다.
+이 문서에서는 Adobe Commerce [!DNL cron] 작업의 실행이 완료되지 않고 &quot;실행 중&quot; 상태로 유지되어 다른 [!DNL cron] 작업이 실행되지 않는 경우에 대한 해결 방법을 제공합니다. 이 문제는 네트워크 문제, 애플리케이션 충돌, 재배포 문제 등 여러 가지 이유로 발생할 수 있습니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -21,38 +21,38 @@ ht-degree: 0%
 
 ## 증상 {#symptom}
 
-의 증상 [!DNL cron] 재설정해야 하는 작업은 다음과 같습니다.
+재설정해야 하는 [!DNL cron] 작업의 증상은 다음과 같습니다.
 
-* 많은 양의 작업이 `cron_schedule` 큐
+* `cron_schedule` 큐에 많은 작업이 나타납니다.
 * 사이트 성능 저하 시작
 * 작업이 일정에 따라 실행되지 않음
 
 ## 솔루션 {#solutions}
 
-### 모두 중지하는 솔루션 [!DNL cron] 한 번에 작업 {#solution-stop-all-crons-at-once}
+### 모든 [!DNL cron] 작업을 한 번에 중지하는 솔루션 {#solution-stop-all-crons-at-once}
 
 >[!WARNING]
 >
->를 사용하지 않고 이 명령 실행 `--job-code` 옵션 재설정 *모두* [!DNL cron] 현재 실행 중인 작업을 포함하여 모든 작업을 확인한 후와 같은 예외적인 경우에만 사용하는 것이 좋습니다 [!DNL cron] 작업을 재설정해야 합니다. 재배포는 기본적으로 이 명령을 실행하여 재설정합니다. [!DNL cron] 따라서 환경이 백업된 후 적절하게 복구됩니다. 인덱서가 실행 중일 때는 이 솔루션을 사용하지 마십시오.
+>`--job-code` 옵션 없이 이 명령을 실행하면 현재 실행 중인 작업을 포함하여 *모든* [!DNL cron] 작업이 재설정되므로 [!DNL cron] 작업을 모두 재설정해야 함을 확인한 후와 같은 예외적인 경우에만 이 명령을 사용하는 것이 좋습니다. 재배포는 기본적으로 이 명령을 실행하여 [!DNL cron] 작업을 재설정하므로 환경이 백업된 후 적절하게 복구됩니다. 인덱서가 실행 중일 때는 이 솔루션을 사용하지 마십시오.
 
-이 문제를 해결하려면 다음을 재설정해야 합니다. [!DNL cron] 을(를) 사용하는 작업 `cron:unlock` 명령입니다. 이 명령은 의 상태를 [!DNL cron] 데이터베이스의 작업을 강제로 종료하여 다른 예약된 작업이 계속 진행될 수 있도록 합니다.
+이 문제를 해결하려면 `cron:unlock` 명령을 사용하여 [!DNL cron] 작업을 재설정해야 합니다. 이 명령은 데이터베이스에서 [!DNL cron] 작업의 상태를 변경하여 다른 예약된 작업이 계속 진행될 수 있도록 작업을 강제로 종료합니다.
 
-1. 터미널을 열고 다음 중 하나를 사용하십시오. [SSH 키](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) 영향을 받는 환경에 연결합니다.
+1. 터미널을 열고 [SSH 키](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)를 사용하여 영향을 받는 환경에 연결합니다.
 1. MySQL 데이터베이스 자격 증명 가져오기:    ```shell    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp    ```
-1. 다음을 사용하여 데이터베이스에 연결 `mysql` :    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
-1. 다음 항목 선택 `main` 데이터베이스:    ```shell    use main    ```
-1. 실행 중인 모든 항목 찾기 [!DNL cron] 작업:    ```shell    SELECT * FROM cron_schedule WHERE status = 'running';    ```
-1. 다음을 복사합니다. `job_code` 평소보다 오래 실행되는 모든 작업
-1. 이전 단계의 예약 ID를 사용하여 특정 잠금 해제 [!DNL cron] 작업:    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```
+1. `mysql`을(를) 사용하여 데이터베이스에 연결:    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
+1. `main` 데이터베이스 선택:    ```shell    use main    ```
+1. 실행 중인 [!DNL cron]개 작업 모두 찾기:    ```shell    SELECT * FROM cron_schedule WHERE status = 'running';    ```
+1. 평소보다 오래 실행되는 작업의 `job_code`을(를) 복사합니다.
+1. 이전 단계의 예약 ID를 사용하여 특정 [!DNL cron] 작업의 잠금을 해제하세요.    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```
 
-### 단일 중지 솔루션 [!DNL cron] {#solution-stop-a-single-cron}
+### 단일 [!DNL cron]을(를) 중지하는 솔루션 {#solution-stop-a-single-cron}
 
-1. 터미널을 열고 다음 중 하나를 사용하십시오. [SSH 키](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) 영향을 받는 환경에 연결합니다.
+1. 터미널을 열고 [SSH 키](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)를 사용하여 영향을 받는 환경에 연결합니다.
 1. 다음 명령을 사용하여 장기 실행 작업을 확인하십시오.
 
    ```date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'```
 
-1. 아래 샘플 출력에서와 같이 출력에서 현재 날짜와 프로세스 목록을 볼 수 있습니다. 다음 `START` 열에는 프로세스의 시작 시간 또는 날짜가 표시됩니다.
+1. 아래 샘플 출력에서와 같이 출력에서 현재 날짜와 프로세스 목록을 볼 수 있습니다. `START` 열은 프로세스의 시작 시간 또는 날짜를 표시합니다.
 
    ```
    Wed May  8 22:41:31 UTC 2019
@@ -72,8 +72,8 @@ ht-degree: 0%
    bxc2qly+ 25896 29.0  0.6 475320 109876 ?       R    20:51   0:00 /usr/bin/php7.1-zts /app/bxc2qlykqhbqe/bin/magento cron:run --group=ddg_automation --bootstrap=standaloneProcessStarted=1
    ```
 
-1. 장기 달리기를 보면 [!DNL cron] 배포 프로세스를 차단할 수 있는 작업은 다음을 사용하여 프로세스를 종료할 수 있습니다 `kill` 명령입니다. 다음을 식별할 수 있습니다. **프로세스 ID** (다음을 찾음: `PID` column), then put that `PID` 프로세스를 종료하는 명령입니다.
-다음 **프로세스 종료** 명령은 다음과 같습니다.
+1. 배포 프로세스를 차단할 수 있는 오래 실행되는 [!DNL cron] 작업이 표시되면 `kill` 명령을 사용하여 프로세스를 종료할 수 있습니다. **프로세스 ID**(`PID` 열 발견)를 식별한 다음 해당 `PID`을(를) 명령에 추가하여 프로세스를 종료할 수 있습니다.
+**프로세스 중지** 명령은 다음과 같습니다.
 
    ```kill -9 <PID>```
 

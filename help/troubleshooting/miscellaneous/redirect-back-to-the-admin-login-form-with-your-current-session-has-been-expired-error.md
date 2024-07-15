@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # &quot;현재 세션이 만료되었습니다&quot; 오류가 있는 Commerce 관리자 로그인 양식으로 다시 리디렉션합니다.
 
-이 문서에서는 다음 오류 메시지와 함께 로그인 양식으로 다시 리디렉션되는 Commerce 관리자 로그인 문제에 대해 가능한 해결 방법을 제공합니다. *&quot;현재 세션이 만료되었습니다.&quot;*. 해결 방법에는 서버 시간 설정 문제 확인 및 세션 저장소 설정 변경이 포함됩니다.
+이 문서에서는 다음 오류 메시지와 함께 로그인 양식으로 다시 리디렉션되는 Commerce 관리자 로그인 문제에 대해 가능한 해결 방법을 제공합니다. *&quot;현재 세션이 만료되었습니다&quot;*. 해결 방법에는 서버 시간 설정 문제 확인 및 세션 저장소 설정 변경이 포함됩니다.
 
 ## 영향을 받는 에디션 및 버전:
 
@@ -32,7 +32,7 @@ Commerce 관리자에 로그인됩니다.
 
 <u>실제 결과</u>:
 
-다음 오류 메시지가 표시된 로그인 양식으로 다시 리디렉션됩니다. *&quot;현재 세션이 만료되었습니다.&quot;*.
+로그인 양식으로 다시 리디렉션되고 다음 오류 메시지가 표시됩니다. *&quot;현재 세션이 만료되었습니다&quot;*.
 
 ## 원인
 
@@ -47,13 +47,13 @@ Commerce 관리자에 로그인됩니다.
 
 ### 서버 시간 설정 문제 확인
 
-에서 생성된 세션 레코드를 확인합니다. `admin_user_session` 테이블. 다음 값: `created_at` 및/또는 `updated_at` 이(가) 잘못되었습니다. 서버 시간 설정 문제로 인해 발생할 수 있습니다. 서버 시스템 관리자에게 문의하여 확인하십시오. DB의 해당 시간은 기본적으로 UTC로 설정되어 있습니다.
+`admin_user_session` 테이블에서 만든 세션 레코드를 확인합니다. `created_at` 및/또는 `updated_at`의 값이 올바르지 않은 경우 서버 시간 설정 문제로 인해 발생할 수 있습니다. 서버 시스템 관리자에게 문의하여 확인하십시오. DB의 해당 시간은 기본적으로 UTC로 설정되어 있습니다.
 
 ### 세션 저장소 변경
 
-세션 저장소를 변경해 보십시오. 의 정보를 사용합니다. [세션 파일을 찾는 방법](https://devdocs.magento.com/guides/v2.3/config-guide/sessions.html) 개발자 설명서에서 세션이 저장된 위치를 확인하고 를 편집하여 변경하는 데 필요한 문서 `app/etc/env.php` 파일.
+세션 저장소를 변경해 보십시오. 개발자 설명서에 있는 [세션 파일을 찾는 방법](https://devdocs.magento.com/guides/v2.3/config-guide/sessions.html) 문서의 정보를 사용하여 세션이 저장된 위치를 확인하고 `app/etc/env.php` 파일을 편집하여 변경합니다.
 
-예를 들어 파일 시스템에 세션 저장을 시작하려면 `'session'` 섹션을 다음과 같이 바꿉니다.
+예를 들어 파일 시스템에 세션 저장을 시작하려면 다음과 같이 `'session'` 섹션을 변경합니다.
 
 ```php
 ....
@@ -64,12 +64,12 @@ Commerce 관리자에 로그인됩니다.
 ....
 ```
 
-실행 `bin/magento app:config:import` 구성 데이터를 가져오는 명령입니다.
+구성 데이터를 가져오려면 `bin/magento app:config:import` 명령을 실행하십시오.
 
 
 ## 관련 읽기
 
-* [구성 파일에서 데이터 가져오기](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html) 개발자 설명서에서
-* [Redis 구성](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html) 개발자 설명서에서
-* [&quot;계정이 일시적으로 비활성화됨&quot; 오류가 표시된 Commerce 관리자 로그인 양식으로 다시 리디렉션합니다.](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) 지원 기술 자료
-* [Commerce 관리자에 로그인할 때 오류 없이 로그인 양식으로 다시 리디렉션합니다.](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md) 지원 기술 자료
+* 개발자 설명서에서 [구성 파일에서 데이터 가져오기](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html)
+* 개발자 설명서에서 [Redis 구성](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html)
+* [지원 기술 자료에서 &quot;계정이 일시적으로 비활성화됨&quot; 오류가 발생하여 Commerce 관리자 로그인 양식으로 다시 리디렉션합니다.](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
+* [지원 기술 자료에서 Commerce 관리자에 로그인하려고 할 때 오류 없이 로그인 양식으로 다시 리디렉션](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)

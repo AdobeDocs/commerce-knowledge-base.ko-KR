@@ -18,14 +18,14 @@ ht-degree: 0%
 **Blackfire을 계속 사용하려면**:
 
 1. Blackfire이 있는 라이선스를 직접 구입해야 합니다.
-1. 그런 다음 다음을 사용하여 Blackfire 설정 [단계](https://blackfire.io/docs/integrations/paas/magentocloud).
-1. 설치에 문제가 발생하면 다음을 수행할 수 있습니다. [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 도움을 요청하려면요 Blackfire 관련 질문이 있는 경우 다음 위치에서 Blackfire 지원에 직접 문의하십시오. [support@blackfire.io](mailto:support@blackfire.io).
+1. 그런 다음 이 [단계](https://blackfire.io/docs/integrations/paas/magentocloud)를 사용하여 Blackfire을 설정합니다.
+1. 설치에 문제가 있는 경우 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 지원을 요청할 수 있습니다. Blackfire 관련 질문이 있는 경우 [support@blackfire.io](mailto:support@blackfire.io)에서 직접 Blackfire 지원 팀에 문의하십시오.
 
 ## 배포를 실행할 때 오류가 발생하는 경우:
 
 배포를 실행할 때 Blackfire 관련 오류가 발생하는 경우 다음을 수행하십시오.
 
-1. 구성에서 Blackfire을 제거합니다. 편집 `.magento.app.yaml` 파일 및 런타임 섹션에서 Blackfire 제거:
+1. 구성에서 Blackfire을 제거합니다. `.magento.app.yaml` 파일을 편집하고 런타임 섹션에서 Blackfire을 제거합니다.
 
    ```YAML
    ...
@@ -42,12 +42,12 @@ ht-degree: 0%
 
 1. 로컬 개발 환경에서 이를 완료하고 클라우드로 푸시합니다.
 
-전용 [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 배포를 실행한 후 다음 오류가 표시되는 경우:
+배포를 실행한 후 다음 오류가 표시되는 경우에만 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)합니다.
 
-*PHP 경고: PHP 시작: 동적 라이브러리 &#39;blackfire.so&#39;를 로드할 수 없음 (시도: /usr/lib/php/20180731-zts/blackfire.so (/usr/lib/php/20180731-zts/blackfire.so: shared object file: no such file or directory), /usr/lib/php/20180731-zts/blackfire.so.so (/usr/lib/php/20180731-zts/blackfire.so.so: cannot open shared object file: no such file or directory) 0행에 알 수 없음*
+*PHP 경고: PHP 시작: 동적 라이브러리 &#39;blackfire.so&#39;를 로드할 수 없음(시도: /usr/lib/php/20180731-zts/blackfire.so (/usr/lib/php/20180731-zts/blackfire.so: 공유 개체 파일을 열 수 없음: 해당 파일 또는 디렉터리가 없음), /usr/lib/php/20180731-zts/blackfire.so.so (/usr/lib/php/20180731-zts/blackfire.so.so: 공유 개체 파일을 열 수 없음: 해당 파일 또는 디렉터리가 없음). Unknown on line 0*
 
 이 오류는 Blackfire 플러그인을 업데이트하고 로드를 중지해야 함을 의미합니다.
 
-**New Relic 인프라를 사용하려면**:
+**New Relic 인프라를 사용하려는 경우**:
 
-New Relic Infrastructure에 액세스하는 방법에 대한 자세한 내용은 [New Relic 액세스](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html) 을 참조하십시오.
+New Relic 인프라에 액세스하는 방법에 대한 자세한 내용은 지원 기술 자료에서 [New Relic 액세스](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html)를 참조하십시오.

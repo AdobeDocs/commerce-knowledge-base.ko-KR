@@ -21,12 +21,12 @@ Adobe 기술 지원을 제공하려면 Adobe Commerce 관련 데이터에 액세
 
 액세스 권한을 부여하려면 다음을 수행하십시오.
 
-1. [로그인](https://account.magento.com/customer/account/login) 는 기본 사용자라는 자격이 있는 지원으로,
-1. 다음에서 **[!UICONTROL My Account]** 페이지 > **[!UICONTROL Account Settings]**, 다음을 완료했는지 확인합니다. [계정 프로필](https://account.magento.com/customer/account/edit) 및 클릭 **[!UICONTROL Save]**.
-1. 다음에서 **[!UICONTROL My Account]** 페이지 > **[!UICONTROL Account Settings]** > **[!UICONTROL Privacy Settings]**. Adobe 기술 지원 담당자에게 데이터에 대한 액세스 권한을 부여하는 동의 양식이 표시됩니다.
-1. 개인 정보 설정에 대한 정보를 검토한 후 옆에 있는 확인란을 선택할지 여부를 선택합니다. **다음 기간 동안 내 데이터에 대한 액세스를 승인합니다.**.
+1. [권한 있는 기본 사용자로 ](https://account.magento.com/customer/account/login)에 로그인합니다.
+1. **[!UICONTROL My Account]** 페이지 > **[!UICONTROL Account Settings]**&#x200B;에서 [계정 프로필](https://account.magento.com/customer/account/edit)을 완료했는지 확인하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL My Account]** 페이지 > **[!UICONTROL Account Settings]** > **[!UICONTROL Privacy Settings]**&#x200B;에서. Adobe 기술 지원 담당자에게 데이터에 대한 액세스 권한을 부여하는 동의 양식이 표시됩니다.
+1. 개인 정보 설정에 대한 정보를 검토한 후 **다음 기간 동안 내 데이터에 대한 액세스를 승인합니다.** 옆에 있는 확인란을 선택할지 여부를 선택합니다.
 1. 기간 드롭다운에서 Adobe 기술 지원 담당자가 고객 데이터에 액세스할 기간을 선택합니다. 7일, 30일, 1년 또는 무기한으로 선택할 수 있습니다.
-1. 클릭 **[!UICONTROL Save]**. 아래 페이지 하단의 시작 및 종료 날짜가 업데이트됩니다. **다음 기간 동안 동의했습니다** (스크린샷). 동의가 부여되면 권한이 부여된 주 사용자에게 화면 하단에 동의를 철회할 수 있는 옵션이 표시됩니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다. **다음 기간 동안 동의했습니다**(스크린샷) 아래에 있는 페이지 하단의 시작 및 종료 날짜가 업데이트됩니다. 동의가 부여되면 권한이 부여된 주 사용자에게 화면 하단에 동의를 철회할 수 있는 옵션이 표시됩니다.
    ![magento-account-privacy-settings.png](assets/magento-account-privacy-settings.png)
 
-다음을 클릭할 수 있습니다. **동의 철회** 언제든지 Adobe 지원 담당자가 데이터에 액세스할 수 있도록 동의를 철회할 수 있습니다.
+언제든지 **동의 철회**&#x200B;를 클릭하여 Adobe 지원 담당자가 귀하의 데이터에 액세스할 수 있도록 동의를 철회할 수 있습니다.

@@ -17,17 +17,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->핵심 Adobe Commerce Cybersource 결제 통합은 2.3.3부터 더 이상 사용되지 않으며 2.4.0에서 완전히 제거됩니다. 사용 [공식 연장](https://marketplace.magento.com/cybersource-global-payment-management.html) marketplace에서 가져옵니다.
+>핵심 Adobe Commerce Cybersource 결제 통합은 2.3.3부터 더 이상 사용되지 않으며 2.4.0에서 완전히 제거됩니다. 대신 마켓플레이스에서 [공식 확장](https://marketplace.magento.com/cybersource-global-payment-management.html)을 사용하십시오.
 
 ## 문제
 
-이전의 Cybersource 통합 구현에서는 한 도메인에서만 결제를 처리할 수 있었습니다. 따라서 Adobe Commerce 상점 전면이 Commerce 관리자와 다른 도메인에 있는 경우 관리자에서 Cybersource를 사용하여 주문하려고 하면 다음과 같은 오류가 발생합니다.&quot; *X-Frame-Options에서 로드가 거부되었습니다. https://%your\_domain%/cybersource/SilentOrder/TokenResponse/ 원본 간 프레이밍이 허용되지 않습니다.* ...&quot;
+이전의 Cybersource 통합 구현에서는 한 도메인에서만 결제를 처리할 수 있었습니다. 따라서 Adobe Commerce 상점 전면이 Commerce 관리자와 다른 도메인에 있는 경우, 관리자에서 Cybersource를 사용하여 주문하려고 할 때 다음 오류가 발생합니다. &quot; *X-Frame-Options에서 로드 거부됨: https://%your\_domain%/cybersource/SilentOrder/TokenResponse/ 은 원본 간 프레이밍을 허용하지 않습니다.* .&quot;
 
 <u>재현 단계</u>:
 
 1. 다른 하위 도메인에서 관리자를 설정합니다.
-1. 아래 스토어에 대한 Cybersource 구성 **스토어** > 설정 > **구성** > **판매** > **결제 방법** > **사이버 소스**.
-1. 다음으로 이동 **판매** > **주문 수**.
+1. **스토어** > 설정 > **구성** > **판매** > **결제 방법** > **CyberSource**&#x200B;에서 스토어에 대한 Cybersource를 구성하십시오.
+1. **판매** > **주문**(으)로 이동합니다.
 1. 새 주문을 만듭니다.
 1. 새 고객을 만듭니다.
 1. 고객 세부 정보를 입력합니다.
@@ -37,11 +37,11 @@ ht-degree: 0%
 
 <u>예상 결과</u>: 주문이 문제 없이 완료되었습니다.
 
-<u>실제 결과</u>: 주문 페이지에 로드 아이콘이 표시되지만 주문이 배치되지 않습니다. 콘솔에 오류가 표시됩니다.
+<u>실제 결과</u>: 순서 페이지에 로딩 아이콘이 표시되지만 순서는 변경되지 않습니다. 콘솔에 오류가 표시됩니다.
 
 ## 솔루션
 
-첨부된 패치를 통해 Cybersource와의 통합 기능이 향상되었습니다. 패치를 적용한 후에는 관리자에서 결제를 처리하기 위해 Cybersource를 사용하여 프로필을 한 개 더 만들고 아래의 Commerce 관리자의 Cybersource 구성에 필요한 자격 증명을 추가해야 합니다 **스토어** > 설정 > **구성** > **판매** > **결제 방법** > **사이버 소스**.
+첨부된 패치를 통해 Cybersource와의 통합 기능이 향상되었습니다. 패치를 적용한 후 관리자에서 결제를 처리하기 위해 Cybersource를 사용하여 프로필을 한 개 더 만들고 **Stores** > Settings > **Configuration** > **Sales** > **결제 방법** > **CyberSource**&#x200B;에서 Commerce 관리자의 Cybersource 구성에 필요한 자격 증명을 추가해야 합니다.
 
 >[!NOTE]
 >
@@ -69,6 +69,6 @@ ht-degree: 0%
 
 ## 패치 적용 방법
 
-자세한 내용은 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 을 참조하십시오.
+지침은 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

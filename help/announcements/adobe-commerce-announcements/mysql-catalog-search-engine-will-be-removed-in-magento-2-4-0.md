@@ -17,7 +17,7 @@ Adobe Commerce 온프레미스, Adobe Commerce 온클라우드 인프라 및 Mag
 
 >[!WARNING]
 >
->업그레이드를 시도하기 전에 Elasticsearch 6/7을 설치/구성하지 않으면 Adobe Commerce에 심각한 문제가 발생할 수 있습니다. 클라우드 인프라에서 Adobe Commerce의 서비스 업그레이드는 48시간 동안 인프라 팀에 통보하지 않으면 프로덕션 환경으로 푸시할 수 없습니다. 이는 인프라 지원 엔지니어가 운영 환경에 대한 가동 중지 시간을 최소화하면서 원하는 기간 내에 구성을 업데이트할 수 있도록 해야 하기 때문에 필요합니다. 따라서 변경 사항이 프로덕션에 적용되기 48시간 전 [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 필요한 서비스 업그레이드에 대한 세부 정보를 제공하고 업그레이드 프로세스를 시작할 시간을 명시합니다.
+>업그레이드를 시도하기 전에 Elasticsearch 6/7을 설치/구성하지 않으면 Adobe Commerce에 심각한 문제가 발생할 수 있습니다. 클라우드 인프라에서 Adobe Commerce의 서비스 업그레이드는 48시간 동안 인프라 팀에 통보하지 않으면 프로덕션 환경으로 푸시할 수 없습니다. 이는 인프라 지원 엔지니어가 운영 환경에 대한 가동 중지 시간을 최소화하면서 원하는 기간 내에 구성을 업데이트할 수 있도록 해야 하기 때문에 필요합니다. 따라서 변경 사항이 프로덕션에 적용되기 48시간 전에 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 필요한 서비스 업그레이드에 대해 자세히 설명하고 업그레이드 프로세스를 시작할 시간을 지정하십시오.
 
 MySQL 검색 엔진을 제거하는 이유는 Elasticsearch이 카탈로그 성능 최적화와 함께 뛰어난 검색 기능을 제공하기 때문입니다.
 
@@ -36,15 +36,15 @@ MySQL 검색 엔진을 제거하는 이유는 Elasticsearch이 카탈로그 성�
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">MySQL</td>
-<td style="width: 478.2px;">Elasticsearch을 설치해야 합니다. 다음을 참조하십시오 <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">설치 및 구성 Elasticsearch</a> 개발자 설명서에서 확인할 수 있습니다.</td>
+<td style="width: 478.2px;">Elasticsearch을 설치해야 합니다. 개발자 설명서에서 <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">Elasticsearch 설치 및 구성</a>을 참조하십시오.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch(나열된 버전 없음)</td>
-<td style="width: 478.2px;">Elasticsearch 2를 사용 중이며 Elasticsearch 7(기본 설정) 또는 6으로 업데이트해야 합니다. 다음을 참조하십시오 <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html#es-upgrade6">업그레이드 Elasticsearch</a> 및 <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/configure-magento.html">Elasticsearch을 사용하도록 Commerce 구성</a> 자세한 내용은 개발자 설명서 를 참조하십시오.</td>
+<td style="width: 478.2px;">Elasticsearch 2를 사용 중이며 Elasticsearch 7(기본 설정) 또는 6으로 업데이트해야 합니다. 자세한 내용은 개발자 설명서에서 <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html#es-upgrade6">Elasticsearch 업그레이드</a> 및 <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/configure-magento.html">Elasticsearch을 사용하도록 Commerce 구성</a>을 참조하십시오.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">ELASTICSEARCH 5</td>
-<td style="width: 478.2px;">Elasticsearch 5가 제한에 도달했습니다. <a href="https://www.elastic.co/support/eol">서비스 종료</a> 및 는 Adobe Commerce 2.4.0에서 더 이상 사용되지 않습니다. Elasticsearch 7(기본 설정) 또는 6으로 업데이트합니다.</td>
+<td style="width: 478.2px;">Elasticsearch 5는 <a href="https://www.elastic.co/support/eol">수명 종료</a>에 도달하여 Adobe Commerce 2.4.0에서 더 이상 사용되지 않습니다. Elasticsearch 7(기본 설정) 또는 6으로 업데이트합니다.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch 6 또는 7</td>
@@ -59,9 +59,9 @@ MySQL 검색 엔진을 제거하는 이유는 Elasticsearch이 카탈로그 성�
 
 ## 설치:
 
-Adobe Commerce 온-프레미스 및 Magento Open Source 2.4.0이 릴리스되면 Elasticsearch은 필수 구성 요소이므로 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 구성해야 합니다. 다음을 참조하십시오 [설치 및 구성 Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) 개발자 설명서에서 확인할 수 있습니다.
+Adobe Commerce 온-프레미스 및 Magento Open Source 2.4.0이 릴리스되면 Elasticsearch은 필수 구성 요소이므로 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 구성해야 합니다. 개발자 설명서에서 [Elasticsearch 설치 및 구성](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)을 참조하세요.
 
-기본적으로 Adobe Commerce 검색은 Elasticsearch 7을 검색 엔진으로 사용하고 localhost:9200에서 서버에 연결을 시도합니다. Elasticsearch 6.x도 지원됩니다. 구성이 기본값과 일치하지 않으면에 전달된 인수를 사용하여 이러한 설정을 구성할 수 있습니다 `setup:install`와 거의 동일한 방식으로 데이터베이스 연결이 구성됩니다.
+기본적으로 Adobe Commerce 검색은 Elasticsearch 7을 검색 엔진으로 사용하고 localhost:9200에서 서버에 연결을 시도합니다. Elasticsearch 6.x도 지원됩니다. 구성이 기본값과 일치하지 않으면 데이터베이스 연결이 구성된 것과 거의 동일한 방식으로 `setup:install`에 전달된 인수를 사용하여 이러한 설정을 구성할 수 있습니다.
 
 For example, `setup:install --elasticsearch-host=es.mystore.com`
 

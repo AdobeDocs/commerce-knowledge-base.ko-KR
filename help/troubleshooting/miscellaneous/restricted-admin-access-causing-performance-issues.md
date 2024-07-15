@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 성능 문제를 일으키는 제한된 관리자 액세스
 
-이 문서에서는 을 사용하여 성능에 부정적인 영향을 주는 경우에 대한 솔루션을 제공합니다. [웹 사이트에 의해 역할 범위가 제한된 관리자 역할](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) 사용 안내서에서 참조하십시오.
+이 문서에서는 사용자 안내서에서 [웹 사이트에 의해 제한된 역할 범위의 관리자 역할](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources)을(를) 사용하여 성능에 부정적인 영향을 미치는 경우에 대한 솔루션을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -30,10 +30,10 @@ ht-degree: 0%
 
 다음은 이 문제를 방지하는 옵션입니다.
 
-* Adobe Commerce 애플리케이션 버전을 2.2.10 또는 2.3.3으로 업그레이드하십시오. (자세한 내용은 [클라우드 인프라 버전의 Adobe Commerce 업그레이드](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) 개발자 설명서 참조).
+* Adobe Commerce 애플리케이션 버전을 2.2.10 또는 2.3.3으로 업그레이드하십시오. 자세한 내용은 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce 업그레이드](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html)를 참조하십시오.
 * 가능한 경우 웹 사이트별로 관리자 사용자 역할 범위를 제한하지 마십시오.
-* [Magento 지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)을 입력하여 패치를 요청할 수 있습니다.
+* [Magento 지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 가능한 경우 패치를 요청합니다.
 
 ## 관련 읽기
 
-* [사용자 역할](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html) 사용 안내서에서 참조하십시오.
+* 사용 안내서의 [사용자 역할](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html).

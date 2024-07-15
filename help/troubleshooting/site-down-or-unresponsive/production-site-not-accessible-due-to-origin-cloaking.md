@@ -21,18 +21,18 @@ Adobe Commerce 이 문서에서는 클라우드 인프라 스테이징 또는 �
 
 ## 문제
 
-https: &#x200B;//mydomain.com.c.&lt;projectid>.magento.cloud/에 더 이상 액세스할 수 없습니다.
+https:/&#x200B;/mydomain.com.c.&lt;projectid>.magento.cloud/는 더 이상 액세스할 수 없습니다.
 
 <u>재현 단계:</u>
 
 1. 프로젝트에 로그인.
-1. 클릭 **프로젝트 액세스** URL 및 SSH 목록.
+1. URL 및 SSH 목록을 보려면 **프로젝트 액세스**&#x200B;를 클릭합니다.
 
 <u>실제 결과:</u>
 
 다음 오류로 페이지가 로드되지 않음:
 
-*NET::ERR\_CERT\_INVALID*  *TLS 경고, 잘못된 인증서(554):*
+*NET::ERR\_CERT\_INVALID* *TLS 경고, 잘못된 인증서(554):*
 
 <u>예상 결과:</u>
 
@@ -47,8 +47,8 @@ https: &#x200B;//mydomain.com.c.&lt;projectid>.magento.cloud/에 더 이상 액�
 ## 솔루션
 
 * 클라우드 사이트가 라이브 상태인 경우 https://mydomain.com/으로 전환합니다.
-* 활성 사이트(클라우드 제외)가 있는 경우 https://mydomain.com/ 도메인을 사용하여 하위 도메인을 설정합니다 `mcprod.mydomain.com` 및 업데이트 **기본 URL** 끝 *https://mcprod.mydomain.com* 대신, [dns를 Fastly로 지정](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
+* https://mydomain.com/ 도메인을 사용하는 활성 사이트(클라우드 이외)가 있는 경우 하위 도메인 `mcprod.mydomain.com`을(를) 설정하고 대신 **기본 URL**&#x200B;을(를) *https://mcprod.mydomain.com*(으)로 업데이트한 다음 [DNS를 Fastly로 지정](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings)합니다.
 
 ## 관련 읽기
 
-[Fastly 오리진 클로킹 지원 FAQ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) 을 참조하십시오.
+지원 기술 자료의 [빠른 원본 차단 사용 FAQ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md).

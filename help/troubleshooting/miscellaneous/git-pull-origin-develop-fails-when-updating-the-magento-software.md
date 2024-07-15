@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 소프트웨어를 업데이트할 때 git 가져오기 원본 개발에 실패함
 
-이 문서에서는 실행 시 Adobe Commerce 소프트웨어를 업데이트할 수 없는 경우를 수정했습니다 `git pull origin develop`.
+이 문서에서는 `git pull origin develop`을(를) 실행할 때 Adobe Commerce 소프트웨어를 업데이트할 수 없는 경우에 대한 수정 사항을 제공합니다.
 
 ## 세부 사항
 
@@ -44,7 +44,7 @@ git status
 
 #### 의도적으로 파일을 수정했습니다.
 
-일반적인 방법으로 충돌을 수동으로 해결하십시오. 어떻게 해야 할지 확실하지 않은 경우 다음을 참조하십시오. [GitHub 도움말](https://help.github.com/).
+일반적인 방법으로 충돌을 수동으로 해결하십시오. 방법을 잘 모를 경우 [GitHub 도움말](https://help.github.com/)을 참조하세요.
 
 #### 의도적으로 파일을 수정하지 않았습니다.
 
@@ -71,6 +71,6 @@ git status
 
   >[!NOTE]
   >
-  >Adobe은 특정 GitHub 구성 설정을 추천하거나 보증하지 않습니다. 앞의 내용은 제안에만 해당됩니다. 자세한 내용은 [GitHub 도움말](https://help.github.com/).
+  >Adobe은 특정 GitHub 구성 설정을 추천하거나 보증하지 않습니다. 앞의 내용은 제안에만 해당됩니다. 자세한 내용은 [GitHub 도움말](https://help.github.com/)을 참조하세요.
 
   Adobe Commerce 업데이트를 사용하지 않고 계속 진행합니다.

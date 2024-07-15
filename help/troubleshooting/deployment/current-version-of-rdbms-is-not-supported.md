@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 배포 시 &#39;현재 버전의 RDBMS가 지원되지 않음&#39; 오류 발생
 
-이 문서에서는 배포에 실패하고 배포 로그에 다음 오류가 있는 경우에 대한 솔루션을 제공합니다. *현재 버전의 RDBMS는 지원되지 않습니다.*.
+이 문서에서는 배포가 실패하고 배포 로그에 다음 오류가 있는 경우에 대한 솔루션을 제공합니다. *현재 버전의 RDBMS가 지원되지 않음*.
 
 ## 영향을 받는 제품 및 버전
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 <u>실제 결과</u>:
 
-배포가 실패하고 다음 오류 메시지가 표시됩니다. *현재 버전의 RDBMS는 지원되지 않습니다.*.
+배포가 실패하고 오류 메시지가 표시됩니다. *현재 버전의 RDBMS가 지원되지 않습니다*.
 
 ## 원인
 
@@ -45,12 +45,12 @@ ht-degree: 0%
 응용 프로그램을 업그레이드하기 전에 MariaDB 서비스를 호환 가능한 버전으로 업그레이드해야 합니다.
 
 
-Adobe Commerce on cloud infrastructure Pro 계획 아키텍처(및 스타터 아키텍처의 모든 분기)의 통합 분기에 대해서는 다음을 따르십시오 [서비스 구성](https://devdocs.magento.com/cloud/project/services.html) 개발자 설명서에서 확인할 수 있습니다.
+Adobe Commerce on cloud infrastructure Pro 계획 아키텍처(및 스타터 아키텍처의 모든 분기)의 통합 분기에 대해서는 개발자 설명서에서 [서비스 구성](https://devdocs.magento.com/cloud/project/services.html)을(를) 참조하십시오.
 
-Adobe Commerce on cloud infrastructure Pro 계획 아키텍처의 스테이징 및 프로덕션은 [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) Adobe Commerce 버전 업그레이드를 배포하기 전에 서비스를 업그레이드하도록 요청하십시오.
+Adobe Commerce on cloud infrastructure Pro 계획 아키텍처의 스테이징 및 프로덕션의 경우 Adobe Commerce 버전 업그레이드를 배포하기 전에 서비스를 업그레이드하도록 요청하려면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오.
 
 
 ## 관련 읽기
 
-* [빌드 및 배포에 대한 우수 사례](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) 개발자 설명서에서 확인할 수 있습니다.
-* [Adobe Commerce 2.3.5 업그레이드: 컴팩트한 테이블에서 동적 테이블로](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html) 를 참조하십시오.
+* 개발자 설명서의 [빌드 및 배포에 대한 우수 사례](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices).
+* [Adobe Commerce 2.3.5 업그레이드: 지원 기술 자료에서 동적 테이블로 축소](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)합니다.

@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # 낮은 사이트 및 API 성능
 
-이 문서에서는 작성에 필요한 시간이 길어 사이트 및 API 성능이 낮은 것과 관련된 클라우드 인프라 2.2.1의 알려진 Adobe Commerce 문제에 대한 패치를 제공합니다 `debug.log`.
+이 문서에서는 `debug.log`을(를) 작성하는 데 필요한 시간이 길어 사이트 및 API 성능이 낮은 것과 관련된 클라우드 인프라 2.2.1의 알려진 Adobe Commerce 문제에 대한 패치를 제공합니다.
 
 ## 문제
 
-사이트 성능이 느립니다. API 작업은 느리게 실행됩니다. 예를 들어 를 사용하여 제품을 업데이트합니다. `PUT` 메서드를 사용합니다. New Relic을 사용하는 작업을 자세히 살펴보면 대부분의 메모리와 CPU는 `/var/log/debug.log`.
+사이트 성능이 느립니다. `PUT` 메서드를 사용하여 제품을 업데이트하는 등 API 작업이 느리게 실행됩니다. New Relic을 사용한 작업을 자세히 살펴보면 `/var/log/debug.log`에 쓰는 데 대부분의 메모리와 CPU가 사용됩니다.
 
 ## 솔루션
 
@@ -42,6 +42,6 @@ ht-degree: 0%
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 지침에 대해서는 지원 기술 자료에서 참조하십시오.
+자세한 내용은 지원 기술 자료에서 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

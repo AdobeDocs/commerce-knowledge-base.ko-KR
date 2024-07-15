@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 문제
 
-CLI에서 전체 인덱스를 다시 인덱싱하는 동안 Adobe Commerce에 다음과 같은 오류 메시지가 표시됩니다. *&#39;색인이 다른 색인 재지정 프로세스에 의해 잠겼습니다. 건너뛰기.&#39;* 즉, 프로세스나 색인 유형이 잠겨 있으면 특정 잠금 색인 유형을 다시 색인화할 수 없습니다. 색인 재지정은 항상 해당 색인 유형을 건너뜁니다.
+CLI에서 전체 색인 재지정 중에 Adobe Commerce에 다음과 같은 오류 메시지가 표시됩니다. *색인이 다른 색인 재지정 프로세스에 의해 잠겼습니다. 건너뛰기.&#39;* 다시 말해, 프로세스나 색인 유형이 잠겨 있으면 그 특정 색인 유형을 다시 색인화할 수 없습니다. 색인 재지정은 항상 해당 색인 유형을 건너뜁니다.
 
 ## 원인
 
@@ -35,7 +35,7 @@ CLI에서 전체 인덱스를 다시 인덱싱하는 동안 Adobe Commerce에 �
 ## 재현 단계
 
 1. 예를 들어    ```bash    cataloginventory_stock ```    색인 유형이 잠겨 있습니다.
-1. CLI 명령을 실행하여 모든 데이터를 다시 인덱싱하려고 할 때    ```bash    php bin/magento indexer:reindex    ```, 다음과 같은 출력 결과를 얻을 수 있습니다.    ```bash    customer_grid index has been rebuilt successfully in 00:00:09    catalog_category_product index has been rebuilt successfully in 00:00:07    catalog_product_category index has been rebuilt successfully in 00:00:00    catalogrule_rule index has been rebuilt successfully in 00:00:05    catalog_product_attribute index has been rebuilt successfully in 00:00:04    cataloginventory_stock index is locked by another reindex process. Skipping.    catalog_product_price index has been rebuilt successfully in 00:00:01    catalogrule_product has been rebuilt successfully in 00:00:00    catalogsearch_fulltext index has been rebuilt successfully in 00:00:01    ```
+1. CLI 명령을 실행하여 모든 데이터를 다시 인덱싱하려고 할 때    ```bash    php bin/magento indexer:reindex    ```, 다음 출력 결과를 가져옵니다.    ```bash    customer_grid index has been rebuilt successfully in 00:00:09    catalog_category_product index has been rebuilt successfully in 00:00:07    catalog_product_category index has been rebuilt successfully in 00:00:00    catalogrule_rule index has been rebuilt successfully in 00:00:05    catalog_product_attribute index has been rebuilt successfully in 00:00:04    cataloginventory_stock index is locked by another reindex process. Skipping.    catalog_product_price index has been rebuilt successfully in 00:00:01    catalogrule_product has been rebuilt successfully in 00:00:00    catalogsearch_fulltext index has been rebuilt successfully in 00:00:01    ```
 1. 위에서 볼 수 있듯이    ```bash    cataloginventory_stock```    인덱스 프로세스를 건너뛰었습니다.
 
 
@@ -81,8 +81,8 @@ bin/magento indexer:reset catalogsearch_fulltext;
 
 개발자 설명서에서:
 
-* [색인 생성 개요](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
-* [인덱서 우수 사례](https://devdocs.magento.com/guides/v2.3/performance-best-practices/configuration.html#indexers)
+* [인덱싱 개요](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
+* [인덱서 모범 사례](https://devdocs.magento.com/guides/v2.3/performance-best-practices/configuration.html#indexers)
 * [Cron 구성 및 실행](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html)
 * [인덱서 관리](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
 * [인덱서 최적화](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html)

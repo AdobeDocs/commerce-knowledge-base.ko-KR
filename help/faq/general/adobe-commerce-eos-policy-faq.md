@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ### 모든 버전의 Adobe Commerce에 대한 소프트웨어 지원 날짜는 어디에서 찾을 수 있습니까?
 
-Adobe Commerce 소프트웨어 수명 주기 정책 및 소프트웨어 지원 날짜는 [Adobe Commerce 소프트웨어 수명 주기 정책](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf). 또한 지원 종료(EOS) 날짜는 [개발자 설명서 페이지](https://devdocs.magento.com/release/released-versions.html).
+[Adobe Commerce 소프트웨어 수명 주기 정책](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)에서 Adobe Commerce 소프트웨어 수명 주기 정책 및 소프트웨어 지원 날짜를 확인할 수 있습니다. [개발자 설명서 페이지](https://devdocs.magento.com/release/released-versions.html)에 지원 종료(EOS) 날짜도 게시합니다.
 
 ### Adobe이 Adobe Commerce 소프트웨어 버전에 대한 지원을 종료하면 무엇을 의미합니까?
 
@@ -35,20 +35,20 @@ Adobe에서 Adobe Commerce 소프트웨어 버전에 대한 지원을 종료하�
 
 지원이 종료된 소프트웨어를 계속 사용하기로 결정한 경우 중요한 제품 업데이트나 기술 지원을 받지 않게 됩니다. 여기에는 종종 최신 보안 업데이트가 포함됩니다. 지원되지 않는 소프트웨어를 사용하면 다음 영역에 영향을 줄 수 있습니다.
 
-**안전한 쇼핑 환경 제공:**
+**보안 쇼핑 환경 제공:**
 
 * 보안 지원, 수정 사항 및 업데이트를 제공하려면 리소스를 사용하여 타사 공급업체를 평가하고 활용해야 합니다.
-* Adobe Commerce 소프트웨어 버전이 더 이상 지원되지 않으면 해당 버전은 더 이상 지원되지 않습니다 [PCI 호환](https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security). 이 경우 벌금, 신용카드 처리 능력 제거 또는 기타 벌금이 부과될 수 있습니다.
+* Adobe Commerce 소프트웨어 버전이 더 이상 지원되지 않으면 해당 버전은 더 이상 [PCI 규격](https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security)이 아닙니다. 이 경우 벌금, 신용카드 처리 능력 제거 또는 기타 벌금이 부과될 수 있습니다.
 * 대부분의 악용은 최신 보안 업데이트가 없는 설치를 대상으로 하므로 판매자는 항상 소프트웨어를 최신 상태로 유지하고 가능한 즉시 보안 업데이트를 설치하는 것이 좋습니다. 판매자가 웹 사이트 및 고객의 개인 데이터를 보호하기 위해 적절한 보호 장치와 보안 제어로 온라인 스토어를 안전하게 유지하는 것은 상인의 책임입니다. 이를 수행하는 가장 좋은 방법 중 하나는 최신 패치, 수정 사항 및 소프트웨어 업데이트를 설치하고 사이트 및 Admin Console에서 비정상적인 활동이 발생하는지 지속적으로 모니터링하는 것입니다.
 
-**효율적이고 효과적인 운영**
+**효율적으로 작동**
 
 * 지원되지 않는 버전의 Adobe Commerce 소프트웨어 환경에서는 개발자와 파트너의 축소 풀을 사용할 수 있으며, 최신 기술에 대한 작업을 수행할 때 오래된 버전을 지원할 수 있습니다. 일반적으로 그 결과는 소프트웨어 유지 관리를 위한 인재의 양과 질은 감소하는 반면, 소프트웨어를 유지 관리하는 비용은 증가한다는 것이다.
 * 지원되지 않는 Adobe Commerce 소프트웨어의 경우 주변 기술 및 종속성도 수명 주기(예: PHP, MYSQL, REDIS, SOLR)의 끝에 도달할 수 있습니다. 따라서 보안 및 규정 준수 사이트를 관리하고 유지하는 것이 점점 더 어려워지고 있습니다.
 * 확장 개발업체들도 최신 기술과 호환 가능한 플랫폼에 대한 집중도를 높이고 있다. 따라서 지원되지 않는 버전의 Adobe Commerce에 대한 확장을 계속 유지 관리하지 않을 수 있습니다.
 * 지원되지 않는 버전의 Adobe Commerce 소프트웨어를 사용하면 지속적인 비즈니스 혁신 및 성장에 이러한 리소스를 적용하는 대신 오래된 플랫폼을 유지하는 데 더 많은 비용과 리소스를 사용할 수 있습니다.
 
-**공격적으로 성장**
+**적극적으로 성장**
 
 * Adobe은 새로운 기술과 기능에 대한 투자를 계속하고 있다. 소프트웨어를 최신 상태로 유지하면 비즈니스를 보다 전략적으로 운영하고 더욱 빠르게 성장하는 데 도움이 되는 최신 기술과 기능을 활용할 수 있습니다.
 
@@ -68,9 +68,9 @@ Adobe Commerce 소프트웨어를 최신 상태로 유지함으로써 많은 이
 
 상거래 플랫폼은 귀사에 중요한 비즈니스 시스템이며 최신 상태를 유지하고 비즈니스에 대한 중요한 지속적인 투자입니다. 디지털 스토어에 대한 최신 기술 및 보안 업데이트는 여러 수준에서 중요하며 혁신 및 성장을 향상시키는 데 도움이 될 수 있습니다.
 
-최신 버전의 Adobe Commerce 소프트웨어로 이동하면 시간과 리소스가 많이 소요될 수 있습니다. 가장 좋은 방법은 지원 종료 날짜 이전에 계획을 수립하여 일정과 예산 내에서 전략적 목표를 달성하는 데 적절한 시간과 리소스를 확보할 수 있도록 하는 것입니다. 다음 업그레이드에 도움이 되도록 Adobe이 [2.4 업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf) 여기에는 따라야 할 모범 사례 및 기술 단계뿐만 아니라 업그레이드를 수행할 때 사용할 도구 및 리소스가 포함되어 있습니다.
+최신 버전의 Adobe Commerce 소프트웨어로 이동하면 시간과 리소스가 많이 소요될 수 있습니다. 가장 좋은 방법은 지원 종료 날짜 이전에 계획을 수립하여 일정과 예산 내에서 전략적 목표를 달성하는 데 적절한 시간과 리소스를 확보할 수 있도록 하는 것입니다. 다음 업그레이드를 돕기 위해 Adobe은 따라야 할 모범 사례 및 기술 단계뿐만 아니라 업그레이드를 수행할 때 사용할 도구 및 리소스가 포함된 [2.4 업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf)를 게시했습니다.
 
-또 다른 중요한 고려 사항은 개발자 및 파트너 리소스를 가능한 한 빨리 예약하는 것입니다. 파트너 시간과 리소스는 지원 종료 날짜 이전에 자주 예약되므로 마이그레이션 프로젝트를 지원할 리소스가 크게 줄어듭니다. 매년 최소한으로 논의하고 다음 연도가 계획되고 예산이 책정되도록 하는 3년 순환 계획이 있는 것이 좋습니다. 사용 [Adobe의 릴리스 캘린더](https://devdocs.magento.com/release/) 릴리스 날짜를 추적합니다.
+또 다른 중요한 고려 사항은 개발자 및 파트너 리소스를 가능한 한 빨리 예약하는 것입니다. 파트너 시간과 리소스는 지원 종료 날짜 이전에 자주 예약되므로 마이그레이션 프로젝트를 지원할 리소스가 크게 줄어듭니다. 매년 최소한으로 논의하고 다음 연도가 계획되고 예산이 책정되도록 하는 3년 순환 계획이 있는 것이 좋습니다. [Adobe의 릴리스 일정](https://devdocs.magento.com/release/)을 사용하여 릴리스 날짜를 추적하세요.
 
 ### Adobe Commerce 지원이 중단되면 소프트웨어 지원을 위해 서드파티 서비스 공급자를 사용할 수 있습니까?
 
@@ -102,7 +102,7 @@ Adobe Commerce 라이선스가 만료되면 Adobe Commerce 소프트웨어 사�
 
 ### 지원 종료 날짜 이전에 개설된 지원 티켓의 경우, 판매자에게 지원 종료를 알리는 경고가 있습니까?
 
-아니요. 지원 티켓 사용자에게 지원 종료 날짜가 다가오고 있음을 알리는 알림 알림이 없습니다. 표시되는 Adobe Commerce 버전에 대한 지원 종료 날짜를 아는 것은 티켓 오프너의 책임입니다. 해당 날짜는 페이지에서 확인할 수 있습니다 [Adobe Commerce 소프트웨어 라이프사이클 정책](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+아니요. 지원 티켓 사용자에게 지원 종료 날짜가 다가오고 있음을 알리는 알림 알림이 없습니다. 티켓 오프너가 현재 사용 중인 Adobe Commerce 버전의 지원 종료 날짜를 알 수 있습니다. 해당 날짜는 [Adobe Commerce 소프트웨어 수명 주기 정책](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)에서 확인할 수 있습니다.
 
 ### 소프트웨어 버전에 대한 지원 티켓이 해당 버전에 대한 지원 종료 날짜 이후에 열리면 여전히 문제 해결에 도움이 됩니까?
 

@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->면책조항: Adobe Commerce은 터널을 설정하는 특정 도구를 추천하거나 보증하지 않습니다. 앞의 내용은 제안에만 해당됩니다. 자세한 내용은 [ngrok 설명서](https://ngrok.com/docs).
+>면책조항: Adobe Commerce은 터널을 설정하는 특정 도구를 추천하거나 보증하지 않습니다. 앞의 내용은 제안에만 해당됩니다. 자세한 내용은 [Ngrok 설명서](https://ngrok.com/docs)를 참조하세요.
 
 ## 문제
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 로컬 환경에 Adobe Commerce을 설치합니다.
 1. ngrok를 설정하여 로컬 서버를 노출하는 터널을 만듭니다.
-1. 시도 [oms에 연결](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+1. [OMS에 연결](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)해 보세요.
 
 <u>예상 결과</u>
 
@@ -53,4 +53,4 @@ ngrok를 시작할 때 지역을 지정하는 매개 변수를 추가합니다. 
 ./ngrok http 80 -region eu
 ```
 
-기본 영역은 US입니다. 다음을 참조하십시오 [모든 가능한 값](https://ngrok.com/docs#config_region).
+기본 영역은 US입니다. [가능한 모든 값](https://ngrok.com/docs#config_region)을 참조하세요.

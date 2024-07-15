@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 문제
 
-Adobe Commerce에서 중복을 보낼 수 있음 [Ajax 요청](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md) 상점 전면에서 서버로 이동하여 배너 정보와 고객 정보를 얻습니다. 이러한 Ajax 요청은 특히 높은 로드(대량 및 높은 트래픽) 조건에서 성능에 영향을 줍니다. 따라서 배너 기능을 사용하지 않는 경우 완전히 사용하는 것이 좋습니다 [Adobe Commerce 배너 모듈 출력 비활성화](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md) 패치를 적용하여 고객 정보 검색을 개선합니다.
+Adobe Commerce이 배너 정보 및 고객 정보를 가져오기 위해 중복 [Ajax 요청](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)을 상점 첫 화면에서 서버로 보낼 수 있습니다. 이러한 Ajax 요청은 특히 높은 로드(대량 및 높은 트래픽) 조건에서 성능에 영향을 줍니다. 따라서 배너 기능을 사용하지 않는 경우 [Adobe Commerce 배너 모듈 출력을 사용하지 않도록 설정](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md)하고 패치를 적용하여 고객 정보 검색을 개선하는 것이 좋습니다.
 
 ## 패치
 
@@ -32,10 +32,10 @@ Adobe Commerce에서 중복을 보낼 수 있음 [Ajax 요청](/help/troubleshoo
 * 클라우드 인프라의 Adobe Commerce 2.2.9
 * Adobe Commerce 온-프레미스 2.2.9
 
-다른 버전의 Adobe Commerce이 있는 경우 최신 2.3.x 릴리스로 업데이트하는 것이 좋습니다. 현재 옵션이 아닌 경우 [Adobe Commerce 지원 문의](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 버전에 대한 패치를 요청합니다.
+다른 버전의 Adobe Commerce이 있는 경우 최신 2.3.x 릴리스로 업데이트하는 것이 좋습니다. 현재 옵션이 아닌 경우 [Adobe Commerce 지원 팀에 문의](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 버전에 대한 패치를 요청하십시오.
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 설명서를 참조하십시오.
+지침은 [Adobe에서 제공한 작성기 패치 적용 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

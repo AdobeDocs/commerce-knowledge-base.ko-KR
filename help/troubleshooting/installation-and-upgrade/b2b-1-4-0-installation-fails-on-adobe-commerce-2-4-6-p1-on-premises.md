@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL B2B] Adobe Commerce 2.4.6-p1 온프레미스에서 1.4.0 설치 실패'
-description: 이 문서에서는 Adobe Commerce 2.4.6-p1 온-프레미스 문제에 대한 해결 방법을 제공합니다. [!DNL B2B] 버전 1.4.0 설치에 실패합니다.
+title: '[!DNL B2B] Adobe Commerce 2.4.6-p1 온-프레미스에서 1.4.0 설치가 실패합니다.'
+description: 이 문서에서는  [!DNL B2B] 버전 1.4.0 설치에 실패하는 Adobe Commerce 2.4.6-p1 온-프레미스 문제에 대한 해결 방법을 제공합니다.
 feature: Install, Upgrade, B2B
 role: Developer
 exl-id: 4a557c13-7ec2-4cfe-b86e-bb0d1a441658
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL B2B] Adobe Commerce 2.4.6-p1 온프레미스에서 1.4.0 설치 실패
+# Adobe Commerce 2.4.6-p1 온-프레미스에서 [!DNL B2B] 1.4.0 설치에 실패했습니다.
 
-이 문서에서는 Adobe Commerce 2.4.6-p1 온-프레미스 문제에 대한 해결 방법을 제공합니다. [!DNL B2B] 버전 1.4.0 설치에 실패합니다.
+이 문서에서는 [!DNL B2B] 버전 1.4.0을 설치하지 못하는 Adobe Commerce 2.4.6-p1 온-프레미스 문제에 대한 해결 방법을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL B2B] 버전 1.4.0이에 성공적으로 설치됨 **Adobe Commerce Cloud 2.4.6-p1**.
+>[!DNL B2B] 버전 1.4.0이 **Adobe Commerce Cloud 2.4.6-p1**&#x200B;에 설치되었습니다.
 
 ## 문제
 
@@ -34,7 +34,7 @@ ht-degree: 0%
    m2install.sh -s composer --ee -v 2.4.6-p1
    ```
 
-1. 설치 시도 [!DNL B2B] 버전 1.4.0.
+1. [!DNL B2B] 버전 1.4.0을 설치하십시오.
 
    ```terminal
    composer require magento/extension-b2b:1.4.0
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 <u>예상 결과</u>:
 
-[!DNL B2B] 버전 1.4.0은 Adobe Commerce 2.4.6-p1에 성공적으로 설치됩니다.
+Adobe Commerce 2.4.6-p1에 [!DNL B2B] 버전 1.4.0이 설치되었습니다.
 
 <u>실제 결과</u>:
 
@@ -61,9 +61,9 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ## 해결 방법
 
-을(를) 설치하거나 (으)로 업그레이드 [!DNL B2B] Adobe Commerce 2.4.6-p1의 버전 1.4.0에 대한 수동 종속성 추가 [!DNL B2B] 보안 패키지 [안정성 태그](https://getcomposer.org/doc/04-schema.md#package-links).
+[안정성 태그](https://getcomposer.org/doc/04-schema.md#package-links)가 있는 [!DNL B2B] 보안 패키지에 대한 수동 종속성을 추가하여 Adobe Commerce 2.4.6-p1에서 [!DNL B2B] 버전 1.4.0을 설치하거나 업그레이드했습니다.
 
-1. Adobe Commerce 설치 디렉토리에서 를 업데이트합니다. `composer.json` 필요한 종속성 포함:
+1. Adobe Commerce 설치 디렉터리에서 필요한 종속으로 `composer.json`을(를) 업데이트합니다.
 
    ```terminal
    composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/security-package-b2b=1.0.4-beta1@beta
@@ -92,7 +92,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
    No security vulnerability advisories found
    ```
 
-1. 업데이트 `composer.json` 추가하려면 [!DNL B2B] 버전 1.4.0.
+1. `composer.json`을(를) 업데이트하여 [!DNL B2B] 버전 1.4.0을 추가하십시오.
 
    ```terminal
    composer require magento/extension-b2b=1.4.0
@@ -114,5 +114,5 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 1. 설치 또는 업그레이드 프로세스를 완료합니다.
 
-   * [설치 [!DNL B2B] 클라우드 인프라에서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
+   * [클라우드 인프라에 설치 [!DNL B2B] 설치](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
    * [온-프레미스 설치](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html)

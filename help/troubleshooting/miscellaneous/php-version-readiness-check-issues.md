@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->클라우드 인프라의 Adobe Commerce에서 서비스 업그레이드는 인프라 팀에 48시간 내에 통지하지 않으면 프로덕션 환경으로 푸시할 수 없습니다. 이는 인프라 지원 엔지니어가 운영 환경에 대한 가동 중지 시간을 최소화하면서 원하는 기간 내에 구성을 업데이트할 수 있도록 해야 하기 때문에 필요합니다. 따라서 변경 사항이 프로덕션에 적용되기 48시간 전 [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 필요한 서비스 업그레이드에 대한 세부 정보를 제공하고 업그레이드 프로세스를 시작할 시간을 명시합니다.
+>클라우드 인프라의 Adobe Commerce에서 서비스 업그레이드는 인프라 팀에 48시간 내에 통지하지 않으면 프로덕션 환경으로 푸시할 수 없습니다. 이는 인프라 지원 엔지니어가 운영 환경에 대한 가동 중지 시간을 최소화하면서 원하는 기간 내에 구성을 업데이트할 수 있도록 해야 하기 때문에 필요합니다. 따라서 변경 사항이 프로덕션에 적용되기 48시간 전에 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 필요한 서비스 업그레이드에 대해 자세히 설명하고 업그레이드 프로세스를 시작할 시간을 지정하십시오.
 
 ## 영향을 받는 제품 및 버전
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 솔루션
 
-이 문제를 해결하려면 개발자 설명서에 나열된 지원되는 버전 중 하나를 사용하십시오 [2.3.x 시스템 요구 사항](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html) 및 [2.2.x 시스템 요구 사항](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements.html).
+이 문제를 해결하려면 개발자 설명서 [2.3.x 시스템 요구 사항](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html) 및 [2.2.x 시스템 요구 사항](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements.html)에 나열된 지원되는 버전 중 하나를 사용하십시오.
 
 ## PHP 준비 검사가 표시되지 않음
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ### 솔루션
 
-이는 잘못된 cron job setup의 증상입니다. 자세한 내용은 [cron 작업 설정](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron) 개발자 설명서에서 확인할 수 있습니다.
+이는 잘못된 cron job setup의 증상입니다. 자세한 내용은 개발자 설명서에서 [cron 작업 설정](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron)을 참조하십시오.
 
 ## 잘못된 PHP 버전
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 검사 결과에 잘못된 PHP 버전이 표시됩니다. 일반적으로 여러 PHP 버전이 설치된 고급 사용자에게만 발생합니다. 경우에 따라 준비 검사가 실패하고, 다른 경우에는 통과될 수 있습니다.
 
-준비 검사에서 보고된 PHP 버전이 올바르지 않으면 PHP CLI와 웹 서버 플러그인 사이에 PHP 버전이 일치하지 않기 때문입니다. Adobe Commerce을 사용하려면 다음을 사용해야 합니다. *1개 버전* CLI(cron 실행)와 웹 서버(Commerce 관리, 구성 요소 관리자 및 시스템 업그레이드 실행) 모두에 PHP를 제공합니다.
+준비 검사에서 보고된 PHP 버전이 올바르지 않으면 PHP CLI와 웹 서버 플러그인 사이에 PHP 버전이 일치하지 않기 때문입니다. Adobe Commerce에서는 CLI(cron을 실행함)와 웹 서버(Commerce 관리, 구성 요소 관리자 및 시스템 업그레이드를 실행함) 모두에 PHP *한 버전*&#x200B;을 사용해야 합니다.
 
 ### 솔루션
 
@@ -60,10 +60,10 @@ ht-degree: 0%
 문제를 해결하려면 다음을 시도해 보십시오.
 
 * 웹 서버 또는 php-fm을 다시 시작합니다.
-* 다음 확인: `$PATH` php에 대한 여러 경로에 대한 환경 변수입니다.
-* 사용 `which php` 경로에서 첫 번째 PHP 실행 파일을 찾는 명령입니다. 올바르지 않으면 제거하거나 올바른 PHP 버전에 대한 심볼릭 링크를 만드십시오.
-* 사용 [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) 페이지를 열어 추가 정보를 수집합니다.
+* `$PATH` 환경 변수에서 PHP에 대한 여러 경로를 확인하십시오.
+* `which php` 명령을 사용하여 경로에서 첫 번째 PHP 실행 파일을 찾습니다. 올바르지 않으면 제거하거나 올바른 PHP 버전에 대한 symlink를 만드십시오.
+* [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) 페이지를 사용하여 자세한 정보를 수집하십시오.
 * 개발자 설명서에서 시스템 요구 사항에 따라 지원되는 PHP 버전을 실행하고 있는지 확인하십시오.
    * [Adobe Commerce 2.3.x 시스템 요구 사항](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html)
    * [Adobe Commerce 2.2.x 시스템 요구 사항](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements.html)
-* 에서 설명한 대로 PHP 명령줄과 PHP 웹 서버 플러그인 모두에 대해 동일한 PHP 설정을 설정합니다. [PHP 구성 옵션](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-centos-ubuntu.html) 개발자 설명서에서 확인할 수 있습니다.
+* 개발자 설명서에서 [PHP 구성 옵션](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-centos-ubuntu.html)에 설명된 대로 PHP 명령줄과 PHP 웹 서버 플러그인에 대해 동일한 PHP 설정을 설정합니다.

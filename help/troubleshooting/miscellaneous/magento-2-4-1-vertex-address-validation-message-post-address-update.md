@@ -24,27 +24,27 @@ ht-degree: 0%
 
 사전 요구 사항:
 
-사용 **꼭지점 주소 정리**. 단계는 를 참조하십시오. [Storefront 주소 정리 구성](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html) 사용 안내서에서 참조하십시오.
+**Vertex 주소 정리**&#x200B;를 사용하도록 설정합니다. 단계는 사용 안내서의 [상점 주소 정리 구성](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html)을 참조하십시오.
 
 <u>재현 단계:</u>
 
 1. 계정을 만들고 로그인합니다.
-1. 를 클릭하여 장바구니에 항목 추가 **장바구니에 추가**. 장바구니 아이콘을 클릭한 다음 을 클릭합니다. **체크아웃 진행**.
-1. 에 올바른 주소를 입력하십시오. **배송 주소** 필드.
-1. 다음 옵션 중 하나를 선택합니다. **배송 방법**. 그런 다음 **다음**.
-1. 주소 검증에서 다른 주소 정보를 제안하는 경우 **주소 업데이트** 및 클릭 **다음**.
-1. 선택 취소 **제 청구서 주소와 배송 주소가 동일합니다** 확인란.
+1. **장바구니에 추가**&#x200B;를 클릭하여 장바구니에 항목을 추가합니다. 장바구니 아이콘을 클릭한 다음 **체크아웃으로 진행**&#x200B;을 클릭합니다.
+1. **배송 주소** 필드에 올바른 주소를 입력하십시오.
+1. **배송 방법**&#x200B;의 옵션 중 하나를 선택하십시오. **다음**&#x200B;을 클릭합니다.
+1. 주소 유효성 검사에서 다른 주소 정보를 제안하는 경우 **주소 업데이트**&#x200B;를 클릭하고 **다음**&#x200B;을 클릭합니다.
+1. **내 청구 주소와 배송 주소가 동일합니다** 확인란의 선택을 취소합니다.
 
 <u>첫 번째 시나리오:</u>
 
-다음 [6단계 이상](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) 다음:
+[6단계 이상](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth)을(를) 수행한 다음:
 
 1. 유효한 새 청구 주소를 입력하십시오.
-1. 을(를) 클릭합니다 **업데이트** 단추를 클릭합니다. 다음과 같이 메시지/제안을 표시합니다. *주소가 잘못되었습니다.* 다음은 다음과 같은 주소 제안 사항입니다. *우편 번호 : XXXXX- XXXX 거리 : XXX 도시 거리 XXX*
-1. 을(를) 클릭합니다 **업데이트** 버튼(클릭 안 함) **주소 업데이트** Vertex 주소 제안 단추
-1. 을(를) 클릭합니다 **편집** 업데이트된 청구 주소의 단추입니다.
+1. **업데이트** 단추를 클릭합니다. 메시지/제안을 다음과 같이 표시합니다. *주소가 잘못되었습니다.* 다음은 다음과 같은 주소 제안 사항입니다. *우편 번호: XXXXX- XXXX 거리: XXX 도시 거리 XXX*
+1. **업데이트** 단추를 클릭합니다(Vertex 주소 제안의 **주소 업데이트** 단추를 클릭하지 마십시오).
+1. 업데이트된 청구 주소의 **편집** 버튼을 클릭합니다.
 1. 주소에서 주소를 선택합니다 드롭다운을.
-1. 을(를) 클릭합니다 **업데이트** 단추를 클릭합니다.
+1. **업데이트** 단추를 클릭합니다.
 
 <u>예상 결과:</u>
 
@@ -52,16 +52,16 @@ ht-degree: 0%
 
 <u>실제 결과:</u>
 
-유효성 확인 메시지/제안 *&quot;유효한 주소를 찾지 못했습니다. 우편 번호: XXXXX-XXXX Street: XXX City street XXX&quot;* 메시지: **아님** 을(를) 제거했습니다. 양식에 잘못된 주소를 입력하면 동일한 문제가 발생합니다.
+유효성 확인 메시지/제안 *&quot;유효한 주소를 찾지 못했습니다. 우편 번호: XXXXX-XXXX Street: XXX City Street XXX&quot;* 메시지가 **제거되지 않았습니다**. 양식에 잘못된 주소를 입력하면 동일한 문제가 발생합니다.
 
 <u>두 번째 시나리오:</u>
 
-다음 [6단계 이상](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) 다음:
+[6단계 이상](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth)을(를) 수행한 다음:
 
 1. 주소 양식에 유효한 주소를 입력하십시오.
-1. 을(를) 클릭합니다 **업데이트** 단추를 클릭합니다. 다음과 같이 메시지/제안을 표시합니다. *주소가 잘못되었습니다.* 다음은 다음과 같은 주소 제안 사항입니다. *우편 번호 : XXXXX-XXXX 거리 : XXX 도시 거리 XXX*.
-1. 을(를) 클릭합니다 **업데이트** 버튼(클릭 안 함) **주소 업데이트** 꼭짓점 주소 제안 단추)
-1. 다음 확인: ***제 청구서 주소와 배송 주소가 동일합니다*** 드롭다운.
+1. **업데이트** 단추를 클릭합니다. 메시지/제안을 다음과 같이 표시합니다. *주소가 잘못되었습니다.* 다음에 *우편 번호: XXXXX-XXXX 거리: XXX 도시 거리 XXX*&#x200B;와 같은 주소 제안을 제공합니다.
+1. **업데이트** 단추를 클릭합니다(꼭지점 주소 제안의 **주소 업데이트** 단추를 클릭하지 마십시오).
+1. ***내 청구 및 배송 주소가 동일한지*** 드롭다운을 확인하세요.
 
 <u>예상 결과:</u>
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 <u>실제 결과:</u>
 
-유효성 확인 메시지/제안 *&quot;유효한 주소를 찾지 못했습니다. 우편 번호: XXXXX-XXXX Street XXX City street XXX&quot;* 메시지: **아님** 을(를) 제거했습니다. 양식에 잘못된 주소를 입력하면 동일한 문제가 발생합니다.
+유효성 확인 메시지/제안 *&quot;유효한 주소를 찾지 못했습니다. 우편 번호: XXXXX-XXXX Street XXX City street XXX&quot;* 메시지가 **제거되지 않았습니다**. 양식에 잘못된 주소를 입력하면 동일한 문제가 발생합니다.
 
 ## 지원 기술 자료의 관련 자료:
 

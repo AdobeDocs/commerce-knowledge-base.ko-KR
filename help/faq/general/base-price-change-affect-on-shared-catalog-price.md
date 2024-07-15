@@ -30,4 +30,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-[공유 카탈로그의 가격 및 구조 설정](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) 사용 안내서에서 참조하십시오.
+사용 안내서에서 [공유 카탈로그의 가격 및 구조 설정](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html).

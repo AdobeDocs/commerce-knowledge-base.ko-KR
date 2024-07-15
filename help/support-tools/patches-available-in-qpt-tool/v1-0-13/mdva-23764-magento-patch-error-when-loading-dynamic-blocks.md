@@ -19,17 +19,17 @@ MDVA-23764 Magento 패치가 의 버그를 수정합니다
 JsFooterPlugin.php
 ```
 
-동적 블록의 표시에 영향을 줍니다. 이 패치는 다음 경우에 사용할 수 있습니다. [품질 패치 도구(QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13이 설치되었습니다. 이 문제는 Magento 2.3.5에서 해결되었습니다.
+동적 블록의 표시에 영향을 줍니다. 이 패치는 [품질 패치 도구(QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.13이 설치된 경우에 사용할 수 있습니다. 이 문제는 Magento 2.3.5에서 해결되었습니다.
 
 ## 영향을 받는 제품 및 버전
 
-**Magento 버전에 대해 패치가 만들어집니다.** Magento Commerce Cloud 2.3.3.
+**Magento 버전:** Magento Commerce Cloud 2.3.3에 대해 패치가 만들어졌습니다.
 
 **Magento 버전과 호환:** Magento Commerce 및 Magento Commerce Cloud 2.3.2 - 2.3.4-p2.
 
 >[!NOTE]
 >
->이 패치는 새로운 품질 패치 도구 릴리스가 있는 다른 버전에 적용할 수 있습니다. 패치가 Adobe Commerce 버전과 호환되는지 확인하려면 `magento/quality-patches` 최신 버전으로 패키지하고 [[!DNL Quality Patches Tool]: 패치 검색 페이지](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). 패치 ID를 검색 키워드로 사용하여 패치를 찾습니다.
+>이 패치는 새로운 품질 패치 도구 릴리스가 있는 다른 버전에 적용할 수 있습니다. 패치가 Adobe Commerce 버전과 호환되는지 확인하려면 `magento/quality-patches` 패키지를 최신 버전으로 업데이트하고 [[!DNL Quality Patches Tool]에서 호환성을 확인합니다. 패치 검색 페이지](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). 패치 ID를 검색 키워드로 사용하여 패치를 찾습니다.
 
 ## 문제
 
@@ -39,7 +39,7 @@ JsFooterPlugin.php
 
 <u>실제 결과:</u>
 
-다음과 유사한 오류가 발생합니다. *확인되지 않은 TypeError: strpos()에는 매개 변수 1이 문자열, null이 주어져야 합니다...(코드 행)* .
+다음과 유사한 오류가 발생합니다. *발견되지 않은 TypeError: strpos() 매개 변수 1은 문자열이어야 합니다. null이 제공됩니다...(코드 줄)* .
 
 <u>예상 결과:</u>
 
@@ -56,7 +56,7 @@ QPT 패치를 적용하는 방법에 대한 지침은 Magento 제품에 따라 �
 
 품질 패치 도구에 대한 자세한 내용은 다음을 참조하십시오.
 
-* [품질 패치 툴 출시: 품질 패치를 셀프서비스할 수 있는 새로운 툴](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) .
+* [품질 패치 도구 릴리스: 품질 패치를 자체 제공하는 새로운 도구](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) .
 * [품질 패치 도구를 사용하여 Magento 문제에 패치를 사용할 수 있는지 확인](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) .
 
-QPT 도구에서 사용할 수 있는 다른 패치에 대한 자세한 내용은 [QPT 도구에서 사용할 수 있는 패치](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) 섹션.
+QPT 도구에서 사용할 수 있는 다른 패치에 대한 정보는 [QPT 도구에서 사용할 수 있는 패치](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) 섹션을 참조하십시오.

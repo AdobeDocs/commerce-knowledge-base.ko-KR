@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # GitHub 커밋에서 Adobe Commerce Composer 설치를 위한 패치 만들기
 
-다음을 참조하십시오. [패치 적용의 사용자 정의 패치 섹션](https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches) 개발자 설명서에서 확인할 수 있습니다.
+개발자 설명서에서 [패치 적용](https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches)의 사용자 지정 패치 섹션을 참조하십시오.

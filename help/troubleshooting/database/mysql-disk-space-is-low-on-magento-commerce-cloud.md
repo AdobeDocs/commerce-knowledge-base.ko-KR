@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 클라우드 인프라의 Adobe Commerce에서 MySQL 디스크 공간 부족
 
-이 문서에서는 클라우드 인프라의 Adobe Commerce에서 MySQL에 대한 공간이 매우 부족하거나 공간이 없는 경우에 대한 솔루션을 제공합니다. 증상으로는 사이트 중단, 고객이 장바구니에 제품을 추가할 수 없음, 데이터베이스에 연결할 수 없음, 데이터베이스에 원격으로 액세스할 수 없음, 노드에 SSH할 수 없음 등이 있습니다. 증상에는 또한 갈레라, 환경 동기화, PHP, 데이터베이스 및 배포 오류가 포함됩니다. 클릭 [솔루션](https://support.magento.com/hc/en-us/articles/360058472572#solution) 솔루션 섹션으로 바로 이동합니다.
+이 문서에서는 클라우드 인프라의 Adobe Commerce에서 MySQL에 대한 공간이 매우 부족하거나 공간이 없는 경우에 대한 솔루션을 제공합니다. 증상으로는 사이트 중단, 고객이 장바구니에 제품을 추가할 수 없음, 데이터베이스에 연결할 수 없음, 데이터베이스에 원격으로 액세스할 수 없음, 노드에 SSH할 수 없음 등이 있습니다. 증상에는 또한 갈레라, 환경 동기화, PHP, 데이터베이스 및 배포 오류가 포함됩니다. [솔루션](https://support.magento.com/hc/en-us/articles/360058472572#solution)을 클릭하여 솔루션 섹션으로 바로 이동합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 갈레라:
 
 * *SQLSTATE\[08S01\]: 통신 링크 실패: 1047 WSREP가 아직 응용 프로그램 사용을 위한 노드를 준비하지 않았습니다.*   *가져오기 오류:*
-* *SQLSTATE\[HY000\]: 일반 오류: 1180 Got 오류 5 &quot;입/출력 오류&quot;*
+* *SQLSTATE\[HY000\]: 일반 오류: 1180 오류 5 &quot;입력/출력 오류&quot;*
 * *SQLSTATE\[08S01\]: 통신 링크 실패: 1047 WSREP가 아직 응용 프로그램 사용을 위한 노드를 준비하지 않았습니다.*
 
 환경 동기화 오류:
@@ -44,25 +44,25 @@ PHP 오류:
 데이터베이스 오류:
 
 * *오류\_코드: 1114*
-* *InnoDB: FTS 보조 인덱스 테이블에 단어 노드를 쓰는 동안 오류(디스크 공간 부족) 발생.*
+* *InnoDB: FTS 보조 인덱스 테이블에 단어 노드를 쓰는 동안 오류가 발생했습니다(디스크 공간 부족).*
 * *SQLSTATE\[HY000\]: 일반 오류: 2006 MySQL 서버가 없어졌습니다.*
-* *\[ERROR\] 슬레이브 SQL: 오류 &#39;테이블 `<table\_name>` 이(가) 쿼리에 &#39;가득 참&#39;입니다.*
-* *장치 mysql.service가 실패 상태로 들어갔습니다.*
-* *오류: &#39;/var/run/mysqld/mysqld.sock&#39; 소켓을 통해 로컬 MySQL 서버에 연결할 수 없음(111 &quot;연결이 거부됨&quot;)&#39;*
-* *1205 잠금 대기 시간 초과; 트랜잭션 다시 시작 시도, 쿼리: INSERT INTO \`cron\_schedule\`(\`job\_code\`, \`status\`, \`created\_at\`, \`scheduled\_at\`) 값(?, ?, `YYYY-02-07 HH:MM:SS`, `YYYY-MM-DD HH:MM:SS`)*
+* *\[ERROR\] 슬레이브 SQL: 쿼리에서 &#39;테이블 `<table\_name>`이(가) 꽉 찼습니다&#39; 오류가 발생했습니다.*
+* *Unit mysql.service가 실패 상태로 들어갔습니다.*
+* *오류: &#39;/var/run/mysqld/mysqld.sock&#39; 소켓을 통해 로컬 MySQL 서버에 연결할 수 없습니다(111 &quot;연결이 거부되었습니다&quot;)&#39;*
+* *1205 잠금 대기 시간 초과; 트랜잭션을 다시 시작해 보십시오. 쿼리: INSERT INTO \`cron\_schedule\`(\`job\_code\`, \`status\`, \`created\_at\`, \`scheduled\_at\`) 값(?, ?, `YYYY-02-07 HH:MM:SS`, `YYYY-MM-DD HH:MM:SS`)*
 
 배포 오류:
 
-* *E: 명령 &#39;\[&#39;sudo&#39;, &#39;-u&#39;, `<environment name>`, &#39;bash&#39;, &#39;-c&#39;, &#39;/etc/platform/`<environment name>`/post\_deploy.sh&#39;\]&#39;이(가) 0이 아닌 종료 상태 255를 반환했습니다.*
-* *E: 명령 &#39;\[&#39;ssh&#39;, u`<node IP address>`, &#39;sudo /usr/bin/sv -w 30 사이트 재시작-`<environment name>`g-nginx&#39;\]&#39;이(가) 0이 아닌 값을 반환했습니다.*
-* *스키마 업그레이드 중.. SQLSTATE\[HY000\]: 일반 오류: 1114 테이블 `<table\_name>` 가득 참*
-* *SQLSTATE\[HY000\]: 일반 오류: 파일 쓰기 중 3 오류./`<environment name>`/\#*
-* *너비: `<filename>` (오류 코드: 28 &quot;장치에 남은 공간 없음&quot;)*  *인덱싱 오류(/tmp에 분리된 임시 .ibd 파일과 함께):*
-* *카탈로그 규칙 인덱서에서 예외가 발생합니다. 그 이후에 임시 테이블이 정리되지 않고 현재 MySQL 마스터 노드의 디스크를 채웁니다*
+* *E: &#39;\[&#39;sudo&#39;, &#39;-u&#39;, `<environment name>`, &#39;bash&#39;, &#39;-c&#39;, &#39;/etc/platform/`<environment name>`/post\_deploy.sh&#39;\]&#39; 명령이 0이 아닌 종료 상태 255*&#x200B;를 반환했습니다.
+* *E: &#39;\[&#39;ssh&#39;, u`<node IP address>`, &#39;sudo /usr/bin/sv -w 30 restart site-`<environment name>`g-nginx&#39;\]&#39; 명령이 0이 아닌 값으로 반환됨*
+* *스키마를 업그레이드하는 중.. SQLSTATE\[HY000\]: 일반 오류: 1114 테이블 `<table\_name>`이(가) 가득 찼습니다*
+* *SQLSTATE\[HY000\]: 일반 오류: 파일을 쓰는 동안 오류 발생 ./`<environment name>`/\#*
+* *너비: `<filename>`(오류 코드: 28 &quot;장치에 남은 공간이 없음&quot;)* *인덱싱 오류(/tmp에 분리된 임시 .ibd 파일 포함):*
+* *카탈로그 규칙 인덱서에서 예외가 발생했습니다. 그 이후에 임시 테이블이 정리되지 않고 현재 MySQL 마스터 노드*&#x200B;의 디스크를 채웁니다.
 
 <u>재현 단계</u>:
 
-다음을 확인할 수 있는 방법 중 하나 `/data/mysql` (또는 MySQL 데이터 스토리지가 구성된 모든 곳에서)가 가득 찬 경우 CLI에서 다음 명령을 실행하면 됩니다.
+CLI에서 다음 명령을 실행하여 `/data/mysql`(또는 MySQL 데이터 저장소가 구성된 곳)이 가득 찼는지 확인할 수 있는 방법 중 하나가 있습니다.
 
 ```bash
 df -h
@@ -72,13 +72,13 @@ MySQL 디스크의 사용 가능한 메모리 중 10% 미만이 중단에 대한
 
 ## 원인
 
-다음 `/data/mysql` 충분한 inodes, 사용 가능한 저장소 공간 및 임시 테이블을 생성하는 잘못된 쿼리와 같은 다양한 문제로 인해 마운트가 꽉 찰 수 있습니다.
+충분한 Inodes, 사용 가능한 저장소 공간 및 임시 테이블을 생성하는 잘못된 쿼리와 같은 다양한 문제로 인해 `/data/mysql` 마운트가 꽉 찼을 수 있습니다.
 
 ## 솔루션
 
 MySQL을 정상 상태로 되돌리거나 중단되지 않도록 하는 즉각적인 단계를 수행할 수 있습니다. 큰 테이블을 플러시하여 공간을 확보하십시오.
 
-그러나 장기적인 해결책은 더 많은 공간을 할당하고 추적하는 것이다 [데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html), 활성화 포함 [주문/송장/선적 아카이브](https://docs.magento.com/user-guide/sales/order-archive.html) 기능.
+그러나 장기 솔루션에는 더 많은 공간을 할당하고 [주문/송장/배송 보관](https://docs.magento.com/user-guide/sales/order-archive.html) 기능을 사용하도록 설정하는 등 [데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)를 따르는 것이 포함됩니다.
 
 다음은 빠른 솔루션과 장기적인 솔루션에 대한 세부 사항입니다.
 
@@ -116,35 +116,35 @@ Size Used Avail Use% Mounted on·
 
 사용 %가 70%를 초과하는 경우 일부 공간을 사용/추가하기 위해 조치를 취해야 합니다.
 
-### 크게 확인 `ibtmp1` 파일
+### 대용량 `ibtmp1`개 파일 확인
 
-크게 확인 `ibtmp1` 파일 위치: `/data/mysql` 각 노드의 경우: 이 파일은 임시 테이블의 테이블스페이스입니다. 임시 테이블을 생성하는 잘못된 쿼리가 있는 경우 `ibtmp1` 파일. 이 파일은 데이터베이스가 다시 시작될 때만 제거됩니다. 사용 가능한 모든 공간을 사용하는 경우 데이터베이스를 다시 시작해야 합니다. 잘못된 쿼리가 있는 경우 다시 생성됩니다.
+각 노드의 `/data/mysql`에서 큰 `ibtmp1` 파일을 확인하십시오. 이 파일은 임시 테이블의 테이블스페이스입니다. 임시 테이블을 생성하는 잘못된 쿼리가 있는 경우 해당 쿼리는 `ibtmp1` 파일에 포함되어 있습니다. 이 파일은 데이터베이스가 다시 시작될 때만 제거됩니다. 사용 가능한 모든 공간을 사용하는 경우 데이터베이스를 다시 시작해야 합니다. 잘못된 쿼리가 있는 경우 다시 생성됩니다.
 
 ### 큰 테이블 초기화
 
 >[!WARNING]
 >
->조작을 수행하기 전에 데이터베이스 백업을 만들고 사이트 로드가 많은 기간 동안에는 이를 피하는 것이 좋습니다. 다음을 참조하십시오 [데이터베이스 덤프](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump) 개발자 설명서에서 확인할 수 있습니다.
+>조작을 수행하기 전에 데이터베이스 백업을 만들고 사이트 로드가 많은 기간 동안에는 이를 피하는 것이 좋습니다. 개발자 설명서에서 [데이터베이스 덤프](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump)를 참조하십시오.
 
 큰 테이블이 있는지 확인하고 플러시할 수 있는 테이블이 있는지 확인합니다. 기본(소스) 노드에서 이 작업을 수행합니다.
 
-예를 들어 보고서가 있는 표는 일반적으로 플러시할 수 있습니다. 큰 테이블을 찾는 방법에 대한 자세한 내용은 [큰 MySQL 테이블 찾기](/help/how-to/general/find-large-mysql-tables.md) 기사.
+예를 들어 보고서가 있는 표는 일반적으로 플러시할 수 있습니다. 큰 테이블을 찾는 방법에 대한 자세한 내용은 [큰 MySQL 테이블 찾기](/help/how-to/general/find-large-mysql-tables.md) 문서를 참조하십시오.
 
-큰 보고서 테이블이 없는 경우 플러시를 고려하십시오 `_index` 테이블: Adobe Commerce 애플리케이션을 정상 상태로 되돌리기 위한 것입니다. `index_price` 테이블이 가장 적합한 후보입니다. 예를 들어, `catalog_category_product_index_storeX` 테이블. 여기서 X는 &quot;1&quot;부터 최대 저장소 개수까지의 값을 가질 수 있습니다. 이러한 테이블의 데이터를 복원하려면 색인을 다시 지정해야 하며 큰 카탈로그의 경우 이 색인 재지정에 많은 시간이 걸릴 수 있습니다.
+대용량 보고서 테이블이 없는 경우 Adobe Commerce 응용 프로그램을 정상 상태로 되돌리기 위해 `_index` 테이블을 플러시하는 것이 좋습니다. `index_price`개 테이블이 가장 적합한 후보입니다. 예를 들어 `catalog_category_product_index_storeX`개의 테이블을 사용합니다. 여기서 X는 &quot;1&quot;부터 최대 저장소 개수까지의 값을 가질 수 있습니다. 이러한 테이블의 데이터를 복원하려면 색인을 다시 지정해야 하며 큰 카탈로그의 경우 이 색인 재지정에 많은 시간이 걸릴 수 있습니다.
 
-플러시하고 나면 wsrep 동기화가 완료될 때까지 기다립니다. 이제 백업을 만들고 더 많은 공간을 할당/구매하고 사용하는 것과 같이 더 많은 공간을 추가하는 중요한 단계를 수행할 수 있습니다 [주문/송장/선적 아카이브](https://docs.magento.com/user-guide/sales/order-archive.html) 기능.
+플러시하고 나면 wsrep 동기화가 완료될 때까지 기다립니다. 이제 백업을 만들고 더 많은 공간을 할당/구매하고 [주문/송장/배송 보관](https://docs.magento.com/user-guide/sales/order-archive.html) 기능을 활성화하는 등 더 중요한 단계를 수행하여 공간을 추가할 수 있습니다.
 
 ### 이진 로깅 설정 확인
 
-MySQL Server 이진 로깅 설정을 확인하십시오. `log_bin` 및 `log_bin_index`. 이 설정을 사용하면 로그 파일이 커질 수 있습니다. [지원 티켓 만들기](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 큰 이진 로그 파일을 제거하도록 요청합니다. 또한 로그가 주기적으로 삭제되고 공간이 너무 많이 차지하지 않도록 바이너리 로깅이 올바르게 구성되어 있는지 확인하는 요청입니다.
+MySQL Server 이진 로깅 설정을 확인하십시오. `log_bin` 및 `log_bin_index`. 이 설정을 사용하면 로그 파일이 커질 수 있습니다. [지원 티켓을 만듭니다](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 큰 이진 로그 파일을 제거하도록 요청합니다. 또한 로그가 주기적으로 삭제되고 공간이 너무 많이 차지하지 않도록 바이너리 로깅이 올바르게 구성되어 있는지 확인하는 요청입니다.
 
 MySQL 서버 설정에 액세스할 수 없는 경우 지원을 요청하여 확인하세요.
 
 ### 추가 공간 할당/구매
 
-사용하지 않은 디스크 공간이 있는 경우 MySQL에 더 많은 디스크 공간을 할당하십시오. 다음을 참조하십시오. [디스크 공간 제한 확인](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md) 사용 가능한 디스크 공간이 있는지 확인하는 방법에 대한 문서입니다.
+사용하지 않은 디스크 공간이 있는 경우 MySQL에 더 많은 디스크 공간을 할당하십시오. 사용 가능한 디스크 공간이 있는지 확인하는 방법은 [디스크 공간 제한 확인](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md) 문서를 참조하십시오.
 
-* Starter 계획, 모든 환경 및 Pro 계획 통합 환경의 경우 일부 사용하지 않는 디스크 공간이 있을 경우 디스크 공간을 할당할 수 있습니다. 자세한 내용은 [MySQL에 더 많은 공간 할당](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md).
-* Pro 계획 스테이징 및 프로덕션 환경의 경우 [연락처 지원](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 사용하지 않은 디스크 공간이 있을 경우 더 많은 디스크 공간을 할당하십시오.
+* Starter 계획, 모든 환경 및 Pro 계획 통합 환경의 경우 일부 사용하지 않는 디스크 공간이 있을 경우 디스크 공간을 할당할 수 있습니다. 자세한 내용은 [MySQL에 추가 공간 할당](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)을 참조하세요.
+* Pro 계획 스테이징 및 프로덕션 환경의 경우 사용하지 않은 디스크 공간이 있는 경우 [지원에 문의](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 더 많은 디스크 공간을 할당하십시오.
 
 공간 제한에 도달했지만 여전히 공간 부족 문제가 있는 경우 더 많은 디스크 공간을 구입하는 것이 좋습니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.

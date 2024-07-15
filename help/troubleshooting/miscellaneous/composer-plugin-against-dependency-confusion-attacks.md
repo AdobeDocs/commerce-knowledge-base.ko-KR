@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 문제
 
-에 정의된 직접 또는 간접 종속성 중 적어도 하나를 통해 활성 종속성 혼동 공격의 잠재적 사례가 감지됩니다. `composer.json` 작성기 플러그인으로 `magento/composer-dependency-version-audit-plugin` composer 설치/업데이트 중.
+작성기 설치/업데이트 중에 작성기 플러그 인 `magento/composer-dependency-version-audit-plugin`에 의해 `composer.json`에 정의된 직접 또는 간접 종속성 중 적어도 하나를 통해 활성 종속성 혼동 공격의 잠재적 사례가 감지되었습니다.
 
 <u>재현 단계</u>:
 
@@ -47,5 +47,5 @@ ht-degree: 0%
 
 ### 확장 개발자의 기대 사항
 
-* 공용 리포지토리의 경우 플러그인에 대한 패키지가 손상되었는지 여부를 확실히 알 수 있는 방법이 없습니다. 이 플러그인은 packagist.org에 있는 패키지의 공개 버전이 와 같은 개인 저장소에서 사용할 수 있는 버전보다 높은 버전을 갖는 경우를 검색합니다 [repo.magento.com](https://repo.magento.com). 확장 개발자는 이러한 상황을 방지하고 다음을 통해 제공되는 버전보다 최신 버전을 공개적으로 게시하지 않는 것이 좋습니다. [repo.magento.com](https://repo.magento.com).
+* 공용 리포지토리의 경우 플러그인에 대한 패키지가 손상되었는지 여부를 확실히 알 수 있는 방법이 없습니다. 이 플러그인은 packagist.org에 있는 패키지의 공개 버전이 [repo.magento.com](https://repo.magento.com)과(와) 같은 개인 리포지토리에서 사용할 수 있는 버전보다 높은 버전을 사용하는 경우를 검색합니다. 확장 개발자는 이러한 상황을 피하고 [repo.magento.com](https://repo.magento.com)을 통해 사용 가능한 버전보다 최신 버전을 공개적으로 게시하지 않는 것이 좋습니다.
 * Adobe Commerce은 Marketplace 검토 프로세스로 인해 확장 릴리스 가용성이 지연될 수 있다는 것을 알고 있지만 이 프로세스는 판매자를 안전하게 보호하고 확장 개발자가 놓쳤을 수 있는 우발적인 실수를 발견할 수 있도록 지원하기 위한 것입니다.

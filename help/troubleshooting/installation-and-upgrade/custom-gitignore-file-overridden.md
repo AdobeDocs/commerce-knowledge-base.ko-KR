@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Composer install 명령은 .gitigore 파일, Adobe Commerce을 감독합니다.
 
-이 문서에서는 추적되는 경우에 대한 솔루션을 제공합니다 `.gitignore` 파일은 클라우드 인프라 2.4.2-p1 및 2.3.7의 Adobe Commerce에서 composer에 의해 재정의됩니다.
+이 문서에서는 추적된 `.gitignore` 파일이 클라우드 인프라 2.4.2-p1 및 2.3.7의 Adobe Commerce에서 작성기에 의해 재정의되는 경우에 대한 솔루션을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 문제
 
-`.gitignore` composer install 명령을 실행할 때 파일을 덮어쓰는 중입니다.
+composer install 명령을 실행할 때 `.gitignore` 파일을 덮어쓰는 중입니다.
 
 <u>재현 단계</u>:
 
@@ -39,7 +39,7 @@ ht-degree: 0%
    1. `echo "/this/line/should/stay" >> .gitignore`
    1. `git init`
    1. `git add * && git add .*`
-   1. `git commit -m "Init"` 리포지토리에 커밋된 파일 수
+   1. 저장소에 커밋된 파일 `git commit -m "Init"`개
    1. `rm -rf vendor/*`
    1. `composer install`
    1. `git diff`
@@ -58,15 +58,15 @@ ht-degree: 0%
 
 <u>예상 결과</u>:
 
-`.gitignore` 은(는) 작성기에 의해 재정의되지 않습니다.
+`.gitignore`은(는) 작성기에 의해 재정의되지 않았습니다.
 
 <u>실제 결과</u>:
 
-`.gitignore` 는 모든 작성기 설치 실행에서 재정의됩니다.
+`.gitignore`은(는) 모든 작성기 설치 실행에서 재정의됩니다.
 
 ## 솔루션
 
-사용자 지정 유지 `.gitignore file` 다음에서 무시해야 합니다. `magento-deploy-ignore` 섹션.
+사용자 지정 `.gitignore file`을(를) 유지하려면 `magento-deploy-ignore` 섹션에서 무시해야 합니다.
 
 ```git
 {
@@ -84,4 +84,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* [추적된 .gitigore 파일은 작성기에 의해 재정의됩니다.](https://github.com/magento/magento2/issues/32888) Magento2 GitHub.
+* [추적된 .gitigore 파일이 작성기에 의해 재정의됩니다.Magento2 GitHub의 ](https://github.com/magento/magento2/issues/32888).

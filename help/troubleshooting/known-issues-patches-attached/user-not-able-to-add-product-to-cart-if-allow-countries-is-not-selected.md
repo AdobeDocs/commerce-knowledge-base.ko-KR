@@ -26,9 +26,9 @@ Adobe Commerce 2.4.4(PHP 8.1 포함)
 <u>재현 단계</u>:
 
 1. Commerce 관리자에 로그인합니다.
-1. 다음으로 이동 **저장** > **구성** > **일반** > **국가 옵션**
-1. 의 모든 옵션 선택 취소 **국가 허용** 필드.
-1. 클릭 **구성 저장** 구성을 저장합니다.
+1. **스토어** > **구성** > **일반** > **국가 옵션**(으)로 이동
+1. **국가 허용** 필드에서 모든 옵션을 선택 취소합니다.
+1. 구성을 저장하려면 **구성 저장**&#x200B;을 클릭하세요.
 1. 상점으로 이동하여 장바구니에 제품을 추가해 보십시오.
 
 <u>예상 결과:</u>
@@ -51,7 +51,7 @@ customer-data.js:87 Uncaught Error: [object Object]
 
 ## 원인
 
-Adobe Commerce 구성은 `null` 다중 선택 구성에 선택한 항목이 없는 경우. 이 구성은 8.1 이전 버전의 PHP에서 성공적으로 처리된 경우. 그러나 PHP 8.1에서는 &quot;[PHP 8.1에서 Null을 허용하지 않는 내부 함수의 인수에 전달하지 마십시오.](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)&quot;.
+다중 선택 구성에 선택한 항목이 없는 경우 Adobe Commerce 구성은 `null`을(를) 검색합니다. 이 구성은 8.1 이전 버전의 PHP에서 성공적으로 처리된 경우. 그러나 PHP 8.1에서는 &quot;[PHP 8.1](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)&quot;에서 Null을 허용하지 않는 내부 함수의 인수에 Null을 전달하는 것을 사용하지 마십시오.
 
 ## 솔루션
 
@@ -61,8 +61,8 @@ Adobe Commerce 구성은 `null` 다중 선택 구성에 선택한 항목이 없�
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 지침에 대해서는 지원 기술 자료에서 참조하십시오.
+자세한 내용은 지원 기술 자료에서 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 유용한 링크
 
-[클라우드 인프라의 Adobe Commerce에 사용자 정의 패치 적용](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html) 개발자 설명서에서 확인할 수 있습니다.
+개발자 설명서에서 [클라우드 인프라의 Adobe Commerce에 사용자 지정 패치를 적용](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html)합니다.

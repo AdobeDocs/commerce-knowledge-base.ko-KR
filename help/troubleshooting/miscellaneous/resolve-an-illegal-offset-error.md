@@ -25,26 +25,26 @@ Modifier/AdvancedInventory.php on line 87
 
 ## 세부 사항
 
-Adobe Commerce 2.1 이상 버전은 `getDocComment` 에서 유효성 검사 호출 [`getExtensionAttributes`](https://github.com/magento/magento2/blob/2.3/lib/internal/Magento/Framework/Api/ExtensionAttributesFactory.php#L64-L73) 방법 `Magento\Framework\Api\ExtensionAttributesFactory.php`.
+Adobe Commerce 2.1 이상 버전은 `Magento\Framework\Api\ExtensionAttributesFactory.php`의 [`getExtensionAttributes`](https://github.com/magento/magento2/blob/2.3/lib/internal/Magento/Framework/Api/ExtensionAttributesFactory.php#L64-L73) 메서드에서 `getDocComment` 유효성 검사 호출에 PHP 코드 주석을 사용합니다.
 
-PHP OPcache를 활성화한 경우(권장) 기본적으로 OPcache 설정이 사용되므로 이 오류가 표시됩니다 [`opcache.save_comments`](http://php.net/manual/en/opcache.configuration.php#ini.opcache.save_comments) 이(가) 비활성화되었습니다.
+PHP OPcache를 활성화하면 기본적으로 OPcache 설정 [`opcache.save_comments`](http://php.net/manual/en/opcache.configuration.php#ini.opcache.save_comments)이(가) 비활성화되어 있기 때문에 이 오류가 표시됩니다.
 
 ## 해결 방법
 
-이 문제를 해결하려면 OPcache 구성 설정을 찾아 를 활성화합니다 `opcache.save_comments` 다음과 같이:
+이 문제를 해결하려면 OPcache 구성 설정을 찾아 다음과 같이 `opcache.save_comments`을(를) 활성화합니다.
 
 ### 1단계: OPcache 구성 찾기
 
 #### OPcache 구성 설정을 찾으려면 다음을 수행합니다.
 
-PHP OPcache 설정은 일반적으로 다음 중 하나에 있습니다 `php.ini` 또는 `opcache.ini`. 위치는 운영 체제와 PHP 버전에 따라 달라질 수 있습니다. OPcache 구성 파일에는 `[opcache]` 섹션 또는 설정 `opcache.enable`.
+PHP OPcache 설정은 일반적으로 `php.ini` 또는 `opcache.ini`에 있습니다. 위치는 운영 체제와 PHP 버전에 따라 달라질 수 있습니다. OPcache 구성 파일에 `[opcache]` 섹션이나 `opcache.enable` 같은 설정이 있을 수 있습니다.
 
 다음 지침을 사용하여 찾습니다.
 
 * Apache 웹 서버:<br>
 
-Apache가 있는 Ubuntu의 경우, OPcache 설정은 일반적으로 `php.ini`.<br>
-Apache 또는 nginx가 있는 CentOS의 경우 OPcache 설정은 일반적으로 `/etc/php.d/opcache.ini`.<br>
+Apache가 있는 Ubuntu의 경우 OPcache 설정은 일반적으로 `php.ini`에 있습니다.<br>
+Apache 또는 nginx가 있는 CentOS의 경우 OPcache 설정은 일반적으로 `/etc/php.d/opcache.ini`에 있습니다.<br>
 그렇지 않은 경우 다음 명령을 사용하여 찾습니다.
 
 ```bash
@@ -53,18 +53,18 @@ Apache 또는 nginx가 있는 CentOS의 경우 OPcache 설정은 일반적으로
 
 * nginx 웹 서버(PHP-FPM 포함): `/etc/php5/fpm/php.ini`.
 
-두 개 이상 있으면 `opcache.ini`, 모든 을 수정합니다.
+`opcache.ini`이(가) 두 개 이상인 경우 모두 수정하십시오.
 
 
-### 2단계: 활성화 `opcache.save_comments`
+### 2단계: `opcache.save_comments` 사용
 
 1. 텍스트 편집기에서 OPcache 구성 파일을 엽니다.
-1. 찾기 `opcache.save_comments` 필요한 경우 주석 처리를 제거합니다.
-1. 해당 값이 로 설정되어 있는지 확인합니다. `1`.
+1. `opcache.save_comments`을(를) 찾아 필요한 경우 주석 처리를 제거합니다.
+1. 해당 값이 `1`(으)로 설정되어 있는지 확인하십시오.
 1. 변경 사항을 저장하고 텍스트 편집기를 종료합니다.
 1. 웹 서버를 다시 시작합니다.
 
-   * 아파치, 우분투: `service apache2 restart`
+   * Apache, Ubuntu: `service apache2 restart`
    * Apache, CentOS: `service httpd restart`
    * nginx, Ubuntu 및 CentOS: `service nginx restart`
 

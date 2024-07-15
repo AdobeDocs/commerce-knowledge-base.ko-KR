@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ## Fastly 자격 증명을 보는 방법
 
-다음을 참조하십시오. [Fastly 자격 증명 가져오기](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#cloud-fastly-creds) 개발자 설명서에서 섹션을 참조하십시오.
+개발자 설명서에서 [Fastly 자격 증명 가져오기](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#cloud-fastly-creds) 섹션을 참조하십시오.
 
 ## Fastly 자격 증명을 테스트하는 방법
 
-다음을 참조하십시오. [Fastly 자격 증명 테스트](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) 개발자 설명서에서 섹션을 참조하십시오.
+개발자 설명서의 [Fastly 자격 증명 테스트](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) 섹션을 참조하십시오.
 
 ## 관련 읽기
 
-[Fastly on Cloud에 대한 계정 소유자 변경(API 토큰을 통해 자격 증명 액세스)](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md) 을 참조하십시오.
+지원 기술 자료에서 [Fastly를 위해 계정 소유자(API 토큰을 통한 액세스 자격 증명)를 변경](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md)합니다.

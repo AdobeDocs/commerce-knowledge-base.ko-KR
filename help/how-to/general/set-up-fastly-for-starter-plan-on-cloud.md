@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 클라우드에서 시작 플랜에 대한 Fastly 설정
 
-다음을 참조하십시오. [Fastly 설정](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html) 개발자 설명서에서 확인할 수 있습니다.
+개발자 설명서에서 [Fastly 설정](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html)을 참조하십시오.

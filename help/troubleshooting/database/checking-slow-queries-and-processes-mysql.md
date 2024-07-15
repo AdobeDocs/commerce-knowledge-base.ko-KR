@@ -30,7 +30,7 @@ ht-degree: 0%
    grep 'Query_time: [5-9][0-9]\|Query_time: [0-9][0-9][0-9]' /var/log/mysql/mysql-slow.log -A 3
    ```
 
-1. 다음으로 이동 <https://www.unixtimestamp.com/> (또는 유사한 Unix 타임스탬프 변환기) 및 느린 쿼리가 실행된 시간의 타임스탬프를 삽입합니다.
+1. <https://www.unixtimestamp.com/>(또는 유사한 Unix 타임스탬프 변환기)로 이동하여 느린 쿼리가 실행된 시간의 타임스탬프를 삽입합니다.
 1. 이 시간이 발생한 사이트 중단과 관련이 있는 경우 데이터베이스가 오버로드되어 발생할 수 있습니다. 해당 시간에 데이터베이스에 어떤 로드가 있는지 확인합니다. 이러한 로드의 예는 다음과 같습니다.
 
 * Cron 프로세스
@@ -39,13 +39,13 @@ ht-degree: 0%
 * 덤프 만들기
 
 
-### 를 사용하여 쿼리 분석 [!DNL Percona Toolkit] (Adobe Commerce Pro: 클라우드 아키텍처만 해당)
+### [!DNL Percona Toolkit]을(를) 사용하여 쿼리 분석(Adobe Commerce Pro: 클라우드 아키텍처만)
 
-Adobe Commerce 프로젝트가 Pro 아키텍처에 배포된 경우 [!DNL Percona Toolkit] 쿼리를 분석합니다.
+Adobe Commerce 프로젝트가 Pro 아키텍처에 배포된 경우 [!DNL Percona Toolkit]을(를) 사용하여 쿼리를 분석할 수 있습니다.
 
-1. 실행 `pt-query-digest --type=slowlog` MySQL 느린 쿼리 로그에 대한 명령입니다.
-   * 느린 쿼리 로그의 위치를 찾으려면 **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)** 개발자 설명서에서 확인할 수 있습니다.
-   * 다음을 참조하십시오. [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) 설명서를 참조하십시오.
+1. MySQL 느린 쿼리 로그에 대해 `pt-query-digest --type=slowlog` 명령을 실행합니다.
+   * 느린 쿼리 로그의 위치를 찾으려면 개발자 설명서에서 **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)**&#x200B;을(를) 참조하십시오.
+   * [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) 설명서를 참조하십시오.
 1. 발견된 문제를 기반으로, 쿼리를 수정하는 단계를 수행하여 쿼리가 더 빨리 실행되도록 합니다.
 
 ## MySQL &quot;프로세스 목록&quot; 확인 중
@@ -78,7 +78,7 @@ Adobe Commerce 프로젝트가 Pro 아키텍처에 배포된 경우 [!DNL Percon
 
 ## 관련 읽기
 
-* [MySQL 프로세스 목록 표시 구문](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) dev.mysql.com에서 확인할 수 있습니다.
-* [MySQL Kill 구문](https://dev.mysql.com/doc/refman/8.0/en/kill.html) dev.mysql.com에서 확인할 수 있습니다.
-* [보안, 성능 및 데이터 처리](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html) 개발자 설명서에서 확인할 수 있습니다.
-* [MySQL 도움말](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html) 개발자 설명서에서 확인할 수 있습니다.
+* dev.mysql.com의 [MySQL Show Processlist 구문](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html).
+* dev.mysql.com의 [MySQL Kill 구문](https://dev.mysql.com/doc/refman/8.0/en/kill.html).
+* 개발자 설명서에서 [보안, 성능 및 데이터 처리](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html).
+* 개발자 설명서에서 [MySQL 도움말](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html)

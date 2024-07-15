@@ -23,4 +23,4 @@ Amazon에서 매 시간마다 이메일을 받습니다. 모듈이 이 작업을
 
 ## 이러한 이메일을 거부하려면:
 
-다음 지침을 따르십시오. [Amazon 사이트에서 알림 환경 설정 업데이트](https://sellercentral.amazon.com/gp/help/external/G871).
+[Amazon 사이트에서 알림 환경 설정 업데이트](https://sellercentral.amazon.com/gp/help/external/G871)에 대한 지침을 따르십시오.

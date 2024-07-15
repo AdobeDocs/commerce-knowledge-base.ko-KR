@@ -24,18 +24,18 @@ ht-degree: 0%
 
 백엔드에서 게스트 체크아웃이 비활성화되고 PayPal through Braintree 결제 옵션이 Mini-Cart 또는 Shopping Cart에서 선택되면 구체적이지 않은 오류가 표시됩니다.
 
-<u>전제 조건</u>:
+<u>필수 구성 요소</u>:
 
-1. Commerce 관리자의 **스토어** > **구성** > **판매** > **체크아웃**, 설정됨 **게스트 체크아웃 허용** = *아니요*.
-1. 에 설명된 대로 Braintree을 통해 PayPal 활성화 [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) 사용 안내서에서 참조하십시오.
+1. Commerce 관리자의 **스토어** > **구성** > **판매** > **체크아웃**&#x200B;에서 **게스트 체크아웃 허용** = *아니요*&#x200B;를 설정하십시오.
+1. 사용 안내서의 [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?)에 설명된 대로 Braintree을 통해 PayPal을 사용하도록 설정하십시오.
 
 <u>재현 단계</u>:
 
 1. 장바구니에 제품을 게스트로 추가합니다.
-1. 선택 **미니 카트** 및 클릭 **PayPal 결제**.
+1. **미니 장바구니**&#x200B;를 선택하고 **PayPal로 결제**&#x200B;를 클릭하세요.
 1. Paypal 체크아웃을 완료하면 Order Review 페이지에 도달합니다.
-1. 선택 **배송 방법**.
-1. 클릭 **주문**.
+1. **배송 방법**&#x200B;을 선택하세요.
+1. **주문**&#x200B;을 클릭하세요.
 
 <u>예상 결과</u>:
 
@@ -59,6 +59,6 @@ Braintree을 사용하지 않고 직접 Paypal을 사용하는 경우 이 시나
 
 ## 관련 읽기
 
-* [Adobe Commerce의 장바구니에 있는 제품 수에 대한 우수 사례](https://support.magento.com/hc/en-us/articles/360048550332) 을 참조하십시오.
-* [주문 처리 자습서: 1단계. 장바구니에 항목 추가](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) 개발자 설명서에서
-* [GraphQL 체크아웃 튜토리얼: 1단계. 장바구니에 제품 추가](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) 개발자 설명서에서
+* 지원 기술 자료에서 [Adobe Commerce의 장바구니에 있는 제품 수에 대한 모범 사례](https://support.magento.com/hc/en-us/articles/360048550332).
+* [주문 처리 자습서: 1단계. 개발자 설명서에서 장바구니에 항목 추가](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html)
+* [GraphQL 체크아웃 튜토리얼: 1단계. 개발자 설명서에서 장바구니에 제품 추가](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html)

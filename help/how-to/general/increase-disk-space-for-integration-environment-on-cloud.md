@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 클라우드에서 통합 환경을 위한 디스크 공간 증가
 
-다음을 참조하십시오. [디스크 공간 관리](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) Commerce on Cloud Infrastructure 안내서에서 참조하십시오.
+Commerce on Cloud Infrastructure 안내서의 [디스크 공간 관리](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)를 참조하십시오.

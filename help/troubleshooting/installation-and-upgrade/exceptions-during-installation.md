@@ -43,7 +43,7 @@ Object(Magento\Indexer\Model\Resource\Indexer\State\Collection), 'indexer_config
 
 ## 솔루션
 
-지우기 `<magento_root>/generated/code` 및 기타 디렉터리 `var` 및 `generated` 다음과 같이:
+`var` 및 `generated`에서 `<magento_root>/generated/code` 및 기타 디렉터리를 다음과 같이 지웁니다.
 
 ```bash
 rm -rf <magento_root>/generated/code/* <magento_root>/generated/metadata/* <magento_root>/var/cache/*

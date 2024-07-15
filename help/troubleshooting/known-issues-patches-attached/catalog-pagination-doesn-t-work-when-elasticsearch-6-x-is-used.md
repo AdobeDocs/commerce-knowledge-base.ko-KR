@@ -43,13 +43,13 @@ ht-degree: 0%
 
 <u>실제 결과</u>:
 
-**&quot;***선택한 항목과 일치하는 제품을 찾을 수 없습니다.***&quot;** 두 번째 페이지에 메시지가 표시됩니다.
+**&quot;***선택 항목과 일치하는 제품을 찾을 수 없습니다.***&quot;** 메시지가 두 번째 페이지에 표시됩니다.
 
 ## 솔루션
 
 이 문제를 해결하려면 이 문서에 첨부된 패치를 적용하십시오. 다운로드하려면 문서 끝까지 스크롤하여 파일 이름을 클릭하거나 다음 링크를 클릭합니다.
 
-[Elasticsearch 6.x 패치의 카탈로그 페이지 매김 문제 다운로드](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip) - 이 패치는 영향을 받는 모든 버전 및 버전과 호환됩니다.
+[Elasticsearch 6.x 패치의 카탈로그 페이지 매김 문제](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip) - 패치가 영향을 받는 모든 버전 및 버전과 호환됩니다.
 
 >[!WARNING]
 >
@@ -57,6 +57,6 @@ ht-degree: 0%
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 설명서를 참조하십시오.
+지침은 [Adobe Commerce에서 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

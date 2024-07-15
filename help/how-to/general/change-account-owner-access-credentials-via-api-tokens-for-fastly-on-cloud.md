@@ -12,5 +12,5 @@ ht-degree: 0%
 
 # Fastly on Cloud에 대한 계정 소유자 변경(API 토큰을 통해 자격 증명 액세스)
 
-다음을 참조하십시오. [빠른 서비스 계정 및 자격 증명](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=en#test-fastly-credentials) Commerce on Cloud Infrastructure Guide를 참조하십시오.
+Commerce on Cloud Infrastructure 안내서의 [Fastly 서비스 계정 및 자격 증명](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=en#test-fastly-credentials)을(를) 참조하십시오.
 

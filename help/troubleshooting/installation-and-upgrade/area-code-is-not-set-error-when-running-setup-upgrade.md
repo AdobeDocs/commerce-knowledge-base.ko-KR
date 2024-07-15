@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 실행 시 &#39;영역 코드가 설정되지 않음&#39; 오류 발생 `setup:upgrade`
+# `setup:upgrade`을(를) 실행할 때 &#39;영역 코드가 설정되지 않음&#39; 오류 발생
 
-이 문서에서는 가져오기와 관련된 알려진 Adobe Commerce on cloud infrastructure 2.2.3 문제에 대한 패치를 제공합니다. *&quot;영역 코드가 설정되지 않음&quot;* 다음 명령을 실행할 때 오류 발생:
+이 문서에서는 다음 명령을 실행할 때 *&quot;영역 코드가 설정되지 않음&quot;* 오류 가져오기와 관련된 Cloud Infrastructure 2.2.3의 알려진 Adobe Commerce 문제에 대한 패치를 제공합니다.
 
 ```bash
 setup:upgrade
@@ -31,7 +31,7 @@ setup:upgrade
 bin/magento setup:upgrade
 ```
 
-명령을 실행하면 다음과 같은 오류 메시지가 나타납니다. *&quot;모듈 &#39;Magento\_AdvancedSalesRule&#39;: 데이터 설치...영역 코드가 설정되지 않음: 세션을 시작하기 전에 영역 코드를 설정해야 합니다.&quot;* 그리고 명령 실행이 중단됩니다. 이 문제는 영역 구성이 실제로 설정되기 전에 요청되기 때문에 나타납니다. 패치를 사용하면 오류를 처리할 수 있으며 업그레이드 프로세스를 중단할 수 없습니다.
+명령에 다음 오류 메시지가 표시됩니다. *&quot;모듈 &#39;Magento\_AdvancedSalesRule&#39;: 데이터 설치 중...영역 코드가 설정되지 않음: 세션을 시작하기 전에 영역 코드를 설정해야 합니다.*. 명령 실행이 중단됩니다. 이 문제는 영역 구성이 실제로 설정되기 전에 요청되기 때문에 나타납니다. 패치를 사용하면 오류를 처리할 수 있으며 업그레이드 프로세스를 중단할 수 없습니다.
 
 ## 패치
 
@@ -51,6 +51,6 @@ bin/magento setup:upgrade
 
 ## 패치 적용 방법
 
-자세한 내용은 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 을 참조하십시오.
+지침은 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

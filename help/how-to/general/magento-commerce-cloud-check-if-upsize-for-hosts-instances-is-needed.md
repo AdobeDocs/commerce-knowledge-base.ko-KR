@@ -20,4 +20,4 @@ ht-degree: 0%
 
 ## 문서 다운로드
 
-클릭 [Check_when_an_upsize_is_needed.pdf](assets/Check_whether_an_upsize_is_needed.pdf) 문서를 다운로드하려면 다음을 수행하십시오.
+문서를 다운로드하려면 [Check_when_an_upsize_is_needed.pdf](assets/Check_whether_an_upsize_is_needed.pdf)을(를) 클릭하십시오.

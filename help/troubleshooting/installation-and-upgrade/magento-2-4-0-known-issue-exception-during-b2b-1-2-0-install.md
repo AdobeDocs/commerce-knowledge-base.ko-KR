@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0: B2B 1.2.0 설치 중 예외
 
-이 문서에서는 다음 기간 동안 throw된 예외에 대해 알려진 Adobe Commerce 문제에 대한 수정 사항을 제공합니다. `setup:upgrade` B2B 1.2.0 설치 시
+이 문서에서는 B2B 1.2.0을 설치할 때 `setup:upgrade` 중에 발생한 예외에 대한 Adobe Commerce 알려진 문제에 대한 수정 사항을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -39,7 +39,7 @@ B2B 1.2.0 설치
 
 <u>실제 결과</u>
 
-날짜 `setup:upgrade` 를 실행하여 B2B 1.2.0을 설치합니다. 이 오류는 `PurchaseOrder` 모듈:
+`setup:upgrade`을(를) 실행하여 B2B 1.2.0을 설치하면 이 오류가 `PurchaseOrder` 모듈에 나타납니다.
 
 ```php
 Module 'Magento_PurchaseOrder':
@@ -54,7 +54,7 @@ Module 'Magento_PurchaseOrder':
 
 ## 패치
 
-이 문서에 첨부된 패치는 다음 두 위치에서 다운로드할 수 있습니다. `.composer` 및 `.git` 형식(파일의 압축을 푼 후).
+이 문서에 첨부된 패치는 `.composer` 및 `.git` 형식으로 다운로드할 수 있습니다(파일의 압축을 푼 후).
 
 다운로드하려면 문서 끝까지 아래로 스크롤하여 파일 이름을 클릭하거나 다음 링크 중 하나를 클릭합니다.
 
@@ -65,12 +65,12 @@ Module 'Magento_PurchaseOrder':
 
 <u>작성기 패치 </u>
 
-다음을 참조하십시오 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 작성기 패치 지침용
+작성기 패치 지침은 [Adobe에서 제공하는 작성기 패치 적용 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 <u>Git 패치 </u>
 
-* 다음을 참조하십시오 [패치 적용](https://devdocs.magento.com/cloud/project/project-patch.html) 클라우드 인프라의 Adobe Commerce에 대한 git 패치 지침에 대해서는 개발자 설명서에서 참조하십시오.
-* 다음을 참조하십시오 [패치 적용: 사용자 정의 패치](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) Adobe Commerce용 git 패치 지침에 대해서는 개발자 설명서 를 참조하십시오.
+* 클라우드 인프라의 Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용](https://devdocs.magento.com/cloud/project/project-patch.html)을 참조하십시오.
+* Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용: 사용자 지정 패치](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches)를 참조하십시오.
 
 ## 관련 읽기
 

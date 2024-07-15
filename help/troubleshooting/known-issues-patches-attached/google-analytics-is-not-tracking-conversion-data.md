@@ -25,10 +25,10 @@ Google Analytics 구성 요소 코드의 오류로 인해 Google Analytics이 �
 
 <u>재현 단계</u>:
 
-1. 아래의 Commerce 관리에서 Google Analytics 기능을 활성화하고 구성합니다. **스토어** > **설정** > **구성** > **판매** > **GOOGLE API** > **Google Analytics**.
-1. 클릭 **구성 저장**.
+1. **스토어** > **설정** > **구성** > **판매** > **Google API** > **Google Analytics**&#x200B;에서 Commerce 관리자의 Google Analytics 기능을 활성화하고 구성합니다.
+1. **구성 저장**&#x200B;을 클릭합니다.
 1. 가게 앞에 가서 주문하세요.
-1. 다음으로 이동 **Google Analytics 대시보드** > **전환** > **개요**.
+1. **Google Analytics 대시보드** > **전환** > **개요**(으)로 이동합니다.
 1. 날짜 범위를 현재 날짜로 설정합니다.
 
 <u>예상 결과</u>:
@@ -62,6 +62,6 @@ Google Analytics 구성 요소 코드의 오류로 인해 Google Analytics이 �
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 설명서를 참조하십시오.
+지침은 [Adobe Commerce에서 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

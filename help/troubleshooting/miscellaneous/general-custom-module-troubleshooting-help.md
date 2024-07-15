@@ -21,20 +21,20 @@ ht-degree: 0%
 
 ## 솔루션
 
-오류에 사용자 지정 모듈 이름을 사용하는 항목이 있는지 확인하려면 로그를 확인하십시오.  관련된 오류에 따라 솔루션이 자체 표시되거나 를 열려면 유용한 Adobe Commerce 로그 정보를 포함해야 할 수도 있습니다. [지원 티켓](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). 로그의 위치 및 가능한 솔루션에 대한 정보는 다음 단락을 참조하십시오.
+오류에 사용자 지정 모듈 이름을 사용하는 항목이 있는지 확인하려면 로그를 확인하십시오.  관련된 오류에 따라 솔루션이 저절로 표시되거나 [지원 티켓](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)을 열려면 유용한 Adobe Commerce 로그 정보를 포함해야 할 수도 있습니다. 로그의 위치 및 가능한 솔루션에 대한 정보는 다음 단락을 참조하십시오.
 
 ### Adobe Commerce(모든 배포 메서드), Magento Open Source, 모든 2.X 버전
 
 1. 로그 위치:
-   * [클라우드 인프라의 Adobe Commerce 스타터 계획 아키텍처 로그](/help/how-to/general/log-locations-directories-for-starter-plan.md) 을 참조하십시오.
-   * [Adobe Commerce on cloud infrastructure Pro 계획 아키텍처 로그](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) 을 참조하십시오.
+   * 지원 기술 자료의 [클라우드 인프라 시작 계획 아키텍처 로그에 대한 Adobe Commerce](/help/how-to/general/log-locations-directories-for-starter-plan.md).
+   * 지원 기술 자료에서 [클라우드 인프라 Pro 계획 아키텍처 로그의 Adobe Commerce](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md).
 1. 사용자 정의 모듈을 활성화, 비활성화 또는 제거하려면 발견된 오류에 따라 다음 문서에서 이러한 작업을 자세히 설명합니다.
-   * [모듈 활성화 또는 비활성화](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-enable.html) 개발자 설명서에서 확인할 수 있습니다.
-   * [모듈 제거](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall-mods.html) 개발자 설명서에서 확인할 수 있습니다.
+   * 개발자 설명서에서 [모듈을 사용하거나 사용하지 않도록 설정](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-enable.html).
+   * 개발자 설명서에서 [모듈 제거](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall-mods.html).
 
 ### 클라우드 인프라의 Adobe Commerce, 모든 버전
 
-1. 로그 위치: [클라우드 인프라 로그의 Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) 개발자 설명서에서 확인할 수 있습니다.
+1. 개발자 설명서에서 로그 위치: [클라우드 인프라 로그의 Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html).
 1. 사용자 정의 모듈을 활성화, 비활성화 또는 제거하려면 발견된 오류에 따라 개발자 설명서의 다음 문서에서 이러한 작업에 대해 자세히 설명합니다.
    * [확장 설치, 관리 및 업그레이드](https://devdocs.magento.com/guides/v2.3/cloud/howtos/install-components.html).
    * [구성 요소 배포 실패](https://devdocs.magento.com/guides/v2.3/cloud/trouble/trouble_comp-deploy-fail.html).
@@ -44,7 +44,7 @@ ht-degree: 0%
 개발자 설명서에서:
 
 * [모듈 개요](https://devdocs.magento.com/guides/v2.3/architecture/archi_perspectives/components/modules/mod_intro.html)
-* [선택적 샘플 데이터를 설치하는 중 오류 발생](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/tshoot_sample-data.html)
+* [선택적 샘플 데이터를 설치하는 동안 오류가 발생했습니다](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/tshoot_sample-data.html)
 * [예외 처리](https://devdocs.magento.com/guides/v2.3/graphql/develop/exceptions.html)
 * [설치 중 예외](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/tshoot_exceptions.html)
 * [모듈 관리자 실행](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-checklist.html)

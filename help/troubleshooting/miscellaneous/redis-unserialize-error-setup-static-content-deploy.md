@@ -1,6 +1,6 @@
 ---
-title: Redis unserialize 오류 `setup:static-content:deploy`
-description: 이 문서에서는 'magento 설치' 실행 시 Redis unserialize 오류에 대한 수정 사항을 제공합니다:static-content:배포`.
+title: Redis 역직렬화 오류 'setup:static-content:deploy'
+description: 이 문서에서는 'magento setup:static-content:deploy'를 실행할 때 Redis unserialize 오류를 수정하는 방법을 제공합니다.
 exl-id: 4bc88933-3bf9-4742-b864-b82d3c1b07a9
 feature: Cache, Deploy, Page Content, SCD, Services, Variables
 role: Developer
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Redis unserialize 오류 `setup:static-content:deploy`
+# Redis 역직렬화 오류 `setup:static-content:deploy`
 
-이 문서에서는 실행 시 Redis unserialize 오류 수정 사항을 제공합니다. `magento setup:static-content:deploy`.
+이 문서에서는 `magento setup:static-content:deploy`을(를) 실행할 때 Redis unserialize 오류를 수정합니다.
 
-실행 중 `magento setup:static-content:deploy` 는 Redis 오류를 발생시킵니다.
+`magento setup:static-content:deploy`을(를) 실행하면 Redis 오류가 발생합니다.
 
 ```
 [Exception]
@@ -25,13 +25,13 @@ Notice: unserialize(): Error at offset 0 of 1 bytes in
 
 이 문제는 Redis 연결에 대한 병렬 간섭 프로세스로 인해 발생합니다.
 
-해결하려면 다음을 실행합니다. `setup:static-content:deploy` 다음 환경 변수를 설정하여 단일 스레드 모드로 전환할 수 있습니다.
+해결하려면 다음 환경 변수를 설정하여 단일 스레드 모드에서 `setup:static-content:deploy`을(를) 실행하십시오.
 
 ```
 STATIC_CONTENT_THREADS =1
 ```
 
-또는 `setup:static-content:deploy` 명령 뒤에 `-j 1` (또는 `--jobs=1` ) 인수.
+또는 `setup:static-content:deploy` 명령 다음에 `-j 1`(또는 `--jobs=1`) 인수를 실행합니다.
 
 다중 스레딩을 비활성화하면 정적 에셋을 배포하는 프로세스가 느려집니다.
 
@@ -43,7 +43,7 @@ STATIC_CONTENT_THREADS =1
 
 ## 문제
 
-실행 `setup:static-content:deploy` 이 명령으로 인해 Redis 오류가 발생합니다.
+`setup:static-content:deploy` 명령을 실행하면 Redis 오류가 발생합니다.
 
 ```php
 )
@@ -79,17 +79,17 @@ Command php ./bin/magento setup:static-content:deploy --jobs=3  en_US  returned 
 
 이 문제는 Redis 연결의 병렬 간섭 프로세스로 인해 발생합니다.
 
-여기, 의 프로세스입니다 `App/Config/Type/System.php` 다음에 대한 응답이 필요합니다: `system_defaultweb`에 대한 응답을 수신함 `system_cache_exists` 그것은 다른 과정에 의해 만들어졌다. 자세한 설명은 을 참조하십시오. [제이슨 우즈의 게시물](https://github.com/magento/magento2/issues/9287#issuecomment-302362283).
+여기서 `App/Config/Type/System.php`의 프로세스에는 `system_defaultweb`에 대한 응답이 필요하지만 다른 프로세스에서 만든 `system_cache_exists`에 대한 응답을 받았습니다. 자세한 설명은 [Jason Woods의 게시물](https://github.com/magento/magento2/issues/9287#issuecomment-302362283)을 참조하세요.
 
 ## 솔루션
 
-병렬 처리 수 비활성화 및 실행 `setup:static-content:deploy` 다음 환경 변수를 설정하여 단일 스레드 모드로 전환할 수 있습니다.
+병렬 처리를 사용하지 않도록 설정하고 다음 환경 변수를 설정하여 단일 스레드 모드에서 `setup:static-content:deploy`을(를) 실행하십시오.
 
 ```
 STATIC_CONTENT_THREADS =1
 ```
 
-다음을 실행할 수도 있습니다. `setup:static-content:deploy` 명령 뒤에 `-j 1` (또는 `--jobs=1`) 인수.
+`setup:static-content:deploy` 명령 다음에 `-j 1`(또는 `--jobs=1`) 인수를 실행할 수도 있습니다.
 
 >[!NOTE]
 >

@@ -40,14 +40,14 @@ Security Scan Tool은 Adobe Commerce 도메인의 취약점을 스캔하도록 �
 
 ## Security Scan Tool은 어떻게 작동합니까? {#how-does-the-magento-security-scan-tool-work}
 
-Security Scan Tool은 웹을 기반으로 하며 판매자의 온라인 Adobe Commerce 계정([account.magento.com](https://account.magento.com/)). 보안 검사는 HTTP와 HTTPS 모두에서 작동합니다. 알려진 보안 문제를 확인하고 누락된 Adobe Commerce 패치 및 업데이트를 식별합니다.
+보안 검색 도구는 웹을 기반으로 하며 판매자의 온라인 Adobe Commerce 계정([account.magento.com](https://account.magento.com/))에서 액세스합니다. 보안 검사는 HTTP와 HTTPS 모두에서 작동합니다. 알려진 보안 문제를 확인하고 누락된 Adobe Commerce 패치 및 업데이트를 식별합니다.
 
 ## 보안 검색 도구를 사용하려면 어떻게 등록합니까? {#how-do-i-sign-up-to-use-the-magento-security-scan-tool}
 
-판매자는 보안 검색 도구를 사용하여 Adobe Commerce 계정에서 웹 스토어를 검색하도록 등록할 수 있습니다([account.magento.com](https://account.magento.com)). 링크를 따라 Security Scan Tool에 등록 [여기](https://account.magento.com/scanner/dashboard/?_ga=2.83981338.267715797.1615821601-2099431409.1611073686).
+판매자는 보안 검색 도구를 사용하여 Adobe Commerce 계정([account.magento.com](https://account.magento.com))에서 웹 스토어를 검색하도록 등록할 수 있습니다. 보안 검색 도구 [여기](https://account.magento.com/scanner/dashboard/?_ga=2.83981338.267715797.1615821601-2099431409.1611073686)에 등록하려면 링크를 따라가십시오.
 
 ## 스캔 보고서에서 양성 오류가 발생하면 어떻게 해야 합니까? {#what-do-i-do-if-i-come-across-a-false-positive-in-the-scan-report}
 
 판매자에게 실패한 모든 검사를 조사하고 이러한 문제를 해결하기 위한 적절한 조치를 취할 것을 권장합니다. 조사 후, 만약 상인들이 거짓 양성으로 보이는 스캔 결과를 발견하게 되면, 우리는 상인이 적절한 조치를 취하도록 Adobe에 통지하도록 요청합니다.
 
-긍정 오류(false positive) 보고서를 제출하려면 Adobe Commerce 판매자 지원 기능이 있는 티켓을 입력하여 긍정 오류(false positive)를 평가하고, 필요한 변경을 수행하고, 향후 이러한 알림이 표시되지 않도록 권장 사항을 제공할 수 있습니다. 상인은 다음 주소로 이메일을 보내어 긍정 오류(false positive)를 신고할 수도 있습니다. [securityscan@magento.com](mailto:securityscan@magento.com).
+긍정 오류(false positive) 보고서를 제출하려면 Adobe Commerce 판매자 지원 기능이 있는 티켓을 입력하여 긍정 오류(false positive)를 평가하고, 필요한 변경을 수행하고, 향후 이러한 알림이 표시되지 않도록 권장 사항을 제공할 수 있습니다. 가맹점은 [securityscan@magento.com](mailto:securityscan@magento.com)로 전자 메일을 보내 긍정 오류(false positive)를 보고할 수도 있습니다.

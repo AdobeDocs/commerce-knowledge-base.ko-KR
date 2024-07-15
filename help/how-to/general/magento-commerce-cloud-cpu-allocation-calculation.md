@@ -21,4 +21,4 @@ ht-degree: 0%
 
 ## 첨부 파일
 
-을(를) 클릭합니다 [첨부된 .pdf](assets/CPU_Allocation.pdf) 파일을 다운로드하여 문서를 다운로드하십시오.
+문서를 다운로드하려면 [첨부된 .pdf](assets/CPU_Allocation.pdf) 파일을 클릭하십시오.

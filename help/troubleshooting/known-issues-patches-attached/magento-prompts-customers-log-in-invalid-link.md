@@ -21,13 +21,13 @@ ht-degree: 0%
 
 ## 문제
 
-Adobe Commerce은 다음 메시지를 표시하여 로그인하라는 메시지를 표시합니다. *&quot;이 계정은 확인되지 않습니다. 확인 이메일을 다시 보내려면 여기를 클릭하십시오.&quot;*. 다음 **여기를 클릭하십시오.** 링크는 확인 링크 보내기 페이지를 열어야 하지만 비활성 상태입니다.
+Adobe Commerce은 다음 메시지를 표시하여 로그인하라는 메시지를 표시합니다. *&quot;이 계정은 확인되지 않습니다. 확인 전자 메일 &quot;*&quot;을(를) 다시 보내려면 여기를 클릭하세요. **여기를 클릭** 링크를 클릭하면 확인 링크 보내기 페이지가 열리지만 비활성 상태입니다.
 
 ## 솔루션
 
-이 문제에 대한 패치는 Adobe Commerce 기술 리소스에서 사용할 수 있습니다. [Adobe Commerce 2.3.5용 계정 확인 이메일 링크 문제 패치 다시 보내기](https://magento.com/tech-resources/download?_ga=2.193540264.409362045.1590506265-807369446.1578680711#download2368). 영구 수정 사항은 2020년 4분기에 릴리스될 예정인 Adobe Commerce 2.3.6에서 사용할 수 있습니다.
+이 문제에 대한 패치는 Adobe Commerce 기술 리소스에서 사용할 수 있습니다. [Adobe Commerce 2.3.5](https://magento.com/tech-resources/download?_ga=2.193540264.409362045.1590506265-807369446.1578680711#download2368)에 대한 계정 확인 이메일 링크 문제 패치 다시 보내기. 영구 수정 사항은 2020년 4분기에 릴리스될 예정인 Adobe Commerce 2.3.6에서 사용할 수 있습니다.
 
-다음을 참조하십시오 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 작성기 패치 적용 방법에 대한 지침을 참조하십시오.
+작성기 패치 적용 방법에 대한 지침은 [Adobe에서 제공하는 작성기 패치 적용 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 관련 읽기
 

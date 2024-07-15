@@ -37,10 +37,10 @@ ht-degree: 0%
    ```
 
    * 결과를 반환하지 않으면 발신자 주소가 구성되지 않은 것입니다.
-   * 결과를 반환하는 경우 **2단계**.
+   * 결과를 반환하면 **2단계**&#x200B;로 진행합니다.
 
 1. 이메일이 스팸 폴더에 표시된 경우 해당 이메일의 링크를 클릭합니다. 링크가 만료된 경우 다시 로그인하여 프로세스를 반복하십시오.
-1. 액세스 권한을 얻으면으로 이동합니다. **스토어** > **구성** > **일반** > **이메일 주소 저장** 이메일 주소를 구성합니다.
+1. 액세스 권한이 부여되면 **스토어** > **구성** > **일반** > **전자 메일 주소 저장**&#x200B;으로 이동하여 전자 메일 주소를 구성하십시오.
 
 ### 2단계: 이메일 주소가 제대로 구성된 경우 환경에 SSH를 넣고 다음 명령을 실행합니다.
 
@@ -48,8 +48,8 @@ ht-degree: 0%
 php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 ```
 
-스팸 폴더에서 이메일을 확인합니다. 이메일이 거기에 뜨면, [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login) 을 입력하여 SendGrid의 흰색 레이블을 도메인을 요청합니다.
+스팸 폴더에서 이메일을 확인합니다. 전자 메일이 여기에 표시되면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login)하여 SendGrid에서 흰색 레이블이 지정되도록 도메인을 요청합니다.
 
 ## 관련 읽기
 
-* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) 개발자 설명서에서 확인할 수 있습니다.
+* 개발자 설명서에서 [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html)

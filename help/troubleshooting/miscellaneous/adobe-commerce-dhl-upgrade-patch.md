@@ -28,7 +28,8 @@ DHL은 6.2 스키마 버전을 도입하고 2022년 7월 말부터 9월까지 6.
 
 ## 패치
 
-패치 ID는 품질 패치 도구 버전 1.1.16에서 사용할 수 있는 AC-3022입니다. 다음을 참조하십시오. [품질 패치 도구(QPT) > 사용](https://devdocs.magento.com/quality-patches/usage.html) qpt 사용 및 패치 설치 방법에 대한 자세한 내용은 개발자 설명서 문서를 참조하십시오.
+패치 ID는 품질 패치 도구 버전 1.1.16에서 사용할 수 있는 AC-3022입니다.
+QPT 사용 및 패치 설치 방법에 대한 자세한 내용은 개발자 설명서에서 [품질 패치 도구(QPT) > 사용](https://devdocs.magento.com/quality-patches/usage.html) 문서를 참조하십시오.
 
 이 패치는 다음 Adobe Commerce 버전에 적용할 수 있습니다.
 
@@ -37,5 +38,5 @@ DHL은 6.2 스키마 버전을 도입하고 2022년 7월 말부터 9월까지 6.
 
 ## 관련 읽기
 
-* [운송업체 > DHL](https://docs.magento.com/user-guide/shipping/dhl.html) 사용 안내서에서
-* [게재 방법](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html) 사용 안내서에서
+* 사용 안내서의 [운송업체 > DHL](https://docs.magento.com/user-guide/shipping/dhl.html)
+* 사용 안내서의 [배달 방법](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html)

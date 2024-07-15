@@ -23,8 +23,8 @@ ht-degree: 0%
 
 <u>재현 단계</u>:
 
-1. 에 설명된 대로 웹 사이트를 확인하도록 보안 검색 도구를 구성합니다. [보안 검사](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) 사용 안내서에서 참조하십시오.
-1. 작업 열에서 을 선택합니다. **검사 실행**.
+1. 사용 안내서의 [보안 검색](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html)에 설명된 대로 웹 사이트를 확인하도록 보안 검색 도구를 구성합니다.
+1. 작업 열에서 **검사 실행**&#x200B;을 선택합니다.
 
 <u>예상 결과</u>:
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 웹 사이트를 열어 보십시오.
 
 * 허용 목록에 추가하다 페이지가 성공적으로 로드되면 보안 검색 도구에서 사용하는 IP를 방화벽에 추가해야 할 수 있습니다. 포트 80 및 443에서 52.87.98.44, 34.196.167.176, 3.218.25.102 IP가 사용됩니다.
-* 사이트가 로드되지 않고 를 반환하는 경우 *&quot;요청을 처리하는 동안 오류가 발생했습니다.&quot;* 메시지: 웹 사이트에서 가능한 오류를 확인합니다.
+* 사이트가 로드되지 않고 *을(를) 반환하는 경우 &quot;요청을 처리하는 동안 오류가 발생했습니다&quot;* 메시지를 반환하면 웹 사이트에서 가능한 오류가 있는지 확인하십시오.
 
 ## 관련 읽기
 
-* [실행 및 실행](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) 개발자 설명서에서 확인할 수 있습니다.
-* [보안 검사](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) 사용 안내서에서 참조하십시오.
+* 개발자 설명서에서 [라이브 및 시작](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan)을 하세요.
+* 사용 안내서의 [보안 검사](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html).

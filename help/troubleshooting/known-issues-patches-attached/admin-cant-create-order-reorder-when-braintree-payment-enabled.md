@@ -25,10 +25,10 @@ ht-degree: 0%
 
 <u>재현 단계</u>:
 
-1. 핵심 Braintree 통합이 사용됩니다(**스토어** > **구성** > **판매** > **결제 방법** > **Braintree**).
+1. 핵심 Braintree 통합이 사용되었습니다(**스토어** > **구성** > **판매** > **결제 방법** > **Braintree**).
 1. Luma Storefront를 사용하여 주문합니다.
-1. 관리자 UI로 이동 > **판매**.
-1. 고객을 위해 새 주문을 만들거나 이전에 주문한 주문으로 이동하여 을(를) 클릭합니다. **순서 바꾸기**.
+1. 관리자 UI > **판매**(으)로 이동합니다.
+1. 고객을 위해 새 주문을 만들거나 이전에 주문한 주문으로 이동하여 **순서 변경**&#x200B;을 클릭하십시오.
 
 <u>예상 결과</u>:
 
@@ -58,7 +58,7 @@ report.CRITICAL: Error: Call to a member function getMethodInstance() on null in
 
 >[!NOTE]
 >
->클라우드 인프라 판매자의 Adobe Commerce에 대한 추가 사항: Adobe은 Commerce 버전 1.0.18의 클라우드 패치에 수정 사항을 포함했습니다. 다음을 참조하십시오. [Commerce용 클라우드 패치 릴리스 노트](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html) 개발자 설명서에서 최신 패키지 적용에 대한 지침을 확인하십시오.
+>클라우드 인프라 판매자의 Adobe Commerce에 대한 추가 사항: Adobe은 Commerce 버전 1.0.18의 클라우드 패치에 수정 사항을 포함했습니다. 최신 패키지 적용에 대한 지침은 개발자 설명서에서 [Commerce용 클라우드 패치](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html)를 참조하십시오.
 
 ### 호환 가능한 Adobe Commerce 버전:
 
@@ -74,4 +74,4 @@ report.CRITICAL: Error: Call to a member function getMethodInstance() on null in
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 지침에 대해서는 지원 기술 자료에서 참조하십시오.
+자세한 내용은 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.

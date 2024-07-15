@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->참고: MCRYPT 라이브러리 기능은 [php 7.1에서 더 이상 사용되지 않으며 PHP 7.2에서 제거되었습니다.](https://www.php.net/manual/en/intro.mcrypt.php).
+>참고: mcrypt 라이브러리 기능은 PHP 7.1에서 [사용되지 않으며 PHP 7.2](https://www.php.net/manual/en/intro.mcrypt.php)에서 제거되었습니다.
 
 ## 세부 사항
 
@@ -51,13 +51,13 @@ Fatal error: Uncaught exception 'Exception' with message 'Module 'Magento_Core' 
 
 다음 방법 중 하나로 mcrypt 확장이 로드되는지 확인합니다.
 
-* 설정 [phpinfo.php](http://kb.mediatemple.net/questions/764/How+can+I+create+a+phpinfo.php+page%3F#gs) 웹 서버의 루트 디렉터리에 있는 파일을 검색하고 웹 브라우저에서 출력을 검사합니다.
+* 웹 서버의 루트 디렉터리에 [phpinfo.php](http://kb.mediatemple.net/questions/764/How+can+I+create+a+phpinfo.php+page%3F#gs) 파일을 설정하고 웹 브라우저에서 출력을 검사합니다.
 * 다음 명령을 실행합니다.    `$ php -r "phpinfo();" | grep mcrypt`
 
-mcrypt가 *아님* 설치됨, 다음 디스플레이와 유사한 메시지:
+mcrypt가 *설치되지 않은*&#x200B;경우 다음과 유사한 메시지가 표시됩니다.
 
 ```php
 PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212/mcrypt.so' - /usr/lib/php5/20121212/mcrypt.so: cannot open shared object file: No such file or directory in Unknown on line 0
 ```
 
-경우에 따라 다음에서 Adobe Commerce 소프트웨어를 설치해야 합니다. [명령줄](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html) mcrypt가 설치된 LAMP 스택에 대한 전체 경로를 지정합니다.
+경우에 따라 [명령줄](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html)에서 Adobe Commerce 소프트웨어를 설치하고 mcrypt가 설치된 LAMP 스택에 대한 전체 경로를 지정해야 할 수 있습니다.

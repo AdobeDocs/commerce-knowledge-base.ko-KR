@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 문제
 
-<u>전제 조건</u>: 할인 쿠폰이 생성되며 PO가 자동으로 처리되지 않는 승인 규칙이 있습니다.
+<u>필수 구성 요소</u>: 할인 쿠폰이 만들어졌고 PO가 자동으로 처리되지 않는 승인 규칙이 있습니다.
 
 <u>재현 단계:</u>
 
@@ -49,8 +49,8 @@ ht-degree: 0%
 
 [B2B-709-composer.patch](assets/B2B-709-composer.patch.zip)
 
-이 패치는 다음 두 위치에서 모두 다운로드할 수 있습니다. `.git` 및 `.composer` , 포맷 [Adobe Commerce 다운로드](https://magento.com/tech-resources/download) 페이지, 아래 **패치** 왼쪽 열 탐색에서. XXX 패치를 검색합니다.
+패치는 왼쪽 열 탐색의 **패치** 아래에 있는 [Adobe Commerce 다운로드](https://magento.com/tech-resources/download) 페이지의 `.git` 및 `.composer` 형식에서도 다운로드할 수 있습니다. XXX 패치를 검색합니다.
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 지침에 대해서는 지원 기술 자료에서 참조하십시오.
+자세한 내용은 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.

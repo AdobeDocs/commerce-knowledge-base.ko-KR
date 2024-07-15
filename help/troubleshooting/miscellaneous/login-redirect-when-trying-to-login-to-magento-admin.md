@@ -52,7 +52,7 @@ Commerce 관리자에 로그인됩니다.
 관리 세션 수명을 늘리려면 다음 단계를 수행합니다.
 
 1. 데이터베이스 백업을 만듭니다.
-1. 다음과 같은 데이터베이스 도구 사용 [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)또는 명령줄에서 수동으로 DB에 액세스하여 다음 SQL 쿼리를 실행합니다.
+1. [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다.
 
    ```sql
    UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
@@ -69,7 +69,7 @@ Commerce 관리자에 로그인됩니다.
 쿠키 설정 값을 확인하고 지우려면 다음 단계를 수행하십시오.
 
 1. 데이터베이스 백업을 만듭니다.
-1. 다음과 같은 데이터베이스 도구 사용 [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)또는 명령줄에서 수동으로 DB에 액세스하여 다음 SQL 쿼리를 실행합니다.
+1. [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다.
 
    ```sql
    SELECT * FROM core_config_data WHERE (path = "web/cookie/cookie_domain" OR path = "web/cookie/cookie_path");
@@ -89,5 +89,5 @@ Commerce 관리자에 로그인됩니다.
 
 ## 관련 문서
 
-* [&quot;귀하의 계정이 일시적으로 비활성화됨&quot; 오류가 있는 관리자 로그인 양식으로 다시 리디렉션합니다.](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) 을 참조하십시오.
-* [&quot;현재 세션이 만료되었습니다&quot; 오류가 있는 관리자 로그인 양식으로 다시 리디렉션합니다.](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md) 을 참조하십시오.
+* [지원 기술 자료에서 &quot;귀하의 계정이 일시적으로 비활성화되었습니다&quot; 오류가 있는 관리자 로그인 양식으로 다시 리디렉션합니다](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md).
+* [지원 기술 자료에서 &quot;현재 세션이 만료되었습니다&quot; 오류가 발생한 관리자 로그인 양식으로 다시 리디렉션합니다](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md).

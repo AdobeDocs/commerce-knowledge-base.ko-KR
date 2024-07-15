@@ -22,13 +22,13 @@ ht-degree: 0%
 
 ## 문제
 
-구성의 변경 사항을 (으)로 저장했으면 `app/etc/env.php` 또는 `app/etc/config.php`, 관리에서 설정을 수정할 수 없습니다.
+구성의 변경 사항을 `app/etc/env.php` 또는 `app/etc/config.php`(으)로 저장하면 관리자의 설정을 수정할 수 없습니다.
 
 <u>재현 단계</u>:
 
 참고: 이 문제는 저장된 모든 구성에 영향을 줄 수 있는 예입니다.
 
-1. 판매자는 터미널에서 다음 명령을 사용하여 게재 방법 자격 증명을 저장합니다. `./vendor/bin/ece-tools config:dump`. 이렇게 하면 자격 증명이 `app/etc/env.php` 파일.
+1. 판매자가 터미널에서 `./vendor/bin/ece-tools config:dump` 명령을 사용하여 게재 방법 자격 증명을 저장합니다. 자격 증명이 `app/etc/env.php` 파일에 저장됩니다.
 1. 그런 다음 머천트는 나중에 자격 증명을 변경하려고 시도합니다.
 
 <u>예상 결과</u>:
@@ -41,17 +41,17 @@ ht-degree: 0%
 
 ## 원인
 
-구성을 다음에 저장할 때 `env.php` 또는 `config.php`, 관리에서 설정을 수정할 수 없습니다. 설정 편집을 허용하려면에서 구성을 제거해야 합니다. `env.php` 또는 `config.php`.
+구성을 `env.php` 또는 `config.php`에 저장하면 관리자의 설정을 수정할 수 없습니다. 설정을 편집하려면 `env.php` 또는 `config.php`에서 구성을 제거해야 합니다.
 
 ## 솔루션
 
-구성이 다음에 저장되지 않았는지 확인합니다. `app/etc/env.php` 또는 `app/etc/config.php`. 저장된 경우 다음 단계를 수행하십시오.
+구성이 `app/etc/env.php` 또는 `app/etc/config.php`에 저장되지 않았는지 확인하십시오. 저장된 경우 다음 단계를 수행하십시오.
 
 * `config.php` - 설정을 제거한 다음 다시 배포합니다.
-* `env.php` - 서버에서 직접 수정하고 설정을 제거한 다음 를 실행합니다. `bin/magento app:config:import`.
+* `env.php` - 서버에서 직접 수정하고 설정을 제거한 다음 `bin/magento app:config:import`을(를) 실행합니다.
 
 ## 관련 읽기
 
-* [구성 내보내기](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings) 개발자 설명서에서 확인할 수 있습니다.
-* [구성 값 설정](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set) 개발자 설명서에서 확인할 수 있습니다.
-* [클라우드 인프라의 Adobe Commerce: 구성 관리를 통해 배포 중단 시간 감소](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) 을 참조하십시오.
+* 개발자 설명서에서 [구성을 내보내기](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings).
+* 개발자 설명서에서 [구성 값을 설정](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set)합니다.
+* [클라우드 인프라의 Adobe Commerce: 구성 관리를 통해 배포 중단 시간을 줄입니다](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md).

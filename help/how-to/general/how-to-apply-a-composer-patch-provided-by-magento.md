@@ -20,8 +20,8 @@ ht-degree: 0%
 
 ## 클라우드 인프라에서 Adobe Commerce용 작성기 패치를 적용하는 방법 {#cloud}
 
-1. 라는 디렉터리가 없는 경우 `m2-hotfixes` 프로젝트 루트에서 만드십시오.
-1. 다음을 복사합니다. `%patch_name%.composer.patch` 에 대한 파일 `m2-hotfixes` 디렉토리.
+1. 프로젝트 루트에 이름이 `m2-hotfixes`인 디렉터리가 없는 경우 만드십시오.
+1. `%patch_name%.composer.patch` 파일을 `m2-hotfixes` 디렉터리에 복사합니다.
 1. 코드 변경 사항을 추가, 커밋 및 푸시합니다.
 
    ```git
@@ -36,7 +36,7 @@ ht-degree: 0%
    git push origin
    ```
 
-클라우드 프로젝트에 패치를 적용하는 방법에 대한 자세한 내용은 [패치 적용](https://devdocs.magento.com/cloud/project/project-patch.html) 개발자 설명서에서 확인할 수 있습니다.
+클라우드 프로젝트에 패치를 적용하는 방법에 대한 자세한 내용은 개발자 설명서에서 [패치 적용](https://devdocs.magento.com/cloud/project/project-patch.html)을 참조하십시오.
 
 ### Adobe Commerce 온-프레미스 및 Magento Open Source에 작성기 패치를 적용하는 방법 {#commerce}
 
@@ -47,6 +47,6 @@ ht-degree: 0%
    patch -p1 < %patch_name%.composer.patch
    ```
 
-   (위 명령이 작동하지 않으면 다음을 사용해 보십시오.) `-p2` 대신 `-p1` )
+   (위 명령이 작동하지 않으면 `-p1` 대신 `-p2`을(를) 사용해 보십시오.)
 
-1. 변경 사항을 반영하려면 아래 관리자의 캐시를 새로 고침하십시오. **시스템** > **캐시 관리**.
+1. 변경 내용을 반영하려면 **시스템** > **캐시 관리**&#x200B;에서 관리자의 캐시를 새로 고치십시오.

@@ -1,7 +1,7 @@
 ---
-title: '''[!DNL USPS] Ground Advantage 배송 방법 지원 AC-9182용 핫픽스'
+title: '[!DNL USPS] Ground Advantage 배송 방법 지원 AC-9182용 핫픽스'
 promoted: true
-description: 다음을 처리하기 위해 패치 적용 [!DNL USPS] Ground Advantage 배송 방법은 Adobe Commerce 2.4.4 - 2.4.6-p2용 AC-9182를 발행합니다.
+description: Adobe Commerce 2.4.4 - 2.4.6-p2용  [!DNL USPS] Ground Advantage 배송 방법 문제 AC-9182를 해결하기 위해 패치를 적용합니다.
 feature: Shipping/Delivery
 role: Developer
 exl-id: b6871d19-3d02-4026-82e6-3545f4ab7159
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # [!DNL USPS] AC-9182용 Ground Advantage 배송 방법 지원 핫픽스
 
-이 문서에서는 새로운 기능에 대한 AC-9182 문제를 해결하는 패치를 제공합니다 **[!DNL USPS]기본 이점** Adobe Commerce 2.4.4 - 2.4.6-p2의 배송 방법.
+이 문서에서는 Adobe Commerce 2.4.4 - 2.4.6-p2의 새로운 **[!DNL USPS]기반 이점** 배송 방법에 대한 문제 AC-9182를 해결하기 위한 패치를 제공합니다.
 
-2023년 7월 9일, 미국 우편 서비스 ([!DNL USPS]) 새로운 배송 방법을 발표했습니다. [[!DNL USPS] 기본 이점](https://www.usps.com/ship/ground-advantage.htm).
+2023년 7월 9일, 미국 우편 서비스([!DNL USPS])에서 새로운 배송 방법인 [[!DNL USPS] 기본 이점](https://www.usps.com/ship/ground-advantage.htm)을 발표했습니다.
 
 이 새로운 배송 방법은 다음과 같은 세 가지 주요 배송 방법을 대체하고 있습니다.
 
 * [!DNL USPS] 소매 기반
 * [!DNL USPS] 퍼스트 클래스 패키지 서비스
-* [!DNL USPS] 택배 셀렉트 그라운드
+* [!DNL USPS]개 택배 그라운드 선택
 
-[[!DNL USPS] 발표됨](https://faq.usps.com/s/article/USPS-Ground-Advantage#how_it_works) 2023년 9월 30일부터 이 세 가지 배송 방법은 중단되며 모든 고객은 새로운 제품을 사용해야 합니다 **[!DNL USPS]기본 이점** 메서드를 사용하십시오.
+[[!DNL USPS] 2023년 9월 30일부터 이 세 가지 배송 방법이 중단되며 모든 고객은 새로운 **[!DNL USPS]기반 이점** 방법을 대신 사용해야 한다고 발표](https://faq.usps.com/s/article/USPS-Ground-Advantage#how_it_works).
 
-따라서 2023년 9월 30일 이후에는 USPS 배송 방법을 사용 중인 모든 Adobe Commerce 가맹점에서 배송료를 받을 수 없습니다. [!DNL USPS] 더 이상 이 세 가지 레거시 배송 방법을 사용하여.
+따라서 2023년 9월 30일 이후에는 USPS 배송 방법을 사용 중인 모든 Adobe Commerce 가맹점이 이 세 가지 기존 배송 방법을 사용하여 [!DNL USPS]에서 더 이상 배송 요금을 받을 수 없습니다.
 
 이 문제는 2023년 10월에 예정된 보안 전용 패치 릴리스의 범위(버전 2.4.6-p3, 2.4.5-p5 및 2.4.4-p6)에서 수정될 예정입니다.
 
@@ -51,7 +51,7 @@ Adobe Commerce on cloud infrastructure 및 on-premise 및 Magento Open Source:
 
 ## 원인
 
-다음 [!DNL USPS] 다음을 수행함: [!DNL API] 업데이트.
+[!DNL USPS]에서 [!DNL API]을(를) 업데이트했습니다.
 
 ## 솔루션
 
@@ -65,7 +65,7 @@ Adobe Commerce on cloud infrastructure 및 on-premise 및 Magento Open Source:
 
 ## 패치 적용 방법
 
-파일의 압축을 풀고 다음을 확인합니다. [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) 지침에 대해서는 지원 기술 자료에서 참조하십시오.
+파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)을 참조하십시오.
 
 ## 패치가 적용되었는지 확인하는 방법
 
@@ -80,7 +80,7 @@ Adobe Commerce on cloud infrastructure 및 on-premise 및 Magento Open Source:
    vendor/bin/magento-patches -n status |grep "9182|Status"
    ```
 
-1. 다음과 유사한 출력이 표시되어야 합니다. 여기서 AC-9182는 *적용됨* 상태:
+1. 다음과 유사한 출력이 표시되어야 합니다. 여기서 AC-9182는 *적용됨* 상태를 반환합니다.
 
    ```bash
    ║ Id            │ Title                                                        │ Category        │ Origin                 │ Status      │ Details                                          ║ ║ N/A           │ ../m2-hotfixes/AC-9182_USPS_Ground_Advantage_shipping_method_COMPOSER_patch.patch      │ Other           │ Local                  │ Applied     │ Patch type: Custom                                

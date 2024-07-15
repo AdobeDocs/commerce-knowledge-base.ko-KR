@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # robots.txt가 업데이트되지 않거나 기본 설정이 표시됨
 
-이 문서에서는 을(를) 구성한 경우의 솔루션을 제공합니다 `robots.txt` 올바르게, 예: [Adobe Commerce robots.txt 우수 사례](https://support.magento.com/hc/en-us/articles/360048754931) 하지만 `robots.txt` 이(가) 업데이트되지 않거나 기본 설정을 표시합니다.
+이 문서에서는 [Adobe Commerce robots.txt에 대한 모범 사례](https://support.magento.com/hc/en-us/articles/360048754931)에 따라 `robots.txt`을(를) 올바르게 구성했지만 `robots.txt`이(가) 업데이트되지 않거나 기본 설정을 표시하는 경우에 대한 해결 방법을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 ## 문제
 
-기본값을 변경할 수 없음 `robots.txt` 설정.
+기본 `robots.txt` 설정을 변경할 수 없습니다.
 
 <u>재현 단계:</u>
 
 1. 관리 패널에 액세스합니다.
-1. 콘텐츠 추가 **콘텐츠** > 디자인 > **구성** > **의 사용자 정의 지침 편집`robots.txt`** &quot;hello&quot; 텍스트와 같은 파일을 저장하고 변경 내용을 저장합니다.
-1. 다음 방문: `robots.txt` url.
+1. **콘텐츠** > 디자인 > **구성** > **텍스트 &quot;hello&quot;와 같은`robots.txt`** 파일의 사용자 지정 지침 편집}에 콘텐츠를 추가하고 변경 내용을 저장합니다.
+1. `robots.txt` URL을 방문하십시오.
 
 <u>예상 결과:</u>
-`robots.txt` 에 저장된 텍스트가 있습니다.
+`robots.txt`에 저장된 텍스트가 있습니다.
 
 <u>실제 결과:</u>
 
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 ## 솔루션
 
-검색 엔진별 색인화를 활성화합니다. 다음을 참조하십시오 [검색 엔진별 색인화 구성](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine) 개발자 설명서에서 확인할 수 있습니다.
+검색 엔진별 색인화를 활성화합니다. 개발자 설명서에서 [검색 엔진별 색인화 구성](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine)을 참조하십시오.
 
 ## 관련 읽기
 
-* [사이트 맵 및 검색 엔진 로봇 추가](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) 개발자 설명서에서 확인할 수 있습니다.
+* 개발자 설명서에서 [사이트 맵 및 검색 엔진 로봇을 추가](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html)합니다.

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 문제
 
-<u>전제 조건</u>:
+<u>필수 구성 요소</u>:
 
 프로젝트의 로컬 git 제어 복제본이 있습니다.
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 로컬 셸에서 다음 명령을 실행하여 스테이징 분기로 전환합니다. `git checkout staging`
 1. 로컬 셸에서 다음 명령을 실행하여 스테이징 분기에서 통합 분기를 만듭니다. `git checkout -b <branch>`
-1. 로컬 셸에서 다음 명령을 실행하여 분기를 원격 리포지토리에 푸시하고 업스트림 분기를 설정합니다. `git push --set-upstream origin <branch>`
+1. 로컬 셸에서 다음 명령을 실행하여 원격 리포지토리에 분기를 푸시하고 업스트림 분기를 설정합니다. `git push --set-upstream origin <branch>`
 
 <u>예상 결과</u>:
 
@@ -47,9 +47,9 @@ ht-degree: 0%
 
 ## 솔루션
 
-상위 지점은 가맹점이 새로 만든 지점을 밀고 활성화한 후에만 설정할 수 있다. 을(를) 참조하십시오 [클라우드 인프라의 Adobe Commerce > Bitbucket 통합](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch) 개발자 설명서에서 확인할 수 있습니다.
+상위 지점은 가맹점이 새로 만든 지점을 밀고 활성화한 후에만 설정할 수 있다. 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce > Bitbucket 통합](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch)을 참조하십시오.
 
-서버의 기존 분기에 대한 상위 항목을 업데이트하려면 `magento-cloud environment:info` magento-cloud CLI의 명령
+서버의 기존 분기에 대한 상위 항목을 업데이트하려면 magento-cloud CLI에서 `magento-cloud environment:info` 명령을 사용하십시오.
 
 사용의 예:
 
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* [클라우드 인프라의 Adobe Commerce > magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) 개발자 설명서에서 확인할 수 있습니다.
+* 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce > magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html).

@@ -25,6 +25,6 @@ Adobe Commerce 플랫폼을 정기적으로 업그레이드하는 것은 Commerc
 
 2022년 1월 26일 수요일, 오전 10:00 - 오전 11:30 CST
 
-[여기에 등록](https://register.gotowebinar.com/register/6951278956217776911)
+[여기에서 등록](https://register.gotowebinar.com/register/6951278956217776911)
 
 가입이 불가능한 경우에도 이벤트 후 녹화를 받기 위해 등록하는 것이 좋습니다.

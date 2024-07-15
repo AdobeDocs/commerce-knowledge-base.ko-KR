@@ -23,14 +23,14 @@ ht-degree: 0%
 
 ## 문제
 
-에 등록한 경우 New Relic에서 알림을 받게 됩니다. [Adobe Commerce에 대한 관리 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md) 하나 이상의 경고 임계값이 초과되었습니다. 이러한 경고는 지원 및 엔지니어링의 인사이트를 사용하여 고객에게 표준 세트를 제공하기 위해 Adobe에서 개발했습니다.
+[Adobe Commerce에 대한 관리 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md)에 등록했으며 경고 임계값 중 하나 이상을 초과한 경우 New Relic에서 경고를 받게 됩니다. 이러한 경고는 지원 및 엔지니어링의 인사이트를 사용하여 고객에게 표준 세트를 제공하기 위해 Adobe에서 개발했습니다.
 
-<u> **해!** </u>
+<u> **실행!** </u>
 
 * 이 경고가 지워질 때까지 예약된 배포를 중단합니다.
-* 사이트가 응답하지 않거나 완전히 응답하지 않는 경우 즉시 사이트를 유지 관리 모드로 전환합니다. 단계는 를 참조하십시오. [설치 안내서 > 유지 관리 모드 활성화 또는 비활성화](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten) 개발자 설명서에서 확인할 수 있습니다. 문제 해결을 위해 사이트에 계속 액세스할 수 있도록 제외 IP 주소 목록에 IP를 추가해야 합니다. 단계는 를 참조하십시오. [제외 IP 주소 목록 유지](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt) 개발자 설명서에서 확인할 수 있습니다.
+* 사이트가 응답하지 않거나 완전히 응답하지 않는 경우 즉시 사이트를 유지 관리 모드로 전환합니다. 단계는 개발자 설명서에서 [설치 안내서 > 유지 관리 모드 활성화 또는 비활성화](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten)를 참조하십시오. 문제 해결을 위해 사이트에 계속 액세스할 수 있도록 제외 IP 주소 목록에 IP를 추가해야 합니다. 단계는 개발자 설명서에서 [제외 IP 주소 목록 유지](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt)를 참조하십시오.
 
-<u> **안 돼!** </u>
+<u> **안 함!** </u>
 
 * 사이트에 추가 페이지 보기를 가져올 수 있는 추가 마케팅 캠페인을 시작합니다.
 * 인덱서 또는 추가 크론을 실행하여 CPU 또는 디스크에 추가 스트레스를 발생시킬 수 있습니다.
@@ -41,12 +41,12 @@ ht-degree: 0%
 
 다음 단계에 따라 원인을 식별하고 해결하십시오.
 
-1. New Relic에서 디스크 사용을 가장 많이 검토하십시오. 단계는 New Relic의 스토리지 탭을 참조하십시오. [기반 구조 모니터링 호스트 페이지](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/):
+1. New Relic에서 디스크 사용을 가장 많이 검토하십시오. 단계는 New Relic [인프라 모니터링 호스트 페이지](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/)의 저장소 탭을 참조하십시오.
    * New Relic에서 디스크 사용량이 느리게 증가하는 경우 다음 옵션을 시도하십시오.
-   * 공간 할당을 조정하여 디스크 공간을 최적화합니다. 단계는 를 참조하십시오. [디스크 공간 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html) 개발자 설명서에서 확인할 수 있습니다. 추가 디스크 공간을 요청해야 할 수도 있습니다(Adobe 계정 팀에 문의).
-   * MySQL의 디스크 공간을 정리합니다. 을(를) 참조하십시오 [MySQL 디스크 공간이 부족합니다.](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md) 단계에 대해 설명합니다.
+   * 공간 할당을 조정하여 디스크 공간을 최적화합니다. 단계는 개발자 설명서에서 [디스크 공간 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html)를 참조하십시오. 추가 디스크 공간을 요청해야 할 수도 있습니다(Adobe 계정 팀에 문의).
+   * MySQL의 디스크 공간을 정리합니다. 단계는 [MySQL 디스크 공간이 부족함](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)을 참조하세요.
    * New Relic에서 디스크 사용량이 급격히 증가하는 경우 디렉터리에서 파일이 매우 빠르게 증가하는 문제가 있음을 나타낼 수 있습니다. 다음 사항을 확인하십시오.
-1. CLI/Terminal에서 다음 명령을 실행하여 전체 디스크 공간을 점검하여 문제를 파악하십시오. `df -h`
-1. 예기치 않게 용량이 크고 디스크 사용량이 증가하는 디렉토리를 식별한 후 영향을 받는 파일 시스템을 확인해야 합니다. 다음 예제에서는 파일 디렉터리를 확인하는 방법을 보여 줍니다 `pub/media/`. Adobe Commerce이 로그 및 대용량 미디어 파일을 저장하는 데 사용하는 디렉터리입니다. 그러나 예기치 않은 디스크 사용을 표시하는 모든 디렉터리에 대해 이 명령을 실행해야 합니다. `du -sch ~/pub/media/*`.
+1. CLI/터미널에서 다음 명령을 실행하여 문제를 확인하려면 전체 디스크 공간을 확인하십시오. `df -h`
+1. 예기치 않게 용량이 크고 디스크 사용량이 증가하는 디렉토리를 식별한 후 영향을 받는 파일 시스템을 확인해야 합니다. 다음 예제에서는 파일 디렉터리 `pub/media/`을(를) 확인하는 방법을 보여 줍니다. Adobe Commerce이 로그 및 대용량 미디어 파일을 저장하는 데 사용하는 디렉터리입니다. 그러나 예기치 않은 디스크 사용량을 표시하는 모든 디렉터리에 대해 이 명령을 실행해야 합니다. `du -sch ~/pub/media/*`.
 
-터미널의 출력에서 디스크 사용량이 급격히 증가하는 이러한 디렉토리 중 하나에 있는 파일을 표시하는 경우 파일의 콘텐츠가 필요하지 않은 것을 알고 있다면 파일을 제거하는 것이 좋습니다. 이 조치를 취하기가 불편하시다면, [Adobe Commerce 지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+터미널의 출력에서 디스크 사용량이 급격히 증가하는 이러한 디렉토리 중 하나에 있는 파일을 표시하는 경우 파일의 콘텐츠가 필요하지 않은 것을 알고 있다면 파일을 제거하는 것이 좋습니다. 이 작업을 수행하는 데 익숙하지 않은 경우 [Adobe Commerce 지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오.

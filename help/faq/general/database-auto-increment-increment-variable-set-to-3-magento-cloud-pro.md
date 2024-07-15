@@ -25,11 +25,11 @@ Galera 데이터베이스 클러스터가 사용됩니다. Galera 데이터베�
 
 ![auto_increment](assets/auto_increment_id.png)
 
-예를 들어 선택된 메인이 노드 1인 경우 `auto_increment_offset = 1`를 입력하면 ID가 1씩 증가합니다. 그러면 새 주 노드가 나중에 선택되면(예: 노드 3) `auto_increment_offset = 3`, 대신 3씩 증가합니다.
+예를 들어 선택된 메인이 `auto_increment_offset = 1`인 노드 1인 경우 ID가 1씩 증가합니다. 그러면 나중에 새 주 노드(예: `auto_increment_offset = 3`인 노드 3을 선택하면 대신 3이 증가합니다.
 
 ## 유용한 링크
 
 개발자 설명서에서 를 참조하십시오.
 
-* [Cloud for Adobe Commerce > Pro 아키텍처 > 백업 및 재해 복구](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
-* [Adobe Commerce용 클라우드 > 사전 요구 사항 설치: 데이터베이스](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)
+* [Adobe Commerce용 클라우드 > Pro 아키텍처 > 백업 및 재해 복구](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
+* [Adobe Commerce용 클라우드 > 필수 구성 요소 설치: 데이터베이스](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)

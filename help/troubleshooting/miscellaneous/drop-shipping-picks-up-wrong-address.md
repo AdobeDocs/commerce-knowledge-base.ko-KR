@@ -29,4 +29,4 @@ Magento 인벤토리는 현재 체크아웃 중 소스 주소를 기반으로 �
 
 ## 관련 읽기
 
-* [Magento 인벤토리 FAQ](https://github.com/magento/inventory/wiki/MSI-FAQs) GitHub에서.
+* GitHub의 [Magento 인벤토리 FAQ](https://github.com/magento/inventory/wiki/MSI-FAQs).

@@ -1,9 +1,10 @@
 ---
 title: 'ACSD-56741: 사용자 지정 MySQL 트리거로 데이터베이스 설정 오류 문제 해결'
-description: ACSD-56741 패치를 적용하여 인덱싱과 관련이 없는 데이터베이스의 사용자 정의 MySQL 트리거로 인해 'setup:upgrade' 도중 null 유형의 값에 대한 배열 오프셋에 액세스하려고 함* 오류 메시지가 표시되는 Adobe Commerce 문제를 해결합니다. [!DNL MView].
+description: ACSD-56741 패치를 적용하여 인덱싱과 관련 없는 데이터베이스의 사용자 지정 MySQL 트리거 및  [!DNL MView](으)로 인해 'setup:upgrade' 동안 null* 유형의 값에 대한 배열 오프셋에 액세스하려고 함*이라는 오류 메시지가 표시되는 Adobe Commerce 문제를 수정하십시오.
 feature: Install
 role: Admin, Developer
-source-git-commit: 216ce1035584e4c049029073ee0017d3616cdbd6
+exl-id: 97839140-03c5-44f0-ba75-935d62f5bf90
+source-git-commit: 7cd830d9ba4af6350a14e0cdb50439d2d07084dc
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -12,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-56741: 사용자 지정 MySQL 트리거로 데이터베이스 설정 오류 문제 해결
 
-ACSD-56741 패치는 오류 메시지가 표시되는 문제를 해결합니다 *null 유형의 값에 대한 배열 오프셋에 액세스하려고 합니다.* 다음 기간 동안 표시: `setup:upgrade` 인덱싱과 관련 없는 데이터베이스의 사용자 지정 MySQL 트리거로 인해 [!DNL MView]. 이 패치는 다음 경우에 사용할 수 있습니다. [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48이 설치되었습니다. 패치 ID는 ACSD-56741입니다. 이 문제는 Adobe Commerce 2.5.0에서 수정됩니다.
+ACSD-56741 패치는 인덱싱과 [!DNL MView]과(와) 관련 없는 데이터베이스의 사용자 지정 MySQL 트리거로 인해 `setup:upgrade` 동안 null *형식의 값에 대한 배열 오프셋에 액세스하려고 시도한다는 오류 메시지*&#x200B;이(가) 표시되는 문제를 해결합니다. 이 패치는 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48이 설치된 경우에 사용할 수 있습니다. 패치 ID는 ACSD-56741입니다. 이 문제는 Adobe Commerce 2.5.0에서 수정됩니다.
 
 ## 영향을 받는 제품 및 버전
 
-**패치는 Adobe Commerce 버전에 대해 만들어집니다.**
+**Adobe Commerce 버전에 대한 패치가 만들어졌습니다.**
 
 * Adobe Commerce(모든 배포 방법) 2.4.6-p3
 
@@ -26,15 +27,15 @@ ACSD-56741 패치는 오류 메시지가 표시되는 문제를 해결합니다 
 
 >[!NOTE]
 >
->이 패치는 새 버전이 설치된 다른 버전에 적용할 수 있습니다 [!DNL Quality Patches Tool] 릴리스. 패치가 Adobe Commerce 버전과 호환되는지 확인하려면 `magento/quality-patches` 최신 버전으로 패키지하고 [[!DNL Quality Patches Tool]: 패치 검색 페이지](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 패치 ID를 검색 키워드로 사용하여 패치를 찾습니다.
+>새 [!DNL Quality Patches Tool] 릴리스가 있는 다른 버전에 패치를 적용할 수 있습니다. 패치가 Adobe Commerce 버전과 호환되는지 확인하려면 `magento/quality-patches` 패키지를 최신 버전으로 업데이트하고 [[!DNL Quality Patches Tool]에서 호환성을 확인합니다. 패치 검색 페이지](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 패치 ID를 검색 키워드로 사용하여 패치를 찾습니다.
 
 ## 문제
 
-오류 메시지 *null 유형의 값에 대한 배열 오프셋에 액세스하려고 합니다.* 다음 기간 동안 표시: `setup:upgrade` 인덱싱과 관련 없는 데이터베이스의 사용자 지정 MySQL 트리거로 인해 [!DNL MView].
+인덱싱과 [!DNL MView]과(와) 관련 없는 데이터베이스의 사용자 지정 MySQL 트리거로 인해 `setup:upgrade` 동안 null *형식의 값에 대한 배열 오프셋에 액세스하려고 시도한다는 오류 메시지*&#x200B;이(가) 나타납니다.
 
 <u>재현 단계</u>:
 
-1. 실행 `php bin/magento indexer:set-mode schedule`.
+1. `php bin/magento indexer:set-mode schedule` 실행.
 
    ```
    DELIMITER //
@@ -44,8 +45,8 @@ ACSD-56741 패치는 오류 메시지가 표시되는 문제를 해결합니다 
        -> END //
    ```
 
-1. 실행 `php bin/magento c:f`.
-1. 실행 `php bin/magento setup:upgrade`.
+1. `php bin/magento c:f` 실행.
+1. `php bin/magento setup:upgrade` 실행.
 
 <u>예상 결과</u>:
 
@@ -55,20 +56,20 @@ ACSD-56741 패치는 오류 메시지가 표시되는 문제를 해결합니다 
 
 설치 업그레이드가 종료되고 다음 오류 메시지가 표시됩니다.
 
-*경고: null 유형의 값에 대한 배열 오프셋에 액세스하려고 합니다.*.
+*경고: null* 형식의 값에 대한 배열 오프셋에 액세스하려고 합니다.
 
 ## 패치 적용
 
 개별 패치를 적용하려면 배포 방법에 따라 다음 링크를 사용합니다.
 
-* Adobe Commerce 또는 Magento Open Source 온-프레미스: [[!DNL Quality Patches Tool] > 사용](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 다음에서 [!DNL Quality Patches Tool] 가이드.
-* 클라우드 인프라의 Adobe Commerce: [업그레이드 및 패치 > 패치 적용](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) Commerce on Cloud Infrastructure 안내서에서 참조하십시오.
+* Adobe Commerce 또는 Magento Open Source 온-프레미스: [!DNL Quality Patches Tool] 가이드의 [[!DNL Quality Patches Tool] > 사용량](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)
+* 클라우드 인프라의 Adobe Commerce: Commerce on Cloud Infrastructure 안내서의 [업그레이드 및 패치 > 패치 적용](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html).
 
 ## 관련 읽기
 
-에 대해 자세히 알아보기 [!DNL Quality Patches Tool]을(를) 참조하시기 바랍니다.
+[!DNL Quality Patches Tool]에 대한 자세한 내용은 다음을 참조하세요.
 
-* [[!DNL Quality Patches Tool] 출시됨: 품질 패치를 셀프서비스할 수 있는 새로운 도구](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 을 참조하십시오.
-* [다음을 사용하여 Adobe Commerce 문제에 대한 패치를 사용할 수 있는지 확인 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 을 참조하십시오.
+* [[!DNL Quality Patches Tool] 릴리스됨: 지원 기술 자료에서 품질 패치를 자체 제공하는 새로운 도구](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [지원 기술 자료에서  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)을(를) 사용하여 Adobe Commerce 문제에 대한 패치를 사용할 수 있는지 확인합니다.
 
-QPT에서 사용할 수 있는 다른 패치에 대한 정보는 다음을 참조하십시오. [[!DNL Quality Patches Tool]: 패치 검색](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 다음에서 [!DNL Quality Patches Tool] 가이드.
+QPT에서 사용할 수 있는 다른 패치에 대한 정보는 [!DNL Quality Patches Tool] 안내서에서 [[!DNL Quality Patches Tool]: 패치 검색](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)을 참조하세요.

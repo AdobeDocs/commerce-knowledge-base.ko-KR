@@ -19,14 +19,14 @@ ht-degree: 0%
 
 요청한 URL /magento2index.php/admin/admin/dashboard/index/key/0c81957145a968b697c32a846598dc2e/을(를) 이 서버에서 찾을 수 없습니다.
 
-사이에 슬래시 문자가 없습니다. `magento2` 및 `index.php` 를 입력합니다.
+URL에서 `magento2`과(와) `index.php` 사이에 슬래시 문자가 없습니다.
 
 ## 솔루션
 
 기본 URL이 올바르지 않습니다. 기본 URL은
 
-* 다음으로 시작 `http://` 또는 `https://`
-* 슬래시( `/` )
-* 의 대/소문자를 일치시키십시오. `web/unsecure/base_url` 에 기록 `core_config_data` 데이터베이스 테이블
+* `http://` 또는 `https://`(으)로 시작
+* 슬래시( `/`)로 끝남
+* `core_config_data` 데이터베이스 테이블에서 `web/unsecure/base_url` 레코드의 대/소문자를 일치시키십시오
 
 올바른 값을 사용하여 설치를 다시 실행합니다.

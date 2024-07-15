@@ -25,16 +25,16 @@ MDVA-43395 패치를 적용할 수 없습니다.
 
 ## 원인
 
-클라우드 판매자는 MDVA-43395 패치를 별도로 적용할 필요가 없습니다. [magento/magento-cloud-patches 1.0.16](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) 이미 패치를 포함하고 있는 가 설치되었습니다.
+이미 패치가 포함된 [magento/magento-cloud-patches 1.0.16](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016)이(가) 설치되어 있는 경우 클라우드 판매자는 MDVA-43395 패치를 별도로 적용할 필요가 없습니다.
 
 ## 솔루션
 
-이 문제를 해결하려면 MDVA-43395 및 MDVA-43443 패치를 `m2-hotfixes` 디렉토리 및 재배포.
+이 문제를 해결하려면 `m2-hotfixes` 디렉터리에서 MDVA-43395 및 MDVA-43443 패치를 제거하고 다시 배포하십시오.
 
-다음을 통해 MDVA-43443 패치를 적용할 수 있는 경우 `m2-hotfixes` 디렉터리인 경우에도 위에 언급된 대로 제거해야 합니다. 이후 버전의 Adobe Commerce에는 이러한 패치가 이미 포함되어 있으므로 나중에 업그레이드하면 배포가 실패할 수 있습니다.
+`m2-hotfixes` 디렉터리를 통해 MDVA-43443 패치를 적용할 수 있는 경우 위에 언급된 대로 해당 패치를 제거해야 합니다. 이후 버전의 Adobe Commerce에는 이러한 패치가 이미 포함되어 있으므로 나중에 업그레이드하면 배포가 실패할 수 있습니다.
 
-패치가 적용되었는지 확인하려면 `vendor/bin/magento-patches -n status |grep 43443` 명령입니다.
-이렇게 여러 결과가 표시된다면 MDVA-43443 패치를 `m2-hotfixes` 폴더:
+패치가 적용되었는지 확인하려면 `vendor/bin/magento-patches -n status |grep 43443` 명령을 실행하십시오.
+이렇게 여러 개의 결과가 표시되면 `m2-hotfixes` 폴더에서 MDVA-43443 패치를 제거해야 합니다.
 
 ```bash
 $ vendor/bin/magento-patches -n status |grep 43443
@@ -44,5 +44,5 @@ $ vendor/bin/magento-patches -n status |grep 43443
 
 ## 관련 읽기
 
-* [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 을 참조하십시오.
-* [Commerce용 클라우드 패치](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) 개발자 설명서에서 확인할 수 있습니다.
+* 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+* 개발자 설명서에서 [Commerce용 클라우드 패치](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016)

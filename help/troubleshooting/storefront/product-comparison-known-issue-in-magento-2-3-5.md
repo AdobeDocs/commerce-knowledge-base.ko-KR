@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.3.5의 제품 비교 알려진 문제
 
-이 문서에서는 을(를) 피하는 방법에 대한 권장 사항을 제공합니다 [제품 비교](https://docs.magento.com/user-guide/marketing/product-compare.html) Adobe Commerce 온-프레미스 2.3.5 및 Adobe Commerce 온 클라우드 인프라 2.3.5의 문제.
+이 문서에서는 Adobe Commerce 온-프레미스 2.3.5 및 Adobe Commerce 온-클라우드 인프라 2.3.5의 알려진 [제품 비교](https://docs.magento.com/user-guide/marketing/product-compare.html) 문제를 방지하는 방법에 대한 권장 사항을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->제품 속성은 다음을 사용하여 비교하는 데 사용하도록 설정되어 있습니다. **Storefront 비교 가능** 구성 설정입니다. 자세한 내용은 [제품 속성 만들기](https://docs.magento.com/user-guide/stores/attribute-product-create.html#step-4-describe-the-storefront-properties) 사용 안내서에서 참조하십시오.
+>제품 특성은 **Comparable on Storefront** 구성 설정을 사용하여 비교하는 데 사용하도록 설정되어 있습니다. 자세한 내용은 사용 안내서의 [제품 특성 만들기](https://docs.magento.com/user-guide/stores/attribute-product-create.html#step-4-describe-the-storefront-properties)를 참조하세요.
 
 수정 사항은 2020년 4분기에 릴리스될 예정인 Adobe Commerce 2.3.6에서 사용할 수 있습니다.
 
-GitHub에서 수정 사항을 볼 수 있습니다(이 수정 사항은 회귀 테스트를 거치지 않았으며 공식 핫픽스가 아님을 고려하십시오). <https://github.com/magento/magento2/pull/27662>
+GitHub에서 수정 사항을 볼 수 있습니다(해당 수정 사항이 회귀 테스트를 거치지 않았으며 공식 핫픽스가 아님을 고려). <https://github.com/magento/magento2/pull/27662>
 
 ## 관련 읽기
 
@@ -53,4 +53,4 @@ GitHub에서 수정 사항을 볼 수 있습니다(이 수정 사항은 회귀 �
 <p title="Amazon용 패치 Adobe Commerce 2.3.5-p1 의 결제 체크아웃 문제"><a href="/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md">Amazon용 패치 Adobe Commerce 2.3.5-p1 의 결제 체크아웃 문제</a></p>
 </li>
 </ul>
-</li><li><a href="https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues">Adobe Commerce 2.3.5 알려진 문제</a> 개발자 설명서에서</li></ul>
+</li><li>개발자 설명서의 <a href="https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues">Adobe Commerce 2.3.5 알려진 문제</a></li></ul>

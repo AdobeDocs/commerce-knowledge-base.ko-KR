@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-52613: 업데이트 없이 캐시 및 인덱스가 새로 고쳐짐'
-description: ACSD-52613 패치를 적용하여 다음과 같이 'Inventory_source' 항목이 업데이트되지 않을 때 캐시와 색인이 새로 고쳐지는 Adobe Commerce 문제를 해결합니다. [!DNL REST API].
+description: ACSD-52613 패치를 적용하여  [!DNL REST API]까지 'Inventory_source' 항목이 업데이트되지 않을 때 캐시와 색인이 새로 고쳐지는 Adobe Commerce 문제를 해결합니다.
 feature: REST
 role: Admin
 exl-id: 78f23fee-a48e-4ee2-bc75-e98e3dd1ac44
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-52613: 업데이트가 없어도 캐시 및 인덱스를 새로 고칩니다.
 
-ACSD-52613 패치는에 대한 업데이트가 없을 때 캐시와 색인이 새로 고쳐지는 Adobe Commerce 문제를 해결합니다 `Inventory_source` 항목별 [!DNL REST API]. 이 패치는 다음 경우에 사용할 수 있습니다. [!DNL Quality Patches Tool (QPT)] 1.1.37이 설치되었습니다. 패치 ID는 ACSD-52613입니다. 이 문제는 Adobe Commerce 2.4.7에서 해결되었습니다.
+ACSD-52613 패치는 [!DNL REST API]까지 `Inventory_source`개 항목에 대한 업데이트가 이루어지지 않을 때 캐시와 인덱스가 새로 고쳐지는 Adobe Commerce 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.37이 설치되어 있을 때 사용할 수 있습니다. 패치 ID는 ACSD-52613입니다. 이 문제는 Adobe Commerce 2.4.7에서 해결되었습니다.
 
 ## 영향을 받는 제품 및 버전
 
-**패치는 Adobe Commerce 버전에 대해 만들어집니다.**
+**Adobe Commerce 버전에 대한 패치가 만들어졌습니다.**
 
 * Adobe Commerce(모든 배포 방법) 2.4.6
 
@@ -27,19 +27,19 @@ ACSD-52613 패치는에 대한 업데이트가 없을 때 캐시와 색인이 �
 
 >[!NOTE]
 >
->이 패치는 새 버전이 설치된 다른 버전에 적용할 수 있습니다 [!DNL Quality Patches Tool] 릴리스. 패치가 Adobe Commerce 버전과 호환되는지 확인하려면 `magento/quality-patches` 최신 버전으로 패키지하고 [[!DNL Quality Patches Tool]: 패치 검색 페이지](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 패치 ID를 검색 키워드로 사용하여 패치를 찾습니다.
+>새 [!DNL Quality Patches Tool] 릴리스가 있는 다른 버전에 패치를 적용할 수 있습니다. 패치가 Adobe Commerce 버전과 호환되는지 확인하려면 `magento/quality-patches` 패키지를 최신 버전으로 업데이트하고 [[!DNL Quality Patches Tool]에서 호환성을 확인합니다. 패치 검색 페이지](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 패치 ID를 검색 키워드로 사용하여 패치를 찾습니다.
 
 ## 문제
 
-에 대한 업데이트가 없으면 캐시 및 인덱스가 새로 고쳐집니다. `Inventory_source` 항목별 [!DNL REST API].
+[!DNL REST API]이(가) `Inventory_source`개 항목을 업데이트하지 않으면 캐시와 인덱스가 새로 고쳐집니다.
 
-<u>전제 조건</u>:
+<u>필수 구성 요소</u>:
 
 설치된 인벤토리 모듈
 
 <u>재현 단계</u>:
 
-1. 다음과 같이 개발자 모드 전환 `debug.log`.
+1. 개발자 모드를 `debug.log`(으)로 설정합니다.
 1. 100개의 제품 - import.csv로 가져오기 파일 준비:
 
    ```
@@ -50,13 +50,13 @@ ACSD-52613 패치는에 대한 업데이트가 없을 때 캐시와 색인이 �
    test_sku_100    test_sku_100    simple    Default    10
    ```
 
-1. 에서 제품 가져오기 `import.csv`
-1. (이)라는 이름의 새 주식과 소스 만들기 **test_stock** 및 **test_source**.
+1. `import.csv`에서 제품 가져오기
+1. **test_stock** 및 **test_source**&#x200B;이라는 새 주식과 원본을 만드십시오.
 1. 웹 사이트에 신규 재고를 지정하고 재고에 출처를 지정합니다.
 1. 모든 항목에 대한 액세스 권한을 가진 새 통합을 만들고 활성화한 다음 액세스 토큰을 복사하여 붙여넣습니다.
-1. 다음으로 이동 **스토어** > **구성** > **서비스** > **Oauth** > **소비자 설정** 및 활성화 **OAuth 액세스 토큰을 독립 실행형 전달자 토큰으로 사용할 수 있도록 허용**.
+1. **스토어** > **구성** > **서비스** > **Oauth** > **소비자 설정**(으)로 이동하여 **OAuth 액세스 토큰을 독립 실행형 전달자 토큰으로 사용하도록 허용**&#x200B;합니다.
 1. 캐시를 플러시합니다.
-1. 인덱서를 다음으로 설정 **일정별 업데이트됨**
+1. 인덱서를 **일정별로 업데이트됨**(으)로 설정
 1. API 요청 실행
 
    `POST ../rest/V1/inventory/source-items`
@@ -670,9 +670,9 @@ ACSD-52613 패치는에 대한 업데이트가 없을 때 캐시와 색인이 �
    }
    ```
 
-1. 에서 모든 로그 제거 `var/log`
-1. 실행 [!DNL REST API] 다시 요청하십시오.
-1. 다음 확인: `var/log/debug.log`.
+1. `var/log`에서 모든 로그 제거
+1. [!DNL REST API] 요청을 다시 실행합니다.
+1. `var/log/debug.log`을(를) 확인합니다.
 
 <u>예상 결과</u>:
 
@@ -680,20 +680,20 @@ ACSD-52613 패치는에 대한 업데이트가 없을 때 캐시와 색인이 �
 
 <u>실제 결과</u>:
 
-다음 `var/log/debug.log` 캐시 지우기와 관련된 항목을 포함합니다.
+`var/log/debug.log`에 캐시 지우기와 관련된 항목이 포함되어 있습니다.
 
 ## 패치 적용
 
 개별 패치를 적용하려면 배포 방법에 따라 다음 링크를 사용합니다.
 
-* Adobe Commerce 또는 Magento Open Source 온-프레미스: [[!DNL Quality Patches Tool] > 사용](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 다음에서 [!DNL Quality Patches Tool] 가이드.
-* 클라우드 인프라의 Adobe Commerce: [업그레이드 및 패치 > 패치 적용](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) Commerce on Cloud Infrastructure 안내서에서 참조하십시오.
+* Adobe Commerce 또는 Magento Open Source 온-프레미스: [!DNL Quality Patches Tool] 가이드의 [[!DNL Quality Patches Tool] > 사용량](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)
+* 클라우드 인프라의 Adobe Commerce: Commerce on Cloud Infrastructure 안내서의 [업그레이드 및 패치 > 패치 적용](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html).
 
 ## 관련 읽기
 
-에 대해 자세히 알아보기 [!DNL Quality Patches Tool]을(를) 참조하시기 바랍니다.
+[!DNL Quality Patches Tool]에 대한 자세한 내용은 다음을 참조하세요.
 
-* [[!DNL Quality Patches Tool] 출시됨: 품질 패치를 셀프서비스할 수 있는 새로운 도구](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 을 참조하십시오.
-* [다음을 사용하여 Adobe Commerce 문제에 대한 패치를 사용할 수 있는지 확인 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 을 참조하십시오.
+* [[!DNL Quality Patches Tool] 릴리스됨: 지원 기술 자료에서 품질 패치를 자체 제공하는 새로운 도구](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [지원 기술 자료에서  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)을(를) 사용하여 Adobe Commerce 문제에 대한 패치를 사용할 수 있는지 확인합니다.
 
-QPT에서 사용할 수 있는 다른 패치에 대한 정보는 다음을 참조하십시오. [[!DNL Quality Patches Tool]: 패치 검색](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 다음에서 [!DNL Quality Patches Tool] 가이드.
+QPT에서 사용할 수 있는 다른 패치에 대한 정보는 [!DNL Quality Patches Tool] 안내서에서 [[!DNL Quality Patches Tool]: 패치 검색](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)을 참조하세요.

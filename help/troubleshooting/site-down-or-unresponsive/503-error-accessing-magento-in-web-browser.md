@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>재현 단계</u>
 
-(사전 요구 사항: 저장소가 다음 위치에 있지 않은지 확인하십시오. [유지 관리 모드](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)).
+(필수 구성 요소: 저장소가 [유지 관리 모드](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)에 있지 않은지 확인하십시오.)
 
 웹 브라우저에서 Commerce 관리자 또는 상점 페이지로 이동합니다.
 
@@ -33,17 +33,17 @@ Adobe Commerce 2.3.x
 
 <u>실제 결과</u>
 
-HTTP 503(서비스를 사용할 수 없음) 오류가 발생합니다. Apache `error.log` 에는 다음 메시지가 포함되어 있습니다.
+HTTP 503(서비스를 사용할 수 없음) 오류가 발생합니다. Apache `error.log`에 다음 메시지가 포함되어 있습니다.
 
-*&#39;Order&#39; 명령이 잘못되어 철자가 잘못되었거나 서버 구성에 포함되지 않은 모듈에 의해 정의되었을 수 있습니다.*
+*잘못된 명령 &#39;Order&#39;가 서버 구성에 포함되지 않은 모듈에 의해 정의되었거나 철자가 잘못되었을 수 있습니다.*
 
 ## 원인 {#details}
 
-Apache 2.4 호환성 모듈 `mod_access_compat` 이 비활성화되어 Adobe Commerce URL 재작이 제대로 작동하지 않습니다.
+Apache 2.4 호환성 모듈 `mod_access_compat`이(가) 비활성화되어 Adobe Commerce URL 다시 쓰기가 제대로 작동하지 않습니다.
 
 ## 솔루션 {#suggested-solution}
 
-활성화 `mod_access_compat` Apache 모듈을 열고 &#39;루트&#39; 권한이 있는 사용자로 다음을 실행하여 Apache를 다시 시작합니다.
+&#39;루트&#39; 권한을 가진 사용자로 다음을 실행하여 `mod_access_compat` Apache 모듈을 사용하도록 설정하고 Apache를 다시 시작하십시오.
 
 ```bash
 a2enmod access_compat

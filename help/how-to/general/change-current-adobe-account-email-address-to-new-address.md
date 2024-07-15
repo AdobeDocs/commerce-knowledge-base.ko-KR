@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 현재 Adobe 계정 이메일 주소 변경
 
-이 문서에서는에 등록된 현재 이메일 주소를 변경하는 방법을 설명합니다. [Adobe 계정](https://account.adobe.com/) 에 현재 등록되어 있지 않은 새 주소로 [Adobe 계정](https://account.adobe.com/) 또는 [Magento 계정](https://account.magento.com/).
+이 문서에서는 [Adobe 계정](https://account.adobe.com/)에 등록된 현재 전자 메일 주소를 [Adobe 계정](https://account.adobe.com/) 또는 [Magento 계정](https://account.magento.com/)에 현재 등록되지 않은 새 주소로 변경하는 방법에 대해 설명합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -28,6 +28,6 @@ ht-degree: 0%
 
 이메일 주소를 변경하려면 다음 단계를 따르십시오.
 
-1. 이전 이메일 주소에 사용된 암호를 재설정합니다. 에 제공된 지침을 따르십시오. [잊어버린 암호 재설정](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) Adobe helpx에서.
+1. 이전 이메일 주소에 사용된 암호를 재설정합니다. Adobe helpx에서 [잊어버린 암호 재설정](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)의 지침을 따르십시오.
 1. 암호 재설정 링크가 지침과 함께 현재 소유자의 사서함으로 전송됩니다.
-1. 다음 위치로 이동 [Adobe 계정 페이지](https://account.adobe.com) 새 전자 메일로 로그인하고 암호를 설정합니다.
+1. [Adobe 계정 페이지](https://account.adobe.com)(으)로 이동하여 새 전자 메일로 로그인하고 암호를 설정합니다.

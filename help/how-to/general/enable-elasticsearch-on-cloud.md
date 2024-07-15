@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 클라우드에서 Elasticsearch 활성화
 
-다음을 참조하십시오. [Elasticsearch 서비스 설정](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html#elasticsearch-software-compatibility) Adobe Commerce on cloud infrastructure용 Elasticsearch 설정에 대한 자세한 내용은 개발자 설명서 문서를 참조하십시오.
+클라우드 인프라에서 Adobe Commerce용 Elasticsearch 설정에 대한 자세한 내용은 개발자 설명서에서 [Elasticsearch 서비스 설정](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html#elasticsearch-software-compatibility) 문서를 참조하십시오.

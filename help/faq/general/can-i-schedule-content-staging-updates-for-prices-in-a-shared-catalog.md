@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 공유 카탈로그의 가격에 대한 콘텐츠 스테이징 업데이트를 예약할 수 있습니까?
 
-Adobe Commerce은 가격 업데이트 예약 기능을 제공하지 않습니다([컨텐츠 스테이징](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html))을 클릭하여 공유 카탈로그에 있는 하나 이상의 제품을 확인하십시오.
+Adobe Commerce은 공유 카탈로그에 있는 하나 이상의 제품에 대한 가격 업데이트([콘텐츠 스테이징](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html))를 예약하는 기능을 제공하지 않습니다.
 
-즉, 다음과 같은 가격 갱신을 직접 스케줄링할 수 없습니다. **가격 책정 및 구조 설정** Commerce 관리 패널의 메뉴(없음) **새 업데이트 예약** 단추(이 메뉴의)를 클릭합니다.
+즉, Commerce 관리 패널의 **가격 및 구조 설정** 메뉴에서 직접 가격 업데이트를 예약할 수 없습니다(이 메뉴에는 **새 업데이트 예약** 단추가 없음).
 
 여전히 대체 방법을 사용하고 다음에 대한 가격 갱신을 스케줄링할 수 있습니다.
 
@@ -23,12 +23,12 @@ Adobe Commerce은 가격 업데이트 예약 기능을 제공하지 않습니다
 
 ## 고객 그룹에 대한 가격 갱신 예약
 
-1. 시작 [새 제품 업데이트 예약](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html).
-1. 아래로 스크롤하여 **가격** 필드 및 클릭 **고급 가격 책정**.
+1. [새 제품 업데이트 예약](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html)을 시작합니다.
+1. **가격** 필드로 스크롤한 다음 **고급 가격**&#x200B;을 클릭합니다.
 
    ![advanced_pricing.png](assets/advanced_pricing.png){width="600"}
 
-1. 다음에서 **고객 그룹 가격 섹션**&#x200B;필요한 고객 그룹을 선택하고 업데이트된 가격을 설정합니다.
+1. **고객 그룹 가격 섹션**&#x200B;에서 필요한 고객 그룹을 선택하고 업데이트된 가격을 설정합니다.
 
    ![customer_group_price.png](assets/customer_group_price.png){width="700"}
 
@@ -40,9 +40,9 @@ Adobe Commerce은 가격 업데이트 예약 기능을 제공하지 않습니다
 
 **관련 설명서**
 
-* [업데이트 예약(콘텐츠 스테이징)](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html) 사용 안내서에서 참조하십시오.
-* [고급 가격 책정](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) 사용 안내서에서 참조하십시오.
+* 사용 안내서에서 [업데이트 예약(콘텐츠 스테이징)](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html)을 참조하십시오.
+* 사용 안내서의 [고급 가격](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html).
 
 ## 기본 가격에 대한 가격 업데이트 예약
 
-관련 문서를 참조하십시오. [기본 가격 변경이 공유된 카탈로그 가격에 어떤 영향을 줍니까?](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md) 을 참조하십시오.
+관련 문서를 참조하세요. [기본 가격 변경이 공유된 카탈로그 가격에 어떤 영향을 줍니까?지원 기술 자료의 ](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md).

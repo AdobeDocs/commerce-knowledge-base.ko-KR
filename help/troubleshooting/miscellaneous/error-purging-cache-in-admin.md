@@ -26,7 +26,7 @@ Adobe Commerce(모든 배포 방법) 2.3.0-2.3.7, 2.4.0-2.4.2-p1
 
 <u>재현 단계:</u>
 
-1. 관리에서 **시스템** > **도구** > **캐시 관리**.
+1. 관리에서 **시스템** > **도구** > **캐시 관리**(으)로 이동합니다.
 1. 캐시 지우기 옵션 중 하나를 선택합니다.
 
 <u>예상 결과:</u>
@@ -56,8 +56,8 @@ ls: cannot access 'pub/media/catalog/product/cache/directory/filename/': No such
 ```
 
 작업이 이미 완료되었을 때 파일을 지우려고 했습니다. 버그가 아닙니다. 가끔씩 발생할 것으로 예상되는 메시징 동시성 문제입니다. 문제를 해결할 수 있는 문제는 없습니다.
-그러나 출력에 파일이 여전히 캐시에 있는 것으로 표시되면 다음을 수행해야 합니다 [지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+그러나 출력에서 파일이 캐시에 남아 있는 것으로 표시되면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)해야 합니다.
 
 ## 관련 읽기
 
-* [캐시 관리](https://docs.magento.com/user-guide/system/cache-management.html) 개발자 설명서에서 확인할 수 있습니다.
+* 개발자 설명서에서 [캐시 관리](https://docs.magento.com/user-guide/system/cache-management.html).

@@ -27,4 +27,4 @@ fatal: The remote end hung up unexpectedly
 
 ## 솔루션 {#solution}
 
-에 설명된 대로 GitHub에 SSH 키 업로드 [GitHub 도움말 페이지](https://help.github.com/articles/generating-ssh-keys) .
+[GitHub 도움말 페이지](https://help.github.com/articles/generating-ssh-keys)에서 설명한 대로 SSH 키를 GitHub에 업로드합니다.

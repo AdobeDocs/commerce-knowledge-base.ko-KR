@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 2.4.4에서 2.4.4-p1로 업그레이드한 후 패키지 다운그레이드됨
 
-이 문서에서는 버전 2.4.4의 판매자가 를 실행할 때 발생하는 문제에 대한 핫픽스를 제공합니다. `composer update` 명령을 실행하면 아래에 나열된 패키지(모듈)가 버전 2.4.4와 호환되지 않으며 버전 2.4.5 이상에서만 사용할 수 있는 이전 버전으로 다운그레이드됩니다.
+이 문서에서는 버전 2.4.4의 판매자가 `composer update` 명령을 실행한 다음 아래에 나열된 패키지(모듈)가 버전 2.4.4와 호환되지 않으며 버전 2.4.5 이상에서만 사용하도록 되어 있는 이전 버전으로 다운그레이드되는 경우 발생하는 문제에 대한 핫픽스를 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -82,7 +82,7 @@ Removing magento/module-admin-adobe-ims (100.4.0)
 
 <u>재현 단계</u>:
 
-2.4.4 판매자가 `composer update` 명령을 실행한 다음 위에 나열된 동일한 패키지(모듈)를 **시나리오 1** 버전 2.4.5와만 호환되고 버전 2.4.4와 함께 사용되어서는 안 되는 최신 버전으로 업그레이드하십시오.
+2.4.4 판매자가 `composer update` 명령을 실행하면 **시나리오 1**&#x200B;에서 위에 나열된 동일한 패키지(모듈)가 버전 2.4.5와만 호환되고 버전 2.4.4와 함께 사용해서는 안 되는 최신 버전으로 업그레이드됩니다.
 
 <u>예상 결과</u>:
 
@@ -110,27 +110,27 @@ Removing magento/module-admin-adobe-ims (100.4.0)
 
 ## 패치 적용 방법
 
-첨부된 Bash 스크립트 사용 [ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip) 를 이 문제에 대한 해결 방법으로 사용합니다.
+이 문제에 대한 해결 방법으로 첨부된 Bash 스크립트 [ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip)을(를) 사용하십시오.
 
 **스크립트 사용 방법에 대한 정확한 지침:**
 
 ### 클라우드 인프라의 Adobe Commerce:
 
-1. bash 스크립트 파일 다운로드 `ACPLTSRV-2017-fix.sh` 을 클라우드 코드베이스의 로컬 체크아웃에 추가합니다.
-1. bash 스크립트 파일 실행 `ACPLTSRV-2017-fix.sh` 를 클릭하여 작성기 파일을 로컬로 수정합니다.
+1. 클라우드 코드베이스의 로컬 체크 아웃에 bash 스크립트 파일 `ACPLTSRV-2017-fix.sh`을(를) 다운로드합니다.
+1. 작성기 파일을 로컬로 수정하려면 기본 스크립트 파일 `ACPLTSRV-2017-fix.sh`을(를) 실행하십시오.
 1. 수정된 작성기 파일을 git 저장소에 추가하고 커밋합니다.
 
 ### Adobe Commerce 또는 Magento Open Source 온-프레미스:
 
-1. Bash 스크립트를 배치합니다. `ACPLTSRV-2017-fix.sh` 다음에서 `root` Adobe Commerce/Magento Open Source 2.4.4 설치 폴더(와 동일한 폴더) `composer.json`).
-1. 를 사용하여 bash 스크립트 실행 `apply` 영향을 받는 패키지(모듈)를 2.4.4 버전에 잠그는 인수:
+1. Adobe Commerce/Magento Open Source 2.4.4 설치의 `root` 폴더(`composer.json`과(와) 동일한 폴더)에 bash 스크립트 `ACPLTSRV-2017-fix.sh`을(를) 배치합니다.
+1. `apply` 인수로 bash 스크립트를 실행하여 영향을 받는 패키지(모듈)를 해당 2.4.4 버전에 잠급니다.
 
    ```bash
    sh ACPLTSRV-2017-fix.sh apply
    ```
 
 1. Run composer가 잠긴 패키지(모듈)를 설치하도록 업데이트되었습니다.
-1. 2.4.5 또는 2.4.4-p1로 업그레이드할 준비가 되면 `rollback` 인수:
+1. 2.4.5 또는 2.4.4-p1로 업그레이드할 준비가 되면 `rollback` 인수를 사용하여 스크립트를 실행합니다.
 
    ```bash
    sh ACPLTSRV-2017-fix.sh rollback
@@ -141,4 +141,4 @@ Removing magento/module-admin-adobe-ims (100.4.0)
 
 ## 해결 방법 2
 
-이 문제에 대한 두 번째 해결 방법은 를 실행하지 않는 것입니다. `composer update` 인수를 지정하지 않은 명령입니다.
+이 문제에 대한 두 번째 해결 방법은 인수 없이 `composer update` 명령을 실행하지 않는 것입니다.

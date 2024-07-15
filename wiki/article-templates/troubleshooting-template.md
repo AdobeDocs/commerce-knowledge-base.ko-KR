@@ -14,7 +14,7 @@ ht-degree: 0%
 제목은 문제를 간략하게 설명해야 하며 최대 70자를 사용하는 것이 좋습니다.<br/>
 (예: &quot;설치 또는 업그레이드 중 메모리 부족 오류&quot;)
 
-다음을 참조하십시오 [기여 > 메타데이터](../../CONTRIBUTING.md#metadata) 를 참조하십시오.
+메타데이터에 대한 자세한 내용은 [기여 > 메타데이터](../../CONTRIBUTING.md#metadata)를 참조하십시오.
 
 소개 단락 또는 두 단락: 문제에 대한 간략한 개요. 처음 140자는 SEO 용도로 중요합니다.
 
@@ -67,7 +67,7 @@ Adobe Commerce이 그렇게 합니다.
 
 ## 관련 읽기
 
-* [문서 항목](https://docs.magento.com/user-guide/) 사용 안내서에서 참조하십시오.
-* [문서 항목](https://devdocs.magento.com) 개발자 설명서에서 확인할 수 있습니다. 또한 cloud용 devdocs와 온프레미스 사용자를 구별하는 지침을 말할 수 있습니다. &quot;[문서 항목](https://devdocs.magento.com) Adobe Commerce on cloud infrastructure 개발자 설명서에서 참조하십시오.&quot; 및 &quot;[문서 항목](https://devdocs.magento.com) Adobe Commerce 온프레미스에 대한 개발자 설명서에서 참조하십시오.&quot;
-* [문서 항목](https://support.magento.com/hc/en-us) 을 참조하십시오.
+* 사용 안내서의 [문서 항목](https://docs.magento.com/user-guide/).
+* 개발자 설명서의 [문서 항목](https://devdocs.magento.com). 또한 Cloud용 devdocs와 온-프레미스 사용자를 구분하고 다음과 같이 지정할 수 있습니다. &quot;[Article topic](https://devdocs.magento.com) in our developer documentation for Adobe Commerce on cloud infrastructure&quot; Adobe Commerce 온-프레미스에 대한 개발자 설명서에 있는 &quot;[문서 항목](https://devdocs.magento.com)과(와) 비교&quot;
+* 지원 기술 자료의 [문서 항목](https://support.magento.com/hc/en-us).
 * 모든 관련 리소스(블로그, 포럼, StackOverflow 등)

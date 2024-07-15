@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # SQL 쿼리: 비용 오류 설명
 
-이 문서에서는 실패한 SQL 쿼리를 실행할 때 발생하는 EXPLAIN 비용 오류에 대한 솔루션을 제공합니다. PostgreSQL은 [EXPLAIN 명령](https://www.postgresql.org/docs/9.5/static/using-explain.html) SQL 쿼리 비용을 확인합니다. 또한 이 명령을 사용하기 위해 SQL Report Builder을 빌드했습니다. 즉, 비용이 너무 크다고 간주되는 경우(쿼리 실행에 필요한 리소스 양이 임계값을 초과하는 경우) 쿼리가 실행되지 않고 EXPLAIN 메시지가 표시됩니다.
+이 문서에서는 실패한 SQL 쿼리를 실행할 때 발생하는 EXPLAIN 비용 오류에 대한 솔루션을 제공합니다. PostgreSQL은 [EXPLAIN 명령](https://www.postgresql.org/docs/9.5/static/using-explain.html)이라는 명령을 사용하여 SQL 쿼리 비용을 결정합니다. 또한 이 명령을 사용하기 위해 SQL Report Builder을 빌드했습니다. 즉, 비용이 너무 크다고 간주되는 경우(쿼리 실행에 필요한 리소스 양이 임계값을 초과하는 경우) 쿼리가 실행되지 않고 EXPLAIN 메시지가 표시됩니다.
 
 이러한 상황이 발생할 수 있는 몇 가지 이유가 있습니다. 다음은 받을 수 있는 메시지, 그 의미 및 문제 해결 방법입니다.
 
 ## 쿼리를 실행할 수 없습니다. \[xxx\]의 EXPLAIN 비용 값이 너무 커서 이 쿼리를 실행할 수 없습니다.
 
-이 메시지가 표시되면 쿼리를 실행하는 데 비용이 너무 많이 들었음을 의미합니다. 이러한 상황에 대한 두 가지 권장 사항이 있습니다. 하나는 쿼리에서 ORDER BY 절을 제거하는 것입니다. 이는 비용이 많이 드는 작업입니다. 두 번째는 의 팁을 따르는 것입니다. [최적화 문서](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html) 을 클릭하여 쿼리를 조정합니다.
+이 메시지가 표시되면 쿼리를 실행하는 데 비용이 너무 많이 들었음을 의미합니다. 이러한 상황에 대한 두 가지 권장 사항이 있습니다. 하나는 쿼리에서 ORDER BY 절을 제거하는 것입니다. 이는 비용이 많이 드는 작업입니다. 두 번째는 쿼리를 수정하기 위한 [최적화 문서](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html)의 팁을 따르는 것입니다.
 
 ## 쿼리를 실행할 수 없습니다. 이 쿼리는 제한 값인 10,000개를 초과하는 \[xxx\]개의 행을 반환합니다.
 

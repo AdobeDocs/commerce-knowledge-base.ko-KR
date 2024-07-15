@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 클라우드에서 배포 가동 중단을 줄이는 정적 콘텐츠 배포 옵션
 
-다음을 참조하십시오. [정적 콘텐츠 배포 전략](https://devdocs.magento.com/guides/v2.3/cloud/deploy/static-content-deployment.html) Adobe Commerce on cloud infrastructure에서 배포 프로세스를 가속화하고 유지 관리 다운타임을 줄이는 데 도움이 되는 정적 콘텐츠 배포(SCD) 옵션에 대한 자세한 내용은 개발자 설명서에 나와 있습니다.
+클라우드 인프라에서 Adobe Commerce의 배포 프로세스를 가속화하고 유지 관리 가동 중지 시간을 줄이는 데 도움이 되는 정적 콘텐츠 배포(SCD) 옵션에 대한 자세한 내용은 개발자 설명서에서 [정적 콘텐츠 배포 전략](https://devdocs.magento.com/guides/v2.3/cloud/deploy/static-content-deployment.html)을 참조하십시오.

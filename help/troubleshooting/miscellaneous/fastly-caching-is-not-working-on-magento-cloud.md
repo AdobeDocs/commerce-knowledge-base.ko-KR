@@ -34,24 +34,24 @@ ht-degree: 0%
 
 ### dig 명령으로 테스트
 
-먼저 URL에 대한 dig 명령이 있는 헤더를 확인합니다. 터미널 응용 프로그램에서 dig를 입력합니다. `<url>` Fastly 서비스가 헤더에 표시되는지 확인합니다. 추가 Dig 테스트는 Fastly를 참조하십시오 [DNS 변경 전 테스트](https://docs.fastly.com/guides/basic-configuration/testing-setup-before-changing-domains).
+먼저 URL에 대한 dig 명령이 있는 헤더를 확인합니다. 터미널 응용 프로그램에서 dig `<url>`을(를) 입력하여 헤더에 Fastly 서비스가 표시되는지 확인합니다. 추가 Dig 테스트는 Fastly의 [DNS를 변경하기 전 테스트](https://docs.fastly.com/guides/basic-configuration/testing-setup-before-changing-domains)를 참조하십시오.
 
 For example:
 
 * 라이브 사이트: `dig http[s]://<your domain>`
-* 스테이징: `dig http[s]://staging.<your domain>.c.<instanceid>.ent.magento.cloud`
+* 준비 중: `dig http[s]://staging.<your domain>.c.<instanceid>.ent.magento.cloud`
 * 프로덕션: `dig http[s]://<your domain>.{1|2|3}.<project ID>.ent.magento.cloud`
 
 ### curl 명령을 사용하여 테스트
 
 Magento 그런 다음 curl 명령을 사용하여 X-Tag가 있는지, 그리고 추가 헤더 정보가 있는지 확인합니다. 명령 형식은 스테이징 및 프로덕션에 따라 다릅니다.
 
-이러한 명령에 대한 자세한 내용을 보려면 를 삽입할 때 Fastly를 우회합니다 `-H "host:URL"`, 연결 위치에 대한 원본으로 바꾸기(OneDrive 스프레드시트의 CNAME 정보), `-k` ssl 무시 및 `-v` 자세한 응답을 제공합니다. 헤더가 올바르게 표시되면 라이브 사이트를 확인하고 헤더를 다시 확인합니다.
+이러한 명령에 대한 자세한 내용을 보려면 `-H "host:URL"`을(를) 삽입할 때 Fastly를 건너뛰고, 연결 위치에 원본(OneDrive 스프레드시트의 CNAME 정보)으로 바꾸고, `-k`에서 SSL을 무시하며, `-v`에서 자세한 응답을 제공합니다. 헤더가 올바르게 표시되면 라이브 사이트를 확인하고 헤더를 다시 확인합니다.
 
 * Fastly를 우회하여 원본 서버에 직접 연결할 때 헤더 문제가 발생하는 경우 코드, 확장 또는 인프라에 문제가 있을 수 있습니다.
 * 원본 서버를 직접 히트하는 오류가 발생하지 않지만 Fastly를 통해 라이브 도메인을 히트하는 헤더가 누락된 경우 Fastly 오류가 발생할 수 있습니다.
 
-먼저 다음을 확인하십시오. **라이브 사이트** 응답 헤더를 확인합니다. 명령은 응답을 받기 위해 Fastly 확장을 통과합니다. 올바른 헤더를 받지 못한 경우 원본 서버를 직접 테스트해야 합니다. 이 명령은 `Fastly-Magento-VCL-Uploaded` 및 `X-Cache` 머리글입니다.
+먼저 **라이브 사이트**&#x200B;를 확인하여 응답 헤더를 확인합니다. 명령은 응답을 받기 위해 Fastly 확장을 통과합니다. 올바른 헤더를 받지 못한 경우 원본 서버를 직접 테스트해야 합니다. 이 명령은 `Fastly-Magento-VCL-Uploaded` 및 `X-Cache` 헤더의 값을 반환합니다.
 
 1. 터미널에서 다음 명령을 입력하여 라이브 사이트 URL을 테스트합니다.
 
@@ -59,7 +59,7 @@ Magento 그런 다음 curl 명령을 사용하여 X-Tag가 있는지, 그리고 
    curl http://<live URL> -vo /dev/null -HFastly-Debug:1 [--resolve]
    ```
 
-   사용 `--resolve` 라이브 URL이 DNS로 설정되지 않았으며 정적 경로가 설정되어 있지 않은 경우에만 해당합니다. For example:
+   `--resolve`은(는) 라이브 URL이 DNS로 설정되지 않았으며 고정 경로가 설정되어 있지 않은 경우에만 사용합니다. For example:
 
    ```
    curl http://www.mymagento.biz -vo /dev/null -HFastly-Debug:1
@@ -71,19 +71,19 @@ Magento 그런 다음 curl 명령을 사용하여 X-Tag가 있는지, 그리고 
    < Fastly-Magento-VCL-Uploaded: yes    < X-Cache: HIT, MISS
    ```
 
-테스트하려면 **스테이징** :
+**스테이징**&#x200B;을 테스트하려면:
 
 ```
 curl http[s]://staging.<your domain>.c.<instanceid>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
 ```
 
-테스트하려면 **프로덕션 로드 밸런서** :
+**프로덕션 부하 분산 장치**&#x200B;를 테스트하려면:
 
 ```
 curl http[s]://<your domain>.c.<project ID>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
 ```
 
-테스트하려면 **프로덕션 원본 노드** :
+**프로덕션 원본 노드**&#x200B;를 테스트하려면:
 
 ```
 curl http[s]://<your domain>.{1|2|3}.<project ID>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
@@ -170,13 +170,13 @@ curl 명령의 출력은 길어질 수 있습니다. 다음은 요약만 제공�
    "fastly-magento2": {    "type": "vcs",    "url": "https://github.com/fastly/fastly-magento2.git"    }
    ```
 
-1. 구성 관리를 사용하는 경우 구성 파일이 있어야 합니다. app/etc/config.app.php (2.0, 2.1) 또는 app/etc/config.php (2.2) 파일을 편집하고 설정이 `'Fastly_Cdn' => 1` 맞습니다. 설정은 다음과 같아야 합니다. `'Fastly_Cdn' => 0` (사용 안 함을 의미합니다. Fastly를 활성화한 경우 구성 파일을 삭제하고 bin/magento magento-cloud:scd-dump 명령을 실행하여 업데이트합니다. 이 파일에 대한 소개는 다음을 참조하십시오. [시스템별 설정 관리의 예](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration) 구성 안내서에서 참조할 수 있습니다.
+1. 구성 관리를 사용하는 경우 구성 파일이 있어야 합니다. app/etc/config.app.php(2.0, 2.1) 또는 app/etc/config.php(2.2) 파일을 편집하고 설정 `'Fastly_Cdn' => 1`이(가) 올바른지 확인하십시오. 설정이 `'Fastly_Cdn' => 0`이(가) 아니어야 합니다(사용 안 함).[Fastly]를 사용하도록 설정한 경우 구성 파일을 삭제하고 bin/magento magento-cloud:scd-dump 명령을 실행하여 업데이트하십시오. 이 파일에 대한 자세한 내용은 구성 안내서에서 [시스템별 설정 관리 예제](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration)를 참조하십시오.
 
-모듈이 설치되지 않은 경우 [통합 환경](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) 스테이징 및 프로덕션에 배포 및 배포됩니다. 다음을 참조하십시오 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) Commerce on Cloud Infrastructure Guide의 지침을 참조하십시오.
+모듈이 설치되지 않은 경우 [통합 환경](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) 분기에 설치하여 스테이징 및 프로덕션에 배포해야 합니다. Commerce on Cloud Infrastructure Guide의 지침은 [Set up Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)를 참조하십시오.
 
 ### Fastly-Magento-VCL-Uploaded가 없습니다.
 
-설치 및 구성 중에 Fastly VCL을 업로드해야 합니다. 이는 사용자가 생성하는 사용자 지정 VCL 스니펫이 아니라 Fastly 모듈에서 제공하는 기본 VCL 스니펫입니다. 자세한 내용은 [Fastly VCL 코드 조각 업로드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly) Commerce on Cloud Infrastructure Guide를 참조하십시오.
+설치 및 구성 중에 Fastly VCL을 업로드해야 합니다. 이는 사용자가 생성하는 사용자 지정 VCL 스니펫이 아니라 Fastly 모듈에서 제공하는 기본 VCL 스니펫입니다. 자세한 내용은 Commerce on Cloud Infrastructure Guide의 [Upload Fastly VCL snippets](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly)을(를) 참조하십시오.
 
 ### X-Cache에 누락 포함
 
@@ -190,9 +190,9 @@ X-Cache가 HIT, MISS 또는 MISS, MISS인 경우 동일한 curl 명령을 다시
 
 문제가 지속되면 다른 확장이 이러한 헤더를 재설정할 수 있습니다. 스테이징에서 다음 절차를 반복하여 문제를 일으키는 확장을 비활성화합니다. 문제를 일으키는 확장을 찾으면 프로덕션에서 확장을 비활성화해야 합니다.
 
-1. 확장을 비활성화하려면에 제공된 단계를 따르십시오 [확장 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions) Commerce on Cloud Infrastructure 안내서의 섹션.
-1. 확장을 비활성화한 후 **[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**.
-1. 클릭 **[!UICONTROL Flush Magento Cache]**.
+1. 확장을 비활성화하려면 Commerce on Cloud Infrastructure 안내서의 [확장 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions) 섹션에 지정된 단계를 따릅니다.
+1. 확장을 비활성화한 후 **[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**(으)로 이동합니다.
+1. **[!UICONTROL Flush Magento Cache]**&#x200B;을(를) 클릭합니다.
 1. 이제 한 번에 하나의 확장을 활성화하여 구성을 저장하고 캐시를 플러시합니다.
 1. curl 명령을 시도하고 응답 헤더를 확인합니다.
 1. 4단계와 5단계를 반복하여 curl 명령을 활성화하고 테스트합니다. Fastly 헤더가 더 이상 표시되지 않으면 Fastly에 문제를 일으키는 확장이 발견되었습니다.
@@ -202,5 +202,5 @@ Fastly 헤더를 재설정하는 확장을 격리하면 확장 개발자에게 �
 ## 자세한 내용은 개발자 설명서를 참조하십시오.
 
 * [Fastly 정보](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [사용자 정의 Fastly VCL 스니펫](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [빠르게 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
+* [사용자 지정 Fastly VCL 코드 조각](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)

@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ## 문제
 
-B2B 확장이 설치된 Adobe Commerce 2.2.1에서 등록된 고객이 상점 첫 화면에서 만든 주문은 Commerce 관리자의 고객 계정에 있는 주문 목록에 표시되지 않습니다. 디버그 로그(`./var/log/debug.log`) 다음 오류가 기록됩니다.
+B2B 확장이 설치된 Adobe Commerce 2.2.1에서 등록된 고객이 상점 첫 화면에서 만든 주문은 Commerce 관리자의 고객 계정에 있는 주문 목록에 표시되지 않습니다. 디버그 로그(`./var/log/debug.log`)에 다음 오류가 기록됩니다.
 
 `report.CRITICAL: You cannot define a correlation name ‘company_order’ more than once`
 
-<u>전제 조건</u>:
+<u>필수 구성 요소</u>:
 
 스토어 카탈로그에 Adobe Commerce 샘플 데이터가 아닌 제품이 포함되어 있고 B2B 확장이 설치되어 있습니다.
 
@@ -30,9 +30,9 @@ B2B 확장이 설치된 Adobe Commerce 2.2.1에서 등록된 고객이 상점 �
 1. 매장 프런트로 이동하여 고객 계정을 만듭니다.
 1. 장바구니에 제품을 추가하고 체크아웃을 완료하고 주문을 제출합니다.
 1. 관리자에 로그인합니다.
-1. 다음으로 이동 **고객,** 그런 다음 선택 **모든 고객**.
-1. 새로 생성된 고객의 경우 **편집**.
-1. 클릭 **주문 수** 왼쪽 패널에서.
+1. **고객,**(으)로 이동한 다음 **모든 고객**&#x200B;을 선택합니다.
+1. 새로 만든 고객의 경우 **편집**&#x200B;을 클릭하세요.
+1. 왼쪽 패널에서 **주문**&#x200B;을 클릭합니다.
 
 <u>예상 결과</u>:
 
@@ -61,6 +61,6 @@ B2B 확장이 설치된 Adobe Commerce 2.2.1에서 등록된 고객이 상점 �
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 지원 기술 자료에서 지침을 참조하십시오.
+지침은 지원 기술 자료의 [Adobe Commerce에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

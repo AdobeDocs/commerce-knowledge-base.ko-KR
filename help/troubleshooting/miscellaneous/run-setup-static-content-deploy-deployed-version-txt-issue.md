@@ -1,6 +1,6 @@
 ---
-title: '`setup 실행:static-content:deployed_version.txt 문제'
-description: 이 문서에서는 'setup'을 실행할 때 'deployed_version.txt'에 대한 쓰기 불가능 오류가 수정됩니다.:static-content:deploy` 명령을 수동으로 실행합니다.
+title: '''setup:static-content:deploy'' deployed_version.txt 문제 실행'
+description: 이 문서에서는 'setup:static-content:deploy' 명령을 수동으로 실행할 때 'deployed_version.txt'에 대한 쓰기 불가능 오류가 수정됩니다.
 exl-id: 88d8c126-349f-49cd-8f02-2a32e4994521
 feature: Deploy, Page Content, SCD
 role: Developer
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# 실행 `setup:static-content:deploy` deployed_version.txt 문제
+# `setup:static-content:deploy` deployed_version.txt 문제 실행
 
-이 문서에서는에 대한 수정 사항을 제공합니다. `deployed_version.txt` 을(를) 실행할 때 은(는) 쓰기 불가능 오류 발생 `setup:static-content:deploy` 수동으로 명령합니다.
+이 문서에서는 `setup:static-content:deploy` 명령을 수동으로 실행할 때 `deployed_version.txt`에 대한 쓰기 불가능 오류를 수정합니다.
 
 ## 문제
 
-Adobe Commerce on cloud infrastructure 권장 사항을 따라 다음을 사용하는 경우 [구성 관리](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) (배포 중 웹 사이트 가동 중단을 줄이기 위해 정적 에셋 생성을 빌드 단계로 이동) 을 실행하면 다음 오류가 발생할 수 있습니다. `setup:static-content:deploy` 수동으로 명령:
+Adobe Commerce 클라우드 인프라 권장 사항에 따라 [구성 관리](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)를 사용하고 배포 중 웹 사이트 가동 중단을 줄이기 위해 정적 에셋 생성을 빌드 단계로 이동하는 경우 `setup:static-content:deploy` 명령을 수동으로 실행할 때 다음 오류가 발생할 수 있습니다.
 
 ```
 {{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy
@@ -36,7 +36,7 @@ The path "deployed_version.txt:///app/{{cloud-project-id}}_stg/pub/static/app/{{
 
 ## 솔루션
 
-정적 콘텐츠 배포를 계속 실행하려면 `pub/static` 디렉터리 및 실행 `setup:static-content:deploy` 다시 명령:
+정적 콘텐츠 배포를 계속 실행하려면 `pub/static` 디렉터리에서 symlink를 제거하고 `setup:static-content:deploy` 명령을 다시 실행하십시오.
 
 ```
 find pub/static/ -maxdepth 1 -type l -delete

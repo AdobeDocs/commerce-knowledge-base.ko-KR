@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ### 서비스 약관
 
-Adobe Commerce on cloud infrastructure Edition [서비스 약관 계약](https://magento.com/legal/terms/cloud-terms) 18 조에 다음과 같이 명시되어 있습니다.
+Adobe Commerce on cloud infrastructure Edition [서비스 약관](https://magento.com/legal/terms/cloud-terms)은(는) 문서 18에 다음과 같이 명시되어 있습니다.
 
 > 고객은 Adobe Commerce 및 서비스가 소프트웨어에 직접 의존하지 않는 다른 타사 소프트웨어 애플리케이션을 호스팅하는 데 사용되지 않는다는 데 동의합니다.
 
@@ -35,4 +35,4 @@ Adobe이 타사 애플리케이션의 PCI 준수를 보장할 수 없기 때문�
 
 ## 힌트: 더 나은 통합을 위해 Commerce Marketplace 확장 사용
 
-클라우드 인프라 애플리케이션의 Adobe Commerce과 외부 서버에 호스팅된 타사 솔루션의 통합을 향상하기 위해 다음을 사용하는 것이 좋습니다. [Commerce Marketplace](https://marketplace.magento.com) 목적에 맞는 확장입니다.
+클라우드 인프라 응용 프로그램의 Adobe Commerce과 외부 서버에 호스팅된 타사 솔루션의 통합을 향상하기 위해 사용자의 목적에 맞는 [Commerce Marketplace](https://marketplace.magento.com) 확장을 사용하는 것이 좋습니다.

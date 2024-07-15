@@ -24,30 +24,30 @@ ht-degree: 0%
 
 웹 사이트가 DDoS에 의해 오버로드되는 경우 Commerce 관리자에 로그인하지 못할 수 있습니다(및 이 문서에 자세히 설명된 모든 단계를 수행).
 
-관리자에 액세스하려면에 설명된 대로 웹 사이트를 유지 관리 모드로 전환합니다. [유지 관리 모드 활성화 또는 비활성화](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html#instgde-cli-maint) IP 주소를 화이트리스트에 추가 합니다. 이 작업을 완료한 후 유지 관리 모드를 비활성화합니다.
+관리자에 액세스하려면 [유지 관리 모드 활성화 또는 비활성화](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html#instgde-cli-maint)에 설명된 대로 웹 사이트를 유지 관리 모드로 전환하고 IP 주소를 허용 목록에 추가하십시오. 이 작업을 완료한 후 유지 관리 모드를 비활성화합니다.
 
 ## IP별 트래픽 차단
 
 Adobe Commerce on cloud infrastructure store의 경우 특정 IP 주소 및 서브넷으로 트래픽을 차단하는 가장 효과적인 방법은 Commerce 관리자에 Fastly용 ACL을 추가하는 것입니다. 다음은 보다 자세한 지침에 대한 링크가 있는 단계입니다.
 
-1. Commerce 관리에서 다음 위치로 이동합니다. **스토어** > **구성** > **고급** > **시스템** > **전체 페이지 캐시** > **Fastly 구성**.
-1. [새 ACL 만들기](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/ACL.md) 차단할 IP 주소 또는 서브넷 목록을 사용합니다.
-1. 에 설명된 대로 ACL 목록 및 블록에 추가합니다. [차단](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) Adobe Commerce용 Fastly\_Cdn 모듈 가이드.
+1. Commerce 관리에서 **스토어** > **구성** > **고급** > **시스템** > **전체 페이지 캐시** > **빠르게 구성**&#x200B;으로 이동합니다.
+1. 차단할 IP 주소 또는 서브넷 목록을 사용하여 [새 ACL을 만듭니다](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/ACL.md).
+1. Adobe Commerce용 Fastly\_Cdn 모듈에 대한 [Blocking](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) 가이드에 설명된 대로 ACL 목록에 추가하고 차단합니다.
 
 ## 국가별 트래픽 차단
 
 클라우드 인프라 스토어의 Adobe Commerce에서 국가별 트래픽을 차단하는 가장 효과적인 방법은 Commerce 관리자에서 Fastly에 대한 ACL을 추가하는 것입니다.
 
-1. Commerce 관리에서 다음 위치로 이동합니다. **스토어** > **구성** > **고급** > **시스템** > **전체 페이지 캐시** > **Fastly 구성**.
-1. 국가를 선택하고 다음에 설명된 대로 ACL을 사용하여 차단을 구성합니다. [차단](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) Adobe Commerce용 Fastly\_Cdn 모듈 가이드.
+1. Commerce 관리에서 **스토어** > **구성** > **고급** > **시스템** > **전체 페이지 캐시** > **빠르게 구성**&#x200B;으로 이동합니다.
+1. Adobe Commerce용 Fastly\_Cdn 모듈에 대한 [Blocking](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) 가이드에 설명된 대로 국가를 선택하고 ACL을 사용하여 차단을 구성합니다.
 
 ## 사용자 에이전트별 트래픽 차단
 
 사용자 에이전트를 기반으로 차단을 설정하려면 Fastly 구성에 사용자 지정 VCL 코드 조각을 추가해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
-1. Commerce 관리에서 다음 위치로 이동합니다. **스토어** > **구성** > **고급** > **시스템** > **전체 페이지 캐시**.
-1. 그러면 **Fastly 구성** > **사용자 지정 VCL 코드 조각**.
-1. 에 설명된 대로 새 사용자 지정 코드 조각을 만듭니다. [사용자 지정 VCL 코드 조각](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md) fastly\_Cdn 모듈에 대한 안내서입니다. 다음 코드 샘플을 예로 사용할 수 있습니다. 이 샘플은 `AhrefsBot` 및 `SemrushBot` 사용자 에이전트.
+1. Commerce 관리에서 **스토어** > **구성** > **고급** > **시스템** > **전체 페이지 캐시**&#x200B;로 이동합니다.
+1. 그런 다음 **빠르게 구성** > **사용자 지정 VCL 조각**&#x200B;을 수행합니다.
+1. Fastly\_Cdn 모듈에 대한 [사용자 지정 VCL 코드 조각](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md) 안내서에 설명된 대로 새 사용자 지정 코드 조각을 만듭니다. 다음 코드 샘플을 예로 사용할 수 있습니다. 이 샘플은 `AhrefsBot` 및 `SemrushBot` 사용자 에이전트에 대한 트래픽을 허용하지 않습니다.
 
 ```php
 name: block_bad_useragents
@@ -61,28 +61,28 @@ name: block_bad_useragents
 
 ## 속도 제한(실험적 Fastly 기능)
 
-특정 경로 및 크롤러에 대한 속도 제한을 지정할 수 있는 클라우드 인프라의 Adobe Commerce에 대한 실험적인 Fastly 기능이 있습니다. 다음을 참조하십시오. [Fastly 모듈 설명서](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/RATE-LIMITING.md) 을 참조하십시오.
+특정 경로 및 크롤러에 대한 속도 제한을 지정할 수 있는 클라우드 인프라의 Adobe Commerce에 대한 실험적인 Fastly 기능이 있습니다. 자세한 내용은 [Fastly 모듈 설명서](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/RATE-LIMITING.md)를 참조하십시오.
 
 이 기능은 적법한 트래픽을 차단할 수 있으므로 프로덕션에서 사용하기 전에 스테이징에서 광범위하게 테스트되어야 합니다.
 
 ## 권장: robots.txt 업데이트를 고려합니다.
 
-업데이트 중 `robots.txt` 파일은 특정 검색 엔진, 크롤러 및 로봇이 특정 페이지를 크롤링하지 않도록 하는 데 도움이 될 수 있습니다. 크롤링해서는 안 되는 페이지의 예로는 검색 결과 페이지, 체크아웃, 고객 정보 등이 있습니다. 로봇이 이러한 페이지를 크롤링하지 않도록 하면 해당 로봇이 생성하는 요청 수를 줄이는 데 도움이 될 수 있습니다.
+`robots.txt` 파일을 업데이트하면 특정 검색 엔진, 크롤러 및 로봇이 특정 페이지를 크롤링하지 않도록 하는 데 도움이 될 수 있습니다. 크롤링해서는 안 되는 페이지의 예로는 검색 결과 페이지, 체크아웃, 고객 정보 등이 있습니다. 로봇이 이러한 페이지를 크롤링하지 않도록 하면 해당 로봇이 생성하는 요청 수를 줄이는 데 도움이 될 수 있습니다.
 
-을 사용할 때 두 가지 중요한 고려 사항이 있습니다 `robots.txt`:
+`robots.txt`을(를) 사용할 때 두 가지 중요한 고려 사항이 있습니다.
 
-* 로봇은 `robots.txt`. 특히 보안 취약점이 있는지 웹을 검색하는 멀웨어 로봇, 스패머가 사용하는 이메일 주소 추수기 등은 주의를 기울이지 않는다.
-* 다음 `robots.txt` 파일은 공개적으로 사용 가능한 파일입니다. 모든 사람이 사용자의 서버에서 로봇이 사용하지 않았으면 하는 섹션을 볼 수 있습니다.
+* 로봇은 `robots.txt`을(를) 무시할 수 있습니다. 특히 보안 취약점이 있는지 웹을 검색하는 멀웨어 로봇, 스패머가 사용하는 이메일 주소 추수기 등은 주의를 기울이지 않는다.
+* `robots.txt` 파일은 공개적으로 사용할 수 있는 파일입니다. 모든 사람이 사용자의 서버에서 로봇이 사용하지 않았으면 하는 섹션을 볼 수 있습니다.
 
-기본 정보 및 기본 Adobe Commerce `robots.txt` 구성은 다음에서 찾을 수 있습니다 [검색 엔진 로봇](https://docs.magento.com/m2/ee/user_guide/marketing/search-engine-robots.html) 개발자 설명서에 있는 문서입니다.
+기본 정보 및 기본 Adobe Commerce `robots.txt` 구성은 개발자 설명서의 [검색 엔진 로봇](https://docs.magento.com/m2/ee/user_guide/marketing/search-engine-robots.html) 문서에서 확인할 수 있습니다.
 
-에 대한 일반 정보 및 권장 사항 `robots.txt`를 참조하십시오.
+`robots.txt`에 대한 일반 정보 및 권장 사항에 대해서는 다음을 참조하십시오.
 
-* [robots.txt 만들기](https://developers.google.com/search/docs/advanced/robots/create-robots-txt) Google 지원별 파일
-* [/robots.txt 정보](https://www.robotstxt.org/robotstxt.html) by robotstxt.org
+* Google 지원에서 [robots.txt 만들기](https://developers.google.com/search/docs/advanced/robots/create-robots-txt) 파일
+* /robots.txtrobotstxt.org 의 [정보](https://www.robotstxt.org/robotstxt.html)
 
 개발자 및/또는 SEO 전문가와 협력하여 허용하거나 허용하지 않을 사용자 에이전트를 결정합니다.
 
 ## 관련 읽기
 
-[Adobe Commerce on Cloud에 대한 제품별 라이선스 약관](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+[Cloud의 Adobe Commerce에 대한 제품별 라이선스 약관](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)

@@ -34,11 +34,11 @@ Next exception 'ReflectionException' with message 'Class Magento\CatalogRule\Mod
 
 ### 솔루션
 
-[파일 시스템 소유권 및 권한 다시 설정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html) 을 사용하는 사용자로서 `root` 권한.
+`root` 권한이 있는 사용자로 [파일 시스템 소유권 및 권한을 다시 설정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html)합니다.
 
 ## 증상(프로덕션 모드)
 
-현재 다음 대상으로 설정된 경우: [프로덕션 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html)를 사용하는 경우 샘플 데이터 설치에 실패합니다. [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html) 명령:
+현재 [프로덕션 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html)로 설정된 경우 [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html) 명령을 사용하면 샘플 데이터 설치가 실패합니다.
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -46,9 +46,9 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 ### 솔루션
 
-프로덕션 모드에서 샘플 데이터를 설치하지 마십시오. 개발자 모드로 전환하고 일부 지우기 `var` 디렉토리를 참조하고 다시 시도하십시오.
+프로덕션 모드에서 샘플 데이터를 설치하지 마십시오. 개발자 모드로 전환하고 일부 `var` 디렉터리를 지운 후 다시 시도하십시오.
 
-다음 명령을 표시된 순서대로 입력합니다. [Adobe Commerce 파일 시스템 소유자](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html):
+[Adobe Commerce 파일 시스템 소유자](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html)(으)로 표시된 순서대로 다음 명령을 입력하십시오.
 
 ```php
 cd <magento_root>
@@ -107,15 +107,15 @@ Installing data...
 
 ### 솔루션
 
-을 사용하는 사용자로서 `root` 권한, 수정 `php.ini` 값을 늘리려면 `max_execution_time` 600개 이상 (600초는 10분입니다. 원하는 대로 값을 늘릴 수 있습니다.) 변경해야 합니다. `max_execution_time` 설치가 성공한 후 이전 값으로 돌아갑니다.
+`root` 권한이 있는 사용자는 `php.ini`을(를) 수정하여 `max_execution_time`의 값을 600 이상으로 늘리십시오. (600초는 10분입니다. 원하는 대로 값을 늘릴 수 있습니다.) 설치가 완료된 후 `max_execution_time`을(를) 이전 값으로 다시 변경해야 합니다.
 
-잘 모르겠으면 `php.ini` 이(가) 있으면 다음 명령을 입력합니다.
+`php.ini`의 위치를 모를 경우 다음 명령을 입력하십시오.
 
 ```php
 php --ini
 ```
 
-값: `Loaded Configuration File` 은(는) `php.ini` 수정해야 합니다.
+`Loaded Configuration File`의 값은 수정해야 하는 `php.ini`입니다.
 
 >[!NOTE]
 >

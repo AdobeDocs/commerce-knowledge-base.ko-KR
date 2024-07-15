@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 문제
 
-Fastly Configuration 페이지의 Fastly IO Snippet 옆에 현재 상태가 표시됩니다. \_disabled \_아래에 다음 메시지가 표시됩니다. 영업 담당자에게 문의하거나 (으)로 이메일을 보내십시오. `support@fastly.com` Fastly 서비스에 대한 이미지 최적화 활성화를 요청합니다.
+Fastly 구성 페이지의 Fastly IO 코드 조각 옆에 현재 상태가 표시됩니다. \_disabled \_아래에 다음 메시지가 있습니다. 영업 담당자에게 문의하거나 `support@fastly.com`(으)로 이메일을 보내 Fastly 서비스에 대한 이미지 최적화 활성화를 요청하십시오.
 
 ## 원인
 
@@ -29,4 +29,4 @@ Fastly Configuration 페이지의 Fastly IO Snippet 옆에 현재 상태가 표�
 
 ## 솔루션
 
-만들기 [지원 티켓](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 이미지 최적화를 요청합니다.
+[지원 티켓](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)을 만들고 이미지 최적화를 요청하세요.

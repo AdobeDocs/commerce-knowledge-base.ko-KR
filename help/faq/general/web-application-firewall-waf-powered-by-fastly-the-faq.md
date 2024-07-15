@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Adobe Commerce의 관리 클라우드 WAF(Fastly에서 제공)는 어떻게 작동합니까?
 
-WAF(Web Application Firewall) 방지 [악의적인 트래픽](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) 보안 규칙 세트에 대해 트래픽을 필터링하여 사이트 및 네트워크에 입력할 수 있습니다. 규칙을 트리거하는 트래픽은 사이트 또는 네트워크를 손상시키기 전에 차단됩니다.
+WAF(Web Application Firewall)는 보안 규칙 집합에 대해 트래픽을 필터링하여 [악성 트래픽](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)이 사이트 및 네트워크로 들어오는 것을 방지합니다. 규칙을 트리거하는 트래픽은 사이트 또는 네트워크를 손상시키기 전에 차단됩니다.
 
 Adobe Commerce의 클라우드 WAF는 광범위한 공격으로부터 Adobe Commerce 웹 애플리케이션을 보호하기 위해 고안된 규칙 세트와 함께 WAF 정책을 제공합니다.
 
@@ -50,7 +50,7 @@ WAF는 단일 클라우드 계정의 모든 도메인에 대해 집합적으로 
 
 ## WAF 규칙 세트를 어떻게 업데이트합니까? WAF 규칙을 얼마나 빨리 변경하거나 업데이트하여 프로덕션에서 전역적으로 적용할 수 있습니까?
 
-클라우드 WAF 서비스의 일환으로 Fastly는 상업용 서드파티, Fastly 리서치 및 오픈 소스의 규칙 업데이트를 관리합니다. 필요에 따라 또는 해당 소스에서 규칙 변경 내용을 사용할 수 있을 때 게시된 규칙을 정책으로 업데이트합니다. 게시된 규칙 클래스와 일치하는 새 규칙은 활성화되면 모든 서비스의 WAF 인스턴스에도 삽입됩니다. 이를 통해 새롭거나 진화하는 활용에 대한 즉각적인 보장이 보장됩니다. 정보를 검토할 수 있습니다. [규칙 업데이트 및 유지 관리 기본 정보](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance) Fastly 설명서 사이트에서 확인하십시오.
+클라우드 WAF 서비스의 일환으로 Fastly는 상업용 서드파티, Fastly 리서치 및 오픈 소스의 규칙 업데이트를 관리합니다. 필요에 따라 또는 해당 소스에서 규칙 변경 내용을 사용할 수 있을 때 게시된 규칙을 정책으로 업데이트합니다. 게시된 규칙 클래스와 일치하는 새 규칙은 활성화되면 모든 서비스의 WAF 인스턴스에도 삽입됩니다. 이를 통해 새롭거나 진화하는 활용에 대한 즉각적인 보장이 보장됩니다. Fastly 설명서 사이트에서 [규칙 업데이트 및 유지 관리에 대한 정보](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance)를 검토할 수 있습니다.
 
 ## Adobe Commerce 클라우드 WAF는 직접 고객에게 Fastly가 제공하는 WAF 솔루션과 어떻게 다릅니까?
 
@@ -83,7 +83,7 @@ Fastly에서 직접 판매하는 WAF 솔루션은 광범위한 규칙 세트와 
 <td style="width: 497.5px;">네트워크 공격 또는 네트워크 인프라를 대상으로 하는 공격은 Fastly에서 자동으로 관리합니다. Fastly는 DNS를 원본으로 전달하지 않으며 좁은 HTTP, HTTPS 또는 DNS 프로필과 일치하지 않는 트래픽은 네트워크 가장자리에서 삭제됩니다. 제어 프로토콜을 타깃팅하는 공격은 네트워크 전체에서 엔드포인트의 인증을 통해 방어됩니다. 또한 Fastly 네트워크 내에서 사용되는 네트워크 프로토콜은 증폭 또는 반영 수단으로 활용할 수 없도록 강화됩니다. 고객은 CDN 서비스의 구성 요소로 고객에게 게시된 Fastly 캐시 IP 주소 공간을 활용하여 Fastly 네트워크를 우회하는 공격으로부터 보호할 책임이 있습니다. 우회 공격이 이러한 주소를 대상으로 사용할 수 없도록 원본 IP 주소 공간을 공용 DNS에 게시하지 않는 것이 좋습니다.</td>
 </tr>
 <tr>
-<td style="width: 145.5px; vertical-align: top;">JavaScript 삽입 공격</td>
+<td style="width: 145.5px; vertical-align: top;">JavaScript 주사 발작</td>
 <td style="width: 497.5px;">WAF 규칙은 웹 서비스와의 클라이언트 통신에 삽입되는 악의적인 JavaScript 코드로부터 보호합니다. 일반적인 익스플로잇 패턴들 또는 점수들은 원천 서비스의 무결성을 보장하기 위해 WAF를 통해 필터링된다.</td>
 </tr>
 </tbody>
@@ -104,11 +104,11 @@ Adobe Commerce의 WAF 서비스에는 PCI 요구 사항의 일부로서 OWASP To
 
 ## 고객이 IP 블랙리스트를 만들고 수정하여 트래픽을 차단할 수 있습니까?
 
-예. 고객은 클라우드 인프라의 관리 UI에 있는 Adobe Commerce에서 국가별 및 액세스 제어 목록(ACL)별로 차단을 활성화할 수 있습니다. 특정 국가나 특정 IP 또는 IP 범위에서 온 방문자에 대한 액세스를 차단하려는 경우에 이러한 기능을 사용하십시오. 차단된 방문자에게 오류 코드가 아닌 사용자 지정 페이지가 표시되도록 하려면 Fastly 구성 메뉴에서 HTML을 업로드하여 사용자 지정 오류 페이지를 만들 수 있습니다. 다음을 참조하십시오 [사용자 지정 오류/유지 관리 페이지 만들기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) 개발자 설명서에서 확인할 수 있습니다.
+예. 고객은 클라우드 인프라의 관리 UI에 있는 Adobe Commerce에서 국가별 및 액세스 제어 목록(ACL)별로 차단을 활성화할 수 있습니다. 특정 국가나 특정 IP 또는 IP 범위에서 온 방문자에 대한 액세스를 차단하려는 경우에 이러한 기능을 사용하십시오. 차단된 방문자에게 오류 코드가 아닌 사용자 지정 페이지가 표시되도록 하려면 Fastly 구성 메뉴에서 HTML을 업로드하여 사용자 지정 오류 페이지를 만들 수 있습니다. 개발자 설명서에서 [사용자 지정 오류/유지 관리 페이지 만들기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)를 참조하십시오.
 
 ## 내 WAF 서비스의 운영 상태는 어디에서 확인할 수 있습니까?
 
-전체 WAF 서비스 가용성은 [Fastly 상태 페이지](https://status.fastly.com/). 개별 고객의 WAF에 대한 가용성 보고가 제공되지 않습니다.
+전체 WAF 서비스 가용성은 [Fastly 상태 페이지](https://status.fastly.com/)에서 보고됩니다. 개별 고객의 WAF에 대한 가용성 보고가 제공되지 않습니다.
 
 ## Adobe Commerce에서 WAF 서비스에 대한 인시던트 관리를 제공합니까?
 
@@ -118,7 +118,7 @@ Adobe Commerce의 WAF 서비스에는 PCI 요구 사항의 일부로서 OWASP To
 
 Adobe Commerce에는 보안 운영 센터가 없지만, 실시간으로 보안 사고에 대응할 수 있는 적절한 리소스를 확보할 수 있는 보안 운영 프로세스가 있습니다. 또한 연중무휴 24시간 Follow-the-sun 지원을 제공합니다.
 
-에서 Adobe Commerce 관련 보안 뉴스 및 업데이트를 받을 수도 있습니다. [보안 센터](https://helpx.adobe.com/security.html).
+[보안 센터](https://helpx.adobe.com/security.html)에서 Adobe Commerce 관련 보안 뉴스 및 업데이트를 받을 수도 있습니다.
 
 ## 어떤 지원이 제공됩니까?
 
@@ -128,11 +128,11 @@ WAF 지원은 원치 않거나 악의적인 요청의 서비스 영향을 완화
 * WAF가 합법적인 트래픽을 차단하는 인스턴스를 해결하기 위해 진행 중인 긍정 오류(false positive) 경고
 * WAF 버전 업그레이드의 일부로 도입된 새로운 표준 규칙 구성
 
-다음을 참조하십시오. [클라우드 SLA](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf) 심각도 정의, 응답 시간, 채널 및 가용성을 포함한 추가 지원 정보에 대한 조항입니다.
+심각도 정의, 응답 시간, 채널 및 가용성을 포함한 추가 지원 정보는 [Cloud SLA](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf) 용어를 참조하십시오.
 
 ## WAF가 합법적인 트래픽을 차단하거나 다른 문제를 야기하는 경우 어떻게 도움을 받을 수 있습니까?
 
-[지원 티켓 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 위치: [Adobe Commerce 도움말 센터](https://support.magento.com). 티켓이 WAF 서비스와 관련되어 있음을 표시하고 차단된 요청 ID(ID)를 포함하십시오.
+[Adobe Commerce 도움말 센터](https://support.magento.com)에서 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). 티켓이 WAF 서비스와 관련되어 있음을 표시하고 차단된 요청 ID(ID)를 포함하십시오.
 
 Adobe Commerce 지원 티켓 시스템은 지원 엔지니어와 고객 담당자 간의 커뮤니케이션을 추적합니다. 이 시스템은 타임스탬프가 있는 통신 대본을 제공하고, 티켓이 업데이트되면 고객 및 Adobe Commerce 직원에게 이메일을 전송합니다.
 
@@ -160,12 +160,12 @@ Adobe Commerce 지원 티켓 시스템은 지원 엔지니어와 고객 담당�
 </tr>
 <tr>
 <td>긴급 에스컬레이션*</td>
-<td>을(를) 참조하십시오 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">Adobe Commerce P1 알림 핫라인</a> 미국 및 국제 번호 관련 문서.</td>
+<td>미국 및 국제 번호에 대해서는 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">Adobe Commerce P1 알림 핫라인</a> 문서를 참조하세요.</td>
 </tr>
 </tbody>
 </table>
 
-*\* Adobe Commerce의 무료 지원 전화선은 우선 순위 1 인시던트에 대해서만 예약되어 있습니다. 우선 순위가 아닌 1 호출은 문제에 대한 전반적인 응답을 느리게 합니다.*
+*\* Adobe Commerce의 무료 지원 전화선은 우선 순위 1 인시던트에 대해서만 예약되어 있습니다. 우선 순위가 아닌 1 호출은* 문제에 대한 전반적인 응답을 느리게 합니다.
 
 ## 긍정 오류(false positive)는 어떻게 평가됩니까?
 

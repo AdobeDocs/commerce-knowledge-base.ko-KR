@@ -17,12 +17,12 @@ ht-degree: 0%
 
 ## 영향을 받는 제품 및 버전
 
-* Adobe Commerce 온-프레미스, 모두 [지원되는 버전](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-* 클라우드 인프라의 Adobe Commerce, 모두 [지원되는 버전](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce 온-프레미스, 모든 [지원되는 버전](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* 클라우드 인프라의 Adobe Commerce, 모든 [지원되는 버전](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## 품질 패치 도구란 무엇입니까?
 
-다음 [품질 패치 도구](https://github.com/magento/quality-patches) (QPT)는 Adobe 및 Magento Open Source 커뮤니티에서 개발한 개별 패치입니다.
+[품질 패치 도구](https://github.com/magento/quality-patches)(QPT)는 Adobe 및 Magento Open Source 커뮤니티에서 개발한 개별 패치입니다.
 
 이를 통해 다음을 수행할 수 있습니다.
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->QPT는 품질 패치용으로만 사용됩니다. 보안 패치는 [Magento 보안 센터](https://magento.com/security/patches).
+>QPT는 품질 패치용으로만 사용됩니다. 보안 패치는 [Magento 보안 센터](https://magento.com/security/patches)에서 사용할 수 있습니다.
 
 ## 품질 패치 도구에서 사용할 수 있는 패치
 
-다음을 참조하십시오. [품질 패치 도구](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) 사용 가능한 패치 목록은 개발자 설명서에서 참조하십시오.
+사용 가능한 패치 목록은 개발자 설명서에서 [품질 패치 도구](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)를 참조하십시오.
 
 ## 품질 패치 도구 설치 및 사용 방법
 
@@ -50,13 +50,13 @@ Adobe Commerce 온프레미스 및 Adobe Commerce 온클라우드 인프라의 �
 
 ### Adobe Commerce 온프레미스용 QPT를 설치하고 사용하는 방법
 
-다음을 참조하십시오. [소프트웨어 업데이트 안내서 > 패치](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) 패치를 적용하고 되돌리기 위해 QPT를 설치하고 사용하는 방법에 대한 자세한 내용은 개발자 설명서에서 확인할 수 있습니다.
+패치를 적용하고 되돌리기 위해 QPT를 설치하고 사용하는 방법에 대한 자세한 내용은 개발자 설명서에서 [소프트웨어 업데이트 안내서 > 패치](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)를 참조하십시오.
 
 ### 클라우드 인프라에서 Adobe Commerce용 QPT를 설치하고 사용하는 방법
 
-다음을 참조하십시오. [Cloud for Adobe Commerce > 패치 적용](https://devdocs.magento.com/cloud/project/project-patch.html) 클라우드 인프라에서 Adobe Commerce에 패치를 적용하고 되돌리기 위해 QPT를 설치하고 사용하는 방법에 대한 자세한 내용은 개발자 설명서에서 확인할 수 있습니다.
+클라우드 인프라에서 Adobe Commerce에 패치를 적용하고 되돌리기 위해 QPT를 설치하고 사용하는 방법에 대한 자세한 내용은 개발자 설명서에서 [Adobe Commerce용 클라우드 > 패치 적용](https://devdocs.magento.com/cloud/project/project-patch.html)을 참조하십시오.
 
 ## 관련 읽기
 
-* [품질 패치 도구 릴리스 노트](https://devdocs.magento.com/quality-patches/release-notes.html) 개발자 설명서에서 확인할 수 있습니다.
-* [Adobe에서 제공하는 작성기 패치 적용 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 을 참조하십시오.
+* 개발자 설명서에서 [품질 패치 도구 릴리스 노트](https://devdocs.magento.com/quality-patches/release-notes.html).
+* 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).

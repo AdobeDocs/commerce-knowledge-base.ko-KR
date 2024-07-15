@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >이러한 작업이 업무 시간 중에 성능에 영향을 주지 않도록 하려면 이러한 작업을 업무 시간 외에 실행해야 합니다.
 
-[타사 확장](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento) 전체 색인 재지정이 발생할 수도 있습니다. 전체 색인 재지정은 CLI에서 수동으로 실행할 수도 있습니다. 색인이 재지정되고 성능 다운그레이드를 초래할 수 있는 색인이 있는지 확인하려면 다음을 수행하십시오.
+[타사 확장](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento)로 인해 전체 다시 색인이 발생할 수도 있습니다. 전체 색인 재지정은 CLI에서 수동으로 실행할 수도 있습니다. 색인이 재지정되고 성능 다운그레이드를 초래할 수 있는 색인이 있는지 확인하려면 다음을 수행하십시오.
 
 1. 지난 15분 동안 완전히 다시 인덱싱된 인덱서를 찾으려면 이 쿼리를 수행하십시오.
 
@@ -49,13 +49,13 @@ ht-degree: 0%
 1. 빈번한 전체 색인 재지정을 발견한 경우 다음을 조사하십시오.
    * CLI에서 수동으로 이러한 작업을 수행할 수 있는 사람
    * 재인덱싱을 수행하는 타사 모듈
-   * 인덱서를 로 표시하는 타사 모듈 *잘못됨*
+   * 인덱서를 *잘못됨*(으)로 표시하는 타사 모듈
 
 ### 솔루션
 
-필요한 경우에만 리인덱싱을 실행합니다. 단계를 검토하려면 [인덱서 구성](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) 개발자 설명서에서 확인할 수 있습니다. 일반적인 권장 사항 및 모범 사례는 부분 재인덱싱 메커니즘이 판매자의 수동 작업 없이 데이터 재인덱싱을 처리할 수 있도록 하는 것입니다. 모든 색인 재지정은 기본 Adobe Commerce 기능(Mview)을 사용하여 수행해야 합니다. Mview는 데이터를 다시 인덱싱하는 가장 효율적인 방법인 부분 다시 인덱싱을 수행합니다. Mview에 대한 자세한 내용은 [색인화 개요: Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) 개발자 설명서에서 확인할 수 있습니다.
+필요한 경우에만 리인덱싱을 실행합니다. 단계는 개발자 설명서에서 [인덱서 구성](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers)을 검토하십시오. 일반적인 권장 사항 및 모범 사례는 부분 재인덱싱 메커니즘이 판매자의 수동 작업 없이 데이터 재인덱싱을 처리할 수 있도록 하는 것입니다. 모든 색인 재지정은 기본 Adobe Commerce 기능(Mview)을 사용하여 수행해야 합니다. Mview는 데이터를 다시 인덱싱하는 가장 효율적인 방법인 부분 다시 인덱싱을 수행합니다. Mview에 대한 자세한 내용은 개발자 설명서에서 [색인화 개요: Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview)을(를) 참조하십시오.
 
 ## 관련 읽기
 
-* [색인 재지정 개요: 색인 재지정 방법](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex) 개발자 설명서에서 확인할 수 있습니다.
-* [무효화된 캐시는 응답 시간 저하를 유발합니다.](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md) 을 참조하십시오.
+* 개발자 설명서에서 [인덱싱 개요: 다시 인덱싱하는 방법](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex)을 참조하십시오.
+* [무효화된 캐시는 지원 기술 자료에서 응답 시간 저하를 일으킵니다](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md).

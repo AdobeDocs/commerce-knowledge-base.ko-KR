@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0 알려진 문제: 통합 테스트 실패
 
-이 문서에서는 선언으로 인해 통합 테스트가 실패하는 Adobe Commerce 2.4.0 문제에 대한 패치를 제공합니다. `Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp()` 는 2.4.0에 사용되는 PHPUnit 9와 호환되지 않습니다.
+이 문서에서는 `Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp()` 선언이 2.4.0에 사용되는 PHPUnit 9와 호환되지 않으므로 통합 테스트가 실패하는 Adobe Commerce 2.4.0 문제에 대한 패치를 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 <u>실제 결과</u>
 
-*PHP에 심각한 오류: Dotdigitalgroup\\Email\\Test\\Integration\\Model\\Sync\\Importer\\ImporterFailedTest::setUp() 선언은 PHPUnit\\Framework\\TestCase::setUp(): 36행 /var/www/vendor/dotmailer/dotmailer-magento2-extension/Test/Integration/Model/Sync/Importer/ImporterFailedTest.php에서 void와 호환되어야 합니다.*
+*PHP에 심각한 오류: Dotdigitalgroup\\Email\\Test\\Integration\\Model\\Sync\\Importer\\ImporterFailedTest::setUp() 선언은 PHPUnit\\Framework\\TestCase::setUp(): 36행의 /var/www/vendor/dotmailer/dotmailer-magento2-extension/Test/Integration/Model/Sync/Importer/ImporterFailedTest.php에서 void와 호환되어야 합니다*
 
 ## 솔루션
 
@@ -53,6 +53,6 @@ ht-degree: 0%
 
 ## 패치 적용 방법
 
-다음을 참조하십시오 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 지침에 대해서는 지원 기술 자료에서 참조하십시오.
+자세한 내용은 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
 
 ## 첨부 파일

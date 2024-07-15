@@ -33,7 +33,7 @@ ht-degree: 0%
 
 <u>실제 결과</u>
 
-페이지가 비어 있거나 *&quot;이 웹 페이지에 리디렉션 루프가 있습니다.&quot;* 오류 메시지입니다.
+페이지가 비어 있거나 *을(를) 표시합니다.&quot;이 웹 페이지에 리디렉션 루프 &quot;* 오류 메시지가 있습니다.
 
 ## 원인
 
@@ -45,15 +45,16 @@ ht-degree: 0%
 
 이것이 문제의 원인인지 확인하려면 다음 단계를 수행하십시오.
 
-1. 다음 확인: `web/secure/enable_upgrade_insecure` , `web/secure/use_in_adminhtml` (관리자에 빈/루프 리디렉션 문제가 있는 경우) 또는 `web/secure/use_in_frontend` (매장 앞면에 빈/루프 리디렉션 문제가 있는 경우) `'core_config_data'` DB 테이블.
-   * If `web/secure/enable_upgrade_insecure` 가 &quot;1&quot;로 설정된 다음 Adobe Commerce이 응답 헤더를 추가하도록 설정됩니다. `Content-Security-Policy: upgrade-insecure-requests`를 활성화하여 브라우저에 HTTPS를 사용하도록 지시하고 HTTP를 통해 들어오는 모든 쿼리를 HTTPS로 리디렉션합니다(관리자 및 상점 모두).
-   * If `web/secure/use_in_adminhtml` 가 &quot;1&quot;로 설정되면 Adobe Commerce은 관리 페이지에 대한 모든 HTTP 요청에 대해 HTTPS 리디렉션을 반환합니다.
-   * If `web/secure/use_in_frontend` 가 &quot;1&quot;로 설정되어 있으면 Adobe Commerce은 스토어 전면 페이지에 대한 모든 HTTP 요청에 대해 HTTPS 리디렉션을 반환합니다.
-1. 다음 확인: `web/secure/base_url` 및 `web/unsecure/base_url` 의 값 `'core_config_data'` 테이블. 둘 다 다음으로 시작하는 경우    `http`그런 다음 &quot;secure&quot; 값을 수정해야 합니다.
+1. `'core_config_data'` DB 테이블에서 `web/secure/enable_upgrade_insecure` , `web/secure/use_in_adminhtml`(Admin에 빈/루프 리디렉션 문제가 있는 경우) 또는 `web/secure/use_in_frontend`(Store Front에 빈/루프 리디렉션 문제가 있는 경우) 값을 확인하십시오.
+   * `web/secure/enable_upgrade_insecure`이(가) &quot;1&quot;로 설정되어 있으면 Adobe Commerce이 응답 헤더 `Content-Security-Policy: upgrade-insecure-requests`을(를) 추가하도록 설정되어 브라우저에서 HTTPS를 사용하도록 지시하고 HTTP를 통해 들어오는 모든 쿼리를 리디렉션합니다
+HTTPS(관리자 및 상점 모두)로
+   * `web/secure/use_in_adminhtml`이(가) &quot;1&quot;(으)로 설정된 경우 Adobe Commerce은 관리 페이지에 대한 모든 HTTP 요청에 대해 HTTPS 리디렉션을 반환합니다.
+   * `web/secure/use_in_frontend`이(가) &quot;1&quot;(으)로 설정된 경우 Adobe Commerce은 스토어 전면 페이지에 대한 모든 HTTP 요청에 대해 HTTPS 리디렉션을 반환합니다.
+1. `'core_config_data'` 테이블에서 `web/secure/base_url` 및 `web/unsecure/base_url` 값을 확인합니다. 둘 다 다음으로 시작하는 경우    `http`을(를) 선택한 다음 &quot;보안&quot; 값을 수정해야 합니다.
 
 문제 해결:
 
-1. 다음으로 시작하는 값 설정 `https` 대상 `web/secure/base_url.`
+1. `web/secure/base_url.`에 대해 `https`(으)로 시작하는 값 설정
 1. 변경 사항을 적용하려면 다음 명령을 실행하여 구성 캐시를 정리합니다.
 
    ```bash

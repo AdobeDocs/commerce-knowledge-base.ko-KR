@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <u>재현 단계</u>
 
-1. 다음으로 이동 **[!UICONTROL Sales]** > **[!UICONTROL Orders]** 주문을 생성할 고객을 선택합니다.
+1. **[!UICONTROL Sales]** > **[!UICONTROL Orders]**(으)로 이동하여 주문을 만들 고객을 선택하십시오.
 2. 스토어 선택기 화면에서 주문할 스토어를 선택합니다.
 
 <u>예상 결과</u>
@@ -44,5 +44,5 @@ ht-degree: 0%
 
 ## 패치 적용 방법
 
-* 클라우드 인프라에서 Adobe Commerce용 패치를 적용하는 방법은 를 참조하십시오. [패치 적용](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) Commerce on Cloud Infrastructure Guide를 참조하십시오.
-* Adobe Commerce 온-프레미스에 대한 패치 적용에 대한 지침은 [패치 적용](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) Commerce 업그레이드 안내서에서 다음을 수행합니다.
+* 클라우드 인프라에서 Adobe Commerce용 패치를 적용하는 방법은 Commerce on Cloud Infrastructure Guide의 [Apply patches](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)을(를) 참조하십시오.
+* Adobe Commerce 온-프레미스에 대한 패치 적용 지침은 Commerce 업그레이드 가이드의 [패치 적용](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer)을 참조하십시오.

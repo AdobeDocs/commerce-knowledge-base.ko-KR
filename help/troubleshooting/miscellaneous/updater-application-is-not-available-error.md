@@ -29,4 +29,4 @@ ht-degree: 0%
 
 ## 솔루션
 
-이 문제를 해결하려면 다음을 확인하십시오. `<magento_root>/update` 파일 및 하위 디렉터리가 포함된 디렉터리입니다. 그렇지 않으면 다음을 참조하십시오. [업데이트 프로그램 설정](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) 개발자 설명서에서 확인할 수 있습니다.
+이 문제를 해결하려면 파일 및 하위 디렉터리가 포함된 `<magento_root>/update` 디렉터리가 있는지 확인합니다. 그렇지 않으면 개발자 설명서에서 [업데이트 프로그램 설정](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html)을 참조하십시오.

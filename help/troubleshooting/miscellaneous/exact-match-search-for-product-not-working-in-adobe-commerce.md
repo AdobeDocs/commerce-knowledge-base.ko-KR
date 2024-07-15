@@ -22,23 +22,23 @@ ht-degree: 0%
 
 ## 문제
 
-<u>사전 요구 사항:</u>
+<u>필수 구성 요소:</u>
 
-속성 값이 있는 제품이 있습니다. `Saga 1` 및 `Saga 16` Adobe Commerce 2.3 및 Adobe Commerce 2.4 상점 모두에서 사용할 수 있습니다.
+Adobe Commerce 2.3 및 Adobe Commerce 2.4 스토어 모두에 속성 값이 `Saga 1` 및 `Saga 16`인 제품이 있습니다.
 
 <u>재현 단계:</u>
 
-1. Adobe Commerce 2.3 기반 스토어 앞 스토어에서 를 입력합니다. *사가 호* 검색 필드에서 을(를) 클릭하고 **검색**.
-1. 검색 결과에서는 속성 값이 있는 제품만 가져옵니다 `Saga 1`.
-1. Adobe Commerce 2.4 기반 스토어 앞 스토어에서 를 입력합니다. *사가 호* 검색 필드에서 을(를) 클릭하고 **검색**.
+1. Adobe Commerce 2.3 기반 스토어의 앞에 있는 스토어에서 검색 필드에 *Saga 1*&#x200B;을(를) 입력하고 **검색**&#x200B;을 클릭합니다.
+1. 검색 결과에서는 특성 값이 `Saga 1`인 제품만 가져옵니다.
+1. Adobe Commerce 2.4 기반 스토어의 앞에 있는 스토어에서 검색 필드에 *Saga 1*&#x200B;을(를) 입력하고 **검색**&#x200B;을 클릭합니다.
 
 <u>실제 결과:</u>
 
-2.4의 검색 결과에는 속성 값이 있는 제품이 포함됩니다 `Saga 1` 및 `Saga 16`.
+2.4에서 검색 결과에 특성 값이 `Saga 1` 및 `Saga 16`인 제품이 포함됩니다.
 
 <u>예상 결과:</u>
 
-2.4의 검색 결과는 2.3과 유사하며 속성 값이 있는 제품만 포함합니다 `Saga 1`.
+2.4의 검색 결과는 2.3과 유사하며 특성 값이 `Saga 1`인 제품만 포함합니다.
 
 ## 원인
 
@@ -46,6 +46,6 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-[Live Search 설치](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) 사용 안내서에서 참조하십시오.
+사용 안내서에서 [Live Search 설치](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html)
 
-[라이브 검색](https://devdocs.magento.com/live-search/overview.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=Live%20Search) 개발자 설명서에서 확인할 수 있습니다.
+개발자 설명서에서 [실시간 검색](https://devdocs.magento.com/live-search/overview.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=Live%20Search).

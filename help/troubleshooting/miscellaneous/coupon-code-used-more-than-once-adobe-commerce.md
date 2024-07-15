@@ -33,7 +33,7 @@ Adobe Commerce(모든 배포 방법) 2.4.3 이상
 
 <u>예상 결과</u>:
 
-쿠폰은 한 번만 사용 가능합니다. 메시지가 표시됩니다. *쿠폰 코드 &quot;COUPON_NAME&quot;은 유효하지 않습니다.*.
+쿠폰은 한 번만 사용 가능합니다. 메시지가 표시됩니다. *쿠폰 코드 &quot;COUPON_NAME&quot;이(가) 잘못되었습니다*.
 
 <u>실제 결과</u>:
 
@@ -42,11 +42,11 @@ Adobe Commerce(모든 배포 방법) 2.4.3 이상
 
 ## 원인
 
-상인은 이(가) 없습니다 `sales.rule.update.coupon.usage` 소비자가 이를 설정하고 실행하면 부적절한 동작이 발생합니다.
+판매자에게 부적절한 행동을 유발하는 `sales.rule.update.coupon.usage` 소비자가 설치 및 실행되고 있지 않습니다.
 
 ## 솔루션
 
-추가 `sales.rule.update.coupon.usage` 소비자 대상 `app/etc/env.php` 파일.
+`sales.rule.update.coupon.usage` 소비자를 `app/etc/env.php` 파일에 추가합니다.
 
 ```php
 ...
@@ -62,8 +62,8 @@ Adobe Commerce(모든 배포 방법) 2.4.3 이상
 ...
 ```
 
-자세한 단계는 를 참조하십시오. [메시지 대기열 관리 > 구성](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html#configuration) 개발자 설명서에서 확인할 수 있습니다.
+자세한 단계는 개발자 설명서에서 [메시지 큐 관리 > 구성](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html#configuration)을 참조하세요.
 
 ## 관련 읽기
 
-[메시지 대기열 개요](https://devdocs.magento.com/guides/v2.4/config-guide/mq/rabbitmq-overview.html) 개발자 설명서에서 확인할 수 있습니다.
+개발자 설명서에서 [메시지 큐 개요](https://devdocs.magento.com/guides/v2.4/config-guide/mq/rabbitmq-overview.html).

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 문제
 
-파일/폴더 저장소에 커밋할 때 배포 오류가 발생합니다. 예를 들어, 다음 오류는 현재 DB를 사용할 수 없을 때 DB에 연결하려고 시도했기 때문에 발생합니다. [빌드 단계](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase):
+파일/폴더 저장소에 커밋할 때 배포 오류가 발생합니다. 예를들어, [빌드 단계](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase)에서 현재 사용할 수 없는 DB에 연결하려고 시도하면 다음 오류가 발생합니다.
 
 ```SQL
 SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i  
@@ -42,7 +42,7 @@ SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i
 
 ## 원인
 
-특정 파일/폴더는 히트를 발생시키므로 저장소에 커밋해서는 안 됩니다. [배포 워크플로](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html).
+특정 파일/폴더는 [배포 워크플로](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html)에서 중단되므로 리포지토리에 커밋할 수 없습니다.
 
 ## 솔루션
 
