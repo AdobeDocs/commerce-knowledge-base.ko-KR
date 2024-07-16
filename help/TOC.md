@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: c8e688b59f0d66dc32da098c185d81b14c6770bc
+source-git-commit: c75a1ecbf5d89ede71eb3f873c75a5e7d8720a2b
 workflow-type: tm+mt
-source-wordcount: '11064'
+source-wordcount: '11069'
 ht-degree: 0%
 
 ---
@@ -1093,6 +1093,7 @@ ht-degree: 0%
       * [app/etc/env.php에서 검색 엔진을 변경할 수 없음](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [Magento 클라우드 CLI에 활성 환경이 표시되지 않음](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [Adobe Commerce Cloud에 대한 [!DNL SendGrid] 파일 제한](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
+      * [통합 환경의 성능 저하](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * 배포 {#deployment}
       * [배포 실패: Elasticsearch 및 Adobe Commerce 버전이 호환되지 않음](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [배포 실패: MDVA-43395 패치를 적용할 수 없음](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
