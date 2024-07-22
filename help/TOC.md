@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: c75a1ecbf5d89ede71eb3f873c75a5e7d8720a2b
+source-git-commit: 202f5edcef114a1d16177b05328803aca81c11e2
 workflow-type: tm+mt
-source-wordcount: '11069'
+source-wordcount: '11064'
 ht-degree: 0%
 
 ---
@@ -1031,7 +1031,6 @@ ht-degree: 0%
       * [클라우드 사이트가 느립니다.](/help/troubleshooting/miscellaneous/cloud-site-is-slow.md)
       * [클라우드에서 Fastly 캐시를 제거하는 동안 오류가 발생했습니다(제거 요청이 성공적으로 처리되지 않음)](/help/troubleshooting/miscellaneous/error-purging-fastly-cache-on-cloud-the-purge-request-was-not-processed-successfully.md)
       * [사용자 정의 SSL 인증서 만료 정보](/help/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.md)
-      * [Adobe Commerce의 Redis 문제 해결사](/help/troubleshooting/miscellaneous/redis-troubleshooter.md)
       * [PWA Studio: 개발자 모드를 실행할 때 유효성 검사 오류 발생](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
       * [Adobe Commerce 사용 시 시간별 Amazon 이메일 끄기](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
       * [무효화된 캐시는 응답 시간 저하를 유발합니다.](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md)
