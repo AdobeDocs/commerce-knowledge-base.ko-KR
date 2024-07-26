@@ -4,7 +4,7 @@ description: 이 문서에서는 PHP 설정 오류에 대한 해결책을 제공
 exl-id: 51fb3c95-2e25-4d86-a6cf-e08e90d097ca
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -44,7 +44,7 @@ PHP 메모리 제한을 늘리려면:
 
 많은 스토뷰, 제품, 속성 또는 옵션이 있는 구성은 사전 설정된 PHP 제한을 초과하는 양식을 생성할 수 있습니다. 보낸 값 수가 `php.ini` 내에 설정된 `max-input-vars` 제한을 초과하는 경우(기본값 1,000) 나머지 데이터는 전송되지 않고 해당 데이터베이스 값이 업데이트되지 않습니다. 이 경우 PHP 로그에 경고가 나타납니다.
 
-```terminal
+```bash
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
@@ -58,7 +58,7 @@ PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase th
 
 오류 텍스트는 일반적으로 다음과 같습니다.
 
-```terminal
+```bash
 Parse error: syntax error, unexpected 'data' (T_STRING)
 ```
 

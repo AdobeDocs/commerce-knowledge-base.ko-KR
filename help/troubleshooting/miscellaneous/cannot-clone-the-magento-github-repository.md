@@ -4,7 +4,7 @@ description: 이 문서에서는 Magento GitHub 리포지토리를 복제할 수
 exl-id: 65de77b5-496d-42a3-ab2e-1fff9df97160
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 오류는 다음과 유사합니다.
 
-```terminal
+```bash
 Cloning into 'magento2'...
 Permission denied (publickey).
 fatal: The remote end hung up unexpectedly

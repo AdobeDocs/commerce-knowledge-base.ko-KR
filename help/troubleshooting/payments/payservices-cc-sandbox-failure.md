@@ -4,7 +4,7 @@ description: 이 문서에서는 PayPal API를 사용하는 샌드박스 환경�
 exl-id: 65fd08e0-eefc-47f3-8964-bef3610e6182
 feature: Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 PayPal에서 테스트 Visa 신용 카드 `4111 1111 1111 1111`을(를) 사용할 때 다음 오류가 발생하여 PayPal 사기 정책으로 인해 실패하는 경우가 있습니다.
 
-```terminal
+```bash
 Error happened when processing the request. Please try again later.
 ```
 

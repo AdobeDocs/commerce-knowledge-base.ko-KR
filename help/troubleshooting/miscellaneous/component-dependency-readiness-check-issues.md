@@ -4,7 +4,7 @@ description: 이 문서에서는 구성 요소 종속성 충돌에 대한 해결
 exl-id: e0865226-2aaf-4bdd-8c28-28f32f38ce0c
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 다음은 실패 메시지의 예입니다.
 
-```terminal
+```bash
 We found conflicting component dependencies.
  You are trying to update package(s) magento/module-sample-data to 1.0.0-beta
  We've detected conflicts with the following packages:
@@ -46,7 +46,7 @@ We found conflicting component dependencies.
 
 Adobe Commerce 파일 시스템 소유자에게 Adobe Commerce 파일 시스템의 디렉터리에 대한 쓰기 권한이 없는 경우 다음과 유사한 메시지가 표시됩니다.
 
-```terminal
+```bash
 file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
