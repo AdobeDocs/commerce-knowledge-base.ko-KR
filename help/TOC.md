@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 202f5edcef114a1d16177b05328803aca81c11e2
+source-git-commit: d3b832d2f8a0ef35e8a8e8899ccdaffeec8029ff
 workflow-type: tm+mt
-source-wordcount: '11064'
+source-wordcount: '11066'
 ht-degree: 0%
 
 ---
@@ -1180,7 +1180,7 @@ ht-degree: 0%
       * [MySQL과 Elasticsearch에 다른 결과가 표시됨](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
       * [OpenSearch를 설치해도 Elasticsearch이 검색 엔진으로 표시됩니다.](/help/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.md)
 * 도움말 센터 안내서 {#help-center-guide}
-   * [Adobe Commerce 도움말 센터 사용 안내서](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
+   * [Adobe Commerce용 Experience League 지원 사용 안내서](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
    * [Adobe Commerce 지원 티켓 라이프사이클 정책 업데이트](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * 방법 {#how-to}
    * [방법 개요](/help/how-to/overview.md)
