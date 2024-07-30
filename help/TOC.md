@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: d3b832d2f8a0ef35e8a8e8899ccdaffeec8029ff
+source-git-commit: a520ef45f1c55dbf34a98c4f4d3ab49814535434
 workflow-type: tm+mt
-source-wordcount: '11066'
+source-wordcount: '11073'
 ht-degree: 0%
 
 ---
@@ -1054,6 +1054,7 @@ ht-degree: 0%
       * [ERROR: 클라우드 인프라의 Adobe Commerce에서 준비에 실패했습니다.](/help/troubleshooting/miscellaneous/error-warming-up-failed-on-magento-commerce-cloud.md)
       * [Magento GitHub 저장소를 복제할 수 없음](/help/troubleshooting/miscellaneous/cannot-clone-the-magento-github-repository.md)
       * [라이브 검색 카탈로그가 동기화되지 않음](/help/troubleshooting/miscellaneous/live-search-catalog-data-sync.md)
+      * [고객 프로필이 Experience Platform에 표시되지 않음](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
       * [PWA Studio: 브라우저가 .local.pwadev 사이트를 확인할 수 없습니다.](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
       * [제품 Recommendations이 페이지 빌더에 표시되지 않음](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
       * [Adobe Commerce Fastly 문제 해결사](/help/troubleshooting/miscellaneous/magento-fastly-troubleshooter.md)
