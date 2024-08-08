@@ -4,9 +4,9 @@ description: Adobe Commerce의 고급 보고 문제는 이 문제 해결사 도�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 84b4ca4c4144381f0b404d2eae6684e7b21755df
+source-git-commit: b3bfc41a67eb9ef0bbb52d1c1c3940b1aa49cf44
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ b. 아니요 - [4단계](#step-4)로 진행합니다.
 
 +++**고급 보고가 활성화되어 있습니까?**
 
-**관리자** > **스토어** > **설정** > **구성** > **일반** > **고급**&#x200B;을 확인하세요. 자세한 단계는 [고급 보고: 고급 보고 사용](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)을 검토하십시오.
+**관리자** > **스토어** > **설정** > **구성** > **일반** > **고급 보고**&#x200B;를 확인합니다. 자세한 단계는 [고급 보고: 고급 보고 사용](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)을 검토하십시오.
 
 a. 예 - [5단계](#step-5)로 진행합니다.\
 b. 아니요 - [고급 보고를 사용하도록 설정](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)하고 저장하고 Adobe Commerce 및 고급 보고가 동기화되도록 24시간 동안 기다립니다. 이제 데이터가 로드되는지 확인합니다. 만약 당신이 문제를 해결했다면. [5단계](#step-5)로 진행되지 않는 경우
