@@ -4,9 +4,9 @@ description: Commerce 스토어의 문제를 해결하고 유지 관리하는 �
 exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 feature: Support
 role: Admin
-source-git-commit: 738a5455267647d294d222d5bb6149254dcb93dd
+source-git-commit: cfbe281941fbdc3e6fe7ee36385dc6732b46da26
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 이 기술 자료의 정보는 [Adobe Commerce 개발자 설명서](https://developer.adobe.com/commerce/docs), [Adobe Commerce 판매자 안내서](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) 및 기타 Adobe Commerce 발행물을 보완하는 것으로 디자인되었습니다. 문제 해결 및 모범 사례를 다루고, 발표를 호스팅하고, FAQ에 답변하고, 공식 설명서에서 (어떤 이유로든) 언급되지 않은 특정 시나리오를 강조합니다.
 
-## 기술 자료에는 무엇이 있습니까?
+## 이 기술 자료에는 무엇이 있습니까?
 
 | 범주 | 설명 |
 | --- | --- |
