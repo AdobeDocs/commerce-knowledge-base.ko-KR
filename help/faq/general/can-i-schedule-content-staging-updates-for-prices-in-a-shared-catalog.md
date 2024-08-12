@@ -3,9 +3,9 @@ title: 공유 카탈로그의 가격에 대한 콘텐츠 스테이징 업데이�
 description: Adobe Commerce은 공유 카탈로그에 있는 하나 이상의 제품에 대한 가격 업데이트([Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html))를 예약하는 기능을 제공하지 않습니다.
 exl-id: 5482326f-54c2-4efc-8e5e-6d075ee5be55
 feature: Catalog Management, Customer Service
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: c3120f7df24e105b082df6544ab82241d6b6851f
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
