@@ -4,9 +4,9 @@ description: 이 문서에서는 지원 알림에 팀원을 포함하는 방법�
 feature: Cloud, Support, Admin Workspace
 role: Admin, Developer
 exl-id: 63ea3f60-a509-447c-ac3d-bb2133141c80
-source-git-commit: 1c568d75534bbfe322d9f980b40c5dd64fc5b7a2
+source-git-commit: 771793d45000e65c1bf41137cd984d2977b0a9ff
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 
 1. **[!DNL Cloud Project URL]**(예: `https://us-3.magento.cloud/projects/xxxxxx/edit`)로 이동합니다.
 1. 팀 구성원이 프로젝트에 추가되었으며 [!DNL Super User]인지 확인하십시오.
-
-[!DNL cloud project] 액세스가 필요하지 않은 경우 Adobe Commerce 지원 센터에서 [지원 요청을 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)하여 모든 티켓에서 자동으로 참조하고 **[!DNL MAGE ID]**&#x200B;을(를) 제공합니다(가능한 경우).
 
 프로젝트에 추가되지 않은 경우 [!DNL Super User](으)로 추가하고 [!DNL Shared Access]을(를) 부여해야 합니다.
 
