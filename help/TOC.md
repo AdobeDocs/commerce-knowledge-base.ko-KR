@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: dfc68a101da26e8ce98295239d2bde7675c19401
+source-git-commit: abfd1e3a042f2756c27471b81004a3dcea0914ac
 workflow-type: tm+mt
-source-wordcount: '11093'
+source-wordcount: '11090'
 ht-degree: 0%
 
 ---
@@ -1118,7 +1118,6 @@ ht-degree: 0%
    * 알려진 문제 {#known-issues-patches-attached}
       * [Adobe Commerce에 사용 가능한 보안 업데이트 - [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
       * [암호화 키 회전 문제 해결: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
-      * [숨겨진 다운로드 테스트](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102-hidden-test.md)
       * [Adobe Commerce에서 사용할 수 있는 보안 업데이트 - [!DNL APSB24-40]  [!DNL CVE-2024-34102]에 대해 격리된 패치를 포함하도록 수정됨](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
       * [[!DNL UPS]  [!DNL SOAP] 에서  [!DNL RESTful API](으)로 배송 방법 통합 마이그레이션](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [[!DNL USPS] AC-9182용 Ground Advantage 배송 방법 지원 핫픽스](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
