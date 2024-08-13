@@ -3,7 +3,7 @@ title: 클라우드 인프라에서 Adobe Commerce의 환경 재설정
 description: 이 문서에서는 클라우드 인프라에서 Adobe Commerce의 환경을 롤백하는 다양한 시나리오를 보여 줍니다.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: f2aeb0262ddcb3d7e78028d08b9323db243fc96b
+source-git-commit: 4439ee25e929a1bdb2216cc10fa0d4506c4f3aed
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -158,6 +158,6 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 1. MySQL DB에 연결: `mysql -h database.internal`(Pro 환경의 경우: [MySQL 서비스 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)).
 1. `main` DB 삭제: `drop database main;`
 1. 빈 `main` DB 만들기: `create database main;`
-1. 구성 파일 `config.php` , `config.php` , `.bak,` , `env.php`, `env.php.bak`을(를) 삭제합니다.
+1. 구성 파일 `config.php`, `config.php.bak`, `env.php`, `env.php.bak`을(를) 삭제합니다.
 
 DB를 다시 설정한 후 [환경에 대한  [!DNL git] 푸시를 수행하여 재배포를 트리거](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html)하고 Adobe Commerce을 새로 만든 DB에 설치합니다. 또는 [재배포 명령을 실행](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands)합니다.
