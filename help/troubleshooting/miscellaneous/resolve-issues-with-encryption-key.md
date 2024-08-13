@@ -4,9 +4,9 @@ description: 이 문서에서는 암호화 키가 DB 덤프와 함께 다른 환
 exl-id: 34410da0-1bd5-421e-9cd7-d3ee75ad8ed7
 feature: Cache, Variables
 role: Developer
-source-git-commit: bee0263da487399ab07bf9158c4d60ab316d6ea1
+source-git-commit: 0458b37e2af4c9ad2ec92a1fdd6844ef222ef84a
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 영향을 받는 제품 및 버전
 
-* 클라우드 인프라의 Adobe Commerce 2.2.x, 2.3.x
+* 클라우드 인프라의 Adobe Commerce 2.4.x
 
 ## 문제
 
