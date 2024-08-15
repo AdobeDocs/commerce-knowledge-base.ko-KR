@@ -4,9 +4,9 @@ description: Adobe Commerce의 고급 보고 문제는 이 문제 해결사 도�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: b3bfc41a67eb9ef0bbb52d1c1c3940b1aa49cf44
+source-git-commit: dfe9b9cf4751e28bd151fce36df168e48fb914ed
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,13 @@ c. 예 - 레코드가 있지만 오류가 있으면 [10단계](#step-10)로 진�
 
 +++**파일 `data.tgz`이(가) 시스템에 있고 액세스 로그에 레코드가 있습니까?**
 
-`data.tgz` 파일이 있는지 확인하려면 명령을 실행하십시오.
+`data.tgz` 파일이 있는지 확인하려면 이 명령을 실행하십시오. 해시 이름의 디렉터리를 반환해야 합니다.
 
 ```
-ls -ltr pub/media/analytics/<there should be a directory with hash name>/
+ls -ltr pub/media/analytics/
 ```
 
-access.logs에 레코드가 있는지 확인하려면 명령을 실행합니다.
+access.logs에 레코드가 있는지 확인하려면 이 명령을 실행합니다.
 
 ```
 zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
