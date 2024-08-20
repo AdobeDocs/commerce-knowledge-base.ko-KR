@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: abfd1e3a042f2756c27471b81004a3dcea0914ac
+source-git-commit: 01d815edd76b749df036021d75d4456d9d7b5550
 workflow-type: tm+mt
-source-wordcount: '11090'
+source-wordcount: '11096'
 ht-degree: 0%
 
 ---
@@ -240,7 +240,7 @@ ht-degree: 0%
          * [MDVA-34680: 고객 계정이 고객 그리드에서 올바르게 필터링되지 않음](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-34680-customer-account-created-time-is-not-filtered-correctly-in-customers-grid.md)
          * [MDVA-37068: 가상 제품에 대한 체크아웃에 잘못된 세금이 표시됨](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-37068-incorrect-tax-rate-displays-on-checkout-for-virtual-products.md)
          * [MDVA-38308: 비활성화된 제품에 Vimeo 비디오를 추가한 후 오류 발생](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38308-error-after-adding-vimeo-videos-to-disabled-products.md)
-         * [MDVA-38468: CMS 페이지를 저장할 때 오류 메시지가 표시됨](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38468-error-when-saving-cms-pages.md)
+         * [MDVA-38468: CMS 페이지를 저장할 때 오류 메시지 수신](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38468-error-when-saving-cms-pages.md)
          * [MDVA-38608: 실패한 다시 색인에 대한 임시 테이블이 삭제되지 않음](/help/support-tools/patches-available-in-qpt-tool/v1-0-26/mdva-38608-temporary-tables-are-not-deleted-when-the-reindex-is-not-finished-successfully.md)
       * v1.1.0 {#v1-1-0}
          * [개요: 품질 패치 도구(QPT) v1.1.0](/help/support-tools/patches-available-in-qpt-tool/v1-1-0/overview.md)
@@ -260,7 +260,7 @@ ht-degree: 0%
          * [MDVA-38447: &quot;개별적으로 표시되지 않음&quot; 구성 가능한 하위 제품이 GraphQL 응답에서 반환되고 MySQL 쿼리가 느려집니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-38447-not-visible-individually-configurable-child-products.md)
          * [MDVA-38852: 카탈로그 인벤토리가 테이블을 잠그므로 성능이 저하됩니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-38852-catalog-inventory-locks-tables-for-updates-that-significantly-decrease-performance.md)
          * [MDVA-38929: FPT가 있는 송장에 잘못된 합계가 표시됨](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-38929-invoice-with-fpt-shows-wrong-grand-total.md)
-         * [MDVA-39043: 관리 사용자가 CMS 페이지에 위젯을 추가하는 동안 오류가 발생했습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-39043-admin-users-with-limited-access-get-error-while-adding-products-widget-to-cms.md)
+         * [MDVA-39043: 관리자가 CMS 페이지에 위젯을 추가하는 동안 오류가 발생했습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-39043-admin-users-with-limited-access-get-error-while-adding-products-widget-to-cms.md)
          * [MDVA-39195: 범주 페이지에서 장바구니에 추가가 비활성 상태입니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-39195-add-to-cart-button-is-inactive-on-the-category-page.md)
          * [MDVA-39384: 회사 사용자에 대한 사용자 지정 고객 특성을 저장할 수 없습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-39384-unable-to-save-custom-customer-attribute-for-company-user.md)
          * [MDVA-39521: GraphQL을 통해 장바구니에 배송 주소를 설정할 수 없음](/help/support-tools/patches-available-in-qpt-tool/v1-1-2/mdva-39521-unable-to-set-shipping-address-on-cart-via-graphql.md)
@@ -272,7 +272,7 @@ ht-degree: 0%
       * v1.1.3 {#v1-1-3}
          * [개요: 품질 패치 도구(QPT) v1.1.3](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/overview.md)
          * [MDVA-31590: MySQL 비동기 큐를 사용하여 특성을 일괄적으로 업데이트할 수 없습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-31590-unable-to-update-attributes-in-bulk-using-mysql-async-queues.md)
-         * [MDVA-33606: 계층에 할당된 CMS 페이지를 저장할 때 오류가 발생했습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-33606-users-get-error-when-saving-cms-page-assigned-to-hierarchy.md)
+         * [MDVA-33606: 계층에 할당된 CMS 페이지를 저장할 때 사용자에게 오류가 발생했습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-33606-users-get-error-when-saving-cms-page-assigned-to-hierarchy.md)
          * [MDVA-36309: 특성별 제품 검색이 관리자 그리드에서 느립니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-36309-product-search-by-attributes-is-slow-in-the-admin-grids.md)
          * [MDVA-37234: 장바구니에 항목을 여러 번 추가하면 중복 라인 항목이 만들어집니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-37234-adding-item-to-cart-multiple-times-creates-duplicate-item.md)
          * [MDVA-40262: GraphQL 쿼리가 관리자의 인기 검색어에 표시되지 않음](/help/support-tools/patches-available-in-qpt-tool/v1-1-3/mdva-40262-graphql-queries-dont-show-in-popular-search-terms-in-admin.md)
@@ -613,7 +613,7 @@ ht-degree: 0%
          * [ACSD-50512: 다운로드 가능한 제품 스테이징 업데이트의 시작 날짜를 업데이트할 때 오류 발생](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50512-error-when-updating-the-start-date-for-a-downloadable-product-staging-update.md)
          * [ACSD-50895: Google Analytics 4 GTM이 구성되지 않은 경우 Google Analytics 3 GTM 태그가 실행되지 않습니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.md)
          * [ACSD-51471: 관리자가 번들 제품에 대해 예약된 업데이트를 저장할 수 없음](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51471-admin-user-cannot-save-scheduled-update-for-bundled-product.md)
-         * [ACSD-51120: CMS 블록이 포함된 CMS 페이지에 대한 GraphQL GET 요청 캐시가 지워지지 않음](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51120-graphql-get-requests-cache-not-cleared-for-cms-pages.md)
+         * [ACSD-51120: GraphQL 블록이 포함된 CMS 페이지에 대한 CMS GET 요청 캐시가 지워지지 않음](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51120-graphql-get-requests-cache-not-cleared-for-cms-pages.md)
          * [ACSD-51700: 다운로드 가능한 제품 편집 페이지에서 스토어 보기를 전환하는 도중 오류 발생](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51700-downloadable-product-error-when-switching-storeviews.md)
          * [ACSD-51735: 제품 재고가 0일 때 주문 항목 상태가 [!UICONTROL Ordered](으)로 잘못 설정됨](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51735-order-item-status-incorrectly-set.md)
          * [ACSD-51497: 드롭다운 유형의 사용자 지정 특성별로 카탈로그 페이지를 정렬할 수 없음](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51497-cannot-sort-catalog-page-by-custom-attribute-of-dropdown-type.md)
@@ -705,7 +705,7 @@ ht-degree: 0%
          * [ACSD-54472: 거부된 회사의 고객은 여전히 인증하고 주문할 수 있습니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54472-customers-of-rejected-company-can-still-authenticate-and-place-orders.md)
          * [ACSD-54680: 여러 개의 지정된 소스가 있는 제품에 대한 B2B 견적을 처리할 수 없음](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54680-b2b-quote-submitted-for-a-product-with-multiple-assigneda-sources.md)
          * [ACSD-55004: 값보다 큰 가져오기 파일을 업로드하는 동안 유효성 검사기가 충돌합니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-55004-validator-crashes-while-uploading-an-import-file-larger-than-the-value.md)
-         * [ACSD-53414: 제한된 관리자는 권한 범위를 벗어난 CMS 페이지를 볼 수 있습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53414-restricted-admin-user-can-see-cms-pages-outside-permissions.md)
+         * [ACSD-53414: 제한된 관리자는 권한 범위를 벗어난 CMS 페이지를 볼 수 있습니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53414-restricted-admin-user-can-see-cms-pages-outside-permissions.md)
          * [ACSD-52657: 미니마트가 하위 도메인을 사용하는 두 번째 상점 보기에서 업데이트되지 않음](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52657-minicart-not-updated-on-second-storeview.md)
          * [ACSD-54007: 고객 데이터를 가져올 때 정의되지 않은 배열 키 _scope 오류](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54007-undefined-array-key-scope-error-importing-customer-data.md)
          * [B2B 54040을 사용하도록 설정한 경우 ASCD-URL: [!UICONTROL Created] 필드가 비어 있습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54040-created-field-is-blank-in-order-details-page.md)
@@ -749,12 +749,12 @@ ht-degree: 0%
          * [ACSD-55305: [!UICONTROL My Account]에서 회사 사용자를 편집하는 동안 팝업이 고정됨](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55305-freeze-issue-in-company-user-edit-popup.md)
          * [ACSD-54972: 표준 범주 URL이 업데이트되지 않음](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54972-canonical-category-url-doesnt-update.md)
          * [ACSD-53636: [!UICONTROL Product Listing] 페이지에 일반 가격이 표시되지 않습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53636-regular-price-is-not-displayed-on-product-listing-page.md)
-         * [ACSD-53925: [!UICONTROL Product Carousel]을(를) 사용하여 CMS 블록을 저장할 수 없음](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53925-cant-save-cms-block-with-product-carousel-catalog-product-price-dimensions-set-to-website.md)
+         * [ACSD-53925: [!UICONTROL Product Carousel]을(를) 사용하여 CMS 블록을 저장할 수 없습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53925-cant-save-cms-block-with-product-carousel-catalog-product-price-dimensions-set-to-website.md)
          * [ACSD-54885: 관리자가 고객으로 로그인할 때 여러 주소를 체크 아웃하는 동안 예외 발생](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54885-exception-during-multiple-address-checkout.md)
          * [ACSD-53309: 사용자 지정 옵션 및 &#39;[!UICONTROL Regular Price]&#39; 레이블에 대한 세금 응용 프로그램이 불완전합니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53309-incomplete-tax-application-for-customizable-options.md)
          * [ACSD-53790: 단일 제품에 대한 여러 RMA는 Rest API를 통해 만들 수 있습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53790-multiple-rmas-for-single-product-can-be-created-via-rest-api.md)
          * [ACSD-54739: [!UICONTROL Related Product Rules]에 대해 [!UICONTROL Product Stock] 상태가 적용되지 않음](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54739-product-stock-status-not-applied-for-related-product-rules.md)
-         * [ACSD-54983: 비활성 사용자는 GraphQL을 사용하는 회사 사용자 UID를 사용할 수 없습니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
+         * [ACSD-54983: GraphQL을 사용하는 회사 사용자 UID을 비활성 사용자와 함께 사용할 수 없음](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
       * v1.1.44 {#v1-1-44}
          * [개요: [!DNL Quality Patches Tool] (QPT) v1.1.44](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/overview.md)
          * [ACSD-55231: 빠른 주문 기능을 사용하는 동안 SKU를 찾을 수 없음 오류](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55231-sku-not-found-in-catalog.md)
@@ -823,6 +823,7 @@ ht-degree: 0%
       * [2024 릴리스 일정](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
       * [Adobe Commerce 지원 Experience League으로 접수 프로세스 마이그레이션](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
    * 도움말 센터 뉴스 {#news}
+      * [Adobe Commerce 도움말 센터 사용 중단](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
       * [Adobe Commerce 지원 기술 자료에서 기여 접수를 시작합니다.](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * {#troubleshooting} 문제 해결
    * [문제 해결 개요](/help/troubleshooting/overview.md)
@@ -1261,11 +1262,11 @@ ht-degree: 0%
    * [필드가 회색으로 표시되는 경우 magento.com 계정의 이메일 주소를 변경하는 방법](/help/how-to/general/change-email-address-on-magento-account.md)
    * [Magento Order Management 제거 방법](/help/how-to/general/how-to-remove-mom.md)
    * [Commerce 휴일 준비를 위한 기술 팁](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
-   * [GraphQL 요청에 대해 WAF를 우회하는 방법](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
+   * [GraphQL 요청을 위해 WAF을 우회하는 방법](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
    * [클라우드에서 Adobe Commerce용 MariaDB 10.4를 10.5로 업그레이드](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * FAQ {#faq}
    * [FAQ 개요](/help/faq/overview.md)
-   * [Fastly에서 제공하는 WAF(웹 애플리케이션 방화벽): FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
+   * [Fastly에서 제공하는 웹 애플리케이션 방화벽(WAF): FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
    * [핵심 Adobe Commerce 결제 통합 사용 중단](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
    * [클라우드 인스턴스에 타사 애플리케이션을 설치할 수 있습니까?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
    * [Magento.com 및 accounts.magento.cloud 계정 로그인 연결](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
