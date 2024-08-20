@@ -4,9 +4,9 @@ description: 이 문서에서는 라이브 검색 확장을 사용할 때 카탈
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: a1b049dab989d5d8594d86b64b778e6e277a9f41
+source-git-commit: ab39a21ca325cdad30debf89a1cff660bf5925e5
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ API 키가 변경되어 내보낸 카탈로그를 확인할 수 없거나 연결
 1. `catalog_data_exporter_products`에 올바른 데이터가 표시되면 다음 SQL 쿼리를 사용하여 마지막 내보내기의 타임스탬프를 확인하십시오. `modified_at` 타임스탬프 이후여야 합니다.
 
    ```sql
-   select * from flag where flag_code = 'products-feed-version';
+   select * from scopes_website_data_exporter;
    ```
 
 1. 타임스탬프가 오래된 경우 다음 cron 실행이 완료될 때까지 기다리거나 다음 명령을 사용하여 직접 트리거할 수 있습니다.
@@ -111,7 +111,7 @@ API 키가 변경되어 내보낸 카탈로그를 확인할 수 없거나 연결
 1. 다음 SQL 쿼리를 사용하여 마지막 내보내기의 타임스탬프를 확인하십시오. `modified_at` 타임스탬프 이후여야 합니다.
 
    ```sql
-   select * from flag where flag_code = 'product-attributes-feed-version';
+   select * from scopes_website_data_exporter;
    ```
 
 1. 타임스탬프가 오래된 경우 다음 cron 실행이 완료될 때까지 기다리거나 다음 명령을 사용하여 직접 트리거할 수 있습니다.
@@ -133,4 +133,5 @@ bin/magento saas:resync --feed productattributes
 
 ## 관련 읽기
 
-사용자 설명서에서 [실시간 검색 온보드](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)를 참조하십시오.
+* 사용자 설명서에서 [실시간 검색 온보드](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)를 참조하십시오.
+* Adobe Commerce SaaS 데이터 내보내기 안내서의 [로그 검토 및 Adobe Commerce SaaS 데이터 내보내기 및 동기화 문제 해결](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)을 참조하십시오.
