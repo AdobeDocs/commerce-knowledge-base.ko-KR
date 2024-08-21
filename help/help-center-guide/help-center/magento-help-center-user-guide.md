@@ -3,9 +3,9 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 38e67144f337c8359a5602e49d8a0ee91cd20b53
+source-git-commit: b7b272c2e1cb677829afa64e2c77c0faa207313d
 workflow-type: tm+mt
-source-wordcount: '2117'
+source-wordcount: '2116'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를
 
 1. 지원 접수 프로세스를 시작하려면 드롭다운 목록(사용 가능한 경우)에서 적절한 조직을 선택했는지 확인합니다. 이름이 비슷한 여러 조직이 있을 수 있으며 각 조직은 고유한 권한을 가지고 있습니다.
 
-   ![이미지](https://git.corp.adobe.com/storage/user/38345/files/230d6ecd-bce2-4170-b377-3989fa8be615)
+   ![select_appropriate_org](assets/select_appropriate_org.png)
 
 1. 왼쪽 메뉴에서 **[!UICONTROL Open Ticket]**&#x200B;을(를) 클릭하거나 *[!UICONTROL Open a support ticket]* 카드에서 **[!UICONTROL Get Started]**&#x200B;을(를) 클릭합니다.
 
