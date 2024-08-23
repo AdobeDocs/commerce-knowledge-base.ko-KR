@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: f4fb30dcef6cc05ce027df4dc793cf99d37f2a1f
+source-git-commit: 0f5e70462f439c6ed5b63567a21f039529262805
 workflow-type: tm+mt
-source-wordcount: '11118'
+source-wordcount: '11132'
 ht-degree: 0%
 
 ---
@@ -918,6 +918,7 @@ ht-degree: 0%
       * [콘텐츠 스테이징 문제로 인한 모든 페이지 오류 404](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
       * [모든 Adobe Commerce 버전에서 Google 맵 액세스 손실에 대한 패치를 수정했습니다.](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 기타 {#miscellaneous}
+      * [ [!DNL Commerce Data Exporter] 피드 및 [!DNL cron] 로그 테이블에서 업데이트되지 않은 데이터 수정 오류가 존재하지 않습니다.](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [ [!DNL cron] 이(가) 비활성화된 이유 확인 방법](/help/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled.md)
       * [오류  [!DNL opensearch] 검색 엔진이 없습니다.  [!DNL livesearch](으)로 돌아갑니다.](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [내보내기 저장소가 거의 꽉 찼다는 이메일](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
