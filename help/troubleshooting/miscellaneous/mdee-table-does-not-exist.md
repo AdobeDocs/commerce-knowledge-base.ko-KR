@@ -3,7 +3,7 @@ title: ' [!DNL Commerce Data Exporter] 피드 및 [!DNL cron] 로그 테이블�
 description: 이 문서에서는  [!DNL Commerce Data Exporter mview] 구독에서 잘못된 보기 ID를 사용하여 발생한 데이터 동기화 문제를 해결하는 솔루션을 제공합니다.
 feature: Data Import/Export, Saas, Logs
 role: Developer
-source-git-commit: cf87b5f1280a2d1d23c7ace37616feb337b5142f
+source-git-commit: 3581e39e7054cf765403fd963e22a051457c1097
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -48,4 +48,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-[!DNL SaaS] 서비스에 대한 Adobe Commerce 데이터 내보내기 안내서의 [[!DNL SaaS] 데이터 내보내기 확장 릴리스 노트](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes).
+[!DNL SaaS] 서비스에 대한 Adobe Commerce 데이터 내보내기 안내서의 [[!DNL SaaS] 데이터 내보내기 확장 릴리스 노트](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes)
