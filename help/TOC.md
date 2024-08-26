@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 683473a9a6b7ccc87c190d1cdc83453aa0734961
+source-git-commit: 7cda7f53226b878e8900b79443c4be28ff056862
 workflow-type: tm+mt
-source-wordcount: '11136'
+source-wordcount: '11141'
 ht-degree: 0%
 
 ---
@@ -1062,6 +1062,7 @@ ht-degree: 0%
       * [Magento GitHub 저장소를 복제할 수 없음](/help/troubleshooting/miscellaneous/cannot-clone-the-magento-github-repository.md)
       * [라이브 검색 카탈로그가 동기화되지 않음](/help/troubleshooting/miscellaneous/live-search-catalog-data-sync.md)
       * [[!DNL Live Search] 대시보드 및 검색 결과 순위가 올바르지 않음](/help/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect.md)
+      * [[!DNL Live Search] 패싯이 알파벳순으로 정렬되지 않음](/help/troubleshooting/miscellaneous/live-search-facets-not-sorted.md)
       * [고객 프로필이 Experience Platform에 표시되지 않음](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
       * [PWA Studio: 브라우저가 .local.pwadev 사이트를 확인할 수 없습니다.](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
       * [제품 Recommendations이 페이지 빌더에 표시되지 않음](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
