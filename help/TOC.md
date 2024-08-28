@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 575227bda74b12a7ae4c75a7e6b45cb80aa79e19
+source-git-commit: 1c3eadc58ce70ac8f70078e4d88705386477f6ae
 workflow-type: tm+mt
-source-wordcount: '11162'
+source-wordcount: '11172'
 ht-degree: 0%
 
 ---
@@ -808,6 +808,7 @@ ht-degree: 0%
          * [ACSD-56979: 스테이징 업데이트 삭제 후 제거된 제품 이미지](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
       * v1.1.50 {#v1-1-50}
          * [개요: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
+         * [ACSD-46938: 설치:업그레이드 중 DB 트리거 성능 문제](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
       * [품질 패치 도구로 Adobe Commerce 패치 문제 확인](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * 공지 {#announcements}
    * [공지 개요](/help/announcements/overview.md)
