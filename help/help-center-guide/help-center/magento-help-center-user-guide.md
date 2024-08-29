@@ -3,9 +3,9 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 88a9fad5d4a38a82001175af4a1611acf6d4e413
+source-git-commit: 7c6cc2fc3cd76fc4c156d7cdb15bfbc3a24f39cb
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2500'
 ht-degree: 0%
 
 ---
@@ -89,14 +89,20 @@ Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를
 
 >[!INFO]
 >
->1. 여러 조직에 속해 있는 경우 드롭다운에서 적절한 조직을 선택해야 합니다.
->1. 사례를 제출하려면 지원을 받을 자격이 있어야 합니다. 그렇지 않은 경우 조직의 지원 권한이 있는 사용자가 아님을 알리는 표시줄이 페이지 맨 위에 나타납니다.
+>1. 사례를 제출하려면 적절한 제품(예: Adobe Commerce, Adobe Commerce Intelligence, Experience Platform 등)에 대한 지원을 받을 자격이 있어야 합니다. 지원 권한이 없는 경우 조직의 지원 권한이 있는 사용자가 아님을 알리는 표시줄이 페이지 맨 위에 나타납니다.
+>1. 여러 조직에 속해 있거나 유사한 이름의 조직이 여러 개 있는 경우(각 조직은 조직이 구독하는 다른 Adobe 제품을 나타냄) 먼저 드롭다운에서 적절한 조직을 선택해야 합니다.
+
+>[!NOTE]
+>
+>사례를 제출하기 전에 올바른 조직을 선택했는지 그리고 선택한 조직에 지원을 요청하는 제품에 대한 적절한 권한이 있는지 확인합니다. 예를 들어, 문제가 Adobe Commerce과 관련되어 있지만 Experience Platform을 제품으로 선택했고 케이스가 성공적으로 제출된 경우 케이스가 잘못 라우팅되고 응답 시간이 지연될 수 있습니다.
+>
+>또한 잘못된 조직을 선택한 경우 팀은 [!UICONTROL My Cases]에서 해당/올바른 조직의 사례를 볼 수 없습니다. 지원 팀은 향후 사례와 관련된 조직을 변경할 수 없습니다.
 
 1. 헤더에서 **지원**&#x200B;을 클릭합니다. 지원 홈 페이지가 열립니다.
 
    ![지원 페이지 열기](assets/click_support.png)
 
-1. 지원 접수 프로세스를 시작하려면 드롭다운 목록(사용 가능한 경우)에서 적절한 조직을 선택했는지 확인합니다. 이름이 비슷한 여러 조직이 있을 수 있으며 각 조직은 고유한 권한을 가지고 있습니다.
+1. 지원 접수 프로세스를 시작하려면 조직 드롭다운 목록(표시되는 경우)에서 적절한 조직을 선택했는지 확인합니다.
 
    ![select_appropriate_org](assets/select_appropriate_org.png)
 
@@ -104,7 +110,7 @@ Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를
 
    ![지원 사례 열기](assets/open_support_case.png)
 
-1. 드롭다운 메뉴에서 제품을 선택하고 사례 제목과 설명을 입력합니다.
+1. 드롭다운 메뉴에서 제품을 선택하고 사례 제목과 설명을 입력합니다. 참고: 드롭다운에 제품이 표시되지 않거나 Commerce을 사용할 수 있는 옵션이 없는 경우 왼쪽 열에서 조직을 전환하고 다시 확인해 보십시오.
 
    ![select_product](assets/support_case_product.png)
 
@@ -123,6 +129,18 @@ Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를
 >1. 조직 드롭다운 메뉴에서 조직을 선택합니다. 
 >1. 조직이 여전히 나타나지 않으면 Commerce 관리자에게 문의하여 지원 위임 권한을 받으십시오. 자세한 내용은 [Commerce 계정 공유](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) 도움말 문서를 참조하십시오. 
 
+>[!NOTE]
+>
+>조직/제품이 중요한 이유
+>
+>**예제 A**: 한 회사에 대한 액세스 권한만 공유했으며 해당 회사에는 Product1과 Product2라는 두 Adobe 제품에 대한 사용 권한이 있습니다.
+>1. 각 조직은 하나의 제품을 나타내므로 드롭다운에 OrgA-Product1 및 OrgB-Product2와 같은 두 개의 조직이 표시됩니다.
+>1. Product = Product1을 선택했지만 문제가 Product2와 관련된 경우, 케이스는 Product2 지원으로 라우팅되며 Product1 지원으로 케이스를 전송할 때 지연이 발생합니다.
+>1. OrgA-Product1에 대한 사례를 제출하고 나중에 해당 조직에 대한 [!UICONTROL My Cases]을(를) 검토하려는 경우 OrgA-Product2를 조직으로 선택하면 표시되지 않습니다(예 B와 비교하여 다른 조직을 선택하기만 하면 됨).
+>
+>**예제 B**: 두 회사에 대한 공유 액세스 권한이 있으며 각 회사에는 Adobe Commerce에 대한 권한만 있습니다.
+>1. OrgA에 대한 서비스 케이스를 제출했지만 문제가 실제로 OrgB에 영향을 주는 경우 OrgB의 구성원은 나중에 [!UICONTROL My Cases]에서 이 서비스 케이스를 볼 수 없습니다.
+>1. 또한 OrgA의 구성원은 OrgB에 해당하는 [!UICONTROL My Cases] 미만의 사례를 볼 수 있으며, 이로 인해 개인 정보 보호 문제가 발생할 수 있습니다.
 
 지원 사례를 제출하려면 https://account.adobe.com 및 https://account.magento.com 모두에 Experience League이 있어야 합니다. 로그인하기 전에는 지원 사례를 제출할 수 없습니다.
 
