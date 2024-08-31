@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 159ec056ea1f57935d35ab07fc70f24e53901146
+source-git-commit: f8f09e3aeadb27724c431c275ce13d8f8699dd20
 workflow-type: tm+mt
-source-wordcount: '11238'
+source-wordcount: '11246'
 ht-degree: 0%
 
 ---
@@ -810,6 +810,7 @@ ht-degree: 0%
          * [ACSD-58054: 비활성 고객을 위한 API 토큰 생성](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
       * v1.1.50 {#v1-1-50}
          * [개요: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
+         * [ACSD-59036: 제품 가격 로드 시 예외 발생](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59036-exception-occurs-when-loading-product-prices.md)
          * [ACSD-45049: 고객 [!UICONTROL Is required] 특성 설정이 관리자의 웹 사이트 범위에 따라 작동하지 않습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-45049-customer-attribute-is-required-setting-doesnt-work.md)
          * [ACSD-59378: 저장소 수준 [!DNL URL] 가져오는 동안 잘못 업데이트된 내용](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938: 설치:업그레이드 중 DB 트리거 성능 문제](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
