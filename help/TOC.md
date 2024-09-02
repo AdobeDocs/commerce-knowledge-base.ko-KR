@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: f8f09e3aeadb27724c431c275ce13d8f8699dd20
+source-git-commit: a57747c4c4dd994fed95686772bce71cf02ccc90
 workflow-type: tm+mt
-source-wordcount: '11246'
+source-wordcount: '11253'
 ht-degree: 0%
 
 ---
@@ -806,6 +806,7 @@ ht-degree: 0%
          * [ACSD-57643: 사용자 지정 옵션이 있는 제품이 잘못 추가되었습니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57643-products-with-custom-options-are-incorrectly-added.md)
          * [ACSD-57588: 여러 주소로 배송 시 지역 ID 처리 도중 오류 발생](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
          * [ACSD-56979: 스테이징 업데이트 삭제 후 제거된 제품 이미지](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
+         * [ACSD-58739: 부분 리인덱싱에서 오류 발생](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58739-partial-reindexing-throws-an-error.md)
          * [ACSD-57846: 필터를 사용하여 GraphQL 제품을 검색하면 결과가 반환되지 않음](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57846-graphql-products-search-with-filter-for-zero-prices-not-returning-results.md)
          * [ACSD-58054: 비활성 고객을 위한 API 토큰 생성](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
       * v1.1.50 {#v1-1-50}
