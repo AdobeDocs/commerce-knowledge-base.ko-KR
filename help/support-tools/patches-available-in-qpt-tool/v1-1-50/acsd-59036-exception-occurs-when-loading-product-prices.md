@@ -3,9 +3,9 @@ title: 'ACSD-59036: 하한과 상한이 모두 $0로 설정된 제품 가격을 
 description: ACSD-59036 패치를 적용하여 하한과 상한이 모두 *$0*으로 설정된 제품 가격을 로드할 때 예외가 발생하는 Adobe Commerce 문제를 해결합니다.
 feature: Categories, Products, Storefront, Search
 role: Admin, Developer
-source-git-commit: 01abf64953207939bc0c79978e67612da3a940eb
+source-git-commit: d711fb8ff8876a4a514daade6d7df4d7cf7e3593
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,10 @@ Adobe Commerce(모든 배포 방법) 2.4.7 - 2.4.7-p2
 
 오류 발생:
 
-    &quot;JSON
-    보고.위험: OpenSearch\Common\Exceptions\BadRequest400Exception: {&quot;error&quot;:{&quot;root_cause&quot;:[{&quot;type&quot;:&quot;x_content_parse_exception&quot;,&quot;reason&quot;:&quot;[1:193] [bool]이 필드 [must]&quot;}]을(를) 구문 분석하지 못함,&quot;type&quot;:&quot;x_content_parse_exception&quot;,&quot;reason&quot;:&quot;[1:193] [bool]이 필드 [filter]&quot;,&quot;caured_by&quot;:{&quot;type&quot;:&quot;x_content_parse_exception&quot;,&quot;reason&quot;:&quot;[1:193] [bool]이 필드 [must]&quot;,&quot;caured_by&quot;:{&quot;type_argument_exception&quot;,&quot;reason name is null or empty&quot;}} 상태&quot;:400}(/vendor/opensearch-project/opensearch-php/src/OpenSearch/Connections/Connection.php:664
-    &quot;
-)
+```JSON
+report.CRITICAL: OpenSearch\Common\Exceptions\BadRequest400Exception: {"error":{"root_cause":[{"type":"x_content_parse_exception","reason":"[1:193] [bool] failed to parse field [must]"}],"type":"x_content_parse_exception","reason":"[1:193] [bool] failed to parse field [filter]","caused_by":{"type":"x_content_parse_exception","reason":"[1:193] [bool] failed to parse field [must]","caused_by":{"type":"illegal_argument_exception","reason":"field name is null or empty"}}},"status":400} in /vendor/opensearch-project/opensearch-php/src/OpenSearch/Connections/Connection.php:664
+```
+
 ## 패치 적용
 
 개별 패치를 적용하려면 배포 방법에 따라 다음 링크를 사용합니다.
