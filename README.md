@@ -1,27 +1,28 @@
 ---
-source-git-commit: 1fe71f13dbfc433886db900c359b7de2c6d0e7f3
+source-git-commit: eadb0294b716cdd24bb378364bc01b61e48d0521
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 6%
 
 ---
-# 기여 문서
+# Contribute 문서
 
 커뮤니티의 콘텐츠 제공과 설명서 팀 외부 Adobe 직원의 콘텐츠 제공도 환영합니다.
 
-## Adobe 오픈 소스 행동 수칙
+
+## Source 행동 수칙 Adobe
 
 이 프로젝트에서는 [Adobe OOCT(Open Source Code of Conduct)](code-of-conduct.md) 또는 [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct)가 채택되었습니다. 자세한 내용은 [기여](contributing.md) 문서를 참조하십시오.
 
 ## Adobe 콘텐츠에 대한 귀하의 기여에 대해
 
-다음을 참조하십시오. [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+[Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하세요.
 
 기여 방식은 기여자 및 기여 하고자 하는 변경 사항의 종류에 따라 다릅니다.
 
 ### 사소한 변경 사항
 
-선의로 작은 업데이트를 제공하려면 문서를 방문하여 **편집** 문서에 해당하는 GitHub 소스로 이동하는 문서의 링크. 그런 다음 GitHub UI를 사용하여 업데이트를 만들면 됩니다. 일반 참조 [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 추가 정보.
+부분 업데이트에 선의로 기여하려는 경우 문서를 방문하여 문서의 GitHub 소스로 이동하는 문서에서 **편집** 링크를 클릭하십시오. 그런 다음 GitHub UI를 사용하여 업데이트를 만들면 됩니다. 자세한 내용은 일반 [Adobe 문서 콘텐츠 작가 가이드](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 이 저장소의 설명서 및 코드 샘플에 대해 사용자가 제출하는 부분 수정 또는 설명은 Adobe 사용 약관의 적용을 받습니다.
 
@@ -35,7 +36,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Adobe 직원의 주요 변경 사항
 
-Adobe Experience Cloud 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 리포지토리( )를 사용해야 합니다. `https://git.corp.adobe.com/AdobeDocs`.
+Adobe Experience Cloud 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 리포지토리(`https://git.corp.adobe.com/AdobeDocs`)를 사용해야 합니다.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -43,7 +44,7 @@ Adobe Experience Cloud 솔루션에 대한 제품 팀의 테크니컬 라이터,
 
 커뮤니티 기여자는 기본 편집에 GitHub UI를 사용하거나 리포지토리를 포크하여 크게 기여할 수 있습니다.
 
-다음을 참조하십시오. [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 을 참조하십시오.
+자세한 내용은 [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)를 참조하십시오.
 
 ## Markdown을 사용하여 주제 서식을 지정하는 방법
 
@@ -56,5 +57,5 @@ Adobe Experience Cloud 솔루션에 대한 제품 팀의 테크니컬 라이터,
 
 공용 리포지토리에서는 당사가 끌어오기 요청 워크플로를 관리하고 끌어오기 요청에 대한 진행 상황을 사용자에게 알리는 데 도움이 되도록 끌어오기 요청에 자동화된 레이블이 지정됩니다.
 
-* **작성자에게 보낸 변경 사항**: 작성자에게 보류 중인 끌어오기 요청에 대한 알림이 전송되었습니다.
+* **작성자에게 보낸 변경 내용**: 보류 중인 끌어오기 요청에 대한 알림을 작성자가 받았습니다.
 * **병합 준비 완료**: 끌어오기 요청 검토 팀에서 검토할 준비가 되었습니다.
