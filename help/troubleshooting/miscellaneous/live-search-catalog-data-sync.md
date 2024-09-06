@@ -4,9 +4,9 @@ description: 이 문서에서는 라이브 검색 확장을 사용할 때 카탈
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: ab39a21ca325cdad30debf89a1cff660bf5925e5
+source-git-commit: fe276c444c235b096ea6d61b02d8362314b5c154
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 0%
 ## 문제
 
 카탈로그 데이터가 올바르게 동기화되지 않았거나 새 제품이 추가되었지만 검색 결과에 표시되지 않습니다.
+
+>[!NOTE]
+>
+>테이블 이름 `catalog_data_exporter_products` 및 `catalog_data_exporter_product_attributes`은(는) 이제 [!DNL Live Search] 버전 4.2.1부터 `cde_products_feed` 및 `cde_product_attributes_feed`(으)로 호출됩니다. 4.2.1 이전 버전의 판매자의 경우 이전 테이블 이름 `catalog_data_exporter_products` 및 `catalog_data_exporter_product_attributes`에서 데이터를 찾습니다.
 
 <u>재현 단계</u>
 
@@ -59,20 +63,20 @@ API 키가 변경되어 내보낸 카탈로그를 확인할 수 없거나 연결
 1. 다음 SQL 쿼리를 사용하여 `feed_data` 열에 필요한 데이터가 있는지 확인하십시오. `modified_at` 타임스탬프도 메모해 두십시오.
 
    ```sql
-   select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+   select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
    ```
 
 1. 올바른 데이터가 표시되지 않으면 다음 명령을 사용하여 다시 인덱싱하고 1단계에서 SQL 쿼리를 다시 실행하여 데이터를 확인합니다.
 
    ```bash
-   bin/magento indexer:reindex catalog_data_exporter_products
+   bin/magento indexer:reindex cde_products_feed
    ```
 
 1. 그래도 올바른 데이터가 표시되지 않으면 [지원 티켓을 만듭니다](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### 마지막 제품 내보내기의 타임스탬프 확인
 
-1. `catalog_data_exporter_products`에 올바른 데이터가 표시되면 다음 SQL 쿼리를 사용하여 마지막 내보내기의 타임스탬프를 확인하십시오. `modified_at` 타임스탬프 이후여야 합니다.
+1. `cde_products_feed`에 올바른 데이터가 표시되면 다음 SQL 쿼리를 사용하여 마지막 내보내기의 타임스탬프를 확인하십시오. `modified_at` 타임스탬프 이후여야 합니다.
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -93,20 +97,20 @@ API 키가 변경되어 내보낸 카탈로그를 확인할 수 없거나 연결
 1. 다음 SQL 쿼리를 사용하여 `feed_data` 열에 필요한 데이터가 있는지 확인하십시오. `modified_at` 타임스탬프도 메모해 두십시오.
 
    ```sql
-   select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
+   select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
    ```
 
 1. 올바른 데이터가 표시되지 않으면 다음 명령을 사용하여 인덱스를 다시 만든 다음 1단계에서 SQL 쿼리를 다시 실행하여 데이터를 확인합니다.
 
    ```bash
-   bin/magento indexer:reindex catalog_data_exporter_product_attributes
+   bin/magento indexer:reindex cde_product_attributes_feed
    ```
 
 1. 그래도 올바른 데이터가 표시되지 않으면 [지원 티켓을 만듭니다](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### 마지막 제품 속성 내보내기의 타임스탬프 확인
 
-`catalog_data_exporter_product_attributes`에 올바른 데이터가 표시되면:
+`cde_product_attributes_feed`에 올바른 데이터가 표시되면:
 
 1. 다음 SQL 쿼리를 사용하여 마지막 내보내기의 타임스탬프를 확인하십시오. `modified_at` 타임스탬프 이후여야 합니다.
 
