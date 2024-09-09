@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 87b0024615d3aa02df40a6d6de56594e225d32b6
+source-git-commit: f309e4cde788475ae624520a76abaca1cc784f93
 workflow-type: tm+mt
-source-wordcount: '11278'
+source-wordcount: '11297'
 ht-degree: 0%
 
 ---
@@ -819,6 +819,8 @@ ht-degree: 0%
          * [ACSD-46938: 설치:업그레이드 중 DB 트리거 성능 문제](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
          * [ACSD-59229: 오래된 X-Magento-Vary 값으로 인해 고객 그룹의 데이터 잘못 할당](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441: V1/customers [!DNL REST] API 끝점을 통해 고객을 업데이트하면 오류가 발생합니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
+         * [ACSD-59280: 2.4.4-pX 설치에서 ReflectionUnionType::getName() 오류 발생](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59280-fix-for-reflection-union-type-error.md)
+         * [ACSD-60303: HTML 축소가 활성화된 상태에서 관리자 주문 배치 문제가 해결됨](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60303-admin-order-placement-fix.md)
       * [품질 패치 도구로 Adobe Commerce 패치 문제 확인](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * 공지 {#announcements}
    * [공지 개요](/help/announcements/overview.md)
