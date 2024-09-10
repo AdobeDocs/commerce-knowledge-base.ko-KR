@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 8906fbf4830d8e1612af296efa83f7856f6ccec2
+source-git-commit: ed15e986088286c075953049dbadf329edccca51
 workflow-type: tm+mt
-source-wordcount: '11391'
+source-wordcount: '11408'
 ht-degree: 0%
 
 ---
@@ -823,6 +823,7 @@ ht-degree: 0%
          * [ACSD-58141: L2 Redis 캐시가 활성화된 경우 로그인한 고객에 대한 POST 요청에서 PHPSESSID가 다시 생성됩니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled.md)
          * [ACSD-59229: 오래된 X-Magento-Vary 값으로 인해 고객 그룹의 데이터 잘못 할당](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441: V1/customers [!DNL REST] API 끝점을 통해 고객을 업데이트하면 오류가 발생합니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
+         * [ACSD-58790:  [!DNL Chrome]의 모바일 보기에서 제품 세부 사항 페이지 이미지의 핀치를 확대/축소 기능으로 수정합니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58790-fixes-pinch-to-zoom-functionality-on-the-product-detail-page-images-in-mobile-view-on-chrome.md)
          * [ACSD-58442: 너비가 768px인 장치가 모바일로 처리되어 메뉴와 헤더가 데스크톱이 아닌 모바일 보기에서 로드되는 문제를 해결했습니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58442-fixes-issue-devices-768px-mobile-view-instead-desktop.md)
          * [ACSD-48210: 저장소 보기 특정 범위 특성이 전역 값을 무시합니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-48210-store-view-specific-scope-attribute-overrides-global-values.md)
          * [ACSD-59280: 2.4.4-pX 설치에서 ReflectionUnionType::getName() 오류 발생](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59280-fix-for-reflection-union-type-error.md)
