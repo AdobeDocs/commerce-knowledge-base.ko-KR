@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: ed15e986088286c075953049dbadf329edccca51
+source-git-commit: 65af60f53789fdaac7aa2d1ea3ebddd82f2126d5
 workflow-type: tm+mt
-source-wordcount: '11408'
+source-wordcount: '11420'
 ht-degree: 0%
 
 ---
@@ -820,6 +820,7 @@ ht-degree: 0%
          * [ACSD-45049: 고객 [!UICONTROL Is required] 특성 설정이 관리자의 웹 사이트 범위에 따라 작동하지 않습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-45049-customer-attribute-is-required-setting-doesnt-work.md)
          * [ACSD-59378: 저장소 수준 [!DNL URL] 가져오는 동안 잘못 업데이트된 내용](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938: 설치:업그레이드 중 DB 트리거 성능 문제](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
+         * [ACSD-54887: 고객 세션이 만료된 후 고객 장바구니가 지워짐](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-54887-customer-shopping-cart-gets-cleared-after-session-expiry.md)
          * [ACSD-58141: L2 Redis 캐시가 활성화된 경우 로그인한 고객에 대한 POST 요청에서 PHPSESSID가 다시 생성됩니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled.md)
          * [ACSD-59229: 오래된 X-Magento-Vary 값으로 인해 고객 그룹의 데이터 잘못 할당](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441: V1/customers [!DNL REST] API 끝점을 통해 고객을 업데이트하면 오류가 발생합니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
