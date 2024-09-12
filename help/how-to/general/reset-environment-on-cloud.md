@@ -3,9 +3,9 @@ title: 클라우드 인프라에서 Adobe Commerce의 환경 재설정
 description: 이 문서에서는 클라우드 인프라에서 Adobe Commerce의 환경을 롤백하는 다양한 시나리오를 보여 줍니다.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 4439ee25e929a1bdb2216cc10fa0d4506c4f3aed
+source-git-commit: 598459365cad811966ed529356cb9ab876f49a38
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,9 @@ ht-degree: 0%
 
 <u>변경 당일</u>:
 
-1. 웹 사이트를 [!UICONTROL Maintenance Mode]에 배치합니다.<br>
-사용 안내서에서 [사용 또는 사용 안 함[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html) 및 업그레이드 안내서에서 [[!UICONTROL Maintenance Mode] 업그레이드 옵션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html)에 대해 자세히 알아보십시오.
+1. 웹 사이트를 [!UICONTROL Maintenance Mode]에 배치합니다.
+사용 안내서에서 [사용 또는 사용 안 함[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html) 및 업그레이드 안내서에서 [[!UICONTROL Maintenance Mode] 업그레이드 옵션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html)에 대해 자세히 알아보세요.
+1. cron 작업을 비활성화합니다. [cron 속성 안내서](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>)에서 cron 작업을 사용하지 않도록 설정하는 방법에 대해 자세히 알아보십시오.
 1. 로컬 [[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html)을(를) 사용합니다.
 
 <u>[!UICONTROL Rollback]이(가) 필요한 경우</u>:
@@ -123,7 +124,7 @@ Adobe Commerce 소프트웨어를 제거하려면 다음 단계를 따르십시�
 1. 환경을 로컬 개발 환경에 복제합니다. 클라우드 콘솔에서 명령을 복사할 수 있습니다.    ![copy_git_clone.png](assets/copy_git_clone.png)
 1. 커밋 내역에 액세스합니다. `--reverse`을(를) 사용하여 기록을 역순으로 표시합니다. 편의를 위해 `git log --reverse`
 1. 정상적으로 작업한 커밋 해시를 선택합니다. 코드를 실제 상태(바닐라)로 재설정하려면 분기(환경)를 만든 첫 번째 커밋을 찾습니다.
-   ![git 콘솔에서 커밋 해시 선택](assets/select_commit_hash.png)
+   ![대체 텍스트](image.png)
 1. 하드 [!DNL git] 재설정 적용: `git reset --h <commit_hash>`
 1. `git push --force <origin> <branch>` 서버에 변경 내용 푸시
 
