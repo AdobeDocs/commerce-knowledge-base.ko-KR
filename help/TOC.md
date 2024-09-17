@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 65af60f53789fdaac7aa2d1ea3ebddd82f2126d5
+source-git-commit: 97e61803978e9e18e9784020d53eb4b448cab830
 workflow-type: tm+mt
-source-wordcount: '11420'
+source-wordcount: '11432'
 ht-degree: 0%
 
 ---
@@ -806,6 +806,7 @@ ht-degree: 0%
          * [ACSD-57643: 사용자 지정 옵션이 있는 제품이 잘못 추가되었습니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57643-products-with-custom-options-are-incorrectly-added.md)
          * [ACSD-57588: 여러 주소로 배송 시 지역 ID 처리 도중 오류 발생](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
          * [ACSD-56979: 스테이징 업데이트 삭제 후 제거된 제품 이미지](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
+         * [ACSD-58163: [!UICONTROL Cart Price Rule]은(는) 쿠폰 코드가 없는 일치하는 [!UICONTROL Customer Segment] 장바구니에서 할인을 적용하지 않습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58163-cart-price-rule-does-not-apply-discount-from-matching-customer-segment-cart-without-coupon-code.md)
          * [ACSD-57086: 약관이 활성화된 기본이 아닌 웹 사이트의 주문이 잘못 처리됨](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57086-orders-placed-from-non-default-websites-with-terms-conditions-processed-incorrectly.md)
          * [ACSD-57941: 제품 옵션이 관리 저장소에 잘못 할당되었습니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57941-product-options-are-incorrectly-assigned-to-the-admin-store.md)
          * [ACSD-58739: 부분 리인덱싱에서 오류 발생](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58739-partial-reindexing-throws-an-error.md)
