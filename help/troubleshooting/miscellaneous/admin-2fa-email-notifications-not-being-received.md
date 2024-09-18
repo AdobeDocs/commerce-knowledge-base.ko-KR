@@ -4,9 +4,9 @@ description: 이 문서에서는 클라우드 인프라의 Adobe Commerce에서 
 exl-id: 7ab6b2b4-6aca-4323-a45b-2b4e52955160
 feature: Admin Workspace, Communications
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 435a545adcf2a1d6b023abaec55c4b73e942ee1a
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,12 @@ ht-degree: 0%
    ```
 
    * 결과를 반환하지 않으면 발신자 주소가 구성되지 않은 것입니다.
+관리자에 대한 액세스 권한이 없으므로 데이터베이스에 구성을 삽입해야 합니다. 적절한 이메일 주소를 연결하고 MySQL 문을 실행합니다.
+
+   ```
+   insert into core_config_data (scope,scope_id,path,value) values ('default',0,'trans_email/ident_general/email', your-email@here.com)
+   ```
+
    * 결과를 반환하면 **2단계**&#x200B;로 진행합니다.
 
 1. 이메일이 스팸 폴더에 표시된 경우 해당 이메일의 링크를 클릭합니다. 링크가 만료된 경우 다시 로그인하여 프로세스를 반복하십시오.
