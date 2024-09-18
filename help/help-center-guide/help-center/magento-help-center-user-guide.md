@@ -3,9 +3,9 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7c6cc2fc3cd76fc4c156d7cdb15bfbc3a24f39cb
+source-git-commit: ab51577ea212470e9fa5a93dce3748de9c5c00a6
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Adobe Commerce 지원이 Adobe Commerce 도움말 센터에서 Experience League으로 마이그레이션되었습니다. [여기](#what-is-experience-support)에 설명된 Experience League 사례 양식 흐름을 사용하여 지원 사례를 제출하십시오.
+
+>[!NOTE]
+>
+>현재 Adobe Commerce 도움말 센터에서 이전에 제출한 사례를 보려면 https://support.magento.com/hc/en-us/requests으로 이동해야 합니다. 이러한 사례는 새 지원 티켓 시스템으로 마이그레이션되지 않았기 때문입니다. 도움말 센터가 이제 읽기 전용입니다. 원래 문제에 대한 지원을 계속 받으려면 [Experience League 지원](https://experienceleague.adobe.com/home#support)에 후속 티켓을 제출해야 합니다.
 
 >[!NOTE]
 >
