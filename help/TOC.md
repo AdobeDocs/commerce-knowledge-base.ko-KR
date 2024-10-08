@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 5b1fc77a5ea4c6bf040b349cd4809d9e062d29f3
+source-git-commit: 41100a7a059abf86524d2c6f66a4d81ddf1eb41f
 workflow-type: tm+mt
-source-wordcount: '9808'
+source-wordcount: '9814'
 ht-degree: 0%
 
 ---
@@ -942,6 +942,7 @@ ht-degree: 0%
       * [배포 실패: &#39;cache&#39; 네임스페이스 오류에 정의된 명령이 없습니다.](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [env:COMPOSER_AUTH 또는 auth.json에 올바른 액세스 키가 있어 배포가 실패합니다.](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 알려진 문제 {#known-issues-patches-attached}
+      * [Adobe Commerce에 사용 가능한 보안 업데이트 - [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
       * [저장소 보안 및 암호화 키 회전에 대한 지침:  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
       * [Adobe Commerce에 사용 가능한 보안 업데이트 - [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
       * [암호화 키 회전 문제 해결: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
