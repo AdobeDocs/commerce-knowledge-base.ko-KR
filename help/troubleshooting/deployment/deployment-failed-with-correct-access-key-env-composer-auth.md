@@ -4,16 +4,16 @@ description: 이 문서에서는 "https://repo.magento.com/archives/magento/modu
 feature: Deploy
 role: Admin
 exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
-source-git-commit: 9f9dc8374bb681398ed1c295ac15679553cfc74e
+source-git-commit: 2a1c97c65282d03010bffabbcd2d1be7fb9ff9a6
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
 # env:COMPOSER_AUTH 또는 auth.json에 올바른 액세스 키가 있어 배포가 실패합니다.
 
-이 문서에서는 [배포 로그](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에서 아래와 같은 오류와 함께 배포가 실패하는 경우 발생하는 문제에 대한 해결 방법을 제공합니다.
+이 문서에서는 [배포 로그](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에서 아래와 같은 오류와 함께 배포가 실패하는 경우 발생하는 문제에 대한 해결 방법을 제공합니다.
 
 ```
 W:   [Composer\Downloader\TransportException]
@@ -40,7 +40,7 @@ W:   The "https://repo.magento.com/archives/magento/module-customer-balance/mage
 >
 >예제 오류입니다. 배포하는 Adobe Commerce 버전에 따라 다른 파일을 나타내는 오류가 발생할 수 있습니다.
 
-을 배포하지 못했습니다. [배포 로그](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에 *https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip 파일을 다운로드할 수 없습니다(HTTP/1.1 404 찾을 수 없음)*.
+을 배포하지 못했습니다. [배포 로그](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)에 *https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip 파일을 다운로드할 수 없습니다(HTTP/1.1 404 찾을 수 없음)*.
 
 ### 원인
 
