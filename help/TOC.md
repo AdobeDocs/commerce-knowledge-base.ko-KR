@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 41100a7a059abf86524d2c6f66a4d81ddf1eb41f
+source-git-commit: 41e8cd47b62f68975ed61b5260934ecf2cadec0f
 workflow-type: tm+mt
-source-wordcount: '9814'
+source-wordcount: '9806'
 ht-degree: 0%
 
 ---
@@ -647,7 +647,6 @@ ht-degree: 0%
       * [Adobe Commerce 지원 Experience League으로 접수 프로세스 마이그레이션](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
    * 도움말 센터 뉴스 {#news}
       * [Adobe Commerce 도움말 센터 사용 중단](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
-      * [Adobe Commerce 지원 기술 자료에서 기여 접수를 시작합니다.](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * {#troubleshooting} 문제 해결
    * [문제 해결 개요](/help/troubleshooting/overview.md)
    * 데이터베이스 {#database}
