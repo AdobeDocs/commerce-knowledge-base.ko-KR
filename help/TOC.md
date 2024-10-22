@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 41e8cd47b62f68975ed61b5260934ecf2cadec0f
+source-git-commit: d7940db29941e39ee6a664115095c7512a7f8d54
 workflow-type: tm+mt
-source-wordcount: '9806'
+source-wordcount: '9794'
 ht-degree: 0%
 
 ---
@@ -949,7 +949,6 @@ ht-degree: 0%
       * [[!DNL UPS]  [!DNL SOAP] 에서  [!DNL RESTful API](으)로 배송 방법 통합 마이그레이션](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [[!DNL USPS] AC-9182용 Ground Advantage 배송 방법 지원 핫픽스](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
       * [Adobe Commerce 2.4.3-p2 - CVE-2022-35698용 2.4.5 보안 핫픽스](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
-      * [미니 장바구니에서 체크아웃을 여러 번 클릭할 때 빈 장바구니 문제](/help/troubleshooting/known-issues-patches-attached/empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart.md)
       * [Adobe Commerce 2.4.4: 부분 송장을 생성할 수 없음](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
       * [새 주문이 아카이브로 전송됩니다.](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
       * [고급 보고 cron 작업 오류 Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md)
