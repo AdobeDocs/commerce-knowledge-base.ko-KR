@@ -3,9 +3,9 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 3cddfcb136147a5c0602a62585438313b3162900
+source-git-commit: d8f832869916c04cacc0cefeeb9b45bd3c1f3b80
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2625'
 ht-degree: 0%
 
 ---
@@ -189,6 +189,10 @@ Adobe Commerce 계정 페이지를 사용하여 새 지원 티켓을 제출하�
 왼쪽 메뉴에서 **[!UICONTROL My Cases]**&#x200B;을(를) 클릭하여 개인적으로 제출한 사례를 볼 수 있습니다.
 
 ![지원 사례 보기](assets/view_support_cases.png)
+
+#### Adobe Commerce 도움말 센터에서 이전 사례 보기
+
+Adobe Commerce 기술 자료의 [Adobe Commerce 도움말 센터 제거](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/news/decommissioning-of-adobe-commerce-help-center)에 있는 Adobe Commerce 도움말 센터에서 **이전 사례를 보기**&#x200B;하는 방법에 대해 자세히 알아보세요.
 
 #### 시청한 사례 보기
 
