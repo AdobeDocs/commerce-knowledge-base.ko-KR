@@ -4,7 +4,7 @@ description: Adobe Commerce의 고급 보고 문제는 이 문제 해결사 도�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: dfe9b9cf4751e28bd151fce36df168e48fb914ed
+source-git-commit: ae6dde9ecc01a0e1c561d1e91dbd2f7bc3504fe0
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -94,7 +94,7 @@ b. 아니오 - 쿼리가 아무 것도 반환하지 않으면 다음 단계를 �
 
 `SELECT * FROM cron_schedule WHERE job_code LIKE 'analytics_collect_data' \G` 쿼리를 실행하여 `analytics_collect_data` 작업이 실행되었는지 확인하십시오.
 
-a. 예 - 레코드가 있고 **상태** 열에 _누락_&#x200B;이 표시되면 이 KB 문서 [고급 보고 업데이트](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md)의 패치를 사용하여 자체 cron 그룹에서 실행하십시오.\
+a. 예 - 레코드가 있고 **status** 열에 _missed_&#x200B;이(가) 표시되면 이 KB 문서 Update Advanced Reporting의 패치를 사용하여 자체 cron 그룹에서 실행하십시오.\
 b. 예 - 레코드가 있고 **상태** 열에 _성공_&#x200B;이 표시되면 [9](#step-9)단계를 진행하십시오.\
 c. 예 - 레코드가 있고 **status** 열에 _error_&#x200B;이(가) 표시되면 [8단계](#step-8)로 진행하십시오.\
 d. 아니요 - 레코드가 없으면 [8단계](#step-8)로 진행합니다.
@@ -138,7 +138,7 @@ b. 아니요 - [10단계](#step-10)로 진행합니다.
 
 +++**cron 작업에서 오류 메시지가 표시됩니까?**
 
-예: `core_config_data` 테이블에 *&quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0 파일을 삭제할 수 없습니다*. 경고!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): 해당 파일 또는 디렉터리가 없습니다.*
+예: `core_config_data` 테이블에 오류 *이(가) 표시됩니다. &quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0 파일을 삭제할 수 없습니다*. 경고!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): 해당 파일 또는 디렉터리가 없습니다.*
 
 a. 예 - [에서 ACSD-50165 패치를 사용합니다. 파일을 삭제할 수 없습니다. 경고!연결 해제: Admin](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)에서 이러한 파일 또는 디렉터리 오류가 없습니다. 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
 b. 아니요 - [11단계](#step-11)로 진행합니다.
@@ -151,7 +151,7 @@ b. 아니요 - [11단계](#step-11)로 진행합니다.
 
 예: `report.ERROR: Cron Job analytics_collect_data has an error: substr_count() expects parameter 1 to be string, null given. Statistics: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":224919552,"emalloc_start":216398384} [] []`
 
-a. 예 - [Adobe Commerce의 일반 고급 보고 크론 작업 오류](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md)에서 MDVA-19391 패치를 사용합니다. 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
+a. 예 - Adobe Commerce의 일반 고급 보고 cron 작업 오류의 MDVA-19391 패치를 사용하고, 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
 b. 아니요 - [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
