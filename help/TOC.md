@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: a2f113e6d9123fd9058cce34a199a90484523862
+source-git-commit: fdca2b0345bbd259007f5eeef10dd63455395d4f
 workflow-type: tm+mt
-source-wordcount: '9692'
+source-wordcount: '9662'
 ht-degree: 0%
 
 ---
@@ -950,9 +950,6 @@ ht-degree: 0%
       * [[!DNL USPS] AC-9182용 Ground Advantage 배송 방법 지원 핫픽스](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
       * [Adobe Commerce 2.4.3-p2 - CVE-2022-35698용 2.4.5 보안 핫픽스](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
       * [Adobe Commerce 2.4.4: 부분 송장을 생성할 수 없음](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
-      * [새 주문이 아카이브로 전송됩니다.](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
-      * [낮은 사이트 및 API 성능](/help/troubleshooting/known-issues-patches-attached/low-site-and-api-performance.md)
-      * [더 이상 사용되지 않는 Google 이미지 차트를 이미지 차트로 바꾸기](/help/troubleshooting/known-issues-patches-attached/replace-depreciated-google-image-charts-with-image-charts.md)
       * [고급 검색에 가장 관련성이 높은 결과가 표시되지 않음](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [관리자의 주문을 필터링할 때 오류 발생](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [허용 국가에서 아무것도 선택하지 않은 경우 사용자가 제품을 장바구니에 추가할 수 없음](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
@@ -966,7 +963,6 @@ ht-degree: 0%
       * [관리자에서 대량 삭제하는 동안 시작된 것보다 더 많은 제품이 삭제되었습니다.](/help/troubleshooting/known-issues-patches-attached/not-selected-rows-are-deleted-during-mass-action-deletion.md)
       * [클라우드 인프라의 Adobe Commerce v2.3.5 GraphQL 캐싱 무효화가 작동하지 않음](/help/troubleshooting/known-issues-patches-attached/magento-commerce-cloud-v2-3-5-graphql-caching-invalidation-not-working.md)
       * [Braintree 결제가 활성화된 경우 책임자가 주문/재주문을 만들 수 없음](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
-      * [Adobe Commerce 2.4.0 B2B: 할인이 만료되었을 때 잘못된 구매 주문 논리](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-b2b-wrong-purchase-order-logic-when-discount-expired.md)
       * [일정 업데이트의 종료 날짜를 편집한 후 카탈로그 테이블의 항목이 중복됨](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
       * [Adobe Commerce 2.3.5, 2.3.5-p1 패치: 국가 결제 문제](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
       * [Adobe Commerce 2.4.0 패치: 배송 레이블 생성 문제를 반환합니다.](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-patch-returns-shipping-label-creation-issue.md)
