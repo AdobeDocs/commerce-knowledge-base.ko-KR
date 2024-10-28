@@ -4,9 +4,9 @@ description: 이 문서에서는 Adobe Commerce 2.3.5에서 체크아웃 중 알
 exl-id: a0cca226-4d95-40b3-bd37-f13d28591366
 feature: Checkout, Orders, Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: d51fd4d7b064b8eea6cd3771af279b74a8bdec48
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,6 @@ Adobe Commerce에서 주문 페이지의 주문 요약 섹션에 오류가 발�
 
 * [Adobe Commerce on cloud infrastructure 및 Adobe Commerce on-premise 2.3.5 및 2.3.5-p1의 국가 결제 방법 문제](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
 
-* [Adobe Commerce은 고객에게 로그인하라는 메시지를 표시하지만 잘못된 링크를 제공합니다](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
 
 * [Adobe Commerce 2.3.5의 대량 작업 제품 수 알려진 문제](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
 

@@ -4,9 +4,9 @@ description: 이 문서에서는 Adobe Commerce 온-프레미스 2.3.5 및 Adobe
 exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 feature: Products, Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: d51fd4d7b064b8eea6cd3771af279b74a8bdec48
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,6 @@ GitHub에서 수정 사항을 볼 수 있습니다(해당 수정 사항이 회�
 <li><a href="/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md">Adobe Commerce 2.3.5의 대량 작업 제품 수 알려진 문제</a></li>
 <li>
 <p title="Adobe Commerce on cloud infrastructure 및 Adobe Commerce on-premise 2.3.5 및 2.3.5-p1의 국가 결제 방법 문제"><a href="/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md">Adobe Commerce on cloud infrastructure 및 Adobe Commerce on-premise 2.3.5 및 2.3.5-p1의 국가 결제 방법 문제</a></p>
-</li>
-<li>
-<p title="Adobe Commerce은 고객에게 로그인하라는 메시지를 표시하지만 잘못된 링크를 제공합니다"><a href="/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md">Adobe Commerce은 고객에게 로그인하라는 메시지를 표시하지만 잘못된 링크를 제공합니다</a></p>
 </li>
 <li>
 <p title="Amazon용 패치 Adobe Commerce 2.3.5-p1 의 결제 체크아웃 문제"><a href="/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md">Amazon용 패치 Adobe Commerce 2.3.5-p1 의 결제 체크아웃 문제</a></p>
