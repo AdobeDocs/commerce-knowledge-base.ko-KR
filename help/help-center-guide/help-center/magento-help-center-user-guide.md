@@ -3,9 +3,9 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: d8f832869916c04cacc0cefeeb9b45bd3c1f3b80
+source-git-commit: 8ee52f47d9e230ecd633ead3429d864f9df7c33e
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2583'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,6 @@ Adobe Experience League 지원에 로그인하려면 다음 단계를 따르십�
 
 계정 소유자 또는 공유 액세스 사용자로 성공적으로 로그인하면 Adobe Experience League 홈페이지, Adobe Commerce 계정 페이지 및 Adobe Commerce Cloud 계정 페이지를 사용하여 지원 사례를 제출할 수 있습니다.
 
-* 계정 소유자 또는 재방문 공유 액세스 사용자인 경우 아래 단계를 따르십시오.
-* 공유 액세스 사용자이고 계정 소유자가 [공유 액세스 권한을 제공했습니다](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#provide-shared-access). 아래 단계를 진행하기 전에 먼저 계정을 전환해야 합니다. 자세한 내용은 [공유 계정 액세스(계정 전환)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts)를 참조하십시오.
-
 #### Adobe Experience League 시작 페이지 {#experience-league-start-page}
 
 Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를 제출하려면 다음 단계를 따르십시오.
@@ -106,7 +103,7 @@ Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를
 
    ![지원 페이지 열기](assets/click_support.png)
 
-1. 지원 접수 프로세스를 시작하려면 조직 드롭다운 목록(표시되는 경우)에서 적절한 조직을 선택했는지 확인합니다.
+1. 지원 접수 프로세스를 시작하려면 조직 드롭다운 목록(표시되는 경우)에서 적절한 조직을 선택했는지 확인합니다. Adobe Commerce에 대한 서비스 케이스를 제출하려면 *[!DNL Commerce]*(으)로 끝나는 조직 이름을 선택하십시오.
 
    ![select_appropriate_org](assets/select_appropriate_org.png)
 
