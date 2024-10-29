@@ -1,17 +1,17 @@
 ---
-title: "'배포 실패: '캐시' 네임스페이스 오류에 정의된 명령이 없습니다."
+title: "'캐시 플러시 시 시 배포 실패: '캐시' 네임스페이스 오류에 정의된 명령이 없습니다.'"
 description: 이 문서에서는 다음 오류**캐시 네임스페이스에 정의된 명령이 없음**과 함께 배포가 실패하는 경우의 문제에 대한 해결 방법을 제공합니다.
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: 1a8a4e1eada859a6712a43536d7bad26d1ce1244
+source-git-commit: e13be3ef9daa17b9463c8251933f68f6a35fedd2
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# 배포 실패: &#39;cache&#39; 네임스페이스 오류에 정의된 명령이 없습니다.
+# 캐시 플러시 시 시 배포 실패: &quot;&#39;캐시&#39; 네임스페이스 오류에 정의된 명령이 없습니다.&quot;
 
 >[!WARNING]
 >
