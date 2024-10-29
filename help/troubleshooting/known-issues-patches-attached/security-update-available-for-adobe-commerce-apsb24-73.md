@@ -1,19 +1,19 @@
 ---
 title: Adobe Commerce에 사용 가능한 보안 업데이트 - [!DNL APSB24-73]
 promoted: true
-description: Adobe Commerce 2.4.7-p3, 2.4.6-p8, 2.4.5-p10, 2.4.4-p11 및 이전 버전의 경우  [!DNL B2B] module만 실행하는 [!DNL critical, important, and moderate vulnerabilities] 에 격리된 패치를 적용합니다.
+description: Adobe Commerce 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 및  [!DNL B2B] module만 실행하는 이전 버전의 인스턴스에 대해  [!DNL critical, important, and moderate vulnerabilities] 수정할 격리된 패치를 적용합니다.
 feature: Compliance, Security
 role: Developer
-source-git-commit: 181316dc0bd42feae0a857ff52edd80dbfd492ad
+source-git-commit: 694cb7519733e950b55006866e585097bc2429f4
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce에 사용 가능한 보안 업데이트 - [!DNL APSB24-73]
 
-2024년 10월 8일, Adobe은 Adobe Commerce, Magento Open Source 및 [!DNL Adobe Commerce Webhooks Plugin]에 대해 정기적으로 예약된 보안 업데이트를 발표했습니다.
+2024년 10월 08일에 Adobe은 Adobe Commerce 및 [!DNL Adobe Commerce Webhooks Plugin]에 대해 정기적으로 예약된 보안 업데이트를 발표했습니다.
 이 업데이트는 [[!DNL critical, important] 및 [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html)개의 취약점을 해결합니다. 성공적으로 사용하면 임의 코드 실행, 임의 파일 시스템 읽기, 보안 기능 우회 및 권한 에스컬레이션이 발생할 수 있습니다. 게시판은 [Adobe 보안 게시판([!DNL APSB24-73])](https://helpx.adobe.com/security/products/magento/apsb24-73.html)입니다.
 
 >[!NOTE]
@@ -28,14 +28,22 @@ ht-degree: 0%
 
 ## 영향을 받는 제품 및 버전
 
-Adobe Commerce on Cloud, Adobe Commerce 온-프레미스 및 Magento Open Source:
+Adobe Commerce on Cloud 및 Adobe Commerce 온프레미스:
 
-* 2.4.7-p3 및 이전
-* 2.4.6-p8 및 이전
-* 2.4.5-p10 및 이전
-* 2.4.4-p11 및 이전
+* 2.4.7-p2 및 이전
+* 2.4.6-p7 및 이전
+* 2.4.5-p9 및 이전
+* 2.4.4-p10 및 이전
 
-## Adobe Commerce on Cloud, Adobe Commerce 온프레미스 소프트웨어 및 Magento Open Source 솔루션
+B2B:
+
+* 1.4.2-p2 및 이전
+* 1.3.5-p7 및 이전
+* 1.3.4-p9 및 이전
+* 1.3.3-p10 및 이전
+
+
+## Adobe Commerce on Cloud 및 Adobe Commerce 온프레미스 소프트웨어 솔루션
 
 영향을 받는 제품 및 버전의 취약성을 해결하려면 [!DNL CVE-2024-45115] Isolated 패치를 적용해야 합니다.
 
@@ -43,7 +51,7 @@ Adobe Commerce on Cloud, Adobe Commerce 온-프레미스 및 Magento Open Source
 
 다음과 같은 연결된 Isolated 패치를 사용합니다.
 
-[vuln-25610-composer-patch.zip](assets/vuln-25610-composer-patch.zip)
+[vuln-26510-composer-patch.zip](assets/vuln-26510-composer-patch.zip)
 
 ## Isolated 패치를 적용하는 방법
 
