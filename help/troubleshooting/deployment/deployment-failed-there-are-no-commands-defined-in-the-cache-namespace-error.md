@@ -1,17 +1,18 @@
 ---
-title: "'캐시 플러시 시 시 배포 실패: '캐시' 네임스페이스 오류에 정의된 명령이 없습니다.'"
+title: "캐시 플러시 시 시 배포 실패: '캐시' 네임스페이스에 정의된 명령이 없습니다.' 오류"
 description: 이 문서에서는 다음 오류**캐시 네임스페이스에 정의된 명령이 없음**과 함께 배포가 실패하는 경우의 문제에 대한 해결 방법을 제공합니다.
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: e13be3ef9daa17b9463c8251933f68f6a35fedd2
+source-git-commit: 7efa7b5363c7f77d76c02051c7e0e6a0f38ca87d
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# 캐시 플러시 시 시 배포 실패: &quot;&#39;캐시&#39; 네임스페이스 오류에 정의된 명령이 없습니다.&quot;
+
+# 캐시 플러시 시 시 배포 실패: &quot;&#39;cache&#39; 네임스페이스에 정의된 명령이 없습니다.&quot; 오류
 
 >[!WARNING]
 >
@@ -30,11 +31,11 @@ ht-degree: 0%
 
 클라우드 인프라의 Adobe Commerce 2.4.x
 
-## 문제  
+## 문제
 
 <u>재현 단계</u>:
 
-배포를 시도합니다. 
+배포를 시도합니다.
 
 <u>예상 결과</u>:
 
@@ -66,16 +67,16 @@ ht-degree: 0%
    The store that was requested wasn't found. Verify the store and try again.
    ```
 
-1. 이 MySql 쿼리를 실행하여 스토어를 찾을 수 없는지 확인합니다. 이 값은 2단계에서 오류 메시지로 표시됩니다. 
+1. 이 MySql 쿼리를 실행하여 스토어를 찾을 수 없는지 확인합니다. 이 값은 2단계에서 오류 메시지로 표시됩니다.
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. 다음 MySql 문을 실행하여 잘못된 행을 삭제합니다. 
+1. 다음 MySql 문을 실행하여 잘못된 행을 삭제합니다.
 
    ```sql
-   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
+   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
 1. 이 명령 다시 실행:
