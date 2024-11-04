@@ -3,9 +3,9 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 8438978de04746c8a66816fe4f03d5f0d2d11521
+source-git-commit: 7a70f2c54396f82424e442aca7413c02ebecddb9
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2770'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,8 @@ Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를
 
 >[!INFO]
 >
+>1. 사례를 제출하려면 적절한 제품(예: Adobe Commerce, Adobe Commerce Intelligence, Experience Platform 등)에 대한 지원을 받을 자격이 있어야 합니다. 지원 권한이 없는 경우 조직의 지원 권한이 있는 사용자가 아님을 알리는 표시줄이 페이지 맨 위에 나타납니다.
+>1. 여러 조직에 속해 있거나 유사한 이름의 조직이 여러 개 있는 경우(각 조직은 조직이 구독하는 다른 Adobe 제품을 나타냄) 먼저 &quot;(Commerce)&quot;로 끝나는 드롭다운에서 적절한 조직을 선택해야 합니다.
 >1. 사례를 제출하려면 적절한 제품(예: Adobe Commerce, Adobe Commerce 보고, Adobe Commerce 결제 서비스, Experience Platform 등)에 대한 지원을 받을 자격이 있어야 합니다. 지원 권한이 없는 경우 조직의 지원 권한이 있는 사용자가 아님을 알리는 표시줄이 페이지 맨 위에 나타납니다. Commerce 관련 문제에 대한 사례를 제출하려면 먼저 *[!DNL (Commerce)]*&#x200B;로 끝나는 적절한 조직 이름을 선택해야 합니다.
 >1. 여러 조직에 속해 있거나 유사한 이름의 조직이 여러 개 있는 경우(각 조직은 조직이 구독하는 다른 Adobe 제품을 나타냄) 먼저 드롭다운에서 적절한 조직을 선택해야 합니다.
 >1. [!UICONTROL Select a product] 드롭다운에 Adobe Commerce이 표시되지 않으면 먼저 Commerce 계정 소유자로부터 [공유 액세스](#shared-access)를 받아야 합니다. 공유 액세스 권한이 주어지면 사례를 제출하기 전에 프로세스를 완료하기 위해 [계정을 동기화](#switch-accounts)해야 합니다.
@@ -98,7 +100,7 @@ Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를
 >
 >사례를 제출하기 전에 올바른 조직을 선택했는지 그리고 선택한 조직에 지원을 요청하는 제품에 대한 적절한 권한이 있는지 확인합니다. 예를 들어, 문제가 Adobe Commerce과 관련되어 있지만 Experience Platform을 제품으로 선택했고 케이스가 성공적으로 제출된 경우 케이스가 잘못 라우팅되고 응답 시간이 지연될 수 있습니다.
 >
->또한 잘못된 조직을 선택한 경우 팀은 [!UICONTROL My Cases]에서 해당/올바른 조직의 사례를 볼 수 없습니다. 지원 팀은 향후 사례와 관련된 조직을 변경할 수 없습니다.
+>또한 서비스 케이스를 제출할 때 잘못된 조직이 선택된 경우, 팀은 해당/올바른 조직에 대해 [!UICONTROL My Cases]에서 서비스 케이스를 볼 수 없습니다. Adobe Commerce 지원 팀에는 서비스 케이스와 연결된 조직을 변경할 수 없습니다. 이 문제를 해결하려면 기존 서비스 케이스를 닫고 적절한 세부 정보를 제공/선택한 상태로 새 서비스 케이스를 제출해야 합니다.
 
 1. 헤더에서 **지원**&#x200B;을 클릭합니다. 지원 홈 페이지가 열립니다.
 
