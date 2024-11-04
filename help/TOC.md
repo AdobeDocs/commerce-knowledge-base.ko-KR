@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: a0b8fdf0e04cad2260a04af7c1049c6831d2921b
+source-git-commit: 2212ec66c04445db791c5bd852d7498161de410d
 workflow-type: tm+mt
-source-wordcount: '9617'
+source-wordcount: '9625'
 ht-degree: 0%
 
 ---
@@ -940,6 +940,7 @@ ht-degree: 0%
       * [캐시 플러시 시 시 배포 실패: &quot;&#39;cache&#39; 네임스페이스에 정의된 명령이 없습니다.&quot; 오류](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [env:COMPOSER_AUTH 또는 auth.json에 올바른 액세스 키가 있어 배포가 실패합니다.](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 알려진 문제 {#known-issues-patches-attached}
+      * [Adobe Commerce 2.4.6-p8의  [!DNL GraphQL "placeOrder" API] 에 대한 이전 버전과 호환되지 않는 변경 내용](/help/troubleshooting/known-issues-patches-attached/backwards-incompatible-changes-for-graphql-placeorder-api-in-adobe-commerce-2-4-6-p8.md)
       * [Adobe Commerce에 사용 가능한 보안 업데이트 - [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
       * [저장소 보안 및 암호화 키 회전에 대한 지침:  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
       * [Adobe Commerce에 사용 가능한 보안 업데이트 - [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
@@ -1026,7 +1027,7 @@ ht-degree: 0%
    * [Adobe Commerce 제품 설명서를 찾는 방법](/help/how-to/general/how-to-find-magento-product-documentation.md)
    * [클라우드 인프라의 Adobe Commerce에 있는 모든 페이지에 대해 HTTP를 HTTPS로 리디렉션(TLS 적용)](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
    * [클라우드의 Adobe Commerce에서 MySQL에 더 많은 공간 할당](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
-   * [DB 엔티티에 대한 증분 ID 변경(주문, 송장, 대변 메모 등) 특정 스토어](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
+   * [특정 스토어의 DB 엔티티(주문, 송장, 대변 메모 등)에 대한 증분 ID 변경](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [클라우드에서 시작 플랜에 대한 Fastly 설정](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
    * [Adobe Commerce Intelligence 교육 비디오: 집단 Report Builder](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
    * [클라우드에서 Adobe Commerce용 MariaDB 10.0을 10.2로 업그레이드](/help/how-to/general/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud.md)
