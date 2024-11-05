@@ -1,18 +1,18 @@
 ---
-title: DB 엔티티에 대한 증분 ID 변경(주문, 송장, 대변 메모 등) 특정 스토어
-description: 이 문서에서는 Adobe Commerce 데이터베이스(DB) 엔티티(주문, 송장, 대변 메모 등)에 대한 증분 ID를 변경하는 방법에 대해 설명합니다. 'ALTER TABLE' SQL 문을 사용하는 특정 Adobe Commerce 저장소.
+title: 특정 스토어의 DB 엔티티(주문, 송장, 대변 메모 등)에 대한 증분 ID 변경
+description: 이 문서에서는 'ALTER TABLE' SQL 문을 사용하여 특정 Adobe Commerce 저장소의 Adobe Commerce 데이터베이스(DB) 엔티티(주문, 송장, 대변 메모 등)에 대한 증분 ID를 변경하는 방법에 대해 설명합니다.
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# DB 엔티티에 대한 증분 ID 변경(주문, 송장, 대변 메모 등) 특정 스토어
+# 특정 스토어의 DB 엔티티(주문, 송장, 대변 메모 등)에 대한 증분 ID 변경
 
-이 문서에서는 Adobe Commerce 데이터베이스(DB) 엔티티(주문, 송장, 대변 메모 등)에 대한 증분 ID를 변경하는 방법에 대해 설명합니다. `ALTER TABLE` SQL 문을 사용하는 특정 Adobe Commerce 스토어에서.
+이 문서에서는 `ALTER TABLE` SQL 문을 사용하여 특정 Adobe Commerce 저장소의 Adobe Commerce 데이터베이스(DB) 엔터티(주문, 송장, 메모 등)에 대한 증분 ID를 변경하는 방법에 대해 설명합니다.
 
 ## 영향을 받는 버전
 
@@ -86,5 +86,6 @@ ALTER TABLE sequence_order_1 AUTO_INCREMENT = 2000;
 
 ## 관련 설명서
 
-* 지원 기술 자료에서 [클라우드에 데이터베이스 덤프를 만듭니다](/help/how-to/general/create-database-dump-on-cloud.md).
-* 개발자 설명서에서 [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)합니다.
+* 지원 기술 자료에서 [클라우드에 데이터베이스 덤프 만들기](/help/how-to/general/create-database-dump-on-cloud.md)
+* 개발자 설명서에서 [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

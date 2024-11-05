@@ -4,9 +4,9 @@ description: 이 문서에서는 Adobe Commerce용 Magento Order Management 시�
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -61,10 +61,11 @@ E
 
 ## 솔루션
 
-이 문제를 해결하려면 CLI에서 다음 SQL 문을 실행하여 `mcom_api_messages` 테이블의 모든 레코드를 삭제합니다.
+이 문제를 해결하려면 CLI에서 다음 [!DNL SQL] 문을 실행하여 `mcom_api_messages` 테이블의 모든 레코드를 삭제합니다.
 
 `delete from mcom_api_messages;`
 
 ## 관련 읽기
 
-OMS 문서 [OMS 커넥터 설정 자습서](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)를 참조하십시오.
+* OMS 문서 [OMS 커넥터 설정 자습서](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

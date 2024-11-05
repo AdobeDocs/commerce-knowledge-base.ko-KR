@@ -4,9 +4,9 @@ description: 이 문서에서는 Commerce 관리자를 통해 제품 카테고�
 exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 feature: Categories
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -88,4 +88,8 @@ ht-degree: 0%
 1. 동일한 `entity_id` 및 동일한 `created_in` 값을 가진 범주 레코드를 찾습니다.
 1. `row_id` = `entity_id`인 레코드를 선택하고 `updated_in` 값을 복사합니다.
 1. `row_id`이(가) `entity_id`과(와) 같지 않은 레코드를 선택하고 복사된 `updated_in` 값을 `created_in` 값으로 붙여 넣으십시오. 그림으로 아래 스크린샷을 참조하십시오.    ![created_in value.png 복사](assets/copy_created-in_value.png)
-1. 3단계에서 업데이트한 `created_in` 값의 범주 업데이트 레코드가 `staging_update` 테이블에 있는지 확인하십시오. *예:* 복사한 `created_in` 값이 1509281953 경우 `row_id` = 1509281953인 엔터티가 `staging_update` 테이블에 있어야 합니다
+1. 3단계에서 업데이트한 `created_in` 값의 범주 업데이트 레코드가 `staging_update` 테이블에 있는지 확인하십시오. *예:* 복사한 `created_in` 값이 1509281953 경우 `row_id` = 1509281953인 엔터티가 `staging_update` 테이블에 있어야 합니다.
+
+## 관련 읽기
+
+Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

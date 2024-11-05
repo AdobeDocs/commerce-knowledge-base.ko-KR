@@ -4,9 +4,9 @@ description: 이 문서에서는 Adobe Commerce의 [!UICONTROL Product Recommend
 exl-id: 431ee31e-eb5b-400c-9c99-cc86613453d7
 feature: Cache, Compliance, Extensions, Marketing Tools, Personalization, Products, Recommendations
 role: Developer
-source-git-commit: af9ee28c5819a9d1b97411210816bfe8a9522614
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ saas-export
 magento/product-recommendations
 ```
 
-모듈이 올바릅니다. 개발자 설명서에서 [[!UICONTROL Product Recommendations - Install and Configure]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)을(를) 확인하십시오. 하지만 권장 사항이 표시되지 않습니다. 다음을 시도해 보십시오.
+모듈이 올바르지만(개발자 설명서에서 [[!UICONTROL Product Recommendations - Install and Configure]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)을(를) 확인하십시오.) 권장 사항이 표시되지 않으면 다음을 시도하십시오.
 
 * 모듈에서 동작 데이터를 수집할 시간이 충분하지 않았을 수 있습니다. 시스템이 데이터 수집을 시작할 수 있도록 24시간 동안 실행되도록 허용합니다. &quot;*이와 유사한 항목*&quot;과(와) 같이 동작 데이터가 필요하지 않은 권장 사항 유형을 배포하는 것이 좋습니다.
 
@@ -83,3 +83,5 @@ saas-export
 * Product Recommendations 안내서의 [Product Recommendations 만들기](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create)
 * [!DNL SaaS] 데이터 내보내기 가이드의 [로그 검토 및 문제 해결](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)
 * [!DNL SaaS] 서비스에 대한 Adobe Commerce 데이터 내보내기 안내서의 [[!DNL SaaS] 데이터 내보내기 확장 릴리스 노트](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+

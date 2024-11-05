@@ -4,9 +4,9 @@ description: 이 문서에서는 'var/log/exception.log'에서 대량의 제품�
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 문제
 
-MySQL 클라이언트 또는 [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) 서버가 [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet)바이트보다 큰 패킷을 받으면 [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) 오류(`exception.log`에 표시됨)가 발생하고 연결이 닫힙니다. 일부 클라이언트의 경우 통신 패킷이 너무 큰 경우 *쿼리 중에 MySQL 서버에 대한 연결이 끊김* 오류가 발생할 수도 있습니다.
+[!DNL MySQL] 클라이언트 또는 [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) 서버가 [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet)바이트보다 큰 패킷을 받으면 [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) 오류가 발생하고(`exception.log`에서 볼 수 있음) 연결을 닫습니다. 일부 클라이언트의 경우 통신 패킷이 너무 큰 경우 [!DNL MySQL] 서버에 대한 *연결 끊김* 오류가 발생할 수 있습니다.
 
 <u>재현 단계</u>
 
@@ -29,7 +29,7 @@ MySQL 클라이언트 또는 [mysqld](https://dev.mysql.com/doc/refman/8.0/en/my
 
 ## 원인
 
-MySQL `max_allowed_packets` 설정의 기본값인 16MB가 필요에 맞게 충분히 크지 않습니다.
+[!DNL MySQL] `max_allowed_packets` 설정의 기본값인 16MB가 필요에 맞게 충분히 크지 않습니다.
 
 ## 솔루션
 
@@ -45,7 +45,8 @@ MySQL `max_allowed_packets` 설정의 기본값인 16MB가 필요에 맞게 충�
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [설치 안내서 > MySQL](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=max%20allowed%2016%20MB).
-* [데이터베이스를 업로드하면 지원 기술 자료에서 MySQL에 대한 연결이 끊어집니다](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md).
+* 개발자 설명서에서 [온-프레미스 설치 개요](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview).
+* [데이터베이스를 업로드하면 지원 기술 자료에서  [!DNL MySQL]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql)에 대한 연결이 끊어집니다.
 * 지원 기술 자료의 [클라우드 인프라에서 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html).
 * 지원 기술 자료에서 [데이터베이스 성능 문제를 해결하는 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html).
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

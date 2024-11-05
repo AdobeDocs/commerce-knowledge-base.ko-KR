@@ -1,19 +1,19 @@
 ---
 title: 콘텐츠 스테이징 문제로 인한 모든 페이지 오류 404
-description: 이 문서에서는 상점 전면 페이지 또는 Commerce 관리자에 액세스할 때 404 오류가 발생하는 Adobe Commerce 온-프레미스 및 Adobe Commerce 온-클라우드 인프라 문제에 대한 수정 사항을 제공합니다.
+description: 이 문서에서는 상점 첫 페이지나 [!UICONTROL Commerce Admin]에 액세스할 때 404 오류가 발생하는 Adobe Commerce 온-프레미스 및 Adobe Commerce 온 클라우드 인프라 문제에 대한 수정 사항을 제공합니다.
 exl-id: 62d8ba6e-8550-4e1e-8e8d-8f319c92778a
 feature: CMS, Catalog Management, Categories, Page Content, Staging
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
 
 # 콘텐츠 스테이징 문제로 인한 모든 페이지 오류 404
 
-이 문서에서는 상점 전면 페이지 또는 Commerce 관리자에 액세스할 때 404 오류가 발생하는 Adobe Commerce 온-프레미스 및 Adobe Commerce 온-클라우드 인프라 문제에 대한 수정 사항을 제공합니다.
+이 문서에서는 상점 첫 페이지나 [!UICONTROL Commerce Admin]에 액세스할 때 404 오류가 발생하는 Adobe Commerce 온-프레미스 및 Adobe Commerce 온 클라우드 인프라 문제에 대한 수정 사항을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 문서는 [스테이징 업데이트를 미리 보기](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change)하려고 할 때 404 오류가 발생하는 상황에는 적용되지 않습니다. 문제가 발생하면 [지원 티켓](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)을 여십시오.
+>이 문서는 [스테이징 업데이트를 미리 보기](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change)하려고 할 때 404 오류가 발생하는 상황에는 적용되지 않습니다. 문제가 발생하면 [지원 티켓](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)을 여십시오.
 
 [컨텐츠 스테이징](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)을 사용하여 저장소 컨텐츠 자산에 대해 예약된 업데이트([Magento\_스테이징 모듈](https://developer.adobe.com/commerce/php/module-reference/)을 사용하여 예약된 저장소 컨텐츠 자산에 대한 업데이트)로 작업을 수행한 후 상점 전면 페이지 또는 관리자에 액세스하면 404 오류(&quot;죄송합니다...&quot; 페이지)가 발생합니다. 예를 들어 예약된 업데이트가 있는 제품을 삭제하거나 예약된 업데이트의 종료 날짜를 제거했을 수 있습니다.
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ![updates_exist_1.png](assets/updates_exist_1.png)
 
-이 경우 문제 해결 아이디어는 [사이트 작동 중지 문제 해결사](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md)를 참조할 수 있습니다.
+이 경우 문제 해결 아이디어는 [사이트 작동 중지 문제 해결사](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter)를 참조할 수 있습니다.
 
 ## 솔루션
 
@@ -86,6 +86,10 @@ ht-degree: 0%
    DELETE FROM flag WHERE flag_code = 'staging';
    ```
 
-1. cron 작업이 실행될 때까지 기다리거나(올바르게 설정된 경우 최대 5분 이내 실행) cron이 설정되지 않은 경우 수동으로 실행합니다.
+1. [!DNL cron] 작업이 실행될 때까지 기다리거나(제대로 설정된 경우 최대 5분 후에 실행) [!DNL cron]을(를) 설정하지 않은 경우 수동으로 실행하십시오.
 
-잘못된 링크를 고친 후 문제를 바로 해결해야 한다. 문제가 계속되면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오.
+잘못된 링크를 고친 후 문제를 바로 해결해야 한다. 문제가 계속되면 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)하십시오.
+
+## 관련 읽기
+
+Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

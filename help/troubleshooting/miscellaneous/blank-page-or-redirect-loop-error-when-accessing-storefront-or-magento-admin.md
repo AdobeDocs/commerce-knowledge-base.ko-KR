@@ -4,9 +4,9 @@ description: 이 문서에서는 Adobe Commerce storefront 또는 백엔드에 �
 exl-id: 65869de2-1939-481b-844b-69122345b407
 feature: Admin Workspace, Cache, Storefront
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -60,3 +60,7 @@ HTTPS(관리자 및 상점 모두)로
    ```bash
    php <your_magento_install_dir>/bin/magento cache:clean config
    ```
+
+## 관련 읽기
+
+Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

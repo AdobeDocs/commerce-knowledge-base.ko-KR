@@ -4,9 +4,9 @@ description: 이 문서에서는 데이터베이스에 동일한 엔티티 ID에
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
 exl-id: 09d5c321-9c45-4041-b6f6-831efca0977e
-source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -67,5 +67,6 @@ SELECT row_id, entity_id, created_in, updated_in FROM catalog_product_entity WHE
 
 ## 관련 읽기
 
-* [범주에 대한 변경 내용이 저장되지 않습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html).
-* 지원 기술 자료에서 [일정 업데이트의 종료 날짜를 편집한 후 카탈로그 테이블에 있는 항목이 중복되었습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html).
+* 지원 기술 자료에서 [범주의 변경 내용이 저장되지 않음](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
+* 지원 기술 자료에서 [일정 업데이트의 종료 날짜를 편집한 후 카탈로그 테이블에 있는 항목이 중복됨](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

@@ -3,9 +3,10 @@ title: 고객 프로필이 Experience Platform에 표시되지 않음
 description: 이 문서에서는  [!DNL Data Connection] 확장을 사용할 때 고객 프로필 데이터가 Experience Platform에 표시되지 않는 경우의 문제 해결 단계를 제공합니다.
 feature: Personalization, Integration, Configuration
 role: Admin, Developer
-source-git-commit: a520ef45f1c55dbf34a98c4f4d3ab49814535434
+exl-id: 4f12b032-0bee-47da-927a-8d4c2d8b8276
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -95,7 +96,7 @@ Commerce 관리에서 다음 필드가 설정되어 있는지 확인합니다.
 
 ### 쿼리 이벤트 데이터 SaaS 테이블
 
-다음 SQL 쿼리를 연결하고 실행하여 고객 프로필 레코드가
+다음 [!DNL SQL] 쿼리를 연결하고 실행하여 고객 프로필 레코드가
 `event_data_saas` 테이블 및 오류가 없음을 확인합니다.
 
 ```sql
@@ -124,4 +125,5 @@ select * from event_data_saas;
 
 ## 관련 읽기
 
-Commerce 서비스 사용 안내서에서 [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 확장을 참조하십시오.
+* Commerce 서비스 사용 안내서의 [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 확장
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

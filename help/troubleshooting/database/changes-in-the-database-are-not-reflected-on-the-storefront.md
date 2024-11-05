@@ -1,19 +1,19 @@
 ---
 title: 데이터베이스의 변경 사항은 상점 앞에 반영되지 않습니다
-description: 이 문서에서는 엔티티 업데이트가 적용되지 않도록 지연 또는 중단을 방지하는 솔루션을 제공합니다. 여기에는 변경 로그 테이블의 크기가 커지지 않도록 하는 방법과 MySQL 테이블 트리거를 설정하는 방법이 포함됩니다.
+description: 이 문서에서는 엔티티 업데이트가 적용되지 않도록 지연 또는 중단을 방지하는 솔루션을 제공합니다. 여기에는 변경 로그 테이블의 크기가 너무 커지지 않도록 하는 방법과  [!DNL MySQL] 테이블 트리거를 설정하는 방법이 포함됩니다.
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
 
 # 데이터베이스의 변경 사항은 상점 앞에 반영되지 않습니다
 
-이 문서에서는 엔티티 업데이트가 적용되지 않도록 지연 또는 중단을 방지하는 솔루션을 제공합니다. 여기에는 변경 로그 테이블의 크기가 커지지 않도록 하는 방법과 MySQL 테이블 트리거를 설정하는 방법이 포함됩니다.
+이 문서에서는 엔티티 업데이트가 적용되지 않도록 지연 또는 중단을 방지하는 솔루션을 제공합니다. 여기에는 변경 로그 테이블의 크기가 너무 커지지 않도록 하는 방법과 [!DNL MySQL] 테이블 트리거를 설정하는 방법이 포함됩니다.
 
 영향을 받는 제품 및 버전:
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 `indexer_update_all_views` cron 작업이 여러 번 완료되지 않으면 변경 로그 테이블이 커집니다.
 
-변경 로그 테이블은 엔티티에 대한 변경 사항이 추적되는 데이터베이스 테이블입니다. 변경 내용이 적용되지 않는 한 변경 로그 테이블에 레코드가 저장됩니다. `indexer_update_all_views` cron 작업에서 이 작업을 수행합니다. Adobe Commerce 데이터베이스에 변경 로그 테이블이 여러 개 있습니다. 이 테이블은 INDEXER\_TABLE\_NAME + &#39;\_cl&#39; 패턴에 따라 이름이 지정됩니다(예: `catalog_category_product_cl`, `catalog_product_category_cl`). 데이터베이스에서 변경 내용을 추적하는 방법에 대한 자세한 내용은 개발자 설명서의 [색인화 개요 > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) 문서에서 확인할 수 있습니다.
+변경 로그 테이블은 엔티티에 대한 변경 사항이 추적되는 데이터베이스 테이블입니다. 변경 내용이 적용되지 않는 한 변경 로그 테이블에 레코드가 저장됩니다. `indexer_update_all_views` cron 작업에서 이 작업을 수행합니다. Adobe Commerce 데이터베이스에 변경 로그 테이블이 여러 개 있습니다. 이 테이블은 다음 패턴에 따라 이름이 지정됩니다. INDEXER\_TABLE\_NAME + &#39;\_cl&#39;(예: `catalog_category_product_cl`, `catalog_product_category_cl`). 데이터베이스에서 변경 내용을 추적하는 방법에 대한 자세한 내용은 개발자 설명서의 [색인화 개요 > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) 문서에서 확인할 수 있습니다.
 
-### MySQL 데이터베이스 트리거가 설정되지 않음
+### [!DNL MySQL] 데이터베이스 트리거가 설정되지 않았습니다.
 
 엔티티(제품, 카테고리, 대상 규칙 등)를 추가하거나 변경한 후 해당 변경 로그 테이블에 레코드가 추가되지 않는 경우 데이터베이스 트리거가 설정되지 않은 것으로 의심됩니다.
 
@@ -60,9 +60,9 @@ select * from cron_schedule where job_code = "indexer_update_all_views" and stat
 * `<install_directory>/var/log/cron.log` - 버전 2.3.1+ 및 2.2.8+의 경우
 * `<install_directory>/var/log/system.log` - 이전 버전용
 
-### MySQL 테이블 트리거 다시 설정
+### [!DNL MySQL] 테이블 트리거 다시 설정
 
-누락된 MySQL 테이블 트리거를 설정하려면 인덱서 모드를 다시 설정해야 합니다.
+누락된 [!DNL MySQL] 테이블 트리거를 설정하려면 인덱서 모드를 다시 설정해야 합니다.
 
 1. &#39;저장 시&#39;로 전환합니다.
 1. &#39;일정에 따라&#39;로 다시 전환합니다.
@@ -83,5 +83,6 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## 관련 읽기
 
-<ul><li title="MySQL 테이블이 너무 큽니다.">지원 기술 자료에서 <a href="/help/troubleshooting/database/mysql-tables-are-too-large.md">MySQL 테이블이 너무 큽니다</a>.</li>
-<li title="MySQL 테이블이 너무 큽니다.">개발자 설명서에서 <a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">인덱서 개요 &gt; Mview</a>.</li></ul>
+* 지원 기술 자료에서 [[!DNL MySQL] 테이블이 너무 큽니다.](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/mysql-tables-are-too-large)
+* 개발자 설명서에서 [인덱싱: [!DNL Mview]](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

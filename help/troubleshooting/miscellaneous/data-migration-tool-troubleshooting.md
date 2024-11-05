@@ -4,9 +4,9 @@ description: 이 문서에서는 데이터 마이그레이션 도구를 실행�
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -162,3 +162,7 @@ Deltalog for <TABLE_NAME> is not installed
 ### 가능한 해결 방법
 
 마이그레이션 문제를 해결하기 위해 Adobe Commerce 1 데이터베이스의 복사본에서 마이그레이션 프로세스를 테스트하는 것이 좋습니다. 사본의 문제를 해결한 후 라이브 Adobe Commerce 1 데이터베이스에서 마이그레이션 프로세스를 다시 시작합니다. 이를 통해 원활한 마이그레이션 프로세스를 보장할 수 있습니다.
+
+## 관련 읽기
+
+Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

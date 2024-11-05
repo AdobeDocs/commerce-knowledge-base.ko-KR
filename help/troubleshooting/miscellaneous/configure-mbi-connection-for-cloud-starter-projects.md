@@ -4,9 +4,9 @@ description: 이 문서에서는 기존 Cloud Starter 프로젝트에 대해 Ado
 feature: Commerce Intelligence
 role: Developer
 exl-id: 56f6ad64-729d-4e3a-93a9-da1b91bc5c1d
-source-git-commit: b75328202952bf4c8f57ddc538b5c9e4318b2001
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Cloud Starter 프로젝트용 Commerce Intelligence을 활성화하려면 Commer
 
    ![SSH 공개 키 추가](/help/troubleshooting/miscellaneous/assets/add_ssh_key_mbi.png)
 
-1. Business Intelligence Essentials MySQL 자격 증명을 제공합니다.
+1. Business Intelligence Essentials [!DNL MySQL] 자격 증명을 제공합니다.
 
    * `.magento/services.yaml`을(를) 업데이트합니다.
 
@@ -197,3 +197,7 @@ Cloud Starter 프로젝트용 Commerce Intelligence을 활성화하려면 Commer
 1. **[!UICONTROL Save Integration]**&#x200B;을(를) 클릭합니다.
 1. 이제 Commerce Intelligence Essentials 계정에 성공적으로 연결했습니다.
 1. Adobe Commerce Intelligence Pro 고객인 경우 고객 성공 관리자 또는 고객 기술 관리자에게 문의하여 다음 단계를 조정하십시오.
+
+## 관련 읽기
+
+Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

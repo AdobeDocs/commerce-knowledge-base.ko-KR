@@ -4,9 +4,9 @@ description: Adobe Commerce의 고급 보고 문제는 이 문제 해결사 도�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: ae6dde9ecc01a0e1c561d1e91dbd2f7bc3504fe0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ b. 아니요 - [고급 보고 요구 사항](https://docs.magento.com/user-guide
 
 +++**여러 기본 통화가 사용됩니까?**
 
-주문 및 구성에서 여러 기본 통화가 사용됩니까? 이 SQL 명령을 실행하여 현재 구성을 가져옵니다. `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` .
+주문 및 구성에서 여러 기본 통화가 사용됩니까? 이 [!DNL SQL] 명령을 실행하여 현재 구성을 가져옵니다. `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` .
 
 a. 예 - 쿼리에서 반환된 행이 여러 개인 경우 한 통화만 지원하므로 고급 보고를 사용할 수 없습니다.\
-b. NO - 출력에 하나의 통화만 표시됩니다. 예: `USD` 주문에서 여러 기본 통화가 사용된 적이 있습니까? 다음 SQL 명령을 실행하여 내역 주문 데이터를 가져옵니다.\
+b. NO - 출력에 하나의 통화만 표시됩니다. 예: `USD` 주문에서 여러 기본 통화가 사용된 적이 있습니까? 이 [!DNL SQL] 명령을 실행하여 이전 주문 데이터를 가져옵니다.\
 `SELECT DISTINCT base_currency_code FROM sales_order;`.
 **참고: 이 명령을 사용하려면 전체 테이블을 검사해야 하므로 레코드 수가 많은 테이블의 경우 쿼리가 실행되는 동안 성능에 영향을 줄 수 있습니다.** 이전 주문 데이터를 가져옵니다.
 여러 기본 통화가 사용된 경우 하나의 통화만 지원되므로 고급 보고를 사용할 수 없습니다. 출력에 하나의 통화만 표시되면 [3단계](#step-3)로 진행합니다.
@@ -157,3 +157,7 @@ b. 아니요 - [지원 티켓을 제출](/help/help-center-guide/help-center/mag
 +++
 
 [1단계로 돌아가기](#step-1)
+
+## 관련 읽기
+
+Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

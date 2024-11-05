@@ -4,9 +4,9 @@ description: 이 문서에서는 'oauth_token' 테이블에 많은 'oauth_tokens
 feature: Variables, Upgrade
 role: Developer
 exl-id: 92d1d15a-04da-4ba4-b6b8-5c491af9c4c1
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -36,5 +36,6 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* Commerce 구성 참조 가이드의 [서비스 > [!DNL OAuth]](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html).
-* Adobe Developer 가이드의 [인증 가이드](https://developer.adobe.com/developer-console/docs/guides/authentication/).
+* Commerce 구성 참조 안내서의 [서비스 > [!DNL OAuth]](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html)
+* Adobe Developer 안내서의 [인증 안내서](https://developer.adobe.com/developer-console/docs/guides/authentication/)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
