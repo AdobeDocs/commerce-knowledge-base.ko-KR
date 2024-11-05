@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 2212ec66c04445db791c5bd852d7498161de410d
+source-git-commit: 5110233220a6db734be2802b792869759f46b8c0
 workflow-type: tm+mt
-source-wordcount: '9625'
+source-wordcount: '9627'
 ht-degree: 0%
 
 ---
@@ -841,7 +841,7 @@ ht-degree: 0%
       * [robots.txt, 클라우드 인프라 2.3.x에서 404 오류 Adobe Commerce 제공](/help/troubleshooting/miscellaneous/robots-txt-gives-404-error-magento-commerce-cloud-2-3-x.md)
       * [성능 문제를 일으키는 제한된 관리자 액세스](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
       * [Cron 작업은 다른 그룹의 작업을 잠급니다.](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
-      * [Commerce 관리자의 잠긴 필드](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)
+      * [Commerce 관리자의 잠긴(회색으로 표시됨) 필드](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)
       * [Commerce 관리자를 사용하여 검색 엔진을 변경할 수 없음(검색 엔진 메뉴에 액세스할 수 없음)](/help/troubleshooting/miscellaneous/cannot-change-search-engine-using-magento-admin-search-engine-menu-is-inaccessible.md)
       * [설치 xdebug 최대 함수 중첩 수준 오류](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
       * [엔티티 Adobe Commerce 백엔드를 저장할 수 없음](/help/troubleshooting/miscellaneous/unable-to-save-entity-backend.md)

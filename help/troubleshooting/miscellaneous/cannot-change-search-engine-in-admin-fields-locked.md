@@ -2,9 +2,9 @@
 title: '''app/etc/env.php''에서 검색 엔진을 변경할 수 없음'
 description: 이 문서에서는 Commerce 관리자의 검색 엔진을 변경하려고 하지만 필드가 잠겨 있는 문제에 대한 해결 방법을 제공합니다.
 exl-id: 61006ce7-34f9-4e4d-a197-f3d627dd277f
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ Commerce 관리에서 검색 엔진을 변경하려고 하지만 필드가 잠�
 
 ## 관련 읽기
 
-* Cloud Infrastructure Guide의 Commerce Commerce Admin에서 [잠긴 필드](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md).
+* Cloud Infrastructure Guide의 Commerce Commerce Admin에서 [잠긴(회색으로 표시됨) 필드](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md).
