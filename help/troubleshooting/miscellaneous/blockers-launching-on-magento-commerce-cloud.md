@@ -4,9 +4,9 @@ description: 이 문서에서는 Fastly 구성, SSL 인증서, 301 리디렉션 
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: 3dd44b72bc9f02fe808b70355c4331fc28aa3606
+source-git-commit: d728d44c4e1be3172ebf595122f3cc215207ac17
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,6 @@ Fastly 구성 프로세스는 사용 안내서의 [Fastly 설정](https://experi
 
 권장 사항 **:** 스테이징 또는 라이브 도메인 이름에 대한 공유 SSL 인증서를 요청합니다.
 
-지원 기술 자료의 [빠른 FAQ](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md) 문서에서 SSL 인증서에 대해 읽어 보십시오.
 
 ## 3. 301 리디렉션 구성 및 테스트
 

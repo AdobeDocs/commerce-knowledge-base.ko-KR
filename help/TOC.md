@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 5110233220a6db734be2802b792869759f46b8c0
+source-git-commit: d197baf1644dd734880e6e36d6cf477bad3b1170
 workflow-type: tm+mt
-source-wordcount: '9627'
+source-wordcount: '9597'
 ht-degree: 0%
 
 ---
@@ -631,13 +631,9 @@ ht-degree: 0%
       * [통합 환경 개선 요청 - Pro 및 Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
       * [클라우드 인프라의 Adobe Commerce에 대한 휴일 서지 용량 요청](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
       * [Adobe Commerce용 업그레이드 호환성 도구 1.1.0](/help/announcements/adobe-commerce-announcements/upgrade-compatibility-tool-for-magento.md)
-      * [SSL/TLS 인증서 요구 사항 Adobe 및 정리](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md)
       * [Adobe Commerce 릴리스의 업데이트된 라이프사이클 정책에 대한 FAQ](/help/announcements/adobe-commerce-announcements/faq-for-the-updated-lifecycle-policy-for-magento-releases.md)
       * [Cloud 2.4.4의 Adobe Commerce OpenSearch로 전환](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
-      * [기존 EU 지역에 대한 통합 환경 마이그레이션](/help/announcements/adobe-commerce-announcements/integration-environments-migration-to-new-regions-for-eu-and-us.md)
       * [PHP 취약성용 Adobe Commerce Recommendations](/help/announcements/adobe-commerce-announcements/magento-recommendations-for-php-vulnerabilities.md)
-      * [Adobe Commerce의 Apache log4j2 취약성](/help/announcements/adobe-commerce-announcements/apache-log4j2-adobe-commerce.md)
-      * [클라우드 인프라에서 Adobe Commerce에 대한 Blackfire 액세스 제거](/help/announcements/adobe-commerce-announcements/blackfire-access-removal-for-magento-commerce-cloud.md)
       * [품질 패치 툴 출시: 품질 패치를 셀프서비스할 수 있는 새로운 툴](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
       * [MySQL 카탈로그 검색 엔진이 Adobe Commerce 2.4.0에서 제거됩니다.](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
       * [Adobe 지원 고객 데이터 액세스 및 개인정보 보호](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
