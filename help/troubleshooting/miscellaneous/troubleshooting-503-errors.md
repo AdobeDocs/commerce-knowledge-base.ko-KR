@@ -4,7 +4,7 @@ description: 이 문서에서는 특정 바니시 캐시 기본값이 저장소�
 exl-id: 3f001cc9-b19a-4dee-bff0-fc8ba89e2646
 feature: Cache, Categories
 role: Admin
-source-git-commit: 9c5e993b69a98865a1142110625252da848eae04
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -63,4 +63,4 @@ Varnish가 캐싱 애플리케이션으로 구성되고 Adobe Commerce이 개발
 $ bin/magento cache:enable
 ```
 
-명령줄 사용에 대한 자세한 내용은 [명령줄 구성 시작](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands.html)을 참조하십시오.
+명령줄 사용에 대한 자세한 내용은 [명령줄 구성 시작](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli)을 참조하십시오.

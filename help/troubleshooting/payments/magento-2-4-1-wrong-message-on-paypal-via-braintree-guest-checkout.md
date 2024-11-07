@@ -4,7 +4,7 @@ description: 이 문서에서는 게스트 체크아웃이 비활성화된 경�
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 <u>필수 구성 요소</u>:
 
 1. Commerce 관리자의 **스토어** > **구성** > **판매** > **체크아웃**&#x200B;에서 **게스트 체크아웃 허용** = *아니요*&#x200B;를 설정하십시오.
-1. 사용 안내서의 [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?)에 설명된 대로 Braintree을 통해 PayPal을 사용하도록 설정하십시오.
+1. 사용 안내서의 [Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?)에 설명된 대로 Braintree을 통해 PayPal을 사용하도록 설정하십시오.
 
 <u>재현 단계</u>:
 
@@ -55,10 +55,10 @@ Braintree을 사용하지 않고 직접 Paypal을 사용하는 경우 이 시나
 
 ## 해결 방법
 
-이 문제에 대한 해결 방법은 고객이 스토어에 로그인할 수 있다는 것입니다(로그인한 사용자는 게스트 체크아웃을 사용하지 않음). 게스트 체크아웃이 비활성화된 경우. 이 문제는 Adobe Commerce 버전 2.4.2에서 해결되었습니다.
+이 문제에 대한 해결 방법은 고객이 게스트 체크아웃이 비활성화된 스토어(로그인한 사용자는 게스트 체크아웃을 사용하지 않음)에 로그인할 수 있다는 것입니다. 이 문제는 Adobe Commerce 버전 2.4.2에서 해결되었습니다.
 
 ## 관련 읽기
 
 * 지원 기술 자료에서 [Adobe Commerce의 장바구니에 있는 제품 수에 대한 모범 사례](https://support.magento.com/hc/en-us/articles/360048550332).
-* [주문 처리 자습서: 1단계. 개발자 설명서에서 장바구니에 항목 추가](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html)
-* [GraphQL 체크아웃 튜토리얼: 1단계. 개발자 설명서에서 장바구니에 제품 추가](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html)
+* [주문 처리 자습서: 1단계. 개발자 설명서에서 장바구니에 항목 추가](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/)
+* [GraphQL 체크아웃 튜토리얼: 1단계. 개발자 설명서에서 장바구니에 제품 추가](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-add-product-to-cart.html)

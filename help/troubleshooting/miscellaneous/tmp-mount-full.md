@@ -4,7 +4,7 @@ description: 이 문서에서는 "/tmp" 마운트가 꽉 차고, 사이트가 �
 exl-id: e72d0f99-0060-474b-bb1c-2851896e1e43
 feature: Storage
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -120,7 +120,7 @@ find /tmp/*.hprof -type f -delete
 
 `/tmp`이(가) 가득 찬 문제가 발생하지 않도록 하려면 다음 권장 사항을 따르십시오.
 
-* 검색에 MySQL을 사용하지 마십시오. Elasticsearch을 사용하면 대부분의 무거운 임시 테이블을 만들 필요가 없습니다. 개발자 설명서에서 [Elasticsearch을 사용하도록 Adobe Commerce 구성](https://devdocs.magento.com/guides/v2.2/config-guide/elasticsearch/configure-magento.html)을 참조하십시오.
+* 검색에 MySQL을 사용하지 마십시오. Elasticsearch을 사용하면 대부분의 무거운 임시 테이블을 만들 필요가 없습니다. 개발자 설명서에서 [Elasticsearch을 사용하도록 Adobe Commerce 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine)을 참조하십시오.
 * 인덱스가 없는 열에서 `SELECT` 쿼리를 실행하지 마십시오. 이렇게 하면 많은 양의 임시 디스크 공간이 사용되기 때문입니다. 색인을 추가할 수도 있습니다.
 * CLI에서 다음 명령을 실행하여 `/tmp`을(를) 정리할 cron을 만드십시오.
 

@@ -4,7 +4,7 @@ description: '이 문서에서는 New Relic에서 Adobe Commerce에 대한 Maria
 exl-id: 707e20e0-faba-4bcd-884c-b54568787442
 feature: Cache, Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe Commerce on cloud infrastructure Pro 계획 아키텍처
 **실행!**
 
 * 이 경고가 지워질 때까지 예약된 배포를 중단합니다.
-* 사이트가 응답하지 않거나 완전히 응답하지 않는 경우 즉시 사이트를 유지 관리 모드로 전환합니다. 단계는 개발자 설명서에서 [설치 안내서 > 유지 관리 모드 활성화 또는 비활성화](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten)를 참조하십시오. 문제 해결을 위해 사이트에 계속 액세스할 수 있도록 제외 IP 주소 목록에 IP를 추가해야 합니다. 단계는 [제외 IP 주소 목록 유지](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt)를 참조하세요.
+* 사이트가 응답하지 않거나 완전히 응답하지 않는 경우 즉시 사이트를 유지 관리 모드로 전환합니다. 단계는 개발자 설명서에서 [설치 안내서 > 유지 관리 모드 활성화 또는 비활성화](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)를 참조하십시오. 문제 해결을 위해 사이트에 계속 액세스할 수 있도록 제외 IP 주소 목록에 IP를 추가해야 합니다. 단계는 [제외 IP 주소 목록 유지](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#instgde-cli-maint-exempt)를 참조하세요.
 * 사이트 성능에 영향을 주는 경우 경고의 원인이 될 수 있는 가져오기 등의 스크립트를 종료합니다.
 
 **안 함!**
@@ -56,7 +56,7 @@ DML 질의 위기 경보를 수신하는 경우 1단계에서 시작합니다. D
 1. 코드 최적화 또는 운영 최적화를 찾습니다.
 1. 코드 최적화: 대량 삽입/업데이트, 색인 사용 최소화 또는 코드 조절 기능을 사용하여 쿼리를 최적화합니다.
 1. 운영 최적화: 리소스 집약적인 데이터 수정을 오프로드하여 트래픽 시간을 단축합니다.
-1. 추가 최적화: 최신 버전의 ECE-Tools를 사용하고 있는지 확인하십시오. 단계는 개발자 설명서에서 [Adobe Commerce용 클라우드 > ece-tools 버전 업데이트](https://devdocs.magento.com/cloud/project/ece-tools-update.html)를 참조하십시오.
+1. 추가 최적화: 최신 버전의 ECE-Tools를 사용하고 있는지 확인하십시오. 단계는 개발자 설명서에서 [Adobe Commerce용 클라우드 > ece-tools 버전 업데이트](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)를 참조하십시오.
 
 ## 관련 읽기
 

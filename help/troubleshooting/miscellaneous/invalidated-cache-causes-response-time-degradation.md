@@ -4,7 +4,7 @@ description: 이 문서에서는 Adobe Commerce 저장소의 성능 저하를 �
 exl-id: 7cb6a39f-923b-4acc-965d-23cf7b52c25a
 feature: Cache, Catalog Management, Categories
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -67,4 +67,4 @@ Adobe Commerce에는 두 가지 유형의 캐시가 있습니다.
 ## 추천
 
 1. Commerce CLI에서 캐시를 플러시하지 마십시오.
-1. 인덱서가 전체 다시 인덱싱을 트리거하므로 **저장 모드에서 업데이트** 대신 **일정별로 업데이트**&#x200B;하도록 인덱서를 구성하십시오. 자세한 내용은 개발자 설명서에서 [인덱서 관리 > 인덱서 구성](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers)을 참조하십시오.
+1. 인덱서가 전체 다시 인덱싱을 트리거하므로 **저장 모드에서 업데이트** 대신 **일정별로 업데이트**&#x200B;하도록 인덱서를 구성하십시오. 자세한 내용은 개발자 설명서에서 [인덱서 관리 > 인덱서 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)을 참조하십시오.

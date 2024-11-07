@@ -4,7 +4,7 @@ description: 이 문서에서는 Commerce 관리자의 필드를 수정할 수 �
 exl-id: 5fe0967a-4241-440b-bb0d-429fa5644bbc
 feature: Admin Workspace
 role: Developer
-source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -52,6 +52,6 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [구성을 내보내기](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings).
-* 개발자 설명서에서 [구성 값을 설정](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set)합니다.
+* 개발자 설명서에서 [구성을 내보내기](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration).
+* 개발자 설명서에서 [구성 값을 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)합니다.
 * [클라우드 인프라의 Adobe Commerce: 구성 관리를 통해 배포 중단 시간을 줄입니다](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md).

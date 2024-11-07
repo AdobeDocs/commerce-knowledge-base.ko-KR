@@ -4,7 +4,7 @@ description: 이 문서에서는 실패한 Adobe Commerce 다운로드 및 예�
 exl-id: 5abdab97-4b0c-466b-a68f-a2637d2826e5
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
@@ -52,5 +52,5 @@ Composer version 1.0-dev (2b14f0a047dd4f3545ec82381f65c36ea93a4c81) 2015-11-25 1
    * Composer를 2015년 11월 26일 이후의 버전으로 업그레이드하십시오. `composer self-update`.
 
 1. Adobe Commerce 디렉터리 및 하위 디렉터리를 삭제합니다.
-1. `[composer create-project](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)` 또는 `[git clone](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/dev_install.html)`을(를) 사용하여 다운로드를 다시 시도하십시오.
+1. `[composer create-project](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)` 또는 `[git clone](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/)`을(를) 사용하여 다운로드를 다시 시도하십시오.
 1. Adobe Commerce 소프트웨어를 성공적으로 다운로드한 후 작성기 `composer self-update`을(를) 업데이트합니다.

@@ -4,7 +4,7 @@ description: 이 문서에서는 관리 패널을 통해 웹 설치 마법사에
 exl-id: 1b89da58-c872-481b-b2a0-aa48db8223db
 feature: Admin Workspace, Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 이 기능은 클라우드 인프라의 Adobe Commerce에서 비활성화됩니다.
 
-업데이트를 수행하거나 클라우드 인프라에 Adobe Commerce용 외부 모듈을 설치하는 방법에 대한 자세한 내용은 개발자 설명서에서 [확장 설치, 관리 및 업그레이드](https://devdocs.magento.com/cloud/howtos/install-components.html)를 참조하십시오.
-Adobe Commerce 온-프레미스에 대한 업데이트를 수행하거나 외부 모듈을 설치하는 방법에 대한 자세한 내용은 개발자 설명서에서 [빠른 시작 설치](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)를 참조하십시오.
+업데이트를 수행하거나 클라우드 인프라에 Adobe Commerce용 외부 모듈을 설치하는 방법에 대한 자세한 내용은 개발자 설명서에서 [확장 설치, 관리 및 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions)를 참조하십시오.
+Adobe Commerce 온-프레미스에 대한 업데이트를 수행하거나 외부 모듈을 설치하는 방법에 대한 자세한 내용은 개발자 설명서에서 [빠른 시작 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)를 참조하십시오.
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [확장 설치](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension)를 참조하십시오.
+* 개발자 설명서에서 [확장 설치](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension)를 참조하십시오.

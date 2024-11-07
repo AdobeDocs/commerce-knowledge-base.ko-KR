@@ -4,7 +4,7 @@ description: 이 문서에서는 "CSV 파일은 UTF-8 인코딩을 사용해야 
 exl-id: 88d8e0b8-152e-4a6d-bc44-3b285e0eb0c3
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -23,4 +23,4 @@ ht-degree: 0%
 1. {&#x200B;0}파일&#x200B;**>**&#x200B;다른 이름으로 저장&#x200B;**을 클릭하고 &#x200B; &#x200B; &#x200B;{4&#x200B; &#x200B;}쉼표로 구분된 값(.csv)** 형식을 선택하여 파일을 저장합니다.****
 1. Sublime Text에서 CSV 파일을 엽니다.
 1. Sublime Text에서 &#x200B; **&#x200B;파일** > **인코딩으로 저장** > **UTF-8\*{5&#x200B;}(으)로 이동합니다.** 그러면 CSV 파일이 UTF-8 인코딩으로 저장됩니다.    ![csv_file_UTF-8_sublime_3.2.2_magento_BI.png](assets/csv_file_UTF-8_sublime_3.2.2_magento_BI.png)
-1. Magento BI의 새 테이블에 [데이터를 업로드](https://docs.magento.com/mbi/data-analyst/importing-data/connecting-data/using-file-uploader.html)(사용 안내서)합니다.
+1. Magento BI의 새 테이블에 [데이터를 업로드](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader)(사용 안내서)합니다.

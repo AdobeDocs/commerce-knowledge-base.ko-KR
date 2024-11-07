@@ -4,7 +4,7 @@ description: '"이 문서에서는 스테이징 또는 프로덕션 환경에 �
 exl-id: 7f58591a-5581-46cd-984d-09ac2c0f3903
 feature: Deploy, Routes, Staging
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. 변경 с 사항을 생략하고 푸시하여 프로젝트를 재배포합니다.
 
-경로 구성을 업데이트하는 자세한 지침은 개발자 설명서에서 [Adobe Commerce용 클라우드 > 경로 구성](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_routes.html)을 참조하십시오.
+경로 구성을 업데이트하는 자세한 지침은 개발자 설명서에서 [Adobe Commerce용 클라우드 > 경로 구성](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml)을 참조하십시오.
 
 >[!NOTE]
 >

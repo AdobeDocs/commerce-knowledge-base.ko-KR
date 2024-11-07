@@ -4,7 +4,7 @@ description: 이 문서에서는 데이터베이스 업로드가 MySQL에 대한
 exl-id: 6051cea1-8292-4a81-8908-eb516cb4a32b
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -42,7 +42,7 @@ web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-`services.yaml`의 데이터베이스에 더 많은 공간을 할당하고 사용하지 않는 공간이 있는 경우 배포해야 합니다. 단계는 [서비스 디스크 공간](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space)을 참조하세요.
+`services.yaml`의 데이터베이스에 더 많은 공간을 할당하고 사용하지 않는 공간이 있는 경우 배포해야 합니다. 단계는 [서비스 디스크 공간](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space)을 참조하세요.
 
 참고: Pro 아키텍처 계획에서 다음 명령을 실행하여 파티션에 할당된 공간을 확인할 수 있습니다. `df -h`
 
@@ -58,4 +58,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## 관련 읽기
 
-개발자 설명서에서 [디스크 공간 관리](https://devdocs.magento.com/cloud/project/manage-disk-space.html)
+개발자 설명서에서 [디스크 공간 관리](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)

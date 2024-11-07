@@ -3,7 +3,7 @@ title: 클라우드 인프라의 Adobe Commerce에 있는 모든 페이지에 �
 description: Commerce 관리자에서 Fastly의 **TLS 강제 적용** 기능을 활성화하여 클라우드 인프라 스토어의 Adobe Commerce의 모든 페이지에 대해 글로벌 HTTP에서 HTTPS로 리디렉션할 수 있도록 합니다.
 exl-id: 71667f52-a99a-47a6-99d8-10532364870f
 feature: Cache, Cloud
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Commerce 관리에서 Fastly의 **TLS 강제 적용** 기능을 활성화하여 
 1. **Storefront에서 보안 URL 사용** 및 **Admin에서 보안 URL 사용** 설정을 **예**(으)로 설정합니다.    ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
 1. 변경 내용을 적용하려면 오른쪽 상단의 **구성 저장**&#x200B;을 클릭하세요.
 
-**사용 안내서의 관련 설명서:**   [URL 저장](https://docs.magento.com/m2/ee/user_guide/stores/store-urls.html).
+**사용 안내서의 관련 설명서:**   [URL 저장](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls).
 
 ### 2단계: 강제 TLS 활성화 {#step-2-enable-force-tls}
 

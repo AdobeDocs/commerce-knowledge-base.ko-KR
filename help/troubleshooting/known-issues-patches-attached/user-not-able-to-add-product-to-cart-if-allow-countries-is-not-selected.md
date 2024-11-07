@@ -4,7 +4,7 @@ description: 이 문서에서는 국가 허용 을 선택하지 않은 경우 �
 exl-id: d05d1956-de23-496c-9234-c461a3cfdf36
 feature: Orders, Products, Shopping Cart
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
@@ -65,4 +65,4 @@ customer-data.js:87 Uncaught Error: [object Object]
 
 ## 유용한 링크
 
-개발자 설명서에서 [클라우드 인프라의 Adobe Commerce에 사용자 지정 패치를 적용](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html)합니다.
+개발자 설명서에서 [클라우드 인프라의 Adobe Commerce에 사용자 지정 패치를 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)합니다.

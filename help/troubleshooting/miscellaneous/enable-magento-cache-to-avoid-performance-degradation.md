@@ -4,7 +4,7 @@ description: 이 문서에서는 특정 Adobe Commerce 캐시 유형이 비활�
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-1. 먼저 Adobe Commerce 캐시의 상태를 확인하여 문제가 있는지 확인합니다. 이를 위해 [환경에 SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)를 실행하고 다음 명령을 실행하십시오.
+1. 먼저 Adobe Commerce 캐시의 상태를 확인하여 문제가 있는지 확인합니다. 이를 위해 [환경에 SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)를 실행하고 다음 명령을 실행하십시오.
 
    ```bash
    php bin/magento cache:status
@@ -47,8 +47,8 @@ ht-degree: 0%
 
 Adobe Commerce 캐시 설명서 의 개발자 설명서:
 
-* [Adobe Commerce 캐시 개요](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
-* [캐시 관리](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html)
+* [Adobe Commerce 캐시 개요](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
+* [캐시 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 성능 문제와 그에 대한 솔루션에 대한 기타 가능한 이유는 다음과 같습니다.
 

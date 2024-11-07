@@ -4,7 +4,7 @@ description: 이 문서에서는 백업 생성 문제에 대해 가능한 해결
 exl-id: 1a6204ad-bd5a-46dc-8a8e-39655a174e09
 feature: Storage, Data Import/Export
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Backup functionality is currently disabled. Please use other means for backups.
 bin/magento config:set system/backup/functionality_enabled 1
 ```
 
-백업에 대한 자세한 내용은 [파일 시스템, 미디어 및 데이터베이스 백업 및 롤백을 참조하십시오.](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-backup.html)
+백업에 대한 자세한 내용은 [파일 시스템, 미디어 및 데이터베이스 백업 및 롤백을 참조하십시오.](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup)
 
 ## 디스크 공간 부족 {#insufficient-disk-space-trouble-backup-space-}
 
@@ -55,6 +55,6 @@ bin/magento config:set system/backup/functionality_enabled 1
 
 ## 백업 실패 {#backup-fails-trouble-backup-all-}
 
-백업이 실패하거나 모든 백업 테스트가 실패하면 [Adobe Commerce 파일 시스템 소유자](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html)에게 Adobe Commerce 파일 시스템에 대한 충분한 권한과 소유권이 없을 수 있습니다. 예를 들어 다른 사용자가 파일을 소유하거나 파일이 읽기 전용일 수 있습니다.
+백업이 실패하거나 모든 백업 테스트가 실패하면 [Adobe Commerce 파일 시스템 소유자](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)에게 Adobe Commerce 파일 시스템에 대한 충분한 권한과 소유권이 없을 수 있습니다. 예를 들어 다른 사용자가 파일을 소유하거나 파일이 읽기 전용일 수 있습니다.
 
-파일 시스템 사용 권한과 `<magento_root>/var` 디렉터리 및 하위 디렉터리의 소유권에 특별히 주의하십시오. 자세한 내용은 [파일 시스템 권한 및 소유권 설정](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html)을 참조하십시오.
+파일 시스템 사용 권한과 `<magento_root>/var` 디렉터리 및 하위 디렉터리의 소유권에 특별히 주의하십시오. 자세한 내용은 [파일 시스템 권한 및 소유권 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions)을 참조하십시오.

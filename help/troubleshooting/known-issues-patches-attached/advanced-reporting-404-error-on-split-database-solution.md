@@ -1,10 +1,10 @@
 ---
 title: 분할 데이터베이스 솔루션의 고급 보고 404 오류
-description: 이 문서에서는 고급 보고를 사용하려고 할 때 404 오류가 발생하는 [split database solution](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)을 사용하는 Adobe Commerce 2.3.x 사용자를 위한 패치를 제공합니다.
+description: 이 문서에서는 고급 보고를 사용하려고 할 때 404 오류가 발생하는 [split database solution](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)을 사용하는 Adobe Commerce 2.3.x 사용자를 위한 패치를 제공합니다.
 exl-id: b81d4ada-5f38-4882-bc5b-ab4ccd63fc5f
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 분할 데이터베이스 솔루션의 고급 보고 404 오류
 
-이 문서에서는 고급 보고를 사용하려고 할 때 404 오류가 발생하는 [분할 데이터베이스 솔루션](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)을 사용하는 Adobe Commerce 2.3.x 사용자를 위한 패치를 제공합니다.
+이 문서에서는 고급 보고를 사용하려고 할 때 404 오류가 발생하는 [분할 데이터베이스 솔루션](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)을 사용하는 Adobe Commerce 2.3.x 사용자를 위한 패치를 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 

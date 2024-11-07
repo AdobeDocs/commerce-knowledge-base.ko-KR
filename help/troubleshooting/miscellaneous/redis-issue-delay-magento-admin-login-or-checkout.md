@@ -4,7 +4,7 @@ description: 이 문서에서는 Commerce 관리자에 로그인하거나 체크
 exl-id: a91a7a51-7cc4-4910-a9de-3a212788663f
 feature: Admin Workspace, Checkout, Orders, Services
 role: Developer
-source-git-commit: aa8c32e3524d669daea7bcf8bc63ed9f8ed16ffa
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -80,6 +80,6 @@ Adobe Commerce은 세션 저장에 Redis를 사용할 때 일부 작업에 30초
 
 ## 클라우드 인프라 2.2.0의 Adobe Commerce: ECE-Tools v2002.0.8 이상 사용 {#h_64593789291526919876198}
 
-버전 2002.0.3 - 2002.0.7의 [ECE-Tools](https://devdocs.magento.com/cloud/project/ece-tools-update.html) 배포 스크립트 패키지가 [적용](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)되어 `disable_locking`을(를) `1`(으)로 설정하여 해결 방법이 자동으로 적용됩니다. 이렇게 하면 원래 문제가 발생하지 않는 Adobe Commerce 2.2.0에 대한 세션 잠금 메커니즘이 비활성화됩니다.
+버전 2002.0.3 - 2002.0.7의 [ECE-Tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) 배포 스크립트 패키지가 [적용](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)되어 `disable_locking`을(를) `1`(으)로 설정하여 해결 방법이 자동으로 적용됩니다. 이렇게 하면 원래 문제가 발생하지 않는 Adobe Commerce 2.2.0에 대한 세션 잠금 메커니즘이 비활성화됩니다.
 
 클라우드 인프라 2.2.0에서 Adobe Commerce을 실행하는 경우 ECE-Tools를 v2002.0.8 이상으로 업그레이드하십시오. 클라우드 인프라의 Adobe Commerce을 2.2.2 이상으로 업그레이드하는 것도 고려해 볼 수 있습니다.

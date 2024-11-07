@@ -4,7 +4,7 @@ description: 이 문서에서는 Adobe Commerce에서 Paypal Express, Payflow Pr
 exl-id: 46ab7f4d-ee0a-4cc1-96cc-6eb408319e9c
 feature: Checkout, Orders
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 <u>Adobe Commerce 2.3.6</u>의 경우:
 
-* [Adobe Commerce 2.3.6 릴리스 노트: 알려진 문제](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-6.html#known-issues)
-* [Magento Open Source 2.3.6 릴리스 정보: 알려진 문제](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
+* [Adobe Commerce 2.3.6 릴리스 노트: 알려진 문제](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/commerce-2-3-6.html)
+* [Magento Open Source 2.3.6 릴리스 정보: 알려진 문제](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
 
 <u>Adobe Commerce 2.4.1의 경우</u>:
 
-* [Adobe Commerce 2.4.1 릴리스 정보: 알려진 문제](https://devdocs.magento.com/guides/v2.4/release-notes/commerce-2-4-1.html#known-issues)
-* [Magento Open Source 2.4.1 릴리스 정보: 알려진 문제](https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html#known-issues)
+* [Adobe Commerce 2.4.1 릴리스 정보: 알려진 문제](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-1#known-issues)
+* [Magento Open Source 2.4.1 릴리스 정보: 알려진 문제](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/magento-open-source/2-4-1#known-issues)
 
 ## 영향을 받는 제품 및 버전
 
@@ -83,4 +83,4 @@ Adobe Commerce 온-프레미스/Adobe Commerce 온 클라우드 인프라/Magent
 
 <u>Git 패치</u>
 
-Adobe Commerce/Magento Open Source에 대한 git 패치 지침은 개발자 설명서 [패치 적용: 사용자 지정 패치](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches)를 참조하십시오.
+Adobe Commerce/Magento Open Source에 대한 git 패치 지침은 개발자 설명서 [패치 적용: 사용자 지정 패치](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)를 참조하십시오.

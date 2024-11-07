@@ -4,7 +4,7 @@ description: '이 문서에서는 다음과 유사한 클라우드 인프라의 
 exl-id: 2f72d80a-05b2-4908-8fa8-61d06885ed07
 feature: Cloud, Deploy, Paas, Variables
 role: Developer
-source-git-commit: 9ca95444aa785191e4c8bf1603773f3430414797
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ### 2. env:COMPOSER\_AUTH 변수에 키 값을 추가하고 auth.json에 동일한 키가 지정되어 있는지 확인합니다
 
-개발자 설명서에서 [기존 시스템 준비](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) 및 [인증 키 추가](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys)의 지침 및 관련 정보를 참조하십시오.
+개발자 설명서에서 [기존 시스템 준비](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) 및 [인증 키 추가](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview)의 지침 및 관련 정보를 참조하십시오.
 
 ### 3. auth.json 업데이트 또는 삭제
 

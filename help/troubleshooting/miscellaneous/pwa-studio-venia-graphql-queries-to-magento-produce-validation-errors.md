@@ -4,7 +4,7 @@ description: 이 문서에서는 Adobe Commerce 인스턴스에 대한 Venia sto
 exl-id: ba268945-2a10-4af5-8089-cde21f0687bd
 feature: GraphQL
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -42,9 +42,9 @@ yarn run validate-queries
 업그레이드 방법에 대한 지침은 다음 설명서를 참조하십시오.
 
 * PWA Studio 업그레이드를 위해 업그레이드해야 하는 버전에 대한 [PWA 릴리스 정보](https://github.com/magento/pwa-studio/releases/)의 &quot;이전 버전에서 업그레이드&quot; 섹션을 검색합니다.
-* 개발자 설명서에서 [클라우드 인프라 버전에서 Adobe Commerce 업그레이드](https://devdocs.magento.com/cloud/project/project-upgrade.html)
-* 개발자 설명서에서 [Adobe Commerce 온-프레미스 업그레이드(&quot;작성기 만들기 프로젝트&quot; 또는 아카이브를 사용하여 설치됨)](https://devdocs.magento.com/guides/v2.3/comp-mgr/cli/cli-upgrade.html)
-* 개발자 설명서에서 [Adobe Commerce 온-프레미스 업그레이드(Adobe Commerce 저장소를 복제하여 설치)](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/dev_update-magento.html)
+* 개발자 설명서에서 [클라우드 인프라 버전에서 Adobe Commerce 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
+* 개발자 설명서에서 [Adobe Commerce 온-프레미스 업그레이드(&quot;작성기 만들기 프로젝트&quot; 또는 아카이브를 사용하여 설치됨)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade)
+* 개발자 설명서에서 [Adobe Commerce 온-프레미스 업그레이드(Adobe Commerce 저장소를 복제하여 설치)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/developer/git-installs)
 
 ## 관련 읽기
 

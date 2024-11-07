@@ -4,7 +4,7 @@ description: 이 문서에서는 B2B 1.2.0을 설치할 때 'setup:upgrade' 도�
 exl-id: 2c1dadd9-7754-4b4c-8d37-b75c13beae5c
 feature: B2B, Install, Upgrade
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -69,8 +69,8 @@ Module 'Magento_PurchaseOrder':
 
 <u>Git 패치 </u>
 
-* 클라우드 인프라의 Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용](https://devdocs.magento.com/cloud/project/project-patch.html)을 참조하십시오.
-* Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용: 사용자 지정 패치](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches)를 참조하십시오.
+* 클라우드 인프라의 Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
+* Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용: 사용자 지정 패치](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)를 참조하십시오.
 
 ## 관련 읽기
 

@@ -2,7 +2,7 @@
 title: New Relic 서비스 액세스
 description: '이 문서에서는 충분한 라이선스/구독 권한을 가진 고객이 어떻게 New Relic 서비스에 액세스할 수 있는지 설명합니다.'
 exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
-source-git-commit: e07ade849a4105b5e499b5282d75cb1b5321b6ea
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -28,8 +28,8 @@ Pro 아키텍처를 사용하는 고객은 구독이 자동 설치된 New Relic 
 
 **Adobe Commerce on cloud infrastructure Starter 계획 아키텍처 고객 중 New Relic을 사용하려는 고객:**
 
-스타터 아키텍처 고객은 구독의 일부로 New Relic 인프라 서비스를 제공받지 않습니다. 그러나 개발자 설명서에서 [New Relic에 연결](https://devdocs.magento.com/cloud/project/new-relic.html#connect-to-new-relic)하는 단계에 따라 라이선스를 추가하는 경우 New Relic APM(Application Performance Monitoring)을 사용할 수 있습니다.
+스타터 아키텍처 고객은 구독의 일부로 New Relic 인프라 서비스를 제공받지 않습니다. 그러나 개발자 설명서에서 [New Relic에 연결](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)하는 단계에 따라 라이선스를 추가하는 경우 New Relic APM(Application Performance Monitoring)을 사용할 수 있습니다.
 
 ## 관련 읽기
 
-New Relic 서비스에 대한 자세한 내용은 개발자 설명서에서 [성능 조사](https://devdocs.magento.com/cloud/project/new-relic.html#investigate-performance)를 참조하십시오. New Relic 또한 지원 기술 자료에서 [클라우드 인프라에서 Adobe Commerce을 사용하여 성능 문제 해결](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)을 검토할 수 있습니다.
+New Relic 서비스에 대한 자세한 내용은 개발자 설명서에서 [성능 조사](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)를 참조하십시오. New Relic 또한 지원 기술 자료에서 [클라우드 인프라에서 Adobe Commerce을 사용하여 성능 문제 해결](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)을 검토할 수 있습니다.

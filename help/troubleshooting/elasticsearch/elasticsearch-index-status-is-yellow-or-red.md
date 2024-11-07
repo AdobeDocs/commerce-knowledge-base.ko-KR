@@ -2,7 +2,7 @@
 title: Elasticsearch 색인 상태가 '노란색' 또는 '빨간색'입니다.
 description: 이 문서에서는 Elasticsearch 인덱스 상태가 '*green*'이 아닌 경우에 대한 수정 사항을 제공합니다. '*노란색*'은 일반을 나타내고 '*빨간색*'은 잘못된 것을 나타냅니다. '노란색' 또는 '빨간색' 상태는 제품 누락 또는 이전 제품 정보 표시와 함께 발생할 수 있습니다.
 exl-id: 27689511-6a41-41a9-8dda-a627d2f65263
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [MySQL 카탈로그 검색 엔진이 Adobe Commerce 2.4.0에서 제거됩니다](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 를 구성해야 합니다. [Elasticsearch 설치 및 구성](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)을 참조하세요.
+> [MySQL 카탈로그 검색 엔진이 Adobe Commerce 2.4.0에서 제거됩니다](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 를 구성해야 합니다. [Elasticsearch 설치 및 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)을 참조하세요.
 
 이 문서에서는 Elasticsearch 인덱스 상태가 &#39;*녹색*&#39;이(가) 아닌 경우에 대한 수정 사항을 제공합니다. &#39;*노란색*&#39;은(는) 일반을 나타내고 &#39;*빨간색*&#39;은(는) 잘못된 것을 나타냅니다. &#39;노란색&#39; 또는 &#39;빨간색&#39; 상태는 제품 누락 또는 이전 제품 정보 표시와 함께 발생할 수 있습니다.
 

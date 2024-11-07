@@ -4,7 +4,7 @@ description: PHP mcrypt 확장이 제대로 설치되지 않았습니다.
 exl-id: 1010349e-6631-4a05-8883-5cc903d67534
 feature: Extensions, Install
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -22,14 +22,14 @@ ht-degree: 0%
 오류에는 다음이 포함될 수 있습니다.
 
 ```php
-exception 'Exception' with message 'PHP Warning: [PHP](https://glossary.magento.com/php) Startup: Unable to load dynamic [library](https://glossary.magento.com/library) '/usr/lib/php5/20121212/mcrypt.so' - /usr/lib/php5/20121212/mcrypt.so: cannot open shared object file: No such file or directory
+exception 'Exception' with message 'PHP Warning: PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212/mcrypt.so' - /usr/lib/php5/20121212/mcrypt.so: cannot open shared object file: No such file or directory
 ```
 
 ```php
 Installing data fixtures:
 /usr/bin/php -f '/Users/username/www/magento/dev/shell/run_data_fixtures.php' -- --bootstrap='MAGE_DIRS[base][path]=/Users/username/www/magento' 2>&1
-[ERROR] [exception](https://glossary.magento.com/exception) 'Exception' with message '
-Fatal error: Uncaught exception 'Exception' with message 'Module 'Magento_Core' depends on 'mcrypt' PHP [extension](https://glossary.magento.com/extension) that is not loaded.'
+[ERROR] exception 'Exception' with message '
+Fatal error: Uncaught exception 'Exception' with message 'Module 'Magento_Core' depends on 'mcrypt' PHP [extension](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#extension) that is not loaded.'
 ```
 
 ```php
@@ -60,4 +60,4 @@ mcrypt가 *설치되지 않은*&#x200B;경우 다음과 유사한 메시지가 �
 PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212/mcrypt.so' - /usr/lib/php5/20121212/mcrypt.so: cannot open shared object file: No such file or directory in Unknown on line 0
 ```
 
-경우에 따라 [명령줄](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html)에서 Adobe Commerce 소프트웨어를 설치하고 mcrypt가 설치된 LAMP 스택에 대한 전체 경로를 지정해야 할 수 있습니다.
+경우에 따라 [명령줄](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)에서 Adobe Commerce 소프트웨어를 설치하고 mcrypt가 설치된 LAMP 스택에 대한 전체 경로를 지정해야 할 수 있습니다.

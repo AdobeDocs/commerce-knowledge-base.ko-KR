@@ -4,7 +4,7 @@ description: Adobe Commerce 이 문서에서는 클라우드 인프라 스테이
 exl-id: 4412d744-3066-4f78-bc45-8149614ce455
 feature: Products
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -47,7 +47,7 @@ https:/&#x200B;/mydomain.com.c.&lt;projectid>.magento.cloud/는 더 이상 액�
 ## 솔루션
 
 * 클라우드 사이트가 라이브 상태인 경우 https://mydomain.com/으로 전환합니다.
-* https://mydomain.com/ 도메인을 사용하는 활성 사이트(클라우드 이외)가 있는 경우 하위 도메인 `mcprod.mydomain.com`을(를) 설정하고 대신 **기본 URL**&#x200B;을(를) *https://mcprod.mydomain.com*(으)로 업데이트한 다음 [DNS를 Fastly로 지정](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings)합니다.
+* https://mydomain.com/ 도메인을 사용하는 활성 사이트(클라우드 이외)가 있는 경우 하위 도메인 `mcprod.mydomain.com`을(를) 설정하고 대신 **기본 URL**&#x200B;을(를) *https://mcprod.mydomain.com*(으)로 업데이트한 다음 [DNS를 Fastly로 지정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings)합니다.
 
 ## 관련 읽기
 

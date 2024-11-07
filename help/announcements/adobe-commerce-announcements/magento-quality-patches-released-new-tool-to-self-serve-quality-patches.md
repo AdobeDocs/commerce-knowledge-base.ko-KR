@@ -4,7 +4,7 @@ description: Adobe은 설치된 Adobe Commerce 버전(온-프레미스 및 클�
 exl-id: e6a79d16-84be-4a71-a41d-ef2b43ec98d9
 feature: Tools and External Services
 role: Admin
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -29,5 +29,5 @@ Adobe은 설치된 Adobe Commerce 버전(온-프레미스 및 클라우드 인�
 
 자세한 내용은 개발자 설명서 를 참조하십시오.
 
-* [품질 패치 도구에서 사용 가능한 패치](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)
-* [품질 패치 도구 릴리스 정보](https://devdocs.magento.com/quality-patches/release-notes.html)
+* [품질 패치 도구에서 사용 가능한 패치](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
+* [품질 패치 도구 릴리스 정보](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)

@@ -4,7 +4,7 @@ description: '업데이트 날짜: 2019년 4월 2일'
 exl-id: 9fe73788-5b67-445a-9b0d-86489125d271
 feature: Cache, Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 패키지를 설치한 후 다음 문서에 설명된 대로 Google reCAPTCHA(권장) 또는 CAPTCHA를 구성합니다.
 
-* 사용 안내서의 [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html).
-* 사용 안내서의 [CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html).
+* 사용 안내서의 [Google reCAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha).
+* 사용 안내서의 [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha).
 
 새로운 체크아웃 양식 옵션은 다음과 같습니다.
 

@@ -4,7 +4,7 @@ description: "이 문서에서는 유지 관리 모드가 계속 활성화되어
 exl-id: 77e01588-e135-4d24-a0c4-1a6ee123f4a8
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## 관련 읽기
 
-유지 관리 모드를 사용하는 방법에 대해 알아보려면 개발자 설명서에서 [유지 관리 모드 사용 또는 사용 안 함](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode)을 참조하세요.
+유지 관리 모드를 사용하는 방법에 대해 알아보려면 개발자 설명서에서 [유지 관리 모드 사용 또는 사용 안 함](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)을 참조하세요.

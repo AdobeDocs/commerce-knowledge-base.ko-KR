@@ -4,7 +4,7 @@ description: 이 문서에서는 제품 이미지가 제품 페이지에 업로�
 exl-id: c4d9240e-5df5-4eab-bb4e-1f06f9bd3a1e
 feature: Iaas, Products, Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Adobe Commerce이 Nginx와 함께 설치되었습니다.
 <u>재현 단계</u>:
 
 1. AWS `s3`을(를) 미디어 스토리지로 사용하도록 Adobe Commerce을 구성하십시오.
-1. Adobe Commerce 설치 디렉터리 및 Nginx 가상 호스트에 제공된 `nginx.conf.sample` 구성 파일을 사용하여 Nginx를 구성합니다. 개발자 설명서에서 [Nginx 구성](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)을 참조하십시오.
+1. Adobe Commerce 설치 디렉터리 및 Nginx 가상 호스트에 제공된 `nginx.conf.sample` 구성 파일을 사용하여 Nginx를 구성합니다. 개발자 설명서에서 [Nginx 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx)을 참조하십시오.
 1. 하나의 제품 이미지로 간단한 제품을 만듭니다.
 1. Nginx는 다음과 유사한 `nginx.conf.sample`의 이미지 크기 조정을 위해 주석 처리되지 않은 구성을 가지고 있습니다.
 

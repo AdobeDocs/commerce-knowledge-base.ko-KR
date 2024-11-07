@@ -3,7 +3,7 @@ title: Adobe Commerce 문제 해결사의 Elasticsearch
 description: Adobe Commerce의 Elasticsearch 문제는 Elasticsearch 문제 해결사 도구를 사용하여 해결할 수 있습니다. 각 질문을 클릭하여 문제 해결사의 각 단계에서 답변을 표시합니다.
 exl-id: acae0da0-2918-4021-9fbe-c138940c5a72
 feature: Categories
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -100,7 +100,7 @@ b. 아니요 - 카탈로그 검색 상태가 _색인 재지정 필요_&#x200B;�
 
 +++**`.yaml`파일이 최근에 업데이트되었습니까?**
 
-a. 예 - DevDocs [Elasticsearch 설정: Elasticsearch을 사용하려면](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=elastic%20search%20yaml)을(를) 참조하여 `.yaml` Elasticsearch 구성을 확인합니다.\
+a. 예 - DevDocs [Elasticsearch 설정: Elasticsearch을 사용하려면](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)을(를) 참조하여 `.yaml` Elasticsearch 구성을 확인합니다.\
 b. 아니요 - [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
@@ -131,7 +131,7 @@ b. 아니요 - [12단계](#step-12)로 진행합니다.
 
 +++**저장소 사용량 > 85%**
 
-a. 예 - 사용 가능한 스토리지를 늘려야 합니다. DevDocs[Elasticsearch 설정: Elasticsearch을 활성화하려면](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=elastic%20search%20yaml)을(를) 참조하십시오. 그런 다음 `localhost:9200/_cat/allocation?v`을(를) 실행합니다(Pro 스테이징 또는 프로덕션 환경에 있는 경우). 모든 스타터 분기를 포함하는 통합 환경 중 하나에 있는 경우 `elasticsearch.internal:9200/_cat/allocation?v`을(를) 실행합니다. [11단계](#step-11)로 진행합니다.\
+a. 예 - 사용 가능한 스토리지를 늘려야 합니다. DevDocs[Elasticsearch 설정: Elasticsearch을 활성화하려면](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)을(를) 참조하십시오. 그런 다음 `localhost:9200/_cat/allocation?v`을(를) 실행합니다(Pro 스테이징 또는 프로덕션 환경에 있는 경우). 모든 스타터 분기를 포함하는 통합 환경 중 하나에 있는 경우 `elasticsearch.internal:9200/_cat/allocation?v`을(를) 실행합니다. [11단계](#step-11)로 진행합니다.\
 b. 아니요 - [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++

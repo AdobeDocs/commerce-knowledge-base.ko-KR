@@ -4,7 +4,7 @@ description: 이 문서에서는 양식의 필드에 잘못된 값을 입력한 
 exl-id: e6e65ede-8156-4e2b-b369-b18395bb3dbf
 feature: Customer Service
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -57,4 +57,4 @@ ht-degree: 0%
 ## 관련 읽기
 
 * [GitHub Adobe Commerce > 잘못된 계정 만들기 양식을 제출하면 제출 단추가 비활성화됩니다](https://github.com/magento/magento2/issues/30513)
-* [Adobe Commerce 사용 안내서 > 시작 > 계정 만들기](https://docs.magento.com/user-guide/magento/magento-account-create.html)
+* [Adobe Commerce 사용 안내서 > 시작 > 계정 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create)

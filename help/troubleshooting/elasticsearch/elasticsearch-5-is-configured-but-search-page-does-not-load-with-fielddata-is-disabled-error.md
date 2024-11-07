@@ -3,7 +3,7 @@ title: Elasticsearch 5가 구성되었지만 검색 페이지가 "Fielddata가 �
 description: '이 항목에서는 Elasticsearch 5에서 검색 페이지가 로드되지 않고 다음과 유사한 예외가 throw되는 문제를 해결하는 방법에 대해 설명합니다.'
 exl-id: f5fa8144-4e7c-45ce-89d0-a8367e91d6db
 feature: Cache
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -56,7 +56,7 @@ SELECT ea.attribute_code, ea.frontend_input, cea.is_filterable, cea.is_filterabl
 이 문제를 해결하려면 `is_filterable`(즉, 계층 탐색에서 사용됨)과 `filterable_in_search`(즉, 검색 결과 계층 탐색에서 사용됨)을(를) &quot;0&quot;(사용되지 않음)으로 설정해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
 1. 데이터베이스 백업을 만듭니다.
-1. [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다.
+1. [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다.
 
    ```sql
    UPDATE catalog_eav_attribute AS cea

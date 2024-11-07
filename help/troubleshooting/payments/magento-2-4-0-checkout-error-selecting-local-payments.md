@@ -4,7 +4,7 @@ description: '이 문서에서는 체크아웃 중에 일부 국가의 로컬 �
 exl-id: de2eafb0-d03c-4ff8-9615-0f2676d95848
 feature: B2B, Categories, Checkout, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * Adobe Commerce 2.4.0이 설치되어 있습니다.
 * 제품 하나와 범주 하나를 만듭니다.
-* [Braintree 결제 방법](https://devdocs.magento.com/guides/v2.4/graphql/payment-methods/braintree.html)을 구성하십시오.
+* [Braintree 결제 방법](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree.html)을 구성하십시오.
 
 <u>재현 단계</u>:
 

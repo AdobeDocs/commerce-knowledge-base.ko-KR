@@ -4,7 +4,7 @@ description: 이 문서에서는 DHL 스키마 6.2가 2022년 12월에 사용 �
 exl-id: eed83713-2d6a-4360-bfa1-bebd4d604f2f
 feature: Orders, Shipping/Delivery, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 배포 방법에 따라 [!DNL Quality Patches Tool]을(를) 사용하고 패치를 설치하는 방법에 대한 다음 링크를 참조하세요.
 
 * Adobe Commerce 온-프레미스 및 Magento Open Source: Adobe Experience League의 [품질 패치 도구 > 사용량](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
-* 클라우드 인프라의 Adobe Commerce: 개발자 설명서에서 [업그레이드 및 패치 > 패치 적용](https://devdocs.magento.com/cloud/project/project-patch.html).
+* 클라우드 인프라의 Adobe Commerce: 개발자 설명서에서 [업그레이드 및 패치 > 패치 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches).
 
 **패치는 다음 Adobe Commerce 버전(모든 배포 방법)에 적용됩니다.**
 

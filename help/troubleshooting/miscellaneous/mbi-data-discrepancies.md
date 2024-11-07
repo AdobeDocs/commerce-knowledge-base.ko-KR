@@ -4,7 +4,7 @@ description: "어떤 보고서에 있는 수치들이 부정확해 보입니까?
 exl-id: 2ecea990-7292-46c1-b6eb-75f0404aaf0b
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 * [데이터 불일치 진단 검사 목록](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [내보내기를 사용하여 데이터 불일치 파악](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-또한 불일치와 관련된 테이블 및 열에 대해 올바른 [복제 메서드](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html) 및 [다시 확인](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html)이 설정되었는지 확인하는 것이 좋습니다. 복제 방법에 액세스하고 정보를 다시 확인하려면 관리자 권한이 필요합니다.
+또한 불일치와 관련된 테이블 및 열에 대해 올바른 [복제 메서드](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) 및 [다시 확인](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)이 설정되었는지 확인하는 것이 좋습니다. 복제 방법에 액세스하고 정보를 다시 확인하려면 관리자 권한이 필요합니다.
 
 ## 난 아직도 도움이 필요해!
 

@@ -4,7 +4,7 @@ description: 이 문서에서는 Inventory management 설치/업그레이드 후
 exl-id: ae32fbe3-deab-4f31-b427-95f8b54a476f
 feature: Install, Inventory, Orders
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -33,4 +33,4 @@ ht-degree: 0%
 
 웹 사이트가 두 개 이상 있는 경우 이러한 웹 사이트를 Default Stock 또는 기타 사용자 지정 스톡에 Sales Channel으로 추가해야 합니다.
 
-이 작업을 수행하는 방법에 대한 자세한 내용은 사용 안내서의 [위키/사용 안내서의 재고 섹션](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html)을 참조하십시오.
+이 작업을 수행하는 방법에 대한 자세한 내용은 사용 안내서의 [위키/사용 안내서의 재고 섹션](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage)을 참조하십시오.

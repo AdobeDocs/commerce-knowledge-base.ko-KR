@@ -4,7 +4,7 @@ description: 이 문서에서는 'robots.txt' 파일에서 클라우드 인프�
 exl-id: 6f0b9f47-1901-4c43-88d8-fd992015d70f
 feature: Cloud, Marketing Tools, Paas
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -38,5 +38,5 @@ ht-degree: 0%
 ## 관련 읽기
 
 * 지원 기술 자료에서 [Fastly 수준에서 Magento Commerce Cloud을 위한 악성 트래픽을 차단하는 방법](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md).
-* 개발자 설명서에서 [사이트 맵 및 검색 엔진 로봇을 추가](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html)합니다.
+* 개발자 설명서에서 [사이트 맵 및 검색 엔진 로봇을 추가](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)합니다.
 * 사용 안내서의 [검색 엔진 로봇](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots).

@@ -4,7 +4,7 @@ description: 이 문서에서는 엔티티 업데이트가 적용되지 않도�
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 ## 원인
 
-인덱서가 [일정별로 업데이트되도록 구성](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers)되어 있는 경우 변경 로그가 너무 크거나 MySQL 트리거가 설정되지 않은 하나 이상의 테이블로 인해 문제가 발생할 수 있습니다.
+인덱서가 [일정별로 업데이트되도록 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)되어 있는 경우 변경 로그가 너무 크거나 MySQL 트리거가 설정되지 않은 하나 이상의 테이블로 인해 문제가 발생할 수 있습니다.
 
 ### 크기가 큰 변경 로그 테이블
 
 `indexer_update_all_views` cron 작업이 여러 번 완료되지 않으면 변경 로그 테이블이 커집니다.
 
-변경 로그 테이블은 엔티티에 대한 변경 사항이 추적되는 데이터베이스 테이블입니다. 변경 내용이 적용되지 않는 한 변경 로그 테이블에 레코드가 저장됩니다. `indexer_update_all_views` cron 작업에서 이 작업을 수행합니다. Adobe Commerce 데이터베이스에 변경 로그 테이블이 여러 개 있습니다. 이 테이블은 다음 패턴에 따라 이름이 지정됩니다. INDEXER\_TABLE\_NAME + &#39;\_cl&#39;(예: `catalog_category_product_cl`, `catalog_product_category_cl`). 데이터베이스에서 변경 내용을 추적하는 방법에 대한 자세한 내용은 개발자 설명서의 [색인화 개요 > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) 문서에서 확인할 수 있습니다.
+변경 로그 테이블은 엔티티에 대한 변경 사항이 추적되는 데이터베이스 테이블입니다. 변경 내용이 적용되지 않는 한 변경 로그 테이블에 레코드가 저장됩니다. `indexer_update_all_views` cron 작업에서 이 작업을 수행합니다. Adobe Commerce 데이터베이스에 변경 로그 테이블이 여러 개 있습니다. 이 테이블은 다음 패턴에 따라 이름이 지정됩니다. INDEXER\_TABLE\_NAME + &#39;\_cl&#39;(예: `catalog_category_product_cl`, `catalog_product_category_cl`). 데이터베이스에서 변경 내용을 추적하는 방법에 대한 자세한 내용은 개발자 설명서의 [색인화 개요 > Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) 문서에서 확인할 수 있습니다.
 
 ### [!DNL MySQL] 데이터베이스 트리거가 설정되지 않았습니다.
 

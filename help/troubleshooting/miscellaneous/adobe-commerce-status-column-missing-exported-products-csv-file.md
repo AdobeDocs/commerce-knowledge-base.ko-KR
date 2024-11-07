@@ -4,7 +4,7 @@ description: 이 문서에서는 내보낸 제품이 포함된 CSV 파일에서 
 exl-id: 3cbe1e6c-fc73-4331-add7-1ebcb28a4580
 feature: Data Import/Export, Products
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -50,5 +50,5 @@ Adobe Commerce(모든 배포 메서드) 모든 [지원되는 버전](https://www
 
 ## 관련 읽기
 
-* 사용 안내서에서 [CSV 파일로 작업](https://docs.magento.com/user-guide/system/data-csv.html).
-* 사용 안내서의 [제품 내보내기 특성 참조](https://docs.magento.com/user-guide/system/data-attributes-product.html).
+* 사용 안내서에서 [CSV 파일로 작업](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-csv).
+* 사용 안내서의 [제품 내보내기 특성 참조](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product).

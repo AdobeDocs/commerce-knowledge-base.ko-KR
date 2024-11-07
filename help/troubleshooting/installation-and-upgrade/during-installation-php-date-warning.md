@@ -4,7 +4,7 @@ description: 이 문서에서는 설치 중 PHP 날짜 경고에 대한 수정 �
 exl-id: f82c77a9-bbcd-4426-96a0-b3f4b704860b
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
@@ -25,4 +25,4 @@ PHP Warning:  date(): It is not safe to rely on the system's timezone settings. 
 
 ### 솔루션 {#solution}
 
-PHP 시간대 설정을 주의 깊게 확인하십시오. 개발자 설명서에서 [설치 안내서 > PHP 설정](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)을 참조하십시오.
+PHP 시간대 설정을 주의 깊게 확인하십시오. 개발자 설명서에서 [설치 안내서 > PHP 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)을 참조하십시오.

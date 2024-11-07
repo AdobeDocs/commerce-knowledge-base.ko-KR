@@ -4,7 +4,7 @@ description: 이 문서에서는 Adobe Commerce 설치 후 스타일시트 및 �
 exl-id: f33cee89-b416-4d63-8cc5-9cc57618ce92
 feature: Install, Storefront
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -47,8 +47,8 @@ ht-degree: 0%
 
 다음은 사용하는 소프트웨어와 문제의 원인에 따라 가능한 해결 방법입니다.
 
-* Apache 웹 서버를 사용하는 경우 [서버 재작성](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/apache.html#apache-help-rewrite) 설정과 Adobe Commerce/Magento Open Source 서버의 기본 URL을 확인하고 다시 시도하십시오. Apache `AllowOverride` 지시문을 잘못 설정하면 정적 파일이 올바른 위치에서 제공되지 않습니다.
-* nginx 웹 서버를 사용하는 경우 [가상 호스트 파일을 구성](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/nginx.html#configure-nginx-ubuntu)하십시오. nginx 가상 호스트 파일은 다음 기준을 충족해야 합니다.
+* Apache 웹 서버를 사용하는 경우 [서버 재작성](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/apache#apache-rewrites-and-htaccess) 설정과 Adobe Commerce/Magento Open Source 서버의 기본 URL을 확인하고 다시 시도하십시오. Apache `AllowOverride` 지시문을 잘못 설정하면 정적 파일이 올바른 위치에서 제공되지 않습니다.
+* nginx 웹 서버를 사용하는 경우 [가상 호스트 파일을 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx)하십시오. nginx 가상 호스트 파일은 다음 기준을 충족해야 합니다.
    * `include` 지시문은 Adobe Commerce/Magento Open Source 설치 디렉터리의 샘플 nginx 구성 파일을 가리켜야 합니다. 예:    `include /var/www/html/magento2/nginx.conf.sample;`
    * `server_name` 지시문은 Adobe Commerce/Magento Open Source 설치 시 지정한 기본 URL과 일치해야 합니다. 예: `server_name 192.186.33.10;`
-* 응용 프로그램이 [프로덕션 모드](https://devdocs.magento.com/guides/v2.3/config-guide/bootstrap/magento-modes.html#production-mode)에 있는 경우 `magento setup:static-content:deploy` 명령을 사용하여 정적 보기 파일을 배포해 보십시오. 정적 파일 배포에 대한 자세한 내용은 개발자 설명서에서 [정적 보기 파일 배포](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html)를 참조하십시오.
+* 응용 프로그램이 [프로덕션 모드](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode)에 있는 경우 `magento setup:static-content:deploy` 명령을 사용하여 정적 보기 파일을 배포해 보십시오. 정적 파일 배포에 대한 자세한 내용은 개발자 설명서에서 [정적 보기 파일 배포](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)를 참조하십시오.

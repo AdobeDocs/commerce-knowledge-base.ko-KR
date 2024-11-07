@@ -4,7 +4,7 @@ description: 이 문서에서는 서버의 명령줄 인터페이스(CLI)에서 
 exl-id: dfdef289-cf51-42d7-b3fb-d4d2d3760951
 feature: Observability
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 0%
@@ -35,8 +35,8 @@ DDoS 공격을 파악하기 위해 특별히 고안된 소프트웨어를 사용
 ## 솔루션 단계
 
 1. Adobe Commerce 로그를 확인하여 DDoS 공격 이외의 다른 상황이 발생하고 있는지 확인합니다. 자세한 내용은 개발자 설명서에서 다음 문서를 참조하십시오.
-   * [Adobe Commerce 및 Magento Open Source 로그 위치](https://devdocs.magento.com/guides/v2.3/config-guide/cli/logging.html)
-   * [클라우드 인프라의 Adobe Commerce 로그 위치](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)
+   * [Adobe Commerce 및 Magento Open Source 로그 위치](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/enable-logging)
+   * [클라우드 인프라의 Adobe Commerce 로그 위치](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)
 1. CLI를 사용하여 `netstat` 명령을 사용하여 현재 모든 인터넷 연결을 확인하세요. `netstat -na`. 서버에 대해 설정된 모든 활성 연결이 표시됩니다. 여기에서 동일한 IP 주소에서 너무 많은 연결이 발생하는 것을 볼 수 있습니다.
 1. 한 IP 주소 또는 IP 주소 그룹에서 너무 많은 연결을 정렬 및 인식할 수 있도록 설정된 연결 결과를 포트 80(웹 사이트의 HTTP 포트)에 연결된 연결로만 좁히려면 `netstat -an | grep :80 | sort` 명령을 사용합니다. 포트 443에서 https에 대해 동일한 명령을 반복할 수 있습니다. `netstat -an | grep :443 | sort`. 또 다른 옵션은 원래 명령을 포트 80과 443 둘 다로 확장하는 것입니다. `netstat -an | egrep ":80|:443" | sort`.
 1. 서버에서 많은 활성 `SYNC_REC`이(가) 발생하고 있는지 확인하려면 다음 명령을 사용합니다.     `netstat -n -p|grep SYN_REC | wc -l`     이 수치는 일반적으로 5보다 작지만 DDoS 공격의 경우 훨씬 높을 수 있지만, 일부 서버의 경우 일반적인 상태일 수 있습니다.
@@ -53,6 +53,6 @@ DDoS 공격을 받고 있는 경우, 네트워크 구성 및 DDoS 공격이 발�
 
 ## 개발자 설명서의 관련 내용:
 
-* [DDoS 보호](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html#ddos-protection)
-* [CLI 명령 사용](https://devdocs.magento.com/guides/v2.3/config-guide/deployment/pipeline/example/cli.html)
-* [Commerce용 Cloud CLI](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html)
+* [DDoS 보호](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly#ddos-protection)
+* [CLI 명령 사용](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli)
+* [Commerce용 Cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)

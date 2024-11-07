@@ -4,7 +4,7 @@ description: 이 문서에서는 Braintree 결제 방법이 활성화된 경우 
 exl-id: 8840aecb-21d9-4965-8c09-395e2d263aaa
 feature: Admin Workspace, Native Luma Frontend Development, Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -58,7 +58,7 @@ report.CRITICAL: Error: Call to a member function getMethodInstance() on null in
 
 >[!NOTE]
 >
->클라우드 인프라 판매자의 Adobe Commerce에 대한 추가 사항: Adobe은 Commerce 버전 1.0.18의 클라우드 패치에 수정 사항을 포함했습니다. 최신 패키지 적용에 대한 지침은 개발자 설명서에서 [Commerce용 클라우드 패치](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html)를 참조하십시오.
+>클라우드 인프라 판매자의 Adobe Commerce에 대한 추가 사항: Adobe은 Commerce 버전 1.0.18의 클라우드 패치에 수정 사항을 포함했습니다. 최신 패키지 적용에 대한 지침은 개발자 설명서에서 [Commerce용 클라우드 패치](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches)를 참조하십시오.
 
 ### 호환 가능한 Adobe Commerce 버전:
 

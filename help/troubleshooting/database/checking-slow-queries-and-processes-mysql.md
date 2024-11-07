@@ -4,7 +4,7 @@ description: 이 문서에서는 판매자 사이트 및 해당 사이트가 표
 exl-id: cae02e4f-d8cb-4074-abac-24ead22bdc07
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -80,5 +80,5 @@ Adobe Commerce 프로젝트가 Pro 아키텍처에 배포된 경우 [!DNL Percon
 
 * dev.mysql.com의 [MySQL Show Processlist 구문](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html).
 * dev.mysql.com의 [MySQL Kill 구문](https://dev.mysql.com/doc/refman/8.0/en/kill.html).
-* 개발자 설명서에서 [보안, 성능 및 데이터 처리](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html).
-* 개발자 설명서에서 [MySQL 도움말](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html)
+* 개발자 설명서에서 [보안, 성능 및 데이터 처리](https://developer.adobe.com/commerce/php/best-practices/extensions/security/).
+* 개발자 설명서에서 [MySQL 도움말](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)

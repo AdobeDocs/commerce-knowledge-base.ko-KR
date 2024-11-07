@@ -2,7 +2,7 @@
 title: Adobe Commerce [!DNL crons] 개입 없이 비활성화됨
 description: 이 문서를 사용하여  [!DNL crons] 이(가) 개입 없이 비활성화되는 문제를 해결할 수 있습니다.
 exl-id: 5172d2ae-53ad-4db6-ae00-7b27c96911e9
-source-git-commit: 9cd7cabc37c0f290c41f790b0fb06177c3156d48
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-[!DNL ECE Tools]을(를) 최신 버전 [2002.1.13](https://devdocs.magento.com/cloud/release-notes/ece-release-notes.html#v2002113)(으)로 업그레이드하십시오.
+[!DNL ECE Tools]을(를) 최신 버전 [2002.1.13](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113)(으)로 업그레이드하십시오.
 
 ## 관련 읽기
 

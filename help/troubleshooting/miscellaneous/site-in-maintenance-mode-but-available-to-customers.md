@@ -4,7 +4,7 @@ description: 이 문서에서는 유지 관리 모드가 활성화된 경우(클
 exl-id: 61b81fbd-a382-44b5-94e9-5b6d72f11349
 feature: Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -45,4 +45,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-개발자 설명서에서 [유지 관리 모드를 사용하거나 사용하지 않도록 설정](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html).
+개발자 설명서에서 [유지 관리 모드를 사용하거나 사용하지 않도록 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode).

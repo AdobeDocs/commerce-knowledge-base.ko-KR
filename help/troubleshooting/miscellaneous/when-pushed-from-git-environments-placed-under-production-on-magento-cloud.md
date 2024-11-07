@@ -4,7 +4,7 @@ description: 이 문서에서는 git 버전 제어 시스템에서 푸시할 때
 exl-id: 279cd6d8-fd45-45ba-8456-8b397a01976f
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-상위 지점은 가맹점이 새로 만든 지점을 밀고 활성화한 후에만 설정할 수 있다. 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce > Bitbucket 통합](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch)을 참조하십시오.
+상위 지점은 가맹점이 새로 만든 지점을 밀고 활성화한 후에만 설정할 수 있다. 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce > Bitbucket 통합](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch)을 참조하십시오.
 
 서버의 기존 분기에 대한 상위 항목을 업데이트하려면 magento-cloud CLI에서 `magento-cloud environment:info` 명령을 사용하십시오.
 
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce > magento-cloud CLI](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html).
+* 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce > magento-cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview).

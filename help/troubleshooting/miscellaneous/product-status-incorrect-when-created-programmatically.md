@@ -4,7 +4,7 @@ description: 이 문서에서는 프로그래밍 방식으로 생성/업데이�
 exl-id: ac02f961-f9e2-4620-839f-b8dbd0befb15
 feature: Products
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Adobe Commerce 인스턴스 관리자 역할에 설정된 ACL 제한 사항으�
 
 ## 잘못된 제품 상태에 대한 솔루션
 
-개발자 설명서의 [ObjectManager>프로그램 제품 업데이트](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) 항목에 설명된 대로 `Magento\Framework\Authorization\PolicyInterface`에 대한 동적 DI 환경 설정을 지정합니다.
+개발자 설명서의 [ObjectManager>프로그램 제품 업데이트](https://developer.adobe.com/commerce/php/development/components/object-manager/) 항목에 설명된 대로 `Magento\Framework\Authorization\PolicyInterface`에 대한 동적 DI 환경 설정을 지정합니다.
 
 ## 관련 읽기
 

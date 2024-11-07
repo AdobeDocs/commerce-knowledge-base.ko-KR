@@ -4,7 +4,7 @@ description: 이 문서에서는 설치가 약 70%에서 중지되는 경우에 
 exl-id: 04aa3572-3c42-4565-9f7f-b4d90df96df2
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 모든 웹 서버 및 Vannish {#all-web-servers-and-varnish}
 
-1. [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) 파일을 사용하여 `php.ini`을(를) 찾습니다.
+1. [`phpinfo.php`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software) 파일을 사용하여 `php.ini`을(를) 찾습니다.
 1. `root` 권한이 있는 사용자는 텍스트 편집기에서 `php.ini`을(를) 엽니다.
 1. `max_execution_time` 설정을 찾습니다.
 1. 값을 `18000`(으)로 변경합니다.

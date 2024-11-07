@@ -4,7 +4,7 @@ description: 이 문서에서는 클라우드 인프라에서 Adobe Commerce의 
 exl-id: 1b2c25d3-ca1b-4409-8d6b-378aa0952f94
 feature: Storage, Observability
 role: Developer
-source-git-commit: 9ee4145d5516a37fab1c092d539000627f242a93
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Adobe Commerce은 모든 로그 파일을 `var` 디렉터리에 저장합니다.
 * `var` 디렉터리를 정리합니다.
 * `var` 디렉터리의 크기를 추적하고 정리하도록 크론 작업을 설정합니다.
 * 사용하지 않은 디스크 공간이 있는 경우 더 많은 디스크 공간을 할당하십시오. (공간 제한 사항을 확인하는 방법에 대한 자세한 내용은 아래 섹션을 참조하십시오.)
-   * 스타터 계획, 모든 환경 및 Pro 계획 통합 환경의 경우 [디스크 공간 관리: 디스크 공간 할당](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html#application-disk-space)에 설명된 대로 사용하지 않는 디스크 공간이 있으면 디스크 공간을 할당할 수 있습니다.
+   * 스타터 계획, 모든 환경 및 Pro 계획 통합 환경의 경우 [디스크 공간 관리: 디스크 공간 할당](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space)에 설명된 대로 사용하지 않는 디스크 공간이 있으면 디스크 공간을 할당할 수 있습니다.
    * Pro 플랜 스테이징 및 프로덕션 환경의 경우, 일부 사용하지 않은 디스크 공간이 있는 경우 지원 센터에 문의하여 더 많은 디스크 공간을 할당하십시오.
 * 공간 제한에 도달했지만 여전히 공간 부족 문제가 있는 경우 더 많은 디스크 공간을 구입하는 것이 좋습니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 

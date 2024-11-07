@@ -4,7 +4,7 @@ description: 이 문서에서는 ".csv" 파일에서 가져온 후 **Customers**
 exl-id: e4d9d60a-a0d1-4602-924e-a338e56de61d
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -46,5 +46,5 @@ ht-degree: 0%
 
 개발자 설명서 관련 항목 링크:
 
-* [인덱싱 개요](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
-* [인덱서 관리](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
+* [인덱싱 개요](https://developer.adobe.com/commerce/php/development/components/indexing/)
+* [인덱서 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)

@@ -3,7 +3,7 @@ title: 클라우드의 Adobe Commerce에서 MySQL에 더 많은 공간 할당
 description: 이 문서에서는 클라우드 인프라의 Adode Commerce에서 MySQL에 더 많은 공간을 할당하는 방법에 대한 지침을 제공합니다.
 exl-id: 98501aa0-5ec7-4ea1-8856-13d171ad0be9
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -23,7 +23,7 @@ mysql:
     disk: 2048
 ```
 
-참조하려면 [MySQL 서비스 설정](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-mysql.html) 문서를 참조하십시오.
+참조하려면 [MySQL 서비스 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql) 문서를 참조하십시오.
 
 `.magento/services.yaml` 파일을 변경한 후에는 변경 내용을 커밋하고 푸시하여 적용해야 합니다. 푸시가 배포 프로세스를 트리거합니다.
 

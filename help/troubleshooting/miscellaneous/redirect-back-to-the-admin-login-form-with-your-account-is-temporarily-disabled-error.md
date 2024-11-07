@@ -4,7 +4,7 @@ description: '이 문서는 다음 오류 메시지와 함께 로그인 양식�
 exl-id: 1c7ffa1c-1fb1-4f69-9534-77d1e119318a
 feature: Admin Workspace, Customer Service
 role: Developer
-source-git-commit: f87263cde5aa001f78abc368c949ce150feecb91
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 ## 솔루션
 
 1. 데이터베이스 백업을 만듭니다.
-1. [[!DNL phpMyAdmin]](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)과(와) 같은 데이터베이스 도구를 사용하거나 명령줄에서 수동으로 DB에 액세스합니다. `admin_user` 데이터베이스 테이블에서 관리자 사용자 레코드에 대해 `is_active`이(가) &quot;`1`&quot;(으)로 설정되어 있고 `lock_expires`이(가) `NULL`인지 확인하십시오. 필요한 경우 이러한 값을 재설정합니다.
+1. [[!DNL phpMyAdmin]](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)과(와) 같은 데이터베이스 도구를 사용하거나 명령줄에서 수동으로 DB에 액세스합니다. `admin_user` 데이터베이스 테이블에서 관리자 사용자 레코드에 대해 `is_active`이(가) &quot;`1`&quot;(으)로 설정되어 있고 `lock_expires`이(가) `NULL`인지 확인하십시오. 필요한 경우 이러한 값을 재설정합니다.
 
 ## 관련 읽기
 

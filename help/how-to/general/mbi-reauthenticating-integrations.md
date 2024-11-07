@@ -3,7 +3,7 @@ title: 'MBI: 통합 재인증'
 description: 이 문서에서는 타사 서비스에서 데이터를 가져오는 데 필요한 권한을 Magento Business Intelligence(MBI)에 부여하기 위해 통합을 다시 승인하는 솔루션을 제공합니다. 이러한 권한이 해지되면 재인증이 필요합니다.
 exl-id: c608d6f9-64a5-44f8-9d7b-9a85a2668775
 feature: Commerce Intelligence, Integration
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 데이터베이스 및 SaaS 통합
 
-데이터베이스 및 SaaS 통합 목록은 개발자 설명서에서 [통합을 사용하여 외부 데이터 연결](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html)을 참조하십시오. 페이지를 열 때는 탐색을 위해 왼쪽의 목차를 사용하십시오.
+데이터베이스 및 SaaS 통합 목록은 개발자 설명서에서 [통합을 사용하여 외부 데이터 연결](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)을 참조하십시오. 페이지를 열 때는 탐색을 위해 왼쪽의 목차를 사용하십시오.
 
 ## 연결 문제가 있습니까?
 

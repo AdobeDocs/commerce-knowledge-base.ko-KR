@@ -4,7 +4,7 @@ description: '이 문서에서는 배포 프로세스의 빌드 단계가 실패
 exl-id: add1cdac-dbcb-4c55-8bc2-c1f27e24aadb
 feature: Build, Deploy
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -78,11 +78,11 @@ Adobe Commerce on cloud infrastructure 스타터 계획 아키텍처를 사용�
        php ./vendor/bin/ece-tools deploy
    ```
 
-   [ece-tools로 업그레이드](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) 문서를 참조하십시오.
+   [ece-tools로 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) 문서를 참조하십시오.
 
 1. 다음 명령을 실행하여 ECE-tools 패키지가 `composer.lock` 파일에 있는지 확인하십시오.    <pre><code class="language-bash">grep &#39;<code class="language-yaml">&quot;name&quot;: &quot;magento/ece-tools&quot;</code>&#39; composer.lock</code></pre>    지정된 경우 응답은 다음 예제와 같습니다.    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
 
-참조하려면 [ece-tools로 업그레이드](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) 문서를 참조하십시오.
+참조하려면 [ece-tools로 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) 문서를 참조하십시오.
 
 ### 패치 때문에 문제가 발생한 건가요?
 

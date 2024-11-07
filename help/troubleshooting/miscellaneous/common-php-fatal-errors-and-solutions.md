@@ -4,7 +4,7 @@ description: 이 문서에서는 Adobe Commerce 로그와 문제가 표시된 �
 exl-id: 3e42d38f-97bc-4d38-8e36-23b1453f81d9
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -27,7 +27,7 @@ For example:
 
 `max_execution_time = 120`
 
-[php.ini 설정 사용자 지정](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) 문서를 참조하십시오.
+[php.ini 설정 사용자 지정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) 문서를 참조하십시오.
 
 ## 예
 
@@ -35,7 +35,7 @@ For example:
 
 ## 솔루션
 
-`php.ini` 설정을 사용자 지정합니다. 이 [php.ini 설정 사용자 지정](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) 문서를 참조하십시오.
+`php.ini` 설정을 사용자 지정합니다. 이 [php.ini 설정 사용자 지정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) 문서를 참조하십시오.
 
 ## 예
 
@@ -65,9 +65,9 @@ MySQL 환경의 디스크 공간이 부족합니다. MySQL 환경에 더 많은 
 
 개발자 설명서에서:
 
-* [PHP 설정 오류](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html)
-* [필요한 PHP 설정](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)
-* [Redis 확인](https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-session.html#redis-verify)
-* [Redis 구성](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html)
-* [PHP 메모리 제한 오류](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html#trouble-php-memory)
-* [일반적인 문제에 대한 해결 방법 - 메모리 제한](https://devdocs.magento.com/guides/v2.3/test/unit/unit_test_execution_cli.html#solutions-to-common-problems)
+* [PHP 설정 오류](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [필요한 PHP 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [Redis 확인](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [Redis 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [PHP 메모리 제한 오류](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [일반적인 문제에 대한 해결 방법 - 메모리 제한](https://developer.adobe.com/commerce/testing/guide/unit/command-line/#solutions-to-common-problems)

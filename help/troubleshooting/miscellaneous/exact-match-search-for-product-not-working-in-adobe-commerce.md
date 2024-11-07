@@ -4,7 +4,7 @@ description: 이 문서에서는 동일한 검색 문자열을 사용하는 스�
 exl-id: 0867558e-1d74-4b83-abf3-651ca7fc32cb
 feature: Products, Search
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -48,4 +48,4 @@ Adobe Commerce 2.3 및 Adobe Commerce 2.4 스토어 모두에 속성 값이 `Sag
 
 사용 안내서에서 [Live Search 설치](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html)
 
-개발자 설명서에서 [실시간 검색](https://devdocs.magento.com/live-search/overview.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=Live%20Search).
+개발자 설명서에서 [실시간 검색](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview).

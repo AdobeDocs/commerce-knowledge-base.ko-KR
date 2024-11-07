@@ -4,7 +4,7 @@ description: 이 문서에서는 캐싱에 바니시를 사용하는 경우 특�
 exl-id: e7f9b773-1a2d-4c3b-9e1f-a1781fbc898c
 feature: Categories, Site Navigation, Storefront, Variables
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Adobe Commerce 스토어에 대한 Vannish를 설치하고 구성합니다.
 
 이 문제를 해결하려면 추가 바니시 구성을 수행한 다음 바니시를 다시 시작해야 합니다.
 
-1. `root` 권한이 있는 사용자는 텍스트 편집기에서 Vanish 구성 파일을 엽니다. 다른 운영 체제에 대해 이 파일이 있는 위치에 대한 자세한 내용은 개발자 설명서에서 [바니시 시스템 구성 수정](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl)을 참조하십시오.
+1. `root` 권한이 있는 사용자는 텍스트 편집기에서 Vanish 구성 파일을 엽니다. 다른 운영 체제에 대해 이 파일이 있는 위치에 대한 자세한 내용은 개발자 설명서에서 [바니시 시스템 구성 수정](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/config-varnish-server)을 참조하십시오.
 1. `DAEMON_OPTS variable`에서 `-p feature=+esi_ignore_https`, `-p  feature=+esi_ignore_other_elements`, `-p  feature=+esi_disable_xml_check`을(를) 추가합니다. 이는 다음과 같습니다.
 
    ```bash
@@ -64,5 +64,5 @@ Adobe Commerce 스토어에 대한 Vannish를 설치하고 구성합니다.
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [Varnish 및 웹 서버를 구성](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl)합니다.
+* 개발자 설명서에서 [Varnish 및 웹 서버를 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/config-varnish-server)합니다.
 * [니스용 설명서](https://varnish-cache.org/docs/5.1/reference/index.html)

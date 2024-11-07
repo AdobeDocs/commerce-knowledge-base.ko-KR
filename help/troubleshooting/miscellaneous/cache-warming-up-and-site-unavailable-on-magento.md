@@ -4,7 +4,7 @@ description: 이 문서에서는 페이지 캐시가 준비 중이고 중단된 
 exl-id: c91d5c1f-95e6-4240-be98-2acea49ae728
 feature: Cache, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -37,8 +37,8 @@ ht-degree: 0%
 
 ## 솔루션
 
-캐시 준비 중 동시 연결 수를 제한합니다. 이를 위해서는 `WARM_UP_CONCURRENCY` 사후 배포 변수를 추가하여 캐시 준비 스크립트에서 동시에 보낼 수 있는 준비 요청의 수를 지정해야 합니다. 이 옵션을 설정하면 Adobe Commerce 클라우드 인프라의 로드를 관리하는 데 도움이 될 수 있습니다. 단계는 개발자 설명서에서 [Post 배포 변수 > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency)을 참조하십시오.
+캐시 준비 중 동시 연결 수를 제한합니다. 이를 위해서는 `WARM_UP_CONCURRENCY` 사후 배포 변수를 추가하여 캐시 준비 스크립트에서 동시에 보낼 수 있는 준비 요청의 수를 지정해야 합니다. 이 옵션을 설정하면 Adobe Commerce 클라우드 인프라의 로드를 관리하는 데 도움이 될 수 있습니다. 개발자 설명서에서 [배포 후 변수 > WARM\_UP\_CONCURRENCY](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-post-deploy#warm_up_concurrency)을(를) 참조하십시오.
 
 ## 관련 읽기
 
-사용 안내서의 [전체 페이지 캐시](https://docs.magento.com/user-guide/system/cache-full-page.html)
+사용 안내서의 [전체 페이지 캐시](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching)

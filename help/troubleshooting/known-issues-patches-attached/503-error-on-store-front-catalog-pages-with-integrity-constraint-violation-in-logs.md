@@ -4,7 +4,7 @@ description: 이 문서에서는 저장소 전면 카탈로그 페이지에 액�
 exl-id: ad363744-756a-48b9-ae11-58642e0ca6a4
 feature: Catalog Management, Logs
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 문서에서는 해결 방법으로 패치를 제공하지만 이 문제는 Adobe Commerce on cloud infrastructure v2.3.3 릴리스에서 영구적으로 수정되었습니다. v2.3.3으로 업그레이드하는 것이 좋습니다. 개발자 설명서에서 [Adobe Commerce 버전 업그레이드](https://devdocs.magento.com/cloud/project/project-upgrade.html)의 단계를 따릅니다.
+>이 문서에서는 해결 방법으로 패치를 제공하지만 이 문제는 Adobe Commerce on cloud infrastructure v2.3.3 릴리스에서 영구적으로 수정되었습니다. v2.3.3으로 업그레이드하는 것이 좋습니다. 개발자 설명서에서 [Adobe Commerce 버전 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)의 단계를 따릅니다.
 
 Adobe Commerce 이 문서에서는 로그: *무결성 제약 조건 위반: 1062 키 &#39;PRIMARY&#39;에 대한 항목 &#39;%entry%&#39;가 중복되었습니다. 쿼리: INSERT INTO \`search\_tmp\_%number%*.
 
@@ -78,6 +78,6 @@ curl -X DELETE 127.0.0.1:9200/magento2_product_8_v332
 
 * 지원 기술 자료에서 [클라우드 인프라 시작 계획 아키텍처의 Adobe Commerce에 대한 로그 파일 위치](/help/how-to/general/log-locations-directories-for-starter-plan.md)를 참조하십시오.
 * 지원 기술 자료에서 [클라우드 인프라 Pro 계획 아키텍처의 Adobe Commerce에 대한 로그 파일 위치](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)를 참조하십시오.
-* 개발자 설명서에서 [Adobe Commerce의 로그 파일 위치](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)를 참조하십시오.
+* 개발자 설명서에서 [Adobe Commerce의 로그 파일 위치](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)를 참조하십시오.
 
 ## 첨부 파일

@@ -4,7 +4,7 @@ description: 이 문서에서는 큰 범주(1k++제품)의 작업을 수행할 �
 exl-id: 1f4b0385-215d-4d3d-8704-986c090824aa
 feature: Cache, Categories, Marketing Tools, Products
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -64,4 +64,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-사용 안내서의 [자동 제품 리디렉션](https://docs.magento.com/user-guide/v2.3/marketing/url-redirect-product-automatic.html).
+사용 안내서의 [자동 제품 리디렉션](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic).

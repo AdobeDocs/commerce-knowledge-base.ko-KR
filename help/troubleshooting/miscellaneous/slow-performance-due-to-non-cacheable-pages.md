@@ -4,7 +4,7 @@ description: '이 문서에서는 캐시해야 하는 모든 페이지의 모든
 exl-id: 7401d9bd-710c-4221-9c3d-d78042c1c1ad
 feature: Cache, Categories
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Adobe Commerce에서 캐시해야 하는 페이지가 있습니다. 이러한 �
 
 캐시 가능 및 캐시 불가능 은 페이지를 캐시해야 하는지 여부를 나타내는 데 사용되는 용어입니다. 기본적으로 모든 페이지를 캐시할 수 있습니다. 그러나 레이아웃에 있는 블록이 캐시 불가로 지정된 경우에는 전체 페이지를 캐시할 수 없습니다.
 
-아래 스크린샷에는 캐시 불가능 페이지를 만드는 설정 `cacheable="false”`**(**)이 있는 블록이 표시됩니다.
+아래 스크린샷에는 캐시 불가능 페이지를 만드는 설정 `cacheable="false"`**(**)이 있는 블록이 표시됩니다.
 
 ![non_cacheable_kb.png](assets/non_cacheable_kb.png)
 
@@ -46,15 +46,15 @@ Adobe Commerce에서 캐시해야 하는 페이지가 있습니다. 이러한 �
 
 ### 솔루션
 
-위에 지정된 파일에 `cacheable="false”` 설정이 있는지 확인하십시오. 옵션이 있으면 이 설정이 필요한지 또는 필요한지 확인하십시오.
+위에 지정된 파일에 `cacheable="false"` 설정이 있는지 확인하십시오. 옵션이 있으면 이 설정이 필요한지 또는 필요한지 확인하십시오.
 
-* 필요한 경우 캐시할 수 없는 블록을 [개인 콘텐츠 메커니즘](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=private%20co)(으)로 이동하는 것이 좋습니다.
-* 필요하지 않은 경우 `cacheable="false”` 특성을 제거하고 레이아웃 캐시를 플러시합니다.
+* 필요한 경우 캐시할 수 없는 블록을 [개인 콘텐츠 메커니즘](https://developer.adobe.com/commerce/php/development/cache/page/private-content/)(으)로 이동하는 것이 좋습니다.
+* 필요하지 않은 경우 `cacheable="false"` 특성을 제거하고 레이아웃 캐시를 플러시합니다.
 
 >[!NOTE]
 >
->클라우드 인프라 2.4.1 이상의 Adobe Commerce의 경우 [사이트 전체 분석 도구](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html)를 사용하여 전체 페이지 캐시가 올바르게 구성되지 않았는지 자동으로 확인할 수 있습니다.
+>클라우드 인프라 2.4.1 이상의 Adobe Commerce의 경우 [사이트 전체 분석 도구](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access)를 사용하여 전체 페이지 캐시가 올바르게 구성되지 않았는지 자동으로 확인할 수 있습니다.
 
 ### 관련 읽기
 
-개발자 설명서에서 [Adobe Commerce 캐시 개요](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=cacheable%2).
+개발자 설명서에서 [Adobe Commerce 캐시 개요](https://developer.adobe.com/commerce/frontend-core/guide/caching/).

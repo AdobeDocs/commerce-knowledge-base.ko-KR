@@ -4,7 +4,7 @@ description: 이 문서에서는 Fastly 자격 증명의 유효성을 검사할 
 exl-id: 02104731-6666-47a6-abc6-215812f09915
 feature: Configuration
 role: Developer
-source-git-commit: 831a928dbe8fd6b37f3fe9ad5dc35ee80e11a578
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -22,11 +22,11 @@ Fastly 자격 증명의 유효성을 검사할 때 오류가 발생합니다.
 ## 영향을 받는 제품 및 버전
 
 * Adobe Commerce(모든 배포 메서드): 모든 버전
-* 확장 또는 기술(Fastly, New Relic 등) 버전 Fastly
+* Fastly, New Relic 등 확장 또는 기술 버전 Fastly
 
 ## 솔루션
 
-1. 올바른 Fastly 서비스 ID 및 API 토큰이 있는지 확인하고 다시 확인하십시오. 자세한 지침은 개발자 설명서에서 [Fastly 자격 증명 테스트](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials)를 참조하십시오.
+1. 올바른 Fastly 서비스 ID 및 API 토큰이 있는지 확인하고 다시 확인하십시오. 자세한 지침은 개발자 설명서에서 [Fastly 자격 증명 테스트](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)를 참조하십시오.
 1. 자격 증명 확인에 실패하면 다음 curl 명령을 실행하여 서비스 상태를 확인합니다.
 
    ```curl
@@ -45,6 +45,6 @@ Fastly 자격 증명의 유효성을 검사할 때 오류가 발생합니다.
 
 ## 개발자 설명서의 관련 내용:
 
-* [Adobe Commerce용 클라우드 > Fastly > Fastly 서비스 계정 및 자격 증명](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html#fastly-service-account-and-credentials)
+* [Adobe Commerce용 클라우드 > Fastly > Fastly 서비스 계정 및 자격 증명](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly#fastly-service-account-and-credentials)
 
-* [Adobe Commerce용 클라우드 > Fastly 설정 > Fastly 자격 증명 테스트](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials)
+* [Adobe Commerce용 클라우드 > Fastly 설정 > Fastly 자격 증명 테스트](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)

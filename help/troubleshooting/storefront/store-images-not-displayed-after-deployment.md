@@ -4,7 +4,7 @@ description: 이 문서에서는 배포 후 이미지가 올바르게 표시되�
 exl-id: 7e6bcebd-edff-437a-9103-2743443d2ed9
 feature: Cache, Categories, Deploy, Storefront
 role: Admin
-source-git-commit: c4d586ca3980acbe4f33c5f2616ef7f3051bc7d3
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 이를 수행하려면 SSH 정보와 [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)을 통해 사용할 수 있는 저장소 URL이 필요합니다.
 
-1. 개발자 설명서의 [환경에 대한 SSH](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh)에 설명된 대로 [데이터베이스 덤프](/help/how-to/general/create-database-dump-on-cloud.md)의 소스인 프로젝트에 대한 SSH입니다.
+1. 개발자 설명서의 [환경에 대한 SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)에 설명된 대로 [데이터베이스 덤프](/help/how-to/general/create-database-dump-on-cloud.md)의 소스인 프로젝트에 대한 SSH입니다.
 1. 다음을 실행하여 이미지 캐시를 재생성합니다.
 
    ```bash

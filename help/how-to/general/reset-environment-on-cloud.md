@@ -3,7 +3,7 @@ title: 클라우드 인프라에서 Adobe Commerce의 환경 재설정
 description: 이 문서에서는 클라우드 인프라에서 Adobe Commerce의 환경을 롤백하는 다양한 시나리오를 보여 줍니다.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 598459365cad811966ed529356cb9ab876f49a38
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -55,13 +55,13 @@ ht-degree: 0%
 
 ## 시나리오 2: 스냅샷 복원
 
-개발자 설명서에서 [클라우드 인프라의 Adobe Commerce에서 스냅숏을 복원합니다](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot).
+개발자 설명서에서 [클라우드 인프라의 Adobe Commerce에서 스냅숏을 복원합니다](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot).
 
 >[!NOTE]
 >
 >클라우드 인프라 계정에서 Adobe Commerce에 액세스한 후 주요 변경 사항을 적용하기 전에 스냅샷을 만드는 것이 첫 번째 단계여야 합니다. 모범 사례이며 적극 권장합니다.
 
-개발자 설명서에서 [스냅숏 만들기](https://devdocs.magento.com/cloud/project/project-webint-snap.html#create-snapshot)를 참조하십시오.
+개발자 설명서에서 [스냅숏 만들기](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot)를 참조하십시오.
 
 ## 시나리오 3: 스냅샷 없음, 안정적인 빌드(SSH 연결 사용 가능)
 

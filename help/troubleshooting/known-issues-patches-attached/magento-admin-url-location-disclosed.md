@@ -4,9 +4,9 @@ description: 이 문서에서는 관리 패널의 URL 위치를 공개할 수 �
 exl-id: fe147ad5-6019-46c1-b48c-6b957b6e1582
 feature: Admin Workspace
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -48,4 +48,4 @@ Adobe은 발작 증상이 없어도 가능한 한 빨리 패치를 붙일 것을
 * Brute Force 공격에 대한 Protect에 대한 [5 즉각적인 조치](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
 * [새 업데이트를 예상하는 Magento 설치 암호 Protect](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [보안 모범 사례](https://magento.com/security/best-practices/security-best-practices)
-* Adobe Commerce에서 [2.3.x](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html) 및 [2.4.x](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)에 대한 2단계 인증 추가 및 구성
+* Adobe Commerce에서 [2.4.x](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication)에 대한 2단계 인증 추가 및 구성

@@ -2,7 +2,7 @@
 title: Elasticsearch 서비스가 실행되고 있지 않음
 description: 이 문서에서는 ES(Elasticsearch) 서비스가 실행되고 있지 않을 때(일반적으로 충돌의 결과로) 발생할 수 있는 오류에 대한 솔루션을 제공합니다. curl을 사용하여 상태 검사를 실행할 때 발생하는 오류, 명령줄을 사용하여 색인 재지정, 예외 및 PHP 오류, 제품 페이지의 오류 등이 증상에 포함될 수 있습니다. 표에는 오류가 나열되며 오류를 해결하기 위한 리소스 링크가 있습니다. 하나의 증상은 다양한 원인을 가질 수 있습니다.
 exl-id: 2c2230de-cb30-4a03-8c3e-d9f44783dbae
-source-git-commit: 3ff881f1c799201ed25ba9737864b1226d283c22
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
    * v2.2.3+에서 ES 5.x 지원
    * v2.2.8+ 및 v2.3.1+에서 ES 6.x 지원
-   * ES v2.x 및 v5.x는 [수명 종료](https://www.elastic.co/support/eol) 때문에 사용하지 않는 것이 좋습니다. 그러나 Adobe Commerce v2.3.1이 있고 ES 2.x 또는 ES 5.x를 사용하려면 [Elasticsearch php 클라이언트를 변경](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html)해야 합니다.
+   * ES v2.x 및 v5.x는 [수명 종료](https://www.elastic.co/support/eol) 때문에 사용하지 않는 것이 좋습니다. 그러나 Adobe Commerce v2.3.1이 있고 ES 2.x 또는 ES 5.x를 사용하려면 [Elasticsearch php 클라이언트를 변경](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)해야 합니다.
 
 * Magento Open Source v2.3.0+는 ES 5.x 및 6.x를 지원합니다(6.x가 권장됨).
 
@@ -59,8 +59,8 @@ Elasticsuite 인덱스를 삭제하지 않습니다.  지원 기술 자료에서
 <li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">Linux 및 Unix 시스템 하드 디스크 문제 해결 팁 8 디스크 꽉 참 또는 디스크에 쓸 수 없음과 같은 문제</a></li>
 <li><a href="https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not">serverfault: df에 따르면 디스크가 꽉 찼다고 되어 있지만 그렇지 않습니다.</a></li>
 <li><a href="https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com: Linux에서 디스크 공간이 사라진 위치를 추적하시겠습니까?</a></li>
-<li>로그 파일이 충분히 정기적으로 보관되지 않습니다. 개발자 설명서에서 <a href="https://docs.magento.com/m2/ee/user_guide/system/action-log-archive.html#configure-the-log-archive">로그 아카이브 구성</a>을 참조하십시오.</li>
-<li>파일 시스템 디렉토리가 최적화되지 않았습니다. 개발자 설명서에서 <a href="https://docs.magento.com/m2/ee/user_guide/system/file-optimization.html">파일 최적화</a>를 참조하십시오.</li>
+<li>로그 파일이 충분히 정기적으로 보관되지 않습니다. 개발자 설명서에서 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-archive">로그 아카이브 구성</a>을 참조하십시오.</li>
+<li>파일 시스템 디렉토리가 최적화되지 않았습니다. 개발자 설명서에서 <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/developer-tools#resource-file-optimization">파일 최적화</a>를 참조하십시오.</li>
 <li>위의 설명서에 나와 있는 해결 방법으로 문제가 해결되지 않으면 Adobe 계정 팀에 연락하여 추가 스토리지를 요청하는 것이 좋습니다.</li>
 </ul>
 </li>

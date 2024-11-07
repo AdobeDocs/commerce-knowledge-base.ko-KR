@@ -4,7 +4,7 @@ description: 이 문서에서는 nginx 웹 서버를 사용할 때 실패한 Ado
 exl-id: 0af90c7e-0733-41c8-b217-9595b133fa95
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
@@ -31,4 +31,4 @@ If you are using the sample nginx configuration, please go to http://ce.mtf03.bc
 
 ### 해결 방법
 
-[명령줄](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html)을 사용하여 Adobe Commerce 소프트웨어를 설치합니다.
+[명령줄](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)을 사용하여 Adobe Commerce 소프트웨어를 설치합니다.

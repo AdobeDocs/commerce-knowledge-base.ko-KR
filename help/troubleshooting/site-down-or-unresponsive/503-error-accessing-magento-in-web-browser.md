@@ -4,7 +4,7 @@ description: 이 문서에서는 Adobe Commerce 상점 및/또는 관리자에 �
 exl-id: 4232aa21-40c2-41b0-9fb0-fc8cd4db8e39
 feature: Storefront
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>재현 단계</u>
 
-(필수 구성 요소: 저장소가 [유지 관리 모드](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)에 있지 않은지 확인하십시오.)
+(필수 구성 요소: 저장소가 [유지 관리 모드](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)에 있지 않은지 확인하십시오.)
 
 웹 브라우저에서 Commerce 관리자 또는 상점 페이지로 이동합니다.
 

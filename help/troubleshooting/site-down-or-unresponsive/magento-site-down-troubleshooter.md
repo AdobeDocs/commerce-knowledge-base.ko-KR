@@ -4,7 +4,7 @@ description: 각 질문을 클릭하면 문제 해결사의 각 단계에서 답
 exl-id: 10a2313e-cc82-4ffc-9247-624884f3e165
 feature: Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -80,7 +80,7 @@ b. 아니요 - [7단계](#step-7)로 진행합니다.
 
 +++**Elasticsearch 오류가 있습니까?**
 
-a. 예 - [Elasticsearch 확인](https://developer.adobe.com/commerce/php/module-reference/module-elasticsearch/)을 위한 단계를 진행합니다.\
+a. 예 - [Elasticsearch 확인](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine)을 위한 단계를 진행합니다.
 b. 아니요 - [8단계](#step-8)로 진행합니다.
 
 +++
@@ -116,7 +116,7 @@ b. 아니요 - [11단계](#step-11)로 진행합니다.
 
 +++**Redis 오류가 표시됩니까?**
 
-a. 예 - [확인 [!DNL Redis] 실행 중](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/redis#troubleshooting-redis) 및 [[!DNL Redis] 문제 해결](https://redis.io/topics/problems)의 단계를 진행합니다.\
+a. 예 - [확인 [!DNL Redis] 실행 중](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection) 및 [[!DNL Redis] 문제 해결](https://redis.io/topics/problems)의 단계를 진행합니다.\
 b. 아니요 - [12단계](#step-12)로 진행합니다.
 
 +++

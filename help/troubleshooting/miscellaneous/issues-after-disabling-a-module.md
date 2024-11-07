@@ -4,7 +4,7 @@ description: 이 문서에서는 Commerce 관리에서 모듈 출력을 비활�
 exl-id: 517f6993-f09e-4a94-8c57-175ecf9a98a8
 feature: Extensions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -30,6 +30,6 @@ Commerce 관리자의 **스토어** > **설정** > **구성** > 고급 > **고�
 
 ## 솔루션
 
-모듈 기능을 사용하지 않도록 설정하려면 개발자 설명서의 [모듈 사용 또는 사용 안 함](https://devdocs.magento.com/guides/v2.1/install-gde/install/cli/install-cli-subcommands-enable.html)에 설명된 대로 모듈을 사용하지 않도록 설정하십시오.
+모듈 기능을 사용하지 않도록 설정하려면 개발자 설명서의 [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules)에 설명된 대로 모듈을 사용하지 않도록 설정하십시오.
 
 버전 2.2.0부터 모듈 출력 비활성화 기능이 제거되었습니다.

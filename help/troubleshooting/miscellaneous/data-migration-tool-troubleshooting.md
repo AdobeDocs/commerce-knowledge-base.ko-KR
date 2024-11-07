@@ -4,9 +4,9 @@ description: 이 문서에서는 데이터 마이그레이션 도구를 실행�
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### 원인
 
-개발자 설명서의 [EAV 마이그레이션 단계](https://devdocs.magento.com/guides/v2.3/migration/migration-tool-internal-spec.html#eav) 동안 Adobe Commerce 2 코드베이스에서 Adobe Commerce 1 코드베이스의 클래스를 찾을 수 없습니다. 대부분의 경우 누락된 클래스는 [extension](https://glossary.magento.com/extension)에 속합니다.
+개발자 설명서의 [EAV 마이그레이션 단계](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification) 동안 Adobe Commerce 2 코드베이스에서 Adobe Commerce 1 코드베이스의 클래스를 찾을 수 없습니다. 대부분의 경우 누락된 클래스는 [extension](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#extension)에 속합니다.
 
 ### 가능한 해결 방법
 
@@ -125,7 +125,7 @@ URL 다시 쓰기의 `Target path`은(는) `Request path` + `Store ID`의 고유
 
 `config.xml` 파일에서 `auto_resolve_urlrewrite_duplicates` 옵션을 사용하도록 설정합니다.
 
-이 구성은 [URL](https://glossary.magento.com/url) 재작성의 충돌하는 레코드에 해시 문자열을 추가하고 명령줄 인터페이스에 해결 결과를 표시합니다.
+이 구성은 URL 재작성의 충돌하는 레코드에 해시 문자열을 추가하고, 해결 결과를 명령줄 인터페이스에 표시합니다.
 
 ## 엔티티 불일치 {#mismatch-of-entities}
 
@@ -155,7 +155,7 @@ Deltalog for <TABLE_NAME> is not installed
 
 ### 원인
 
-이 오류는 개발자 설명서에서 데이터에 대한 변경 내용을 [증분 마이그레이션](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-delta.html)하는 동안 발생합니다. 즉, 접두사가 `m2_cl_*`인 Deltalog 테이블을 Adobe Commerce 1 데이터베이스에서 찾을 수 없습니다. 이 도구는 [데이터 마이그레이션](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-data.html)(개발자 설명서) 중에 이러한 테이블을 설치하고 변경 내용을 추적하고 deltalog 테이블을 채우는 데이터베이스 트리거를 설치합니다.
+이 오류는 개발자 설명서에서 데이터에 대한 변경 내용을 [증분 마이그레이션](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/delta)하는 동안 발생합니다. 즉, 접두사가 `m2_cl_*`인 Deltalog 테이블을 Adobe Commerce 1 데이터베이스에서 찾을 수 없습니다. 이 도구는 [데이터 마이그레이션](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/data)(개발자 설명서) 중에 이러한 테이블을 설치하고 변경 내용을 추적하고 deltalog 테이블을 채우는 데이터베이스 트리거를 설치합니다.
 
 오류가 발생하는 한 가지 이유는 라이브 스토어 자체가 아니라 라이브 Adobe Commerce 1 스토어의 *복사본*&#x200B;에서 마이그레이션하려고 하기 때문일 수 있습니다. 마이그레이션된 적이 없는 라이브 Adobe Commerce 1 스토어에서 복사본을 만들 때 복사본에 델타 마이그레이션을 완료하는 데 필요한 트리거와 추가 deltalog 테이블이 포함되어 있지 않으므로 마이그레이션이 실패합니다. 데이터 마이그레이션 툴은 AC1과 AC2의 DB를 비교하여 차이점을 마이그레이션하지 않습니다. 대신, 이 도구는 후속 델타 마이그레이션을 수행하기 위해 첫 번째 마이그레이션 중에 설치된 트리거 및 Deltalog 테이블을 사용합니다. 이러한 경우 라이브 Adobe Commerce 1 DB의 복사본에는 데이터 마이그레이션 도구가 마이그레이션을 수행하는 데 사용하는 트리거 및 카탈로그 테이블이 포함되지 않습니다.
 

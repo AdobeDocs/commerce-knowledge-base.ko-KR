@@ -1,9 +1,9 @@
 ---
 title: 'MBI: 고급 계산 열 만들기 및 편집'
-description: '[Admin users](https://docs.magento.com/mbi/administrator/user-management/user-management.html)는 Data Warehouse 관리자에서 특정 계산된 열을 만들고 편집할 수 있습니다. 이러한 계산된 열을 통해 주요 비즈니스 질문에 답변할 수 있도록 찾고 있는 보고를 설정할 수 있습니다.'
+description: '[Admin users](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management)는 Data Warehouse 관리자에서 특정 계산된 열을 만들고 편집할 수 있습니다. 이러한 계산된 열을 통해 주요 비즈니스 질문에 답변할 수 있도록 찾고 있는 보고를 설정할 수 있습니다.'
 exl-id: 713a5593-8103-4d74-be5e-0102678d0f97
 feature: Commerce Intelligence
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # MBI: 고급 계산된 열 만들기 및 편집
 
-[관리자 사용자](https://docs.magento.com/mbi/administrator/user-management/user-management.html)는 Data Warehouse 관리자에서 특정 계산된 열을 만들고 편집할 수 있습니다. 이러한 계산된 열을 통해 주요 비즈니스 질문에 답변할 수 있도록 찾고 있는 보고를 설정할 수 있습니다.
+[관리자 사용자](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management)는 Data Warehouse 관리자에서 특정 계산된 열을 만들고 편집할 수 있습니다. 이러한 계산된 열을 통해 주요 비즈니스 질문에 답변할 수 있도록 찾고 있는 보고를 설정할 수 있습니다.
 
 Data Warehouse 관리자에서 만들 수 있는 계산된 열 목록 및 올바르게 설정되었는지 확인하는 지침은 사용 안내서에서 다음 문서를 확인하십시오.
 
-* [계산된 열을 만드는 중](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/creating-calculated-columns.html)
-* [계산된 열 형식](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/calc-column-types.html)
-* [테이블 관계 이해 및 평가](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/table-relationships.html)
-* [계산된 열에 대한 경로를 만드는 중](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/create-paths-calc-columns.html)
+* [계산된 열을 만드는 중](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/creating-calculated-columns)
+* [계산된 열 형식](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/calc-column-types)
+* [테이블 관계 이해 및 평가](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/table-relationships)
+* [계산된 열에 대한 경로를 만드는 중](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/create-paths-calc-columns)
 
 ## 난 아직도 도움이 필요해!
 
@@ -35,7 +35,7 @@ Data Warehouse 관리자에서 만들 수 있는 계산된 열 목록 및 올바
 
 ## 관련 읽기
 
-* [MBI 사용 안내서](https://docs.magento.com/mbi)
+* [MBI 사용 안내서](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview)
 * [MBI: 데이터 불일치](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)
-* [MBI: 데이터 분석가](https://docs.magento.com/mbi/data-analyst.html)
-* [MBI: Magento BI에 대한 도움말 받기](https://docs.magento.com/mbi/getting-started/support.html)
+* [MBI: 데이터 분석가](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/data-analyst)
+* [MBI: Magento BI에 대한 도움말 받기](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/start/sign-in)

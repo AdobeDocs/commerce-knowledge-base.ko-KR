@@ -2,7 +2,7 @@
 title: MySQL과 Elasticsearch에 다른 결과가 표시됨
 description: 이 문서에서는 MySQL 및 Elasticsearch을 사용하여 동일한 검색 쿼리에 대해 서로 다른 검색 결과를 가져오는 것과 관련된 알려진 Adobe Commerce on cloud infrastructure 2.2.3 문제에 대한 패치를 제공합니다.
 exl-id: 37a0164a-0237-4200-ab9c-e0dbad7e2062
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [MySQL 카탈로그 검색 엔진이 Adobe Commerce 2.4.0에서 제거됩니다](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 구성해야 합니다. 개발자 설명서에서 [Elasticsearch 설치 및 구성](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)을 참조하세요.
+> [MySQL 카탈로그 검색 엔진이 Adobe Commerce 2.4.0에서 제거됩니다](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 구성해야 합니다. 개발자 설명서에서 [Elasticsearch 설치 및 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)을 참조하세요.
 
 이 문서에서는 MySQL 및 Elasticsearch을 사용하여 동일한 검색 쿼리에 대해 서로 다른 검색 결과를 가져오는 것과 관련된 알려진 Adobe Commerce on cloud infrastructure 2.2.3 문제에 대한 패치를 제공합니다.
 

@@ -4,7 +4,7 @@ description: 이 문서에서는 플랫 테이블 및 인덱서가 활성화되�
 exl-id: a78ca3c3-85b4-40a1-a693-4703dd3ef4b5
 feature: Best Practices, Cache, Categories, Catalog Management
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >모든 Adobe Commerce 버전에서 일부 확장은 플랫 테이블에서만 작동하므로 플랫 테이블을 비활성화하면 위험이 있습니다. 플랫 카탈로그 인덱서를 사용하는 확장이 있는 경우 해당 값을 &quot; *아니요*&quot;(으)로 설정할 때 이를 고려해야 할 수 있습니다.
 
-이 문서에서는 [플랫 테이블 및 인덱서](https://docs.magento.com/m2/ce/user_guide/catalog/catalog-flat.html)가 활성화되었기 때문에 사이트 성능 문제와 느린 실행 및 멈춤 크론을 해결하는 방법에 대해 설명합니다.
+이 문서에서는 [플랫 테이블 및 인덱서](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/catalog-flat)가 활성화되었기 때문에 사이트 성능 문제와 느린 실행 및 멈춤 크론을 해결하는 방법에 대해 설명합니다.
 
 영향을 받는 제품 및 버전
 

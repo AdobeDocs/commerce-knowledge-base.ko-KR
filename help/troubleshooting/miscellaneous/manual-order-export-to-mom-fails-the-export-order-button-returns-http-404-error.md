@@ -4,7 +4,7 @@ description: 이 문서에서는 Commerce 관리자의 주문 보기에서 **주
 exl-id: 75741473-7c9a-4418-a56f-de75ac246d27
 feature: Data Import/Export
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -48,4 +48,4 @@ $bin/magento oms:orders:sync
 
 ## 관련 읽기
 
-[Magento Order Management 기술 설명서](https://omsdocs.magento.com/en/)
+[Magento Order Management 기술 설명서](https://commerce-docs.github.io/oms-documentation-archive/)

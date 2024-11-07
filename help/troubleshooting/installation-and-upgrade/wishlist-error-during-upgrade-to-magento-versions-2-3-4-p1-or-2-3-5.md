@@ -4,7 +4,7 @@ description: 이 문서에서는 이러한 버전으로 업그레이드하는 �
 exl-id: 97479615-bf3f-4544-a9c1-8f19ba74318e
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -57,8 +57,8 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 개발자 설명서에서:
 
-* [클라우드 인프라의 Adobe Commerce 안내서](https://devdocs.magento.com/cloud/bk-cloud.html)
-* [클라우드 인프라의 Adobe Commerce - Adobe Commerce 버전 업그레이드](https://devdocs.magento.com/cloud/project/project-upgrade.html)
-* [Adobe Commerce 온-프레미스 및 Magento Open Source - Adobe Commerce 응용 프로그램 및 모듈 업그레이드](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
-* [위시리스트 항목 구성 페이지](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)
-* [고급 보고를 제공하는 모듈](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)
+* [클라우드 인프라의 Adobe Commerce 안내서](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/overview)
+* [클라우드 인프라의 Adobe Commerce - Adobe Commerce 버전 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
+* [Adobe Commerce 온-프레미스 및 Magento Open Source - Adobe Commerce 응용 프로그램 및 모듈 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview)
+* [위시리스트 항목 구성 페이지](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts/#wishlist-item-configure-page)
+* [고급 보고를 제공하는 모듈](https://developer.adobe.com/commerce/php/development/advanced-reporting/modules/)

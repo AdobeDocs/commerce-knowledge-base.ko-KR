@@ -3,7 +3,7 @@ title: Adobe Commerce에 새 국가를 추가하는 방법
 description: 이 문서에서는 Adobe Commerce 및 Zend 로케일 라이브러리에 없는 국가를 추가하는 방법에 대해 설명합니다. 이를 위해서는 적용 가능한 계약 조건에 따라 고객 맞춤화를 구성하는 코드 및 데이터베이스 변경 사항이 필요합니다. 이 문서에 포함된 예제 자료는 어떠한 종류의 보증도 없이 "있는 그대로" 제공됩니다. Adobe 및 관련 업체는 이러한 자료를 유지, 수정, 업데이트, 변경, 수정 또는 지원할 의무가 없습니다. 여기에서 우리는 이것을 달성하기 위해 무엇이 행해져야 하는지에 대한 기본 원칙을 기술할 것이다.
 exl-id: af499add-4966-4a3a-972a-62a34c169a1b
 feature: Build, Cache
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 새 모듈을 만들기 전에 개발자 설명서에서 다음 항목을 참조하십시오.
 
-* [PHP 개발자 안내서](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
-* [모듈 개요](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)
-* [새 모듈 만들기](https://devdocs.magento.com/videos/fundamentals/create-a-new-module/)
-* [모듈 구성 파일](https://devdocs.magento.com/guides/v2.4/config-guide/config/config-files.html)
+* [PHP 개발자 안내서](https://developer.adobe.com/commerce/php/development/)
+* [모듈 개요](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
+* [새 모듈 만들기](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/create-module)
+* [모듈 구성 파일](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
 
 ## 필수 정보
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 이 예제에서는 다음 디렉터리 구조로 \`ExtraCountries\`라는 새 모듈을 만듭니다.
 
-모듈 구조에 대한 자세한 내용은 개발자 설명서에서 [모듈 개요](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)를 참조하십시오.
+모듈 구조에 대한 자세한 내용은 개발자 설명서에서 [모듈 개요](https://developer.adobe.com/commerce/php/architecture/modules/overview/)를 참조하십시오.
 
 <pre><ExtraCountries>
  |
@@ -97,7 +97,7 @@ ht-degree: 0%
 </config>
 ```
 
-모듈 구성 파일에 대한 자세한 내용은 개발자 설명서에서 [PHP 개발자 안내서 > 구성 파일 정의](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html)를 참조하십시오.
+모듈 구성 파일에 대한 자세한 내용은 개발자 설명서에서 [PHP 개발자 안내서 > 구성 파일 정의](https://developer.adobe.com/commerce/php/development/build/required-configuration-files/)를 참조하십시오.
 
 이러한 변경 사항은 선택 사항이며 &quot;허용 국가&quot;, &quot;우편 번호는 선택 사항입니다&quot; 및 &quot;유럽 연합 국가&quot; 목록에 대한 새 국가의 기본 속성인 경우에만 영향을 미칩니다. 이 파일을 모듈 구조에서 건너뛰면 새 국가가 추가되지만 **관리자** > **스토어** > *설정* > **구성** > **일반** > **국가 옵션** 설정 페이지에서 수동으로 구성해야 합니다.
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 모듈 등록 파일에서 &quot;Adobe Commerce Directory&quot; 모듈에 대한 종속성을 지정해야 하므로 &quot;Extra Countries&quot; 모듈이 Directory 모듈 다음에 등록 및 실행됩니다.
 
-모듈 종속성에 대한 자세한 내용은 개발자 설명서에서 [모듈 종속성 관리](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies)를 참조하십시오.
+모듈 종속성에 대한 자세한 내용은 개발자 설명서에서 [모듈 종속성 관리](https://developer.adobe.com/commerce/php/architecture/modules/dependencies/#managing-module-dependencies)를 참조하십시오.
 
 `module.xml` 예
 
@@ -185,7 +185,7 @@ class TranslatedListsPlugin
 
 이 데이터 패치는 Adobe Commerce 설치/업그레이드 프로세스 중에 실행되며 새 국가 레코드를 데이터베이스에 추가합니다.
 
-데이터 패치에 대한 자세한 내용은 개발자 설명서에서 [데이터 및 스키마 패치 개발](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html)을 참조하십시오.
+데이터 패치에 대한 자세한 내용은 개발자 설명서에서 [데이터 및 스키마 패치 개발](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/)을 참조하십시오.
 
 아래 예제에서 `apply()` 메서드의 `$data` 배열에 새 국가의 국가 ID, ISO2 및 ISO3 코드가 포함되어 있으며 이 데이터가 데이터베이스에 삽입되어 있음을 확인할 수 있습니다.
 
@@ -266,7 +266,7 @@ class AddDataForAbstractCountry implements DataPatchInterface, PatchVersionInter
 
 ### ExtraCountries/registration.php
 
-다음은 registration.php 파일의 예입니다. 모듈 등록에 대한 자세한 내용은 개발자 설명서에서 [PHP 개발자 안내서 > 구성 요소 등록](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html)을 참조하십시오.
+다음은 registration.php 파일의 예입니다. 모듈 등록에 대한 자세한 내용은 개발자 설명서에서 [PHP 개발자 안내서 > 구성 요소 등록](https://developer.adobe.com/commerce/php/development/build/component-registration/)을 참조하십시오.
 
 ```php
 <?php
@@ -279,7 +279,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 다음은 composer.json 파일의 예입니다.
 
-composer.json에 대한 자세한 내용은 개발자 설명서에서 [PHP 개발자 안내서 > composer.json 파일](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html)을 참조하십시오.
+composer.json에 대한 자세한 내용은 개발자 설명서에서 [PHP 개발자 안내서 > composer.json 파일](https://developer.adobe.com/commerce/php/development/build/composer-integration/)을 참조하십시오.
 
 ```json
 {
@@ -310,7 +310,7 @@ composer.json에 대한 자세한 내용은 개발자 설명서에서 [PHP 개�
 
 ## 모듈 설치
 
-모듈을 설치하는 방법은 개발자 설명서에서 [모듈 위치](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations)를 참조하십시오.
+모듈을 설치하는 방법은 개발자 설명서에서 [모듈 위치](https://developer.adobe.com/commerce/php/architecture/modules/overview/#module-locations)를 참조하십시오.
 
 모듈 디렉터리가 올바른 위치에 배치되면 `bin/magento setup:upgrade`을(를) 실행하여 데이터 패치를 적용하고 번역 플러그인을 등록합니다.
 

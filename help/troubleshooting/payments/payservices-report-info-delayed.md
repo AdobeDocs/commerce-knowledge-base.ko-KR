@@ -4,7 +4,7 @@ description: 이 문서에서는 결제 서비스의 보고 데이터가 지연�
 exl-id: 2f3249d1-be12-45bc-aa73-bef9766509ae
 feature: Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 전제 조건: 주문은 결제 서비스 기능을 사용하여 수행됩니다.
 
-1. [관리자](https://docs.magento.com/user-guide/stores/admin.html)의 주문은 [인보이스가 청구됨](https://docs.magento.com/user-guide/sales/invoice-create.html)(또는 [취소됨](https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order) 또는 [대변 메모를 통해 환불됨](https://docs.magento.com/user-guide/sales/credit-memos.html))입니다.
+1. [관리자](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin)의 주문은 [인보이스가 청구됨](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice)(또는 [취소됨](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order) 또는 [대변 메모를 통해 환불됨](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos))입니다.
 1. 해당 주문에 대한 정보를 보려면 주문 지급 상태 보고서로 이동합니다.
 1. 상태가 `AUTHORIZED`(으)로 표시됩니다. 이 상태는 송장 발행 또는 기타 주문 조치 이전의 주문 상태입니다.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이는 하나의 일반적인 사용 사례일 뿐입니다. [주문 작업](https://docs.magento.com/user-guide/sales/order-actions.html)이 발생하고 해당 보고서에서 데이터를 즉시 사용할 수 없는 다른 사용 사례가 있을 수 있습니다.
+>이는 하나의 일반적인 사용 사례일 뿐입니다. [주문 작업](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders#actions)이 발생하고 해당 보고서에서 데이터를 즉시 사용할 수 없는 다른 사용 사례가 있을 수 있습니다.
 
 <u>예상 결과</u>:
 보고서 데이터는 주문에 대한 작업이 있는 즉시 채워집니다.

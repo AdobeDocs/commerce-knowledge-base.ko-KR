@@ -1,10 +1,10 @@
 ---
 title: 'MDVA-40619: 계층 구조 변경으로 CMS 페이지 인라인 편집이 중단되고 500 오류가 발생합니다.'
-description: MDVA-40619 패치는 CMS 페이지 계층 구조 변경이 CMS 페이지 인라인 편집을 중단하고 "500 오류"를 발생시키는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-40619입니다. 이 문제는 Adobe Commerce 2.4.4에서 수정됩니다.
+description: MDVA-40619 패치는 CMS 페이지 계층 구조가 변경되어 CMS 페이지 인라인 편집이 중단되고 "500 오류"가 발생하는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-40619입니다. 이 문제는 Adobe Commerce 2.4.4에서 수정됩니다.
 exl-id: c003d845-1ba0-49c0-9f1a-a4b0ec00f30c
 feature: CMS
 role: Admin
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-40619: 계층 구조 변경으로 CMS 페이지 인라인 편집이 중단되고 500 오류가 발생합니다.
 
-MDVA-40619 패치는 CMS 페이지 계층 구조 변경이 CMS 페이지 인라인 편집을 중단하고 &quot;500 오류&quot;를 발생시키는 문제를 해결합니다. 이 패치는 [품질 패치 도구(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5가 설치된 경우에 사용할 수 있습니다. 패치 ID는 MDVA-40619입니다. 이 문제는 Adobe Commerce 2.4.4에서 수정됩니다.
+MDVA-40619 패치는 CMS 페이지 계층 구조가 변경되어 CMS 페이지 인라인 편집이 중단되고 &quot;500 오류&quot;가 발생하는 문제를 해결합니다. 이 패치는 [품질 패치 도구(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5가 설치된 경우에 사용할 수 있습니다. 패치 ID는 MDVA-40619입니다. 이 문제는 Adobe Commerce 2.4.4에서 수정됩니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -27,11 +27,11 @@ MDVA-40619 패치는 CMS 페이지 계층 구조 변경이 CMS 페이지 인라�
 
 >[!NOTE]
 >
->이 패치는 새로운 품질 패치 도구 릴리스가 있는 다른 버전에 적용할 수 있습니다. 패치가 Adobe Commerce 버전과 호환되는지 확인하려면 `magento/quality-patches` 패키지를 최신 버전으로 업데이트하고 [[!DNL Quality Patches Tool]에서 호환성을 확인합니다. 패치 검색 페이지](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). 패치 ID를 검색 키워드로 사용하여 패치를 찾습니다.
+>이 패치는 새로운 품질 패치 도구 릴리스가 있는 다른 버전에 적용할 수 있습니다. 패치가 Adobe Commerce 버전과 호환되는지 확인하려면 `magento/quality-patches` 패키지를 최신 버전으로 업데이트하고 [[!DNL Quality Patches Tool]에서 호환성을 확인합니다. 패치 검색 페이지](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 패치 ID를 검색 키워드로 사용하여 패치를 찾습니다.
 
 ## 문제
 
-CMS 페이지 계층 구조 변경 사항으로 CMS 페이지 인라인 편집이 중단되고 &quot;500 오류&quot;가 발생합니다.
+CMS 페이지 계층 구조 변경 사항이 CMS 페이지 인라인 편집을 중단하고 &quot;500 오류&quot;를 발생시킵니다.
 
 <u>재현 단계</u>:
 
@@ -59,8 +59,8 @@ CMS 페이지 계층 구조 변경 사항으로 CMS 페이지 인라인 편집�
 
 개별 패치를 적용하려면 배포 방법에 따라 다음 링크를 사용합니다.
 
-* 개발자 설명서에서 Adobe Commerce 또는 Magento Open Source 온-프레미스: [소프트웨어 업데이트 안내서 > 패치 적용](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html).
-* 클라우드 인프라의 Adobe Commerce: 개발자 설명서에서 [업그레이드 및 패치 > 패치 적용](https://devdocs.magento.com/cloud/project/project-patch.html).
+* 개발자 설명서에서 Adobe Commerce 또는 Magento Open Source 온-프레미스: [소프트웨어 업데이트 안내서 > 패치 적용](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage).
+* 클라우드 인프라의 Adobe Commerce: 개발자 설명서에서 [업그레이드 및 패치 > 패치 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches).
 
 ## 관련 읽기
 

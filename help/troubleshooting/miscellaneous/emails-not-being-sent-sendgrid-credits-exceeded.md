@@ -4,7 +4,7 @@ description: 이 문서에서는 Adobe Commerce에서 SendGrid 크레딧 제한�
 exl-id: 43438890-665b-4408-8034-e61de8fbbd8b
 feature: Communications, Orders
 role: Developer
-source-git-commit: e04bb0b37e795cae3380e1110e6db95be12036b0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -40,4 +40,4 @@ Adobe Commerce on cloud infrastructure Pro 플랜 아키텍처: `/var/log/mail.l
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html)
+* 개발자 설명서에서 [SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid)

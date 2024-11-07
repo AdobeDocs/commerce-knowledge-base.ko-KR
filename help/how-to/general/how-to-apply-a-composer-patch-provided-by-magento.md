@@ -3,7 +3,7 @@ title: Adobe에서 제공하는 작성기 패치를 적용하는 방법
 description: 이 문서에서는 Adobe Commerce 온-프레미스, Adobe Commerce 온 클라우드 인프라 및 Magento Open Source에 대한 작성기 패치를 적용하는 방법에 대해 설명합니다.
 exl-id: a9301ad8-1d4b-49f5-b679-758624928219
 feature: Cache
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
    git push origin
    ```
 
-클라우드 프로젝트에 패치를 적용하는 방법에 대한 자세한 내용은 개발자 설명서에서 [패치 적용](https://devdocs.magento.com/cloud/project/project-patch.html)을 참조하십시오.
+클라우드 프로젝트에 패치를 적용하는 방법에 대한 자세한 내용은 개발자 설명서에서 [패치 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
 
 ### Adobe Commerce 온-프레미스 및 Magento Open Source에 작성기 패치를 적용하는 방법 {#commerce}
 

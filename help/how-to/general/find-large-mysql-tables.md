@@ -1,8 +1,8 @@
 ---
 title: 큰 MySQL 테이블 찾기
-description: '''큰 테이블을 식별하려면 [데이터베이스에 연결](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) 문서에 설명된 대로 데이터베이스에 연결하고 다음 명령을 실행합니다. 여기서 ''project_id''는 클라우드 프로젝트 ID입니다.'''
+description: '''큰 테이블을 식별하려면 [데이터베이스에 연결](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql#connect-to-the-database) 문서에 설명된 대로 데이터베이스에 연결하고 다음 명령을 실행합니다. 여기서 ''project_id''는 클라우드 프로젝트 ID입니다.'''
 exl-id: dc5019bc-ab6c-4568-986f-0a294a0f3ac3
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 큰 MySQL 테이블 찾기
 
-큰 테이블을 식별하려면 [데이터베이스에 연결](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) 문서에 설명된 대로 데이터베이스에 연결하고 다음 명령을 실행합니다. 여기서 `project_id`은(는) 클라우드 프로젝트 ID입니다.
+큰 테이블을 식별하려면 [데이터베이스에 연결](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql#connect-to-the-database) 문서에 설명된 대로 데이터베이스에 연결하고 다음 명령을 실행합니다. 여기서 `project_id`은(는) 클라우드 프로젝트 ID입니다.
 
 ```sql
 SELECT TABLE_NAME AS `Table`,

@@ -4,7 +4,7 @@ description: Adobe Commerce 온프레미스, Adobe Commerce 온클라우드 인�
 exl-id: 717be515-3cbf-42e9-9b72-caf11b8c3771
 feature: Catalog Management, Search, Services
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -36,11 +36,11 @@ MySQL 검색 엔진을 제거하는 이유는 Elasticsearch이 카탈로그 성�
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">MySQL</td>
-<td style="width: 478.2px;">Elasticsearch을 설치해야 합니다. 개발자 설명서에서 <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html">Elasticsearch 설치 및 구성</a>을 참조하십시오.</td>
+<td style="width: 478.2px;">Elasticsearch을 설치해야 합니다. 개발자 설명서에서 <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search">Elasticsearch 설치 및 구성</a>을 참조하십시오.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch(나열된 버전 없음)</td>
-<td style="width: 478.2px;">Elasticsearch 2를 사용 중이며 Elasticsearch 7(기본 설정) 또는 6으로 업데이트해야 합니다. 자세한 내용은 개발자 설명서에서 <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html#es-upgrade6">Elasticsearch 업그레이드</a> 및 <a href="https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/configure-magento.html">Elasticsearch을 사용하도록 Commerce 구성</a>을 참조하십시오.</td>
+<td style="width: 478.2px;">Elasticsearch 2를 사용 중이며 Elasticsearch 7(기본 설정) 또는 6으로 업데이트해야 합니다. 자세한 내용은 개발자 설명서에서 <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search#es-upgrade6">Elasticsearch 업그레이드</a> 및 <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine">Elasticsearch을 사용하도록 Commerce 구성</a>을 참조하십시오.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">ELASTICSEARCH 5</td>
@@ -59,7 +59,7 @@ MySQL 검색 엔진을 제거하는 이유는 Elasticsearch이 카탈로그 성�
 
 ## 설치:
 
-Adobe Commerce 온-프레미스 및 Magento Open Source 2.4.0이 릴리스되면 Elasticsearch은 필수 구성 요소이므로 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 구성해야 합니다. 개발자 설명서에서 [Elasticsearch 설치 및 구성](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)을 참조하세요.
+Adobe Commerce 온-프레미스 및 Magento Open Source 2.4.0이 릴리스되면 Elasticsearch은 필수 구성 요소이므로 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 구성해야 합니다. 개발자 설명서에서 [Elasticsearch 설치 및 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)을 참조하세요.
 
 기본적으로 Adobe Commerce 검색은 Elasticsearch 7을 검색 엔진으로 사용하고 localhost:9200에서 서버에 연결을 시도합니다. Elasticsearch 6.x도 지원됩니다. 구성이 기본값과 일치하지 않으면 데이터베이스 연결이 구성된 것과 거의 동일한 방식으로 `setup:install`에 전달된 인수를 사용하여 이러한 설정을 구성할 수 있습니다.
 

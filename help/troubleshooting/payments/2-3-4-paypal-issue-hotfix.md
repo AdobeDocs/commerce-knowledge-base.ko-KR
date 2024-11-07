@@ -4,7 +4,7 @@ description: 이 문서에서는 PayPal Express Checkout에서 영역을 선택�
 exl-id: 9f5ec100-49b0-4ac5-8951-32b5c4fe6bed
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 Adobe Commerce 온-프레미스 판매자의 경우: 내 계정의 [magento.com](https://magento.com) 포털의 다운로드 섹션에서 사용할 수 있는 [핫픽스,](https://magento.com/tech-resources/download#download2353)을(를) 적용합니다.
 
-클라우드 인프라 판매자의 Adobe Commerce: Adobe이 Commerce v1.0.2용 클라우드 패치에 수정 사항을 포함했습니다. 최신 패키지 적용에 대한 지침은 개발자 설명서에서 [Commerce용 클라우드 패치](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche)를 참조하십시오.
+클라우드 인프라 판매자의 Adobe Commerce: Adobe이 Commerce v1.0.2용 클라우드 패치에 수정 사항을 포함했습니다. 최신 패키지 적용에 대한 지침은 개발자 설명서에서 [Commerce용 클라우드 패치](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche)를 참조하십시오.
 
 ## 패치 적용 방법
 
@@ -57,4 +57,4 @@ Adobe Commerce 온-프레미스 판매자의 경우: 내 계정의 [magento.com]
 
 ## 관련 읽기
 
-* [릴리스 정보 > Adobe Commerce 2.3.4 릴리스 노트 > Adobe Commerce 2.3.4용 지역 패치와 함께 PayPal Express 체크아웃 문제 적용](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) 개발자 설명서에서 중요한 PayPal Express 체크아웃 문제를 해결하십시오.
+* [릴리스 정보 > Adobe Commerce 2.3.4 릴리스 노트 > Adobe Commerce 2.3.4용 지역 패치와 함께 PayPal Express 체크아웃 문제 적용](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) 개발자 설명서에서 중요한 PayPal Express 체크아웃 문제를 해결하십시오.

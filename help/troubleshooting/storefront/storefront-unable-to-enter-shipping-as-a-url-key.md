@@ -1,10 +1,10 @@
 ---
 title: 배송을 URL 키로 저장할 수 없음
-description: 이 문서에서는 제품 또는 CMS 페이지의 URL 키(_e. /shipping_)로 배송을 저장할 수 없는 문제에 대한 해결 방법을 제공합니다. URL 키를 저장하려고 하면 URL 키가 URL과 중복됨을 나타내는 오류가 표시됩니다.
+description: 이 문서에서는 배송 기능을 제품 또는 CMS 페이지의 URL 키(_e. /shipping_)로 저장할 수 없는 문제에 대한 해결 방법을 제공합니다. URL 키를 저장하려고 하면 URL 키가 URL과 중복됨을 나타내는 오류가 표시됩니다.
 exl-id: df19b597-f615-4b19-82c1-59cc179fa720
 feature: Marketing Tools, Shipping/Delivery, Storefront
 role: Admin
-source-git-commit: 1ce963142a261a17e2b42f79dd567c8484ec5b3e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # _shipping_&#x200B;을(를) URL 키로 저장할 수 없습니다.
 
-이 문서에서는 제품 또는 CMS 페이지의 URL 키(_예: /shipping_)로 배송을 저장할 수 없는 문제에 대한 해결 방법을 제공합니다. URL 키를 저장하려고 하면 URL 키가 중복 URL임을 나타내는 오류가 표시됩니다.
+이 문서에서는 제품 또는 CMS 페이지의 배송 URL 키(_예: /shipping_)로 저장할 수 없는 경우 발생하는 문제에 대한 해결 방법을 제공합니다. URL 키를 저장하려고 하면 URL 키가 중복 URL임을 나타내는 오류가 표시됩니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -21,7 +21,7 @@ Adobe Commerce(모든 배포 메서드) 2.4.x
 
 ## 문제
 
-URL 키에 _shipping_&#x200B;이라는 용어가 있는 CMS 페이지를 저장할 수 없습니다.
+URL 키에 _shipping_ 용어가 있는 CMS 페이지를 저장할 수 없습니다.
 
 <u>재현 단계</u>:
 
@@ -122,5 +122,5 @@ URL 키에는 _shipping_&#x200B;이라는 용어를 사용할 수 없습니다. 
 
 ## 관련 읽기
 
-* 머천다이징 및 프로모션 사용 안내서의 [URL 재작성](https://docs.magento.com/user-guide/marketing/url-rewrite.html).
-* 머천다이징 및 프로모션 사용 안내서의 [SEO 모범 사례](https://docs.magento.com/user-guide/marketing/seo-best-practices.html).
+* 머천다이징 및 프로모션 사용 안내서의 [URL 재작성](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite).
+* 머천다이징 및 프로모션 사용 안내서의 [SEO 모범 사례](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview).

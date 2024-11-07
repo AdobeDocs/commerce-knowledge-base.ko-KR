@@ -4,7 +4,7 @@ description: 이 문서에서는 PHP 8.1을 지원하는 버전으로 업그레�
 exl-id: bdc4a355-4f2b-49a7-9c5d-63c950f7ca30
 feature: Deploy, Observability
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * cloud infrastructure 2.4.4 이상 버전의 Adobe Commerce
 
-* 확장 또는 기술(Fastly, New Relic 등) 버전 PHP 8.1
+* 확장 또는 기술 (Fastly, New Relic 등) 버전 PHP 8.1
 
 ## 문제
 
@@ -45,4 +45,4 @@ PHP 8.1에는 이미 JSON 지원이 포함되어 있으므로 확장을 별도�
 
 ## 관련 읽기
 
-개발자 설명서에서 [PHP 응용 프로그램](https://devdocs.magento.com/cloud/project/magento-app-php-application.html).
+개발자 설명서에서 [PHP 응용 프로그램](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings).

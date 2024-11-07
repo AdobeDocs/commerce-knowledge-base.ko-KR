@@ -4,7 +4,7 @@ description: 이 문서에서는 파일 시스템 디렉토리 'pub/media' 또�
 exl-id: 84488d87-095f-4739-858f-19a52d6e5822
 feature: Categories, Orders
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -50,4 +50,4 @@ Adobe Stock 파일 시스템의 `pub/media` 및 `pub/media/catalog` 폴더에서
 
 ## 관련 읽기
 
-* 사용 안내서의 [미디어 저장소](https://docs.magento.com/user-guide/v2.3/cms/media-storage.html).
+* 사용 안내서의 [미디어 저장소](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/media-storage).

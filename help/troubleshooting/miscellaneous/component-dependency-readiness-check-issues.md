@@ -4,7 +4,7 @@ description: 이 문서에서는 구성 요소 종속성 충돌에 대한 해결
 exl-id: e0865226-2aaf-4bdd-8c28-28f32f38ce0c
 feature: Configuration
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -51,7 +51,7 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-개발자 설명서의 [소유권 및 권한 개요](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) 문서에 설명된 대로 파일 시스템 권한을 설정해야 합니다.
+개발자 설명서의 [소유권 및 권한 개요](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) 문서에 설명된 대로 파일 시스템 권한을 설정해야 합니다.
 
 ## 구성 요소 종속성 확인 상태는 변경되지 않습니다 {#trouble-depend-state}
 

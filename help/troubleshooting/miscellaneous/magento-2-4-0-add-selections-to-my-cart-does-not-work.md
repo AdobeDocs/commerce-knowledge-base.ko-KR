@@ -4,7 +4,7 @@ description: 이 문서에서는 고객의 장바구니를 관리할 때 Commerc
 exl-id: b0830ec2-2aea-4afb-8d02-e9c8f54283be
 feature: Orders, Shopping Cart
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Adobe Commerce이 선택 사항을 내 장바구니에 추가하지 않습니다
 
 ## 관련 읽기
 
-* 사용 안내서의 [장바구니 관리](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html).
+* 사용 안내서의 [장바구니 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage).
 * [Adobe Commerce 2.4.0 알려진 문제: 원시 메시지 데이터가 지원 기술 자료의 상점](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)에 표시됩니다.
 * [Adobe Commerce 2.4.0 알려진 문제: 지원 기술 자료에서 수출 세율이 작동하지 않습니다](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md).
 * [Adobe Commerce 2.4.0 알려진 문제: 지원 기술 자료의 여러 주소 체크아웃](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)에 Braintree 결제 방법이 표시되지 않습니다.

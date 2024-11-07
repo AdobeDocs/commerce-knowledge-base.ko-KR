@@ -4,7 +4,7 @@ description: 이 문서에서는 설치 중에 설치 마법사가 'install.log'
 exl-id: ff614018-8e49-4170-a806-8ebdc91ae8a9
 feature: Install, Logs, Upgrade
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Installation-fails-create-install.log
 
 이 값을 변경하는 방법을 잘 모를 경우 다음 단계를 사용하십시오.
 
-1. 아직 만들지 않은 경우 [phpinfo.php](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo)을(를) 만듭니다.
+1. 아직 만들지 않은 경우 [phpinfo.php](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software)을(를) 만듭니다.
 1. 브라우저의 주소 또는 위치 필드에 다음 URL을 입력하십시오. `https://<your web server IP or hostname>/<path to docroot>/phpinfo.php`
 1. `php.ini`의 위치를 찾습니다.     `php.ini`은(는) 일반적으로 표시된 결과에서 **로드된 구성 파일**(으)로 지정됩니다.
 1. 루트 권한이 있는 사용자는 텍스트 편집기에서 `php.ini`을(를) 여십시오.

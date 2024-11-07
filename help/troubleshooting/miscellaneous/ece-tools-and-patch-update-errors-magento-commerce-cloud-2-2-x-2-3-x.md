@@ -4,7 +4,7 @@ description: 이 문서에서는 ECE-Tools, 패치 또는 기타 변경 사항�
 exl-id: b1658001-0ffd-4f8a-a15f-d785efcee51f
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -82,4 +82,4 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [업그레이드 및 패치](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=update%20ece%20tools).
+* 개발자 설명서에서 [업그레이드 및 패치](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/best-practices).

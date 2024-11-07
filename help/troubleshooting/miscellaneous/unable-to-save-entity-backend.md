@@ -4,7 +4,7 @@ description: 이 문서에서는 Adobe Commerce 백엔드에서 엔티티를 저
 exl-id: e45dc88a-2da0-4524-bd61-6634cfebb169
 feature: Admin Workspace, Marketing Tools
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 원인
 
-이 문제는 최대 세션 크기에 영향을 준 새로운 기능이 최근에 도입된 것과 관련이 있습니다. 개발자 설명서에서 [세션 관리](https://docs.magento.com/user-guide/stores/security-session-management.html)를 참조하십시오.
+이 문제는 최대 세션 크기에 영향을 준 새로운 기능이 최근에 도입된 것과 관련이 있습니다. 개발자 설명서에서 [세션 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management)를 참조하십시오.
 
 ## 솔루션
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* 사용 안내서의 [마케팅 메뉴](https://docs.magento.com/user-guide/marketing/marketing-menu.html).
+* 사용 안내서의 [마케팅 메뉴](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/marketing-menu).

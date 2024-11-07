@@ -3,7 +3,7 @@ title: Adobe Commerce 제품 설명서를 찾는 방법
 description: Adobe Commerce 지원 기술 자료에서는 Adobe Commerce 지원 팀에서 제공하는 알려진 Adobe Commerce 제품 문제를 해결하고 피하기 위한 문제 해결 솔루션을 제공합니다.
 exl-id: 03c5ec4a-ca1a-4c8e-b896-a13e08229531
 feature: B2B, Commerce Intelligence
-source-git-commit: 9491279d147eac9ed36ad236c227b08e7c6e0211
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Adobe Commerce 지원 기술 자료에서는 Adobe Commerce 지원 팀에서 제
 <td>[!DNL Order Management System (OMS)] Adobe Commerce용</td>
 <td>
 <p>판매자(최종 사용자) 및 개발자(기술) 설명서:</p>
-<p><a href="https://omsdocs.magento.com/">https://omsdocs.magento.com/</a></p>
+<p><a href="https://commerce-docs.github.io/oms-documentation-archive/">https://commerce-docs.github.io/oms-documentation-archive/</a></p>
 </td>
 </tr>
 <tr>

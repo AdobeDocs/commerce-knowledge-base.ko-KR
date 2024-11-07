@@ -4,7 +4,7 @@ description: 이 문서에서는 Adobe 정의 SSL 인증서가 사용자가 제�
 exl-id: cc968bae-f742-449b-b291-bc121ec45935
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -46,6 +46,6 @@ Adobe Commerce은 만료 후 30일이 경과하면 모든 인증서를 업데이
 ## 관련 읽기
 
 * 지원 기술 자료의 [Magento Commerce Cloud에 대한 SSL(TLS) 인증서: FAQ](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md).
-* 개발자 설명서에서 [명령줄 도구 참조: magento-cloud certificate:add](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd).
-* 개발자 설명서에서 [Launch 검사 목록](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)을 참조하세요.
-* 사용 안내서에서 [사이트 전체 분석 도구에 액세스](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html#step-2-access-site-wide-analysis-tool)합니다.
+* 개발자 설명서에서 [명령줄 도구 참조: magento-cloud certificate:add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd).
+* 개발자 설명서에서 [Launch 검사 목록](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)을 참조하세요.
+* 사용 안내서에서 [사이트 전체 분석 도구에 액세스](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)합니다.

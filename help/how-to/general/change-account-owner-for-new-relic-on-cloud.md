@@ -3,7 +3,7 @@ title: Cloud에서 New Relic의 계정 소유자 변경
 description: Adobe Commerce on cloud infrastructure 프로젝트의 경우 New Relic UI 페이지에서 New Relic 계정 소유자를 변경할 수 있습니다. 자세한 단계는 New Relic 설명서의 [계정 소유자 변경](https://docs.newrelic.com/docs/accounts/accounts/roles-permissions/change-account-owner)을 참조하십시오.
 exl-id: fbb778d5-7e5d-4cd9-849a-4071ca9e4bea
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -20,4 +20,4 @@ Adobe Commerce on cloud infrastructure 프로젝트의 경우 New Relic UI 페�
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [New Relic 서비스](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html).
+* 개발자 설명서에서 [New Relic 서비스](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service).

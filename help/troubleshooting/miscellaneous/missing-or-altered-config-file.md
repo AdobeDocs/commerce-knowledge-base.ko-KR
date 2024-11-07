@@ -4,7 +4,7 @@ description: Adobe Commerce에 대한 구성 파일이 누락 또는 변경되�
 exl-id: d80bf981-8ba6-4357-a841-57bf5d3f2a3f
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -36,7 +36,7 @@ BAK 파일은 배포 프로세스의 결과입니다. 배포 후 구성 파일�
 
 구성 파일을 복원하려면 다음을 수행하십시오.
 
-1. [SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)을(를) 사용하여 원격 저장소에 로그인합니다.
+1. [SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)을(를) 사용하여 원격 저장소에 로그인합니다.
 1. 사용 가능한 백업 파일을 나열합니다.
 
    ```

@@ -4,7 +4,7 @@ description: '이 문서에서는 *contact*를 제품 또는 CMS 페이지의 UR
 exl-id: eb340813-aba5-43a4-af5d-8fb64c93e021
 feature: CMS, Marketing Tools, Storefront
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Adobe Commerce(모든 배포 메서드) 2.4.x
 
 <u>재현 단계</u>:
 
-URL 키로 *연락처*&#x200B;를 사용하는 CMS 페이지를 만드십시오.
+URL 키로 *연락처*&#x200B;을(를) 사용하여 CMS 페이지를 만듭니다.
 
 <u>예상 결과</u>:
 
@@ -63,5 +63,5 @@ URL 키로 *연락처*&#x200B;와 함께 페이지가 저장됩니다.
 
 ## 관련 읽기
 
-* 사용 안내서에서 [URL 재작성](https://docs.magento.com/user-guide/marketing/url-rewrite.html).
-* 사용 안내서의 [SEO 모범 사례](https://docs.magento.com/user-guide/marketing/seo-best-practices.html).
+* 사용 안내서에서 [URL 재작성](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite).
+* 사용 안내서의 [SEO 모범 사례](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview).

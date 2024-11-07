@@ -4,7 +4,7 @@ description: 이 문서에서는 가상 제품이 포함된 다중 배송 주문
 exl-id: 34ce79a2-5157-492b-8ee4-bdc09aae0c40
 feature: Orders, Products, Shipping/Delivery
 role: Developer
-source-git-commit: d51fd4d7b064b8eea6cd3771af279b74a8bdec48
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -51,4 +51,4 @@ ht-degree: 0%
 
 개발자 설명서에서:
 
-* [Adobe Commerce 2.3.5 릴리스 노트](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
+* [Adobe Commerce 2.3.5 릴리스 노트](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)

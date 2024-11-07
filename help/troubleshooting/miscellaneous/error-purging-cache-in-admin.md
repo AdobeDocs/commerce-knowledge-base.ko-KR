@@ -4,7 +4,7 @@ description: '이 문서에서는 Commerce 관리자의 캐시를 제거할 때 
 exl-id: aa414e04-bc6d-46bd-b98f-0446b97bda14
 feature: Admin Workspace, Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -60,4 +60,4 @@ ls: cannot access 'pub/media/catalog/product/cache/directory/filename/': No such
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [캐시 관리](https://docs.magento.com/user-guide/system/cache-management.html).
+* 개발자 설명서에서 [캐시 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management).

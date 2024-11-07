@@ -3,7 +3,7 @@ title: Elasticsearch이 제대로 설치되었는지 확인
 description: 이 문서에서는 잘못된 Elasticsearch(ES) 설치 및 구성으로 인해 발생하는 문제에 대한 해결 방법에 대해 설명합니다.
 exl-id: d2c5971c-4db4-4857-ae79-970313bce981
 feature: Install
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 * Adobe Commerce 온-프레미스 및 Adobe Commerce 온 클라우드 인프라:
    * v2.2.3+에서 ES 5.x 지원
    * v2.2.8+ 및 v2.3.1+에서 ES 6.x 지원
-   * ES v2.x 및 v5.x는 [수명 종료](https://www.elastic.co/support/eol) 때문에 사용하지 않는 것이 좋습니다. 그러나 Adobe Commerce v2.3.1이 있고 ES 2.x 또는 ES 5.x를 사용하려면 [Elasticsearch php 클라이언트를 변경](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html)해야 합니다.
+   * ES v2.x 및 v5.x는 [수명 종료](https://www.elastic.co/support/eol) 때문에 사용하지 않는 것이 좋습니다. 그러나 Adobe Commerce v2.3.1이 있고 ES 2.x 또는 ES 5.x를 사용하려면 [Elasticsearch php 클라이언트를 변경](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)해야 합니다.
 * Magento Open Source v2.3.0+는 ES 5.x 및 6.x를 지원합니다(6.x가 권장됨).
 
 ## 문제
@@ -56,8 +56,8 @@ Elasticsearch이 제대로 설치되지 않았습니다. 이는 다음 때문일
 
 Elasticsearch을 올바르게 설정하려면 다음을 수행하십시오.
 
-* 클라우드 인프라의 Adobe Commerce에 있는 판매자는 개발자 설명서에 나와 있는 단계를 따를 수 있습니다. [Elasticsearch 서비스 설정](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html).
-* Adobe Commerce 온-프레미스 및 Magento Open Source의 판매자는 개발자 설명서에 있는 단계를 따를 수 있습니다. [Elasticsearch 설치 및 구성](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+* 클라우드 인프라의 Adobe Commerce에 있는 판매자는 개발자 설명서에 나와 있는 단계를 따를 수 있습니다. [Elasticsearch 서비스 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
+* Adobe Commerce 온-프레미스 및 Magento Open Source의 판매자는 개발자 설명서에 있는 단계를 따를 수 있습니다. [Elasticsearch 설치 및 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
 
 Elasticsearch을 설정한 후 제대로 구성되었는지 확인합니다.
 

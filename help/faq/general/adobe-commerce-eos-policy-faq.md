@@ -3,7 +3,7 @@ title: Adobe Commerce 소프트웨어 지원 종료 FAQ
 description: 다음 FAQ는 판매자, 개발자 및 파트너가 Adobe Commerce에서 게시한 EOS(지원 종료) 날짜가 영향을 받는 Adobe Commerce 버전에 미치는 영향을 이해하는 데 도움이 되도록 작성되었습니다.
 exl-id: ec147307-46eb-4a3a-8572-a014b091c58a
 feature: Best Practices, Compliance, Console
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ### 모든 버전의 Adobe Commerce에 대한 소프트웨어 지원 날짜는 어디에서 찾을 수 있습니까?
 
-[Adobe Commerce 소프트웨어 수명 주기 정책](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)에서 Adobe Commerce 소프트웨어 수명 주기 정책 및 소프트웨어 지원 날짜를 확인할 수 있습니다. [개발자 설명서 페이지](https://devdocs.magento.com/release/released-versions.html)에 지원 종료(EOS) 날짜도 게시합니다.
+[Adobe Commerce 소프트웨어 수명 주기 정책](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)에서 Adobe Commerce 소프트웨어 수명 주기 정책 및 소프트웨어 지원 날짜를 확인할 수 있습니다. [개발자 설명서 페이지](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions)에 지원 종료(EOS) 날짜도 게시합니다.
 
 ### Adobe이 Adobe Commerce 소프트웨어 버전에 대한 지원을 종료하면 무엇을 의미합니까?
 
@@ -70,7 +70,7 @@ Adobe Commerce 소프트웨어를 최신 상태로 유지함으로써 많은 이
 
 최신 버전의 Adobe Commerce 소프트웨어로 이동하면 시간과 리소스가 많이 소요될 수 있습니다. 가장 좋은 방법은 지원 종료 날짜 이전에 계획을 수립하여 일정과 예산 내에서 전략적 목표를 달성하는 데 적절한 시간과 리소스를 확보할 수 있도록 하는 것입니다. 다음 업그레이드를 돕기 위해 Adobe은 따라야 할 모범 사례 및 기술 단계뿐만 아니라 업그레이드를 수행할 때 사용할 도구 및 리소스가 포함된 [2.4 업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf)를 게시했습니다.
 
-또 다른 중요한 고려 사항은 개발자 및 파트너 리소스를 가능한 한 빨리 예약하는 것입니다. 파트너 시간과 리소스는 지원 종료 날짜 이전에 자주 예약되므로 마이그레이션 프로젝트를 지원할 리소스가 크게 줄어듭니다. 매년 최소한으로 논의하고 다음 연도가 계획되고 예산이 책정되도록 하는 3년 순환 계획이 있는 것이 좋습니다. [Adobe의 릴리스 일정](https://devdocs.magento.com/release/)을 사용하여 릴리스 날짜를 추적하세요.
+또 다른 중요한 고려 사항은 개발자 및 파트너 리소스를 가능한 한 빨리 예약하는 것입니다. 파트너 시간과 리소스는 지원 종료 날짜 이전에 자주 예약되므로 마이그레이션 프로젝트를 지원할 리소스가 크게 줄어듭니다. 매년 최소한으로 논의하고 다음 연도가 계획되고 예산이 책정되도록 하는 3년 순환 계획이 있는 것이 좋습니다. [Adobe의 릴리스 일정](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)을 사용하여 릴리스 날짜를 추적하세요.
 
 ### Adobe Commerce 지원이 중단되면 소프트웨어 지원을 위해 서드파티 서비스 공급자를 사용할 수 있습니까?
 
@@ -94,7 +94,7 @@ Adobe Commerce 라이선스가 만료되면 Adobe Commerce 소프트웨어 사�
 
 ### 소프트웨어 버전의 지원 종료 날짜 이전에 열린 지원 티켓은 지원 종료 날짜가 지나도 계속 문제 해결을 위해 작업됩니까?
 
-예. 소프트웨어 버전의 지원 종료 날짜 이전에 열린 지원 티켓은 해당 소프트웨어 버전에 대한 지원 종료 날짜가 지나도 계속 작동되고 해결됩니다. 그러나 지원 티켓을 해결하는 것은 해상도가 Adobe Commerce의 제어 외부의 구성 요소(즉, PHP, jQuery 등)에 의존하는지 여부에 따라 달라질 수 있습니다. 만료되었거나 지원 종료 시점에 도달했습니다. 이러한 경우 지원 티켓은 최신 릴리스로 업그레이드하는 지침을 통해 해결할 수 있습니다.
+예. 소프트웨어 버전의 지원 종료 날짜 이전에 열린 지원 티켓은 해당 소프트웨어 버전에 대한 지원 종료 날짜가 지나도 계속 작동되고 해결됩니다. 그러나 지원 티켓을 해결하는 것은 해상도가 만료되었거나 지원 종료에 도달한 Adobe Commerce의 제어 외부의 구성 요소(즉, PHP, jQuery 등)에 의존하는지 여부에 따라 달라질 수 있습니다. 이러한 경우 지원 티켓은 최신 릴리스로 업그레이드하는 지침을 통해 해결할 수 있습니다.
 
 ### 소프트웨어 지원이 곧 종료되는 소프트웨어 버전에 대한 티켓을 열면 Adobe이 지원 종료 날짜 이전에 해당 티켓이 해결되도록 해당 티켓의 우선 순위를 정합니까?
 

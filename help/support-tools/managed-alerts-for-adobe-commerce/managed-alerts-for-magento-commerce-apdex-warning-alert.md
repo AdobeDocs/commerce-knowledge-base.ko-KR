@@ -4,7 +4,7 @@ description: 이 문서에서는 New Relic에서 Adobe Commerce에 대한 Apdex 
 exl-id: 6e3f28ae-734b-468f-b6a5-c4f2edb1cb4b
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 3493214b468ac93dc938690495ea0a6bcf645a29
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 <u> **실행!** </u>
 
 * 이 경고가 지워질 때까지 예약된 배포를 중단합니다.
-* 사이트가 응답하지 않거나 완전히 응답하지 않는 경우 즉시 사이트를 유지 관리 모드로 전환합니다. 단계는 개발자 설명서에서 [설치 안내서 > 유지 관리 모드 활성화 또는 비활성화](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten)를 참조하십시오. 문제 해결을 위해 사이트에 계속 액세스할 수 있도록 제외 IP 주소 목록에 IP를 추가해야 합니다. 단계는 개발자 설명서에서 [제외 IP 주소 목록 유지](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt)를 참조하십시오.
+* 사이트가 응답하지 않거나 완전히 응답하지 않는 경우 즉시 사이트를 유지 관리 모드로 전환합니다. 단계는 개발자 설명서에서 [설치 안내서 > 유지 관리 모드 활성화 또는 비활성화](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)를 참조하십시오. 문제 해결을 위해 사이트에 계속 액세스할 수 있도록 제외 IP 주소 목록에 IP를 추가해야 합니다. 단계는 개발자 설명서에서 [제외 IP 주소 목록 유지](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#instgde-cli-maint-exempt)를 참조하십시오.
 
 <u>**안 함!**</u>
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 1. 문제가 서비스 버전 때문이 아닌 경우:
    * 장기 실행 쿼리, 기본 키가 정의되지 않음 및 중복 인덱스와 같은 다른 MySQL 문제가 있는지 확인하십시오. 단계는 지원 기술 자료에서 [클라우드 인프라에서 Adobe Commerce의 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)를 참조하십시오.
    * 다른 PHP 문제가 있는지 확인합니다. CLI/터미널에서 `ps aufx`을(를) 실행하여 실행 중인 프로세스를 검토하십시오. 터미널 출력에는 현재 실행 중인 cron job 및 process가 표시됩니다. 프로세스의 실행 시간에 대한 출력을 확인합니다. 실행 시간이 긴 크론이 있는 경우 크론이 걸려있을 수 있습니다. 문제 해결 단계는 지원 기술 자료에서 [성능이 느리고 실행 중인 크론](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md) 및 [실행 중인 크론 상태에서 Cron 작업 중단](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)을 참조하세요.
-1. 문제의 잠재적 출처가 식별되면 SSH를 환경에 추가하여 자세히 조사하십시오. 단계는 개발자 설명서에서 [Adobe Commerce용 클라우드 > 기술 및 요구 사항 > 환경에 대한 SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)를 참조하십시오.
+1. 문제의 잠재적 출처가 식별되면 SSH를 환경에 추가하여 자세히 조사하십시오. 단계는 개발자 설명서에서 [Adobe Commerce용 클라우드 > 기술 및 요구 사항 > 환경에 대한 SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)를 참조하십시오.
 1. 여전히 소스 식별이 어려운 경우 최근 트렌드를 검토하여 최근 코드 배포 또는 구성 변경(예: 신규 고객 그룹 및 카탈로그에 대한 대규모 변경)과 관련된 문제를 식별하십시오. 코드 배포 또는 변경 시 상관 관계에 대한 지난 7일간의 활동을 검토하는 것이 좋습니다.
-1. 적절한 시간 내에 솔루션을 찾을 수 없는 경우 업사이징을 요청하거나 사이트를 유지 관리 모드로 전환하십시오. 단계는 지원 기술 자료에서 [임시 크기 조정 요청 방법](/help/how-to/general/how-to-request-temporary-magento-upsize.md) 및 개발자 설명서에서 [설치 안내서 > 유지 관리 모드 활성화 또는 비활성화](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten)를 참조하십시오.
-1. [upsize](/help/how-to/general/how-to-request-temporary-magento-upsize.md)이(가) 사이트를 정상 작업으로 되돌리는 경우 영구적인 upsize를 요청하거나(Adobe 계정 팀에 문의) 부하 테스트를 실행하고 서비스에 대한 압력을 줄이는 쿼리 또는 코드를 최적화하여 전용 스테이징에서 문제를 재현해 보십시오. 개발자 설명서에서 [Adobe Commerce용 클라우드 > 테스트 배포 > 부하 및 스트레스 테스트](https://devdocs.magento.com/cloud/live/stage-prod-test.html#loadtest)를 참조하십시오.
+1. 적절한 시간 내에 솔루션을 찾을 수 없는 경우 업사이징을 요청하거나 사이트를 유지 관리 모드로 전환하십시오. 단계는 지원 기술 자료에서 [임시 크기 조정 요청 방법](/help/how-to/general/how-to-request-temporary-magento-upsize.md) 및 개발자 설명서에서 [설치 안내서 > 유지 관리 모드 활성화 또는 비활성화](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)를 참조하십시오.
+1. [upsize](/help/how-to/general/how-to-request-temporary-magento-upsize.md)이(가) 사이트를 정상 작업으로 되돌리는 경우 영구적인 upsize를 요청하거나(Adobe 계정 팀에 문의) 부하 테스트를 실행하고 서비스에 대한 압력을 줄이는 쿼리 또는 코드를 최적화하여 전용 스테이징에서 문제를 재현해 보십시오. 개발자 설명서에서 [Adobe Commerce용 클라우드 > 테스트 배포 > 부하 및 스트레스 테스트](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production#load-and-stress-testing)를 참조하십시오.

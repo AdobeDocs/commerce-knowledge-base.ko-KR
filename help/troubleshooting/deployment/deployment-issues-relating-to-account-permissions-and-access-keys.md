@@ -4,7 +4,7 @@ description: 이 문서에서는 액세스 키 소유권 충돌로 인해 발생
 exl-id: e8d72ebe-453f-4d18-a25e-c76e685aa667
 feature: Deploy, Roles/Permissions
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Cloud 라이선스는 연락처 A(전자 메일 주소: *<u>first@e.mail</u>*)�
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [인증 키를 가져옵니다](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html).
+* 개발자 설명서에서 [인증 키를 가져옵니다](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).

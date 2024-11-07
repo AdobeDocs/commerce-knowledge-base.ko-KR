@@ -4,7 +4,7 @@ description: 이 문서에서는 낮은 사이트 성능에 대한 수정 사항
 exl-id: 90a8bd21-1f2c-4cfe-8213-17f877e20de8
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **콘텐츠** > *요소* 아래에 **배너** 옵션이 표시되지 않는 경우 그렇지 않으며 이 문서의 권장 사항을 적용할 수 없습니다.
 
-클라우드 인프라 2.3.x의 Adobe Commerce(기능이 [v 2.3.x에서 이름이 변경됨](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block))의 경우:
+클라우드 인프라 2.3.x의 Adobe Commerce(기능이 [v 2.3.x에서 이름이 변경됨](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block))의 경우:
 
 1. Commerce 관리자에 로그인합니다.
 1. **콘텐츠** > *요소 >* **동적 블록**&#x200B;으로 이동합니다.
@@ -56,5 +56,5 @@ ht-degree: 0%
 >
 >프로덕션에 적용하기 전에 먼저 [스테이징/통합 환경](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)에서 변경 사항을 테스트하는 것이 좋습니다. 또한 조작하기 전에 최근 백업을 수행하는 것이 좋습니다.
 
-1. 개발자 설명서의 [모듈 출력 사용 안 함](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html)에 설명된 대로 `Magento_Banner` 모듈 출력을 사용하지 않도록 설정합니다. 모듈 이름은 `Magento_Banner`입니다.
-1. 코드 배포. 클라우드 인프라의 Adobe Commerce의 경우 개발자 설명서의 [스토어 배포](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) 문서에 설명된 대로 배포하십시오.
+1. 개발자 설명서의 [모듈 출력 사용 안 함](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output)에 설명된 대로 `Magento_Banner` 모듈 출력을 사용하지 않도록 설정합니다. 모듈 이름은 `Magento_Banner`입니다.
+1. 코드 배포. 클라우드 인프라의 Adobe Commerce의 경우 개발자 설명서의 [스토어 배포](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) 문서에 설명된 대로 배포하십시오.

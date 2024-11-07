@@ -4,7 +4,7 @@ description: 이 문서에서는 Safari 브라우저를 사용할 때 관리 패
 exl-id: 682eac73-1ad2-4093-acfb-6a8da4c05cf5
 feature: Page Builder
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* [페이지 빌더란 무엇입니까?개발자 설명서에서 ](https://devdocs.magento.com/page-builder/docs/).
+* [페이지 빌더란 무엇입니까?개발자 설명서에서 ](https://developer.adobe.com/commerce/frontend-core/page-builder/).
 * 개발자 설명서에서 [페이지 빌더 설정](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html)을 참조하십시오.
-* 사용 안내서의 [페이지 빌더](https://docs.magento.com/user-guide/cms/page-builder.html).
-* 사용 안내서의 [페이지 빌더 - 요소](https://docs.magento.com/user-guide/cms/page-builder-elements.html).
+* 사용 안내서의 [페이지 빌더](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/introduction).
+* 사용 안내서의 [페이지 빌더 - 요소](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace#elements).

@@ -4,7 +4,7 @@ description: 이 항목에서는 배포 중에 Google Analytics에 발생할 수
 exl-id: ecf6a277-2dfa-45cf-b86f-9a27f39017f4
 feature: Build, Deploy, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-Google Analytics을 항상 활성화하려면 개발자 설명서의 [변수 배포](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics)에 설명된 대로 배포 변수 `ENABLE_GOOGLE_ANALYTICS = true`을(를) 설정하십시오.
+Google Analytics을 항상 활성화하려면 개발자 설명서의 [변수 배포](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics)에 설명된 대로 배포 변수 `ENABLE_GOOGLE_ANALYTICS = true`을(를) 설정하십시오.
 
 >[!NOTE]
 >
