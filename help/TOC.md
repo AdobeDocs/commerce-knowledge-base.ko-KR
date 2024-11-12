@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 03dfb2423e5cdb4e7f87e1e1f05a8261f3b4e602
+source-git-commit: 692e665558205301f3b7915ce7eb9f3cf0288aff
 workflow-type: tm+mt
-source-wordcount: '9587'
+source-wordcount: '9579'
 ht-degree: 0%
 
 ---
@@ -965,7 +965,6 @@ ht-degree: 0%
       * [2.4.4에서 2.4.4-p1로 업그레이드한 후 패키지 다운그레이드됨](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [Adobe Commerce 2.3.6, 2.4.1 체크아웃 CAPTCHA가 작동하지 않음](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [서버 이메일 주소에서 보낸 주문 이메일](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-      * [분할 데이터베이스 솔루션의 고급 보고 404 오류](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)
       * [과도한 Ajax 요청으로 인한 성능 문제](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md)
       * [스테이징 업데이트를 제거하면 관련 엔터티가 삭제됩니다.](/help/troubleshooting/known-issues-patches-attached/removing-staging-update-deletes-related-entity.md)
       * [Google Analytics이 전환 데이터를 추적하고 있지 않습니다.](/help/troubleshooting/known-issues-patches-attached/google-analytics-is-not-tracking-conversion-data.md)

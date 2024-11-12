@@ -4,7 +4,7 @@ description: Adobe Commerce의 고급 보고 문제는 이 문제 해결사 도�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 3b402728be7a80b62f21319d2cf91a92f1ad4a0c
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -46,7 +46,7 @@ b. NO - 출력에 하나의 통화만 표시됩니다. 예: `USD` 주문에서 �
 
 [분할 데이터베이스 솔루션](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)을 사용하고 있습니까?
 
-a. 예 - 분할 데이터베이스 솔루션 ](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)에서 [고급 보고 404 오류의 **MDVA-26831** 패치를 사용하고 캐시를 지우십시오. 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
+a. 예 - 분할 데이터베이스 솔루션 및 캐시 지우기에서 Advanced Reporting 404 오류의 패치 **MDVA-26831**&#x200B;을(를) 사용합니다. 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
 b. 아니요 - [4단계](#step-4)로 진행합니다.
 
 +++
