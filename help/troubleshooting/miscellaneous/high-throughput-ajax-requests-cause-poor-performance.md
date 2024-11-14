@@ -4,9 +4,9 @@ description: 이 문서에서는 처리량이 많은 일부 요청으로 인해 
 exl-id: 68dfca8a-826c-4476-acaf-a139052b5dcc
 feature: Cache
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 3bcdbd0536ec71cb80ffa3afbcd53c4ae385d2e3
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 세 가지 솔루션이 있습니다.
 
-* [버전 2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)(으)로 업그레이드 현재 가능하지 않은 경우 [문제를 해결하는 패치를 설치](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md)하십시오.
+* [버전 2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)(으)로 업그레이드
 * 더 가벼운 요청(캐시 요청 또는 고객의 개인 컨텐츠로 이동)을 확인하십시오.
 * 요청 수를 줄입니다.
 

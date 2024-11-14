@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 692e665558205301f3b7915ce7eb9f3cf0288aff
+source-git-commit: bfbac61b95e895bcea90b6aa2f1190a30de7ba15
 workflow-type: tm+mt
-source-wordcount: '9579'
+source-wordcount: '9559'
 ht-degree: 0%
 
 ---
@@ -965,9 +965,6 @@ ht-degree: 0%
       * [2.4.4에서 2.4.4-p1로 업그레이드한 후 패키지 다운그레이드됨](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [Adobe Commerce 2.3.6, 2.4.1 체크아웃 CAPTCHA가 작동하지 않음](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [서버 이메일 주소에서 보낸 주문 이메일](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-      * [과도한 Ajax 요청으로 인한 성능 문제](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md)
-      * [스테이징 업데이트를 제거하면 관련 엔터티가 삭제됩니다.](/help/troubleshooting/known-issues-patches-attached/removing-staging-update-deletes-related-entity.md)
-      * [Google Analytics이 전환 데이터를 추적하고 있지 않습니다.](/help/troubleshooting/known-issues-patches-attached/google-analytics-is-not-tracking-conversion-data.md)
       * [Adobe Commerce 2.4.1 및 2.3.6 계정 만들기 버튼 사용 안 함 핫픽스](/help/troubleshooting/known-issues-patches-attached/2-4-1-and-2-3-6-create-an-account-button-disabled-hotfix.md)
       * [Adobe Commerce 2.4.6 관리 패널에서 순서 지정 중 오류 발생](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [버전 &lt; 2.4.5에서 업그레이드 시 [!UICONTROL salesRule] 레이블 문제](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
