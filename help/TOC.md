@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: bfbac61b95e895bcea90b6aa2f1190a30de7ba15
+source-git-commit: 63664230a110a4ebf37c058e3bde71f6a359ac13
 workflow-type: tm+mt
-source-wordcount: '9559'
+source-wordcount: '9478'
 ht-degree: 0%
 
 ---
@@ -955,17 +955,10 @@ ht-degree: 0%
       * [Adobe Commerce 관리 URL 위치 공개됨](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
       * [동일한 기간에 여러 cron 작업이 예약되었습니다.](/help/troubleshooting/known-issues-patches-attached/multiple-cron-jobs-scheduled-for-the-same-time-period.md)
       * [구성 가능한 제품 견본은 재고가 없을 때 제외되어 표시되지 않음](/help/troubleshooting/known-issues-patches-attached/configurable-product-swatches-not-displayed-as-crossed-out-when-out-of-stock.md)
-      * [로그에 &quot;무결성 제약 조건 위반&quot;이 있는 저장소 전면 카탈로그 페이지에 503 오류 발생](/help/troubleshooting/known-issues-patches-attached/503-error-on-store-front-catalog-pages-with-integrity-constraint-violation-in-logs.md)
-      * [관리자에서 대량 삭제하는 동안 시작된 것보다 더 많은 제품이 삭제되었습니다.](/help/troubleshooting/known-issues-patches-attached/not-selected-rows-are-deleted-during-mass-action-deletion.md)
-      * [클라우드 인프라의 Adobe Commerce v2.3.5 GraphQL 캐싱 무효화가 작동하지 않음](/help/troubleshooting/known-issues-patches-attached/magento-commerce-cloud-v2-3-5-graphql-caching-invalidation-not-working.md)
       * [Braintree 결제가 활성화된 경우 책임자가 주문/재주문을 만들 수 없음](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
-      * [일정 업데이트의 종료 날짜를 편집한 후 카탈로그 테이블의 항목이 중복됨](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
-      * [Adobe Commerce 2.3.5, 2.3.5-p1 패치: 국가 결제 문제](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-      * [장바구니에서 링크 제거 를 두 번 클릭한 후 &quot;500 오류&quot;](/help/troubleshooting/known-issues-patches-attached/500-error-after-double-clicking-remove-link-in-shopping-cart.md)
       * [2.4.4에서 2.4.4-p1로 업그레이드한 후 패키지 다운그레이드됨](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [Adobe Commerce 2.3.6, 2.4.1 체크아웃 CAPTCHA가 작동하지 않음](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [서버 이메일 주소에서 보낸 주문 이메일](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-      * [Adobe Commerce 2.4.1 및 2.3.6 계정 만들기 버튼 사용 안 함 핫픽스](/help/troubleshooting/known-issues-patches-attached/2-4-1-and-2-3-6-create-an-account-button-disabled-hotfix.md)
       * [Adobe Commerce 2.4.6 관리 패널에서 순서 지정 중 오류 발생](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [버전 &lt; 2.4.5에서 업그레이드 시 [!UICONTROL salesRule] 레이블 문제](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
       * [[!DNL JQuery UI] 보안 취약성 [!DNL CVE-2022-31160] 2.4.4, 2.4.5 및 2.4.6 릴리스에 대한 수정 사항](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)

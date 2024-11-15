@@ -4,9 +4,9 @@ description: 이 문서에서는 Adobe Commerce 2.3.5에서 체크아웃 중 알
 exl-id: a0cca226-4d95-40b3-bd37-f13d28591366
 feature: Checkout, Orders, Storefront
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b3d39e6b02728f05f046adf7be94ffacbca944d5
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,6 @@ Adobe Commerce에서 주문 페이지의 주문 요약 섹션에 오류가 발�
 지원 기술 자료의 Adobe Commerce 2.3.5 알려진 문제 문서:
 
 * [Adobe Commerce 2.3.5에서 가상 제품이 올바르게 처리되지 않는 다중 배송 주문](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
-
-* [Adobe Commerce on cloud infrastructure 및 Adobe Commerce on-premise 2.3.5 및 2.3.5-p1의 국가 결제 방법 문제](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-
 
 * [Adobe Commerce 2.3.5의 대량 작업 제품 수 알려진 문제](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
 

@@ -4,9 +4,9 @@ description: 이 문서에서는 Adobe Commerce 온-프레미스 2.3.5 및 Adobe
 exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 feature: Products, Storefront
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b3d39e6b02728f05f046adf7be94ffacbca944d5
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,6 @@ GitHub에서 수정 사항을 볼 수 있습니다(해당 수정 사항이 회�
 <p title="Adobe Commerce 2.3.5에서 가상 제품이 올바르게 처리되지 않는 다중 배송 주문"><a href="/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md">Adobe Commerce 2.3.5에서 가상 제품이 올바르게 처리되지 않는 다중 배송 주문</a></p>
 </li>
 <li><a href="/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md">Adobe Commerce 2.3.5의 대량 작업 제품 수 알려진 문제</a></li>
-<li>
-<p title="Adobe Commerce on cloud infrastructure 및 Adobe Commerce on-premise 2.3.5 및 2.3.5-p1의 국가 결제 방법 문제"><a href="/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md">Adobe Commerce on cloud infrastructure 및 Adobe Commerce on-premise 2.3.5 및 2.3.5-p1의 국가 결제 방법 문제</a></p>
-</li>
 <li>
 <p title="Amazon용 패치 Adobe Commerce 2.3.5-p1 의 결제 체크아웃 문제"><a href="/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md">Amazon용 패치 Adobe Commerce 2.3.5-p1 의 결제 체크아웃 문제</a></p>
 </li>
