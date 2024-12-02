@@ -1,5 +1,5 @@
 ---
-title: "PWA Studio: Adobe Commerce에 대한 Venia GraphQL 쿼리에서 유효성 검사 오류가 발생했습니다."
+title: 'PWA Studio: Adobe Commerce에 대한 Venia GraphQL 쿼리에서 유효성 검사 오류가 발생했습니다.'
 description: 이 문서에서는 Adobe Commerce 인스턴스에 대한 Venia storefront GraphQL 쿼리가 유효성 검사 오류를 생성하는 문제를 해결하는 방법에 대한 권장 사항을 제공합니다.
 exl-id: ba268945-2a10-4af5-8089-cde21f0687bd
 feature: GraphQL

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-52399: 판매 가능한 수량이 0인 제품이 재고로 표시됨'
+title: 'ACSD-52399: 판매 가능한 수량 0이 있는 제품이 재고로 표시됨'
 description: ACSD-52399 패치를 적용하여 Adobe Commerce 문제를 해결합니다. 구성 가능한 제품 옵션이 판매 가능한 수량이 0인 경우 제품 페이지에서 *재고 있음*이 표시됩니다.
 feature: Products, Configuration
 role: Admin, Developer

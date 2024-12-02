@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.0: 고객 활동 새로 고침이 작동하지 않음"
+title: 'Adobe Commerce 2.4.0: 고객 활동 새로 고침이 작동하지 않음'
 description: 이 문서에서는 관리 사용자가 고객에 대한 주문을 만들 때 고객 활동 사이드 패널의 새로 고침 버튼이 작동하지 않는 알려진 문제인 Adobe Commerce 2.4.0에 대한 해결 방법을 제공합니다.
 exl-id: 50048e9f-6009-4db5-ae4a-c35a84cec265
 feature: Configuration

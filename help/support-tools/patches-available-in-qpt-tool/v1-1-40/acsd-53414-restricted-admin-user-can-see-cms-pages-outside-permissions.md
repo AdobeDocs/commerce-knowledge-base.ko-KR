@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-53414: 제한된 관리자는 권한 범위를 벗어난 CMS 페이지를 볼 수 있음'
-description: ACSD-53414 패치를 적용하여 제한된 관리 사용자가 권한 범위를 벗어난 CMS 페이지를 볼 수 있는 Adobe Commerce 문제를 해결합니다.
+title: 'ACSD-53414: 제한된 관리자는 권한 범위를 벗어난 CMS 페이지를 볼 수 있습니다'
+description: ACSD-53414 패치를 적용하여 제한된 관리 사용자가 권한 범위를 벗어나 CMS 페이지를 볼 수 있는 Adobe Commerce 문제를 해결합니다.
 feature: CMS
 role: Admin, Developer
 exl-id: f8540d52-a3bb-49bb-8868-7b1db03e571b
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# ACSD-53414: 제한된 관리자는 권한 범위를 벗어난 CMS 페이지를 볼 수 있습니다.
+# ACSD-53414: 제한된 관리자는 권한 범위를 벗어난 CMS 페이지를 볼 수 있습니다
 
 ACSD-53414 패치를 사용하면 제한된 관리 사용자가 권한 범위를 벗어난 CMS 페이지를 볼 수 있는 문제가 해결됩니다. 이 패치는 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40이 설치된 경우에 사용할 수 있습니다. 패치 ID는 ACSD-53414입니다. 이 문제는 Adobe Commerce 2.4.7에서 수정됩니다.
 

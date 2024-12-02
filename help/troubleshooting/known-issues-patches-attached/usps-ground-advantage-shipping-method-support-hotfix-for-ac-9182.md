@@ -1,5 +1,5 @@
 ---
-title: '[!DNL USPS] Ground Advantage 배송 방법 지원 AC-9182용 핫픽스'
+title: '[!DNL USPS] AC-9182용 Ground Advantage 배송 방법 지원 핫픽스'
 promoted: true
 description: Adobe Commerce 2.4.4 - 2.4.6-p2용  [!DNL USPS] Ground Advantage 배송 방법 문제 AC-9182를 해결하기 위해 패치를 적용합니다.
 feature: Shipping/Delivery

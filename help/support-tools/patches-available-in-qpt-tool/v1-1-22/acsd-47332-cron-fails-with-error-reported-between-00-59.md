@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-47332: 크론이 실패하고 00:00~00:59 UTC 사이에서만 오류가 보고됨'
+title: 'ACSD-47332: 00:00 - 00:59 UTC 사이에서만 보고된 오류로 인해 크론이 실패합니다.'
 description: ACSD-47332 패치를 적용하여 cron 이 00:00 - 00:59 UTC 사이에 실행될 때만 보고되는 오류와 함께 실패하는 Adobe Commerce 문제를 해결합니다.
 exl-id: a4eac977-6d0a-4e36-8576-68777c1e40b2
 feature: Configuration

@@ -1,5 +1,5 @@
 ---
-title: "B2B-2674: customAttributeMetadata GraphQL 쿼리에 캐싱 기능을 추가합니다."
+title: 'B2B-2674: customAttributeMetadata GraphQL 쿼리에 캐싱 기능을 추가합니다.'
 description: B2B-2674 패치를 적용하여 customAttributeMetadata GraphQL 쿼리에 캐싱 기능을 추가합니다.
 feature: Attributes, B2B, Cache, GraphQL
 role: Admin

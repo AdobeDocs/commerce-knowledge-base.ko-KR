@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-50345: 체크아웃 중 reCAPTCHA 문제 발생'
+title: 'ACSD-50345: 체크아웃 중 reCAPTCHA 문제'
 description: ACSD-50345 패치를 적용하여 주문 도중 및 체크아웃 중에 reCAPTCHA v2 및 v3 유효성 검사가 실패하는 Adobe Commerce 문제를 해결합니다.
 exl-id: ac8c8130-0e4d-4610-9a55-afa779cce7a0
 feature: Checkout, Orders

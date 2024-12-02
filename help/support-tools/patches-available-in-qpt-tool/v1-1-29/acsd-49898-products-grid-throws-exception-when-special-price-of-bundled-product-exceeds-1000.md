@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49898: 제품 그리드에서 예외 발생'
+title: 'ACSD-49898: 제품 그리드에서 예외가 발생합니다.'
 description: ACSD-49898 패치를 적용하여 번들 제품에 1000을 초과하는 특별 가격이 있는 경우 제품 그리드에서 예외가 발생하는 Adobe Commerce 문제를 수정합니다.
 exl-id: 16a0ec90-7577-46ef-aeb3-a7e9658cf64b
 feature: Admin Workspace, Orders, Products

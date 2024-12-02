@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-47908: *0보다 작거나 같은 값이 필요합니다.* 체크아웃 중 오류가 발생했습니다.'
+title: 'ACSD-47908: *0보다 작거나 같은 값이 필요합니다.* 체크아웃 도중 오류 발생'
 description: ACSD-47908 패치를 적용하여 Adobe Commerce 오류를 수정합니다 *체크아웃 중 배송 단계에서 소스 및 수량을 선택할 경우 0보다 작거나 같은 값이 예상됩니다*.
 exl-id: fec90e4b-9cb8-4cd9-9e85-ccada840c896
 feature: Admin Workspace, Checkout, Orders

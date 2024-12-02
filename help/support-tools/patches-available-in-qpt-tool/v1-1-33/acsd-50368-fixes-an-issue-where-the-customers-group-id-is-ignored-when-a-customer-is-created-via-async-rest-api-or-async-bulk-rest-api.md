@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50368: 고객이 비동기 REST API 또는 비동기 벌크 REST API를 통해 만들어지면 Customers group_id가 무시됩니다."
+title: 'ACSD-50368: 고객이 비동기 REST API 또는 비동기 벌크 REST API를 통해 만들어지면 Customers group_id가 무시됩니다'
 description: ACSD-50368 패치를 적용하여 비동기 REST API 또는 비동기 벌크 REST API를 통해 고객을 만들 때 customers group_id가 무시되는 Adobe Commerce 문제를 해결합니다.
 feature: REST
 role: Admin

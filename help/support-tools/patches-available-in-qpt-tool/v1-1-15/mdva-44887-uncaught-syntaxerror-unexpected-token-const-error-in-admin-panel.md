@@ -1,6 +1,6 @@
 ---
-title: "MDVA-44887: 관리 패널에 'Uncatch SyntaxError: 예기치 않은 토큰 상수' 오류가 발생했습니다."
-description: "MDVA-44887 패치는 관리자가 메뉴 옵션을 클릭할 수 없는 문제를 해결합니다. *확인할 수 없는 구문Error: 예기치 않은 토큰 const* 오류가 관리 패널에 표시됩니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-44887입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정될 예정입니다."
+title: 'MDVA-44887: 관리 패널에 ''Uncatch SyntaxError: 예기치 않은 토큰 상수'' 오류'
+description: 'MDVA-44887 패치는 관리자가 메뉴 옵션을 클릭할 수 없는 문제를 해결합니다. *확인할 수 없는 구문Error: 예기치 않은 토큰 const* 오류가 관리 패널에 표시됩니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-44887입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.'
 exl-id: 66555e66-49d0-4f80-8f77-84ee107ab12e
 feature: Admin Workspace, Orders
 role: Admin

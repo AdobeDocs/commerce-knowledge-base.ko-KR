@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-54472: 거부된 회사의 고객은 여전히 인증할 수 있음'
+title: 'ACSD-54472: 거부된 회사의 고객은 여전히 인증할 수 있습니다'
 description: ACSD-54472 패치를 적용하여 거부된 회사의 고객이 계속 인증할 수 있고 거부된 및 거부된 회사의 고객이 여전히 주문을 할 수 있는 Adobe Commerce 문제를 수정합니다.
 feature: B2B
 role: Admin, Developer

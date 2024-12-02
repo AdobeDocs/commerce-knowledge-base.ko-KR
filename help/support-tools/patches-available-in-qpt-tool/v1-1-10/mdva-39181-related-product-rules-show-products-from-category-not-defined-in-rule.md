@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39181: 관련 제품 규칙은 규칙에 정의되지 않은 범주의 제품을 표시합니다.'
+title: 'MDVA-39181: 관련 제품 규칙에 규칙에 정의되지 않은 범주의 제품이 표시됨'
 description: MDVA-39181 패치는 관련 제품 규칙이 규칙에 정의되지 않은 범주의 제품을 표시하는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10이 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-39181입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
 exl-id: b6364d1c-2480-483a-9a83-ac91feeb14b9
 feature: Categories, Products

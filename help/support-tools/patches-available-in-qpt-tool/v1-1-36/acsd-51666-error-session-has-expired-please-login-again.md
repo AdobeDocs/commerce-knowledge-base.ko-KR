@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51666: 오류 "세션이 만료되었습니다. 다시 로그인하십시오." 로그인 후'
+title: 'ACSD-51666: "세션이 만료되었습니다. 다시 로그인하십시오." 오류 로그인 후'
 description: ACSD-51666 패치를 적용하여 오류가 발생한 Adobe Commerce 문제를 해결합니다. *세션이 만료되었습니다. 다시 로그인하십시오.* 로그인하려고 시도한 후에 발생합니다.
 feature: Customers
 role: Admin, Developer

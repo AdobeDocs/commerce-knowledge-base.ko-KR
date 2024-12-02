@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51845: 비동기 벌크 [!DNL API]을(를) 통해 계층 가격 및 다른 특성 집합으로 후속 제품을 업데이트할 수 없습니다."
+title: 'ACSD-51845: 비동기화 벌크 [!DNL API]을(를) 통해 계층 가격 및 다른 특성 집합으로 후속 제품을 업데이트할 수 없습니다.'
 description: ACSD-51845 패치를 적용하여 계층 가격 및 다른 특성 집합이 있는 후속 제품을 비동기 대량 [!DNL REST API]을 통해 업데이트할 수 없는 Adobe Commerce 문제를 수정하십시오.
 feature: REST, Products
 role: Admin

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46815: 컴팩트 전략을 사용하여 정적 콘텐츠 배포가 실패합니다."
+title: 'ACSD-46815: 컴팩트 전략을 사용하여 정적 콘텐츠 배포가 실패합니다'
 description: ACSD-46815 패치를 적용하여 컴팩트 전략을 사용할 때 정적 콘텐츠 배포가 실패하는 Adobe Commerce 문제를 해결합니다.
 exl-id: e94a0911-5cd9-4866-a027-7ea3239555d3
 feature: Deploy, Page Content, SCD

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43731: '일치할 최소 용어'에 값을 추가하면 검색 동의어가 작동하지 않음"
+title: 'MDVA-43731: ''일치할 최소 용어''에 값을 추가하면 검색 동의어가 작동하지 않습니다.'
 description: MDVA-43731 패치는 "일치하는 최소 용어"에 값이 추가되면 검색 동의어 작동이 중지되는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-43731입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
 exl-id: b795989c-d10b-443e-aebe-f3859930396a
 feature: Cache, Marketing Tools, Search

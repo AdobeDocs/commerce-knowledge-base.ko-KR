@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Commerce 2.4.0: Braintree이 여러 주소 체크아웃에 없음'
+title: 'Adobe Commerce 2.4.0: Braintree이 여러 주소에 있지 않음 체크아웃'
 description: 이 문서에서는 다중 주소 체크아웃 작업에 Braintree 결제 방법이 포함되지 않는 Adobe Commerce 2.4.0 알려진 문제에 대한 해결 방법을 제공합니다. 이 문제는 Adobe Commerce 2.4.1에서 해결되었습니다.
 exl-id: efde0bba-fd4a-490b-becb-856cb9ea58a5
 feature: Checkout, Compliance, Orders, Payments, Shipping/Delivery

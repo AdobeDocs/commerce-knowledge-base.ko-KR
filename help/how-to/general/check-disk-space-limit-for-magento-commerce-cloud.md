@@ -3,7 +3,7 @@ title: 클라우드 인프라에서 Adobe Commerce의 디스크 공간 제한 �
 description: '클라우드 인프라 환경의 각 Adobe Commerce에 대해 얼마나 많은 공간이 있는지 확인하려면:'
 exl-id: 0dd613e4-161f-403e-95a1-d228303693d3
 feature: Cloud
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%

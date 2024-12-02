@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48216: *UPDATE* 공정에서 *AUTO_INCREMENT of inventory_source_item* 테이블이 증가합니다.'
+title: 'ACSD-48216: *UPDATE* 작업 시 *AUTO_INCREMENT of inventory_source_item* 테이블이 증가합니다.'
 description: ACSD-48216 패치를 적용하여 *UPDATE* 작업 시 inventory_source_item* 테이블의 *AUTO_INCREMENT가 증가하는 Adobe Commerce 문제를 해결합니다.
 exl-id: fb97f240-95c0-479e-ac5a-00f6792374ab
 feature: Admin Workspace, Inventory, Orders

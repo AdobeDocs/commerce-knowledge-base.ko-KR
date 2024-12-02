@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47106: 회사 만들기 페이지의 새 사용자 지정 특성이 저장되지 않음"
+title: 'ACSD-47106: 회사 만들기 페이지의 새 사용자 지정 특성이 저장되지 않음'
 description: ACSD-47106 패치를 적용하여 회사 생성 페이지의 새 사용자 지정 속성에 값을 저장할 수 없는 Adobe Commerce 문제를 해결합니다.
 exl-id: 941d6d8f-36eb-4b50-980f-e4afe6bf33df
 feature: Attributes, B2B, Companies

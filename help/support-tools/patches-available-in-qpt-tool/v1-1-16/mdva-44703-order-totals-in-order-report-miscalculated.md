@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-44703: 주문 보고서의 주문 합계가 잘못 계산됨'
+title: 'MDVA-44703: 주문 보고서의 주문 합계가 잘못 계산되었습니다.'
 description: MDVA-44703 패치는 제한된 관리자에 대해 주문 보고서의 주문 합계가 잘못 계산되는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.16이 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-44703입니다. 이 문제는 Adobe Commerce 2.4.6에서 수정됩니다.
 exl-id: d8c31e47-ace6-4dba-a57c-941e722a6aad
 feature: Orders

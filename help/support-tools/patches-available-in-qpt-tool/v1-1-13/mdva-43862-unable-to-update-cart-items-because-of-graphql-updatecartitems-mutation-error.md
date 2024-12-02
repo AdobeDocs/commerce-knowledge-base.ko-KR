@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43862: GraphQL UpdateCartItems 돌연변이 오류로 인해 고객이 장바구니 항목을 업데이트할 수 없습니다."
+title: 'MDVA-43862: GraphQL UpdateCartItems 돌연변이 오류로 인해 고객이 장바구니 항목을 업데이트할 수 없습니다.'
 description: MDVA-43862 패치는 GraphQL UpdateCartItems 돌연변이 오류로 인해 고객이 장바구니 항목을 업데이트할 수 없는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13이 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-43862입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
 exl-id: 5f0a2970-34a8-4a25-baf8-15c007f97084
 feature: GraphQL, Orders, Shopping Cart

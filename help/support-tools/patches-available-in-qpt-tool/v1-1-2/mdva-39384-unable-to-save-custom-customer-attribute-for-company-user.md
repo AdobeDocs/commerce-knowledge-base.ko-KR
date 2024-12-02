@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39384: 회사 사용자에 대한 사용자 지정 고객 특성을 저장할 수 없음'
+title: 'MDVA-39384: 회사 사용자에 대한 사용자 지정 고객 특성을 저장할 수 없습니다.'
 description: MDVA-39384 패치는 회사 사용자에 대한 사용자 지정 고객 특성이 저장되지 않는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-39384입니다. 이 문제는 Adobe Commerce 2.4.4에서 수정됩니다.
 exl-id: b9864ca6-307b-4649-b764-4512abc503d3
 feature: Attributes, B2B, Companies

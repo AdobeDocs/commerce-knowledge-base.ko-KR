@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-56246: 제품 업데이트를 예약하면 다중 선택 속성 값을 지웁니다.'
+title: 'ACSD-56246: 제품 업데이트를 예약하면 다중 선택 속성 값이 지워집니다'
 description: ACSD-56246 패치를 적용하여 제품 업데이트를 예약하면 다중 선택 속성 값이 지워지는 Adobe Commerce 문제를 해결합니다.
 feature: Products, Attributes, Staging
 role: Admin, Developer

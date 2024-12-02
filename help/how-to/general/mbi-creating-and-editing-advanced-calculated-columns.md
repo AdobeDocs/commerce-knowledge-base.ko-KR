@@ -1,5 +1,5 @@
 ---
-title: 'MBI: 고급 계산 열 만들기 및 편집'
+title: 'MBI: 고급 계산된 열 만들기 및 편집'
 description: '[Admin users](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management)는 Data Warehouse 관리자에서 특정 계산된 열을 만들고 편집할 수 있습니다. 이러한 계산된 열을 통해 주요 비즈니스 질문에 답변할 수 있도록 찾고 있는 보고를 설정할 수 있습니다.'
 exl-id: 713a5593-8103-4d74-be5e-0102678d0f97
 feature: Commerce Intelligence

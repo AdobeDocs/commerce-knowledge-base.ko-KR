@@ -1,9 +1,10 @@
 ---
-title: 'ACSD-58375: YouTube API 키가 잘못 구성되면 스토어 보기 수준에서 비디오를 추가할 때 오류가 발생합니다.'
+title: 'ACSD-58375: YouTube API 키가 잘못 구성되면 스토어 보기 수준에서 비디오를 추가할 때 오류가 발생합니다'
 description: ACSD-58375 패치를 적용하여 스토어 보기 수준에서 YouTube 비디오를 추가할 때 잘못된 YouTube API 키 구성으로 인해 오류가 발생하는 Adobe Commerce 문제를 수정합니다.
 feature: Catalog Management, Configuration
 role: Admin, Developer
-source-git-commit: 1887a74b0c5545f9213f54602c58de7028d1ad72
+exl-id: e97f53a1-930b-417f-bd1a-8084bb168d68
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%

@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce 릴리스의 업데이트된 라이프사이클 정책에 대한 FAQ
-description: 'Adobe Commerce은 다음 부 소프트웨어 릴리스의 일반 공급 날짜로부터 최소 12개월 동안 부 릴리스에 대한 품질 수정 사항을 제공합니다. 이 기간 동안 품질 수정 사항을 제공하는 방식이 변화하고 있습니다.'
+description: Adobe Commerce은 다음 부 소프트웨어 릴리스의 일반 공급 날짜로부터 최소 12개월 동안 부 릴리스에 대한 품질 수정 사항을 제공합니다. 이 기간 동안 품질 수정 사항을 제공하는 방식은 다음과 같이 변경됩니다.
 exl-id: 4aa601d0-ee1d-4f1f-a684-188772a58dd1
 feature: Compliance, Support
 role: Admin

@@ -1,6 +1,6 @@
 ---
 title: 'Adobe Commerce 2.3.7-p1의 알려진 문제: PayPal에 대한 이전 주문 총계'
-description: '이 문서에서는 Adobe Commerce 2.3.7-p1의 알려진 문제에 대한 패치를 제공합니다. PayPal Checkout을 두 번 이상 사용하면 고객이 주문하려는 새 제품 대신 장바구니에서 이전에 주문한 제품을 받을 수 있습니다.'
+description: 이 문서에서는 Adobe Commerce 2.3.7-p1의 알려진 문제에 대한 패치를 제공합니다. PayPal Checkout을 두 번 이상 사용하면 고객이 주문하려는 새 제품 대신 장바구니에서 이전에 주문한 제품을 받을 수 있습니다.
 exl-id: ceb8f7ad-0cf7-4d42-aded-25d1dd947f5b
 feature: Orders, Payments
 role: Developer

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-54264: 고객이 협상 가능 견적으로 체크아웃하려고 할 때 오류 발생'
+title: 'ACSD-54264: 고객이 협상 가능한 견적으로 체크아웃하려고 할 때 오류 발생'
 description: ACSD-54264 패치를 적용하여 "요청한 속성을 업데이트할 수 없습니다."라는 오류 메시지가 표시되는 Adobe Commerce 문제를 해결합니다. Row ID:store_id"는 고객이 다른 스토어 뷰에서 협상 가능한 견적을 사용하여 체크아웃하려고 할 때 표시됩니다.
 feature: B2B, Checkout
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-38559: /V1/customers/search API가 오류를 반환합니다.'
+title: 'MDVA-38559: /V1/customers/search API에서 오류 반환'
 description: MDVA-38559 패치에서는 "/V1/customers/search" API가 두 개 이상의 구독을 가진 고객에 대해 오류를 반환하는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-38559입니다. 이 문제는 Adobe Commerce 2.4.3에서 해결되었습니다.
 exl-id: 434fe78c-c384-4fa8-b26a-cb00007e490e
 feature: REST, Search

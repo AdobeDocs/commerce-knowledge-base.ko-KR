@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Commerce 2.3.5 알려진 문제: 가상 제품 다중 배송 주문'
+title: 'Adobe Commerce 2.3.5 알려진 문제: 가상 제품 멀티배송 주문'
 description: 이 문서에서는 가상 제품이 포함된 다중 배송 주문이 올바르게 처리되지 않는 Adobe Commerce 2.3.5의 알려진 문제에 대해 설명합니다.
 exl-id: 34ce79a2-5157-492b-8ee4-bdc09aae0c40
 feature: Orders, Products, Shipping/Delivery

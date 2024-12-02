@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-54989: [!UICONTROL Enable Purchase Orders]이(가) 예로 설정되어 있고 [!UICONTROL Purchase Order]이(가) 아니요로 설정되어 있으면 회사 관리자가 정렬할 수 없습니다.'
+title: 'ACSD-54989: [!UICONTROL Enable Purchase Orders]이(가) 예로 설정되어 있고 [!UICONTROL Purchase Order]이(가) 아니요로 설정되어 있는 경우 회사 관리자가 순서를 지정할 수 없습니다.'
 description: '[!UICONTROL Enable Purchase Orders]이(가) 예로 설정되어 있고 [!UICONTROL Purchase Order]이(가) 아니요로 설정되어 있는 경우 회사 관리자가 주문을 할 수 없는 Adobe Commerce 문제를 해결하려면 ACSD-54989 패치를 적용합니다.'
 feature: Orders, Companies, Purchase Orders
 role: Admin, Developer

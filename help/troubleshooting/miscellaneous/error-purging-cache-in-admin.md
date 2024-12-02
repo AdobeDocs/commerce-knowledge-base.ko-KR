@@ -1,6 +1,6 @@
 ---
 title: Commerce 관리자의 캐시를 제거하는 동안 오류 발생
-description: '이 문서에서는 Commerce 관리자의 캐시를 제거할 때 발생하는 오류 메시지의 원인을 식별하는 방법에 대해 설명합니다. 관리자를 통해 캐시를 제거하려고 하면 다음과 같은 메시지가 표시됩니다.'
+description: 이 문서에서는 Commerce 관리자의 캐시를 제거할 때 발생하는 오류 메시지의 원인을 식별하는 방법에 대해 설명합니다. 관리자를 통해 캐시를 제거하려고 하면 다음과 같은 메시지가 표시됩니다.
 exl-id: aa414e04-bc6d-46bd-b98f-0446b97bda14
 feature: Admin Workspace, Cache
 role: Developer

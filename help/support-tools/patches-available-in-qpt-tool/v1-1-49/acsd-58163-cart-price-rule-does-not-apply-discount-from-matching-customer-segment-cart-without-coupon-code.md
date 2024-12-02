@@ -1,15 +1,15 @@
 ---
-title: 'ACSD-58163: [!UICONTROL Cart Price Rule]은(는) 쿠폰 코드 없이 일치하는 [!UICONTROL Customer Segment] 장바구니에서 할인을 적용하지 않습니다.'
+title: 'ACSD-58163: [!UICONTROL Cart Price Rule]은(는) 쿠폰 코드가 없는 일치하는 [!UICONTROL Customer Segment] 장바구니에서 할인을 적용하지 않습니다.'
 description: ACSD-58163 패치를 적용하여 [!UICONTROL Cart Price Rule]이(가) 쿠폰 코드가 없는 일치하는 [!UICONTROL Customer Segment] 장바구니에서 게스트에 대한 할인을 적용하지 않는 Adobe Commerce 문제를 해결합니다.
 feature: Products
 role: Admin, Developer
-source-git-commit: 7603a482953dc0ac0784ab6e6d3b22e4245e3e75
+exl-id: bc8587be-076c-4210-902c-6ecb69f581e2
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-58163: [!UICONTROL Cart Price Rule]은(는) 쿠폰 코드가 없는 일치하는 [!UICONTROL Customer Segment] 장바구니에서 할인을 적용하지 않습니다.
 

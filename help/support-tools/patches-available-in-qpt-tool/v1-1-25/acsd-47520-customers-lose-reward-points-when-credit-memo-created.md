@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-47520: 고객이 대변 메모를 만들 때 보상 포인트를 잃음'
+title: 'ACSD-47520: 대변 메모가 생성되면 고객이 보상 포인트를 잃음'
 description: ACSD-47520 패치를 적용하여 대변 메모가 생성될 때 고객이 보상 포인트를 잃는 Adobe Commerce 문제를 해결합니다.
 exl-id: 748b4e05-981d-49f6-a4f5-b121d57085f4
 feature: Admin Workspace, Cache, Orders, Rewards, Returns

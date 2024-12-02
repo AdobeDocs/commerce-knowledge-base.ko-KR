@@ -1,5 +1,5 @@
 ---
-title: "MDVA-37725: 기본이 아닌 사이트를 통해 전송된 이메일에는 기본 사이트의 로고 URL이 포함되어 있습니다."
+title: 'MDVA-37725: 기본이 아닌 사이트를 통해 전송된 이메일에는 기본 사이트의 로고 URL이 포함되어 있습니다'
 description: MDVA-37725 패치는 기본 웹 사이트의 로고 URL이 포함된 비기본 웹 사이트를 통해 비동기 주문 이메일이 전송되는 문제를 해결합니다.
 exl-id: c0d1b9a3-01bb-445b-b7da-f9be6952eaeb
 feature: Communications, Orders

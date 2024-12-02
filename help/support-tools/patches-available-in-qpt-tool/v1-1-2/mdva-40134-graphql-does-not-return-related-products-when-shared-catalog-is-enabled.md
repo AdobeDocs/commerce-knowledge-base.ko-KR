@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40134: 공유 카탈로그가 활성화된 경우 GraphQL에서 관련 제품을 반환하지 않음'
+title: 'MDVA-40134: 공유 카탈로그가 활성화되면 GraphQL에서 관련 제품을 반환하지 않음'
 description: MDVA-40134 패치는 공유 카탈로그가 활성화된 경우 GraphQL이 관련 제품을 반환하지 않는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-40134입니다. 이 문제는 Adobe Commerce 2.4.3에서 해결되었습니다.
 exl-id: 7b14355a-1c14-4c80-9426-6c40505d638b
 feature: B2B, Catalog Management, GraphQL, Products

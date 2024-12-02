@@ -1,6 +1,6 @@
 ---
 title: 패치를 찾을 수 없는 배포 오류
-description: "이 문서에서는 오류가 발생하는 문제에 대한 해결 방법을 제공합니다. *다음 패치를 찾을 수 없는 경우: MDVA-XXXXX, ACSD-XXXXX. 'status' 명령으로 이러한 패치의 사용 가능 여부를 확인하여 현재 Magento 버전*을 확인하십시오."
+description: '이 문서에서는 오류가 발생하는 문제에 대한 해결 방법을 제공합니다. *다음 패치를 찾을 수 없는 경우: MDVA-XXXXX, ACSD-XXXXX. 현재 Magento 버전*에 대한 이러한 패치의 ''status'' 명령 사용 가능 여부를 확인하십시오.'
 exl-id: 5a2fd35a-892a-48af-a41f-f275297b3e2e
 source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
 workflow-type: tm+mt

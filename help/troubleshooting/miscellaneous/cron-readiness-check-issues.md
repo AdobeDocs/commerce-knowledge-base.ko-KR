@@ -1,6 +1,6 @@
 ---
 title: Cron 준비 확인 문제
-description: '''이 문서에서는 cron 준비 문제에 대한 솔루션을 제공합니다. 다음은 cron 문제의 증상입니다.'
+description: 이 문서에서는 cron 준비 문제에 대한 솔루션을 제공합니다. 다음은 cron 문제의 증상입니다.
 exl-id: 1f2cee2c-98ad-4cf5-af16-d736fced2a15
 feature: Configuration
 role: Developer

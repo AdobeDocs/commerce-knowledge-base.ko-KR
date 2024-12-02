@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-42855: 체크아웃 중에 새 고객 주소가 주소록에 저장되지 않음'
+title: 'MDVA-42855: 체크아웃 중에 새 고객 주소가 주소록에 저장되지 않았습니다. '
 description: MDVA-42855 패치는 체크아웃 중에 새 고객 주소가 주소록에 저장되지 않는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-42855입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
 exl-id: 37fc51f4-773e-4bef-9fb1-e6629562b94a
 feature: Checkout, Orders, Shipping/Delivery

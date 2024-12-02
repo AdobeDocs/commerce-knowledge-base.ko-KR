@@ -3,13 +3,13 @@ title: 'ACSD-54887: 고객 세션이 만료된 후 고객 장바구니가 지워
 description: ACSD-54887 패치를 적용하여 고객 세션이 [!UICONTROL Persistent Shopping Cart]을(를) 활성화한 상태로 만료된 후 고객 장바구니가 지워지는 Adobe Commerce 문제를 해결합니다.
 feature: Shopping Cart
 role: Admin, Developer
-source-git-commit: fd73d89e8d60f6a4ab2ff5ba08df385adbd3faaa
+exl-id: 81e0a20e-0c68-420e-b14e-3f331249c8d9
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-54887: 고객 세션이 만료된 후 고객 장바구니가 지워짐
 
@@ -70,4 +70,3 @@ ACSD-54887 패치는 고객 세션이 [!UICONTROL Persistent Shopping Cart]을(�
 * [지원 기술 자료에서  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)을(를) 사용하여 Adobe Commerce 문제에 대한 패치를 사용할 수 있는지 확인합니다.
 
 QPT에서 사용할 수 있는 다른 패치에 대한 정보는 [!DNL Quality Patches Tool] 안내서에서 [[!DNL Quality Patches Tool]: 패치 검색](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)을 참조하세요.
-

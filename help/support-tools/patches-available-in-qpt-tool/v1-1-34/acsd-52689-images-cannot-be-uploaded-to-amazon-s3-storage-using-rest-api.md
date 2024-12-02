@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52689: 이미지를 REST API를 통해 Amazon S3 스토리지에 업로드할 수 없음"
+title: 'ACSD-52689: 이미지를 REST API를 통해 Amazon S3 스토리지에 업로드할 수 없음'
 description: REST API를 통해 Adobe Commerce S3 스토리지에 이미지를 업로드할 수 없는 Amazon 문제를 해결하려면 ACSD-52689 패치를 적용합니다.
 feature: REST, Storage, Iaas
 role: Admin

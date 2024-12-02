@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40120: GraphQL 제품 DESC/ASC 정렬이 작동하지 않음"
+title: 'MDVA-40120: GraphQL 제품 DESC/ASC 정렬이 작동하지 않음'
 description: MDVA-40120 패치는 DESC/ASC별 GraphQL 정렬이 동일한 관련성 또는 가격을 갖는 제품에서 작동하지 않는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.6이 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-40120입니다. 이 문제는 Adobe Commerce 2.4.4에서 수정됩니다.
 exl-id: f04373d6-d3e8-47ba-9261-87fad8dff327
 feature: GraphQL, Products

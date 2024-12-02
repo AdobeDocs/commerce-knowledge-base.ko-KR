@@ -1,5 +1,5 @@
 ---
-title: '''ACSD-54890: ''aggregate_sales_report_bestsellers_data''로 인해  [!DNL MySQL] 오류 발생'''
+title: 'ACSD-54890: ''aggregate_sales_report_bestsellers_data''로 인해  [!DNL MySQL] 오류 발생'
 description: ACSD-54890 패치를 적용하여 'aggregate_sales_report_bestsellers_data'가 공간 부족으로 인해  [!DNL MySQL] 오류가 발생하는 Adobe Commerce 문제를 해결합니다.
 feature: Attributes
 role: Admin, Developer

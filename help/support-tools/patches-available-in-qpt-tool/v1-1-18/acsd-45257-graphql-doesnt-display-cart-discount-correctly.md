@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45257: GraphQL에 장바구니 할인이 올바르게 표시되지 않음"
+title: 'ACSD-45257: GraphQL에 장바구니 할인이 올바르게 표시되지 않음'
 description: ACSD-45257 패치는 GraphQL에서 장바구니 할인을 올바르게 표시하지 않는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18이 설치된 경우 사용할 수 있습니다. 패치 ID는 ACSD-45257입니다. 이 문제는 Adobe Commerce 2.4.6에서 수정됩니다.
 exl-id: 64576fa3-1160-4fc3-8458-4e622c30af74
 feature: GraphQL, Marketing Tools, Orders, Personalization, Shopping Cart

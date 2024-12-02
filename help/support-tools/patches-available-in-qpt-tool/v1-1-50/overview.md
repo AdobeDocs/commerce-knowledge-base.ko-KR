@@ -3,7 +3,8 @@ title: '개요: [!DNL Quality Patches Tool] (QPT) v1.1.50'
 description: 이 하위 섹션에서는  [!DNL Quality Patches Tool] (QPT) v1.1.50에서 사용할 수 있는 패치로 해결된 문제에 대한 자세한 설명을 제공합니다.
 feature: Tools and External Services
 role: Admin, Developer
-source-git-commit: f62cf4284d7bb99a1ab58df676dfff726c34d327
+exl-id: 2bda5e91-a213-434a-b4e4-0dffeb222cae
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -33,4 +34,3 @@ QPT v1.1.50에는 다음 패치가 포함됩니다.
 1. **ACSD-60441**: 백엔드에서 생성된 통합 액세스 토큰을 사용할 때 `V1/customers REST API` 끝점을 통해 고객을 업데이트하는 문제를 해결했습니다.
 
 왼쪽의 메뉴를 사용하여 특정 패치 페이지로 이동합니다.
-

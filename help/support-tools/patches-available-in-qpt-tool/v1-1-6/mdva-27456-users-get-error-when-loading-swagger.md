@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-27456: Swagger를 로드할 때 사용자에게 오류가 발생합니다.'
+title: 'MDVA-27456: Swagger를 로드할 때 오류가 발생합니다.'
 description: MDVA-27456 패치는 사용자가 Swagger를 로드하려고 할 때 오류가 발생하는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6이 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-27456입니다. 이 문제는 Adobe Commerce 2.3.7에서 해결되었습니다.
 exl-id: e331595f-a94b-4070-803a-60f559735b29
 feature: Tools and External Services

@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기 초과'
+title: '[!DNL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.'
 description: ' [!DNL Admin] 패널에 로그인하려고 하면 양식이 새로 고침되고 로그인할 수 없는 문제를 해결합니다.'
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
 source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1

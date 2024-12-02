@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51305: GraphQL 응답에서 사용할 수 없는 품절 복합 하위 제품"
+title: 'ACSD-51305: GraphQL 응답에서 품절 복합 하위 제품을 사용할 수 없음'
 description: ACSD-51305 패치를 적용하여 Adobe Commerce 응답에서 품절 복합 하위 제품을 사용할 수 없는 GraphQL 문제를 해결합니다.
 exl-id: 0f33eb62-dfd3-4d07-b095-9ee6e9983c4d
 feature: Categories, GraphQL, Orders, Products

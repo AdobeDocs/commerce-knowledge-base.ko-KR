@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Commerce 2.4.0 알려진 문제: Klarna On-Site Messaging 빈 페이지'
+title: 'Adobe Commerce 2.4.0 알려진 문제: Klarna 온사이트 메시징 빈 페이지'
 description: 이 문서에서는 Klarna 결제 방법과 관련하여 알려진 Adobe Commerce 2.4.0 문제에 대해 설명합니다. 여기에서 디자인 테마를 지정하지 않고 Klarna 온사이트 메시지를 활성화하면 상점 첫 화면에 제품 페이지가 올바르게 표시되지 않습니다(제품 페이지가 비어 있음).
 exl-id: f0f9edfc-eaad-4947-9200-41e217bfbe84
 feature: Orders, Payments

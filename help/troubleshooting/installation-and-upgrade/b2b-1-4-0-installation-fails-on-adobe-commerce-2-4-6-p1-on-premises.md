@@ -1,5 +1,5 @@
 ---
-title: '[!DNL B2B] Adobe Commerce 2.4.6-p1 온-프레미스에서 1.4.0 설치가 실패합니다.'
+title: Adobe Commerce 2.4.6-p1 온-프레미스에서 [!DNL B2B] 1.4.0 설치에 실패했습니다.
 description: 이 문서에서는  [!DNL B2B] 버전 1.4.0 설치에 실패하는 Adobe Commerce 2.4.6-p1 온-프레미스 문제에 대한 해결 방법을 제공합니다.
 feature: Install, Upgrade, B2B
 role: Developer

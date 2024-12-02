@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42645: 관리자가 비활성화된 스토어 크레딧에 대한 보상 포인트를 환불할 수 없음"
+title: 'MDVA-42645: 관리자가 비활성화된 스토어 크레딧에 대한 보상 포인트를 환불할 수 없음'
 description: MDVA-42645 패치는 저장소 신용 기능이 비활성화된 경우 관리자가 보상 포인트를 환불할 수 없는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-42645입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
 exl-id: 8e8f8c07-c1a2-4031-a2fb-cb737165dc2c
 feature: Admin Workspace, Orders, Rewards, Returns

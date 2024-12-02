@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51683: 사용자 지정 가능한 옵션은 GraphQL을 사용하여 장바구니에 추가할 수 없음"
+title: 'ACSD-51683: 사용자 지정 가능한 옵션은 GraphQL을 사용하여 장바구니에 추가할 수 없습니다.'
 description: ACSD-51683 패치를 적용하여 사용자 지정 가능한 옵션을 GraphQL을 사용하여 장바구니에 추가할 수 없는 Adobe Commerce 문제를 해결합니다.
 feature: GraphQL
 role: Admin

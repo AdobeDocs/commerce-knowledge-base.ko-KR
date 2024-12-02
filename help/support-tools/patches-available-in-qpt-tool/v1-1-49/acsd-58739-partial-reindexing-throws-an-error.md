@@ -3,7 +3,8 @@ title: 'ACSD-58739: 부분 리인덱싱에서 오류 발생'
 description: ACSD-55241 패치를 적용하여 부분 리인덱싱에서 오류가 발생하는 Adobe Commerce 문제를 해결합니다.
 feature: Inventory, Products
 role: Admin, Developer
-source-git-commit: b21eab3bf8ec492f0b1c5be9c13c6c579f43fe44
+exl-id: 19f177f4-054b-4593-970b-7cbf04710bef
+source-git-commit: 06f751e43ef825c0eb29cb9b42eb41f07c308625
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%

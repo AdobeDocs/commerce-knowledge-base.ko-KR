@@ -1,5 +1,5 @@
 ---
-title: '[!DNL MySQL] 테이블이 너무 큽니다.'
+title: '[!DNL MySQL]개 테이블이 너무 큽니다.'
 description: 이 문서에서는  [!DNL MySQL] 테이블이 1GB보다 클 때 문제가 되는 이유와 방지 방법에 대해 설명합니다.
 exl-id: 43f74e3b-7f2e-428c-9964-56d2ce98a34d
 feature: Services

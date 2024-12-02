@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48293: 재입고된 아동용 제품 판매 시 품절 된 복합 제품'
+title: 'ACSD-48293: 재입고된 어린이 제품이 품절되었을 때 재고 부족 복합 제품'
 description: ACSD-48293 패치를 적용하여 품절된 하위 제품이 재고로 반환될 때 합성 제품이 품절되는 Adobe Commerce 문제를 해결합니다.
 exl-id: 74ca34fe-e015-4daf-a608-4756c8ab3558
 feature: Admin Workspace, Orders, Products

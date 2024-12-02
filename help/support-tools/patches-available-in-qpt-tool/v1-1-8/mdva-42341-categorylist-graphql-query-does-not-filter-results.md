@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-42341: "categoryList" GraphQL 쿼리가 결과를 필터링하지 않음'
+title: 'MDVA-42341: "categoryList" GraphQL 쿼리가 결과를 필터링하지 않습니다.'
 description: MDVA-42341 패치는 요청에 스토어 헤더가 있는 경우 "categoryList" GraphQL 쿼리가 결과를 필터링하지 않는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8이 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-42341입니다. 이 문제는 Adobe Commerce 2.4.4에서 수정됩니다.
 exl-id: 34aeb30a-9491-4102-b33e-dcd857b6a1c2
 feature: GraphQL, Categories

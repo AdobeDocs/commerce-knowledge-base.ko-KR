@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55100: [!DNL GraphQL] 검색 결과에 10k 이상의 제품을 반환하지 않음"
+title: 'ACSD-55100: [!DNL GraphQL] 검색 결과에 10k 이상의 제품을 반환하지 않습니다.'
 description: ACSD-55100 패치를 적용하여 GraphQL이 검색 결과에서 *10k* 이상의 제품을 반환하지 않는 Adobe Commerce 문제를 해결합니다.
 feature: GraphQL, Products, Search
 role: Admin, Developer

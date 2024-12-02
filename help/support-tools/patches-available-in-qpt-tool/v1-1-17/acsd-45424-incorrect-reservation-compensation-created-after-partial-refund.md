@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-45424: 일부 환불 후 잘못된 예약 보상이 생성됨'
+title: 'ACSD-45424: 부분 환불 후 생성된 잘못된 예약 보상'
 description: ACSD-45424 패치를 사용하면 부분 환불 후 잘못된 예약 보상이 생성되는 문제가 해결됩니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17이 설치된 경우 사용할 수 있습니다. 패치 ID는 ACSD-45424입니다. 이 문제는 Adobe Commerce 2.4.6에서 수정됩니다.
 exl-id: 0676cfda-a28e-4a66-a75b-8a3fc5e22566
 feature: Orders

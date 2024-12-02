@@ -1,5 +1,5 @@
 ---
-title: 'PWA Studio: 컴파일을 시작하기 전에 Webpack 중단'
+title: 'PWA Studio: 컴파일을 시작하기 전에 Webpack이 중단됨'
 description: 이 문서에서는 Progressive Web App Studio(PWA Studio)에서 컴파일을 시작하기 전에 Javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)이 오랫동안 중단되는 경우에 대한 제안 해결 방법에 대해 설명합니다.
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration

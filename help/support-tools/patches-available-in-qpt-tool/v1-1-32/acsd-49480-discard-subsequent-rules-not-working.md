@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49480: 작동하지 않는 후속 규칙 버리기'
+title: 'ACSD-49480: 작동하지 않는 후속 규칙 무시'
 description: ACSD-49480 패치를 적용하여 [!UICONTROL Cart Price Rule - Discard Subsequent Rules]이(가) 의도한 대로 작동하지 않는 Adobe Commerce 문제를 해결합니다.
 exl-id: 8d306a9e-ed1a-4295-8130-81700cbf31a6
 feature: Price Rules

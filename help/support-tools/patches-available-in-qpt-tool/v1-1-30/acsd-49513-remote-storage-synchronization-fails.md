@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49513: 원격 저장소 동기화 실패'
+title: 'ACSD-49513: 원격 스토리지 동기화 실패'
 description: ACSD-49513 패치를 적용하여 0바이트 파일로 인해 원격 스토리지 동기화가 실패하는 Adobe Commerce 문제를 해결합니다.
 exl-id: fce5f60f-d21f-40cd-8d8a-a1a26e0fbe75
 feature: Iaas, Storage

@@ -1,5 +1,5 @@
 ---
-title: Adobe Commerce Cloud에 대한 '[!DNL SendGrid] 파일 제한'
+title: Adobe Commerce Cloud에 대한 [!DNL SendGrid] 파일 제한
 description: 이 문서에서는 클라우드 인프라의 Adobe Commerce에 대한  [!DNL SendGrid]  제한에 대한 해결 방법을 제공합니다.
 feature: Deploy, Marketing Tools
 role: Developer, Admin

@@ -1,6 +1,6 @@
 ---
 title: 'Adobe Commerce에 대한 관리 경고: Redis 메모리 경고 경고'
-description: '''이 문서에서는 New Relic에서 Adobe Commerce에 대한 Redis 경고 알림을 받는 경우에 대한 문제 해결 단계를 제공합니다. 문제를 해결하려면 즉각적인 조치가 필요합니다. 선택한 경고 알림 채널에 따라 경고는 다음과 같이 표시됩니다.'
+description: 이 문서에서는 New Relic에서 Adobe Commerce에 대한 Redis 경고 알림을 받을 때의 문제 해결 단계를 제공합니다. 문제를 해결하려면 즉각적인 조치가 필요합니다. 선택한 경고 알림 채널에 따라 경고는 다음과 같이 표시됩니다.
 exl-id: b7867a42-3817-4cb4-93cf-d69acee33a41
 feature: Categories, Marketing Tools, Observability, Services, Support, Tools and External Services, Variables
 role: Admin

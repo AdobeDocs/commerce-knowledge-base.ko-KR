@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-45168: url_key 특성이 재정의된 제품에 대해 SEO 친화적 URL이 생성되지 않음'
+title: 'ACSD-45168: url_key 특성이 재정의된 제품에 대해 SEO에 친숙한 URL이 생성되지 않음'
 description: ACSD-45168 패치를 적용하여 스토어-보기 수준에서 url_key 특성이 재정의된 제품에 대해 SEO 친화적 URL이 생성되지 않는 Adobe Commerce 문제를 수정합니다.
 exl-id: cdba42ac-3c96-439b-befa-f0a13587b5d9
 feature: Attributes, Cache, Categories, Marketing Tools, Products

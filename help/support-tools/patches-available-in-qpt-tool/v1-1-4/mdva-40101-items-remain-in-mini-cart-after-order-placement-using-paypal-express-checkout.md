@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40101: 상품은 주문 배치 후 미니 장바구니로 남음 PayPal Express Checkout'
+title: 'MDVA-40101: 주문 배치 PayPal Express Checkout 후 항목이 미니 장바구니로 남음'
 description: MDVA-40101 패치는 PayPal Express Checkout을 사용하여 주문을 성공적으로 배치한 후 미니 장바구니에서 항목이 제거되지 않는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-40101입니다. 이 문제는 Adobe Commerce 2.4.0에서 해결되었습니다.
 exl-id: d640dfcd-6fb6-4cc6-8817-3ae19aa59bed
 feature: Checkout, Orders, Payments, Shopping Cart

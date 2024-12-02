@@ -1,6 +1,6 @@
 ---
-title: 'E: 스테이징 또는 프로덕션 배포 중 routes.yaml 오류를 확인하는 동안 오류 발생'
-description: '"이 문서에서는 스테이징 또는 프로덕션 환경에 프로젝트를 배포할 때 *"E: route.yaml"* 오류 메시지를 받는 클라우드 인프라 문제에 대한 Adobe Commerce 솔루션을 제공합니다."'
+title: 'E: 스테이징 또는 프로덕션 배포 중 routes.yaml 오류를 확인하는 도중 오류 발생'
+description: '이 문서에서는 스테이징 또는 프로덕션 환경에 프로젝트를 배포하려고 할 때 *"E: route.yaml"* 오류 메시지가 표시되는 클라우드 인프라의 Adobe Commerce 문제에 대한 해결 방법을 제공합니다.'
 exl-id: 7f58591a-5581-46cd-984d-09ac2c0f3903
 feature: Deploy, Routes, Staging
 role: Developer

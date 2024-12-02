@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48234: [!UICONTROL Display Out of Stock Products]을(를) 사용하도록 설정한 경우 카탈로그 검색 결과 범주 항목 개수가 잘못됨'
+title: 'ACSD-48234: [!UICONTROL Display Out of Stock Products]을(를) 사용하도록 설정한 경우 카탈로그 검색 결과가 잘못된 범주 항목 수입니다.'
 description: '[!UICONTROL Display Out of Stock Products] 옵션이 활성화된 경우 카탈로그 검색 결과에 잘못된 범주 항목 수가 표시되는 Adobe Commerce 문제를 해결하려면 ACSD-48234 패치를 적용하십시오.'
 exl-id: 8e70fe73-d550-4e11-b25e-84955e136d12
 feature: Admin Workspace, Categories, Catalog Management, Orders, Products, Search

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-46683: 배송 가격 표시 *아직 계산되지 않음*'
+title: 'ACSD-46683: 배송 가격이 *아직 계산되지 않음* 표시'
 description: ACSD-46683 패치를 적용하여 배송비가 *아직 계산되지 않음*으로 표시되는 Adobe Commerce 문제를 해결합니다.
 exl-id: 77986612-87b7-4f50-afaf-1cfe9a4feb6f
 feature: Marketing Tools, Orders, Shipping/Delivery

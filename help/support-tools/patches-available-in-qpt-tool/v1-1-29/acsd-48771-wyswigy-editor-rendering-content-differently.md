@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-48771: WYSIWYG 편집기는 콘텐츠를 다르게 렌더링합니다.'
-description: ACSD-48771 패치를 적용하여 WYSIWYG 편집기가 콘텐츠를 다르게 렌더링하는 Adobe Commerce 문제를 해결합니다.
+description: ACSD-48771 패치를 적용하여 WYSIWYG 편집기에서 콘텐츠를 다르게 렌더링하는 Adobe Commerce 문제를 해결합니다.
 exl-id: 6a856fa3-6099-4237-8d1c-e3735b8ca012
 feature: Cache, Page Content
 role: Admin

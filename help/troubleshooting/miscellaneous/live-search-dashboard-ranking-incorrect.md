@@ -3,7 +3,8 @@ title: '[!DNL Live Search] 대시보드 및 검색 결과 순위가 올바르지
 description: 이 문서에서는  [!DNL Live Search] 대시보드의 데이터가 올바르지 않거나 검색 결과의 순위가 예상과 다른 경우 문제 해결 정보를 제공합니다.
 feature: Admin Workspace, Categories, Search
 role: Developer
-source-git-commit: 4c1199c31f83d7c2aaf28e259d63473779bf2efe
+exl-id: d4aea1f1-c2c4-45e5-87c8-73069f7c9ffd
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%

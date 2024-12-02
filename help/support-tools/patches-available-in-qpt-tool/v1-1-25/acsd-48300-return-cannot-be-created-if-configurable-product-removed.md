@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48300: 구성 가능한 제품을 제거하면 반환을 만들 수 없음'
+title: 'ACSD-48300: 구성 가능한 제품을 제거하면 반환을 만들 수 없습니다.'
 description: ACSD-48300 패치를 적용하여 구성 가능한 제품이 제거된 경우 반환을 만들 수 없는 Adobe Commerce 문제를 해결합니다.
 exl-id: 4abbc398-b341-4ff6-9483-9cf8f3dbbfbb
 feature: Admin Workspace, Configuration, Orders, Products, Returns

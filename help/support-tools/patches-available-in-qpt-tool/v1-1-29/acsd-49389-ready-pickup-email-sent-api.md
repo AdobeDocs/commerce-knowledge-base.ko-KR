@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49389: 픽업 준비가 되지 않은 경우 API로 전송된 픽업 이메일 준비'
+title: 'ACSD-49389: 픽업 준비가 되지 않은 경우 API에서 보낸 픽업 이메일 준비'
 description: ACSD-49389 패치를 적용하여 주문이 픽업 준비가 되지 않은 경우 API로 픽업 준비 이메일이 전송되는 Adobe Commerce 문제를 수정합니다.
 exl-id: a1baae06-cf36-448b-bda4-aff1e5ca68db
 feature: REST, Communications
@@ -43,7 +43,7 @@ ACSD-49389 패치는 주문이 픽업 준비가 되지 않은 경우 API에서 �
 1. 상점 첫 화면에서 *[!UICONTROL In-Store Delivery]* 메서드를 사용하여 4단계에서 만든 제품을 확인하십시오.
 1. 주문에 대한 송장을 생성합니다.
 1. 제품의 수량을 *0*(으)로 설정하여 재고가 없게 만듭니다.
-1. Post 다음 API 요청:
+1. 다음 API 요청 게시:
 
 ```
 {
