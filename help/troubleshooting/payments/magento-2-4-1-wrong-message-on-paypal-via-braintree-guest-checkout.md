@@ -1,10 +1,10 @@
 ---
-title: 'Adobe Commerce 2.4.1: PayPal Braintree 게스트 체크아웃에서 잘못된 메시지'
+title: 'Adobe Commerce 2.4.1: PayPal-Braintree 게스트 체크아웃 시 잘못된 메시지'
 description: 이 문서에서는 게스트 체크아웃이 비활성화된 경우 Braintree을 통해 PayPal로 주문하려는 게스트 고객에게 유익하지 않은 오류 메시지가 표시되는 알려진 Adobe Commerce 2.4.1 문제에 대해 설명합니다.
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -61,4 +61,4 @@ Braintree을 사용하지 않고 직접 Paypal을 사용하는 경우 이 시나
 
 * 지원 기술 자료에서 [Adobe Commerce의 장바구니에 있는 제품 수에 대한 모범 사례](https://support.magento.com/hc/en-us/articles/360048550332).
 * [주문 처리 자습서: 1단계. 개발자 설명서에서 장바구니에 항목 추가](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/)
-* [GraphQL 체크아웃 튜토리얼: 1단계. 개발자 설명서에서 장바구니에 제품 추가](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-add-product-to-cart.html)
+* [GraphQL 체크아웃 튜토리얼: 1단계. 개발자 설명서에서 장바구니에 제품 추가](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/add-product-to-cart/)

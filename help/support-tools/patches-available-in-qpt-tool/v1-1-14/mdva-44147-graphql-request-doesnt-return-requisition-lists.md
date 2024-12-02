@@ -1,10 +1,10 @@
 ---
-title: "MDVA-44147: GraphQL 요청이 구매요청 목록을 반환하지 않음"
+title: 'MDVA-44147: GraphQL 요청이 구매요청 목록을 반환하지 않음'
 description: MDVA-44147 패치는 GraphQL 요청이 구매요청 목록을 반환하지 않는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-44147입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
 exl-id: c7a526f2-638c-4172-8750-aa076724851a
 feature: B2B, GraphQL
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -52,7 +52,7 @@ GraphQL 요청은 구매요청 목록을 반환하지 않습니다.
       </code>
       </pre>
 
-1. 다음 질의를 사용하여 고객으로부터 모든 구매요청 목록을 검색합니다. 값이 `Bearer <customer_token>`인 **Authorization** 헤더를 사용합니다. 자세한 내용은 개발자 설명서에서 [고객 쿼리](https://developer.adobe.com/commerce/webapi/graphql/queries/customer.html) 문서를 참조하십시오.
+1. 다음 질의를 사용하여 고객으로부터 모든 구매요청 목록을 검색합니다. 값이 `Bearer <customer_token>`인 **Authorization** 헤더를 사용합니다. 자세한 내용은 개발자 설명서에서 [고객 쿼리](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/customer/) 문서를 참조하십시오.
 
    요청:
 

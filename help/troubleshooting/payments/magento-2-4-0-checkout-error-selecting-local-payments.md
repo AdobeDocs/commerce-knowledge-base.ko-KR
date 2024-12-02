@@ -1,10 +1,10 @@
 ---
 title: 'Adobe Commerce 2.4.0: 로컬 결제를 선택하는 동안 체크아웃 오류 발생'
-description: '이 문서에서는 체크아웃 중에 일부 국가의 로컬 결제 방법을 선택할 때 오류 메시지가 표시되는 Adobe Commerce의 알려진 문제에 대한 해결 방법에 대해 설명합니다. 이는 벨기에, 이탈리아, 네덜란드, 폴란드 및 스페인에 대해 발생합니다.'
+description: 이 문서에서는 체크아웃 중에 일부 국가의 로컬 결제 방법을 선택할 때 오류 메시지가 표시되는 Adobe Commerce의 알려진 문제에 대한 해결 방법에 대해 설명합니다. 이는 벨기에, 이탈리아, 네덜란드, 폴란드 및 스페인에 대해 발생합니다.
 exl-id: de2eafb0-d03c-4ff8-9615-0f2676d95848
 feature: B2B, Categories, Checkout, Orders, Payments
 role: Developer
-source-git-commit: a8cc7ad0cb9cb111f5b9636ff18aef3b6ed44329
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * Adobe Commerce 2.4.0이 설치되어 있습니다.
 * 제품 하나와 범주 하나를 만듭니다.
-* [Braintree 결제 방법](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree.html)을 구성하십시오.
+* [Braintree 결제 방법](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree/)을 구성하십시오.
 
 <u>재현 단계</u>:
 

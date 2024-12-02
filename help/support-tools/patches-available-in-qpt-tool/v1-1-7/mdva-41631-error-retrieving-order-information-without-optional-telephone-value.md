@@ -1,10 +1,10 @@
 ---
-title: 'MDVA-41631: 선택적 "telephone" 값 없이 주문 정보를 검색하는 동안 오류 발생'
+title: 'MDVA-41631: 선택적 "telephone" 값 없이 주문 정보를 검색하는 도중 오류 발생'
 description: MDVA-41631 패치는 GraphQL을 통해 선택적 "전화" 값 없이 주문 정보를 검색하는 동안 오류가 발생하는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7이 설치된 경우 사용할 수 있습니다. 이 문제는 Adobe Commerce 2.4.4에서 수정됩니다.
 exl-id: 94b0b918-c1f9-4f5d-8fcd-8b92a9ca8c59
 feature: Orders
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -37,8 +37,8 @@ Adobe Commerce(모든 배포 방법) 2.4.1 - 2.4.3-p1
 
 1. **스토어** > **구성** > **고객** > **고객 구성** > **이름 및 주소 옵션** > **전화 번호 표시**(으)로 이동하여 전화 번호를 선택 사항으로 설정합니다.
 1. GraphQL API를 로그인 고객으로 사용하여 주문합니다.
-   * 청구 및 배송 주소를 설정할 때 전화 번호를 설정하지 마십시오. 개발자 설명서에서 [GraphQL 체크아웃 튜토리얼](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-customer.html)에 제공된 지침을 따르십시오.
-1. GraphQL [customerOrders 쿼리](https://developer.adobe.com/commerce/webapi/graphql/queries/customer-orders.html)를 사용하여 주문을 검색합니다.
+   * 청구 및 배송 주소를 설정할 때 전화 번호를 설정하지 마십시오. 개발자 설명서에서 [GraphQL 체크아웃 튜토리얼](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/)에 제공된 지침을 따르십시오.
+1. GraphQL [customerOrders 쿼리](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/orders/)를 사용하여 주문을 검색합니다.
 
 <pre>
 <code class="language-graphql">
