@@ -1,19 +1,19 @@
 ---
 title: 내보낸 제품 .csv 파일이 표시되지 않음
-description: 이 문서에서는 Commerce 관리자의 .csv 파일로 제품을 내보내려고 하지만 파일이 표시되지 않는 문제에 대한 수정 사항을 제공합니다.
+description: 이 문서에서는 Commerce 관리자의 .csv 파일로 원하는 엔티티 유형을 내보내려고 하지만 파일이 표시되지 않는 문제에 대한 수정 사항을 제공합니다.
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: d55702ab97f3770d0ec71322f6c24448f0169ad4
+source-git-commit: b6f1222918b027eaecda42b767e6f83b2cf0f5d0
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
 # 내보낸 제품 .csv 파일이 표시되지 않음
 
-이 문서에서는 Commerce 관리자의 .csv 파일로 제품을 내보내려고 하지만 파일이 표시되지 않는 문제에 대한 수정 사항을 제공합니다.
+이 문서에서는 원하는 엔티티 유형을 Commerce 관리자의 .csv 파일로 내보내면 파일이 표시되지 않는 문제에 대한 해결 방법을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -30,7 +30,7 @@ ht-degree: 0%
    ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)
 
 1. 선택
-   * **엔터티 형식**: *제품*
+   * **엔터티 형식**: 내보내려는 엔터티
    * **파일 형식 내보내기**: *CSV*
    * **필드 엔클로저**: 선택하지 않은 상태로 둡니다.
 1. **계속**&#x200B;을 클릭합니다.
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 <u>예상 결과</u>
 
-내보낸 제품이 포함된 .csv 파일이 몇 분 후에 격자에 표시됩니다.
+내보낸 원하는 엔티티 유형이 포함된 .csv 파일이 몇 분 이내에 그리드에 표시됩니다.
 
 <u>실제 결과</u>
 
-내보낸 제품이 포함된 .csv 파일이 10분 이상 그리드에 표시되지 않습니다.
+내보낸 원하는 엔티티 유형이 포함된 .csv 파일이 10분 이상 그리드에 표시되지 않습니다.
 
 ## 원인
 
