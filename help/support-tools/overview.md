@@ -4,9 +4,9 @@ description: Adobe Commerce은 전자 상거래 스토어 경험을 개선하는
 exl-id: 1f41c02b-5e5c-45c9-a68c-24787b69e193
 feature: Support, Tools and External Services
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: ffb7b597d38eaed4b66e23ea533c275746e7181a
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Adobe Commerce은 전자 상거래 스토어 경험을 개선하는 데 도움�
 
 * Adobe Commerce 관찰
 
-   * [Adobe Commerce 관찰 개요](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)
+   * [Adobe Commerce에 대한 관찰 개요](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/observation-for-adobe-commerce/intro)
 
 * Adobe Commerce에서 관리되는 경고
    * [Adobe Commerce에 대한 관리 경고: Redis 메모리 위험 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)

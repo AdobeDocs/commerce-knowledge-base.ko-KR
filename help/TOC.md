@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 63664230a110a4ebf37c058e3bde71f6a359ac13
+source-git-commit: 80b0dc119058ec7533124919d5917cdd219552fe
 workflow-type: tm+mt
-source-wordcount: '9478'
+source-wordcount: '9469'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
    * 사이트 전체 분석 도구 {#site-wide-analysis-tool}
       * [Adobe에 의한 사이트 전체 분석 도구: 개요](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
       * [Adobe Commerce 사이트 전체 분석 도구 보고서 FAQ](/help/support-tools/site-wide-analysis-tool/swat-faq.md)
-   * Adobe Commerce {#observation}에 대한 관찰
-      * [Adobe Commerce 관찰 개요](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)
    * Adobe Commerce {#managed-alerts}에서 관리되는 경고
       * [Adobe Commerce에 대한 관리 경고: Redis 메모리 위험 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
       * [Adobe Commerce에 대한 관리 경고: 디스크 경고 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert.md)
