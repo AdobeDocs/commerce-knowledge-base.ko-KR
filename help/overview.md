@@ -4,9 +4,9 @@ description: Commerce 스토어의 문제를 해결하고 유지 관리하는 �
 exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 feature: Support
 role: Admin
-source-git-commit: 52d07e5a5bb7be492f6799d0e5ad9fd49c3a61ae
+source-git-commit: 6d22ea4725249df1528625672be405464b1411e8
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -43,137 +43,105 @@ ht-degree: 0%
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25234">구조 조정으로 인한 라이선스 이전:</a> 이 문서는 서비스를 차질 없이 실행하는 데 필요한 모든 필수 단계를 포함하여 Adobe Commerce 계정 소유권을 쉽게 전환하는 데 도움이 됩니다.
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25301">Adobe Commerce에서 PHP 8.2에서 8.3으로 업그레이드할 때 [!DNL New Relic] 에이전트 문제 해결:</a> PHP를 버전 8.2에서 8.3으로 업그레이드하면 [!DNL New Relic] 에이전트가 Adobe Commerce 환경에서 작동하지 않을 수 있습니다. 이 문제는 스테이징 및 프로덕션 환경에서 발견되었습니다. 이 문서에서 이 문제를 해결하고 해결하는 절차를 찾을 수 있습니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25289">Adobe Commerce에서 사용할 수 있는 보안 업데이트(APSB24-90):</a> 2024년 11월 12일, Adobe은 Commerce 서비스에서 제공하며 SaaS(Software as a Service)로 배포된 Adobe Commerce(온 클라우드 및 온-프레미스) 및 Magento Open Source 기능에 대한 보안 업데이트를 발표했습니다. 이 업데이트는 <a href="https://helpx.adobe.com/security/severity-ratings.html">중요</a> 취약점을 해결합니다. 
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25321">[!DNL Security Scan Tool]은(는) 패치가 이미 적용된 경우에도 "APSByy-xx 보안 업데이트를 사용할 수 있음"을 반환합니다.</a> [!DNL Security Scan Tool]은(는) 사용자가 이미 패치를 적용한 경우에도 Adobe Commerce 및 Magento Open Source에서 사용할 수 있는 APSByy-xx 보안 업데이트를 보고합니다. 이 알림은 무시해도 됩니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231">MageID 계정 소유자가 로그인하여 지원 티켓을 제출할 수 없습니다.</a> 이 문서에서는 account.magento.com에서 계정(MageID)에 로그인하여 지원 티켓을 제출할 수 없는 Adobe Commerce 문제를 해결합니다.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-54/acsd-61845-error-occurs-for-requests-with-text-html-accept-header">ACSD-61845: text/html accept 헤더가 있는 요청에 오류가 발생했습니다.</a> ACSD-61845 패치는 텍스트/html accept 헤더만 있는 HTTP 요청에서 응답 처리 시 미디어 유형 불일치로 인해 500 오류가 발생하는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.54가 설치되어 있을 때 사용할 수 있습니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25135">Adobe Commerce용 OOTB Braintree 확장 기능으로 최신 Visa 3DS 필드가 지원되지 않음:</a> Adobe Commerce의 기본 제공 Braintree 확장 기능으로 최신 Visa 3DS 필드가 지원되지 않아 새로운 Visa 규정을 준수하는 방법에 대해 이 문서에서 설명합니다.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-54/acsd-61200-fixes-discount-tax-compensation-in-sales-total-calculations">ACSD-61200: 판매 총 계산에서 잘못된 할인 세금 보상:</a> ACSD-61200 패치는 할인 세금 보상 금액 및 운송 할인 세금 보상 금액이 총 금액 및 총 금액 실제 계산에서 누락되어 판매 주문 데이터와 쿠폰 보고서 데이터가 일치하지 않는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.54가 설치되어 있을 때 사용할 수 있습니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-61528-retrieving-roles-using-graphql-returns-no-results">ACSD-61528: GraphQL을 사용하여 역할을 검색하면 결과가 반환되지 않습니다.</a> ACSD-61528 패치는 GraphQL을 사용하여 회사 관리자의 역할을 검색하면 항상 null 결과가 반환되는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.53이 설치된 경우에 사용할 수 있습니다.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-54/acsd-61199-cms-page-hierarchy-tab-doesnt-display-proper-tree-structure">ACSD-61199: CMS 페이지의 [!UICONTROL Hierarchy] 탭에 적절한 트리 구조가 표시되지 않습니다.</a> 기존 계층 구조로 CMS 페이지를 편집할 때 ACSD-61199 패치가 CMS 페이지의 [!UICONTROL Hierarchy] 탭에 적절한 트리 구조가 표시되지 않는 문제를 해결했습니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.54가 설치되어 있을 때 사용할 수 있습니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-48318-environment-emulation-nesting-error-in-system-log">ACSD-48318: system.log에 환경 에뮬레이션 중첩 오류:</a> ACSD-48318 패치는 송장 전자 메일이 전송될 때마다 <em>main.ERROR:Environment 에뮬레이션 중첩이 허용되지 않는 </em> 오류 메시지가 <code>system.log</code>에 표시되는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.53이 설치된 경우에 사용할 수 있습니다.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-60804-editing-customer-linked-to-deleted-company-causes-error">ACSD-60804: 삭제된 회사와 연결된 고객을 편집하면 다음 오류가 발생합니다.</a> ACSD-60804 패치는 삭제된 회사와 연결된 고객을 편집하면 <em>null에 멤버 함수 getSuperUserId()를 호출하는 </em> 오류가 발생하는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.53이 설치된 경우에 사용할 수 있습니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59366-delete-teams-with-deactivated-users-not-visible-in-the-team-list">ACSD-59366: 비활성화된 사용자가 팀 목록에 표시되지 않는 팀을 삭제합니다.</a> ACSD-59366 패치는 팀 목록에 표시되지 않는 비활성화된 사용자가 포함된 팀을 삭제하려고 할 때 오류가 발생하는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.52가 설치되어 있을 때 사용할 수 있습니다.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-54/acsd-61522-email-in-name-fields-sends-invalid-order-confirmations">ACSD-61522: [!UICONTROL First] 및 [!UICONTROL Last Name] 필드의 전자 메일 주소에서 잘못된 주문 확인을 보냅니다.</a> ACSD-61522 패치는 게스트 고객의 [!UICONTROL First Name] 및 [!UICONTROL Last Name] 필드에 전자 메일 주소를 입력할 수 있어 잘못된 주문 확인 전자 메일이 전송되는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.54가 설치되어 있을 때 사용할 수 있습니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60234-paypal-shows-an-incorrect-amount-when-discount-is-applied">ACSD-60234: 할인 적용 시 PayPal에 잘못된 금액이 표시됨:</a> ACSD-60234 패치는 할인 적용 시 [!DNL PayPal]에 잘못된 금액이 표시되는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.51이 설치된 경우에 사용할 수 있습니다.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-54/acsd-62485-async-operations-all-consumer-stops-working-when-company-is-created">ACSD-62485: <code>async.operations.all</code> 소비자가 회사를 만들 때 작동을 중지함:</a> ACSD-62485 패치는 B2B 회사가 만들어질 때 <code>async.operations.all</code> 소비자가 작동을 중지하는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.54가 설치되어 있을 때 사용할 수 있습니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60673-cart-price-rule-fix-for-multiple-payment-methods-at-checkout">ACSD-60673: 체크아웃 시 여러 결제 방법에 대한 장바구니 가격 규칙 문제 해결:</a> ACSD-60673 패치는 결제 방법 조건을 사용하는 [!UICONTROL Cart Price Rule]의 할인이 항상 합계에 나열되지 않는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.52가 설치되어 있을 때 사용할 수 있습니다.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60684-graphql-product-sorting-by-multiple-fields-does-not-work-as-expected">ACSD-60684: 여러 필드를 기준으로 한 GraphQL 제품 정렬이 예상대로 작동하지 않습니다.</a> ACSD-60684 패치는 정렬이 변수로 전달될 때 여러 필드를 기준으로 한 GraphQL 제품 정렬이 작동하지 않는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.52가 설치되어 있을 때 사용할 수 있습니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-60584-access-token-created-for-one-website-is-allowed-to-access-information-on-other-websites">ACSD-60584: 한 웹 사이트에 대해 만든 액세스 토큰을 다른 웹 사이트의 정보에 액세스할 수 있습니다.</a> ACSD-60584 패치는 한 웹 사이트에서 사용자에 대해 만든 액세스 토큰을 다른 웹 사이트의 고객 정보에 액세스하거나 변경할 수 있는 문제를 수정합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.53이 설치된 경우에 사용할 수 있습니다.
+    61553 <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-61553-cart-price-rule-discounts-are-incorrectly-calculated-when-multiple-discounts-with-different-priorities-are-applied">우선 순위가 다른 여러 할인을 적용할 때 [!UICONTROL Cart Price Rule]이(가) 잘못 계산됨:</a> ACSD-61553 패치는 우선 순위가 다른 여러 할인을 적용할 때 [!UICONTROL Cart Price Rule]이(가) 잘못 계산되는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.53이 설치된 경우에 사용할 수 있습니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60788-fixes-issue-where-custom-scripts-for-google-tag-manager-are-not-executed-due-to-content-security-policy-errors">ACSD-60788: 콘텐츠 보안 정책 오류로 인해 Google 태그 관리자에 대한 사용자 지정 스크립트가 실행되지 않습니다.</a> ACSD-60788 패치는 콘텐츠 보안 정책 오류로 인해 [!DNL Google Tag Manager]에 대한 사용자 지정 스크립트가 실행되지 않는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.52가 설치되어 있을 때 사용할 수 있습니다.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-55/acsd-58383-duplicate-credit-memos-from-simultaneous-refund-requests-via-rest-api">ACSD-58383 Adobe Commerce 패치: REST API를 통해 동시 환불 요청에서 중복된 대변 메모:</a> ACSD-58383 패치는 동시에 실행되는 두 개의 동일한 요청으로 REST API를 통해 환불을 발행하면 중복 대변 메모가 발생하는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.55가 설치되어 있을 때 사용할 수 있습니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-61366-setup-command-fails-with-error">ACSD-61366: <code>bin/magento setup:static-content:deploy --jobs 4</code> 명령에 오류가 여러 개 있습니다. </a> ACSD-61366 패치는 DB 연결에 대한 포트를 지정했음에도 불구하고 <code>bin/magento setup:static-content:deploy --jobs 4</code> 명령에 <em>Port가 있는 여러 작업 오류가 발생하는 문제를 해결합니다.</em> 오류는 호스트 매개 변수 내에서 구성해야 합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.52가 설치되어 있을 때 사용할 수 있습니다.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-55/acsd-58471-dynamic-content-fails-load-product-detail-page">ACSD-58471: 연결된 카탈로그 가격 규칙이 예약된 경우 동적 콘텐츠가 제품 세부 정보 페이지에서 로드되지 않습니다.</a> 연결된 카탈로그 가격 규칙이 예약된 경우 ACSD-58471 패치가 제품 세부 정보 페이지에서 동적 콘텐츠가 로드되지 않는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.55가 설치되어 있을 때 사용할 수 있습니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60816-newrelic-browser-monitoring-scripts-injected-by-apm-agent-are-not-compliant-with-csp">ACSD-60816: APM 에이전트가 삽입한 New Relic 브라우저 모니터링 스크립트가 CSP와 호환되지 않습니다.</a> ACSD-60816 패치는 APM 에이전트가 삽입한 [!DNL New Relic] 브라우저 모니터링 스크립트가 CSP(콘텐츠 보안 정책)와 호환되지 않는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.51이 설치된 경우에 사용할 수 있습니다.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-55/acsd-58735-restricted-admin-cant-view-abandoned-shopping-carts">ACSD-58735: 제한된 관리자는 연결된 웹 사이트의 고객 계정에서 포기한 장바구니를 볼 수 없습니다.</a> ACSD-58735 패치는 제한된 역할을 가진 관리자가 <strong>[!UICONTROL Commerce Admin]</strong> &gt; <strong>[!UICONTROL Reports]</strong> &gt; <strong>[!UICONTROL Abandoned Carts]</strong> &gt; <strong>[!UICONTROL Select Cart]</strong> &gt; <strong>[!UICONTROL Shopping Cart]</strong> 탭에서 포기한 고객의 장바구니를 볼 수 없는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.55가 설치되어 있을 때 사용할 수 있습니다.
     </td>
     <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59952-error-on-deleting-shared-catalog-with-same-group-id-as-another-shared-catalog">ACSD-59952: 다른 공유 카탈로그와 그룹 ID가 같은 공유 카탈로그를 삭제하는 동안 오류가 발생했습니다.</a> ACSD-59952 패치가 다른 공유 카탈로그와 <code>customer_group_id</code>이(가) 같은 공유 카탈로그를 삭제할 때 발생한 오류를 수정합니다. 또한 사용자가 이러한 공유 카탈로그를 만들 수 없습니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.52가 설치되어 있을 때 사용할 수 있습니다.
-    </td>
-    <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-59786-graphql-returns-an-error-when-fetching-a-quote-id-for-an-expired-quote">ACSD-59786: GraphQL에서 만료된 견적에 대해 <code>quote_id</code>을(를) 가져올 때 오류를 반환합니다.</a> ACSD-59786 패치는 만료된 견적에 대해 <code>quote_id</code>을(를) 가져올 때 GraphQL 쿼리가 오류를 반환하는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.51이 설치된 경우에 사용할 수 있습니다.
-    </td>
-    <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-59967-javascript-error-prevents-google-maps-from-rendering-correctly">ACSD-59967: JavaScript 오류로 인해 Google 맵이 올바르게 렌더링되지 않습니다.</a> ACSD-59967 패치는 JavaScript 오류로 인해 [!DNL Google Maps]이(가) 올바르게 렌더링되지 않는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.51이 설치된 경우에 사용할 수 있습니다.
-    </td>
-    <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-59930-improves-performance-of-company-flows">ACSD-59930: 회사 흐름의 성능을 향상시킵니다.</a> ACSD-59930 패치는 주소록에 1000개 이상의 주소가 있는 관리자가 있는 회사를 만들거나, 저장하거나, 삭제할 때 [관리] 패널에 <em>시간 초과</em> 오류가 표시되는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.53이 설치된 경우에 사용할 수 있습니다.
-    </td>
-    <td>새 문서 </td>
-    <td>2024년 11월 14일</td>
+    <td>2024년 12월 5일</td>
   </tr>
 </table>
