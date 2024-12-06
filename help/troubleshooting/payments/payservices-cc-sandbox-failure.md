@@ -4,7 +4,7 @@ description: 이 문서에서는 PayPal API를 사용하는 샌드박스 환경�
 exl-id: 65fd08e0-eefc-47f3-8964-bef3610e6182
 feature: Orders, Payments
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 16fc1b45e7df32ef05dac6a245d6604bbbbef13a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -36,6 +36,6 @@ Error happened when processing the request. Please try again later.
 
 다른 테스트 신용 카드를 사용하십시오. 테스트에 사용할 수 있는 모의 신용 카드를 생성하려면:
 
-1. PayPal 개발자 포털 [신용 카드 생성기](https://developer.paypal.com/developer/creditCardGenerator/) 페이지로 이동합니다.
+1. PayPal 개발자 포털 [신용 카드 생성기](https://developer.paypal.com/api/rest/sandbox/card-testing/#link-creditcardgenerator) 페이지로 이동합니다.
 1. PayPal 개발자 포털 대시보드에 로그인합니다.
 1. 테스트 신용 카드를 생성합니다.
