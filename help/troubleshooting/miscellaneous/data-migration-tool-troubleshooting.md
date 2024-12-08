@@ -4,7 +4,7 @@ description: 이 문서에서는 데이터 마이그레이션 도구를 실행�
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
 feature: Data Import/Export
 role: Developer
-source-git-commit: 16fc1b45e7df32ef05dac6a245d6604bbbbef13a
+source-git-commit: 958067830d32b1f10ffa669307ec76d1e14b82a4
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -166,3 +166,4 @@ Deltalog for <TABLE_NAME> is not installed
 ## 관련 읽기
 
 Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+
