@@ -3,9 +3,9 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7fbedaaf0d4edccc688be24951a7d30a9e774be8
+source-git-commit: 9abd435c2b360ca667b7c5a4431fdbf4b3c86831
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2934'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,18 @@ Adobe Experience League 지원에 로그인하려면 다음 단계를 따르십�
 ### 지원 사례 제출 {#support-case}
 
 계정 소유자 또는 공유 액세스 사용자로 성공적으로 로그인하면 Adobe Experience League 홈페이지, Adobe Commerce 계정 페이지 및 Adobe Commerce Cloud 계정 페이지를 사용하여 지원 사례를 제출할 수 있습니다.
+
+>[!NOTE]
+>
+>Adobe Commerce Marketplace 팀에 대한 지원 요청은 Experience League을 통해 제출할 수 없습니다. 해당 지원 시스템은 Experience League과 통합되지 않은 별도의 플랫폼에서 작동하기 때문입니다.
+>
+>다음 내용이 참인 경우 지원 사례를 제출할 수 있습니다.
+>
+>* 해당 조직의 이름이 왼쪽 열에서 지정되고 ([!DNL Commerce])로 끝납니다. 귀하의 문제는 해당 조직 또는 해당 조직과 연결된 계정과 관련되어 있습니다.
+>* Marketplace 계정에 로그인할 수 없거나 확장 배포에 대한 질문이 있는 것이 문제입니다.
+>* 귀하의 문제는 Marketplace 구매에 대한 환불 요청에만 해당되는 것은 아닙니다.
+>
+>[Adobe Commerce 마켓플레이스](https://commercemarketplace.adobe.com/)에서 확장을 게시하거나 구매 또는 환불 요청과 관련된 문제가 발생하면 https://commercemarketplace.adobe.com/을 방문하여 [!DNL Commerce Marketplace] 팀에 직접 문의해야 합니다. 페이지 맨 아래로 이동하여 **[!UICONTROL Contact Us]**&#x200B;을(를) 클릭하면 마켓플레이스 지원 티켓을 제출하는 양식이 열립니다.
 
 #### Adobe Experience League 시작 페이지 {#experience-league-start-page}
 
