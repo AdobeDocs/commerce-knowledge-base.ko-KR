@@ -4,9 +4,9 @@ description: 배포 문제 해결사 도구를 사용하여 Adobe Commerce에서
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: 6177863da268f43cc30119cef6f718a04c46b3e6
+source-git-commit: 7f4f24c596eac96dc8fef40589a827eb9aa0c468
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ b. 아니요 - 유지 보수 또는 글로벌 가동 중단 예상 기간 및 �
 
 +++**기존 환경에서 배포를 차단하는 다른 환경에 배포가 있습니까?**
 
-진행 중인 활동 목록을 얻으려면 magento-cloud CLI를 사용하여 다음 명령을 실행합니다(한 개의 클라우드 프로젝트에만 추가된 경우).
+진행 중인 활동 목록을 얻으려면 magento-cloud CLI를 사용하여 다음 명령을 실행합니다(한 클라우드 프로젝트에만 추가된 경우). **참고**: 최신 버전의 magento-cloud CLI를 사용하고 있는지 확인하십시오. 단계는 Commerce on Cloud Infrastructure 안내서의 [CLI 업데이트](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview#update-the-cli)를 참조하십시오.
 
 ```bash
 magento-cloud --state=in_progress
@@ -199,7 +199,7 @@ b. 아니요 - [18단계](#step-18)로 진행합니다.
 
 ## 18단계 - 후크 후 실패 확인 {#step-18}
 
-+++**Post 후크 실패/중단?**
++++**게시물 후크 실패/중단?**
 
 a. 예 - 데이터베이스: [사용 가능한 디스크 공간](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), 손상, 불완전/손상된 테이블.\
 b. 아니요 - [19단계](#step-19)로 진행합니다.
