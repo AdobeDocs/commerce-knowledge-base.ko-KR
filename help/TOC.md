@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 80b0dc119058ec7533124919d5917cdd219552fe
+source-git-commit: ace01511b6a3f3b406b25d563d892351a5f6cf7d
 workflow-type: tm+mt
-source-wordcount: '9469'
+source-wordcount: '9409'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,12 @@ ht-degree: 0%
       * [Adobe Commerce에 대한 관리 경고: 디스크 위험 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert.md)
       * [Adobe Commerce에 대한 관리 경고: Redis 메모리 경고 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-warning-alert.md)
       * [Adobe Commerce에 대한 관리 경고: 메모리 경고 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert.md)
-      * [Adobe Commerce에 대한 관리 경고: CPU 위험 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert.md)
+      * [Adobe Commerce에 대한 관리 경고: CPU 중요 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert.md)
       * [Adobe Commerce에 대한 관리 경고: 메모리 위험 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert.md)
       * [Adobe Commerce에 대한 관리 경고: Apdex 중요 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert.md)
       * [Adobe Commerce에 대한 관리 경고: MariaDB 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts.md)
       * [Adobe Commerce에 대한 관리 경고: Apdex 경고 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
-      * [Adobe Commerce에 대한 관리 경고: CPU 경고 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
+      * [Adobe Commerce에 대한 관리 경고: CPU 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
    * QPT 도구 {#patches}에서 사용할 수 있는 패치
       * [QPT 도구 개요에서 사용할 수 있는 패치](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
       * v1.1.0 {#v1-1-0}
@@ -947,15 +947,9 @@ ht-degree: 0%
       * [고급 검색에 가장 관련성이 높은 결과가 표시되지 않음](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [관리자의 주문을 필터링할 때 오류 발생](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [허용 국가에서 아무것도 선택하지 않은 경우 사용자가 제품을 장바구니에 추가할 수 없음](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
-      * [관리자의 주문 그리드에 표시되지 않는 주문](/help/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.md)
-      * [클라우드 인프라에서 VAT 번호(Adobe Commerce)를 확인할 수 없음](/help/troubleshooting/known-issues-patches-attached/unable-to-validate-vat-number-magento-commerce-cloud.md)
-      * [광고 차단기가 활성화된 경우 체크아웃 페이지가 로드되지 않음](/help/troubleshooting/known-issues-patches-attached/checkout-pages-not-loading-when-ad-blocker-is-enabled.md)
       * [Adobe Commerce 관리 URL 위치 공개됨](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
-      * [동일한 기간에 여러 cron 작업이 예약되었습니다.](/help/troubleshooting/known-issues-patches-attached/multiple-cron-jobs-scheduled-for-the-same-time-period.md)
-      * [구성 가능한 제품 견본은 재고가 없을 때 제외되어 표시되지 않음](/help/troubleshooting/known-issues-patches-attached/configurable-product-swatches-not-displayed-as-crossed-out-when-out-of-stock.md)
       * [Braintree 결제가 활성화된 경우 책임자가 주문/재주문을 만들 수 없음](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
       * [2.4.4에서 2.4.4-p1로 업그레이드한 후 패키지 다운그레이드됨](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
-      * [Adobe Commerce 2.3.6, 2.4.1 체크아웃 CAPTCHA가 작동하지 않음](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [서버 이메일 주소에서 보낸 주문 이메일](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
       * [Adobe Commerce 2.4.6 관리 패널에서 순서 지정 중 오류 발생](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [버전 &lt; 2.4.5에서 업그레이드 시 [!UICONTROL salesRule] 레이블 문제](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
