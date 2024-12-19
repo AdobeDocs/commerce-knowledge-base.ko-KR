@@ -3,9 +3,9 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 9abd435c2b360ca667b7c5a4431fdbf4b3c86831
+source-git-commit: 16511a9bcc0e229297916f5c48ee8b606e10edbe
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '2935'
 ht-degree: 0%
 
 ---
@@ -339,13 +339,15 @@ Cloud Console을 사용하여 새 지원 티켓을 제출하려면 다음 단계
 
 <u>원인</u>
 
-Adobe Commerce Cloud 프로젝트를 보유하고 있거나 보유하고 있고 사용자를 프로젝트에 추가한 경우 프로젝트 소유자의 MAGE ID에 대한 공유 액세스 권한이 자동으로 부여되었을 것입니다. 이는 일반적으로 **[!UICONTROL Share Name]** 열에 표시되며 MAG[XYZ ]*에서*&#x200B;클라우드 공유 액세스를 표시합니다.
+Adobe Commerce Cloud 프로젝트를 보유하고 있거나 보유하고 있고 사용자를 프로젝트에 추가한 경우 프로젝트 소유자의 MAGE ID에 대한 공유 액세스 권한이 자동으로 부여되었을 수 있습니다. 이는 일반적으로 **[!UICONTROL Share Name]** 열에 표시되며 MAG[XYZ ]*에서*&#x200B;클라우드 공유 액세스를 표시합니다.
 
-DELETE 링크가 누락된 경우 이는 공유 액세스가 Commerce Cloud을 통해 자동으로 부여되었음을 의미합니다.
+>[!NOTE]
+>
+>DELETE 링크가 누락된 경우 이는 공유 액세스가 Commerce Cloud을 통해 자동으로 부여되었음을 의미합니다.
 
 <u>솔루션</u>
 
-이 페이지에서 공유 액세스를 추가/제공하지 않은 경우 공유 이름이 *MAG에서 클라우드 공유 액세스[XYZ]*&#x200B;인 공유 액세스 사용자 목록을 삭제할 수 없습니다. 이러한 파일은 정보/감사 목적으로 유지됩니다.
+공유 액세스가 이 페이지에 추가/제공되지 않은 경우 *MAG에서 클라우드 공유 액세스[XYZ]*&#x200B;의 공유 이름을 가진 공유 액세스 사용자 목록을 삭제할 수 없습니다[이 페이지에서 공유 액세스를 추가/제공하지 않았습니다](https://account.magento.com/grantor/manage/). 이러한 파일은 정보/감사 목적으로 유지됩니다.
 
 그러나 이러한 공유 액세스 사용자에 대한 권한을 취소하면 해당 사용자는 더 이상 해당 액세스 권한을 보유하지 않습니다.
 
