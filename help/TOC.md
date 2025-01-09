@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: ace01511b6a3f3b406b25d563d892351a5f6cf7d
+source-git-commit: c46d29aa11b9cbbcccbf1765b4ae972e14ac80ac
 workflow-type: tm+mt
-source-wordcount: '9409'
+source-wordcount: '9397'
 ht-degree: 0%
 
 ---
@@ -1021,7 +1021,6 @@ ht-degree: 0%
    * [클라우드 인프라 업사이징에서 임시 Adobe Commerce을 요청하는 방법](/help/how-to/general/how-to-request-temporary-magento-upsize.md)
    * [Adobe Commerce에서 클러스터의 환경 vCPU 계층 보기](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
    * [클라우드 인프라의 Adobe Commerce: 호스트의 CPU 구성 확인](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
-   * [Fastly on Cloud에 대한 계정 소유자 변경(API 토큰을 통해 자격 증명 액세스)](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md)
    * [Adobe Commerce on cloud: 인증 키 변경 및 재배포](/help/how-to/general/redeploy-with-another-key.md)
    * [지원 에이전트가 요청할 때 &quot;스크러빙된&quot; 덤프를 만드는 방법](/help/how-to/general/create-dump-for-support.md)
    * [MBI: 고급 계산된 열 만들기 및 편집](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
