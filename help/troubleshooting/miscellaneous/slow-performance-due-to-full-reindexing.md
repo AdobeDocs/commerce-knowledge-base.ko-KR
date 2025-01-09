@@ -4,7 +4,7 @@ description: 이 문서에서는 전체 리인덱싱으로 인해 성능이 저�
 exl-id: 4f20a862-cf54-4196-8a88-101f0c80f8f1
 feature: Best Practices
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 72ee49a8667f575a58e0cf1b3d5c9df936cc628b
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -59,3 +59,4 @@ ht-degree: 0%
 
 * 개발자 설명서에서 [인덱싱 개요: 다시 인덱싱하는 방법](https://developer.adobe.com/commerce/php/development/components/indexing/#how-to-reindex)을 참조하십시오.
 * [무효화된 캐시는 지원 기술 자료에서 응답 시간 저하를 일으킵니다](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md).
+
