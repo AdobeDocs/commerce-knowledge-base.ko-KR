@@ -4,7 +4,7 @@ description: MDVA-44147 패치는 GraphQL 요청이 구매요청 목록을 반�
 exl-id: c7a526f2-638c-4172-8750-aa076724851a
 feature: B2B, GraphQL
 role: Admin
-source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
+source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -37,7 +37,7 @@ GraphQL 요청은 구매요청 목록을 반환하지 않습니다.
 
 1. **스토어** > **설정** > **구성** > **일반** > **B2B 기능**(으)로 이동하여 구매요청 목록을 활성화합니다.
 1. 고객으로 로그인하고 [구매요청 목록](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/requisition-lists)에 제품을 추가하십시오.
-1. [고객 토큰](https://developer.adobe.com/commerce/webapi/graphql/mutations/generate-customer-token.html)을 만듭니다.
+1. [고객 토큰](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/generate-token/)을 만듭니다.
 
    <pre>
     <code class="language-graphql">

@@ -4,7 +4,7 @@ description: 이 문서에서는 Fastly 구성, SSL 인증서, 301 리디렉션 
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: d728d44c4e1be3172ebf595122f3cc215207ac17
+source-git-commit: df966df6a85057b26d53a870d038269ebdcc2b32
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -78,7 +78,7 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
 권장 사항: 성능 저하의 가능한 원인을 식별하려면 성능 테스트를 위해 [Adobe Commerce Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit)을 사용하는 것이 좋습니다. 다음과 같은 타사 도구를 고려할 수도 있습니다.
 
-* [Siege](https://www.joedog.org/siege-home/): HTTP 로드 테스트 및 벤치마킹 유틸리티입니다. 기본 인증, 쿠키, HTTP, HTTPS 및 FTP 프로토콜을 지원합니다.
+* [Siege](https://www.joedog.org/siege-home): HTTP 로드 테스트 및 벤치마킹 유틸리티입니다. 기본 인증, 쿠키, HTTP, HTTPS 및 FTP 프로토콜을 지원합니다.
 * [Jmeter](https://jmeter.apache.org/): 신뢰할 수 있는 부하 테스트 및 성능 측정 도구입니다. 급격한 트래픽(예: 플래시 판매)에 대한 성과를 측정하는 데 도움이 됩니다.
 * [New Relic](https://support.newrelic.com/): 데이터, 쿼리, Redis 전송 등과 같이 작업당 추적 체류 시간으로 성능이 느린 사이트의 프로세스 및 영역을 찾습니다.
 * [WebPageTest](https://www.webpagetest.org/)(무료) 및 [Pingdom](https://www.pingdom.com/)(유료): 원본 위치가 다른 사이트 페이지 로드 시간을 실시간으로 분석합니다.
