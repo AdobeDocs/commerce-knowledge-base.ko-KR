@@ -4,9 +4,9 @@ description: 이 문서에서는 클라우드 프로젝트 UI에서 배포 로�
 exl-id: 04d28741-72c1-4722-be46-425fe136b9a6
 feature: Cloud, Deploy, Logs, Paas
 role: Developer
-source-git-commit: 71bec5b99063d771982f6dcab111b9e5a4aaec69
+source-git-commit: 846df05668b357b9088bcaf605a75c45ab10f1ae
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,17 @@ UI에 표시되는 로그는 사실 소스로 간주해서는 안 됩니다. 특
 ## 솔루션
 
 1. 로컬 환경에 [Magento 클라우드 CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html)가 설치되어 있는지 확인하십시오.
-1. 다음 명령을 실행합니다.
+1. 다음 명령 중 하나를 실행할 수 있습니다.
 
    ```bash
-   magento-cloud activity -p <project id> -e <environment>
+   magento-cloud act -p <project id> -e <environment>
    ```
 
-1. 다음과 유사한 출력이 반환됩니다.
+   ```bash
+   magento-cloud activity:list -p <project id> -e <environment>
+   ```
+
+1. 그러면 다음과 유사한 출력이 반환됩니다.
 
    ```bash
    Activities on the project <project name> (project id), environment <environment>:
