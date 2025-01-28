@@ -4,7 +4,7 @@ description: Adobe Commerce의 고급 보고 문제는 이 문제 해결사 도�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 3b402728be7a80b62f21319d2cf91a92f1ad4a0c
+source-git-commit: aed14781c6a7b43d0a719ac89c2965d5044d8c22
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -138,7 +138,7 @@ b. 아니요 - [10단계](#step-10)로 진행합니다.
 
 +++**cron 작업에서 오류 메시지가 표시됩니까?**
 
-예: `core_config_data` 테이블에 오류 *이(가) 표시됩니다. &quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0 파일을 삭제할 수 없습니다*. 경고!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): 해당 파일 또는 디렉터리가 없습니다.*
+예: `cron_schedule` 테이블에 오류 *이(가) 표시됩니다. &quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0 파일을 삭제할 수 없습니다*. 경고!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): 해당 파일 또는 디렉터리가 없습니다.*
 
 a. 예 - [에서 ACSD-50165 패치를 사용합니다. 파일을 삭제할 수 없습니다. 경고!연결 해제: Admin](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)에서 이러한 파일 또는 디렉터리 오류가 없습니다. 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
 b. 아니요 - [11단계](#step-11)로 진행합니다.
