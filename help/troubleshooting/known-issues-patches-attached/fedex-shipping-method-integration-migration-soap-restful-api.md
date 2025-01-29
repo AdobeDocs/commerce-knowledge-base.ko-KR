@@ -1,22 +1,33 @@
 ---
-title: '[!DNL FedEx] 배송 방법 통합 마이그레이션(SOAP에서 RESTful API로)'
+title: SOAP에서 RESTful API로 [!DNL FedEx] 배송 방법 통합 마이그레이션
 promoted: true
 description: Adobe Commerce 2.4.4-p4 - 2.4.6-pX용 SOAP에서 RESTful API로  [!DNL FedEx] 전달 방법 통합 마이그레이션을 처리하는 패치를 적용합니다.
 feature: Shipping/Delivery
 role: Developer
 exl-id: 7e11a171-6924-41d0-a5c7-7b794d0da84c
-source-git-commit: 7c468583883789a6bc6e41d1a787a356ea3205c4
+source-git-commit: 7a54e992e365238ec7c764225a31cd3b6b8ad019
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # SOAP에서 RESTful API로 [!DNL FedEx] 배송 방법 통합 마이그레이션
 
+>[!WARNING]
+>
+>이전에 제공한 패치 대신 [!DNL Quality Patches Tool](QPT) 1.1.57 릴리스의 ACSD-61622 패치를 사용하십시오. 새 패치는 Adobe Commerce 버전(모든 배포 방법) 2.4.6-p1 - 2.4.6-p8과 호환됩니다. 새로운 [!DNL Quality Patches Tool] 릴리스가 있는 다른 버전에 적용할 수 있습니다.
+>
+>자세한 내용은 Adobe Commerce 도구 안내서의 [ACSD-61622 패치 문서](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response)를 참조하십시오.
+
+>[!WARNING]
+>
+>새 패치를 설치하기 전에 이 문서에 제공된 이전 패치를 제거해야 합니다. 패치 제거에 대한 지침은 사용 안내서의 [사용자 지정 패치 되돌리기](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch)를 참조하십시오.
+
+
 이 문서에서는 Adobe Commerce 2.4.4-p4 - 2.4.6-pX용 SOAP에서 RESTful API로 [!DNL FedEx] 배송 방법 통합 마이그레이션 관련 문제를 해결하는 패치를 제공합니다.
 
-[!DNL FedEx Web Services] 추적, 주소 유효성 검사 및 우편 번호 WSDLS(웹 서비스 정의 언어) 유효성 검사가 2024년 5월 15일에 중단됩니다. SOAP 기반 [!DNL FedEx Web Services]이(가) 개발 억제 상태이며 [!DNL FedEx]개의 RESTFUL API로 대체되었습니다. 자세한 내용은 [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html)을(를) 참조하세요.
+[!DNL FedEx Web Services] 추적, 주소 유효성 검사 및 우편 번호 WSDLS(Validate Postal Codes Web Services Definition Languages)가 2024년 5월 15일에 사용이 중단되었습니다. SOAP 기반 [!DNL FedEx Web Services]이(가) 개발 억제 상태이며 [!DNL FedEx]개의 RESTFUL API로 대체되었습니다. 자세한 내용은 [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html)을(를) 참조하세요.
 
 이 변경 사항은 Adobe Commerce의 현재 [!DNL FedEx] 전달 방법 통합 구현에 영향을 미치며, 현재 구현을 수정하고 더 이상 사용되지 않는 SOAP API에서 최신 [!DNL FedEx] RESTFUL API로 마이그레이션해야 합니다.
 
