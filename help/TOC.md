@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: c46d29aa11b9cbbcccbf1765b4ae972e14ac80ac
+source-git-commit: b14ce46b2e68b76f349c3d2791897c7519088f24
 workflow-type: tm+mt
-source-wordcount: '9397'
+source-wordcount: '9387'
 ht-degree: 0%
 
 ---
@@ -892,7 +892,6 @@ ht-degree: 0%
       * [Adobe Commerce에 대한 Magento Order Management 시스템(OMS) 시간 초과](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
       * [직송 시 잘못된 주소가 선택됨](/help/troubleshooting/miscellaneous/drop-shipping-picks-up-wrong-address.md)
       * [Commerce 관리자의 캐시를 제거하는 동안 오류 발생](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
-      * [Adobe Commerce에서 SendGrid 크레딧을 초과하면 이메일이 전송되지 않음](/help/troubleshooting/miscellaneous/emails-not-being-sent-sendgrid-credits-exceeded.md)
       * [Adobe Commerce 2.4.1: dotdigital Page Builder 양식이 저장될 때 빈 페이지가 표시됨](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
       * [Adobe Commerce cloud: 리색인이 중단됨 메시지로 종료됨](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
       * [버전 10.0 DHL 스키마로 업그레이드하여 DHL 배송 계속](/help/troubleshooting/miscellaneous/upgrade-to-v10-dhl-schema-to-continue-using-dhl-as-a-carrier.md)
