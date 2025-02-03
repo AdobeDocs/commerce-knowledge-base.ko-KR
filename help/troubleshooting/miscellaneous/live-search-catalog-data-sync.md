@@ -4,9 +4,9 @@ description: 이 문서에서는 라이브 검색 확장을 사용할 때 카탈
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 96e5bfc677949fb5f925040b95f951ca518fa71a
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ ht-degree: 0%
 
 ## 문제
 
-카탈로그 데이터가 올바르게 동기화되지 않았거나 새 제품이 추가되었지만 검색 결과에 표시되지 않습니다.
+카탈로그 데이터가 올바르게 동기화되지 않았거나 새 제품이 추가되었지만 검색 결과에 표시되지 않습니다. `var/log/exception.log`에서 다음 오류가 발생할 수도 있습니다.
+
+`Magento_LiveSearch: An error occurred in search backend. {"result":{"errors":[{"message":"Exception while fetching data (/productSearch) : No index was found for this request"}]}}`
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ ht-degree: 0%
 1. 30분 후 사용자 설명서의 [라이브 검색 설치 > 내보내기 확인](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export)에 설명된 대로 내보낸 카탈로그 데이터를 확인합니다.
 1. 30분 후 사용자 설명서의 [라이브 검색 설치 > 연결 테스트](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection)에 설명된 대로 연결을 테스트하십시오.
 
-또는
+Or
 
 1. 카탈로그에 새 제품을 추가합니다.
 1. 데이터를 백엔드 서비스에 동기화하기 위해 시간 Magento 인덱서 + cron 이 실행된 후 15~20분 후 제품 이름 또는 기타 검색 가능한 속성을 사용하여 검색 쿼리를 실행해 보십시오.
@@ -134,6 +136,22 @@ API 키가 변경되어 내보낸 카탈로그를 확인할 수 없거나 연결
 bin/magento saas:resync --feed products
 bin/magento saas:resync --feed productattributes
 ```
+
+다음 명령을 실행하여 피드를 다시 동기화합니다.
+
+```
+bin/magento saas:resync --feed productattributes --cleaup-feed
+bin/magento saas:resync --feed products --cleanup-feed
+bin/magento saas:resync --feed scopesCustomerGroup --cleanup-feed
+bin/magento saas:resync --feed scopesWebsite --cleanup-feed
+bin/magento saas:resync --feed prices --cleanup-feed
+bin/magento saas:resync --feed productOverrides --cleanup-feed
+bin/magento saas:resync --feed variants --cleanup-feed
+bin/magento saas:resync --feed categories --cleanup-feed
+bin/magento saas:resync --feed categoryPermissions --cleanup-feed
+```
+
+Live Search 색인의 다시 색인을 요청하려면 [지원 요청을 제출](https://experienceleague.adobe.com/home?support-tab=home#support)하세요. 문제 설명에서 **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** 아래의 관리 패널에 있는 데이터 공간/환경 ID를 포함합니다.
 
 ## 관련 읽기
 
