@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: b14ce46b2e68b76f349c3d2791897c7519088f24
+source-git-commit: 9de7cb6d2c9e529031999cad9ae6f3c8de5520c7
 workflow-type: tm+mt
-source-wordcount: '9387'
+source-wordcount: '9382'
 ht-degree: 0%
 
 ---
@@ -958,7 +958,6 @@ ht-degree: 0%
       * [검색 엔진이  [!DNL Opensearch](으)로 설정된 경우  [!DNL Elasticsearch7] (으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Adobe Commerce cloud infrastructure 2.3.1 이상 업그레이드 후 Elasticsearch 문제](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
       * [ElasticSuite 추적 인덱스로 인해 Elasticsearch 문제가 발생합니다.](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
-      * [Adobe Commerce 문제 해결사의 Elasticsearch](/help/troubleshooting/elasticsearch/elasticsearch-in-magento-troubleshooter.md)
       * [Elasticsearch이 제대로 설치되었는지 확인](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md)
       * [Elasticsearch 5가 구성되었지만 검색 페이지가 &quot;Fielddata가 비활성화되었습니다...&quot; 오류로 로드되지 않음](/help/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled-error.md)
       * [Elasticsearch 색인 상태가 &#39;노란색&#39; 또는 &#39;빨간색&#39;입니다.](/help/troubleshooting/elasticsearch/elasticsearch-index-status-is-yellow-or-red.md)
