@@ -4,9 +4,9 @@ description: 이 문서에서는 라이브 검색 확장을 사용할 때 카탈
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 96e5bfc677949fb5f925040b95f951ca518fa71a
+source-git-commit: 54f6fb60adca6f639cd315b3d070c7b93aa45bab
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,13 @@ API 키가 변경되어 내보낸 카탈로그를 확인할 수 없거나 연결
 1. 다음 [!DNL SQL] 쿼리를 사용하여 `feed_data` 열에 예상한 데이터가 있는지 확인하십시오. `modified_at` 타임스탬프도 메모해 두십시오.
 
    ```sql
-   select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+   SELECT * FROM cde_products_feed WHERE json_extract(feed_data, '$.sku') = '<your_sku>' AND json_extract(feed_data, '$.storeViewCode') = '<your_ store_view_code>';
+   ```
+
+   For example:
+
+   ```sql
+   SELECT * FROM cde_products_feed WHERE json_extract(feed_data, '$.sku') = '24-MB04' AND json_extract(feed_data, '$.storeViewCode') = 'default';
    ```
 
 1. 올바른 데이터가 표시되지 않으면 다음 명령을 사용하여 다시 인덱싱하고 1단계에서 [!DNL SQL] 쿼리를 다시 실행하여 데이터를 확인하십시오.
