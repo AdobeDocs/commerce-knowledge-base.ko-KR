@@ -4,7 +4,7 @@ description: 이 문서에서는 QPT(Quality Patches Tool)에 대한 개요와 �
 exl-id: 43393708-3939-449f-a764-b2ac6326165f
 feature: Tools and External Services
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: ce9c69e12d64b4b4a8e6129783d9b15e95eff867
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -60,3 +60,4 @@ Adobe Commerce 온프레미스 및 Adobe Commerce 온클라우드 인프라의 �
 
 * 개발자 설명서에서 [품질 패치 도구 릴리스 노트](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes).
 * 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+
