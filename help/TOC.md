@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 9de7cb6d2c9e529031999cad9ae6f3c8de5520c7
+source-git-commit: 229ae54f21cef7d8fe488bfacf5aaec8942a5fc2
 workflow-type: tm+mt
-source-wordcount: '9382'
+source-wordcount: '9386'
 ht-degree: 0%
 
 ---
@@ -603,7 +603,7 @@ ht-degree: 0%
          * [ACSD-57846: 필터를 사용하여 GraphQL 제품을 검색하면 결과가 반환되지 않음](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57846-graphql-products-search-with-filter-for-zero-prices-not-returning-results.md)
          * [ACSD-58054: 비활성 고객을 위한 API 토큰 생성](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
          * [ACSD-57045: [!UICONTROL Hierarchy]에서 [!UICONTROL Website Root]을(를) 선택 취소한 후 URL 재작성으로 인해 무한 페이지 루프가 발생합니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57045-url-rewrites-cause-infinite-page-looping-after-website-root-unchecked-hierarchy.md)
-         * [ACSD-58446: GraphQL을 통해 하위 사용자 또는 팀이 있는 팀을 삭제하면 알 수 없는 오류 메시지가 표시됩니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/ascd-58446-deleting-a-team-with-child-users-or-teams-via-graphql-gives-an-uninformative-error-message.md)
+         * [ACSD-58446: GraphQL을 통해 하위 사용자 또는 팀이 있는 팀을 삭제하면 알 수 없는 오류가 발생합니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/ascd-58446-deleting-a-team-with-child-users-or-teams-via-graphql-gives-an-uninformative-error-message.md)
          * [ACSD-58375: YouTube API 키가 잘못 구성되면 스토어 보기 수준에서 비디오를 추가할 때 오류가 발생합니다](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58375-wrong-youtube-api-key-configuration-causes-an-error-when-adding-a-youtube-video-at-the-store-view-level.md)
       * v1.1.50 {#v1-1-50}
          * [개요: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
@@ -622,7 +622,7 @@ ht-degree: 0%
          * [ACSD-48210: 저장소 보기 특정 범위 특성이 전역 값을 무시합니다.](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-48210-store-view-specific-scope-attribute-overrides-global-values.md)
          * [ACSD-59280: 2.4.4-pX 설치에서 ReflectionUnionType::getName() 오류 발생](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59280-fix-for-reflection-union-type-error.md)
          * [ACSD-60303: HTML 축소가 활성화된 상태에서 관리자 주문 배치 문제가 해결됨](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60303-admin-order-placement-fix.md)
-      * [품질 패치 도구로 Adobe Commerce 패치 문제 확인](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
+      * [품질 패치 도구로 Commerce 패치 문제 확인](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * 공지 {#announcements}
    * [공지 개요](/help/announcements/overview.md)
    * Adobe Commerce 알림 {#commerce-announcements}
@@ -933,6 +933,7 @@ ht-degree: 0%
       * [캐시 플러시 시 시 배포 실패: &quot;&#39;cache&#39; 네임스페이스에 정의된 명령이 없습니다.&quot; 오류](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [env:COMPOSER_AUTH 또는 auth.json에 올바른 액세스 키가 있어 배포가 실패합니다.](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 알려진 문제 {#known-issues-patches-attached}
+      * [Adobe Commerce에 사용 가능한 보안 업데이트 - [!DNL APSB25-08]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
       * [Adobe Commerce 2.4.6-p8의  [!DNL GraphQL "placeOrder" API] 에 대한 이전 버전과 호환되지 않는 변경 내용](/help/troubleshooting/known-issues-patches-attached/backwards-incompatible-changes-for-graphql-placeorder-api-in-adobe-commerce-2-4-6-p8.md)
       * [Adobe Commerce에 사용 가능한 보안 업데이트 - [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
       * [저장소 보안 및 암호화 키 회전에 대한 지침:  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
