@@ -5,9 +5,9 @@ description: Adobe Commerce 2.4.8-beta1, 2.4.7-p3, 2.4.6-p8, 2.4.5-p10, 2.4.4-p1
 feature: Compliance, Security
 role: Developer
 exl-id: 567e6ad2-704e-461f-a54d-75f6bd96e996
-source-git-commit: f0c4bfae30d462d160e8096f0c4cee703f6f24e5
+source-git-commit: f4a7a6ac538cf1199aea32875215709fcd165a08
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Adobe Commerce on Cloud infrastructure, Adobe Commerce 온프레미스 및 Magen
 * 2.4.5-p10 및 이전
 * 2.4.4-p11 및 이전
 
-## Adobe Commerce on Cloud 및 Adobe Commerce 온프레미스 소프트웨어 솔루션
+## ## Adobe Commerce on Cloud, Adobe Commerce 온프레미스 및 Magento Open Source 소프트웨어용 솔루션
 
 영향을 받는 제품 및 버전의 취약성을 해결하려면 Adobe Commerce/Magento Open Source 버전에 따라 [!DNL CVE-2025-24434] Isolated 패치를 적용해야 합니다.
 
