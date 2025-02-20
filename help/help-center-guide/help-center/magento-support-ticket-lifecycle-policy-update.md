@@ -2,16 +2,16 @@
 title: Adobe Commerce 지원 티켓 라이프사이클 정책 업데이트
 description: 이 문서에서는 Adobe Commerce 지원 티켓 라이프사이클 정책 업데이트에 대한 정보를 제공합니다.
 exl-id: c3fbcb4a-107f-48b3-afed-b9a0c5d0425c
-source-git-commit: 5d291a221509c35c8bc34fd0957534c24342c59c
+source-git-commit: b882fcc3a890fa0eb06c17f877d7d315be66e294
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce 지원 티켓 라이프사이클 정책 업데이트
 
-이 설명서에서는 Adobe DX 지원 사례 라이프사이클의 개선 사항을 간략하게 설명합니다. 이는 소통을 확대하고 고객을 위한 해결 방법을 최대한 신속하게 제공하여 고객 성공을 보장합니다. [Adobe 성공 계획 개요: 지원 사례 수명 주기](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)에서도 찾을 수 있습니다.
+이 설명서는 Adobe DX 지원 사례 라이프사이클의 개선 사항에 대해 간략히 설명하고, 고객의 커뮤니케이션을 향상시키고, 고객의 성공을 보장하기 위해 가능한 한 빨리 해결 방법을 제공합니다. [Adobe 성공 계획 개요: 지원 사례 수명 주기](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)에서도 찾을 수 있습니다.
 다음은 지원 프로세스 중에 발생하는 다양한 시나리오에 대한 타임라인 및 알림입니다.
 
 ## 사례 후속 알림 메시지
@@ -33,7 +33,7 @@ ht-degree: 0%
 * 상태가 &#39;응답 보류 중&#39;으로 설정된 후 1, 3, 5일째에는 추가 정보를 요청하는 고객에게 후속 알림이 발송된다.
 * 상태가 &quot;응답 보류 중&quot;으로 설정된 후 6일 동안 고객으로부터 응답이 없는 경우 케이스가 종료됨으로 설정되고 종료 알림이 전송됩니다.
 
-고객은 종료된 케이스를 14일 이내에 다시 열어 커뮤니케이션을 계속할 수 있습니다. 14일이 지나면 새로운 지원 사례를 열어 이전에 종료된 사례와 관련된 커뮤니케이션을 계속할 수 있습니다.
+고객은 14일 이내에 Experience League에서 종료된 케이스를 다시 열어 커뮤니케이션을 계속할 수 있습니다. 14일이 지나면 새로운 지원 사례를 열어 이전에 종료된 사례와 관련된 커뮤니케이션을 계속할 수 있습니다. 종료된 티켓에 대한 전자 메일에 회신해도 다시 열리지 않습니다.
 
 ### 엔지니어가 솔루션을 제공하는 경우
 
