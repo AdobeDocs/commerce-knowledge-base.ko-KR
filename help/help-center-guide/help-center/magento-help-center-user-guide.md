@@ -3,16 +3,16 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c287b45c3cea99f6d536d6ed4d90a5e19d9fa71c
+source-git-commit: c578bdc5684705283bb1d3eb4c42edb62ad769f9
 workflow-type: tm+mt
-source-wordcount: '2963'
+source-wordcount: '3072'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce용 Experience League 지원 사용 안내서
 
-이 안내서에서는 [지원 Experience League](https://experienceleague.adobe.com/home#support)에 지원 티켓을 제출하고 Adobe Commerce 계정에 대한 공유 액세스 권한을 제공하는 방법에 대해 알아봅니다.
+이 안내서에서는 [Experience League 지원](https://experienceleague.adobe.com/home#support)에 지원 티켓을 제출하고 Adobe Commerce 계정에 대한 공유 액세스 권한을 제공하는 방법에 대해 알아봅니다.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->현재 Adobe Commerce 도움말 센터에서 이전에 제출한 사례를 보려면 https://support.magento.com/hc/en-us/requests으로 이동해야 합니다. 이러한 사례는 새 지원 티켓 시스템으로 마이그레이션되지 않았기 때문입니다. 도움말 센터가 이제 읽기 전용입니다. 원래 문제에 대한 지원을 계속 받으려면 [Experience League 지원](https://experienceleague.adobe.com/home#support)에 후속 티켓을 제출해야 합니다.
+>현재 Adobe Commerce 도움말 센터에서 이전에 제출한 사례를 보려면 https://support.magento.com/hc/en-us/requests으로 이동해야 합니다. 이러한 사례는 새 지원 티켓 시스템으로 마이그레이션되지 않았기 때문입니다. 도움말 센터가 이제 읽기 전용입니다. 원래 문제에 대한 지원을 계속 받으려면 [Experience League 지원](https://experienceleague.adobe.com/home#support)에 추가 티켓을 제출해야 합니다.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 **주요 업데이트:** 2024년 7월 29일
 
-**[EXPERIENCE LEAGUE 지원이란?](#what-is-experience-support)**
+**[EXPERIENCE LEAGUE 지원 내용](#what-is-experience-support)**
 
 **[지원 사례](#support-cases)**
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 ## Experience League 지원이란? {#what-is-experience-support}
 
-Experience League 지원은 자격을 갖춘 Adobe Commerce 고객이 지원 티켓을 제출하고 관리할 수 있는 Adobe을 위한 지원 포털입니다. 또한 문제 해결 문서를 검토할 수 있습니다.
+Experience League 지원은 적격 Adobe Commerce 고객이 지원 티켓을 제출하고 관리할 수 있는 Adobe의 지원 포털입니다. 또한 문제 해결 문서를 검토할 수 있습니다.
 
 ## 지원 사례 {#support-cases}
 
-Adobe Experience League 지원 사례 관리를 사용하면 계약에 따라 모든 Adobe Commerce 제품에 Adobe Commerce 등 Adobe 제품을 사용하는 동안 발생하는 특정 문제를 해결하기 위해 사례를 통한 지원 작업을 할 수 있습니다.
+Adobe Experience League 지원 사례 관리를 사용하면 계약에 따라 모든 Adobe Commerce 제품에 Adobe Commerce을 비롯한 Adobe 제품을 사용하는 동안 발생하는 특정 문제를 해결하기 위해 사례를 통해 지원 팀과 작업할 수 있습니다.
 
 ## Experience League 지원에 로그인 {#sign-in-experience-support}
 
@@ -75,14 +75,14 @@ Adobe Experience League 지원 사례 관리를 사용하면 계약에 따라 �
 
 Adobe Experience League 지원에 로그인하려면 다음 단계를 따르십시오.
 
-1. [experienceleague.adobe.com](https://experienceleague.adobe.com/)(으)로 이동합니다.
+1. [experienceleague.adobe.com](https://experienceleague.adobe.com/)&#x200B;(으)로 이동합니다.
 1. Adobe 로그인 자격 증명을 사용하여 로그인합니다.
 
 ![experience-league에 로그인](assets/experience_league_sign_in.png)
 
 ### 지원 사례 제출 {#support-case}
 
-계정 소유자 또는 공유 액세스 사용자로 성공적으로 로그인하면 Adobe Experience League 홈페이지, Adobe Commerce 계정 페이지 및 Adobe Commerce Cloud 계정 페이지를 사용하여 지원 사례를 제출할 수 있습니다.
+계정 소유자 또는 공유 액세스 사용자로 성공적으로 로그인하면 Adobe Experience League 홈 페이지, Adobe Commerce 계정 페이지 및 Adobe Commerce Cloud 계정 페이지를 사용하여 지원 사례를 제출할 수 있습니다.
 
 >[!NOTE]
 >
@@ -98,19 +98,19 @@ Adobe Experience League 지원에 로그인하려면 다음 단계를 따르십�
 
 #### Adobe Experience League 시작 페이지 {#experience-league-start-page}
 
-Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를 제출하려면 다음 단계를 따르십시오.
+Adobe Experience League의 시작 페이지를 사용하여 새로운 지원 사례를 제출하려면 다음 단계를 따르십시오.
 
 >[!INFO]
 >
 >1. 사례를 제출하려면 적절한 제품(예: Adobe Commerce, Adobe Commerce Intelligence, Experience Platform 등)에 대한 지원을 받을 자격이 있어야 합니다. 지원 권한이 없는 경우 조직의 지원 권한이 있는 사용자가 아님을 알리는 표시줄이 페이지 맨 위에 나타납니다.
 >1. 여러 조직에 속해 있거나 유사한 이름의 조직이 여러 개 있는 경우(각 조직은 조직이 구독하는 다른 Adobe 제품을 나타냄) 먼저 &quot;(Commerce)&quot;로 끝나는 왼쪽 열의 드롭다운에서 적절한 조직을 선택해야 합니다.
 >1. 사례를 제출하려면 적절한 제품(예: Adobe Commerce, Adobe Commerce 보고, Adobe Commerce 결제 서비스, Experience Platform 등)에 대한 지원을 받을 자격이 있어야 합니다. 지원 권한이 없는 경우 조직의 지원 권한이 있는 사용자가 아님을 알리는 표시줄이 페이지 맨 위에 나타납니다. Commerce 관련 문제에 대한 사례를 제출하려면 먼저 *[!DNL (Commerce)]*&#x200B;로 끝나는 적절한 조직 이름을 선택해야 합니다.
->1. 여러 조직에 속해 있거나 유사한 이름의 조직이 여러 개 있는 경우(각 조직은 조직이 구독하는 다른 Adobe 제품을 나타냄) 먼저 드롭다운에서 적절한 조직을 선택해야 합니다.
+>1. 여러 조직에 속해 있거나 유사한 이름의 조직이 여러 개 있는 경우(각 조직은 조직이 구독하는 다른 Adobe 제품 중 하나를 나타냄) 먼저 드롭다운에서 적절한 조직을 선택해야 합니다.
 >1. [!UICONTROL Select a product] 드롭다운에 Adobe Commerce이 표시되지 않으면 먼저 Commerce 계정 소유자로부터 [공유 액세스](#shared-access)를 받아야 합니다. 공유 액세스 권한이 주어지면 사례를 제출하기 전에 프로세스를 완료하기 위해 [계정을 동기화](#switch-accounts)해야 합니다.
 
 >[!NOTE]
 >
->사례를 제출하기 전에 올바른 조직을 선택했는지 그리고 선택한 조직에 지원을 요청하는 제품에 대한 적절한 권한이 있는지 확인합니다. 예를 들어, 문제가 Adobe Commerce과 관련되어 있지만 Experience Platform을 제품으로 선택했고 케이스가 성공적으로 제출된 경우 케이스가 잘못 라우팅되고 응답 시간이 지연될 수 있습니다.
+>사례를 제출하기 전에 올바른 조직을 선택했는지 그리고 선택한 조직에 지원을 요청하는 제품에 대한 적절한 권한이 있는지 확인합니다. 예를 들어, 문제가 Adobe Commerce과 관련되어 있지만 Adobe Commerce Intelligence 또는 Adobe Experience Platform을 제품으로 선택했고 케이스가 성공적으로 제출된 경우 케이스 라우팅 잘못과 응답 시간 지연이 발생할 수 있습니다.
 >
 >또한 서비스 케이스를 제출할 때 잘못된 조직이 선택된 경우, 팀은 해당/올바른 조직에 대해 [!UICONTROL My Cases]에서 서비스 케이스를 볼 수 없습니다. Adobe Commerce 지원 팀에는 서비스 케이스와 연결된 조직을 변경할 수 없습니다. 이 문제를 해결하려면 기존 서비스 케이스를 닫고 적절한 세부 정보를 제공/선택한 상태로 새 서비스 케이스를 제출해야 합니다.
 
@@ -126,11 +126,16 @@ Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를
 
    ![지원 사례 열기](assets/open_support_case.png)
 
-1. 드롭다운 메뉴에서 제품을 선택하고 사례 제목과 설명을 입력합니다. 참고: 드롭다운에 제품이 표시되지 않거나 Commerce을 사용할 수 있는 옵션이 없는 경우 왼쪽 열에서 조직을 전환하고 다시 확인해 보십시오.
+1. 드롭다운 메뉴에서 제품을 선택하고 사례 제목과 설명을 입력합니다. 참고: 드롭다운에 제품이 표시되지 않거나 [!DNL Commerce]을(를) 사용할 수 있는 옵션이 아닌 경우 왼쪽 열에서 [!UICONTROL Organization]을(를) 전환하고 다시 확인해 보십시오.
 
    ![select_product](assets/support_case_product.png)
 
-1. Adobe Experience League은 사례를 해결하는 데 도움이 되는 문서와 모범 사례를 제안합니다. 여전히 직접 지원이 필요한 경우 사례를 제출하기 전에 몇 가지 추가 정보를 제공해야 합니다.
+>[!NOTE]
+>
+>제품으로 선택된 &quot;**&quot; 클라우드 인프라의 &quot;**[!DNL Commerce]&quot;이(가) 있는 티켓을 제출하는 경우 조직에 여러 프로젝트가 나열되어 있으면 적절한 [!UICONTROL Project ID]을(를) 선택하라는 메시지가 표시됩니다. 원하는 [!UICONTROL Project ID]을(를) 찾을 수 없는 경우 다른 &quot;프로젝트 X&quot;에 대한 지원을 요청하는 메모를 티켓에 추가해야 합니다.<br>Managed Services에서 &quot;**[!DNL Commerce]&quot; 티켓을 제출하려 하고**[!DNL Commerce] 클라우드 인프라에서 **에 있지만** 클라우드 인프라에서 **[!DNL Commerce]을(를) 사용 가능한 제품으로 보지 않는 경우:<br>1.** **[!UICONTROL Case title]**&#x200B;에 문제에 대한 제목을 입력하십시오.<br>2. **[!UICONTROL Case description]**&#x200B;에 문제에 대한 설명을 입력하십시오.<br>3. 이 두 항목을 모두 입력하면 아래의 **[!UICONTROL Cloud Project URL]** 필드가 표시됩니다.
+
+
+1. Adobe Experience League는 사례를 해결하는 데 도움이 되는 문서 및 모범 사례를 제안합니다. 여전히 직접 지원이 필요한 경우 사례를 제출하기 전에 몇 가지 추가 정보를 제공해야 합니다.
 
    ![direct_support_required](assets/direct_support.png)
 
@@ -140,7 +145,7 @@ Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를
 >
 >experienceleague.adobe.com에 로그인할 때 조직 드롭다운 메뉴에서 조직을 볼 수 없는 경우 지원을 요청하거나 기존 지원 사례를 관리하기 전에 accounts.magento.com 과 프로필을 동기화해야 할 수 있습니다.   
 >
->1. accounts.magento.com으로 이동한 다음 Adobe Experience League에서 지원 사례를 관리하는 데 사용할 동일한 프로필(회사, 학교 또는 개인)로 로그인합니다. 
+>1. accounts.magento.com 로 이동한 다음 Adobe Experience League에서 지원 사례를 관리하는 데 사용할 동일한 프로필(회사, 학교 또는 개인)로 로그인합니다. 
 >1. accounts.magento.com 프로필에 성공적으로 로그인했으면 experienceleague.adobe.com으로 다시 이동하여 로그인합니다. 
 >1. 조직 드롭다운 메뉴에서 조직을 선택합니다. 
 >1. 조직이 여전히 나타나지 않으면 Commerce 관리자에게 문의하여 지원 위임 권한을 받으십시오. 자세한 내용은 [Commerce 계정 공유](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) 도움말 문서를 참조하십시오. 
@@ -149,7 +154,7 @@ Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를
 >
 >조직/제품이 중요한 이유
 >
->**예제 A**: 한 회사에 대한 액세스 권한만 공유했으며 해당 회사에는 Product1과 Product2라는 두 Adobe 제품에 대한 사용 권한이 있습니다.
+>**예제 A**: 한 회사에만 액세스할 수 있으며 해당 회사에는 Product1과 Product2의 두 Adobe 제품에 대한 권한이 있습니다.
 >1. 각 조직은 하나의 제품을 나타내므로 드롭다운에 OrgA-Product1 및 OrgB-Product2와 같은 두 개의 조직이 표시됩니다.
 >1. Product = Product1을 선택했지만 문제가 Product2와 관련된 경우, 케이스는 Product2 지원으로 라우팅되며 Product1 지원으로 케이스를 전송할 때 지연이 발생합니다.
 >1. OrgA-Product1에 대한 사례를 제출하고 나중에 해당 조직에 대한 [!UICONTROL My Cases]을(를) 검토하려는 경우 OrgA-Product2를 조직으로 선택하면 표시되지 않습니다(예 B와 비교하여 다른 조직을 선택하기만 하면 됨).
@@ -158,7 +163,7 @@ Adobe Experience League의 시작 페이지를 사용하여 새 지원 사례를
 >1. OrgA에 대한 서비스 케이스를 제출했지만 문제가 실제로 OrgB에 영향을 주는 경우 OrgB의 구성원은 나중에 [!UICONTROL My Cases]에서 이 서비스 케이스를 볼 수 없습니다.
 >1. 또한 OrgA의 구성원은 OrgB에 해당하는 [!UICONTROL My Cases] 미만의 사례를 볼 수 있으며, 이로 인해 개인 정보 보호 문제가 발생할 수 있습니다.
 
-지원 사례를 제출하려면 https://account.adobe.com 및 https://account.magento.com 모두에 Experience League이 있어야 합니다. 로그인하기 전에는 지원 사례를 제출할 수 없습니다.
+지원 사례를 제출하려면 Experience League에 로그인하려면 https://account.adobe.com 및 https://account.magento.com 모두에 계정이 있어야 합니다. 로그인하기 전에는 지원 사례를 제출할 수 없습니다.
 
 >[!NOTE]
 >
@@ -343,11 +348,11 @@ Cloud Console을 사용하여 새 지원 티켓을 제출하려면 다음 단계
 
 <u>원인</u>
 
-Adobe Commerce Cloud 프로젝트를 보유하고 있거나 보유하고 있고 사용자를 프로젝트에 추가한 경우 프로젝트 소유자의 MAGE ID에 대한 공유 액세스 권한이 자동으로 부여되었을 수 있습니다. 이는 일반적으로 **[!UICONTROL Share Name]** 열에 표시되며 MAG[XYZ ]*에서*&#x200B;클라우드 공유 액세스를 표시합니다.
+Adobe Commerce Cloud 프로젝트가 있거나 있고 프로젝트에 사용자를 추가한 경우 프로젝트 소유자의 MAGE ID에 대한 공유 액세스 권한이 자동으로 부여되었을 수 있습니다. 이는 일반적으로 **[!UICONTROL Share Name]** 열에 표시되며 MAG[XYZ ]*에서*&#x200B;클라우드 공유 액세스를 표시합니다.
 
 >[!NOTE]
 >
->DELETE 링크가 누락된 경우 이는 공유 액세스가 Commerce Cloud을 통해 자동으로 부여되었음을 의미합니다.
+>DELETE 링크가 없으면 공유 액세스가 Commerce Cloud을 통해 자동으로 부여되었음을 의미합니다.
 
 <u>솔루션</u>
 
