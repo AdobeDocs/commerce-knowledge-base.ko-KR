@@ -3,7 +3,7 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c578bdc5684705283bb1d3eb4c42edb62ad769f9
+source-git-commit: cb0d3b47c7b9693c83c6f1e85fa41cce57972c9f
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
@@ -130,9 +130,9 @@ Adobe Experience League의 시작 페이지를 사용하여 새로운 지원 사
 
    ![select_product](assets/support_case_product.png)
 
->[!NOTE]
->
->제품으로 선택된 &quot;**&quot; 클라우드 인프라의 &quot;**[!DNL Commerce]&quot;이(가) 있는 티켓을 제출하는 경우 조직에 여러 프로젝트가 나열되어 있으면 적절한 [!UICONTROL Project ID]을(를) 선택하라는 메시지가 표시됩니다. 원하는 [!UICONTROL Project ID]을(를) 찾을 수 없는 경우 다른 &quot;프로젝트 X&quot;에 대한 지원을 요청하는 메모를 티켓에 추가해야 합니다.<br>Managed Services에서 &quot;**[!DNL Commerce]&quot; 티켓을 제출하려 하고**[!DNL Commerce] 클라우드 인프라에서 **에 있지만** 클라우드 인프라에서 **[!DNL Commerce]을(를) 사용 가능한 제품으로 보지 않는 경우:<br>1.** **[!UICONTROL Case title]**&#x200B;에 문제에 대한 제목을 입력하십시오.<br>2. **[!UICONTROL Case description]**&#x200B;에 문제에 대한 설명을 입력하십시오.<br>3. 이 두 항목을 모두 입력하면 아래의 **[!UICONTROL Cloud Project URL]** 필드가 표시됩니다.
+   >[!NOTE]
+   >
+   >제품으로 선택된 &quot;**&quot; 클라우드 인프라의 &quot;**[!DNL Commerce]&quot;이(가) 있는 티켓을 제출하는 경우 조직에 여러 프로젝트가 나열되어 있으면 적절한 [!UICONTROL Project ID]을(를) 선택하라는 메시지가 표시됩니다. 원하는 [!UICONTROL Project ID]을(를) 찾을 수 없는 경우 다른 &quot;프로젝트 X&quot;에 대한 지원을 요청하는 메모를 티켓에 추가해야 합니다.<br>Managed Services에서 &quot;**[!DNL Commerce]&quot; 티켓을 제출하려 하고**[!DNL Commerce] 클라우드 인프라에서 **에 있지만** 클라우드 인프라에서 **[!DNL Commerce]을(를) 사용 가능한 제품으로 보지 않는 경우:<br>1.** **[!UICONTROL Case title]**&#x200B;에 문제에 대한 제목을 입력하십시오.<br>2. **[!UICONTROL Case description]**&#x200B;에 문제에 대한 설명을 입력하십시오.<br>3. 이 두 항목을 모두 입력하면 아래의 **[!UICONTROL Cloud Project URL]** 필드가 표시됩니다.
 
 
 1. Adobe Experience League는 사례를 해결하는 데 도움이 되는 문서 및 모범 사례를 제안합니다. 여전히 직접 지원이 필요한 경우 사례를 제출하기 전에 몇 가지 추가 정보를 제공해야 합니다.
@@ -143,23 +143,25 @@ Adobe Experience League의 시작 페이지를 사용하여 새로운 지원 사
 
 >[!IMPORTANT]
 >
->experienceleague.adobe.com에 로그인할 때 조직 드롭다운 메뉴에서 조직을 볼 수 없는 경우 지원을 요청하거나 기존 지원 사례를 관리하기 전에 accounts.magento.com 과 프로필을 동기화해야 할 수 있습니다.   
+>experienceleague.adobe.com에 로그인할 때 조직 드롭다운 메뉴에서 조직을 볼 수 없는 경우 지원을 요청하거나 기존 지원 사례를 관리하기 전에 accounts.magento.com 과 프로필을 동기화해야 할 수 있습니다.
 >
->1. accounts.magento.com 로 이동한 다음 Adobe Experience League에서 지원 사례를 관리하는 데 사용할 동일한 프로필(회사, 학교 또는 개인)로 로그인합니다. 
->1. accounts.magento.com 프로필에 성공적으로 로그인했으면 experienceleague.adobe.com으로 다시 이동하여 로그인합니다. 
->1. 조직 드롭다운 메뉴에서 조직을 선택합니다. 
->1. 조직이 여전히 나타나지 않으면 Commerce 관리자에게 문의하여 지원 위임 권한을 받으십시오. 자세한 내용은 [Commerce 계정 공유](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) 도움말 문서를 참조하십시오. 
+>1. accounts.magento.com 로 이동한 다음 Adobe Experience League에서 지원 사례를 관리하는 데 사용할 동일한 프로필(회사, 학교 또는 개인)로 로그인합니다.
+>1. accounts.magento.com 프로필에 성공적으로 로그인했으면 experienceleague.adobe.com으로 다시 이동하여 로그인합니다.
+>1. 조직 드롭다운 메뉴에서 조직을 선택합니다.
+>1. 조직이 여전히 나타나지 않으면 Commerce 관리자에게 문의하여 지원 위임 권한을 받으십시오. 자세한 내용은 [Commerce 계정 공유](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) 도움말 문서를 참조하십시오.
 
 >[!NOTE]
 >
 >조직/제품이 중요한 이유
 >
 >**예제 A**: 한 회사에만 액세스할 수 있으며 해당 회사에는 Product1과 Product2의 두 Adobe 제품에 대한 권한이 있습니다.
+>
 >1. 각 조직은 하나의 제품을 나타내므로 드롭다운에 OrgA-Product1 및 OrgB-Product2와 같은 두 개의 조직이 표시됩니다.
 >1. Product = Product1을 선택했지만 문제가 Product2와 관련된 경우, 케이스는 Product2 지원으로 라우팅되며 Product1 지원으로 케이스를 전송할 때 지연이 발생합니다.
 >1. OrgA-Product1에 대한 사례를 제출하고 나중에 해당 조직에 대한 [!UICONTROL My Cases]을(를) 검토하려는 경우 OrgA-Product2를 조직으로 선택하면 표시되지 않습니다(예 B와 비교하여 다른 조직을 선택하기만 하면 됨).
 >
 >**예제 B**: 두 회사에 대한 공유 액세스 권한이 있으며 각 회사에는 Adobe Commerce에 대한 권한만 있습니다.
+>
 >1. OrgA에 대한 서비스 케이스를 제출했지만 문제가 실제로 OrgB에 영향을 주는 경우 OrgB의 구성원은 나중에 [!UICONTROL My Cases]에서 이 서비스 케이스를 볼 수 없습니다.
 >1. 또한 OrgA의 구성원은 OrgB에 해당하는 [!UICONTROL My Cases] 미만의 사례를 볼 수 있으며, 이로 인해 개인 정보 보호 문제가 발생할 수 있습니다.
 
@@ -170,6 +172,7 @@ Adobe Experience League의 시작 페이지를 사용하여 새로운 지원 사
 >https://account.magento.com에 이미 계정이 있지만 로그인할 수 없는 경우 2022년 8월부터 필수 항목인 https://account.adobe.com에 계정을 등록하지 않았을 수 있습니다.
 >
 >이 문제를 해결하려면
+>
 >1. MAG ID에서 동일한 이메일 주소를 사용하여 https://account.adobe.com에서 계정을 만듭니다.
 >1. https://account.magento.com으로 이동하여 Adobe ID을 MAG ID와 연결합니다.
 
