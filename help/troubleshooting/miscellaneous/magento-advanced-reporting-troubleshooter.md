@@ -4,9 +4,9 @@ description: Adobe Commerce의 고급 보고 문제는 이 문제 해결사 도�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: aed14781c6a7b43d0a719ac89c2965d5044d8c22
+source-git-commit: 207fd4cd11f76a5076e98cda8b6776b2d68ef937
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,14 @@ ls -ltr pub/media/analytics/
 
 access.logs에 레코드가 있는지 확인하려면 이 명령을 실행합니다.
 
-```
-zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
-```
+* Commerce Cloud에서:
+
+  ```
+  {{zgrep -i analytics /var/log/platform/*/access.log* | grep MagentoBI}}
+  ```
+
+* On-Premise의 경우 파일 경로를 적절하게 대체하십시오.
+  `zgrep -i analytics <your web server's log path>/access.log* | grep MagentoBI`
 
 a. 예 - `data.tgz` 파일이 있고 액세스 로그에 레코드가 있지만 404 오류가 여전히 있는 경우 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)해야 합니다.\
 b. 아니요 - [10단계](#step-10)로 진행합니다.
