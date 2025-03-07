@@ -4,9 +4,9 @@ description: 배포 문제 해결사 도구를 사용하여 Adobe Commerce에서
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
+source-git-commit: 4704446d043e3175b5af27c068908e58bfb7a9ff
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 +++**클라우드 인프라 서비스에 Adobe Commerce이 있습니까?**
 
-중단 배포 - Adobe Commerce 클라우드 인프라 서비스가 작동합니까? [Adobe Commerce Cloud](https://status.adobe.com/products/3350/)을(를) 확인하세요.
+중단 배포 - Adobe Commerce 클라우드 인프라 서비스가 작동합니까? [Adobe Commerce Cloud](https://status.adobe.com/products/3350/)를 확인하십시오.
 
 a. 예 - [2단계](#step-2)로 진행합니다.\
 b. 아니요 - 유지 보수 또는 글로벌 가동 중단 예상 기간 및 업데이트를 확인합니다.
@@ -30,7 +30,7 @@ b. 아니요 - 유지 보수 또는 글로벌 가동 중단 예상 기간 및 �
 
 +++**기존 환경에서 배포를 차단하는 다른 환경에 배포가 있습니까?**
 
-진행 중인 활동 목록을 얻으려면 magento-cloud CLI를 사용하여 다음 명령을 실행합니다(한 클라우드 프로젝트에만 추가된 경우). **참고**: 최신 버전의 magento-cloud CLI를 사용하고 있는지 확인하십시오. 단계는 Commerce on Cloud Infrastructure 안내서의 [CLI 업데이트](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)를 참조하십시오.
+진행 중인 활동 목록을 얻으려면 magento-cloud CLI를 사용하여 다음 명령을 실행합니다(한 클라우드 프로젝트에만 추가된 경우). **참고**: 최신 버전의 magento-cloud CLI를 사용하고 있는지 확인하십시오. 단계는 Commerce on Cloud Infrastructure 안내서의 [CLI 업데이트](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)를 참조하십시오.
 
 ```bash
 magento-cloud --state=in_progress
@@ -42,7 +42,7 @@ magento-cloud --state=in_progress
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-기존 배포 활동에 대한 정보를 찾으려면([Cloud UI에 &quot;로그 스니핑&quot; 오류가 있는 경우 배포 로그 확인](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html) 참조)
+기존 배포 활동에 대한 정보를 찾으려면([Cloud UI에 &quot;로그 스니핑된&quot; 오류가 있는 경우 배포 로그 확인](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) 참조)
 (자세한 내용) 이 명령을 실행하여 해당 활동의 실행 로그를 가져올 수 있습니다.
 
 ```bash
@@ -79,7 +79,7 @@ b. 아니요 - [지원 티켓을 제출](/help/help-center-guide/help-center/mag
 +++**Bitbucket을 사용하고 있습니까?**
 
 a. 예 - [status.bitbucket.com](https://bitbucket.status.atlassian.com/)을(를) 확인하십시오.\
-b. 아니요 - [로그 작성 및 배포](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)에서 배포 로그 오류를 확인합니다. [6단계](#step-6)로 진행합니다.
+b. 아니요 - [로그 작성 및 배포](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations)에서 배포 로그 오류를 확인합니다. [6단계](#step-6)로 진행합니다.
 
 +++
 
@@ -124,7 +124,7 @@ b. 아니요 - [11단계](#step-11)로 진행합니다.
 +++**사용 가능한 저장소는 괜찮습니까?**
 
 a. 예 - [11단계](#step-11)를 진행합니다.\
-b. 아니요 - [디스크 공간 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html)를 검토합니다.
+b. 아니요 - [디스크 공간 관리](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space)를 검토합니다.
 
 +++
 
@@ -150,7 +150,7 @@ b. 아니요 - [8단계](#step-8)를 진행합니다.
 
 +++**Elasticsearch을 업그레이드하거나 배포하시겠습니까?**
 
-a. 예 - Elasticsearch이 업그레이드 단계를 실패했습니다. [Elasticsearch 소프트웨어 호환성](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html)을 참조하세요. Elasticsearch 업그레이드가 계속 작동하지 않으면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하세요. **참고**: 클라우드 인프라의 Adobe Commerce에서는 인프라 팀에 48시간 전에 통보하지 않으면 서비스 업그레이드를 프로덕션 환경으로 푸시할 수 없습니다. 이는 인프라 지원 엔지니어가 운영 환경에 대한 가동 중지 시간을 최소화하면서 원하는 기간 내에 구성을 업데이트할 수 있도록 해야 하기 때문에 필요합니다. 따라서 변경 내용이 프로덕션에 적용되기 48시간 전에 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 필요한 서비스 업그레이드에 대해 자세히 설명하고 업그레이드 프로세스를 시작할 시간을 지정하십시오.\
+a. 예 - Elasticsearch이 업그레이드 단계에 실패했습니다. [Elasticsearch 소프트웨어 호환성](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html)을 참조하세요. Elasticsearch 업그레이드가 여전히 작동하지 않으면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오. **참고**: 클라우드 인프라의 Adobe Commerce에서는 인프라 팀에 48시간 전에 통보하지 않으면 서비스 업그레이드를 프로덕션 환경으로 푸시할 수 없습니다. 이는 인프라 지원 엔지니어가 운영 환경에 대한 가동 중지 시간을 최소화하면서 원하는 기간 내에 구성을 업데이트할 수 있도록 해야 하기 때문에 필요합니다. 따라서 변경 내용이 프로덕션에 적용되기 48시간 전에 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 필요한 서비스 업그레이드에 대해 자세히 설명하고 업그레이드 프로세스를 시작할 시간을 지정하십시오.\
 b. 아니요 - [14단계](#step-14)로 진행합니다.
 
 +++
@@ -210,7 +210,7 @@ b. 아니요 - [19단계](#step-19)로 진행합니다.
 
 +++**타사 확장을 사용합니까?**
 
-a. 예 - 특히 오류에 확장 이름이 있는 경우 [타사 확장을 사용하지 않도록 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html)하고 배포를 실행(문제의 원인이 되는지 확인)해 보십시오.\
+a. 예 - 특히 오류에 확장 이름이 있는 경우 [타사 확장을 사용하지 않도록 설정](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)하고 배포를 실행(문제의 원인이 되는지 확인)해 보십시오.\
 b. 아니요 - [20단계](#step-20)로 진행합니다.
 
 +++
