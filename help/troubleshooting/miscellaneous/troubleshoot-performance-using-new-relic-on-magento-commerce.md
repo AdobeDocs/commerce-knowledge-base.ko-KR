@@ -1,12 +1,12 @@
 ---
 title: Adobe Commerce에서 New Relic을 사용하여 성능 문제 해결
-description: '이 문서에서는 New Relic을 사용하여 Adobe Commerce에서 클라우드 인프라 성능 문제를 해결하는 문제 해결 단계를 제공합니다. 추가 정보를 위한 리소스도 제공합니다. 다음은 문제 목록입니다. 지원 기술 자료에서 문제 해결 단계를 보려면 클릭하십시오.'
+description: 이 문서에서는 New Relic을 사용하여 Adobe Commerce에서 클라우드 인프라 성능 문제를 해결하는 문제 해결 단계를 제공합니다. 추가 정보를 위한 리소스도 제공합니다. 다음은 문제 목록입니다. 지원 기술 자료에서 문제 해결 단계를 보려면 클릭하십시오.
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer
-source-git-commit: 324cce66df1e4ab7ec4ef8fb6512c3acbabdf3ab
+source-git-commit: 27fed162416c619a08d757279a3405f1fa72e976
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 이 문서에서는 New Relic을 사용하여 Adobe Commerce에서 클라우드 인프라 성능 문제를 해결하는 문제 해결 단계를 제공합니다. 추가 정보를 위한 리소스도 제공합니다. 아래 표에서 권장되는 리소스와 관련하여 다룬 다음 문제는 다음과 같습니다.
 
 * 낮은 Apdex 점수
-* 높은 CPU 사용량
+* 높은 CPU 사용
 * 높은 입출력 작업
 * 중단
 
@@ -60,22 +60,22 @@ ht-degree: 0%
 </ol>
 </td>
 <td>
-<p>New Relic Apdex 점수에 대한 자세한 내용은 <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic 설명서 &gt; APM Apdex &gt; 사용자 만족도 측정</a>을 참조하십시오. 지원 기술 자료에서 <a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Adobe Commerce에 대한 관리 경고: Apdex 경고 경고</a>를 참조할 수도 있습니다.</p>
+<p>New Relic Apdex 점수에 대한 자세한 내용은 <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic 설명서 &gt; APM Apdex &gt; 사용자 만족도 측정</a>을 참조하십시오. 지원 기술 자료에서 <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce에 대한 관리 경고: Apdex 경고 경고</a>를 참조할 수도 있습니다.</p>
 </td>
 </tr>
 <tr>
 <td>
-<p>높은 CPU 사용량:</p>
-<p>높은 CPU 사용률은 MySQL, Redis 등과 같이 특히 사용량이 많은 서비스가 있음을 나타낼 수 있습니다.</p>
+<p>높은 CPU 사용:</p>
+<p>CPU 사용량이 많으면 MySQL, Redis 등과 같은 특히 바쁜 서비스가 있음을 나타낼 수 있습니다.</p>
 </td>
 <td>
 <ol>
 <li><a href="https://login.newrelic.com/login">New Relic</a> &gt; 인프라 &gt; 프로세스에 로그인합니다.</li>
-<li>CPU 그래프를 검토하여 100% 이상의 CPU 시간을 사용하는 정지 또는 소모 높은 프로세스가 있는지 확인하고 인스턴스의 프로세서 카운트와 비교합니다. 자원 활용도가 최고점에 달할 수 있도록 주의를 기울여야 합니다. 중단된 크론이 아닌 경우 프로세스를 종료하지 않는 것이 좋습니다.</li>
+<li>CPU 그래프를 검토하여 100% 이상의 CPU 시간을 사용하는 중단되거나 많은 시간을 소비하는 프로세스가 있는지 확인하고 인스턴스의 프로세서 카운트와 비교합니다. 자원 활용도가 최고점에 달할 수 있도록 주의를 기울여야 합니다. 중단된 크론이 아닌 경우 프로세스를 종료하지 않는 것이 좋습니다.</li>
 </ol>
 </td>
 <td>
-<p>성능 지표(특히 개별 또는 프로세스 그룹의 CPU 백분율, I/O 바이트 및 메모리 사용량)에 대한 자세한 내용은 <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">New Relic 설명서 &gt; 인프라 UI 페이지 &gt; 인프라 호스트 페이지 &gt; 프로세스 탭</a>을 참조하십시오.</p>
+<p>성능 지표(특히 CPU 백분율, I/O 바이트 및 개별 또는 프로세스 그룹의 메모리 사용량)에 대한 자세한 내용은 <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">New Relic 설명서 &gt; 인프라 UI 페이지 &gt; 인프라 호스트 페이지 &gt; 프로세스 탭</a>을 참조하십시오.</p>
 </td>
 </tr>
 <tr>
@@ -121,7 +121,7 @@ ht-degree: 0%
 <li>가장 시간이 많이 걸리는 항목별로 정렬합니다.</li>
 <li>상위 쿼리를 검토합니다.
 
-참고: <code>업데이트</code> 또는 <code>삽입</code>쿼리는 CPU를 가장 많이 사용하는 쿼리입니다.</li>
+참고: <code>업데이트</code> 또는 <code>삽입</code>쿼리는 CPU에서 가장 많이 사용하는 쿼리입니다.</li>
 <li>정렬 기준 선택기에서 처리량으로 전환하고 데이터베이스 처리량이 드롭다운된 프로세스를 찾습니다.</li>
 <li>추가 조사가 필요한 경우 서드파티 서비스를 검토하는 것이 좋습니다.</li>
 </ol>
