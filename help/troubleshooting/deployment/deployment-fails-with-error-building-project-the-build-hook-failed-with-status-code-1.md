@@ -1,12 +1,12 @@
 ---
-title: "프로젝트 빌드 오류: 빌드 후크가 상태 코드 1로 인해 실패했습니다."
-description: '이 문서에서는 배포 프로세스의 빌드 단계가 실패하는 Adobe Commerce on cloud infrastructure 문제의 원인 및 솔루션에 대해 알아보고 오류 메시지를 *"Error building project: The build hook failed with status code 1"*.'
+title: '"프로젝트 빌드 오류: 빌드 후크가 상태 코드 1로 실패"로 인해 배포가 실패합니다.'
+description: '이 문서에서는 배포 프로세스의 빌드 단계가 실패하는 Adobe Commerce on cloud infrastructure 문제의 원인 및 솔루션에 대해 알아보고 오류 메시지를 요약하여 *"Error building project: The build hook failed with status code 1"*로 설명합니다.'
 exl-id: add1cdac-dbcb-4c55-8bc2-c1f27e24aadb
 feature: Build, Deploy
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 6a880a57c6cafb34fa51706f7bab1e23310bcef7
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,17 @@ Adobe Commerce on cloud infrastructure 스타터 계획 아키텍처를 사용�
 
    [ece-tools로 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) 문서를 참조하십시오.
 
-1. 다음 명령을 실행하여 ECE-tools 패키지가 `composer.lock` 파일에 있는지 확인하십시오.    <pre><code class="language-bash">grep &#39;<code class="language-yaml">&quot;name&quot;: &quot;magento/ece-tools&quot;</code>&#39; composer.lock</code></pre>    지정된 경우 응답은 다음 예제와 같습니다.    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
+1. 다음 명령을 실행하여 ECE-tools 패키지가 `composer.lock` 파일에 있는지 확인하십시오.
+
+   ```bash
+   grep '"name": "magento/ece-tools"' composer.lock
+   ```
+
+   지정된 경우 응답은 다음 예제와 같습니다.
+
+   ```bash
+   "name": "magento/ece-tools", "version": "2002.0.20",
+   ```
 
 참조하려면 [ece-tools로 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) 문서를 참조하십시오.
 
