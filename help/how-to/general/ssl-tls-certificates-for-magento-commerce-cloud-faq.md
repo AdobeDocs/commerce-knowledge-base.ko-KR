@@ -3,9 +3,9 @@ title: 클라우드 인프라의 Adobe Commerce에 대한 SSL(TLS) 인증서
 description: 이 문서에서는 클라우드 인프라의 Adobe Commerce 사이트에 대한 SSL(TLS) 인증서를 가져오는 방법에 대한 빠른 답변을 제공합니다.
 exl-id: 5a682d07-e4d7-4e81-a2ad-3232f2d8d9c1
 feature: Cloud, Console
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 7694e6cb739d73a28c902e95d324b1317f4daaf6
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,8 @@ SSL 인증서가 있으면 [Adobe Commerce 지원 티켓](/help/help-center-guid
 
 >[!WARNING]
 >
->인증서 파일을 티켓에 직접 업로드하지 않는 것이 중요합니다. 그렇지 않으면 인증서가 손상된 것으로 간주되어 Adobe이 새 인증서를 요청해야 합니다.
->파일은 SFTP를 통해 서버에 업로드해야 합니다. 파일을 저장소에 커밋하는 것과 같은 다른 방법을 사용하지 마십시오(중요한 데이터가 포함되지 않은 변경 불가능한 파일에 대해서만 수행해야 함).
+>인증서 파일을 티켓에 직접 업로드하지 않는 것이 중요합니다. 그렇지 않으면 인증서가 손상된 것으로 간주되므로 Adobe에서 새 인증서를 요청해야 합니다.
+>파일을 SFTP를 통해 원하는 폴더로 서버에 업로드해야 합니다(예: `var/ssl`, `/tmp/ssl` 등). - 파일을 저장소에 커밋하는 것과 같은 다른 방법은 사용하지 마십시오(중요한 데이터가 포함되지 않은 변경 불가능한 파일에 대해서만 수행되어야 함).
 
 ## 인증서 이름
 
@@ -67,7 +67,7 @@ SSL 인증서의 이름은 기본 URL에만 해당되며, 첫 번째 URL에 의�
 
 ## 와일드카드 TLS 인증서를 사용할 수 있습니까?
 
-와일드카드 TLS 인증서는 사용자 정의 인증서에만 사용할 수 있고 Adobe Commerce Let&#39;s Encrypt 인증서에는 사용할 수 없습니다. TLS 최적화의 일환으로 Adobe은 와일드카드 TLS 인증서에 대한 지원을 종료합니다. Adobe의 Let&#39;s Encrypt 인증서로 와일드카드 인증서를 사용하며 Adobe Commerce용 [!DNL Fastly] 콘솔에 구성된 판매자를 식별하고 연락하고 있습니다. 우리는 TLS의 적용 범위를 보장하기 위해 이러한 와일드카드 인증서를 정확한 도메인으로 바꿀 것을 요구하고 있다. 와일드카드 TLS 인증서를 바꾸려면 [!DNL Fastly] 플러그인의 [도메인 섹션](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains)을(를) 방문하십시오. 여기서 정확한 도메인을 추가하고 와일드카드를 제거할 수 있습니다. CDN을 통해 라우팅하려면 DNS가 이러한 새 도메인에 대해 [!DNL Fastly]을(를) 가리켜야 합니다. 도메인이 추가되고 DNS가 업데이트되면 일치하는 [Let&#39;s Encrypt](https://letsencrypt.org/) 인증서가 제공됩니다. 와일드카드를 사용하여 [!DNL Fastly]을(를) 가리키는 도메인을 제거하지 않으면 Adobe이 공유 인증서를 삭제합니다. URL FQDN을 구성하지 않고 DNS에 동일한 URL FQDN을 설정하면 사이트가 중단될 수 있습니다. 따라서 구성된 URL도 [!DNL Fastly]을(를) 가리키는 DNS에서 일대일 일치하는지 확인해야 합니다.
+와일드카드 TLS 인증서는 사용자 정의 인증서에만 사용할 수 있고 Adobe Commerce Let&#39;s Encrypt 인증서에는 사용할 수 없습니다. TLS 최적화의 일환으로 Adobe은 와일드카드 TLS 인증서에 대한 지원을 종료합니다. Adobe의 Let&#39;s Encrypt 인증서를 사용하여 와일드카드 인증서를 사용하며 Adobe Commerce용 [!DNL Fastly] 콘솔에 구성된 판매자를 식별하고 연락하고 있습니다. 우리는 TLS의 적용 범위를 보장하기 위해 이러한 와일드카드 인증서를 정확한 도메인으로 바꿀 것을 요구하고 있다. 와일드카드 TLS 인증서를 바꾸려면 [!DNL Fastly] 플러그인의 [도메인 섹션](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains)을(를) 방문하십시오. 여기서 정확한 도메인을 추가하고 와일드카드를 제거할 수 있습니다. CDN을 통해 라우팅하려면 DNS가 이러한 새 도메인에 대해 [!DNL Fastly]을(를) 가리켜야 합니다. 도메인이 추가되고 DNS가 업데이트되면 일치하는 [Let&#39;s Encrypt](https://letsencrypt.org/) 인증서가 제공됩니다. 와일드카드를 사용하여 [!DNL Fastly]을(를) 가리키는 도메인을 제거하지 않으면 Adobe에서 공유 인증서를 삭제합니다. URL FQDN을 구성하지 않고 DNS에 동일한 URL FQDN을 설정하면 사이트가 중단될 수 있습니다. 따라서 구성된 URL도 [!DNL Fastly]을(를) 가리키는 DNS에서 일대일 일치하는지 확인해야 합니다.
 
 ## 도메인이 더 이상 Adobe Commerce을 가리키지 않으면 어떻게 해야 합니까?
 
