@@ -1,17 +1,18 @@
 ---
-title: '[!DNL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.'
-description: ' [!DNL Admin] 패널에 로그인하려고 하면 양식이 새로 고침되고 로그인할 수 없는 문제를 해결합니다.'
+title: '[!UICONTROL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.'
+description: '[!UICONTROL Admin] 패널에 로그인하려고 하면 양식이 새로 고쳐지고 로그인할 수 없는 문제를 해결합니다.'
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1
+source-git-commit: fe4a48581bdfe24da5082b69fb26a8032bd77334
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# [!DNL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.
+# [!UICONTROL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.
 
-이 문서에서는 [!DNL Admin] 패널에 로그인하려고 하지만 양식이 새로 고침되어 로그인할 수 없는 경우에 대한 수정 사항을 제공합니다. 이는 [!DNL Admin] 세션 크기를 초과했기 때문입니다.
+이 문서에서는 [!UICONTROL Admin] 패널에 로그인하려고 하지만 양식이 새로 고침되어 로그인할 수 없거나 [!UICONTROL Admin] 패널에서 일부 작업을 수행하고 자동으로 로그아웃되는 경우에 대한 수정 사항을 제공합니다.
+이는 [!UICONTROL Admin] [!UICONTROL Session Size]이(가) 초과되었기 때문입니다.
 
 ## 영향을 받는 버전
 
@@ -20,7 +21,10 @@ ht-degree: 0%
 
 ## 문제
 
-양식이 다시 로드되기 때문에 [!DNL Admin]에 로그인할 수 없습니다.
+[!UICONTROL Admin]에서 다음 증상 중 하나가 발생합니다.
+
+1. 양식이 다시 로드되기 때문에 [!UICONTROL Admin]에 로그인할 수 없습니다.
+1. 작업을 수행하려고 하면 자동으로 로그아웃됩니다.
 
 ## 원인
 
@@ -41,7 +45,7 @@ ht-degree: 0%
 
 <u>클라우드 인프라의 Adobe Commerce</u>:
 
-(이 설정은 배포/작업 모드가 기본 또는 개발자인 경우에만 [!DNL Admin]에서 액세스할 수 있습니다. 그러나 클라우드 환경에서는 프로덕션 배포 모드만 허용됩니다.)
+(이 설정은 배포/작업 모드가 *기본* 또는 *개발자*&#x200B;인 경우에만 [!UICONTROL Admin]에서 액세스할 수 있습니다. 그러나 클라우드 환경에서는 프로덕션 배포 모드만 허용됩니다.)
 
 이 값을 늘리려면 터미널(SSH)에서 이 명령을 실행합니다.
 
@@ -53,6 +57,6 @@ bin/magento config:set system/security/max_session_size_admin 500000
 
 ## 관련 읽기
 
-* 관리 시스템 가이드의 [세션 크기](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions).
-* 구성 가이드의 [작업 모드](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode).
-* Commerce on Cloud Infrastructure 안내서의 [보안 연결](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections).
+* 관리 시스템 안내서의 [세션 크기](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions)
+* 구성 가이드의 [작업 모드](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Commerce on Cloud Infrastructure Guide의 [보안 연결](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)
