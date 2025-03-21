@@ -3,9 +3,9 @@ title: Fastly 수준에서 Adobe Commerce에 대한 악성 트래픽 차단
 description: 이 문서에서는 클라우드 인프라 스토어의 Adobe Commerce에서 DDoS 공격이 발생한다고 의심되는 경우 악성 트래픽을 차단하는 데 사용할 수 있는 단계를 제공합니다.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b58e182c64b3fad508145d9078619ddbe0e2b887
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -85,4 +85,5 @@ name: block_bad_useragents
 
 ## 관련 읽기
 
-[Cloud의 Adobe Commerce에 대한 제품별 라이선스 약관](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+* [Cloud의 Adobe Commerce에 대한 제품별 라이선스 약관](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+* Commerce on Cloud Guide의 [차단 요청에 대한 사용자 지정 VCL](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)
