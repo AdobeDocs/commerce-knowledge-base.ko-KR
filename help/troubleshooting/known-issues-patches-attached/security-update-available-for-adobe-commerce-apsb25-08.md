@@ -5,9 +5,9 @@ description: Adobe Commerce 2.4.8-beta1, 2.4.7-p3, 2.4.6-p8, 2.4.5-p10, 2.4.4-p1
 feature: Compliance, Security
 role: Developer
 exl-id: 567e6ad2-704e-461f-a54d-75f6bd96e996
-source-git-commit: d669c097767b5855c6bd747a0ab11b3520f405a0
+source-git-commit: aba9548c0b5a06ffd0cddce630e53e5664bb9aac
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Adobe Commerce on Cloud infrastructure, Adobe Commerce 온프레미스 및 Magen
 * 2.4.4-p11 및 이전
 
 ## Adobe Commerce on Cloud, Adobe Commerce 온프레미스 및 Magento Open Source 소프트웨어 솔루션
+
+>[!NOTE]
+>
+>이 문제는 [최신 클라우드 패치 업데이트](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches#latest)로 해결되었습니다. 클라우드 패치 업데이트에서 이미 수정 사항이 적용되어 있는 경우 격리된 패치를 적용하려고 하면 설치 오류가 발생할 수 있습니다.
 
 영향을 받는 제품 및 버전의 취약성을 해결하려면 Adobe Commerce/Magento Open Source 버전에 따라 [!DNL CVE-2025-24434] Isolated 패치를 적용해야 합니다.
 
