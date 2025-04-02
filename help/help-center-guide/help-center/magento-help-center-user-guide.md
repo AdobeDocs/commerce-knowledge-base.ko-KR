@@ -3,9 +3,9 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: cb0d3b47c7b9693c83c6f1e85fa41cce57972c9f
+source-git-commit: c9468428b9d230121fb1da354d138439a04d070d
 workflow-type: tm+mt
-source-wordcount: '3072'
+source-wordcount: '2942'
 ht-degree: 0%
 
 ---
@@ -102,11 +102,9 @@ Adobe Experience League의 시작 페이지를 사용하여 새로운 지원 사
 
 >[!INFO]
 >
->1. 사례를 제출하려면 적절한 제품(예: Adobe Commerce, Adobe Commerce Intelligence, Experience Platform 등)에 대한 지원을 받을 자격이 있어야 합니다. 지원 권한이 없는 경우 조직의 지원 권한이 있는 사용자가 아님을 알리는 표시줄이 페이지 맨 위에 나타납니다.
->1. 여러 조직에 속해 있거나 유사한 이름의 조직이 여러 개 있는 경우(각 조직은 조직이 구독하는 다른 Adobe 제품을 나타냄) 먼저 &quot;(Commerce)&quot;로 끝나는 왼쪽 열의 드롭다운에서 적절한 조직을 선택해야 합니다.
->1. 사례를 제출하려면 적절한 제품(예: Adobe Commerce, Adobe Commerce 보고, Adobe Commerce 결제 서비스, Experience Platform 등)에 대한 지원을 받을 자격이 있어야 합니다. 지원 권한이 없는 경우 조직의 지원 권한이 있는 사용자가 아님을 알리는 표시줄이 페이지 맨 위에 나타납니다. Commerce 관련 문제에 대한 사례를 제출하려면 먼저 *[!DNL (Commerce)]*&#x200B;로 끝나는 적절한 조직 이름을 선택해야 합니다.
->1. 여러 조직에 속해 있거나 유사한 이름의 조직이 여러 개 있는 경우(각 조직은 조직이 구독하는 다른 Adobe 제품 중 하나를 나타냄) 먼저 드롭다운에서 적절한 조직을 선택해야 합니다.
->1. [!UICONTROL Select a product] 드롭다운에 Adobe Commerce이 표시되지 않으면 먼저 Commerce 계정 소유자로부터 [공유 액세스](#shared-access)를 받아야 합니다. 공유 액세스 권한이 주어지면 사례를 제출하기 전에 프로세스를 완료하기 위해 [계정을 동기화](#switch-accounts)해야 합니다.
+>1. 사례를 제출하려면 적절한 제품(예: Adobe Commerce, Adobe Commerce Intelligence, Adobe Commerce 결제 서비스, Experience Platform 등)에 대한 지원을 받을 자격이 있어야 합니다. 지원 권한이 없는 경우 조직의 지원 권한이 있는 사용자가 아님을 알리는 표시줄이 페이지 맨 위에 나타납니다.
+>1. 여러 조직에 속해 있거나 유사한 이름을 가진 조직이 여러 개 있는 경우(각 조직은 조직이 구독하는 다른 Adobe 제품을 나타냄) 먼저 *[!DNL (Commerce)]*&#x200B;에서 끝나는 왼쪽 열의 드롭다운에서 적절한 조직을 선택해야 합니다.
+>1. Commerce 관련 사례를 제출할 때 [!UICONTROL Select a product] 드롭다운에 Adobe Commerce이 표시되지 않으면 먼저 Commerce 계정 소유자로부터 [공유 액세스](#shared-access)를 받아야 합니다.
 
 >[!NOTE]
 >
