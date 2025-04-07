@@ -4,7 +4,7 @@ description: 이 문서에서는 라이브 검색 확장을 사용할 때 카탈
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 54f6fb60adca6f639cd315b3d070c7b93aa45bab
+source-git-commit: b0d4b2e541c42095d6d09b91ba6f390064c89af6
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 Or
 
 1. 카탈로그에 새 제품을 추가합니다.
-1. 데이터를 백엔드 서비스에 동기화하기 위해 시간 Magento 인덱서 + cron 이 실행된 후 15~20분 후 제품 이름 또는 기타 검색 가능한 속성을 사용하여 검색 쿼리를 실행해 보십시오.
+1. Magento indexer + cron 이 데이터를 백엔드 서비스에 동기화하기 위해 실행한 시간으로부터 15~20분 후 제품 이름 또는 기타 검색 가능한 속성을 사용하여 검색 쿼리를 실행해 보십시오.
 
 <u>예상 결과</u>
 
@@ -146,7 +146,7 @@ bin/magento saas:resync --feed productattributes
 다음 명령을 실행하여 피드를 다시 동기화합니다.
 
 ```
-bin/magento saas:resync --feed productattributes --cleaup-feed
+bin/magento saas:resync --feed productattributes --cleanup-feed
 bin/magento saas:resync --feed products --cleanup-feed
 bin/magento saas:resync --feed scopesCustomerGroup --cleanup-feed
 bin/magento saas:resync --feed scopesWebsite --cleanup-feed
