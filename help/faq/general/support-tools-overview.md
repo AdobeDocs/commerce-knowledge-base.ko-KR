@@ -2,9 +2,9 @@
 title: Adobe Commerce 지원 도구 개요
 description: Adobe Commerce은 전자 상거래 스토어 환경을 개선하는 데 도움이 되고 권한을 부여하는 다양한 지원 도구를 제공합니다.
 exl-id: 5364ff2b-07ea-4b42-8756-adec85f4efca
-source-git-commit: f2e4dbeeade5006e253beba9ff808e6571647ef4
+source-git-commit: 6ccebaec7f0a228b646737a2f48fe6d087ea2861
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Adobe Commerce은 전자 상거래 스토어 환경을 개선하는 데 도움�
 
 클라우드 인프라의 Adobe Commerce에 대한 관리 경고는 문제 해결을 위한 다음 단계에 대한 지침을 포함하는 준비된 [!DNL New Relic] 경고를 생성합니다.
 
-주요 대시보드 및 경고를 설정하여 사이트에서 중요한 스토리지 및 Apdex 수준(애플리케이션 및 서비스 응답 시간에 대한 사용자 만족도)에 도달하는 시점을 파악할 수 있도록 지원합니다. 이렇게 하면 응답 시간이 느려지거나 중단이 발생하기 전에 조치를 취하는 데 도움이 될 수 있습니다. 지원 기술 자료에 나와 있는 문서를 통해 경고 문제를 해결할 수 있습니다. 관리 경고에 대한 자세한 내용을 보려면 [Adobe Commerce에 대한 관리 경고](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md)를 클릭하십시오.
+주요 대시보드 및 경고를 설정하여 사이트에서 중요한 스토리지 및 Apdex 수준(애플리케이션 및 서비스 응답 시간에 대한 사용자 만족도)에 도달하는 시점을 파악할 수 있도록 지원합니다. 이렇게 하면 응답 시간이 느려지거나 중단이 발생하기 전에 조치를 취하는 데 도움이 될 수 있습니다. 지원 기술 자료에 나와 있는 문서를 통해 경고 문제를 해결할 수 있습니다. 관리 경고에 대한 자세한 내용을 보려면 [Adobe Commerce에 대한 관리 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce)를 클릭하십시오.
 
 
 ## [!DNL Site-Wide Analysis Tool] - 사이트 검색을 기반으로 성능 권장 사항 가져오기 {#site-wide-analysis-tool}
@@ -41,6 +41,6 @@ Adobe Commerce은 전자 상거래 스토어 환경을 개선하는 데 도움�
 
 ## [!DNL Quality Patches Tool] - Adobe Commerce 버전에 사용할 수 있는 모든 패치 가져오기 {#quality-patches-tool}
 
-[!DNL Quality Patches Tool](QPT)은 Adobe 및 Magento Open Source 커뮤니티에서 개발한 개별 패치를 제공합니다. 설치된 버전의 Adobe Commerce 또는 Magento Open Source에 사용할 수 있는 모든 개별 패치에 대한 일반 정보를 적용, 되돌리기 및 볼 수 있습니다.
+[!DNL Quality Patches Tool]&#x200B;(QPT)는 Adobe 및 Magento Open Source 커뮤니티에서 개발한 개별 패치를 제공합니다. 설치된 버전의 Adobe Commerce 또는 Magento Open Source에 사용할 수 있는 모든 개별 패치에 대한 일반 정보를 적용, 되돌리기 및 볼 수 있습니다.
 
 QPT는 설치된 버전에 대해 사용 가능한 패치만 보여주며, 범주화 및 간편한 적용/제거가 가능합니다. 자세한 내용은 지원 기술 자료에서 [Adobe Commerce 문제에 대한 패치 확인 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)을 참조하세요.
