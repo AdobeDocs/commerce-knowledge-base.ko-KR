@@ -3,7 +3,8 @@ title: REGEXP_LIKE 함수 누락으로 인해 B2B 1.5.2로 업그레이드하지
 description: 이 문서에서는 company_structure 테이블을 업데이트하려고 할 때 누락된 REGEXP_LIKE 함수로 인해 SQL 구문 오류가 발생하는 문제에 대한 핫픽스를 제공합니다.
 feature: B2B, Upgrade
 role: Admin, Developer
-source-git-commit: ec1f0e06c0f2a59d4b78eba69bf02798e6bf66f3
+exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
+source-git-commit: f83b82a95d4592252c8923720e90733115c52d87
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -68,7 +69,7 @@ Unable to apply data patch Magento\Company\Setup\Patch\Data\SetCompanyForStructu
 
    ```
    composer require magento/magento-cloud-patches:1.1.5 --no-update
-   composer updatemagento/magento-cloud-patches
+   composer update magento/magento-cloud-patches
    ```
 
 1. 변경 사항을 커밋하고 푸시하여 재배포를 시작합니다. 지침은 Adobe Commerce on Cloud 안내서의 [패치 적용](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
