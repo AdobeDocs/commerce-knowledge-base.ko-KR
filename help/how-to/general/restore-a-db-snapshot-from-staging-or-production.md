@@ -2,9 +2,9 @@
 title: 스테이징 또는 프로덕션에서 DB 스냅샷 복원
 description: 이 문서에서는 클라우드 인프라의 Adobe Commerce에서 스테이징 또는 프로덕션에서 DB 스냅샷을 복원하는 방법을 보여 줍니다.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: c8cd2bf97681527a32a403a413c5fa823d07abed
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,12 @@ ht-degree: 0%
 
    ```sql
    drop database <cluster ID_stg>;
+   ```
+
+1. 데이터베이스를 삭제한 후 데이터베이스를 다시 생성합니다.
+
+   ```mysql
+   create database [database_name];
    ```
 
 1. [!DNL snapshot]을(를) 가져오려면 다음 명령을 입력하십시오.
