@@ -2,9 +2,9 @@
 title: 스테이징 또는 프로덕션에서 DB 스냅샷 복원
 description: 이 문서에서는 클라우드 인프라의 Adobe Commerce에서 스테이징 또는 프로덕션에서 DB 스냅샷을 복원하는 방법을 보여 줍니다.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: c8cd2bf97681527a32a403a413c5fa823d07abed
+source-git-commit: 20aaeacc4f71725c005e7bec3b9d6ac3aa844170
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -160,3 +160,4 @@ ht-degree: 0%
 
 * [코드 가져오기: 데이터베이스를 가져옵니다](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
 * [[!DNL Snapshots] 및 [!DNL backup] 관리: [!DNL Dump] 데이터베이스](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [클라우드의 백업(스냅숏): FAQ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
