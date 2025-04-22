@@ -2,14 +2,17 @@
 title: '[!UICONTROL security patch]을(를) 가져오고 적용하는 방법'
 description: 이 문서에서는 릴리스된 [!UICONTROL security patch]을(를) 가져오고 적용하는 방법에 대한 지침을 제공하지만 지침을 사용할 수 없습니다.
 exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
-source-git-commit: 06bc239cb5b1a894d2a60236a9b32b2b0c4eba80
+source-git-commit: 43c8308c6539c53f60fb6457047898a2edd46532
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL security patch]을(를) 가져오고 적용하는 방법
+
+>[!NOTE]
+>온-프레미스 설치가 있고 [!DNL CVS] 또는 [!DNL GitHub]과(와) 같은 버전 제어 시스템을 사용하여 코드를 관리하지 않는 경우 웹 호스트에서 패치 적용을 지원할 수 있습니다. 언제든지 연락하여 지원을 요청하십시오.
 
 이 문서에서는 릴리스된 [!UICONTROL security patch]을(를) 가져오고 적용하는 방법에 대한 지침을 제공하지만 지침을 사용할 수 없습니다.
 
@@ -17,18 +20,17 @@ ht-degree: 0%
 
 Adobe Commerce On-Premise 및 Cloud - 모든 버전
 
+
 ## 원인
 
-대부분의 [!UICONTROL Security Patches]은(는) 적용할 실제 파일이나 핫픽스 없이 릴리스됩니다.
+대부분의 [!UICONTROL Security Patches]은(는) 적용할 격리된 패치 또는 핫픽스 없이 릴리스되었으며 [!UICONTROL Security Patch] 릴리스로 업그레이드해야 합니다.
 
 ## 솔루션
 
 
 ### 사례 I:
 
-릴리스 정보에서 물리적 패치 파일/핫픽스를 언급한 경우:
-
-* [https://account.magento.com](https://account.magento.com/downloads/view/)의 다운로드 섹션에서 파일을 다운로드합니다. (공유 액세스 사용자에게는 먼저 계정 소유자/라이선스 소유자가 다운로드 권한을 부여해야 합니다.)
+* 분리된 패치 파일/핫픽스가 [릴리스 정보](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite)에 언급되어 있으면 [https://account.magento.com](https://account.magento.com/downloads/view/)의 다운로드 섹션에서 파일을 다운로드하십시오. 공유 액세스 사용자에게는 먼저 계정 소유자/라이선스 소유자가 다운로드 권한을 부여해야 합니다.
 
 **주의 사항:**
 
@@ -42,7 +44,9 @@ Adobe Commerce On-Premise 및 Cloud - 모든 버전
 
 ### 사례 2:
 
-릴리스 노트에 물리적 패치 파일/핫픽스가 언급되어 있지 않은 경우:
+격리된 패치는 예외적인 경우에만 제공되며, 보안 수정 사항을 구현하는 기본 형태는 아닙니다.
+
+격리된 패치 파일/핫픽스가 릴리스 정보에 언급되지 않은 경우:
 
 * **클라우드:**
 
@@ -51,8 +55,8 @@ Adobe Commerce On-Premise 및 Cloud - 모든 버전
 
 * **클라우드 또는 온-프레미스:**
 
-* 실제 패치 파일/핫픽스를 사용할 수 없는 경우 [Cloud의 Adobe Commerce 버전을 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X를 최신 패치 버전 2.4.X-pY로 업그레이드하십시오.
-* 실제 패치 파일/핫픽스를 사용할 수 없는 경우 [Adobe Commerce 버전 On-Premise](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X를 최신 패치 버전 2.4.X-pY로 업그레이드하십시오.
+* 격리된 패치 파일/핫픽스를 사용할 수 없는 경우 [Cloud의 Adobe Commerce 버전을 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X를 최신 패치 버전 2.4.X-pY로 업그레이드하십시오.
+* 격리된 패치 파일/핫픽스를 사용할 수 없는 경우 [Adobe Commerce 버전 On-Premise](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X를 최신 패치 버전 2.4.X-pY로 업그레이드하십시오.
 
 ## 관련 읽기
 
