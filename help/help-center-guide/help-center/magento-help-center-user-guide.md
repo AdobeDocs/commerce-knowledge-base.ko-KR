@@ -3,9 +3,9 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c9468428b9d230121fb1da354d138439a04d070d
+source-git-commit: 46c19ec1185aa176beff9e5039a324a1f11b9aa1
 workflow-type: tm+mt
-source-wordcount: '2942'
+source-wordcount: '2966'
 ht-degree: 0%
 
 ---
@@ -321,6 +321,10 @@ Cloud Console을 사용하여 새 지원 티켓을 제출하려면 다음 단계
 >사용자에게 공유 액세스 권한을 부여하려면 사용자에게 기존 계정이 있어야 합니다. 자세한 내용은 [Commerce 계정 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)를 참조하세요.
 
 새 사용자에 대한 공유 액세스를 제공한 후 관련 정보는 Adobe Commerce 계정 페이지의 **공유 액세스** > **권한 관리**&#x200B;에서 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>공유 액세스는 Commerce Cloud 콘솔에 대한 액세스 권한을 자동으로 부여하지 않습니다. [사용자를 클라우드 프로젝트에 별도로 추가](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access#add-a-user-to-the-project)해야 합니다.
 
 ![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png)
 
