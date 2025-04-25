@@ -2,7 +2,7 @@
 title: 지원 티켓 문제 사유 설명
 description: 이 문서에서는 지원 티켓**문제 사유** 필드 옵션을 나열하고 각 옵션에 대한 자세한 설명을 제공합니다.
 exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
-source-git-commit: d3523be967f16a3e65025917fa6ac65097214100
+source-git-commit: e1f13098e3e0894b1d3acf9ad38fb49f6a5a54f6
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
   </tr>
   <tr>
     <td>인프라 문제</td>
-    <td>중단 배포, [!DNL New Relic] 액세스, SSH/sFTP 액세스, 서비스 업그레이드([!DNL OpenSearch], [!DNL MariaDB]/[!DNL MySQL], [!DNL Redis], [!DNL RabbitMQ], PHP 제외), SSL 인증서 등과 같은 클라우드 인프라의 Adobe Commerce에 대한 도움이 필요합니다. **([!DNL Live Search]에는 적용되지 않음)**</td>
+    <td>중단 배포, [!DNL New Relic] 액세스, SSH/sFTP 액세스, 서비스 업그레이드([!DNL OpenSearch], [!DNL MariaDB]/[!DNL MySQL], [!DNL Redis], [!DNL RabbitMQ], PHP 제외), SSL 인증서 등과 같은 클라우드 인프라의 Adobe Commerce에 대한 도움이 필요합니다.<strong>([!DNL Live Search]에 적용되지 않음)</strong>.</td>
   </tr>  
 </tbody>
 </table>
