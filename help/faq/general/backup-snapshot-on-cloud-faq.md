@@ -3,9 +3,9 @@ title: '클라우드에서 백업(스냅샷): FAQ'
 description: 이 문서에서는 클라우드 인프라의 Adobe Commerce에서 스냅샷을 사용하여 환경을 백업하는 데 필요한 필수 사항을 다룹니다.
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 0958a8923e27c1341f4b536812b26205685b2b81
+source-git-commit: cfaa7043eed9cc5369f5317b10609d97a91d5861
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 0%
 ### 스테이징 및 프로덕션 환경
 
 * Pro 플랜의 스테이징 및 프로덕션 환경에서는 수동 스냅샷을 사용할 수 없습니다.
-* 사이트의 라이브 상태에 관계없이 **자동 스냅숏이 만들어집니다**(아직 시작되지 않은 사이트에 대해서도 스냅숏이 생성됨). 자동 백업은 별도의 시스템에 저장되므로 공개적으로 액세스할 수 없습니다. 티켓의 날짜, 시간 및 시간대를 제공하는 특정 백업에서 복원하거나 특수 백업을 요청하려면 [Adobe Commerce 지원 티켓을 제출](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)할 수 있습니다. 또한 지원에서 데이터베이스의 롤백 또는 복원은 자동으로 수행되지 않습니다. 스냅샷을 검색하지만 데이터베이스를 직접 복원해야 합니다.
+* 사이트의 라이브 상태에 관계없이 **자동 스냅숏이 만들어집니다**(아직 시작되지 않은 사이트에 대해서도 스냅숏이 만들어집니다). 자동 백업은 별도의 시스템에 저장되므로 공개적으로 액세스할 수 없습니다.
+티켓의 날짜, 시간 및 시간대를 제공하는 특정 백업에서 복원하거나 특수 백업을 요청하려면 [Adobe Commerce 지원 티켓을 제출](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)할 수 있습니다. 지원에서 필요 시 수동 스냅샷을 생성하지 않습니다.
+또한 지원에서 데이터베이스의 롤백 또는 복원은 자동으로 수행되지 않습니다. 스냅샷을 검색하지만 데이터베이스를 직접 복원해야 합니다.
 * **암호화된 Amazon Web Services Elastic Block Store(AWS EBS) 스냅샷**&#x200B;을 사용하여 백업이 만들어집니다.
 * 환경 스냅샷에는 전체 시스템(파일 시스템 및 데이터베이스)이 포함됩니다.
 * 자동 스냅숏 **의 보존 시간이 다릅니다**. [일정](/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=en#backup-and-disaster-recovery)을 따릅니다.
