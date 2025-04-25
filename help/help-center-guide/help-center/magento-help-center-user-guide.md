@@ -3,7 +3,7 @@ title: Adobe Commerce용 Experience League 지원 사용 안내서
 description: Experience League 지원에 지원 티켓을 제출하고, 계정에 대한 공유 액세스를 제공하고, Adobe Commerce 기술 자료를 탐색하는 방법에 대해 알아봅니다.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 46c19ec1185aa176beff9e5039a324a1f11b9aa1
+source-git-commit: 145fc1dfc197cde39d55ceac4d02ecee6c641459
 workflow-type: tm+mt
 source-wordcount: '2966'
 ht-degree: 0%
@@ -185,7 +185,7 @@ Adobe Commerce 계정 페이지를 사용하여 새 지원 티켓을 제출하�
 
 1. Adobe Experience League 지원 페이지가 로드됩니다.
 1. 왼쪽 메뉴에서 **[!UICONTROL Open Ticket]**&#x200B;을(를) 선택합니다.
-1. 필드를 채웁니다.
+1. [필드](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/support-ticket-contact-reason-descriptions)를 입력합니다.
 1. **제출**&#x200B;을 클릭합니다.
 
 #### Adobe Commerce 계정 페이지에서 *메일 주소를 확인하세요* 오류 {#verify-email-address-error}
@@ -279,8 +279,7 @@ Cloud Console을 사용하여 새 지원 티켓을 제출하려면 다음 단계
 1. 사용자 메뉴에서 **[!UICONTROL Support]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL My Tickets]** 페이지가 로드됩니다.
 1. 오른쪽 상단의 **[!UICONTROL Submit a ticket]**&#x200B;을(를) 클릭합니다.
-1. 필드를 채웁니다.
-1. **제출**&#x200B;을 클릭합니다.
+1. [필드](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/support-ticket-contact-reason-descriptions)를 입력합니다.
 1. **[!UICONTROL Submit]**&#x200B;을(를) 클릭합니다.
 
 ### Adobe Commerce 핫라인 {#P1-hotline}

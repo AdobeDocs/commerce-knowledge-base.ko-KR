@@ -2,9 +2,9 @@
 title: 지원 티켓 문제 사유 설명
 description: 이 문서에서는 지원 티켓**문제 사유** 필드 옵션을 나열하고 각 옵션에 대한 자세한 설명을 제공합니다.
 exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
-source-git-commit: e1f13098e3e0894b1d3acf9ad38fb49f6a5a54f6
+source-git-commit: f502c913964103b88bcb00f942f70439394148f5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -53,3 +53,7 @@ ht-degree: 0%
   </tr>  
 </tbody>
 </table>
+
+## 관련 읽기
+
+* Adobe Commerce용 Experience League 지원 사용 안내서의 [지원 사례를 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
