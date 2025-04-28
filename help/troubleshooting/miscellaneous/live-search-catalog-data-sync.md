@@ -4,9 +4,9 @@ description: 이 문서에서는 라이브 검색 확장을 사용할 때 카탈
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: b0d4b2e541c42095d6d09b91ba6f390064c89af6
+source-git-commit: fec99ebd6b03f2dc1b70c0ea388935dc5e60ad57
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -136,14 +136,7 @@ API 키가 변경되어 내보낸 카탈로그를 확인할 수 없거나 연결
 
 ### API 구성 변경 후 동기화
 
-(알려진 문제) API 구성을 변경하여 데이터 공간 ID가 변경되고 카탈로그 변경 사항이 더 이상 동기화되지 않는 경우 다음 명령을 실행합니다.
-
-```bash
-bin/magento saas:resync --feed products
-bin/magento saas:resync --feed productattributes
-```
-
-다음 명령을 실행하여 피드를 다시 동기화합니다.
+(알려진 문제) API 구성을 변경하여 데이터 공간 ID가 변경되고 카탈로그 변경 사항이 더 이상 동기화되지 않는 경우 다음 명령을 실행하여 피드를 다시 동기화합니다.
 
 ```
 bin/magento saas:resync --feed productattributes --cleanup-feed
@@ -158,6 +151,9 @@ bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ```
 
 Live Search 색인의 다시 색인을 요청하려면 [지원 요청을 제출](https://experienceleague.adobe.com/home?support-tab=home#support)하세요. 문제 설명에서 **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** 아래의 관리 패널에 있는 데이터 공간/환경 ID를 포함합니다.
+
+>[!IMPORTANT]
+>API 구성을 업데이트했거나 [—dry-run](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) 옵션을 사용하여 `saas:resync` 명령을 실행하는 경우에만 `--cleanup-feed` 옵션을 사용하십시오. 다른 경우에 `--cleanup-feed` 옵션을 사용하면 데이터 손실 및 데이터 동기화 문제가 발생합니다.
 
 ## 관련 읽기
 
