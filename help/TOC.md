@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 41948c702d5c4e37847ab18ca2a93798e70a8e98
+source-git-commit: 1f9b11e38ed11fc022a5afa9132130ea2a266616
 workflow-type: tm+mt
-source-wordcount: '9315'
+source-wordcount: '9326'
 ht-degree: 0%
 
 ---
@@ -708,6 +708,7 @@ ht-degree: 0%
       * [업그레이드 호환성 도구 오류 문제 해결](/help/troubleshooting/installation-and-upgrade/uct-segmentation-fault-error.md)
       * [설치 또는 업그레이드 도중 메모리 부족 오류 발생](/help/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade.md)
       * [REGEXP_LIKE 함수 누락으로 인해 B2B 1.5.2로 업그레이드하지 못하고 SQL 구문 오류가 발생합니다](/help/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function.md)
+      * [B2B 1.5.2 업데이트 후 Magento_Company 모듈 업그레이드의 성능 문제](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)
    * 사이트 다운 또는 응답하지 않음 {#site-down-or-unresponsive}
       * [원본 클로킹으로 인해 사이트에 액세스할 수 없음](/help/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking.md)
       * [웹 브라우저에서 Adobe Commerce에 액세스하는 동안 503 오류 발생](/help/troubleshooting/site-down-or-unresponsive/503-error-accessing-magento-in-web-browser.md)
