@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 1f9b11e38ed11fc022a5afa9132130ea2a266616
+source-git-commit: a4a913c9159e9267ca20da99b9d690c85667c7db
 workflow-type: tm+mt
-source-wordcount: '9326'
+source-wordcount: '9340'
 ht-degree: 0%
 
 ---
@@ -945,6 +945,7 @@ ht-degree: 0%
       * [[!DNL JQuery UI] 보안 취약성 [!DNL CVE-2022-31160] 2.4.4, 2.4.5 및 2.4.6 릴리스에 대한 수정 사항](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
       * [SOAP에서 RESTful API로 [!DNL FedEx] 배송 방법 통합 마이그레이션](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
       * [Adobe Commerce에서 최대 쿠키 수 초과 오류](/help/troubleshooting/known-issues-patches-attached/maximum-number-of-cookies-would-be-exceeded-error.md)
+      * [APSB25-08 보안 패치 이후 모든 벌크 비동기 웹 엔드포인트의 실행 시간 증가](/help/troubleshooting/known-issues-patches-attached/increased-execution-time-for-bulk-asynchronous-web-endpoints-post-apsb25-08-security-patch.md)
    * Elasticsearch {#elasticsearch}
       * [검색 엔진이  [!DNL Opensearch](으)로 설정된 경우  [!DNL Elasticsearch7] (으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Adobe Commerce cloud infrastructure 2.3.1 이상 업그레이드 후 Elasticsearch 문제](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
