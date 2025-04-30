@@ -4,14 +4,20 @@ description: 이 문서에서는 company_structure 테이블을 업데이트하�
 feature: B2B, Upgrade
 role: Admin, Developer
 exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
-source-git-commit: f83b82a95d4592252c8923720e90733115c52d87
+source-git-commit: 04e17dfdf143e233eb2767064c1328990c899eda
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
 # REGEXP_LIKE 함수 누락으로 인해 B2B 1.5.2로 업그레이드하지 못하고 SQL 구문 오류가 발생합니다
+
+>[!INFO]
+>
+>B2B 1.5.2로 업데이트한 후 `Magento_Company` 모듈을 업그레이드할 때 성능 문제가 발생하는 경우 첨부된 [ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch](assets/ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch.zip)를 적용하십시오.
+>
+>자세한 내용은 Adobe Commerce 기술 자료에서 [B2B 1.5.2 업데이트 후 Magento_Company 모듈 업그레이드의 성능 문제](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)를 참조하십시오.
 
 이 문서에서는 `company_structure` 테이블을 업데이트하려고 할 때 `REGEXP_LIKE` 함수가 누락되어 발생하는 SQL 구문 오류에 대한 핫픽스를 제공합니다.
 
