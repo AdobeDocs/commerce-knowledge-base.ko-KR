@@ -2,7 +2,7 @@
 title: '[!UICONTROL security patch]을(를) 가져오고 적용하는 방법'
 description: 이 문서에서는 릴리스된 [!UICONTROL security patch]을(를) 가져오고 적용하는 방법에 대한 지침을 제공하지만 지침을 사용할 수 없습니다.
 exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
-source-git-commit: 43c8308c6539c53f60fb6457047898a2edd46532
+source-git-commit: 3c7234b52e5e4465d95c95345e1c070c28600dfb
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 # [!UICONTROL security patch]을(를) 가져오고 적용하는 방법
 
 >[!NOTE]
->온-프레미스 설치가 있고 [!DNL CVS] 또는 [!DNL GitHub]과(와) 같은 버전 제어 시스템을 사용하여 코드를 관리하지 않는 경우 웹 호스트에서 패치 적용을 지원할 수 있습니다. 언제든지 연락하여 지원을 요청하십시오.
+>온-프레미스 설치가 있고 [!DNL CVS] 또는 [!DNL GitHub]과(와) 같은 버전 제어 시스템을 사용하여 코드를 관리하지 않는 경우 웹 호스트에서 패치 적용을 지원할 수 있습니다. 언제든지 연락하여 지원을 받으십시오.
 
 이 문서에서는 릴리스된 [!UICONTROL security patch]을(를) 가져오고 적용하는 방법에 대한 지침을 제공하지만 지침을 사용할 수 없습니다.
 
