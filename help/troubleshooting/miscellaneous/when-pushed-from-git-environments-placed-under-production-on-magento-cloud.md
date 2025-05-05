@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-상위 지점은 가맹점이 새로 만든 지점을 밀고 활성화한 후에만 설정할 수 있다. 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce > Bitbucket 통합](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch)을 참조하십시오.
+상위 지점은 가맹점이 새로 만든 지점을 밀고 활성화한 후에만 설정할 수 있다. 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce > Bitbucket 통합](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch)을 참조하십시오.
 
 서버의 기존 분기에 대한 상위 항목을 업데이트하려면 magento-cloud CLI에서 `magento-cloud environment:info` 명령을 사용하십시오.
 
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce > magento-cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview).
+* 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce > magento-cloud CLI](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview).

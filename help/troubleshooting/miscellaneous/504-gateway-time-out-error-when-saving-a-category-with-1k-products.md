@@ -64,4 +64,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-사용 안내서의 [자동 제품 리디렉션](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic).
+사용 안내서의 [자동 제품 리디렉션](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic).

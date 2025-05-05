@@ -68,5 +68,5 @@ ElasticSuite 플러그인을 버전 > 2.9.8 / 2.10.7로 업그레이드하면 �
 
 설정된 시간 빈도에서 인덱스를 삭제하려면 개발자 설명서에서 다음 문서를 참조하여 cron 작업을 만듭니다.
 
-* [사용자 지정 cron 작업 및 cron 그룹 구성(튜토리얼)](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
-* [cron 작업 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
+* [사용자 지정 cron 작업 및 cron 그룹 구성(튜토리얼)](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [cron 작업 설정](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

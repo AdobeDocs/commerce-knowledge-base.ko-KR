@@ -35,4 +35,4 @@ ht-degree: 0%
 
 ## 관련 설명서
 
-* 개발자 설명서에서 [Adobe Commerce용 클라우드 > 프로젝트 구조 > 쓰기 가능한 디렉터리](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories).
+* 개발자 설명서에서 [Adobe Commerce용 클라우드 > 프로젝트 구조 > 쓰기 가능한 디렉터리](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories).

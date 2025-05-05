@@ -31,5 +31,5 @@ Galera 데이터베이스 클러스터가 사용됩니다. Galera 데이터베�
 
 개발자 설명서에서 를 참조하십시오.
 
-* [Adobe Commerce용 클라우드 > Pro 아키텍처 > 백업 및 재해 복구](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [Adobe Commerce용 클라우드 > 필수 구성 요소 설치: 데이터베이스](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)
+* [Adobe Commerce용 클라우드 > Pro 아키텍처 > 백업 및 재해 복구](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [Adobe Commerce용 클라우드 > 필수 구성 요소 설치: 데이터베이스](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/overview)

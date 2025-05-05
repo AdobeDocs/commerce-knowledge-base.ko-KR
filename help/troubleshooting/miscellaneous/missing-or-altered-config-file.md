@@ -36,7 +36,7 @@ BAK 파일은 배포 프로세스의 결과입니다. 배포 후 구성 파일�
 
 구성 파일을 복원하려면 다음을 수행하십시오.
 
-1. [SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)을(를) 사용하여 원격 저장소에 로그인합니다.
+1. [SSH](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)을(를) 사용하여 원격 저장소에 로그인합니다.
 1. 사용 가능한 백업 파일을 나열합니다.
 
    ```

@@ -30,11 +30,11 @@ ht-degree: 0%
 
 ## 원인
 
-UI에 표시되는 로그는 사실 소스로 간주해서는 안 됩니다. 특히 배포가 성공 상태로 나열된 후 사이트가 응답하지 않거나 제대로 작동하지 않는 경우에 유용합니다. 서버의 로그에서도 확인해야 합니다. 개발자 설명서에서 [로그 보기 및 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)를 참조하십시오.
+UI에 표시되는 로그는 사실 소스로 간주해서는 안 됩니다. 특히 배포가 성공 상태로 나열된 후 사이트가 응답하지 않거나 제대로 작동하지 않는 경우에 유용합니다. 서버의 로그에서도 확인해야 합니다. 개발자 설명서에서 [로그 보기 및 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=ko)를 참조하십시오.
 
 ## 솔루션
 
-1. 로컬 환경에 [Magento 클라우드 CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html)가 설치되어 있는지 확인하십시오.
+1. 로컬 환경에 [Magento 클라우드 CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=ko)가 설치되어 있는지 확인하십시오.
 1. 다음 명령 중 하나를 실행할 수 있습니다.
 
    ```bash
@@ -70,5 +70,5 @@ UI에 표시되는 로그는 사실 소스로 간주해서는 안 됩니다. 특
 
 ## 개발자 설명서의 관련 내용:
 
-* [클라우드 인프라의 Adobe Commerce > 빌드 및 배포](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
-* [클라우드 인프라의 Adobe Commerce > 로그 보기 및 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+* [클라우드 인프라의 Adobe Commerce > 빌드 및 배포](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=ko)
+* [클라우드 인프라의 Adobe Commerce > 로그 보기 및 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=ko)

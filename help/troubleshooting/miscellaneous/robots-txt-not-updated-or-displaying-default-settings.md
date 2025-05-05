@@ -42,8 +42,8 @@ ht-degree: 0%
 
 ## 솔루션
 
-검색 엔진별 색인화를 활성화합니다. 개발자 설명서에서 [검색 엔진별 색인화 구성](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine)을 참조하십시오.
+검색 엔진별 색인화를 활성화합니다. 개발자 설명서에서 [검색 엔진별 색인화 구성](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine)을 참조하십시오.
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [사이트 맵 및 검색 엔진 로봇을 추가](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)합니다.
+* 개발자 설명서에서 [사이트 맵 및 검색 엔진 로봇을 추가](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)합니다.

@@ -66,11 +66,11 @@ ht-degree: 0%
 
 공유 계정으로 만든 키를 사용하는 경우 액세스 권한을 제공하는 Adobe Commerce 라이선스 소유자에게 연락하여 키 생성을 요청해야 합니다.
 
-결제 문제로 인해 라이선스가 이전에 취소되어 문제가 해결되었고 라이선스가 갱신되었다면 [새 인증 키를 생성](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html)해야 합니다.
+결제 문제로 인해 라이선스가 이전에 취소되어 문제가 해결되었고 라이선스가 갱신되었다면 [새 인증 키를 생성](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=ko)해야 합니다.
 
 ### 2. env:COMPOSER\_AUTH 변수에 키 값을 추가하고 auth.json에 동일한 키가 지정되어 있는지 확인합니다
 
-개발자 설명서에서 [기존 시스템 준비](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) 및 [인증 키 추가](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview)의 지침 및 관련 정보를 참조하십시오.
+개발자 설명서에서 [기존 시스템 준비](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/project/overview) 및 [인증 키 추가](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/project/overview)의 지침 및 관련 정보를 참조하십시오.
 
 ### 3. auth.json 업데이트 또는 삭제
 

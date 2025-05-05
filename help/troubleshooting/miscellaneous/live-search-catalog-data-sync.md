@@ -31,9 +31,9 @@ ht-degree: 0%
 
 <u>재현 단계</u>
 
-1. 사용자 설명서의 [라이브 검색 설치 > API 키 구성](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys)에 설명된 대로 Adobe Commerce 인스턴스에 대한 라이브 검색을 구성하고 연결합니다.
-1. 30분 후 사용자 설명서의 [라이브 검색 설치 > 내보내기 확인](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export)에 설명된 대로 내보낸 카탈로그 데이터를 확인합니다.
-1. 30분 후 사용자 설명서의 [라이브 검색 설치 > 연결 테스트](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection)에 설명된 대로 연결을 테스트하십시오.
+1. 사용자 설명서의 [라이브 검색 설치 > API 키 구성](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=ko#configure-api-keys)에 설명된 대로 Adobe Commerce 인스턴스에 대한 라이브 검색을 구성하고 연결합니다.
+1. 30분 후 사용자 설명서의 [라이브 검색 설치 > 내보내기 확인](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=ko#verify-export)에 설명된 대로 내보낸 카탈로그 데이터를 확인합니다.
+1. 30분 후 사용자 설명서의 [라이브 검색 설치 > 연결 테스트](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=ko#test-connection)에 설명된 대로 연결을 테스트하십시오.
 
 Or
 
@@ -150,13 +150,13 @@ bin/magento saas:resync --feed categories --cleanup-feed
 bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ```
 
-Live Search 색인의 다시 색인을 요청하려면 [지원 요청을 제출](https://experienceleague.adobe.com/home?support-tab=home#support)하세요. 문제 설명에서 **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** 아래의 관리 패널에 있는 데이터 공간/환경 ID를 포함합니다.
+Live Search 색인의 다시 색인을 요청하려면 [지원 요청을 제출](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)하세요. 문제 설명에서 **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** 아래의 관리 패널에 있는 데이터 공간/환경 ID를 포함합니다.
 
 >[!IMPORTANT]
->API 구성을 업데이트했거나 [—dry-run](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) 옵션을 사용하여 `saas:resync` 명령을 실행하는 경우에만 `--cleanup-feed` 옵션을 사용하십시오. 다른 경우에 `--cleanup-feed` 옵션을 사용하면 데이터 손실 및 데이터 동기화 문제가 발생합니다.
+>API 구성을 업데이트했거나 [—dry-run](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) 옵션을 사용하여 `saas:resync` 명령을 실행하는 경우에만 `--cleanup-feed` 옵션을 사용하십시오. 다른 경우에 `--cleanup-feed` 옵션을 사용하면 데이터 손실 및 데이터 동기화 문제가 발생합니다.
 
 ## 관련 읽기
 
-* 사용자 설명서의 [실시간 검색 온보딩](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)
-* Adobe Commerce SaaS 데이터 내보내기 안내서의 [로그 검토 및 Adobe Commerce SaaS 데이터 내보내기 및 동기화 문제 해결](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 사용자 설명서의 [실시간 검색 온보딩](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html?lang=ko)
+* Adobe Commerce SaaS 데이터 내보내기 안내서의 [로그 검토 및 Adobe Commerce SaaS 데이터 내보내기 및 동기화 문제 해결](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

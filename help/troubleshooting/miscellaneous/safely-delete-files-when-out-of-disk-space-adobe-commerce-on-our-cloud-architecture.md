@@ -1,6 +1,6 @@
 ---
 title: 클라우드 인프라의 Adobe Commerce에서 디스크 공간이 부족할 때 파일을 안전하게 삭제
-description: 이 문서에서는 디스크 공간이 부족하여 파일을 안전하게 제거해야 하는 경우에 대한 해결 방법을 제공합니다. 이 작업을 고려하기 전에 개발자 설명서에서 [디스크 공간 관리](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#no-space-left)를 검토하십시오. 해당 문서의 단계가 적합하지 않거나 문제를 해결할 수 없는 경우 이 문서의 단계를 검토하십시오.
+description: 이 문서에서는 디스크 공간이 부족하여 파일을 안전하게 제거해야 하는 경우에 대한 해결 방법을 제공합니다. 이 작업을 고려하기 전에 개발자 설명서에서 [디스크 공간 관리](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#no-space-left)를 검토하십시오. 해당 문서의 단계가 적합하지 않거나 문제를 해결할 수 없는 경우 이 문서의 단계를 검토하십시오.
 exl-id: 6b0a5c1a-8db4-49d7-a785-b4e0bbaea0df
 feature: Cloud, Paas
 role: Developer
@@ -59,4 +59,4 @@ FS='/data/exports';NUMRESULTS=20;resize;clear; echo "Please find below the Large
 
 개발자 설명서에서:
 
-* [디스크 공간 관리](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)
+* [디스크 공간 관리](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)

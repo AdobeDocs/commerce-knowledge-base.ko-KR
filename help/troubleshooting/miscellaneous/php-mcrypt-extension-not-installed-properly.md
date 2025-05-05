@@ -29,7 +29,7 @@ exception 'Exception' with message 'PHP Warning: PHP Startup: Unable to load dyn
 Installing data fixtures:
 /usr/bin/php -f '/Users/username/www/magento/dev/shell/run_data_fixtures.php' -- --bootstrap='MAGE_DIRS[base][path]=/Users/username/www/magento' 2>&1
 [ERROR] exception 'Exception' with message '
-Fatal error: Uncaught exception 'Exception' with message 'Module 'Magento_Core' depends on 'mcrypt' PHP [extension](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#extension) that is not loaded.'
+Fatal error: Uncaught exception 'Exception' with message 'Module 'Magento_Core' depends on 'mcrypt' PHP [extension](https://experienceleague.adobe.com/ko/docs/commerce-operations/operational-playbook/glossary#extension) that is not loaded.'
 ```
 
 ```php
@@ -60,4 +60,4 @@ mcrypt가 *설치되지 않은*&#x200B;경우 다음과 유사한 메시지가 �
 PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212/mcrypt.so' - /usr/lib/php5/20121212/mcrypt.so: cannot open shared object file: No such file or directory in Unknown on line 0
 ```
 
-경우에 따라 [명령줄](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)에서 Adobe Commerce 소프트웨어를 설치하고 mcrypt가 설치된 LAMP 스택에 대한 전체 경로를 지정해야 할 수 있습니다.
+경우에 따라 [명령줄](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/advanced)에서 Adobe Commerce 소프트웨어를 설치하고 mcrypt가 설치된 LAMP 스택에 대한 전체 경로를 지정해야 할 수 있습니다.

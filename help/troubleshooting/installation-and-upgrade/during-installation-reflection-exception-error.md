@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Adobe Commerce의 `var` 하위 디렉터리에서 모든 디렉터리와 파일을 지우고 Adobe Commerce 소프트웨어를 다시 설치하십시오.
 
-[Adobe Commerce 파일 시스템 소유자](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) 또는 `root` 권한이 있는 사용자로 다음 명령을 입력하십시오.
+[Adobe Commerce 파일 시스템 소유자](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) 또는 `root` 권한이 있는 사용자로 다음 명령을 입력하십시오.
 
 ```bash
 $ cd <your Magento install directory>/var

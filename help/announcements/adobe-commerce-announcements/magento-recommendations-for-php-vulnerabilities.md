@@ -28,7 +28,7 @@ Adobe Commerce 사이트에 대한 영향 및 단계는 을 참조하십시오.
 이 업데이트의 클라우드 사이트 재배포에 대한 추가 참고 사항:
 
 * 사이트에서 여전히 PHP 버전 7.0을 사용하는 경우 이러한 보안 업데이트를 활용하려면 먼저 지원되는 PHP 버전으로 업그레이드한 후 다시 배포해야 합니다.
-* 2.1.x/2.2.x의 경우 PHP 업그레이드에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html)에서 확인할 수 있습니다.
+* 2.1.x/2.2.x의 경우 PHP 업그레이드에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=ko)에서 확인할 수 있습니다.
 
 \* *이 문서와 메시지의 이전 버전은 9월 19일에 명시되었지만, 우리 팀은 일정보다 빨리 작업을 완료했습니다.*
 

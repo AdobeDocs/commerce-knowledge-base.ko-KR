@@ -20,7 +20,7 @@ ht-degree: 0%
 
 정품 Adobe Commerce 오류와 오류 보고서 번호가 표시되면 다음 단계에 따라 오류 보고서 파일에 세부 정보를 가져올 수 있습니다.
 
-1. 영향을 받는 환경에 SSH를 추가합니다. 개발자 설명서에서 [환경에 대한 SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)을(를) 참조하십시오.
+1. 영향을 받는 환경에 SSH를 추가합니다. 개발자 설명서에서 [환경에 대한 SSH](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/secure-connections)을(를) 참조하십시오.
 1. `./var/report/{error_number}` 파일을 찾습니다.
 
 ## 호스트 파일에 애플리케이션 도메인 및 IP 주소 추가: 자세한 단계

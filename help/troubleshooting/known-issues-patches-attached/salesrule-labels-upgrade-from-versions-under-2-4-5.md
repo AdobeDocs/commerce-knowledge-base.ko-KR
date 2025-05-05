@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 패치 적용 방법
 
-1. Commerce 안내서의 [업그레이드 수행](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)의 단계를 따릅니다.
+1. Commerce 안내서의 [업그레이드 수행](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ko)의 단계를 따릅니다.
 1. **[!UICONTROL Update metadata]** 단계 전에 연결된 패치를 적용하십시오.
 **[!UICONTROL Update metadata]** 단계를 완료한 후 패치를 적용할 수도 있지만 `bin/magento setup:upgrade`을(를) 다시 실행해야 합니다.
-1. [업그레이드 수행](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)의 나머지 단계를 진행합니다.
+1. [업그레이드 수행](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ko)의 나머지 단계를 진행합니다.

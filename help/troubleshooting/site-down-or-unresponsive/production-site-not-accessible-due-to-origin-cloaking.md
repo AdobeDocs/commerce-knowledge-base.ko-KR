@@ -47,9 +47,9 @@ https:/&#x200B;/mydomain.com.c.&lt;projectid>.magento.cloud/는 더 이상 액�
 ## 솔루션
 
 * 클라우드 사이트가 라이브 상태인 경우 https://mydomain.com/으로 전환합니다.
-* https://mydomain.com/ 도메인을 사용하는 활성 사이트(클라우드 이외)가 있는 경우 하위 도메인 `mcprod.mydomain.com`을(를) 설정하고 대신 **기본 URL**&#x200B;을(를) *https://mcprod.mydomain.com*(으)로 업데이트한 다음 [DNS를 Fastly로 지정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings)합니다.
+* https://mydomain.com/ 도메인을 사용하는 활성 사이트(클라우드 이외)가 있는 경우 하위 도메인 `mcprod.mydomain.com`을(를) 설정하고 대신 **기본 URL**&#x200B;을(를) *https://mcprod.mydomain.com*(으)로 업데이트한 다음 [DNS를 Fastly로 지정](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings)합니다.
 
 ## 관련 읽기
 
 * 지원 기술 자료의 [빠른 원본 차단 사용 FAQ](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
-* 지원 기술 자료에서 [새 도메인 설정에 대한 검사 목록](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain)
+* 지원 기술 자료에서 [새 도메인 설정에 대한 검사 목록](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain)

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 문제
 
-2022년 8월에 판매자가 DHL 배송을 계속 제공할 수 있도록 [DHL 스키마 버전 6.2의 업그레이드 및 수정 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html)를 릴리스했습니다. DHL은 2022년 10월에 새로운 스키마(버전 10.0)를 다시 도입했으며 이전 버전(6.2 스키마)은 2022년 12월 말에 더 이상 사용되지 않을 예정입니다. Adobe Commerce 2.4.5 및 이전 버전의 DHL 통합은 버전 6.2만 지원합니다.
+2022년 8월에 판매자가 DHL 배송을 계속 제공할 수 있도록 [DHL 스키마 버전 6.2의 업그레이드 및 수정 패치](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html?lang=ko)를 릴리스했습니다. DHL은 2022년 10월에 새로운 스키마(버전 10.0)를 다시 도입했으며 이전 버전(6.2 스키마)은 2022년 12월 말에 더 이상 사용되지 않을 예정입니다. Adobe Commerce 2.4.5 및 이전 버전의 DHL 통합은 버전 6.2만 지원합니다.
 
 ## 솔루션
 
@@ -35,8 +35,8 @@ ht-degree: 0%
 
 배포 방법에 따라 [!DNL Quality Patches Tool]을(를) 사용하고 패치를 설치하는 방법에 대한 다음 링크를 참조하세요.
 
-* Adobe Commerce 온-프레미스 및 Magento Open Source: Adobe Experience League의 [품질 패치 도구 > 사용량](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
-* 클라우드 인프라의 Adobe Commerce: 개발자 설명서에서 [업그레이드 및 패치 > 패치 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches).
+* Adobe Commerce 온-프레미스 및 Magento Open Source: Adobe Experience League의 [품질 패치 도구 > 사용량](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=ko).
+* 클라우드 인프라의 Adobe Commerce: 개발자 설명서에서 [업그레이드 및 패치 > 패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches).
 
 **패치는 다음 Adobe Commerce 버전(모든 배포 방법)에 적용됩니다.**
 
@@ -44,13 +44,13 @@ ht-degree: 0%
 
 ## 유용한 링크
 
-* Adobe Experience League의 [[!DNL Quality Patches Tool] > 릴리스 정보](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html).
+* Adobe Experience League의 [[!DNL Quality Patches Tool] > 릴리스 정보](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html?lang=ko).
 
-* [[!DNL Quality Patches Tool]: Adobe Experience League에서 ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 패치를 검색합니다.
+* [[!DNL Quality Patches Tool]: Adobe Experience League에서 ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ko) 패치를 검색합니다.
 
 ## 관련 읽기
 
-* 지원 기술 자료에서 [DHL을 배송 운송업체로 계속 제공하려면 패치를 적용하세요](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html).
+* 지원 기술 자료에서 [DHL을 배송 운송업체로 계속 제공하려면 패치를 적용하세요](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html?lang=ko).
 
-* 사용 안내서의 [운송업체 > DHL](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl.html).
-* 사용 안내서의 [구성 참조 > 판매 > 게재 방법](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/delivery-methods.html).
+* 사용 안내서의 [운송업체 > DHL](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl.html?lang=ko).
+* 사용 안내서의 [구성 참조 > 판매 > 게재 방법](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/delivery-methods.html?lang=ko).

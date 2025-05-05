@@ -46,6 +46,6 @@ Adobe Commerce 2.3 및 Adobe Commerce 2.4 스토어 모두에 속성 값이 `Sag
 
 ## 관련 읽기
 
-사용 안내서에서 [Live Search 설치](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html)
+사용 안내서에서 [Live Search 설치](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=ko)
 
-개발자 설명서에서 [실시간 검색](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview).
+개발자 설명서에서 [실시간 검색](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/live-search/overview).

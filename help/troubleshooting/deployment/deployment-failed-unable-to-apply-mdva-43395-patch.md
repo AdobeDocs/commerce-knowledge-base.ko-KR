@@ -25,7 +25,7 @@ MDVA-43395 패치를 적용할 수 없습니다.
 
 ## 원인
 
-이미 패치가 포함된 [magento/magento-cloud-patches 1.0.16](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016)이(가) 설치되어 있는 경우 클라우드 판매자는 MDVA-43395 패치를 별도로 적용할 필요가 없습니다.
+이미 패치가 포함된 [magento/magento-cloud-patches 1.0.16](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016)이(가) 설치되어 있는 경우 클라우드 판매자는 MDVA-43395 패치를 별도로 적용할 필요가 없습니다.
 
 ## 솔루션
 
@@ -45,4 +45,4 @@ $ vendor/bin/magento-patches -n status |grep 43443
 ## 관련 읽기
 
 * 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
-* 개발자 설명서에서 [Commerce용 클라우드 패치](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016)
+* 개발자 설명서에서 [Commerce용 클라우드 패치](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches#v1016)

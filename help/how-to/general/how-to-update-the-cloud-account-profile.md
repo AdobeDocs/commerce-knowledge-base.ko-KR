@@ -42,4 +42,4 @@ ht-degree: 0%
 
 현재 계정의 소유권을 새 소유자 또는 다른 이메일 주소로 전송해야 하는 경우 계정과 연결된 기본 사용자 이메일을 업데이트해야 합니다.
 
-다음을 참조하세요. [https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en)
+다음을 참조하세요. [https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=ko](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=ko)

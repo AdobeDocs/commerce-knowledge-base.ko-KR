@@ -58,4 +58,4 @@ php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid)
+* 개발자 설명서에서 [SendGrid](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/project/sendgrid)

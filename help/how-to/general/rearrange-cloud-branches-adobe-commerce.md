@@ -29,12 +29,12 @@ ht-degree: 0%
 
 클라우드 분기를 다시 정렬하려면 다음을 수행하십시오.
 
-1. [[!DNL Super User]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 역할이 있어야 합니다.
+1. [[!DNL Super User]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko) 역할이 있어야 합니다.
 1. magento-cloud [!DNL CLI]을(를) 설치합니다(설치하지 않은 경우).
 1. 이동해야 하는 분기에 대해 다음 명령을 실행합니다.
    `magento-cloud environment:info -e <branch to move> parent <target parent>`
 
-참고: 새 분기를 만들 때 상위 분기를 지정할 수 있습니다. 단계는 개발자 설명서에서 [분기 만들기를 시작하는 중](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches)을 참조하세요.
+참고: 새 분기를 만들 때 상위 분기를 지정할 수 있습니다. 단계는 개발자 설명서에서 [분기 만들기를 시작하는 중](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/cli-branches)을 참조하세요.
 
 `branch <environment-name> <parent-environment-ID>` magento-cloud 환경 명령을 사용하여 새 환경 분기를 만들 수 있습니다.
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-개발자 설명서에서 [ [!DNL CLI]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches)을(를) 사용하여 분기를 관리합니다.
+개발자 설명서에서 [ [!DNL CLI]](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/cli-branches)을(를) 사용하여 분기를 관리합니다.

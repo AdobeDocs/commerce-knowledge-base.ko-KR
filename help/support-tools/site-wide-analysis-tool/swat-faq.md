@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce on cloud infrastructure v2.4.1 이상에서는 [!DNL Site-Wide Analysis Tool]을(를) Commerce 관리 패널을 통해 사용할 수 있습니다. 따라서 고객이 직접 [!DNL Site-Wide Analysis Tool] 보고서를 실행할 수 있습니다. 액세스 세부 정보는 [[!DNL Site-Wide Analysis Tool] 안내서](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)를 참조하십시오.
+>Adobe Commerce on cloud infrastructure v2.4.1 이상에서는 [!DNL Site-Wide Analysis Tool]을(를) Commerce 관리 패널을 통해 사용할 수 있습니다. 따라서 고객이 직접 [!DNL Site-Wide Analysis Tool] 보고서를 실행할 수 있습니다. 액세스 세부 정보는 [[!DNL Site-Wide Analysis Tool] 안내서](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=ko)를 참조하십시오.
 
 ## [!DNL Site-Wide Analysis Tool]이란?
 

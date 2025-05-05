@@ -122,5 +122,5 @@ URL 키에는 _shipping_&#x200B;이라는 용어를 사용할 수 없습니다. 
 
 ## 관련 읽기
 
-* 머천다이징 및 프로모션 사용 안내서의 [URL 재작성](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite).
-* 머천다이징 및 프로모션 사용 안내서의 [SEO 모범 사례](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview).
+* 머천다이징 및 프로모션 사용 안내서의 [URL 재작성](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite).
+* 머천다이징 및 프로모션 사용 안내서의 [SEO 모범 사례](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/seo-overview).

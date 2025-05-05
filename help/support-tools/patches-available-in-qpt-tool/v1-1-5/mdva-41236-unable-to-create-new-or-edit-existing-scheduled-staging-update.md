@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-41236: 제품에 대해 새로 만들거나 기존 예약된 업데이트를 편집할 수 없음'
-description: MDVA-41236 패치는 이전에 "종료 날짜"를 제거한 경우 사용자가 제품에 대해 새 업데이트를 만들거나 기존 예약된 업데이트를 편집할 수 없는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-41236입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
+description: MDVA-41236 패치는 이전에 "종료 날짜"를 제거한 경우 사용자가 제품에 대해 새 업데이트를 만들거나 기존 예약된 업데이트를 편집할 수 없는 문제를 해결합니다. 이 패치는 [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-41236입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
 exl-id: 00d6c0af-f248-49f6-aaa2-3ae3c0294832
 feature: Products, Staging
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-41236: 제품에 대해 새로 만들거나 기존 예약된 업데이트를 편집할 수 없음
 
-MDVA-41236 패치는 이전에 &quot;종료 날짜&quot;를 제거한 경우 사용자가 제품에 대해 새 업데이트를 만들거나 기존 예약된 업데이트를 편집할 수 없는 문제를 해결합니다. 이 패치는 [품질 패치 도구(QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5가 설치된 경우에 사용할 수 있습니다. 패치 ID는 MDVA-41236입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
+MDVA-41236 패치는 이전에 &quot;종료 날짜&quot;를 제거한 경우 사용자가 제품에 대해 새 업데이트를 만들거나 기존 예약된 업데이트를 편집할 수 없는 문제를 해결합니다. 이 패치는 [품질 패치 도구(QPT)](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5가 설치된 경우에 사용할 수 있습니다. 패치 ID는 MDVA-41236입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -27,7 +27,7 @@ Adobe Commerce(모든 배포 방법) 2.3.0 - 2.4.3-p1
 
 >[!NOTE]
 >
->이 패치는 새로운 품질 패치 도구 릴리스가 있는 다른 버전에 적용할 수 있습니다. 패치가 Adobe Commerce 버전과 호환되는지 확인하려면 `magento/quality-patches` 패키지를 최신 버전으로 업데이트하고 [[!DNL Quality Patches Tool]에서 호환성을 확인합니다. 패치 검색 페이지](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 패치 ID를 검색 키워드로 사용하여 패치를 찾습니다.
+>이 패치는 새로운 품질 패치 도구 릴리스가 있는 다른 버전에 적용할 수 있습니다. 패치가 Adobe Commerce 버전과 호환되는지 확인하려면 `magento/quality-patches` 패키지를 최신 버전으로 업데이트하고 [[!DNL Quality Patches Tool]에서 호환성을 확인합니다. 패치 검색 페이지](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ko). 패치 ID를 검색 키워드로 사용하여 패치를 찾습니다.
 
 ## 문제
 
@@ -61,8 +61,8 @@ Adobe Commerce(모든 배포 방법) 2.3.0 - 2.4.3-p1
 
 개별 패치를 적용하려면 배포 방법에 따라 다음 링크를 사용합니다.
 
-* 개발자 설명서에서 Adobe Commerce 또는 Magento Open Source 온-프레미스: [소프트웨어 업데이트 안내서 > 패치 적용](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage).
-* 클라우드 인프라의 Adobe Commerce: 개발자 설명서에서 [업그레이드 및 패치 > 패치 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches).
+* 개발자 설명서에서 Adobe Commerce 또는 Magento Open Source 온-프레미스: [소프트웨어 업데이트 안내서 > 패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/usage).
+* 클라우드 인프라의 Adobe Commerce: 개발자 설명서에서 [업그레이드 및 패치 > 패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches).
 
 ## 관련 읽기
 

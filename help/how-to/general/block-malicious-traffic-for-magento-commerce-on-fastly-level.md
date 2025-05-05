@@ -24,7 +24,7 @@ ht-degree: 0%
 
 웹 사이트가 DDoS에 의해 오버로드되는 경우 Commerce 관리자에 로그인하지 못할 수 있습니다(및 이 문서에 자세히 설명된 모든 단계를 수행).
 
-관리자에 액세스하려면 [유지 관리 모드 활성화 또는 비활성화](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)에 설명된 대로 웹 사이트를 유지 관리 모드로 전환하고 IP 주소를 허용 목록에 추가하십시오. 이 작업을 완료한 후 유지 관리 모드를 비활성화합니다.
+관리자에 액세스하려면 [유지 관리 모드 활성화 또는 비활성화](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)에 설명된 대로 웹 사이트를 유지 관리 모드로 전환하고 IP 주소를 허용 목록에 추가하십시오. 이 작업을 완료한 후 유지 관리 모드를 비활성화합니다.
 
 ## IP별 트래픽 차단
 
@@ -74,7 +74,7 @@ name: block_bad_useragents
 * 로봇은 `robots.txt`을(를) 무시할 수 있습니다. 특히 보안 취약점이 있는지 웹을 검색하는 멀웨어 로봇, 스패머가 사용하는 이메일 주소 추수기 등은 주의를 기울이지 않는다.
 * `robots.txt` 파일은 공개적으로 사용할 수 있는 파일입니다. 모든 사람이 사용자의 서버에서 로봇이 사용하지 않았으면 하는 섹션을 볼 수 있습니다.
 
-기본 정보 및 기본 Adobe Commerce `robots.txt` 구성은 개발자 설명서의 [검색 엔진 로봇](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) 문서에서 확인할 수 있습니다.
+기본 정보 및 기본 Adobe Commerce `robots.txt` 구성은 개발자 설명서의 [검색 엔진 로봇](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) 문서에서 확인할 수 있습니다.
 
 `robots.txt`에 대한 일반 정보 및 권장 사항에 대해서는 다음을 참조하십시오.
 
@@ -86,4 +86,4 @@ name: block_bad_useragents
 ## 관련 읽기
 
 * [Cloud의 Adobe Commerce에 대한 제품별 라이선스 약관](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
-* Commerce on Cloud Guide의 [차단 요청에 대한 사용자 지정 VCL](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)
+* Commerce on Cloud Guide의 [차단 요청에 대한 사용자 지정 VCL](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)

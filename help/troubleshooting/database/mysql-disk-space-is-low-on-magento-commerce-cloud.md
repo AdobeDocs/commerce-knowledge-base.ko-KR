@@ -78,7 +78,7 @@ df -h
 
 [!DNL MySQL]을(를) 원래 상태로 되돌리거나 중단되지 않도록 하는 즉각적인 단계를 수행할 수 있습니다. 큰 테이블을 플러시하여 공간을 확보하십시오.
 
-그러나 장기 솔루션에는 더 많은 공간을 할당하고 [주문/송장/배송 보관](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive) 기능을 사용하도록 설정하는 등 [데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)를 따르는 것이 포함됩니다.
+그러나 장기 솔루션에는 더 많은 공간을 할당하고 [주문/송장/배송 보관](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/order-archive) 기능을 사용하도록 설정하는 등 [데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=ko)를 따르는 것이 포함됩니다.
 
 다음은 빠른 솔루션과 장기적인 솔루션에 대한 세부 사항입니다.
 
@@ -124,7 +124,7 @@ Size Used Avail Use% Mounted on·
 
 >[!WARNING]
 >
->조작을 수행하기 전에 데이터베이스 백업을 만들고 사이트 로드가 많은 기간 동안에는 이를 피하는 것이 좋습니다. 개발자 설명서에서 [데이터베이스 덤프](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)를 참조하십시오.
+>조작을 수행하기 전에 데이터베이스 백업을 만들고 사이트 로드가 많은 기간 동안에는 이를 피하는 것이 좋습니다. 개발자 설명서에서 [데이터베이스 덤프](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)를 참조하십시오.
 
 큰 테이블이 있는지 확인하고 플러시할 수 있는 테이블이 있는지 확인합니다. 기본(소스) 노드에서 이 작업을 수행합니다.
 
@@ -132,7 +132,7 @@ Size Used Avail Use% Mounted on·
 
 대용량 보고서 테이블이 없는 경우 Adobe Commerce 응용 프로그램을 정상 상태로 되돌리기 위해 `_index` 테이블을 플러시하는 것이 좋습니다. `index_price`개 테이블이 가장 적합한 후보입니다. 예를 들어 `catalog_category_product_index_storeX`개의 테이블을 사용합니다. 여기서 X는 &quot;1&quot;부터 최대 저장소 개수까지의 값을 가질 수 있습니다. 이러한 테이블의 데이터를 복원하려면 색인을 다시 지정해야 하며 큰 카탈로그의 경우 이 색인 재지정에 많은 시간이 걸릴 수 있습니다.
 
-플러시하고 나면 wsrep 동기화가 완료될 때까지 기다립니다. 이제 백업을 만들고 더 많은 공간을 할당/구매하고 [주문/송장/배송 보관](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive) 기능을 활성화하는 등 더 중요한 단계를 수행하여 공간을 추가할 수 있습니다.
+플러시하고 나면 wsrep 동기화가 완료될 때까지 기다립니다. 이제 백업을 만들고 더 많은 공간을 할당/구매하고 [주문/송장/배송 보관](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/order-management/orders/order-archive) 기능을 활성화하는 등 더 중요한 단계를 수행하여 공간을 추가할 수 있습니다.
 
 ### 이진 로깅 설정 확인
 
@@ -151,4 +151,4 @@ Size Used Avail Use% Mounted on·
 
 ## 관련 읽기
 
-Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

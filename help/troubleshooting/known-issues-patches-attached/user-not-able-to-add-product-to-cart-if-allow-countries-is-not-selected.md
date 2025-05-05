@@ -65,4 +65,4 @@ customer-data.js:87 Uncaught Error: [object Object]
 
 ## 유용한 링크
 
-개발자 설명서에서 [클라우드 인프라의 Adobe Commerce에 사용자 지정 패치를 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)합니다.
+개발자 설명서에서 [클라우드 인프라의 Adobe Commerce에 사용자 지정 패치를 적용](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)합니다.

@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## 관련 읽기
 
-유지 관리 모드를 사용하는 방법에 대해 알아보려면 개발자 설명서에서 [유지 관리 모드 사용 또는 사용 안 함](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)을 참조하세요.
+유지 관리 모드를 사용하는 방법에 대해 알아보려면 개발자 설명서에서 [유지 관리 모드 사용 또는 사용 안 함](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)을 참조하세요.

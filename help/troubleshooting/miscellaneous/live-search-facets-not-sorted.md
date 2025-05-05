@@ -22,7 +22,7 @@ Adobe Commerce 버전 2.4.x 이상
 
 ## 해결 방법
 
-그러나 특정 경계 사례에서는 패싯이 [[!DNL Live Search] 페이스팅 작업 영역](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace)에 설정된 대로 알파벳순으로 정렬되지 않을 수 있습니다.
+그러나 특정 경계 사례에서는 패싯이 [[!DNL Live Search] 페이스팅 작업 영역](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace)에 설정된 대로 알파벳순으로 정렬되지 않을 수 있습니다.
 
 해결 방법으로 [!UICONTROL Admin] 특성 섹션에서 제품 특성을 정렬할 수 있습니다.
 

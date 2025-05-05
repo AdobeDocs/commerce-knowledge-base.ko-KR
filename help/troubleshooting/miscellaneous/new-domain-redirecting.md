@@ -29,15 +29,15 @@ ht-degree: 0%
 
 ## 솔루션
 
-1. 도메인이 동일한 환경 내에서 리디렉션되는 경우 [변수](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables)을(를) 구성했는지 확인하십시오.
+1. 도메인이 동일한 환경 내에서 리디렉션되는 경우 [변수](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=ko#modify-variables)을(를) 구성했는지 확인하십시오.
 1. 도메인이 다른 환경으로 리디렉션되는 경우 다음 명령을 실행하여 올바른 [!DNL Fastly] 서비스를 구성했는지 확인하십시오. `bin/magento fastly:conf:get -s`
 
 >[!NOTE]
 >
->각 환경(스테이징/프로덕션)에 로그인하고 `/mnt/shared/fastly_tokens.txt` 파일을 확인하여 [!DNL Fastly] API 자격 증명을 찾을 수 있습니다. 자세한 내용은 Commerce on Cloud Infrastructure Guide의 [configure [!DNL Fastly] services](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)를 참조하십시오.
+>각 환경(스테이징/프로덕션)에 로그인하고 `/mnt/shared/fastly_tokens.txt` 파일을 확인하여 [!DNL Fastly] API 자격 증명을 찾을 수 있습니다. 자세한 내용은 Commerce on Cloud Infrastructure Guide의 [configure [!DNL Fastly] services](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko)를 참조하십시오.
 
 위의 구성이 모두 올바른 경우 지원 티켓을 제출합니다.
 
 ## 관련 읽기
 
-* 지원 기술 자료에서 [새 도메인 설정에 대한 검사 목록](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html).
+* 지원 기술 자료에서 [새 도메인 설정에 대한 검사 목록](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html?lang=ko).

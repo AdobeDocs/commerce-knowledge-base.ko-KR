@@ -27,7 +27,7 @@ For example:
 
 `max_execution_time = 120`
 
-[php.ini 설정 사용자 지정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) 문서를 참조하십시오.
+[php.ini 설정 사용자 지정](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/app/php-settings) 문서를 참조하십시오.
 
 ## 예
 
@@ -35,7 +35,7 @@ For example:
 
 ## 솔루션
 
-`php.ini` 설정을 사용자 지정합니다. 이 [php.ini 설정 사용자 지정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) 문서를 참조하십시오.
+`php.ini` 설정을 사용자 지정합니다. 이 [php.ini 설정 사용자 지정](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/app/php-settings) 문서를 참조하십시오.
 
 ## 예
 
@@ -65,9 +65,9 @@ MySQL 환경의 디스크 공간이 부족합니다. MySQL 환경에 더 많은 
 
 개발자 설명서에서:
 
-* [PHP 설정 오류](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
-* [필요한 PHP 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
-* [Redis 확인](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
-* [Redis 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
-* [PHP 메모리 제한 오류](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [PHP 설정 오류](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [필요한 PHP 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [Redis 확인](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [Redis 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [PHP 메모리 제한 오류](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/overview)
 * [일반적인 문제에 대한 해결 방법 - 메모리 제한](https://developer.adobe.com/commerce/testing/guide/unit/command-line/#solutions-to-common-problems)

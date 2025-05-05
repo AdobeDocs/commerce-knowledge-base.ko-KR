@@ -28,7 +28,7 @@ ht-degree: 0%
 * 클라우드 환경에 대한 서드파티 공급업체 액세스 권한을 제공합니다. 관련 문서:
 
    * [Adobe Commerce 도움말 센터 사용 안내서 > 공유 액세스: 다른 사용자가 귀하의 계정에 액세스할 수 있는 권한을 부여합니다](/help/help-center-guide/help-center/magento-help-center-user-guide.md#shared-access).
-   * 사용 안내서에서 [Commerce 계정 공유](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share).
+   * 사용 안내서에서 [Commerce 계정 공유](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/commerce-account/commerce-account-share).
 
 * 데이터베이스 덤프를 만들거나 타사 공급업체에 이 작업을 수행할 수 있는 액세스 권한을 부여합니다. 이 작업은 CLI 를 사용하거나 Commerce 관리에서 수행할 수 있습니다. 이 DB 덤프는 고객 데이터를 난독화하므로 고유/고객 데이터가 없는 코드 및 제품 SKU 등이 제공됩니다. 참조용으로 지원 기술 자료에서 [Commerce 계정 공유](/help/how-to/general/create-database-dump-on-cloud.md)를 사용하십시오.
 * 테스트가 완료되면 지원 기술 자료의 [Adobe Commerce 도움말 센터 사용 안내서 > 취소(공유 액세스 삭제)](/help/help-center-guide/help-center/magento-help-center-user-guide.md#revoke-shared-access)에 설명된 대로 클라우드 환경에 대한 공유 액세스를 취소해야 합니다.

@@ -28,8 +28,8 @@ Pro 아키텍처를 사용하는 고객은 구독이 자동 설치된 New Relic 
 
 **Adobe Commerce on cloud infrastructure Starter 계획 아키텍처 고객 중 New Relic을 사용하려는 고객:**
 
-스타터 아키텍처 고객은 구독의 일부로 New Relic 인프라 서비스를 제공받지 않습니다. 그러나 개발자 설명서에서 [New Relic에 연결](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)하는 단계에 따라 라이선스를 추가하는 경우 New Relic APM(Application Performance Monitoring)을 사용할 수 있습니다.
+스타터 아키텍처 고객은 구독의 일부로 New Relic 인프라 서비스를 제공받지 않습니다. 그러나 개발자 설명서에서 [New Relic에 연결](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)하는 단계에 따라 라이선스를 추가하는 경우 New Relic APM(Application Performance Monitoring)을 사용할 수 있습니다.
 
 ## 관련 읽기
 
-New Relic 서비스에 대한 자세한 내용은 개발자 설명서에서 [성능 조사](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)를 참조하십시오. New Relic 또한 지원 기술 자료에서 [클라우드 인프라에서 Adobe Commerce을 사용하여 성능 문제 해결](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)을 검토할 수 있습니다.
+New Relic 서비스에 대한 자세한 내용은 개발자 설명서에서 [성능 조사](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)를 참조하십시오. New Relic 또한 지원 기술 자료에서 [클라우드 인프라에서 Adobe Commerce을 사용하여 성능 문제 해결](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)을 검토할 수 있습니다.

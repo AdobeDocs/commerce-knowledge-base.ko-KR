@@ -13,5 +13,5 @@ ht-degree: 0%
 
 개발자 설명서에서 다음 문서를 참조하십시오.
 
-* Adobe Commerce 2.3: [작업 모드 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
-* Adobe Commerce 2.4: [작업 모드 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Adobe Commerce 2.3: [작업 모드 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Adobe Commerce 2.4: [작업 모드 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/set-mode)

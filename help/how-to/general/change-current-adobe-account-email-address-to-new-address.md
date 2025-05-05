@@ -28,6 +28,6 @@ ht-degree: 0%
 
 이메일 주소를 변경하려면 다음 단계를 따르십시오.
 
-1. 이전 이메일 주소에 사용된 암호를 재설정합니다. Adobe helpx에서 [잊어버린 암호 재설정](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)의 지침을 따르십시오.
+1. 이전 이메일 주소에 사용된 암호를 재설정합니다. Adobe helpx에서 [잊어버린 암호 재설정](https://helpx.adobe.com/kr/manage-account/using/change-or-reset-password.html)의 지침을 따르십시오.
 1. 암호 재설정 링크가 지침과 함께 현재 소유자의 사서함으로 전송됩니다.
 1. [Adobe 계정 페이지](https://account.adobe.com)(으)로 이동하여 새 전자 메일로 로그인하고 암호를 설정합니다.

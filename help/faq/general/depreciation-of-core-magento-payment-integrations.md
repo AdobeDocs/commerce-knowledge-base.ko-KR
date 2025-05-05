@@ -1,6 +1,6 @@
 ---
 title: 핵심 Adobe Commerce 결제 통합 사용 중단
-description: 결제 서비스 지침 PSD2(사용 안내서의 [결제 서비스 지침](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive.html)에 대한 세부 사항 참조) 및 많은 API의 지속적인 발전으로 인해 많은 Adobe Commerce 핵심 결제 통합 기능이 오래되고 향후 더 이상 보안을 준수하지 않을 수 있습니다. 이를 위해 많은 핵심 결제 통합이 중단되었거나 곧 중단될 예정이며, 해당 Commerce Marketplace 확장으로 전환하는 것이 좋습니다. 아래 문서의 나머지 부분을 읽어 결제 통합의 최근 사용 중단을 검토하십시오. 각 **상태** 링크는 사용 안내서에 있습니다. **아래 통합은 Adobe Commerce의 2.4.0 릴리스에서 모두 제거되며, 버전 2.3에서는 더 이상 사용되지 않습니다.**
+description: 결제 서비스 지침 PSD2(사용 안내서의 [결제 서비스 지침](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive.html?lang=ko)에 대한 세부 사항 참조) 및 많은 API의 지속적인 발전으로 인해 많은 Adobe Commerce 핵심 결제 통합 기능이 오래되고 향후 더 이상 보안을 준수하지 않을 수 있습니다. 이를 위해 많은 핵심 결제 통합이 중단되었거나 곧 중단될 예정이며, 해당 Commerce Marketplace 확장으로 전환하는 것이 좋습니다. 아래 문서의 나머지 부분을 읽어 결제 통합의 최근 사용 중단을 검토하십시오. 각 **상태** 링크는 사용 안내서에 있습니다. **아래 통합은 Adobe Commerce의 2.4.0 릴리스에서 모두 제거되며, 버전 2.3에서는 더 이상 사용되지 않습니다.**
 exl-id: c2c4b3b6-409d-466f-a4f3-dfe13ac7f972
 feature: Compliance, Integration
 source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 핵심 Adobe Commerce 결제 통합 사용 중단
 
-결제 서비스 지침 PSD2(사용 안내서의 [결제 서비스 지침](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive.html)에 대한 세부 정보 참조)와 많은 API의 지속적인 발전으로 인해 많은 Adobe Commerce 핵심 결제 통합 기능이 오래되고 향후 더 이상 보안을 준수하지 않을 수 있습니다. 이를 위해 많은 핵심 결제 통합이 중단되었거나 곧 중단될 예정이며, 해당 Commerce Marketplace 확장으로 전환하는 것이 좋습니다. 아래 문서의 나머지 부분을 읽어 결제 통합의 최근 사용 중단을 검토하십시오. 각 **상태** 링크는 사용 안내서에 있습니다. **아래 통합은 Adobe Commerce의 2.4.0 릴리스에서 모두 제거되며 버전 2.3에서 더 이상 사용되지 않습니다.**
+결제 서비스 지침 PSD2(사용 안내서의 [결제 서비스 지침](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive.html?lang=ko)에 대한 세부 정보 참조)와 많은 API의 지속적인 발전으로 인해 많은 Adobe Commerce 핵심 결제 통합 기능이 오래되고 향후 더 이상 보안을 준수하지 않을 수 있습니다. 이를 위해 많은 핵심 결제 통합이 중단되었거나 곧 중단될 예정이며, 해당 Commerce Marketplace 확장으로 전환하는 것이 좋습니다. 아래 문서의 나머지 부분을 읽어 결제 통합의 최근 사용 중단을 검토하십시오. 각 **상태** 링크는 사용 안내서에 있습니다. **아래 통합은 Adobe Commerce의 2.4.0 릴리스에서 모두 제거되며 버전 2.3에서 더 이상 사용되지 않습니다.**
 
 <table style="height: 243px;" width="712">
 <tbody>
@@ -23,27 +23,27 @@ ht-degree: 0%
 </tr>
 <tr>
 <td style="width: 225.455px;">Worldpay</td>
-<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=en#recommended-solutions">2.3.5 이후 사용되지 않음</a><br>2.4.0 - 완전히 제거됩니다.</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=ko#recommended-solutions">2.3.5 이후 사용되지 않음</a><br>2.4.0 - 완전히 제거됩니다.</td>
 <td style="width: 226.364px;">PSD2 요구 사항을 준수하도록 권장하는 솔루션을 결제 공급업체에 문의하십시오.</td>
 </tr>
 <tr>
 <td style="width: 225.455px;">Authorize.net</td>
-<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=en#recommended-solutions">2.3.4 이후 사용되지 않음</a><br>2.4.0 - 완전히 제거됩니다.</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=ko#recommended-solutions">2.3.4 이후 사용되지 않음</a><br>2.4.0 - 완전히 제거됩니다.</td>
 <td style="width: 226.364px;">대신 Commerce Marketplace에서 <a href="https://marketplace.magento.com/authorizenet-magento-module-authorizenet.html">공식 확장</a>을 사용하십시오.</td>
 </tr>
 <tr>
 <td style="width: 225.455px;">Authorize.net (다이렉트 Post)</td>
-<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=en#recommended-solutions">2.3.1 이후 사용되지 않음</a><br>2.4.0 - 완전히 제거됩니다.</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=ko#recommended-solutions">2.3.1 이후 사용되지 않음</a><br>2.4.0 - 완전히 제거됩니다.</td>
 <td style="width: 226.364px;">대신 Commerce Marketplace에서 <a href="https://marketplace.magento.com/authorizenet-magento-module-authorizenet.html">공식 확장</a>을 사용하십시오.</td>
 </tr>
 <tr>
 <td style="width: 225.455px;">사이버 소스</td>
-<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=en#recommended-solutions">2.3.3 이후 사용되지 않음</a><br>2.4.0 - 완전히 제거됩니다.</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=ko#recommended-solutions">2.3.3 이후 사용되지 않음</a><br>2.4.0 - 완전히 제거됩니다.</td>
 <td style="width: 226.364px;">대신 Commerce Marketplace에서 <a href="https://marketplace.magento.com/cybersource-global-payment-management.html">공식 확장</a>을 사용하십시오.</td>
 </tr>
 <tr>
 <td style="width: 225.455px;">eWay</td>
-<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=en#recommended-solutions">2.3.3 이후 사용되지 않음</a><br>2.4.0 - 완전히 제거됩니다.</td>
+<td style="width: 226.364px;">2.3.x - <a href="https://experienceleague.adobe.com/docs/commerce-admin/config/sales/payment-methods/payment-methods.html?lang=ko#recommended-solutions">2.3.3 이후 사용되지 않음</a><br>2.4.0 - 완전히 제거됩니다.</td>
 <td style="width: 226.364px;">PSD2 요구 사항을 준수하도록 권장하는 솔루션을 결제 공급업체에 문의하십시오.</td>
 </tr>
 </tbody>

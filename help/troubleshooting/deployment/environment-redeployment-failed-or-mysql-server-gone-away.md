@@ -30,13 +30,13 @@ ht-degree: 0%
 
 ### MySQL을 위한 공간이 충분한지 확인
 
-모든 Adobe Commerce on cloud infrastructure Starter 계획 아키텍처 환경 및 [통합 환경](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) of Adobe Commerce on cloud infrastructure Pro 계획 아키텍처의 경우 [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)하고 명령을 실행합니다.
+모든 Adobe Commerce on cloud infrastructure Starter 계획 아키텍처 환경 및 [통합 환경](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) of Adobe Commerce on cloud infrastructure Pro 계획 아키텍처의 경우 [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko)하고 명령을 실행합니다.
 
 ```bash
 magento-cloud db:size
 ```
 
-Pro 아키텍처의 스테이징 또는 프로덕션 환경의 경우 [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)하고 `df -h`을(를) 실행하십시오   `| grep mysql` 명령입니다. 결과는 다음과 비슷합니다.
+Pro 아키텍처의 스테이징 또는 프로덕션 환경의 경우 [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko)하고 `df -h`을(를) 실행하십시오   `| grep mysql` 명령입니다. 결과는 다음과 비슷합니다.
 
 ```bash
 sxpe7gigd5ok2@i-00baa9e24f31dba41:~$ df -h | grep mysql
@@ -55,7 +55,7 @@ mysql:
     disk: 2048
 ```
 
-참조하려면 [MySQL 서비스 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html) 문서를 참조하십시오.
+참조하려면 [MySQL 서비스 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html?lang=ko) 문서를 참조하십시오.
 
 Pro 아키텍처의 스테이징 또는 프로덕션 환경에 대해 이러한 변경 작업을 수행하려면 [지원 티켓](https://support.magento.com)을 만들어야 합니다. 그러나 Adobe Commerce이 이러한 매개 변수를 모니터링하고 경고하거나 계약에 따라 작업을 수행하므로 일반적으로 Pro 아키텍처의 스테이징/프로덕션에서 이 문제를 처리할 필요가 없습니다.
 

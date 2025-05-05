@@ -30,6 +30,6 @@ Commerce 관리자의 **스토어** > **설정** > **구성** > 고급 > **고�
 
 ## 솔루션
 
-모듈 기능을 사용하지 않도록 설정하려면 개발자 설명서의 [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules)에 설명된 대로 모듈을 사용하지 않도록 설정하십시오.
+모듈 기능을 사용하지 않도록 설정하려면 개발자 설명서의 [모듈 사용 또는 사용 안 함](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/manage-modules)에 설명된 대로 모듈을 사용하지 않도록 설정하십시오.
 
 버전 2.2.0부터 모듈 출력 비활성화 기능이 제거되었습니다.

@@ -47,5 +47,5 @@ HTTP 액세스 제어를 사용하도록 설정한 경우 캐시 미리 보기�
 
 ## 관련 읽기
 
-* 사용 안내서의 [Adobe Commerce 사용 안내서 > 전체 페이지 캐시](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching).
+* 사용 안내서의 [Adobe Commerce 사용 안내서 > 전체 페이지 캐시](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cache-management#full-page-caching).
 * 지원 기술 자료의 [Adobe Commerce에서 캐시 준비 및 사이트를 사용할 수 없음](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md).

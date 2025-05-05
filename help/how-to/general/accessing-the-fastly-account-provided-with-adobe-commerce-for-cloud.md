@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## Fastly 자격 증명을 보는 방법
 
-개발자 설명서에서 [Fastly 자격 증명 가져오기](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds) 섹션을 참조하십시오.
+개발자 설명서에서 [Fastly 자격 증명 가져오기](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds) 섹션을 참조하십시오.
 
 ## Fastly 자격 증명을 테스트하는 방법
 
-개발자 설명서의 [Fastly 자격 증명 테스트](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) 섹션을 참조하십시오.
+개발자 설명서의 [Fastly 자격 증명 테스트](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) 섹션을 참조하십시오.
 

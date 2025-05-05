@@ -33,7 +33,7 @@ Adobe Commerce이 Nginx와 함께 설치되었습니다.
 <u>재현 단계</u>:
 
 1. AWS `s3`을(를) 미디어 스토리지로 사용하도록 Adobe Commerce을 구성하십시오.
-1. Adobe Commerce 설치 디렉터리 및 Nginx 가상 호스트에 제공된 `nginx.conf.sample` 구성 파일을 사용하여 Nginx를 구성합니다. 개발자 설명서에서 [Nginx 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx)을 참조하십시오.
+1. Adobe Commerce 설치 디렉터리 및 Nginx 가상 호스트에 제공된 `nginx.conf.sample` 구성 파일을 사용하여 Nginx를 구성합니다. 개발자 설명서에서 [Nginx 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx)을 참조하십시오.
 1. 하나의 제품 이미지로 간단한 제품을 만듭니다.
 1. Nginx는 다음과 유사한 `nginx.conf.sample`의 이미지 크기 조정을 위해 주석 처리되지 않은 구성을 가지고 있습니다.
 

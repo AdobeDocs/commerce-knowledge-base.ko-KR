@@ -1,6 +1,6 @@
 ---
 title: 데이터 내보내기를 사용하여 불일치 항목 파악
-description: 이 문서에서는 Magento BI 데이터의 불일치 문제를 해결하는 솔루션을 제공합니다. 데이터 내보내기는 보고서에서 데이터 불일치를 찾아내기 위해 Magento BI 데이터를 소스 데이터와 비교하는 데 유용한 도구입니다. 특히 [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)에서 문제를 찾아내는 데 도움이 되지 않은 경우 유용합니다. 이 문서에서는 데이터 내보내기를 사용하여 데이터 불일치를 찾아내는 방법에 대한 실제 사례를 소개합니다.
+description: 이 문서에서는 Magento BI 데이터의 불일치 문제를 해결하는 솔루션을 제공합니다. 데이터 내보내기는 보고서에서 데이터 불일치를 찾아내기 위해 Magento BI 데이터를 소스 데이터와 비교하는 데 유용한 도구입니다. 특히 [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)에서 문제를 찾아내는 데 도움이 되지 않은 경우 유용합니다. 이 문서에서는 데이터 내보내기를 사용하여 데이터 불일치를 찾아내는 방법에 대한 실제 사례를 소개합니다.
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 데이터 내보내기를 사용하여 불일치 항목 파악
 
-이 문서에서는 Magento BI 데이터의 불일치 문제를 해결하는 솔루션을 제공합니다. 데이터 내보내기는 보고서에서 데이터 불일치를 찾아내기 위해 Magento BI 데이터와 소스 데이터를 비교하는 데 유용한 도구입니다. 특히 [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)이 문제를 찾아내는 데 도움이 되지 않는 경우 유용합니다. 이 문서에서는 데이터 내보내기를 사용하여 데이터 불일치를 찾아내는 방법에 대한 실제 사례를 소개합니다.
+이 문서에서는 Magento BI 데이터의 불일치 문제를 해결하는 솔루션을 제공합니다. 데이터 내보내기는 보고서에서 데이터 불일치를 찾아내기 위해 Magento BI 데이터와 소스 데이터를 비교하는 데 유용한 도구입니다. 특히 [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)이 문제를 찾아내는 데 도움이 되지 않는 경우 유용합니다. 이 문서에서는 데이터 내보내기를 사용하여 데이터 불일치를 찾아내는 방법에 대한 실제 사례를 소개합니다.
 
 이 분석을 예로 들 수 있습니다.
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 두 시스템의 행 수가 같고 **매출** 지표가 원본 데이터와 일치하지 않는 경우 **order\_total**&#x200B;이 사용되지 않아야 합니다. 소스 데이터베이스에서 **order\_total** 필드가 업데이트되었으며 Magento BI가 이러한 변경 내용을 선택하지 않을 수 있습니다.
 
-이를 확인하려면 **order\_total** 열이 다시 검사되고 있는지 확인하십시오. Data Warehouse 관리자로 이동하여 **`orders`** 테이블을 클릭합니다. &#39;변경 내용&#39;에 [다시 확인 빈도](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html)가 표시됩니다. 열. **order\_total** 필드는 변경될 수 있는 만큼 자주 다시 확인하도록 설정해야 합니다. 그렇지 않으면 계속 진행하여 원하는 다시 확인 빈도로 설정하십시오.
+이를 확인하려면 **order\_total** 열이 다시 검사되고 있는지 확인하십시오. Data Warehouse 관리자로 이동하여 **`orders`** 테이블을 클릭합니다. &#39;변경 내용&#39;에 [다시 확인 빈도](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=ko)가 표시됩니다. 열. **order\_total** 필드는 변경될 수 있는 만큼 자주 다시 확인하도록 설정해야 합니다. 그렇지 않으면 계속 진행하여 원하는 다시 확인 빈도로 설정하십시오.
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 소스 데이터베이스의 행 수가 Magento BI보다 적습니다. {#lessrows}
 
-소스 데이터베이스에 Magento BI보다 적은 행이 있는 경우 소스 데이터베이스에서 행이 삭제되고 Magento BI가 이러한 삭제를 선택하지 않을 수 있습니다. **[데이터를 삭제하면 불일치가 발생하고 업데이트 시간이 길어질 수 있으며 많은 논리적 문제가 발생할 수 있습니다** 따라서 반드시 필요한 경우가 아니면 데이터를 삭제하지 않는 것이 좋습니다.](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html)
+소스 데이터베이스에 Magento BI보다 적은 행이 있는 경우 소스 데이터베이스에서 행이 삭제되고 Magento BI가 이러한 삭제를 선택하지 않을 수 있습니다. **[데이터를 삭제하면 불일치가 발생하고 업데이트 시간이 길어질 수 있으며 많은 논리적 문제가 발생할 수 있습니다** 따라서 반드시 필요한 경우가 아니면 데이터를 삭제하지 않는 것이 좋습니다.](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=ko)
 
 그러나 테이블에서 행이 삭제되면 기본 키의 재확인 빈도를 확인합니다. 기본 키를 다시 확인하면 삭제된 행에 대해 테이블을 검사하게 됩니다.
 
@@ -89,7 +89,7 @@ Data Warehouse 관리자에서 기본 키 열은 키 기호로 표시됩니다. 
 
 ## 관련 읽기
 
-* [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
-* [Adobe Commerce Intelligence 서비스 정책](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [Adobe Commerce Intelligence 서비스 정책](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
 

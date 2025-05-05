@@ -40,7 +40,7 @@ cURL error 60: SSL certificate problem: certificate has expired
 
 배포가 완료되면 [!DNL SSL certificate]이(가) 자동으로 갱신됩니다.
 
-배포가 실패하여 이를 해결하는 데 도움이 필요한 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)하십시오.
+배포가 실패하여 이를 해결하는 데 도움이 필요한 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket)하십시오.
 
 ### 방법 1: [!DNL magento-cloud] CLI 사용 {#meth2}
 
@@ -55,9 +55,9 @@ cURL error 60: SSL certificate problem: certificate has expired
 개발자 설명서에서:
 
 * [Cloud Manager API: SSLCertificates](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#tag/SSLCertificates)
-* [Fastly 설정: SSL/TLS 인증서 프로비저닝](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
+* [Fastly 설정: SSL/TLS 인증서 프로비저닝](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
 
 지원 기술 자료에서:
 
-* [사용자 지정 SSL 인증서 만료 정보](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.html)
-* 클라우드 인프라의 Adobe Commerce에 대한 [SSL(TLS) 인증서](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html)
+* [사용자 지정 SSL 인증서 만료 정보](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.html?lang=ko)
+* 클라우드 인프라의 Adobe Commerce에 대한 [SSL(TLS) 인증서](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html?lang=ko)

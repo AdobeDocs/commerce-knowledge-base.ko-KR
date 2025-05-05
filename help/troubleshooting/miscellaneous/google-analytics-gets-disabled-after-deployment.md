@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-Google Analytics을 항상 활성화하려면 개발자 설명서의 [변수 배포](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics)에 설명된 대로 배포 변수 `ENABLE_GOOGLE_ANALYTICS = true`을(를) 설정하십시오.
+Google Analytics을 항상 활성화하려면 개발자 설명서의 [변수 배포](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics)에 설명된 대로 배포 변수 `ENABLE_GOOGLE_ANALYTICS = true`을(를) 설정하십시오.
 
 >[!NOTE]
 >

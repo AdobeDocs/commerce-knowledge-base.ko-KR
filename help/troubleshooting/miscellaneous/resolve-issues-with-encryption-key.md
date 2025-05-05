@@ -33,7 +33,7 @@ ht-degree: 0%
 
 암호화 키를 복사하려면:
 
-1. 개발자 설명서의 [환경에 대한 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)에 설명된 대로 데이터베이스 덤프의 소스인 프로젝트에 대한 SSH입니다.
+1. 개발자 설명서의 [환경에 대한 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko)에 설명된 대로 데이터베이스 덤프의 소스인 프로젝트에 대한 SSH입니다.
 1. 텍스트 편집기에서 `app/etc/env.php` 열기
 1. `crypt`의 `key` 값을 복사합니다.
 
@@ -44,7 +44,7 @@ return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
 대상 프로젝트에 대한 키 값을 설정하려면 다음을 수행합니다.
 
 1. [클라우드 콘솔](https://console.adobecommerce.com)을 열고 프로젝트를 찾습니다.
-1. 개발자 설명서에서 [프로젝트 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)에 설명된 대로 [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html)(개발자 설명서에서) 변수의 값을 설정합니다. 이렇게 하면 배포 프로세스가 트리거되고 모든 배포의 `app/etc/env.php` 파일에서 `CRYPT_KEY`이(가) 재정의됩니다.
+1. 개발자 설명서에서 [프로젝트 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=ko)에 설명된 대로 [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=ko)(개발자 설명서에서) 변수의 값을 설정합니다. 이렇게 하면 배포 프로세스가 트리거되고 모든 배포의 `app/etc/env.php` 파일에서 `CRYPT_KEY`이(가) 재정의됩니다.
 
 선택적으로 `app/etc/env.php` 파일의 암호화 키를 수동으로 재정의할 수 있습니다.
 

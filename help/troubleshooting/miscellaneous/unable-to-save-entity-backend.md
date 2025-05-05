@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 원인
 
-이 문제는 최대 세션 크기에 영향을 준 새로운 기능이 최근에 도입된 것과 관련이 있습니다. 개발자 설명서에서 [세션 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management)를 참조하십시오.
+이 문제는 최대 세션 크기에 영향을 준 새로운 기능이 최근에 도입된 것과 관련이 있습니다. 개발자 설명서에서 [세션 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security-session-management)를 참조하십시오.
 
 ## 솔루션
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* 사용 안내서의 [마케팅 메뉴](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/marketing-menu).
+* 사용 안내서의 [마케팅 메뉴](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/marketing-menu).

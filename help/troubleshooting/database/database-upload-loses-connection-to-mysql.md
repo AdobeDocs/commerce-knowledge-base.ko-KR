@@ -42,7 +42,7 @@ web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-`services.yaml`의 데이터베이스에 더 많은 공간을 할당하고 사용하지 않는 공간이 있는 경우 배포해야 합니다. 단계는 [서비스 디스크 공간](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space)을 참조하세요.
+`services.yaml`의 데이터베이스에 더 많은 공간을 할당하고 사용하지 않는 공간이 있는 경우 배포해야 합니다. 단계는 [서비스 디스크 공간](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space)을 참조하세요.
 
 참고: Pro 아키텍처 계획에서 다음 명령을 실행하여 파티션에 할당된 공간을 확인할 수 있습니다. `df -h`
 
@@ -58,4 +58,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## 관련 읽기
 
-개발자 설명서에서 [디스크 공간 관리](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)
+개발자 설명서에서 [디스크 공간 관리](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)

@@ -45,4 +45,4 @@ cron 작업 또는 고객을 수동으로 실행하여 새 정보를 전파하�
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [메시지 큐 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues).
+* 개발자 설명서에서 [메시지 큐 관리](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues).

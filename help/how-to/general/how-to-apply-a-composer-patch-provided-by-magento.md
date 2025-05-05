@@ -36,7 +36,7 @@ ht-degree: 0%
    git push origin
    ```
 
-클라우드 프로젝트에 패치를 적용하는 방법에 대한 자세한 내용은 개발자 설명서에서 [패치 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
+클라우드 프로젝트에 패치를 적용하는 방법에 대한 자세한 내용은 개발자 설명서에서 [패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
 
 ### Adobe Commerce 온-프레미스 및 Magento Open Source에 작성기 패치를 적용하는 방법 {#commerce}
 

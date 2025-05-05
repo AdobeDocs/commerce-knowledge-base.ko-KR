@@ -34,7 +34,7 @@ ht-degree: 0%
 
 <u>솔루션</u>
 
-1. https://experienceleague.adobe.com/home#support에서 다음을 명시하여 [지원 요청을 제출](https://experienceleague.adobe.com/home#support):
+1. https://experienceleague.adobe.com/home?lang=ko#support에서 다음을 명시하여 [지원 요청을 제출](https://experienceleague.adobe.com/home?lang=ko#support):
 
    * 업데이트할 기존 이메일 주소
    * 새 이메일 주소
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 <u>솔루션</u>
 
-[현재 소유자 전자 메일]의 사서함에 액세스할 수 있는 경우 Creative Cloud 사용 안내서의 [Adobe 암호 재설정 또는 변경](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) 안내에 따라 현재 소유자 전자 메일의 암호를 재설정하십시오.
+[현재 소유자 전자 메일]의 사서함에 액세스할 수 있는 경우 Creative Cloud 사용 안내서의 [Adobe 암호 재설정 또는 변경](https://helpx.adobe.com/kr/manage-account/using/change-or-reset-password.html) 안내에 따라 현재 소유자 전자 메일의 암호를 재설정하십시오.
 
 1. 지침과 함께 현재 소유자의 사서함으로 전송된 암호 재설정 링크를 찾습니다.
 1. 새 암호를 설정하고 전자 메일을 [새 소유자 전자 메일] (으)로 변경합니다.
@@ -62,5 +62,5 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-Creative Cloud 사용 안내서에서 [잊어버린 암호를 다시 설정](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)합니다.
-Creative Cloud 사용 안내서에서 [계정 프로필을 업데이트](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html)합니다.
+Creative Cloud 사용 안내서에서 [잊어버린 암호를 다시 설정](https://helpx.adobe.com/kr/manage-account/using/change-or-reset-password.html)합니다.
+Creative Cloud 사용 안내서에서 [계정 프로필을 업데이트](https://helpx.adobe.com/kr/manage-account/using/edit-adobe-account-personal-profile.html)합니다.

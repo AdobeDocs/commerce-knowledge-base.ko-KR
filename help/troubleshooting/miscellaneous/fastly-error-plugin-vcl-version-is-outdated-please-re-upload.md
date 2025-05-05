@@ -33,15 +33,15 @@ Fastly 확장이 업데이트되었지만(번들 VCL 구성 및 템플릿과 함
 
 ## 솔루션
 
-1. 개발자 설명서에서 최신 ECE-Tools가 설치되어 있고 [현재 버전](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite.html)에 있는지 확인하십시오. ECE-Tools에는 종속성에 Fastly 패키지 버전이 있습니다.
+1. 개발자 설명서에서 최신 ECE-Tools가 설치되어 있고 [현재 버전](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite.html?lang=ko)에 있는지 확인하십시오. ECE-Tools에는 종속성에 Fastly 패키지 버전이 있습니다.
 
    이 Fastly 플러그인의 최신 버전이 아닐 수 있지만 현재 설치된 버전보다 최신 버전일 수 있으며 최신 ECE-Tools를 설치하는 것이 좋습니다.
 
-1. 현재 버전의 ECE-Tools를 사용하고 있지 않은 경우 다음 단계에 따라 개발자 설명서에서 [업그레이드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)하십시오.
+1. 현재 버전의 ECE-Tools를 사용하고 있지 않은 경우 다음 단계에 따라 개발자 설명서에서 [업그레이드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=ko)하십시오.
 1. ECE-Tools를 업그레이드한 후 현재 버전의 [Fastly 플러그인](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets)이 설치되어 있는지 확인하십시오.
-1. Fastly 플러그인이 현재 버전이 아닌 경우 다음 단계에 따라 개발자 설명서에서 [플러그인을 최신 버전으로 업그레이드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module)하십시오.
+1. Fastly 플러그인이 현재 버전이 아닌 경우 다음 단계에 따라 개발자 설명서에서 [플러그인을 최신 버전으로 업그레이드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko#upgrade-the-fastly-module)하십시오.
 
 ## 관련 읽기
 
-* Fastly 설정 및 구성에 대한 자세한 내용은 개발자 설명서에서 [Fastly 서비스 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)을 참조하십시오.
+* Fastly 설정 및 구성에 대한 자세한 내용은 개발자 설명서에서 [Fastly 서비스 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=ko)을 참조하십시오.
 * Fastly에 대한 일반적인 정보는 [fastly.com](https://www.fastly.com/)을 참조하세요.

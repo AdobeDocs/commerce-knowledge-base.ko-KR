@@ -32,7 +32,7 @@ B2B 1.5.2로 업데이트한 후 `Magento_Company` 모듈을 업그레이드하�
 
 <u>재현 단계</u>:
 
-1. 회사를 모회사에 할당하여 회사 계층을 설정합니다. 자세한 내용은 Adobe Commerce B2B 안내서의 [회사 계층 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)를 참조하십시오.
+1. 회사를 모회사에 할당하여 회사 계층을 설정합니다. 자세한 내용은 Adobe Commerce B2B 안내서의 [회사 계층 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)를 참조하십시오.
 1. B2B를 1.5.2 버전으로 업그레이드하십시오.
 
 <u>예상 결과</u>:
@@ -61,7 +61,7 @@ B2B 1.5.2로 업데이트한 후 `Magento_Company` 모듈을 업그레이드하�
 
 ### 패치 적용 방법
 
-파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
+파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 ### 클라우드 패치를 사용하여 패치 적용
 
@@ -80,8 +80,8 @@ Adobe Commerce on Cloud 판매자의 경우 아래 단계를 따르십시오.
    ```
 
 1. ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch를 `m2-hotfixes` 디렉터리에 추가합니다.
-1. 변경 내용을 커밋하고 푸시하여 재배포 및 `bin/magento setup:upgrade`을(를) 시작합니다. 지침은 Adobe Commerce on Cloud 안내서의 [패치 적용](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
+1. 변경 내용을 커밋하고 푸시하여 재배포 및 `bin/magento setup:upgrade`을(를) 시작합니다. 지침은 Adobe Commerce on Cloud 안내서의 [패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
 
 ## 관련 읽기
 
-* [REGEXP_LIKE 함수 누락으로 인해 SQL 구문 오류가 발생하여 B2B 1.5.2로 업그레이드할 수 없습니다](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)
+* [REGEXP_LIKE 함수 누락으로 인해 SQL 구문 오류가 발생하여 B2B 1.5.2로 업그레이드할 수 없습니다](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)

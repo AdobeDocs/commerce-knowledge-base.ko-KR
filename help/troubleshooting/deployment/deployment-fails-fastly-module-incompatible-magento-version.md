@@ -54,7 +54,7 @@ ht-degree: 0%
 [2019-01-23 00:00:00] CRITICAL: Command php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US returned code 1
 ```
 
-클라우드 인프라 솔루션에서 Adobe Commerce을 사용하는 경우 [배포 로그](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)에 이 오류 메시지가 표시됩니다. Adobe Commerce 온-프레미스의 경우 명령줄에 오류가 표시됩니다.
+클라우드 인프라 솔루션에서 Adobe Commerce을 사용하는 경우 [배포 로그](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/test/log-locations)에 이 오류 메시지가 표시됩니다. Adobe Commerce 온-프레미스의 경우 명령줄에 오류가 표시됩니다.
 
 ## 원인
 
@@ -70,4 +70,4 @@ Fastly 모듈을 버전 1.2.82 이상으로 업그레이드하십시오.
    * Fastly 모듈이 magento-cloud-metapackage에 포함된 경우:    <pre>작성기 업데이트 magento/magento-cloud-metapackage</pre>
    * fastly 모듈이 별도로 설치된 경우(예: cloud edition이 아닌 Adobe Commerce 온프레미스를 사용하는 경우) <pre>작성기 업데이트 fastly/magento2</pre>
 1. 변경 사항을 커밋하고 푸시하고, 자동으로 수행되지 않는 경우 배포 프로세스를 트리거합니다.
-1. 관리에서 [새 VCL을 Fastly로 업로드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)합니다.
+1. 관리에서 [새 VCL을 Fastly로 업로드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)합니다.

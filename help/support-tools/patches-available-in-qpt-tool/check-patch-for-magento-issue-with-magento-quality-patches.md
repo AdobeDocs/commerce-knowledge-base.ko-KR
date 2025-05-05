@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 품질 패치 도구에서 사용할 수 있는 패치
 
-사용 가능한 패치 목록은 개발자 설명서에서 [품질 패치 도구](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)를 참조하십시오.
+사용 가능한 패치 목록은 개발자 설명서에서 [품질 패치 도구](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ko)를 참조하십시오.
 
 ## 품질 패치 도구 설치 및 사용 방법
 
@@ -50,14 +50,14 @@ Adobe Commerce 온프레미스 및 Adobe Commerce 온클라우드 인프라의 �
 
 ### Adobe Commerce 온프레미스용 QPT를 설치하고 사용하는 방법
 
-패치를 적용하고 되돌리기 위해 QPT를 설치하고 사용하는 방법에 대한 자세한 내용은 개발자 설명서에서 [소프트웨어 업데이트 안내서 > 패치](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage)를 참조하십시오.
+패치를 적용하고 되돌리기 위해 QPT를 설치하고 사용하는 방법에 대한 자세한 내용은 개발자 설명서에서 [소프트웨어 업데이트 안내서 > 패치](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/usage)를 참조하십시오.
 
 ### 클라우드 인프라에서 Adobe Commerce용 QPT를 설치하고 사용하는 방법
 
-클라우드 인프라에서 Adobe Commerce에 패치를 적용하고 되돌리기 위해 QPT를 설치하고 사용하는 방법에 대한 자세한 내용은 개발자 설명서에서 [Adobe Commerce용 클라우드 > 패치 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
+클라우드 인프라에서 Adobe Commerce에 패치를 적용하고 되돌리기 위해 QPT를 설치하고 사용하는 방법에 대한 자세한 내용은 개발자 설명서에서 [Adobe Commerce용 클라우드 > 패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [품질 패치 도구 릴리스 노트](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes).
+* 개발자 설명서에서 [품질 패치 도구 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/release-notes).
 * 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 

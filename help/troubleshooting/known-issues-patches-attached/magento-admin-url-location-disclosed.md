@@ -48,4 +48,4 @@ Adobe은 발작 증상이 없어도 가능한 한 빨리 패치를 붙일 것을
 * Brute Force 공격에 대한 Protect에 대한 [5 즉각적인 조치](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
 * [새 업데이트를 예상하는 Magento 설치 암호 Protect](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [보안 모범 사례](https://magento.com/security/best-practices/security-best-practices)
-* Adobe Commerce에서 [2.4.x](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication)에 대한 2단계 인증 추가 및 구성
+* Adobe Commerce에서 [2.4.x](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication)에 대한 2단계 인증 추가 및 구성

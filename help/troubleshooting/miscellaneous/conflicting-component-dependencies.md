@@ -51,14 +51,14 @@ We have detected conflicts with the following packages:
 클라우드 인프라에서 Adobe Commerce을 업그레이드하는 경우 충돌하는 구성 요소 종속성을 해결하려면 다음을 시도하십시오.
 
 * 업그레이드하는 데 사용 중인 키를 확인합니다. 올바른 이메일 계정에서 키가 생성됩니까?
-* 사용 권한을 확인하고 Magento 업그레이드 요구 사항과 일치하는지 확인하십시오. 개발자 설명서에서 [Magento 업그레이드 개요 > 업데이트 및 업그레이드 검사 목록 > 파일 시스템 권한](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites#verify-file-system-permissions)을 검토하십시오.
+* 사용 권한을 확인하고 Magento 업그레이드 요구 사항과 일치하는지 확인하십시오. 개발자 설명서에서 [Magento 업그레이드 개요 > 업데이트 및 업그레이드 검사 목록 > 파일 시스템 권한](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/prepare/prerequisites#verify-file-system-permissions)을 검토하십시오.
 
 ## 타사 모듈과의 비호환성: {#incompatibility-third-party-modules}
 
 설치된 구성 요소보다 이전 Commerce 구성 요소에 의존하는 서드파티 모듈로 인해 구성 요소 종속성이 충돌할 수도 있습니다. 다음을 시도해 보십시오.
 
-1. 이전 [예제](#issue)에서 설치된 패키지 magento/sample-data 버전 0.74.0-beta15를 1.0.0-베타로 업그레이드할 수 없습니다. 그러나 0.74.0-Beta15는 0.74.0-Beta16(또는 기타)으로 업그레이드할 수 있습니다. 이러한 변경 작업을 수행하려면 `composer.json`을(를) 편집하세요. 일반적으로 프로젝트가 요청하는 버전은 해당 JSON 파일에 있는 개체의 `require` 또는 `require-dev` 속성에 정의됩니다. 제공된 패키지 버전 옵션에 따라 특정 버전 또는 제한을 지정할 수 있습니다. 작성기 사용 방법에 대한 일반적인 지침은 개발자 설명서에서 [Adobe Commerce용 클라우드 > 기술 및 요구 사항 > 작성기](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview#files)를 참조하십시오. Adobe Commerce 온-프레미스에 있는 경우 [Adobe Commerce > 설치 안내서 > 작성기를 사용하여 Adobe Commerce 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) 를 참조하십시오.
-1. 이제 준비 상태를 확인해 보십시오. 개발자 설명서에서 [Adobe Commerce 업그레이드 개요 > 모듈 관리자 실행 > 1단계 준비 확인](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview)을 검토하십시오.
+1. 이전 [예제](#issue)에서 설치된 패키지 magento/sample-data 버전 0.74.0-beta15를 1.0.0-베타로 업그레이드할 수 없습니다. 그러나 0.74.0-Beta15는 0.74.0-Beta16(또는 기타)으로 업그레이드할 수 있습니다. 이러한 변경 작업을 수행하려면 `composer.json`을(를) 편집하세요. 일반적으로 프로젝트가 요청하는 버전은 해당 JSON 파일에 있는 개체의 `require` 또는 `require-dev` 속성에 정의됩니다. 제공된 패키지 버전 옵션에 따라 특정 버전 또는 제한을 지정할 수 있습니다. 작성기 사용 방법에 대한 일반적인 지침은 개발자 설명서에서 [Adobe Commerce용 클라우드 > 기술 및 요구 사항 > 작성기](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/overview#files)를 참조하십시오. Adobe Commerce 온-프레미스에 있는 경우 [Adobe Commerce > 설치 안내서 > 작성기를 사용하여 Adobe Commerce 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/composer) 를 참조하십시오.
+1. 이제 준비 상태를 확인해 보십시오. 개발자 설명서에서 [Adobe Commerce 업그레이드 개요 > 모듈 관리자 실행 > 1단계 준비 확인](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/overview)을 검토하십시오.
 1. 준비 검사가 다른 구성 요소 종속성 검사 실패 메시지와 함께 실패하는 경우 [Adobe Commerce](#magento-commerce-magento-commerce-cloud)을(를) 사용하는지 [Magento Open Source](#opensource)을(를) 사용하는지에 따라 다음 링크를 클릭하여 추가 문제 해결 단계를 확인하십시오.
 
 ## Adobe Commerce {#magento-commerce-magento-commerce-cloud}

@@ -58,7 +58,7 @@ report.CRITICAL: Error: Call to a member function getMethodInstance() on null in
 
 >[!NOTE]
 >
->클라우드 인프라 판매자의 Adobe Commerce에 대한 추가 사항: Adobe은 Commerce 버전 1.0.18의 클라우드 패치에 수정 사항을 포함했습니다. 최신 패키지 적용에 대한 지침은 개발자 설명서에서 [Commerce용 클라우드 패치](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches)를 참조하십시오.
+>클라우드 인프라 판매자의 Adobe Commerce에 대한 추가 사항: Adobe은 Commerce 버전 1.0.18의 클라우드 패치에 수정 사항을 포함했습니다. 최신 패키지 적용에 대한 지침은 개발자 설명서에서 [Commerce용 클라우드 패치](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches)를 참조하십시오.
 
 ### 호환 가능한 Adobe Commerce 버전:
 

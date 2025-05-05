@@ -74,4 +74,4 @@ $ curl 127.0.0.1:9200
 
 ## 관련 읽기
 
-Commerce on Cloud Infrastructure 안내서의 [OpenSearch 서비스 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html).
+Commerce on Cloud Infrastructure 안내서의 [OpenSearch 서비스 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=ko).

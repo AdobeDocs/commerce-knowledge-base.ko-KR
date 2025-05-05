@@ -40,7 +40,7 @@ ht-degree: 0%
 
 프리릴리스 동안 릴리스 패키지는 다음 두 위치에서 사용할 수 있습니다.
 
-1. [magento.com](https://repo.magento.com/)의 작성기에서 계정에 기본 MageID를 사용합니다. 작성기 사용 방법에 대한 자세한 내용은 개발자 설명서에서 [작성기를 사용하여 Adobe Commerce 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)를 참조하십시오.
+1. [magento.com](https://repo.magento.com/)의 작성기에서 계정에 기본 MageID를 사용합니다. 작성기 사용 방법에 대한 자세한 내용은 개발자 설명서에서 [작성기를 사용하여 Adobe Commerce 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/composer)를 참조하십시오.
 1. [account.magento.com](https://account.magento.com/customer/account/login)의 **내 계정** > **다운로드**.
 
 >[!NOTE]

@@ -47,4 +47,4 @@ ht-degree: 0%
 개발자 설명서 관련 항목 링크:
 
 * [인덱싱 개요](https://developer.adobe.com/commerce/php/development/components/indexing/)
-* [인덱서 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)
+* [인덱서 관리](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers)

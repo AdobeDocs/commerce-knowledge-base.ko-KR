@@ -79,4 +79,4 @@ HTTP/2 403
 
 ## 관련 읽기
 
-* [사이트 전체 분석 도구 안내서](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)
+* [사이트 전체 분석 도구 안내서](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=ko)

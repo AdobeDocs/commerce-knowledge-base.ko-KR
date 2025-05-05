@@ -23,7 +23,7 @@ mysql:
     disk: 2048
 ```
 
-참조하려면 [MySQL 서비스 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql) 문서를 참조하십시오.
+참조하려면 [MySQL 서비스 설정](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/service/mysql) 문서를 참조하십시오.
 
 `.magento/services.yaml` 파일을 변경한 후에는 변경 내용을 커밋하고 푸시하여 적용해야 합니다. 푸시가 배포 프로세스를 트리거합니다.
 

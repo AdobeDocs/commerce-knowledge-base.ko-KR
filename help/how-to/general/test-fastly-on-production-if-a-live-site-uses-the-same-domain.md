@@ -48,11 +48,11 @@ Adobe Commerce on cloud infrastructure 프로젝트 내에서 하위 도메인�
 
 지원 기술 자료에서:
 
-* [스테이징 및 프로덕션 환경에서 Fastly DNS 설정 구성](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
-* [클라우드에서 시작 플랜에 대한 Fastly 설정](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
-* [클라우드 인프라의 Adobe Commerce에서 시작할 수 있는 차단기](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
+* [스테이징 및 프로덕션 환경에서 Fastly DNS 설정 구성](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=ko)
+* [클라우드에서 시작 플랜에 대한 Fastly 설정](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html?lang=ko)
+* [클라우드 인프라의 Adobe Commerce에서 시작할 수 있는 차단기](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=ko)
 
 개발자 설명서에서:
 
-* [Fastly 개요](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [라이브 검사 목록: Fastly에 대한 DNS 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
+* [Fastly 개요](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=ko)
+* [라이브 검사 목록: Fastly에 대한 DNS 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=ko)

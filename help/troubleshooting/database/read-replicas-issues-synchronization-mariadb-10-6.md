@@ -54,7 +54,7 @@ ht-degree: 0%
 
 
 
-데이터베이스 구성을 업데이트하는 단계는 Commerce on Cloud Infrastructure Guide의 Deploy variables 항목에서 [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration)을 참조하십시오.
+데이터베이스 구성을 업데이트하는 단계는 Commerce on Cloud Infrastructure Guide의 Deploy variables 항목에서 [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=ko#database_configuration)을 참조하십시오.
 
 
 ## 관련 읽기

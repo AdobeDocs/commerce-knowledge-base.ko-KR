@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 환경 스냅샷 복원
 
-지원되는 환경(통합, 스테이징, 프로의 프로덕션 계획 또는 프로의 통합 계획)에서 기존 스냅샷을 복원하려면 Commerce on Cloud Infrastructure Guide의 [Backup Management: Restore a manual backup](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)의 단계를 따릅니다.
+지원되는 환경(통합, 스테이징, 프로의 프로덕션 계획 또는 프로의 통합 계획)에서 기존 스냅샷을 복원하려면 Commerce on Cloud Infrastructure Guide의 [Backup Management: Restore a manual backup](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)의 단계를 따릅니다.
 
 ## 데이터베이스(DB) 백업
 

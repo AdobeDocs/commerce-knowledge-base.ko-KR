@@ -53,4 +53,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* 사용 안내서의 [보안 검사](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan).
+* 사용 안내서의 [보안 검사](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security-scan).

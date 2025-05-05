@@ -49,12 +49,12 @@ ht-degree: 0%
 curl -X GET -s https://api.fastly.com/service/<Service ID>/version/<Editable Version #>/snippet -H "Fastly-Key:FASTLY_API_TOKEN"
 ```
 
-VCL 목록을 검토합니다. Fastly의 기본 VCL에 문제가 있는 경우 [Fastly 기본 VCL](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets)에 따라 콘텐츠를 다시 업로드하거나 확인할 수 있습니다. 사용자 지정 VCL을 편집하려면 Cloud Infrastructure의 Commerce 안내서에서 [사용자 지정 Fastly VCL 코드 조각](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)을 참조하십시오.
+VCL 목록을 검토합니다. Fastly의 기본 VCL에 문제가 있는 경우 [Fastly 기본 VCL](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets)에 따라 콘텐츠를 다시 업로드하거나 확인할 수 있습니다. 사용자 지정 VCL을 편집하려면 Cloud Infrastructure의 Commerce 안내서에서 [사용자 지정 Fastly VCL 코드 조각](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=ko)을 참조하십시오.
 
 ## 추가 정보
 
 개발자 설명서에서:
 
-* [Fastly 정보](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [빠르게 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [사용자 지정 Fastly VCL 코드 조각](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [Fastly 정보](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=ko)
+* [빠르게 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko)
+* [사용자 지정 Fastly VCL 코드 조각](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=ko)

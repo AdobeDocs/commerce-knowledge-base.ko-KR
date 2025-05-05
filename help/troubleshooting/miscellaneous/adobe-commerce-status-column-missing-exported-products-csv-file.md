@@ -50,5 +50,5 @@ Adobe Commerce(모든 배포 메서드) 모든 [지원되는 버전](https://www
 
 ## 관련 읽기
 
-* 사용 안내서에서 [CSV 파일로 작업](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-csv).
-* 사용 안내서의 [제품 내보내기 특성 참조](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product).
+* 사용 안내서에서 [CSV 파일로 작업](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-csv).
+* 사용 안내서의 [제품 내보내기 특성 참조](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-attributes-product).

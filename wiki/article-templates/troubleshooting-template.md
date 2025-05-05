@@ -67,7 +67,7 @@ Adobe Commerce이 그렇게 합니다.
 
 ## 관련 읽기
 
-* 사용 안내서의 [문서 항목](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home).
+* 사용 안내서의 [문서 항목](https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home).
 * 개발자 설명서의 [문서 항목](https://developer.adobe.com/commerce/docs/). 또한 Cloud용 devdocs와 온-프레미스 사용자를 구분하고 다음과 같이 지정할 수 있습니다. &quot;[Article topic](https://developer.adobe.com/commerce/docs/) in our developer documentation for Adobe Commerce on cloud infrastructure&quot; Adobe Commerce 온-프레미스에 대한 개발자 설명서에 있는 &quot;[문서 항목](https://developer.adobe.com/commerce/docs/)과(와) 비교&quot;
 * 지원 기술 자료의 [문서 항목](https://support.magento.com/hc/en-us).
 * 모든 관련 리소스(블로그, 포럼, StackOverflow 등)

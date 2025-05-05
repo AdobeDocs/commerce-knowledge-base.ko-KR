@@ -1,6 +1,6 @@
 ---
 title: Fastly가 활성화된 하위 페이지에 메인 메뉴(카테고리)가 표시되지 않음
-description: '이 문서에서는 Fastly 또는 Vannish가 활성화된 경우 기본 메뉴(또는 사용자 안내서의 [카테고리 상단 탐색 메뉴](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html))가 하위 페이지(예: *블로그/페이지*)의 상점 앞에 표시되지 않는 경우에 대한 수정 사항을 제공합니다.'
+description: '이 문서에서는 Fastly 또는 Vannish가 활성화된 경우 기본 메뉴(또는 사용자 안내서의 [카테고리 상단 탐색 메뉴](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=ko))가 하위 페이지(예: *블로그/페이지*)의 상점 앞에 표시되지 않는 경우에 대한 수정 사항을 제공합니다.'
 exl-id: 7c54791d-8aa6-4f01-a28b-a7aecdb8ff74
 feature: Categories, Marketing Tools
 role: Developer

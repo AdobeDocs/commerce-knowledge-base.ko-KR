@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * Adobe Commerce 온-프레미스: 2.x.x
 * 클라우드 인프라의 Adobe Commerce: 2.x.x
-* MySQL: 모든 [지원되는 버전](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
+* MySQL: 모든 [지원되는 버전](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements)
 
 ## 언제 증분 ID를 변경해야 합니까(대소문자)
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 ## 전제 조건 단계
 
 1. 새 증분 ID를 변경해야 하는 저장소 및 엔티티를 찾습니다.
-1. MySQL DB에 [연결](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)합니다. 클라우드 인프라의 Adobe Commerce의 경우 먼저 [환경에 SSH를 연결](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)해야 합니다.
+1. MySQL DB에 [연결](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)합니다. 클라우드 인프라의 Adobe Commerce의 경우 먼저 [환경에 SSH를 연결](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko)해야 합니다.
 1. 다음 질의를 사용하여 엔티티 시퀀스 테이블의 현재 auto\_increment 값을 확인합니다.
 
 ```sql
@@ -53,7 +53,7 @@ SHOW TABLE STATUS FROM `{database_name}` WHERE `name` LIKE 'sequence_{entity_typ
 
 ### 관련 설명서
 
-* 개발자 설명서에서 [원격 MySQL 데이터베이스 연결을 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)합니다.
+* 개발자 설명서에서 [원격 MySQL 데이터베이스 연결을 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)합니다.
 
 ## 증분 ID를 변경하려면 엔티티 업데이트
 
@@ -87,5 +87,5 @@ ALTER TABLE sequence_order_1 AUTO_INCREMENT = 2000;
 ## 관련 설명서
 
 * 지원 기술 자료에서 [클라우드에 데이터베이스 덤프 만들기](/help/how-to/general/create-database-dump-on-cloud.md)
-* 개발자 설명서에서 [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 개발자 설명서에서 [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

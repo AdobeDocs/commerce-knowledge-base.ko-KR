@@ -52,9 +52,9 @@ Month Date Time i-xxxxxxxxxxxxxxxxx postfix/sendmail[26434]: fatal: no-reply@xxx
 ## 해결 방법
 
 * 6Mb 또는 10Mb 이상의 첨부 파일을 사용하지 마십시오.
-* Adobe Commerce 인스턴스에서 원격 SMTP 서버를 사용하는 것이 좋습니다. 단계는 관리 시스템 안내서의 [전자 메일 통신 구성](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html)을 참조하세요.
+* Adobe Commerce 인스턴스에서 원격 SMTP 서버를 사용하는 것이 좋습니다. 단계는 관리 시스템 안내서의 [전자 메일 통신 구성](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html?lang=ko)을 참조하세요.
 * 파일을 모듈 내에 저장할 수 있도록 서버를 다시 구성한 다음 이메일의 파일에 대한 링크를 첨부합니다.
 
 ## 관련 읽기
 
-* Commerce on Cloud Infrastructure 안내서의 [[!DNL SendGrid] 이메일 서비스](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html).
+* Commerce on Cloud Infrastructure 안내서의 [[!DNL SendGrid] 이메일 서비스](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=ko).

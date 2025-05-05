@@ -78,7 +78,7 @@ Adobe Commerce on cloud infrastructure 스타터 계획 아키텍처를 사용�
        php ./vendor/bin/ece-tools deploy
    ```
 
-   [ece-tools로 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) 문서를 참조하십시오.
+   [ece-tools로 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) 문서를 참조하십시오.
 
 1. 다음 명령을 실행하여 ECE-tools 패키지가 `composer.lock` 파일에 있는지 확인하십시오.
 
@@ -92,7 +92,7 @@ Adobe Commerce on cloud infrastructure 스타터 계획 아키텍처를 사용�
    "name": "magento/ece-tools", "version": "2002.0.20",
    ```
 
-참조하려면 [ece-tools로 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) 문서를 참조하십시오.
+참조하려면 [ece-tools로 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) 문서를 참조하십시오.
 
 ### 패치 때문에 문제가 발생한 건가요?
 

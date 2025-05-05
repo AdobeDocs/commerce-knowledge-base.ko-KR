@@ -18,9 +18,9 @@ ht-degree: 0%
 > [MySQL 카탈로그 검색 엔진이 Adobe Commerce 2.4.0에서 제거됩니다](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 를 구성해야 합니다.
 > 
 > 다음을 참조하십시오.
-> [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch) Elasticsearch을 설치하고 구성합니다.
-> [Opensearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch) 설치 및 구성
-> [Live Search 설치 및 구성](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
+> [&#128279;](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch) Elasticsearch을 설치하고 구성합니다.
+> [Opensearch](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/service/opensearch) 설치 및 구성
+> [Live Search 설치 및 구성](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/live-search/install)
 
 이 문서에서는 **검색 엔진** 필드가 표시되지 않거나 **시스템 값 사용** 확인란이 회색으로 표시되어 액세스할 수 없는 경우 Commerce 관리자를 사용하여 Adobe Commerce 검색 엔진을 변경하는 방법에 대한 해결 방법을 제공합니다.
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 ![change_store_view.png](assets/change_store_view.png)
 
-**관련 설명서:** 사용 안내서의 [범위 변경](https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html#set-the-scope).
+**관련 설명서:** 사용 안내서의 [범위 변경](https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html?lang=ko#set-the-scope).
 
 ### 문제 2: &quot;시스템 값 사용&quot;의 선택을 취소할 수 없음
 
@@ -108,7 +108,7 @@ array (
 
 ### 개발자 설명서의 관련 문서
 
-Adobe Commerce 구성 가이드의 [Adobe Commerce 구성 파일](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/deployment-files.html)
+Adobe Commerce 구성 가이드의 [Adobe Commerce 구성 파일](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/deployment-files.html?lang=ko)
 
 ## 클라우드 인프라의 Adobe Commerce
 
@@ -137,7 +137,7 @@ stage:
      elasticsearch_server_timeout: '15'
 ```
 
-[Opensearch(2.4.6 이상)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search)(으)로 전환하는 경우 결과 `.magento.env.yaml` 파일의 SEARCH\_CONFIGURATION 변수는 다음과 같을 수 있습니다.
+[Opensearch(2.4.6 이상)](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search)(으)로 전환하는 경우 결과 `.magento.env.yaml` 파일의 SEARCH\_CONFIGURATION 변수는 다음과 같을 수 있습니다.
 
 ```yaml
 stage:
@@ -150,7 +150,7 @@ stage:
      elasticsearch_server_timeout: '15'
 ```
 
-[실시간 검색으로 전환](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch)하는 경우 결과 `.magento.env.yaml` 파일의 SEARCH\_CONFIGURATION 변수는 다음과 같을 수 있습니다.
+[실시간 검색으로 전환](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch)하는 경우 결과 `.magento.env.yaml` 파일의 SEARCH\_CONFIGURATION 변수는 다음과 같을 수 있습니다.
 
 ```yaml
 stage:
@@ -167,8 +167,8 @@ stage:
 
 #### 개발자 설명서
 
-* [Elasticsearch 서비스 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html)
-* [빌드 및 배포](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)(`.magento.env.yaml` 구성 파일에 대한 설명서)
-* [변수 배포](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html)([SEARCH\_CONFIGURATION 섹션](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#search_configuration))
-* [서비스](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html)(`.magento/services.yaml` 구성 파일에 대한 설명서)
-* [실시간 검색](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
+* [Elasticsearch 서비스 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=ko)
+* [빌드 및 배포](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=ko)(`.magento.env.yaml` 구성 파일에 대한 설명서)
+* [변수 배포](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=ko)([SEARCH\_CONFIGURATION 섹션](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=ko#search_configuration))
+* [서비스](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html?lang=ko)(`.magento/services.yaml` 구성 파일에 대한 설명서)
+* [실시간 검색](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/live-search/overview)

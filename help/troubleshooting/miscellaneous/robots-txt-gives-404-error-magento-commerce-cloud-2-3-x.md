@@ -33,10 +33,10 @@ ht-degree: 0%
 
 셀프서비스를 사용하도록 설정하지 않은 경우(또는 사용하도록 설정되었는지 확실하지 않은 경우) [Magento 지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 `/robots.txt` 요청에서 `/media/robots.txt`(으)로 Nginx 리디렉션 규칙 제거를 요청합니다.
 
-셀프 서비스를 사용하도록 설정한 경우 ECE-Tools를 최소 2002.0.12로 업그레이드하고 `.magento.app.yaml` 파일에서 Nginx 리디렉션 규칙을 제거하십시오. 자세한 내용은 개발자 설명서에서 [사이트 맵 및 검색 엔진 로봇 추가](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html)를 참조하십시오.
+셀프 서비스를 사용하도록 설정한 경우 ECE-Tools를 최소 2002.0.12로 업그레이드하고 `.magento.app.yaml` 파일에서 Nginx 리디렉션 규칙을 제거하십시오. 자세한 내용은 개발자 설명서에서 [사이트 맵 및 검색 엔진 로봇 추가](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=ko)를 참조하십시오.
 
 ## 관련 읽기
 
 * 지원 기술 자료에서 [Fastly 수준에서 Magento Commerce Cloud을 위한 악성 트래픽을 차단하는 방법](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md).
-* 개발자 설명서에서 [사이트 맵 및 검색 엔진 로봇을 추가](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)합니다.
-* 사용 안내서의 [검색 엔진 로봇](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots).
+* 개발자 설명서에서 [사이트 맵 및 검색 엔진 로봇을 추가](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)합니다.
+* 사용 안내서의 [검색 엔진 로봇](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html?lang=ko#search-engine-robots).

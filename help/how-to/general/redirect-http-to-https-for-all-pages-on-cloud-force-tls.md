@@ -29,7 +29,7 @@ Commerce 관리에서 Fastly의 **TLS 강제 적용** 기능을 활성화하여 
 1. **Storefront에서 보안 URL 사용** 및 **Admin에서 보안 URL 사용** 설정을 **예**(으)로 설정합니다.    ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
 1. 변경 내용을 적용하려면 오른쪽 상단의 **구성 저장**&#x200B;을 클릭하세요.
 
-**사용 안내서의 관련 설명서:**   [URL 저장](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls).
+**사용 안내서의 관련 설명서:**   [URL 저장](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-urls).
 
 ### 2단계: 강제 TLS 활성화 {#step-2-enable-force-tls}
 

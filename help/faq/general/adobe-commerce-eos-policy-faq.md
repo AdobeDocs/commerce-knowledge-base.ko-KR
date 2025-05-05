@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ### 모든 버전의 Adobe Commerce에 대한 소프트웨어 지원 날짜는 어디에서 찾을 수 있습니까?
 
-[Adobe Commerce 소프트웨어 수명 주기 정책](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)에서 Adobe Commerce 소프트웨어 수명 주기 정책 및 소프트웨어 지원 날짜를 확인할 수 있습니다. [개발자 설명서 페이지](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions)에 지원 종료(EOS) 날짜도 게시합니다.
+[Adobe Commerce 소프트웨어 수명 주기 정책](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)에서 Adobe Commerce 소프트웨어 수명 주기 정책 및 소프트웨어 지원 날짜를 확인할 수 있습니다. [개발자 설명서 페이지](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/versions)에 지원 종료(EOS) 날짜도 게시합니다.
 
 ### Adobe이 Adobe Commerce 소프트웨어 버전에 대한 지원을 종료하면 무엇을 의미합니까?
 
@@ -68,9 +68,9 @@ Adobe Commerce 소프트웨어를 최신 상태로 유지함으로써 많은 이
 
 상거래 플랫폼은 귀사에 중요한 비즈니스 시스템이며 최신 상태를 유지하고 비즈니스에 대한 중요한 지속적인 투자입니다. 디지털 스토어에 대한 최신 기술 및 보안 업데이트는 여러 수준에서 중요하며 혁신 및 성장을 향상시키는 데 도움이 될 수 있습니다.
 
-최신 버전의 Adobe Commerce 소프트웨어로 이동하면 시간과 리소스가 많이 소요될 수 있습니다. 가장 좋은 방법은 지원 종료 날짜 이전에 계획을 수립하여 일정과 예산 내에서 전략적 목표를 달성하는 데 적절한 시간과 리소스를 확보할 수 있도록 하는 것입니다. 다음 업그레이드를 돕기 위해 Adobe은 따라야 할 모범 사례 및 기술 단계뿐만 아니라 업그레이드를 수행할 때 사용할 도구 및 리소스가 포함된 [2.4 업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf)를 게시했습니다.
+최신 버전의 Adobe Commerce 소프트웨어로 이동하면 시간과 리소스가 많이 소요될 수 있습니다. 가장 좋은 방법은 지원 종료 날짜 이전에 계획을 수립하여 일정과 예산 내에서 전략적 목표를 달성하는 데 적절한 시간과 리소스를 확보할 수 있도록 하는 것입니다. 다음 업그레이드를 돕기 위해 Adobe은 따라야 할 모범 사례 및 기술 단계뿐만 아니라 업그레이드를 수행할 때 사용할 도구 및 리소스가 포함된 [2.4 업그레이드 안내서](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf?lang=ko)를 게시했습니다.
 
-또 다른 중요한 고려 사항은 개발자 및 파트너 리소스를 가능한 한 빨리 예약하는 것입니다. 파트너 시간과 리소스는 지원 종료 날짜 이전에 자주 예약되므로 마이그레이션 프로젝트를 지원할 리소스가 크게 줄어듭니다. 매년 최소한으로 논의하고 다음 연도가 계획되고 예산이 책정되도록 하는 3년 순환 계획이 있는 것이 좋습니다. [Adobe의 릴리스 일정](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)을 사용하여 릴리스 날짜를 추적하세요.
+또 다른 중요한 고려 사항은 개발자 및 파트너 리소스를 가능한 한 빨리 예약하는 것입니다. 파트너 시간과 리소스는 지원 종료 날짜 이전에 자주 예약되므로 마이그레이션 프로젝트를 지원할 리소스가 크게 줄어듭니다. 매년 최소한으로 논의하고 다음 연도가 계획되고 예산이 책정되도록 하는 3년 순환 계획이 있는 것이 좋습니다. [Adobe의 릴리스 일정](https://experienceleague.adobe.com/ko/docs/commerce-operations/release/planning/schedule)을 사용하여 릴리스 날짜를 추적하세요.
 
 ### Adobe Commerce 지원이 중단되면 소프트웨어 지원을 위해 서드파티 서비스 공급자를 사용할 수 있습니까?
 

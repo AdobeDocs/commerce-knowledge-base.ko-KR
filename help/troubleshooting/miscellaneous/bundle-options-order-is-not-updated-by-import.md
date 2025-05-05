@@ -29,7 +29,7 @@ ht-degree: 0%
 
 <u>재현 단계</u>:
 
-1. [가져오기 기능](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import)을 사용하여 파일을 가져옵니다.
+1. [가져오기 기능](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/import/data-import)을 사용하여 파일을 가져옵니다.
 1. 번들 제품 페이지를 엽니다.
 
 <u>예상 결과</u>:
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-1. .csv 파일에서 `bundle_values` 열의 `position` 매개 변수에 있는 각 옵션에 대해 명시적으로 위치를 선언합니다. 자세한 지침은 사용 안내서의 [제품 데이터 편집](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products#method-2-edit-the-product-data)을 참조하세요.
+1. .csv 파일에서 `bundle_values` 열의 `position` 매개 변수에 있는 각 옵션에 대해 명시적으로 위치를 선언합니다. 자세한 지침은 사용 안내서의 [제품 데이터 편집](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products#method-2-edit-the-product-data)을 참조하세요.
 1. 가져오기 작업을 반복합니다.
 
-가져오기에 대한 일반적인 정보는 사용 안내서에서 [번들 제품 가져오기](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products)를 참조하십시오.
+가져오기에 대한 일반적인 정보는 사용 안내서에서 [번들 제품 가져오기](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products)를 참조하십시오.

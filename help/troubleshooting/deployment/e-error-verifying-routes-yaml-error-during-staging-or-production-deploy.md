@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. 변경 с 사항을 생략하고 푸시하여 프로젝트를 재배포합니다.
 
-경로 구성을 업데이트하는 자세한 지침은 개발자 설명서에서 [Adobe Commerce용 클라우드 > 경로 구성](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml)을 참조하십시오.
+경로 구성을 업데이트하는 자세한 지침은 개발자 설명서에서 [Adobe Commerce용 클라우드 > 경로 구성](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml)을 참조하십시오.
 
 >[!NOTE]
 >

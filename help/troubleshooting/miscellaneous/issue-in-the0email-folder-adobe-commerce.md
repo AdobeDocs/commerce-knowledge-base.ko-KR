@@ -67,4 +67,4 @@ chmod 777 -R var/export/
 
 ## 관련 읽기
 
-* 사용 안내서에서 [내보내기](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-export).
+* 사용 안내서에서 [내보내기](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/data-transfer/data-export).

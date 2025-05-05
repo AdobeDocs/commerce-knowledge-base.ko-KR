@@ -62,8 +62,8 @@ Adobe Commerce(모든 배포 방법) 2.4.3 이상
 ...
 ```
 
-자세한 단계는 개발자 설명서에서 [메시지 큐 관리 > 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration)을 참조하세요.
+자세한 단계는 개발자 설명서에서 [메시지 큐 관리 > 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration)을 참조하세요.
 
 ## 관련 읽기
 
-개발자 설명서에서 [메시지 큐 개요](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework).
+개발자 설명서에서 [메시지 큐 개요](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework).

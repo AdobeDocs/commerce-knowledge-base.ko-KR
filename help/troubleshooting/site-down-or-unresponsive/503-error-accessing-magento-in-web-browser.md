@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>재현 단계</u>
 
-(필수 구성 요소: 저장소가 [유지 관리 모드](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)에 있지 않은지 확인하십시오.)
+(필수 구성 요소: 저장소가 [유지 관리 모드](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)에 있지 않은지 확인하십시오.)
 
 웹 브라우저에서 Commerce 관리자 또는 상점 페이지로 이동합니다.
 

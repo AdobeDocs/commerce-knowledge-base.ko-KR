@@ -103,4 +103,4 @@ Adobe Commerce 스테이징 환경을 실행하지 않고 이러한 리디렉션
 * 개발자 설명서에서 [경로 구성](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html)
 * 개발자 설명서에서 [설정 [!DNL Fastly]](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
 * 개발자 설명서의 [[!DNL VCL] 정규 표현식 치트 시트](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet)
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

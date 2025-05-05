@@ -63,4 +63,4 @@ Varnish가 캐싱 애플리케이션으로 구성되고 Adobe Commerce이 개발
 $ bin/magento cache:enable
 ```
 
-명령줄 사용에 대한 자세한 내용은 [명령줄 구성 시작](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli)을 참조하십시오.
+명령줄 사용에 대한 자세한 내용은 [명령줄 구성 시작](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/config-cli)을 참조하십시오.

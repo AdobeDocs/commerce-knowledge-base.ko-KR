@@ -33,4 +33,4 @@ ht-degree: 0%
 
 웹 사이트가 두 개 이상 있는 경우 이러한 웹 사이트를 Default Stock 또는 기타 사용자 지정 스톡에 Sales Channel으로 추가해야 합니다.
 
-이 작업을 수행하는 방법에 대한 자세한 내용은 사용 안내서의 [위키/사용 안내서의 재고 섹션](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage)을 참조하십시오.
+이 작업을 수행하는 방법에 대한 자세한 내용은 사용 안내서의 [위키/사용 안내서의 재고 섹션](https://experienceleague.adobe.com/ko/docs/commerce-admin/inventory/stocks/stocks-manage)을 참조하십시오.

@@ -27,7 +27,7 @@ ht-degree: 0%
 <u>필수 구성 요소</u>:
 
 1. Commerce 관리자의 **스토어** > **구성** > **판매** > **체크아웃**&#x200B;에서 **게스트 체크아웃 허용** = *아니요*&#x200B;를 설정하십시오.
-1. 사용 안내서의 [Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?)에 설명된 대로 Braintree을 통해 PayPal을 사용하도록 설정하십시오.
+1. 사용 안내서의 [Braintree](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/payments/braintree?)에 설명된 대로 Braintree을 통해 PayPal을 사용하도록 설정하십시오.
 
 <u>재현 단계</u>:
 

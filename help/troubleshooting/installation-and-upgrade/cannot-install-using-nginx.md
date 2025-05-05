@@ -31,4 +31,4 @@ If you are using the sample nginx configuration, please go to http://ce.mtf03.bc
 
 ### 해결 방법
 
-[명령줄](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)을 사용하여 Adobe Commerce 소프트웨어를 설치합니다.
+[명령줄](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/advanced)을 사용하여 Adobe Commerce 소프트웨어를 설치합니다.

@@ -57,8 +57,8 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 개발자 설명서에서:
 
-* [클라우드 인프라의 Adobe Commerce 안내서](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/overview)
-* [클라우드 인프라의 Adobe Commerce - Adobe Commerce 버전 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
-* [Adobe Commerce 온-프레미스 및 Magento Open Source - Adobe Commerce 응용 프로그램 및 모듈 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview)
+* [클라우드 인프라의 Adobe Commerce 안내서](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/overview)
+* [클라우드 인프라의 Adobe Commerce - Adobe Commerce 버전 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
+* [Adobe Commerce 온-프레미스 및 Magento Open Source - Adobe Commerce 응용 프로그램 및 모듈 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/overview)
 * [위시리스트 항목 구성 페이지](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts/#wishlist-item-configure-page)
 * [고급 보고를 제공하는 모듈](https://developer.adobe.com/commerce/php/development/advanced-reporting/modules/)

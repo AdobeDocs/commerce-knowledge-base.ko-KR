@@ -56,7 +56,7 @@ SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column '
 
 >[!WARNING]
 >
->테이블을 변경하기 전에 데이터베이스 백업을 수행합니다. 또한 사이트를 [유지 관리 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode)로 전환하세요. 또한 변경한 후 데이터베이스 테이블(변경된 테이블만)에서 [!DNL MySQL] optimize 명령을 실행하는 것이 좋습니다.
+>테이블을 변경하기 전에 데이터베이스 백업을 수행합니다. 또한 사이트를 [유지 관리 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ko#maintenance-mode)로 전환하세요. 또한 변경한 후 데이터베이스 테이블(변경된 테이블만)에서 [!DNL MySQL] optimize 명령을 실행하는 것이 좋습니다.
 
 >[!NOTE]
 >
@@ -111,8 +111,8 @@ ALTER TABLE catalog_product_entity_int AUTO_INCREMENT = 4283174131;
 
 ## 관련 읽기
 
-* Commerce 설치 안내서의 [일반 [!DNL MySQL] 지침](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html)
-* [데이터베이스를 업로드하면 지원 기술 자료에서  [!DNL MySQL]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html)에 대한 연결이 끊어집니다.
-* 지원 기술 자료의 [클라우드 인프라에서 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html)
-* [클라우드 인프라의 Adobe Commerce에서 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html) 지원 기술 자료
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce 설치 안내서의 [일반 [!DNL MySQL] 지침](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html?lang=ko)
+* [데이터베이스를 업로드하면 지원 기술 자료에서  [!DNL MySQL]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html?lang=ko)에 대한 연결이 끊어집니다.
+* 지원 기술 자료의 [클라우드 인프라에서 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html?lang=ko)
+* [클라우드 인프라의 Adobe Commerce에서 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html?lang=ko) 지원 기술 자료
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

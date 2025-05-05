@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ### 솔루션
 
-필요한 경우에만 리인덱싱을 실행합니다. 단계는 개발자 설명서에서 [인덱서 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)을 검토하십시오. 일반적인 권장 사항 및 모범 사례는 부분 재인덱싱 메커니즘이 판매자의 수동 작업 없이 데이터 재인덱싱을 처리할 수 있도록 하는 것입니다. 모든 색인 재지정은 기본 Adobe Commerce 기능(Mview)을 사용하여 수행해야 합니다. Mview는 데이터를 다시 인덱싱하는 가장 효율적인 방법인 부분 다시 인덱싱을 수행합니다. Mview에 대한 자세한 내용은 개발자 설명서에서 [색인화 개요: Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)을(를) 참조하십시오.
+필요한 경우에만 리인덱싱을 실행합니다. 단계는 개발자 설명서에서 [인덱서 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)을 검토하십시오. 일반적인 권장 사항 및 모범 사례는 부분 재인덱싱 메커니즘이 판매자의 수동 작업 없이 데이터 재인덱싱을 처리할 수 있도록 하는 것입니다. 모든 색인 재지정은 기본 Adobe Commerce 기능(Mview)을 사용하여 수행해야 합니다. Mview는 데이터를 다시 인덱싱하는 가장 효율적인 방법인 부분 다시 인덱싱을 수행합니다. Mview에 대한 자세한 내용은 개발자 설명서에서 [색인화 개요: Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)을(를) 참조하십시오.
 
 ## 관련 읽기
 

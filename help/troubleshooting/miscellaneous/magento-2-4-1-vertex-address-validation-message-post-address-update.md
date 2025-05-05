@@ -24,7 +24,7 @@ ht-degree: 0%
 
 사전 요구 사항:
 
-**Vertex 주소 정리**&#x200B;를 사용하도록 설정합니다. 단계는 사용 안내서의 [상점 주소 정리 구성](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html)을 참조하십시오.
+**Vertex 주소 정리**&#x200B;를 사용하도록 설정합니다. 단계는 사용 안내서의 [상점 주소 정리 구성](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html?lang=ko)을 참조하십시오.
 
 <u>재현 단계:</u>
 

@@ -44,7 +44,7 @@ ht-degree: 0%
 Adobe Commerce 프로젝트가 Pro 아키텍처에 배포된 경우 [!DNL Percona Toolkit]을(를) 사용하여 쿼리를 분석할 수 있습니다.
 
 1. MySQL 느린 쿼리 로그에 대해 `pt-query-digest --type=slowlog` 명령을 실행합니다.
-   * 느린 쿼리 로그의 위치를 찾으려면 개발자 설명서에서 **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)**&#x200B;을(를) 참조하십시오.
+   * 느린 쿼리 로그의 위치를 찾으려면 개발자 설명서에서 **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=ko)**&#x200B;을(를) 참조하십시오.
    * [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) 설명서를 참조하십시오.
 1. 발견된 문제를 기반으로, 쿼리를 수정하는 단계를 수행하여 쿼리가 더 빨리 실행되도록 합니다.
 
@@ -81,4 +81,4 @@ Adobe Commerce 프로젝트가 Pro 아키텍처에 배포된 경우 [!DNL Percon
 * dev.mysql.com의 [MySQL Show Processlist 구문](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html).
 * dev.mysql.com의 [MySQL Kill 구문](https://dev.mysql.com/doc/refman/8.0/en/kill.html).
 * 개발자 설명서에서 [보안, 성능 및 데이터 처리](https://developer.adobe.com/commerce/php/best-practices/extensions/security/).
-* 개발자 설명서에서 [MySQL 도움말](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)
+* 개발자 설명서에서 [MySQL 도움말](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)

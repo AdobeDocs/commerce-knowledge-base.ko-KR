@@ -36,7 +36,7 @@ Adobe Commerce 고객.
 
 ## 업그레이드 호환성 도구 1.1.0 설치
 
-설치 단계는 개발자 설명서에서 Adobe Commerce: [호환성 도구 업그레이드 > 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run)를 참조하십시오. 도구를 사용하기 위한 필수 구성 요소는 개발자 설명서에서 Adobe Commerce: [호환성 도구 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/prerequisites)를 참조하십시오.
+설치 단계는 개발자 설명서에서 Adobe Commerce: [호환성 도구 업그레이드 > 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run)를 참조하십시오. 도구를 사용하기 위한 필수 구성 요소는 개발자 설명서에서 Adobe Commerce: [호환성 도구 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/prerequisites)를 참조하십시오.
 
 ## 각 호 옆에 있는 번호는 몇 번인가요?
 
@@ -47,7 +47,7 @@ Adobe Commerce 고객.
 * 오류 코드: Adobe Commerce이 오류 메시지에 대해 할당한 식별자입니다.
 * 오류 설명: 오류의 원인을 요약하는 설명입니다.
 * 오류 제안 작업: 해당하는 경우 오류를 해결하고 해결하기 위한 지침을 제공합니다.
-* 코드는 [오류 메시지 참조 페이지](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/reporting/error-messages)에 나열되고 설명되어 있습니다.
+* 코드는 [오류 메시지 참조 페이지](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/reporting/error-messages)에 나열되고 설명되어 있습니다.
 
 ## 도구에 대한 피드백을 어디에서 공유할 수 있습니까?
 
@@ -56,4 +56,4 @@ Adobe Commerce 고객.
 ## 관련 읽기
 
 * Adobe Commerce 블로그: [업그레이드 호환성 도구 소개(Alpha)](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
-* Adobe Commerce: 개발자 설명서에서 [호환성 도구 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview).
+* Adobe Commerce: 개발자 설명서에서 [호환성 도구 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview).

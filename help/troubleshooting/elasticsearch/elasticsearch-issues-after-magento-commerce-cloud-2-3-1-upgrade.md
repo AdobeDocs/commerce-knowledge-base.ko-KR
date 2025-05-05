@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->[MySQL 카탈로그 검색 엔진이 Adobe Commerce 2.4.0에서 제거됩니다](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 를 구성해야 합니다. [Elasticsearch 설치 및 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)을 참조하세요.
+>[MySQL 카탈로그 검색 엔진이 Adobe Commerce 2.4.0에서 제거됩니다](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 를 구성해야 합니다. [Elasticsearch 설치 및 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/search/overview-search)을 참조하세요.
 
 >[!WARNING]
 >
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 원인
 
-클라우드 인프라(버전 2.3.1 이상)에서 Adobe Commerce으로 업그레이드하고 6.x 이전 버전의 Elasticsearch에 있는 판매자는 배포 시 오류가 발생할 수 있습니다. 이는 Elasticsearch 버전 2.x 및 5.x가 [수명 종료](https://www.elastic.co/support/eol)이고 Adobe Commerce에서 더 이상 지원되지 않기 때문입니다. Elasticsearch 클라이언트가 최신 상태여야 하거나 배포를 실행하면 오류가 트리거될 수 있습니다. 자세한 내용은 개발자 설명서에서 [Elasticsearch 클라이언트 변경](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)을 참조하세요.
+클라우드 인프라(버전 2.3.1 이상)에서 Adobe Commerce으로 업그레이드하고 6.x 이전 버전의 Elasticsearch에 있는 판매자는 배포 시 오류가 발생할 수 있습니다. 이는 Elasticsearch 버전 2.x 및 5.x가 [수명 종료](https://www.elastic.co/support/eol)이고 Adobe Commerce에서 더 이상 지원되지 않기 때문입니다. Elasticsearch 클라이언트가 최신 상태여야 하거나 배포를 실행하면 오류가 트리거될 수 있습니다. 자세한 내용은 개발자 설명서에서 [Elasticsearch 클라이언트 변경](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/search/overview-search)을 참조하세요.
 
 ## 문제
 
@@ -43,12 +43,12 @@ ht-degree: 0%
 
 이 문제를 해결하려면 Elasticsearch 클라이언트 모듈 및 Elasticsearch 서비스가 권장 최신 버전이어야 합니다.
 
-1. 권장되는 최신 버전의 Elasticsearch 클라이언트 모듈을 사용할 수 있도록 개발자 설명서에서 [Elasticsearch 모듈을 변경](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)하는 지침을 따르십시오.
+1. 권장되는 최신 버전의 Elasticsearch 클라이언트 모듈을 사용할 수 있도록 개발자 설명서에서 [Elasticsearch 모듈을 변경](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/search/overview-search)하는 지침을 따르십시오.
 1. [지원 티켓을 제출하고](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 스테이징 및 프로덕션에서 Elasticsearch 서비스 업데이트를 6.x로 요청합니다. Elasticsearch 서비스 업그레이드를 완료하는 데 시간이 걸릴 수 있습니다.
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [Adobe Commerce 2.3 기술 스택 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview)을 참조하십시오.
-* 개발자 설명서에서 [Elasticsearch 서비스를 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)합니다.
-* 개발자 설명서에서 [Elasticsearch 설치 및 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
+* 개발자 설명서에서 [Adobe Commerce 2.3 기술 스택 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/overview)을 참조하십시오.
+* 개발자 설명서에서 [Elasticsearch 서비스를 설정](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)합니다.
+* 개발자 설명서에서 [Elasticsearch 설치 및 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/search/overview-search).
 * 지원 기술 자료에서 [Elasticsearch이 제대로 설치되었는지 확인](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md).

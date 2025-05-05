@@ -45,6 +45,6 @@ Adobe Commerce이 2.2.X에서 2.3.X로 업그레이드된 후 캐시된 제품 �
    * 통합: 파일을 직접 수정하고 변경 사항을 푸시합니다.
    * 스테이징 및 프로덕션: 파일을 직접 수정하고 변경 내용을 푸시한 다음 [Adobe Commerce 지원 티켓](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)을 만들어 적용합니다.
 
-1. <https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>에 설명된 대로 Commerce 관리자에서 Fastly 이미지 최적화를 활성화합니다(Fastly는 이전에 구성해야 함).
+1. <https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>에 설명된 대로 Commerce 관리자에서 Fastly 이미지 최적화를 활성화합니다(Fastly는 이전에 구성해야 함).
 
 구성이 올바르지만 문제가 계속 발생하면 조사를 계속하거나 [Adobe Commerce 지원](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)에 문의하십시오.

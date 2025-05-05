@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 영향을 받는 제품 및 버전
 
-* [호환성 업그레이드 도구](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html)이(가) 2.3.0 이상에서 Adobe Commerce 버전과 호환됩니다.
+* [호환성 업그레이드 도구](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=ko)이(가) 2.3.0 이상에서 Adobe Commerce 버전과 호환됩니다.
 
 ## 세분화 오류
 
@@ -82,4 +82,4 @@ php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
 bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/
 ```
 
-명령줄 인터페이스 옵션에 대한 자세한 내용은 [명령줄 인터페이스에서 도구 실행](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) 페이지를 참조하십시오.
+명령줄 인터페이스 옵션에 대한 자세한 내용은 [명령줄 인터페이스에서 도구 실행](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html?lang=ko) 페이지를 참조하십시오.

@@ -34,7 +34,7 @@ ht-degree: 0%
 <p>이러한 경우 관리자는 사용자를 프로젝트에 추가해야 합니다.</p>
 </td>
 <td>
-<p>지원 기술 자료에서 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">New Relic 서비스에 액세스</a>.</p>
+<p>지원 기술 자료에서 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html?lang=ko">New Relic 서비스에 액세스</a>.</p>
 </td>
 </tr>
 <tr>

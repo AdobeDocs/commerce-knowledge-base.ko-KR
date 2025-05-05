@@ -24,8 +24,8 @@ ht-degree: 0%
 
 * [PHP 개발자 안내서](https://developer.adobe.com/commerce/php/development/)
 * [모듈 개요](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
-* [새 모듈 만들기](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/create-module)
-* [모듈 구성 파일](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
+* [새 모듈 만들기](https://experienceleague.adobe.com/ko/docs/commerce-learn/tutorials/backend-development/create-module)
+* [모듈 구성 파일](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/files/module-files)
 
 ## 필수 정보
 

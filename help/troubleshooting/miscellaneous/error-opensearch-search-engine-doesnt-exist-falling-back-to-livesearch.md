@@ -43,4 +43,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* Live Search 가이드의 [설치 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html)
+* Live Search 가이드의 [설치 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=ko)

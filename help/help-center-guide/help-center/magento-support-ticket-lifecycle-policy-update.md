@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe Commerce 지원 티켓 라이프사이클 정책 업데이트
 
-이 설명서는 Adobe DX 지원 사례 라이프사이클의 개선 사항에 대해 간략히 설명하고, 고객의 커뮤니케이션을 향상시키고, 고객의 성공을 보장하기 위해 가능한 한 빨리 해결 방법을 제공합니다. [Adobe 성공 계획 개요: 지원 사례 수명 주기](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)에서도 찾을 수 있습니다.
+이 설명서는 Adobe DX 지원 사례 라이프사이클의 개선 사항에 대해 간략히 설명하고, 고객의 커뮤니케이션을 향상시키고, 고객의 성공을 보장하기 위해 가능한 한 빨리 해결 방법을 제공합니다. [Adobe 성공 계획 개요: 지원 사례 수명 주기](https://experienceleague.adobe.com/ko/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)에서도 찾을 수 있습니다.
 다음은 지원 프로세스 중에 발생하는 다양한 시나리오에 대한 타임라인 및 알림입니다.
 
 ## 사례 후속 알림 메시지
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* [지원 티켓 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
-* [&quot;티켓 제출&quot; 링크가 Adobe Commerce 도움말 센터 시작 페이지에 표시되지 않음](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
-* [티켓 제출 양식: 판매자가 조직 드롭다운에 표시되지 않음](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
-* [Adobe 성공 계획 개요: 지원 사례 수명 주기](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
+* [지원 티켓 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
+* [&quot;티켓 제출&quot; 링크가 Adobe Commerce 도움말 센터 시작 페이지에 표시되지 않음](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
+* [티켓 제출 양식: 판매자가 조직 드롭다운에 표시되지 않음](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
+* [Adobe 성공 계획 개요: 지원 사례 수명 주기](https://experienceleague.adobe.com/ko/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)

@@ -35,10 +35,10 @@ MySQL의 교착 상태는 둘 이상의 트랜잭션을 상호 보류하고 잠�
 ## 솔루션
 
 1. 교착 상태 오류에 대한 응용 프로그램, 배포 또는 MySQL 로그를 확인합니다.
-   * [Adobe Commerce 및 Magento Open Source 로그 위치](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
-   * [클라우드 인프라의 Adobe Commerce 로그 위치](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+   * [Adobe Commerce 및 Magento Open Source 로그 위치](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html?lang=ko)
+   * [클라우드 인프라의 Adobe Commerce 로그 위치](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=ko)
 1. MySQL 프로세스 목록에서 `mysql -e 'show full processlist';` 명령을 사용하여 프로세스를 실행하고 있는지 확인하십시오.
-1. 클라우드 인프라의 Adobe Commerce에서 MySQL 슬레이브가 활성화되어 있는지 확인합니다. 다음 문서를 참조하십시오. [변수 배포(MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection).
+1. 클라우드 인프라의 Adobe Commerce에서 MySQL 슬레이브가 활성화되어 있는지 확인합니다. 다음 문서를 참조하십시오. [변수 배포(MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=ko#mysql_use_slave_connection).
 1. 관련된 오류에 따라 솔루션이 저절로 표시되거나 [지원 티켓](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)을 열어야 하는 경우 유용한 로그 정보를 포함해야 할 수도 있습니다.
 
 ## 관련 읽기

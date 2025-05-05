@@ -56,5 +56,5 @@ ht-degree: 0%
 >
 >프로덕션에 적용하기 전에 먼저 [스테이징/통합 환경](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)에서 변경 사항을 테스트하는 것이 좋습니다. 또한 조작하기 전에 최근 백업을 수행하는 것이 좋습니다.
 
-1. 개발자 설명서의 [모듈 출력 사용 안 함](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output)에 설명된 대로 `Magento_Banner` 모듈 출력을 사용하지 않도록 설정합니다. 모듈 이름은 `Magento_Banner`입니다.
-1. 코드 배포. 클라우드 인프라의 Adobe Commerce의 경우 개발자 설명서의 [스토어 배포](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) 문서에 설명된 대로 배포하십시오.
+1. 개발자 설명서의 [모듈 출력 사용 안 함](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/files/disable-module-output)에 설명된 대로 `Magento_Banner` 모듈 출력을 사용하지 않도록 설정합니다. 모듈 이름은 `Magento_Banner`입니다.
+1. 코드 배포. 클라우드 인프라의 Adobe Commerce의 경우 개발자 설명서의 [스토어 배포](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) 문서에 설명된 대로 배포하십시오.

@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ## Markdown 작성자
 
-일반적으로 [Adobe Experience League Markdown 구문 스타일 가이드](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en)를 사용하지만 몇 가지 차이점과 예외가 있습니다. 또한 경우에 따라 특정 HTML 태그가 필요합니다.
+일반적으로 [Adobe Experience League Markdown 구문 스타일 가이드](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=ko)를 사용하지만 몇 가지 차이점과 예외가 있습니다. 또한 경우에 따라 특정 HTML 태그가 필요합니다.
 
 다음은 보고서에서 가장 일반적으로 사용되는 Markdown 서식의 예입니다.
 

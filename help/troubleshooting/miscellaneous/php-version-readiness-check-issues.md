@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 솔루션
 
-이 문제를 해결하려면 개발자 설명서 [2.3.x 시스템 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements) 및 [2.2.x 시스템 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)에 나열된 지원되는 버전 중 하나를 사용하십시오.
+이 문제를 해결하려면 개발자 설명서 [2.3.x 시스템 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements) 및 [2.2.x 시스템 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements)에 나열된 지원되는 버전 중 하나를 사용하십시오.
 
 ## PHP 준비 검사가 표시되지 않음
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ### 솔루션
 
-이는 잘못된 cron job setup의 증상입니다. 자세한 내용은 개발자 설명서에서 [cron 작업 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)을 참조하십시오.
+이는 잘못된 cron job setup의 증상입니다. 자세한 내용은 개발자 설명서에서 [cron 작업 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/next-steps/configuration)을 참조하십시오.
 
 ## 잘못된 PHP 버전
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 * 웹 서버 또는 php-fm을 다시 시작합니다.
 * `$PATH` 환경 변수에서 PHP에 대한 여러 경로를 확인하십시오.
 * `which php` 명령을 사용하여 경로에서 첫 번째 PHP 실행 파일을 찾습니다. 올바르지 않으면 제거하거나 올바른 PHP 버전에 대한 symlink를 만드십시오.
-* [`phpinfo.php`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software) 페이지를 사용하여 자세한 정보를 수집하십시오.
+* [`phpinfo.php`](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/optional-software) 페이지를 사용하여 자세한 정보를 수집하십시오.
 * 개발자 설명서에서 시스템 요구 사항에 따라 지원되는 PHP 버전을 실행하고 있는지 확인하십시오.
-   * [Adobe Commerce 시스템 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
-* 개발자 설명서에서 [PHP 구성 옵션](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements#php-settings)에 설명된 대로 PHP 명령줄과 PHP 웹 서버 플러그인에 대해 동일한 PHP 설정을 설정합니다.
+   * [Adobe Commerce 시스템 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements)
+* 개발자 설명서에서 [PHP 구성 옵션](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements#php-settings)에 설명된 대로 PHP 명령줄과 PHP 웹 서버 플러그인에 대해 동일한 PHP 설정을 설정합니다.

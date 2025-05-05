@@ -27,7 +27,7 @@ Adobe Commerce(모든 배포 방법) 2.3.x, 2.4.x.
 
 그런 다음 지원 팀에 덤프 파일(저장소 주소 및 표시된 파일 이름)에 대한 직접 다운로드 링크를 제공할 수 있습니다.
 
-관리자로부터 덤프를 만드는 데 문제가 있는 경우 개발자 설명서에서 [지원 유틸리티 실행](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/run-support-utilities)에 설명된 대로 CLI 명령을 사용하는 것이 좋습니다.
+관리자로부터 덤프를 만드는 데 문제가 있는 경우 개발자 설명서에서 [지원 유틸리티 실행](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/run-support-utilities)에 설명된 대로 CLI 명령을 사용하는 것이 좋습니다.
 
 ## 관련 읽기
 

@@ -40,7 +40,7 @@ proc_open(): fork failed - Cannot allocate memory
 
 ## 솔루션 {#solution}
 
-설치 또는 업그레이드가 성공했는지 확인하려면 개발자 설명서에서 [2GB의 메모리를 PHP에 할당](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)하는 것이 좋습니다.
+설치 또는 업그레이드가 성공했는지 확인하려면 개발자 설명서에서 [2GB의 메모리를 PHP에 할당](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/php-settings)하는 것이 좋습니다.
 
 이 작업을 이미 수행한 경우 시스템에 스왑 파일을 만듭니다. Linux 컴퓨터에서 메모리 리소스가 더 필요하고 RAM이 꽉 찬 경우 *스왑 공간*&#x200B;을 사용합니다. 스왑 공간은 메모리의 비활성 페이지에 사용됩니다.
 

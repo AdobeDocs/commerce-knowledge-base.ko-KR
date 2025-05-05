@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 데이터베이스 및 SaaS 통합
 
-데이터베이스 및 SaaS 통합 목록은 개발자 설명서에서 [통합을 사용하여 외부 데이터 연결](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)을 참조하십시오. 페이지를 열 때는 탐색을 위해 왼쪽의 목차를 사용하십시오.
+데이터베이스 및 SaaS 통합 목록은 개발자 설명서에서 [통합을 사용하여 외부 데이터 연결](https://experienceleague.adobe.com/ko/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)을 참조하십시오. 페이지를 열 때는 탐색을 위해 왼쪽의 목차를 사용하십시오.
 
 ## 연결 문제가 있습니까?
 

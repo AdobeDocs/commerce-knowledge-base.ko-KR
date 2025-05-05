@@ -30,7 +30,7 @@ Adobe Commerce On-Premise 및 Cloud - 모든 버전
 
 ### 사례 I:
 
-* 분리된 패치 파일/핫픽스가 [릴리스 정보](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite)에 언급되어 있으면 [https://account.magento.com](https://account.magento.com/downloads/view/)의 다운로드 섹션에서 파일을 다운로드하십시오. 공유 액세스 사용자에게는 먼저 계정 소유자/라이선스 소유자가 다운로드 권한을 부여해야 합니다.
+* 분리된 패치 파일/핫픽스가 [릴리스 정보](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite)에 언급되어 있으면 [https://account.magento.com](https://account.magento.com/downloads/view/)의 다운로드 섹션에서 파일을 다운로드하십시오. 공유 액세스 사용자에게는 먼저 계정 소유자/라이선스 소유자가 다운로드 권한을 부여해야 합니다.
 
 **주의 사항:**
 
@@ -50,15 +50,15 @@ Adobe Commerce On-Premise 및 Cloud - 모든 버전
 
 * **클라우드:**
 
-1. 일부 [!UICONTROL Security Patches]이(가) Commerce용 클라우드 패치 아래의 ECE 도구(Cloud Tools Suite) 최신 버전에 포함/릴리스될 수 있습니다. [릴리스 정보](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite)를 확인하고 릴리스에 보안 수정 사항이 언급되면 해당 버전으로 패키지를 업그레이드하십시오.
+1. 일부 [!UICONTROL Security Patches]이(가) Commerce용 클라우드 패치 아래의 ECE 도구(Cloud Tools Suite) 최신 버전에 포함/릴리스될 수 있습니다. [릴리스 정보](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite)를 확인하고 릴리스에 보안 수정 사항이 언급되면 해당 버전으로 패키지를 업그레이드하십시오.
 1. 릴리스 정보에서 보안 수정 사항이 언급되지 않은 경우 계속 읽으십시오.
 
 * **클라우드 또는 온-프레미스:**
 
-* 격리된 패치 파일/핫픽스를 사용할 수 없는 경우 [Cloud의 Adobe Commerce 버전을 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X를 최신 패치 버전 2.4.X-pY로 업그레이드하십시오.
-* 격리된 패치 파일/핫픽스를 사용할 수 없는 경우 [Adobe Commerce 버전 On-Premise](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X를 최신 패치 버전 2.4.X-pY로 업그레이드하십시오.
+* 격리된 패치 파일/핫픽스를 사용할 수 없는 경우 [Cloud의 Adobe Commerce 버전을 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X를 최신 패치 버전 2.4.X-pY로 업그레이드하십시오.
+* 격리된 패치 파일/핫픽스를 사용할 수 없는 경우 [Adobe Commerce 버전 On-Premise](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X를 최신 패치 버전 2.4.X-pY로 업그레이드하십시오.
 
 ## 관련 읽기
 
-* *Commerce Cloud on Cloud Infrastructure Guide*&#x200B;의 [Adobe Commerce Tools Suite 릴리스 정보](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite)를 참조하십시오.
-* *Adobe Commerce on Cloud Infrastructure Guide*&#x200B;의 [Adobe Commerce 버전 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)를 참조하십시오.
+* *Commerce Cloud on Cloud Infrastructure Guide*&#x200B;의 [Adobe Commerce Tools Suite 릴리스 정보](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite)를 참조하십시오.
+* *Adobe Commerce on Cloud Infrastructure Guide*&#x200B;의 [Adobe Commerce 버전 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)를 참조하십시오.

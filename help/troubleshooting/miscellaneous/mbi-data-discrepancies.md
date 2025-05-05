@@ -18,7 +18,7 @@ ht-degree: 0%
 * [데이터 불일치 진단 검사 목록](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [내보내기를 사용하여 데이터 불일치 파악](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-또한 불일치와 관련된 테이블 및 열에 대해 올바른 [복제 메서드](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) 및 [다시 확인](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)이 설정되었는지 확인하는 것이 좋습니다. 복제 방법에 액세스하고 정보를 다시 확인하려면 관리자 권한이 필요합니다.
+또한 불일치와 관련된 테이블 및 열에 대해 올바른 [복제 메서드](https://experienceleague.adobe.com/ko/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) 및 [다시 확인](https://experienceleague.adobe.com/ko/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)이 설정되었는지 확인하는 것이 좋습니다. 복제 방법에 액세스하고 정보를 다시 확인하려면 관리자 권한이 필요합니다.
 
 ## 난 아직도 도움이 필요해!
 
@@ -32,4 +32,4 @@ ht-degree: 0%
 ## 관련 읽기
 
 * [계산된 열](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
-* [구조적 데이터베이스 변경](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html)
+* [구조적 데이터베이스 변경](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html?lang=ko)

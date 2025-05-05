@@ -43,9 +43,9 @@ ht-degree: 0%
 
 이 기능은 클라우드 인프라의 Adobe Commerce에서 비활성화됩니다.
 
-업데이트를 수행하거나 클라우드 인프라에 Adobe Commerce용 외부 모듈을 설치하는 방법에 대한 자세한 내용은 개발자 설명서에서 [확장 설치, 관리 및 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions)를 참조하십시오.
-Adobe Commerce 온-프레미스에 대한 업데이트를 수행하거나 외부 모듈을 설치하는 방법에 대한 자세한 내용은 개발자 설명서에서 [빠른 시작 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)를 참조하십시오.
+업데이트를 수행하거나 클라우드 인프라에 Adobe Commerce용 외부 모듈을 설치하는 방법에 대한 자세한 내용은 개발자 설명서에서 [확장 설치, 관리 및 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure-store/extensions)를 참조하십시오.
+Adobe Commerce 온-프레미스에 대한 업데이트를 수행하거나 외부 모듈을 설치하는 방법에 대한 자세한 내용은 개발자 설명서에서 [빠른 시작 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/composer)를 참조하십시오.
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [확장 설치](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension)를 참조하십시오.
+* 개발자 설명서에서 [확장 설치](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension)를 참조하십시오.

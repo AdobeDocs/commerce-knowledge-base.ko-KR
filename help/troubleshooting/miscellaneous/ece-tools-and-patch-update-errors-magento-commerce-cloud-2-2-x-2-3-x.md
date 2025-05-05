@@ -82,4 +82,4 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [업그레이드 및 패치](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/best-practices).
+* 개발자 설명서에서 [업그레이드 및 패치](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/best-practices).

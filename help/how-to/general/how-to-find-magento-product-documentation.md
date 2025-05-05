@@ -44,7 +44,7 @@ Adobe Commerce 지원 기술 자료에서는 Adobe Commerce 지원 팀에서 제
 <tr>
 <td>
 <p>판매자(최종 사용자) 설명서:</p>
-<p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home">https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home</a></p>
+<p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home">https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home</a></p>
 </td>
 </tr>
 <tr>
@@ -54,7 +54,7 @@ Adobe Commerce 지원 기술 자료에서는 Adobe Commerce 지원 팀에서 제
 </td>
 <td>
 <p>판매자(최종 사용자) 설명서:</p>
-<p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home">https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home</a></p>
+<p><a href="https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home">https://experienceleague.adobe.com/ko/docs/commerce-admin/user-guides/home</a></p>
 </td>
 </tr>
 <tr>
@@ -64,7 +64,7 @@ Adobe Commerce 지원 기술 자료에서는 Adobe Commerce 지원 팀에서 제
 </td>
 <td>
 <p>판매자(최종 사용자) 설명서:</p>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html">https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html</a></p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=ko">https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=ko</a></p>
 </td>
 </tr>
 <tr>
@@ -85,7 +85,7 @@ Adobe Commerce 지원 기술 자료에서는 Adobe Commerce 지원 팀에서 제
 <td>Adobe Commerce Business Intelligence</td>
 <td>
 <p>판매자(최종 사용자) 설명서:</p>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html">https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html</a></p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ko">https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=ko</a></p>
 </td>
 </tr>
 <tr>

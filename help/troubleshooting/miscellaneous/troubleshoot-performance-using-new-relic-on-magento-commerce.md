@@ -60,7 +60,7 @@ ht-degree: 0%
 </ol>
 </td>
 <td>
-<p>New Relic Apdex 점수에 대한 자세한 내용은 <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic 설명서 &gt; APM Apdex &gt; 사용자 만족도 측정</a>을 참조하십시오. 지원 기술 자료에서 <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce에 대한 관리 경고: Apdex 경고 경고</a>를 참조할 수도 있습니다.</p>
+<p>New Relic Apdex 점수에 대한 자세한 내용은 <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic 설명서 &gt; APM Apdex &gt; 사용자 만족도 측정</a>을 참조하십시오. 지원 기술 자료에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce에 대한 관리 경고: Apdex 경고 경고</a>를 참조할 수도 있습니다.</p>
 </td>
 </tr>
 <tr>

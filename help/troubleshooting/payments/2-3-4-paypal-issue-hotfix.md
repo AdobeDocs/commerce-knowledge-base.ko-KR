@@ -49,7 +49,7 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 Adobe Commerce 온-프레미스 판매자의 경우: 내 계정의 [magento.com](https://magento.com) 포털의 다운로드 섹션에서 사용할 수 있는 [핫픽스,](https://magento.com/tech-resources/download#download2353)을(를) 적용합니다.
 
-클라우드 인프라 판매자의 Adobe Commerce: Adobe이 Commerce v1.0.2용 클라우드 패치에 수정 사항을 포함했습니다. 최신 패키지 적용에 대한 지침은 개발자 설명서에서 [Commerce용 클라우드 패치](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche)를 참조하십시오.
+클라우드 인프라 판매자의 Adobe Commerce: Adobe이 Commerce v1.0.2용 클라우드 패치에 수정 사항을 포함했습니다. 최신 패키지 적용에 대한 지침은 개발자 설명서에서 [Commerce용 클라우드 패치](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche)를 참조하십시오.
 
 ## 패치 적용 방법
 

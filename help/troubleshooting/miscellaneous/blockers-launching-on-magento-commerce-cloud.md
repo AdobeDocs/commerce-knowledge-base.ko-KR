@@ -23,26 +23,26 @@ ht-degree: 0%
 >
 >FPC(전체 페이지 캐시)가 활성화된 경우 웹 사이트가 다르게 수행됩니다. 시작하기 전에 테스트해야 합니다.
 
-Fastly 구성 프로세스는 사용 안내서의 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) 항목에 자세히 설명되어 있습니다. 다음은 중요한 단계입니다.
+Fastly 구성 프로세스는 사용 안내서의 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko) 항목에 자세히 설명되어 있습니다. 다음은 중요한 단계입니다.
 
 ### 1a. 최신 버전의 Fastly 모듈이 설치되어 있는지 확인합니다.
 
-최신 기능 및 개선 사항을 얻으려면 최신 버전의 Fastly 모듈이 설치되어 있는지 확인하십시오. 최신 버전의 Fastly가 있는지 확인하려면 사용 안내서에서 [Fastly 모듈 업그레이드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module)를 검토하세요. 자세한 내용은 사용 안내서에서 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)을 검토하세요.
+최신 기능 및 개선 사항을 얻으려면 최신 버전의 Fastly 모듈이 설치되어 있는지 확인하십시오. 최신 버전의 Fastly가 있는지 확인하려면 사용 안내서에서 [Fastly 모듈 업그레이드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko#upgrade-the-fastly-module)를 검토하세요. 자세한 내용은 사용 안내서에서 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko)을 검토하세요.
 
 ### 1b. Commerce 관리자를 사용하여 Fastly 활성화 및 구성
 
-자세한 내용은 사용 안내서에서 [Fastly 자격 증명 가져오기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#get-fastly-credentials)를 검토하세요.
+자세한 내용은 사용 안내서에서 [Fastly 자격 증명 가져오기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko#get-fastly-credentials)를 검토하세요.
 
 ### 1c. Fastly VCL 코드 조각 업로드
 
-자세한 내용은 사용 안내서에서 [VCL을 Fastly에 업로드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)를 참조하십시오.
+자세한 내용은 사용 안내서에서 [VCL을 Fastly에 업로드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko)를 참조하십시오.
 
-[사용자 지정 VCL 코드 조각을 만들고 추가](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)할 수도 있습니다.
+[사용자 지정 VCL 코드 조각을 만들고 추가](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=ko)할 수도 있습니다.
 
 ### 1d. Fastly를 위한 DNS 구성
 
 
-자세한 단계는 이 문서를 참조하십시오. 사용 안내서의 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
+자세한 단계는 이 문서를 참조하십시오. 사용 안내서의 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko#update-dns-configuration-with-development-settings).
 
 ### 지원 기술 자료의 관련 Fastly 문서
 
@@ -68,9 +68,9 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
 **관련 문서:**
 
-* 사용 안내서에서 [route.yaml을 통해 리디렉션](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html)합니다.
-* 사용 안내서의 [클라우드 콘솔을 통해 리디렉션](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
-* 사용 안내서에서 [URL 재작성](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html).
+* 사용 안내서에서 [route.yaml을 통해 리디렉션](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html?lang=ko)합니다.
+* 사용 안내서의 [클라우드 콘솔을 통해 리디렉션](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=ko).
+* 사용 안내서에서 [URL 재작성](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html?lang=ko).
 
 ## 4. 자산 성과
 
@@ -83,8 +83,8 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 * [New Relic](https://support.newrelic.com/): 데이터, 쿼리, Redis 전송 등과 같이 작업당 추적 체류 시간으로 성능이 느린 사이트의 프로세스 및 영역을 찾습니다.
 * [WebPageTest](https://www.webpagetest.org/)(무료) 및 [Pingdom](https://www.pingdom.com/)(유료): 원본 위치가 다른 사이트 페이지 로드 시간을 실시간으로 분석합니다.
 
-CSS, JavaScript 및 HTML에 대해 [축소](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)를 고려할 수도 있습니다.
+CSS, JavaScript 및 HTML에 대해 [축소](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=ko)를 고려할 수도 있습니다.
 
 **관련 문서:**
 
-* 개발자 설명서에서 [테스트 배포](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html).
+* 개발자 설명서에서 [테스트 배포](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html?lang=ko).

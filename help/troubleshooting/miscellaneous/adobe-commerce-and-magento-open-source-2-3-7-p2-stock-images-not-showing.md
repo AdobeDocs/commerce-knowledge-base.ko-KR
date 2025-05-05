@@ -50,4 +50,4 @@ Adobe Stock 파일 시스템의 `pub/media` 및 `pub/media/catalog` 폴더에서
 
 ## 관련 읽기
 
-* 사용 안내서의 [미디어 저장소](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/media-storage).
+* 사용 안내서의 [미디어 저장소](https://experienceleague.adobe.com/ko/docs/commerce-admin/content-design/wysiwyg/storage/media-storage).

@@ -29,7 +29,7 @@ ht-degree: 0%
 
 사전 요구 사항: Adobe Commerce 2.4.3 이하가 설치되었습니다.
 
-1. [업그레이드 수행](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)에 설명된 대로 업그레이드를 시작합니다.
+1. [업그레이드 수행](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=ko)에 설명된 대로 업그레이드를 시작합니다.
 1. `composer update` 명령을 실행하여 Adobe Commerce 응용 프로그램을 업그레이드합니다.
 
 <u>예상 결과</u>:
@@ -64,7 +64,7 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
 
 Adobe Commerce 설치 방법에 따라 `composer.json` 파일에 다음 내용을 추가하십시오.
 
-* 프로젝트가 [`composer create-project` 명령을 사용하여](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer#get-the-metapackage) 만들어진 경우:
+* 프로젝트가 [`composer create-project` 명령을 사용하여](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/composer#get-the-metapackage) 만들어진 경우:
 
   ```json
   "config": {

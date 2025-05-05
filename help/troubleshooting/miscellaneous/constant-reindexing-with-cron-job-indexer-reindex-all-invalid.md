@@ -55,7 +55,7 @@ SELECT TIMESTAMPDIFF(SECOND, executed_at, finished_at) AS period FROM cron_sched
 SELECT executed_at FROM cron_schedule WHERE job_code = 'indexer_reindex_all_invalid' AND executed_at IS NOT NULL ORDER BY executed_at ASC LIMIT 1;
 ```
 
-적절한 평가를 수행하기에 충분한 기간이 없다면 이 [[!DNL Cron] (예약된 작업)](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) 가이드를 따라 성공적인 `cron` 프로세스가 로그에 유지되는 시간을 늘리고 **[!DNL Success History Lifetime]** 값을 늘릴 수 있습니다(기본값은 60분).
+적절한 평가를 수행하기에 충분한 기간이 없다면 이 [[!DNL Cron] (예약된 작업)](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html?lang=ko) 가이드를 따라 성공적인 `cron` 프로세스가 로그에 유지되는 시간을 늘리고 **[!DNL Success History Lifetime]** 값을 늘릴 수 있습니다(기본값은 60분).
 
 
 ## 솔루션
@@ -77,4 +77,4 @@ SELECT executed_at FROM cron_schedule WHERE job_code = 'indexer_reindex_all_inva
 
 ## 관련 읽기
 
-Adobe Commerce 작업 구성 안내서의 [구성 [!DNL cron] 작업](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html).
+Adobe Commerce 작업 구성 안내서의 [구성 [!DNL cron] 작업](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html?lang=ko).

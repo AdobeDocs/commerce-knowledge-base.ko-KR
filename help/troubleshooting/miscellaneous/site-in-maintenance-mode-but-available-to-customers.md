@@ -45,4 +45,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-개발자 설명서에서 [유지 관리 모드를 사용하거나 사용하지 않도록 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode).
+개발자 설명서에서 [유지 관리 모드를 사용하거나 사용하지 않도록 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/maintenance-mode).

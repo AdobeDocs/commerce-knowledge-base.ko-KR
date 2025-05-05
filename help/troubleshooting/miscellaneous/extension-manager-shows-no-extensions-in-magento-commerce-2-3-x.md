@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Commerce Marketplace을 통해 확장을 구입할 때 핵심 Adobe Commerce Extension Manager을 사용하여 확장을 설치할 수 없습니다. 액세스 키를 추가하고 Marketplace에 동기화하면 Extension Manager에 확장이 표시되지 않습니다.
 
-이 문제에 대한 **해결 방법**&#x200B;은(는) 개발자 설명서에서 [일반 CLI 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)와(과) 같이 명령줄 Adobe Commerce 설치를 사용하는 것입니다.
+이 문제에 대한 **해결 방법**&#x200B;은(는) 개발자 설명서에서 [일반 CLI 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)와(과) 같이 명령줄 Adobe Commerce 설치를 사용하는 것입니다.
 
 <u>재현 단계</u>:
 
@@ -44,4 +44,4 @@ Commerce Marketplace을 통해 확장을 구입할 때 핵심 Adobe Commerce Ext
 
 ## 해결 방법
 
-개발자 설명서에서 [일반 CLI 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions)와 같이 명령줄 Adobe Commerce 설치를 사용합니다.
+개발자 설명서에서 [일반 CLI 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/extensions)와 같이 명령줄 Adobe Commerce 설치를 사용합니다.

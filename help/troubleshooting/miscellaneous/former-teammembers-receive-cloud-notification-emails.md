@@ -30,12 +30,12 @@ ht-degree: 0%
 
 프로젝트에서 사용자를 제거하여 알림을 중지하는 방법에는 두 가지가 있습니다.
 
-* 방법 1: 클라우드 [!DNL Project URL]을(를) 사용합니다. 단계는 Commerce on cloud infrastructure guide의 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)를 참조하십시오.
-* 방법 2: magento-cloud [!DNL CLI] 사용. 단계는 Commerce on cloud infrastructure guide의 [Manage users with the [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-with-the-cli)를 참조하십시오.
+* 방법 1: 클라우드 [!DNL Project URL]을(를) 사용합니다. 단계는 Commerce on cloud infrastructure guide의 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko)를 참조하십시오.
+* 방법 2: magento-cloud [!DNL CLI] 사용. 단계는 Commerce on cloud infrastructure guide의 [Manage users with the [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko#manage-users-with-the-cli)를 참조하십시오.
 
 이미 이 작업을 수행했지만 이메일 알림에 해당 사용자가 계속 포함되는 경우 지원 티켓을 제출하여 계정의 *[!UICONTROL Always CC]* 설정에서 해당 사용자를 제거하도록 요청하십시오.
 
 ## 관련 읽기
 
-* Commerce on cloud infrastructure 안내서에서 [사용자의 프로젝트 역할을 봅니다](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user&#39;s-project-role).
-* [지원 알림에 팀원을 포함하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html)&#x200B;(Commerce KB).
+* Commerce on cloud infrastructure 안내서에서 [사용자의 프로젝트 역할을 봅니다](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko#view-a-user&?lang=ko#39;s-project-role).
+* [지원 알림에 팀원을 포함하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html?lang=ko)&#x200B;(Commerce KB).

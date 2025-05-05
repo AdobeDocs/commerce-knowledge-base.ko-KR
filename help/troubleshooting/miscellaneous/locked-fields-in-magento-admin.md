@@ -52,6 +52,6 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [구성을 내보내기](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration).
-* 개발자 설명서에서 [구성 값을 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)합니다.
+* 개발자 설명서에서 [구성을 내보내기](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration).
+* 개발자 설명서에서 [구성 값을 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)합니다.
 * [클라우드 인프라의 Adobe Commerce: 구성 관리를 통해 배포 중단 시간을 줄입니다](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md).

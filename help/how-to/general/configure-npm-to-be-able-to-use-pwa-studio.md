@@ -54,4 +54,4 @@ Git에서 업데이트된 YAML 파일을 환경에 푸시하면 변경 사항이
 
 ## 관련 설명서
 
-* Adobe Commerce on Cloud Infrastructure 안내서의 [응용 프로그램 구성: 후크](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html).
+* Adobe Commerce on Cloud Infrastructure 안내서의 [응용 프로그램 구성: 후크](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=ko).

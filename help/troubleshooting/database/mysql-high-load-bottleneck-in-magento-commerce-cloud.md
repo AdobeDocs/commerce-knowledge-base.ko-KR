@@ -24,7 +24,7 @@ ht-degree: 0%
 * ECE Tools 버전 2002.0.16 이상
 * New Relic Adobe Commerce APM 서비스(**클라우드 인프라 계정에 New Relic APM 서비스용 소프트웨어**&#x200B;가 라이선스 키와 함께 포함되어 있습니다.)
 
-New Relic APM 서비스 및 클라우드 인프라 계정의 Adobe Commerce 설정에 대한 자세한 내용을 보려면 [New Relic 서비스](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) 및 [New Relic APM 소개](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/)로 이동하십시오.
+New Relic APM 서비스 및 클라우드 인프라 계정의 Adobe Commerce 설정에 대한 자세한 내용을 보려면 [New Relic 서비스](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) 및 [New Relic APM 소개](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/)로 이동하십시오.
 
 ## 문제
 
@@ -61,7 +61,7 @@ Adobe Commerce은 여러 데이터베이스 또는 Redis를 비동기식으로 �
 
    ![KB-372_image004.png](assets/KB-372_image004.png)
 
-   자세한 내용은 [DevDocs에서 변수 배포](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection)를 참조하십시오.
+   자세한 내용은 [DevDocs에서 변수 배포](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection)를 참조하십시오.
 
 1. 변경 사항을 커밋하고 변경 사항을 푸시합니다.
 1. 변경 사항을 푸시하면 새 배포 프로세스가 시작됩니다. 배포가 성공적으로 완료되면 이제 Adobe Commerce on cloud infrastructure 인스턴스가 슬레이브 연결을 사용하도록 구성되어야 합니다.
@@ -70,7 +70,7 @@ Adobe Commerce은 여러 데이터베이스 또는 Redis를 비동기식으로 �
 
 다음은 Adobe Commerce on cloud infrastructure store에 대한 슬레이브 연결 기능 사용을 고려할 때 물을 수 있는 일반적인 질문입니다.
 
-* 슬레이브 연결을 사용하는 데 알려진 문제나 제한이 있습니까? **슬레이브 연결을 사용할 때 발생하는 알려진 문제가 없습니다. 가장 최근에 업데이트된 ece-tools 패키지를 사용 중인지 확인하기만 하면 됩니다. [ece-tools 패키지를 업데이트하는 방법](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)에 대한 지침이 있습니다.**
+* 슬레이브 연결을 사용하는 데 알려진 문제나 제한이 있습니까? **슬레이브 연결을 사용할 때 발생하는 알려진 문제가 없습니다. 가장 최근에 업데이트된 ece-tools 패키지를 사용 중인지 확인하기만 하면 됩니다. [ece-tools 패키지를 업데이트하는 방법](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)에 대한 지침이 있습니다.**
 * 슬레이브 연결을 사용하여 추가적인 지연 시간이 있습니까? *예. 교차 AZ(Cross-Availability Zones) 대기 시간이 길어지고 인스턴스가 오버로드되지 않고 전체 로드를 처리할 수 있는 경우 클라우드 인프라 인스턴스에서 Adobe Commerce의 성능이 저하됩니다. 그러나 인스턴스가 오버로드되면 마스터 슬레이브는 MySQL 데이터베이스나 Redis의 로드를 다른 노드에 분산시켜 성능을 향상시킵니다.*
 
   **오버로드되지 않은 클러스터에서** - **슬레이브 연결 시 성능이 10~15%**&#x200B;만큼 느려집니다. 이(가) 기본이 아닌 이유 중 하나입니다.
@@ -82,9 +82,9 @@ Adobe Commerce은 여러 데이터베이스 또는 Redis를 비동기식으로 �
 
 개발자 설명서에서:
 
-* [변수 배포](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy).
-* [선택적 데이터베이스 복제를 설정합니다](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master-replication).
-* [ece-tools 패키지](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview).
+* [변수 배포](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy).
+* [선택적 데이터베이스 복제를 설정합니다](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/storage/split-db/multi-master-replication).
+* [ece-tools 패키지](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview).
 
 >[!NOTE]
 >

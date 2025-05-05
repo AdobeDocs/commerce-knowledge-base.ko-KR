@@ -37,7 +37,7 @@ ht-degree: 0%
 
 이 문제를 해결하려면 `cron:unlock` 명령을 사용하여 [!DNL cron] 작업을 재설정해야 합니다. 이 명령은 데이터베이스에서 [!DNL cron] 작업의 상태를 변경하여 다른 예약된 작업이 계속 진행될 수 있도록 작업을 강제로 종료합니다.
 
-1. 터미널을 열고 [SSH 키](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)를 사용하여 영향을 받는 환경에 연결합니다.
+1. 터미널을 열고 [SSH 키](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/secure-connections)를 사용하여 영향을 받는 환경에 연결합니다.
 1. MySQL 데이터베이스 자격 증명 가져오기:    ```shell    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp    ```
 1. `mysql`을(를) 사용하여 데이터베이스에 연결:    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
 1. `main` 데이터베이스 선택:    ```shell    use main    ```
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### 단일 [!DNL cron]을(를) 중지하는 솔루션 {#solution-stop-a-single-cron}
 
-1. 터미널을 열고 [SSH 키](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)를 사용하여 영향을 받는 환경에 연결합니다.
+1. 터미널을 열고 [SSH 키](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/secure-connections)를 사용하여 영향을 받는 환경에 연결합니다.
 1. 다음 명령을 사용하여 장기 실행 작업을 확인하십시오.
 
    ```date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'```

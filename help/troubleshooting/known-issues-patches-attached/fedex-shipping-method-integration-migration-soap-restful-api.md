@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 >이전에 제공한 패치 대신 [!DNL Quality Patches Tool] (QPT) 1.1.57 릴리스의 ACSD-61622 패치를 사용하십시오. 새 패치는 Adobe Commerce 버전(모든 배포 방법) 2.4.6-p1 - 2.4.6-p8과 호환됩니다. 새로운 [!DNL Quality Patches Tool] 릴리스가 있는 다른 버전에 적용할 수 있습니다.
 >
->자세한 내용은 Adobe Commerce 도구 안내서의 [ACSD-61622 패치 문서](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response)를 참조하십시오.
+>자세한 내용은 Adobe Commerce 도구 안내서의 [ACSD-61622 패치 문서](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response)를 참조하십시오.
 
 >[!WARNING]
 >
->새 패치를 설치하기 전에 이 문서에 제공된 이전 패치를 제거해야 합니다. 패치 제거에 대한 지침은 사용 안내서의 [사용자 지정 패치 되돌리기](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch)를 참조하십시오.
+>새 패치를 설치하기 전에 이 문서에 제공된 이전 패치를 제거해야 합니다. 패치 제거에 대한 지침은 사용 안내서의 [사용자 지정 패치 되돌리기](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch)를 참조하십시오.
 
 
 이 문서에서는 Adobe Commerce 2.4.4-p4 - 2.4.6-pX용 SOAP에서 RESTful API로 [!DNL FedEx] 배송 방법 통합 마이그레이션 관련 문제를 해결하는 패치를 제공합니다.
@@ -75,7 +75,7 @@ Adobe Commerce/Magento Open Source 버전에 따라 다음과 같이 첨부된 �
 
 ## 패치 적용 방법
 
-파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)을 참조하십시오.
+파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=ko)을 참조하십시오.
 
 ## 패치가 적용되었는지 확인하는 방법
 
@@ -83,7 +83,7 @@ Adobe Commerce/Magento Open Source 버전에 따라 다음과 같이 첨부된 �
 
 <u>다음 단계를 수행하여 이 작업을 수행할 수 있습니다</u>:
 
-1. [설치 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [설치 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=ko).
 1. 다음 명령을 실행합니다.
 
    ```bash

@@ -67,4 +67,4 @@ Adobe Commerce에는 두 가지 유형의 캐시가 있습니다.
 ## 추천
 
 1. Commerce CLI에서 캐시를 플러시하지 마십시오.
-1. 인덱서가 전체 다시 인덱싱을 트리거하므로 **저장 모드에서 업데이트** 대신 **일정별로 업데이트**&#x200B;하도록 인덱서를 구성하십시오. 자세한 내용은 개발자 설명서에서 [인덱서 관리 > 인덱서 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)을 참조하십시오.
+1. 인덱서가 전체 다시 인덱싱을 트리거하므로 **저장 모드에서 업데이트** 대신 **일정별로 업데이트**&#x200B;하도록 인덱서를 구성하십시오. 자세한 내용은 개발자 설명서에서 [인덱서 관리 > 인덱서 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)을 참조하십시오.

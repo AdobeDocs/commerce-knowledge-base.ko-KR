@@ -18,9 +18,9 @@ ht-degree: 0%
 
 다음 패치 중 하나가 적용된 Adobe Commerce(모든 배포 방법) 2.4.4 - 2.4.7
 
-* [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)을(를) 사용하여 MDVA-12304 패치가 적용됨
+* [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/release-notes)을(를) 사용하여 MDVA-12304 패치가 적용됨
 * [APSB25-08 격리 보안 패치](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
-* [!DNL Commerce] 1.1.4[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)용 클라우드 패치
+* [!DNL Commerce] 1.1.4[&#128279;](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)용 클라우드 패치
 
 ## 문제
 
@@ -49,6 +49,6 @@ Adobe Commerce의 쿠키와 관련된 문제로 인해 오류 로그에 다음 �
 
 ### 관련 읽기
 
-* Adobe Commerce 업그레이드 가이드의 [패치 적용](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/apply)
-* Adobe Commerce 구현 플레이북의 [Adobe Commerce 패치를 대규모로 배포하는 모범 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale)
-* Commerce on Cloud 안내서의 [Commerce Cloud 도구 모음 릴리스 정보](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite).
+* Adobe Commerce 업그레이드 가이드의 [패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/patches/apply)
+* Adobe Commerce 구현 플레이북의 [Adobe Commerce 패치를 대규모로 배포하는 모범 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale)
+* Commerce on Cloud 안내서의 [Commerce Cloud 도구 모음 릴리스 정보](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite).

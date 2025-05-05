@@ -36,7 +36,7 @@ Adobe Commerce 인스턴스는 일반적으로 사용자 지정 코드 및 구�
 | **설명** | 사이트 가용성은 측정 단위에 대해 구성된 임계값을 기반으로 결정됩니다. 10분 동안 검사가 실패하고 진행 중인 활성 배포가 없는 경우 사이트 중단 알림이 트리거됩니다. |
 | **알림 받는 사람** | 판매자/파트너 및 Adobe. |
 | Adobe의 **작업** | Adobe Commerce 인프라에 문제가 있는 경우 평가 및 수정을 담당합니다. |
-| 판매자별 **작업** | 판매자/파트너가 도입한 사용자 지정 코드 또는 변경 사항으로 인해 문제가 발생한 경우 이 문제를 해결할 책임이 있습니다. 문제 해결은 [사이트 작동 중지 문제 해결사](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.html)를 참조하세요. |
+| 판매자별 **작업** | 판매자/파트너가 도입한 사용자 지정 코드 또는 변경 사항으로 인해 문제가 발생한 경우 이 문제를 해결할 책임이 있습니다. 문제 해결은 [사이트 작동 중지 문제 해결사](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.html?lang=ko)를 참조하세요. |
 
 ## 디스크 공간 모니터링
 
@@ -48,4 +48,4 @@ Adobe Commerce 인스턴스는 일반적으로 사용자 지정 코드 및 구�
 | **설명** | 알림은 호스트에 대해 사용 가능한 디스크 공간 주위에 구성된 임계값을 기반으로 전송됩니다. 추가 디스크 공간이 관련 마운트([!DNL MySQL] 또는 미디어)에 한 번 자동으로 추가되어 사이트 중단이 발생하지 않도록 하고 판매자가 디스크 공간을 지우고 빠른 디스크 사용량 증가를 유발하는 모든 코드 또는 로그를 식별하고 해결할 수 있는 시간을 제공합니다. |
 | **알림 받는 사람** | 판매자/파트너 및 Adobe. |
 | Adobe의 **작업** | 사이트 중단을 방지하기 위해 지원 티켓을 자동으로 높이고 추가 디스크 공간을 관련 마운트([!DNL MySQL] 또는 미디어)에 자동으로 추가합니다. |
-| 판매자별 **작업** | 진행 중인 경고 수준의 디스크 공간 경고를 받으려면 다음을 참조하십시오. <ul><li>[[!DNL Managed alerts for Adobe Commerce]: 디스크 경고 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)</li><li>[[!DNL Managed alerts for Adobe Commerce]: 디스크 위험 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert) </li></ul> |
+| 판매자별 **작업** | 진행 중인 경고 수준의 디스크 공간 경고를 받으려면 다음을 참조하십시오. <ul><li>[[!DNL Managed alerts for Adobe Commerce]: 디스크 경고 경고](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)</li><li>[[!DNL Managed alerts for Adobe Commerce]: 디스크 위험 경고](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert) </li></ul> |

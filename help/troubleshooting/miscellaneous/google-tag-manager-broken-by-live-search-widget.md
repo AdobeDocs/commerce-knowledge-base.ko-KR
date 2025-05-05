@@ -31,6 +31,6 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* Adobe Commerce Live Search 설명서의 [[!DNL Live Search] 안내서 개요](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
+* Adobe Commerce Live Search 설명서의 [[!DNL Live Search] 안내서 개요](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html?lang=ko)
 
-* Adobe Commerce Live Search 설명서의 [설치 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html)
+* Adobe Commerce Live Search 설명서의 [설치 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=ko)

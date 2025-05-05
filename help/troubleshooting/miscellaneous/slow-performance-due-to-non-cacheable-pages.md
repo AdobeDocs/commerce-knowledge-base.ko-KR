@@ -53,7 +53,7 @@ Adobe Commerce에서 캐시해야 하는 페이지가 있습니다. 이러한 �
 
 >[!NOTE]
 >
->클라우드 인프라 2.4.1 이상의 Adobe Commerce의 경우 [사이트 전체 분석 도구](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access)를 사용하여 전체 페이지 캐시가 올바르게 구성되지 않았는지 자동으로 확인할 수 있습니다.
+>클라우드 인프라 2.4.1 이상의 Adobe Commerce의 경우 [사이트 전체 분석 도구](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/site-wide-analysis-tool/access)를 사용하여 전체 페이지 캐시가 올바르게 구성되지 않았는지 자동으로 확인할 수 있습니다.
 
 ### 관련 읽기
 

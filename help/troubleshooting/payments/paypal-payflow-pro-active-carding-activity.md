@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 패키지를 설치한 후 다음 문서에 설명된 대로 Google reCAPTCHA(권장) 또는 CAPTCHA를 구성합니다.
 
-* 사용 안내서의 [Google reCAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha).
-* 사용 안내서의 [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha).
+* 사용 안내서의 [Google reCAPTCHA](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/captcha/security-google-recaptcha).
+* 사용 안내서의 [CAPTCHA](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/captcha/security-captcha).
 
 새로운 체크아웃 양식 옵션은 다음과 같습니다.
 

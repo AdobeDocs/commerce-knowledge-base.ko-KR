@@ -104,7 +104,7 @@ Adobe Commerce의 WAF 서비스에는 PCI 요구 사항의 일부로서 OWASP To
 
 ## 고객이 IP 블랙리스트를 만들고 수정하여 트래픽을 차단할 수 있습니까?
 
-예. 고객은 클라우드 인프라의 관리 UI에 있는 Adobe Commerce에서 국가별 및 액세스 제어 목록(ACL)별로 차단을 활성화할 수 있습니다. 특정 국가나 특정 IP 또는 IP 범위에서 온 방문자에 대한 액세스를 차단하려는 경우에 이러한 기능을 사용하십시오. 차단된 방문자에게 오류 코드가 아닌 사용자 지정 페이지가 표시되도록 하려면 Fastly 구성 메뉴에서 HTML을 업로드하여 사용자 지정 오류 페이지를 만들 수 있습니다. 개발자 설명서에서 [사용자 지정 오류/유지 관리 페이지 만들기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)를 참조하십시오.
+예. 고객은 클라우드 인프라의 관리 UI에 있는 Adobe Commerce에서 국가별 및 액세스 제어 목록(ACL)별로 차단을 활성화할 수 있습니다. 특정 국가나 특정 IP 또는 IP 범위에서 온 방문자에 대한 액세스를 차단하려는 경우에 이러한 기능을 사용하십시오. 차단된 방문자에게 오류 코드가 아닌 사용자 지정 페이지가 표시되도록 하려면 Fastly 구성 메뉴에서 HTML을 업로드하여 사용자 지정 오류 페이지를 만들 수 있습니다. 개발자 설명서에서 [사용자 지정 오류/유지 관리 페이지 만들기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko)를 참조하십시오.
 
 ## 내 WAF 서비스의 운영 상태를 확인하려면 어디로 해야 합니까?
 
@@ -118,7 +118,7 @@ Adobe Commerce의 WAF 서비스에는 PCI 요구 사항의 일부로서 OWASP To
 
 Adobe Commerce에는 보안 운영 센터가 없지만, 실시간으로 보안 사고에 대응할 수 있는 적절한 리소스를 확보할 수 있는 보안 운영 프로세스가 있습니다. 또한 연중무휴 24시간 Follow-the-sun 지원을 제공합니다.
 
-[보안 센터](https://helpx.adobe.com/security.html)에서 Adobe Commerce 관련 보안 뉴스 및 업데이트를 받을 수도 있습니다.
+[보안 센터](https://helpx.adobe.com/kr/security.html)에서 Adobe Commerce 관련 보안 뉴스 및 업데이트를 받을 수도 있습니다.
 
 ## 어떤 지원이 제공됩니까?
 
@@ -160,7 +160,7 @@ Adobe Commerce 지원 티켓 시스템은 지원 엔지니어와 고객 담당�
 </tr>
 <tr>
 <td>긴급 에스컬레이션*</td>
-<td>미국 및 국제 번호에 대해서는 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">Adobe Commerce P1 알림 핫라인</a> 문서를 참조하세요.</td>
+<td>미국 및 국제 번호에 대해서는 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html?lang=ko">Adobe Commerce P1 알림 핫라인</a> 문서를 참조하세요.</td>
 </tr>
 </tbody>
 </table>

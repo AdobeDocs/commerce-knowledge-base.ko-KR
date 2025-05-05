@@ -20,4 +20,4 @@ Adobe Commerce on cloud infrastructure 프로젝트의 경우 New Relic UI 페�
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [New Relic 서비스](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service).
+* 개발자 설명서에서 [New Relic 서비스](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service).

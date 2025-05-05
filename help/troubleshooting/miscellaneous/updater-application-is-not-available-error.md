@@ -29,4 +29,4 @@ ht-degree: 0%
 
 ## 솔루션
 
-이 문제를 해결하려면 파일 및 하위 디렉터리가 포함된 `<magento_root>/update` 디렉터리가 있는지 확인합니다. 그렇지 않으면 개발자 설명서에서 [업데이트 프로그램 설정](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/updater-application-is-not-available-error)을 참조하십시오.
+이 문제를 해결하려면 파일 및 하위 디렉터리가 포함된 `<magento_root>/update` 디렉터리가 있는지 확인합니다. 그렇지 않으면 개발자 설명서에서 [업데이트 프로그램 설정](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/updater-application-is-not-available-error)을 참조하십시오.

@@ -56,7 +56,7 @@ SELECT ea.attribute_code, ea.frontend_input, cea.is_filterable, cea.is_filterabl
 이 문제를 해결하려면 `is_filterable`(즉, 계층 탐색에서 사용됨)과 `filterable_in_search`(즉, 검색 결과 계층 탐색에서 사용됨)을(를) &quot;0&quot;(사용되지 않음)으로 설정해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
 1. 데이터베이스 백업을 만듭니다.
-1. [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다.
+1. [phpMyAdmin](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다.
 
    ```sql
    UPDATE catalog_eav_attribute AS cea

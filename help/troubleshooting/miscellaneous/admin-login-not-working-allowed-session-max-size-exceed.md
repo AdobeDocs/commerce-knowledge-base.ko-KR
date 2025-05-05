@@ -57,6 +57,6 @@ bin/magento config:set system/security/max_session_size_admin 500000
 
 ## 관련 읽기
 
-* 관리 시스템 안내서의 [세션 크기](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions)
-* 구성 가이드의 [작업 모드](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
-* Commerce on Cloud Infrastructure Guide의 [보안 연결](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)
+* 관리 시스템 안내서의 [세션 크기](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security-session-management#admin-sessions)
+* 구성 가이드의 [작업 모드](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Commerce on Cloud Infrastructure Guide의 [보안 연결](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/secure-connections)

@@ -64,4 +64,4 @@ Cloud 라이선스는 연락처 A(전자 메일 주소: *<u>first@e.mail</u>*)�
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [인증 키를 가져옵니다](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+* 개발자 설명서에서 [인증 키를 가져옵니다](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).

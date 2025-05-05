@@ -45,8 +45,8 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [온-프레미스 설치 개요](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview).
-* [데이터베이스를 업로드하면 지원 기술 자료에서  [!DNL MySQL]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql)에 대한 연결이 끊어집니다.
-* 지원 기술 자료의 [클라우드 인프라에서 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html).
-* 지원 기술 자료에서 [데이터베이스 성능 문제를 해결하는 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html).
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 개발자 설명서에서 [온-프레미스 설치 개요](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/overview).
+* [데이터베이스를 업로드하면 지원 기술 자료에서  [!DNL MySQL]](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql)에 대한 연결이 끊어집니다.
+* 지원 기술 자료의 [클라우드 인프라에서 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=ko).
+* 지원 기술 자료에서 [데이터베이스 성능 문제를 해결하는 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=ko).
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

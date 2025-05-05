@@ -63,5 +63,5 @@ URL 키로 *연락처*&#x200B;와 함께 페이지가 저장됩니다.
 
 ## 관련 읽기
 
-* 사용 안내서에서 [URL 재작성](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite).
-* 사용 안내서의 [SEO 모범 사례](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview).
+* 사용 안내서에서 [URL 재작성](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite).
+* 사용 안내서의 [SEO 모범 사례](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/seo-overview).

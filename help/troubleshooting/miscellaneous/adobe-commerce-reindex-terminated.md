@@ -37,5 +37,5 @@ PHP 프로세스에 메모리가 부족하기 때문에 일반적으로 발생�
 
 개발자 설명서에서:
 
-* [Pro 아키텍처 > 통합 환경](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [시작 아키텍처 > 스테이징 환경](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
+* [Pro 아키텍처 > 통합 환경](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [시작 아키텍처 > 스테이징 환경](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)

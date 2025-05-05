@@ -29,7 +29,7 @@ Adobe Commerce 상점 또는 Commerce 관리자에 액세스하려고 하면 다
 
 다음을 시도해 보십시오.
 
-* PHP를 버전 7.3으로 업그레이드하십시오. 자세한 내용은 개발자 설명서에서 [Adobe Commerce 2.3 기술 스택 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)을 참조하십시오.
+* PHP를 버전 7.3으로 업그레이드하십시오. 자세한 내용은 개발자 설명서에서 [Adobe Commerce 2.3 기술 스택 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/system-requirements)을 참조하십시오.
 * 파일 시스템과 동일한 PHP 버전을 사용하지 않을 수 있으므로 Apache를 다시 시작합니다. Apache를 다시 시작하려면 다음 명령을 사용하십시오.
    * 우분투: `service apache2 restart`
    * CentOS: `service httpd restart`
@@ -42,5 +42,5 @@ Adobe Commerce 상점 또는 Commerce 관리자에 액세스하려고 하면 404
 
 다음을 시도해 보십시오.
 
-* [Apache 서버 다시 쓰기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/apache)가 활성화되어 있는지 확인하십시오. Apache 서버 재쓰기가 잘못 설정된 경우 정적 파일이 올바른 위치에서 제공되지 않습니다.
+* [Apache 서버 다시 쓰기](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/web-server/apache)가 활성화되어 있는지 확인하십시오. Apache 서버 재쓰기가 잘못 설정된 경우 정적 파일이 올바른 위치에서 제공되지 않습니다.
 * 설치 중에 입력한 기본 URL에 문제가 있을 수 있습니다. 명령줄에서 Adobe Commerce을 설치할 때 기본 URL을 `--base-url=` 값으로 지정하거나 웹 설치 관리자의 [웹 구성] 페이지에 있는 **저장소 주소** 필드의 값으로 지정합니다. 기본 URL *must*&#x200B;은(는) 스키마(예: `http://`)로 시작하고 뒤쪽 슬래시(/)로 끝납니다. 유효한 값으로 설치 관리자를 다시 실행하고 나중에 Adobe Commerce에 액세스해 보십시오.

@@ -46,6 +46,6 @@ Adobe Commerce은 만료 후 30일이 경과하면 모든 인증서를 업데이
 ## 관련 읽기
 
 * 지원 기술 자료의 [Magento Commerce Cloud에 대한 SSL(TLS) 인증서: FAQ](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md).
-* 개발자 설명서에서 [명령줄 도구 참조: magento-cloud certificate:add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd).
-* 개발자 설명서에서 [Launch 검사 목록](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)을 참조하세요.
-* 사용 안내서에서 [사이트 전체 분석 도구에 액세스](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)합니다.
+* 개발자 설명서에서 [명령줄 도구 참조: magento-cloud certificate:add](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd).
+* 개발자 설명서에서 [Launch 검사 목록](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/launch/checklist)을 참조하세요.
+* 사용 안내서에서 [사이트 전체 분석 도구에 액세스](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)합니다.

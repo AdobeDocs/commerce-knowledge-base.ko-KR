@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce Redis 문제 해결을 위한 최신 패치 설치
-description: 이 문서에서는 [Adobe Commerce on cloud infrastructure Patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) 패키지에서 사용할 수 있는 최신 Redis 관련 패치에 대한 정보를 제공합니다.
+description: 이 문서에서는 [Adobe Commerce on cloud infrastructure Patches](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) 패키지에서 사용할 수 있는 최신 Redis 관련 패치에 대한 정보를 제공합니다.
 exl-id: 0335bc11-f679-4629-b4e7-6a0e68c3ae44
 feature: Cache, Install, Services
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce Redis 문제 해결을 위한 최신 패치 설치
 
-이 문서에서는 [Adobe Commerce on cloud infrastructure Patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) 패키지에서 사용할 수 있는 최신 Redis 관련 패치에 대한 정보를 제공합니다.
+이 문서에서는 [Adobe Commerce on cloud infrastructure Patches](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) 패키지에서 사용할 수 있는 최신 Redis 관련 패치에 대한 정보를 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -25,7 +25,7 @@ Redis의 추가 CPU 및 메모리 소모는 Adobe Commerce 성능을 저하시�
 
 ## 솔루션
 
-Adobe Commerce on cloud infrastructure 패치 패키지에서 제공하는 최신 패치를 적용합니다. 자세한 지침은 개발자 설명서에서 [패치 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하세요.
+Adobe Commerce on cloud infrastructure 패치 패키지에서 제공하는 최신 패치를 적용합니다. 자세한 지침은 개발자 설명서에서 [패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하세요.
 
 Adobe Commerce on cloud infrastructure Patches 패키지에서 제공하는 최신 Redis 패치는 다음과 같은 이점을 제공합니다.
 

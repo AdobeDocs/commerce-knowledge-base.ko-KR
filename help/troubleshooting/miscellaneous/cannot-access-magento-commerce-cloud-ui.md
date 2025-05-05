@@ -23,12 +23,12 @@ ht-degree: 0%
 
 URL에 처음 액세스할 때 403 오류가 발생하는 경우 마스터 분기에 역할이 있는지 확인하십시오.
 
-1. 프로젝트의 라이선스 소유자 또는 슈퍼 사용자에게 с 연락하여 **환경 수준의 사용자**(개발자 설명서의 [클라우드 프로젝트 > Cloud Console에서 사용자 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-cloud-console)에 설명됨)로서 사용자에게 액세스 권한을 제공했는지 확인하십시오.
+1. 프로젝트의 라이선스 소유자 또는 슈퍼 사용자에게 с 연락하여 **환경 수준의 사용자**(개발자 설명서의 [클라우드 프로젝트 > Cloud Console에서 사용자 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko#manage-users-from-the-cloud-console)에 설명됨)로서 사용자에게 액세스 권한을 제공했는지 확인하십시오.
 
    특정 분기에 적용 가능한 역할만 있는 경우 해당 분기의 URL로 이동해야 합니다. 예:
    `https://console.adobecommerce.com/<owner-name>/<project-id>/<branch-name>`
 
    다음에 기본 URL에 액세스할 때 이 URL은 기본적으로 마지막으로 방문한 환경으로 설정됩니다.
 
-1. 여전히 로그인할 수 없는 경우 с 개발자 설명서에서 [클라우드 프로젝트 > 프로젝트에 사용자 추가](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-a-user-to-the-project)에 설명된 대로 프로젝트의 라이선스 소유자 또는 슈퍼 사용자에게 연락하여 **프로젝트 수준 사용자**&#x200B;로 액세스 권한을 제공했는지 확인하십시오.
+1. 여전히 로그인할 수 없는 경우 с 개발자 설명서에서 [클라우드 프로젝트 > 프로젝트에 사용자 추가](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko#add-a-user-to-the-project)에 설명된 대로 프로젝트의 라이선스 소유자 또는 슈퍼 사용자에게 연락하여 **프로젝트 수준 사용자**&#x200B;로 액세스 권한을 제공했는지 확인하십시오.
 1. 오류가 계속되면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오.

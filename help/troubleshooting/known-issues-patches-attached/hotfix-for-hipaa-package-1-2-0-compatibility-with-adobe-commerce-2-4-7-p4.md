@@ -22,8 +22,8 @@ ht-degree: 0%
 
 ## 전제 조건
 
-* Adobe에서 **[!DNL HIPAA Ready]** 확장에 액세스할 수 있도록 Adobe Commerce 계정을 프로비저닝했습니다. 자세한 내용은 **Adobe Commerce: 시작 안내서**&#x200B;에서 [[!DNL HIPAA] Adobe Commerce의 준비](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview)를 참조하십시오.
-* 확장을 설치하려면 [repo.magento.com](https://repo.magento.com)에 액세스하십시오. 키를 생성하고 필요한 권한을 얻으려면 **Adobe Commerce: 설치 안내서**&#x200B;에서 [인증 키 가져오기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오.
+* Adobe에서 **[!DNL HIPAA Ready]** 확장에 액세스할 수 있도록 Adobe Commerce 계정을 프로비저닝했습니다. 자세한 내용은 **Adobe Commerce: 시작 안내서**&#x200B;에서 [[!DNL HIPAA] Adobe Commerce의 준비](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/hipaa-ready-service/overview)를 참조하십시오.
+* 확장을 설치하려면 [repo.magento.com](https://repo.magento.com)에 액세스하십시오. 키를 생성하고 필요한 권한을 얻으려면 **Adobe Commerce: 설치 안내서**&#x200B;에서 [인증 키 가져오기](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)를 참조하십시오.
 
 ## 문제
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 패치 적용 방법
 
-파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)을 참조하십시오.
+파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=ko)을 참조하십시오.
 
 ## Adobe Commerce on Cloud 판매자의 경우에만 - 패치가 적용되었는지 여부를 확인하는 방법
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 ><u>다음 단계를 수행하여 `VULN-27015-2.4.7_COMPOSER.patch` **파일을 예로 사용**</u>&#x200B;할 수 있습니다.
 
-1. [품질 패치 도구 설치](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [품질 패치 도구 설치](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=ko).
 1. 명령 실행: <br>
    ![cve-2024-34102-tell-if-patch-applied-code](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. 다음과 유사한 출력이 표시됩니다. **<u>여기에 사용된 예제 VULN-27015</u>**&#x200B;이(가) *적용됨* 상태를 반환하는 경우:

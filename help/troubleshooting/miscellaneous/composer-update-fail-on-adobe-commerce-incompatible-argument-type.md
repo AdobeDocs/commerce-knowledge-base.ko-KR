@@ -57,7 +57,7 @@ CLI/Terminal에서 다음 명령을 실행합니다.
 
 **클라우드 인프라에서 Adobe Commerce을 해결하는 방법:**
 
-위의 명령을 실행하거나 7월 29일 목요일에 사용할 수 있는 최신 ECE 도구 버전(ece-tools: 2002.1.7)으로 업그레이드하십시오. 단계는 개발자 설명서에서 [Adobe Commerce용 클라우드 > ece-tools 버전 업데이트](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)를 참조하십시오.
+위의 명령을 실행하거나 7월 29일 목요일에 사용할 수 있는 최신 ECE 도구 버전(ece-tools: 2002.1.7)으로 업그레이드하십시오. 단계는 개발자 설명서에서 [Adobe Commerce용 클라우드 > ece-tools 버전 업데이트](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)를 참조하십시오.
 
 전체 수정 사항은 Adobe Commerce(모든 배포 방법) 2.4.4에서 릴리스됩니다.
 

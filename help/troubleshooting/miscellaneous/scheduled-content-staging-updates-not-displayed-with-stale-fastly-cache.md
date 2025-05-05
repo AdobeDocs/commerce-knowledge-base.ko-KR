@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 문제
 
-스토어 콘텐츠 에셋(페이지, 제품, 블록 등)에 대한 예약된 업데이트 은 업데이트 시작 시간 직후 storefront에 표시되지 않습니다. 이 문제는 [콘텐츠 스테이징](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) 기능을 사용하여 업데이트를 예약한 경우에 발생합니다.
+스토어 콘텐츠 에셋(페이지, 제품, 블록 등)에 대한 예약된 업데이트 은 업데이트 시작 시간 직후 storefront에 표시되지 않습니다. 이 문제는 [콘텐츠 스테이징](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=ko) 기능을 사용하여 업데이트를 예약한 경우에 발생합니다.
 
 ## 원인
 
@@ -45,6 +45,6 @@ Fastly의 소프트 제거 기능(기본적으로 활성화됨)으로 인해, �
 
 ## 관련 설명서
 
-* Commerce on Cloud Infrastructure Guide의 [제거 옵션 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html).
-* 콘텐츠 및 디자인 설명서의 [콘텐츠 스테이징](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)
+* Commerce on Cloud Infrastructure Guide의 [제거 옵션 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko).
+* 콘텐츠 및 디자인 설명서의 [콘텐츠 스테이징](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=ko)
 * Fastly 설명서에서 [오래된 콘텐츠 제공](https://docs.fastly.com/guides/performance-tuning/serving-stale-content)

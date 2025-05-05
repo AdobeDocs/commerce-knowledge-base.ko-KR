@@ -25,4 +25,4 @@ PHP Warning:  date(): It is not safe to rely on the system's timezone settings. 
 
 ### 솔루션 {#solution}
 
-PHP 시간대 설정을 주의 깊게 확인하십시오. 개발자 설명서에서 [설치 안내서 > PHP 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)을 참조하십시오.
+PHP 시간대 설정을 주의 깊게 확인하십시오. 개발자 설명서에서 [설치 안내서 > PHP 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/php-settings)을 참조하십시오.

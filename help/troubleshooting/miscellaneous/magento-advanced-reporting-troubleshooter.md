@@ -19,10 +19,10 @@ Adobe Commerce의 고급 보고 문제는 이 문제 해결사 도구를 사용�
 
 +++**웹 사이트가 고급 보고 요구 사항을 충족합니까?**
 
-고급 보고를 사용할 때 404 오류 페이지가 표시됩니다. 웹 사이트가 [고급 보고 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)을 충족합니까?
+고급 보고를 사용할 때 404 오류 페이지가 표시됩니다. 웹 사이트가 [고급 보고 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)을 충족합니까?
 
 a. 예 - [2단계](#step-2)로 진행합니다.\
-b. 아니요 - [고급 보고 요구 사항](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)의 단계에 따라 사이트에 대한 고급 보고 요구 사항을 완료합니다. 그런 다음 [2단계](#step-2)로 진행합니다.
+b. 아니요 - [고급 보고 요구 사항](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)의 단계에 따라 사이트에 대한 고급 보고 요구 사항을 완료합니다. 그런 다음 [2단계](#step-2)로 진행합니다.
 
 +++
 
@@ -44,7 +44,7 @@ b. NO - 출력에 하나의 통화만 표시됩니다. 예: `USD` 주문에서 �
 
 +++**분할 데이터베이스 솔루션을 사용하고 있습니까?**
 
-[분할 데이터베이스 솔루션](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)을 사용하고 있습니까?
+[분할 데이터베이스 솔루션](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)을 사용하고 있습니까?
 
 a. 예 - 분할 데이터베이스 솔루션 및 캐시 지우기에서 Advanced Reporting 404 오류의 패치 **MDVA-26831**&#x200B;을(를) 사용합니다. 작업이 다시 실행될 때까지 24시간 기다린 후 다시 시도하십시오.\
 b. 아니요 - [4단계](#step-4)로 진행합니다.
@@ -55,10 +55,10 @@ b. 아니요 - [4단계](#step-4)로 진행합니다.
 
 +++**고급 보고가 활성화되어 있습니까?**
 
-**관리자** > **스토어** > **설정** > **구성** > **일반** > **고급 보고**&#x200B;를 확인합니다. 자세한 단계는 [고급 보고: 고급 보고 사용](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)을 검토하십시오.
+**관리자** > **스토어** > **설정** > **구성** > **일반** > **고급 보고**&#x200B;를 확인합니다. 자세한 단계는 [고급 보고: 고급 보고 사용](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)을 검토하십시오.
 
 a. 예 - [5단계](#step-5)로 진행합니다.\
-b. 아니요 - [고급 보고를 사용하도록 설정](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)하고 저장하고 Adobe Commerce 및 고급 보고가 동기화되도록 24시간 동안 기다립니다. 이제 데이터가 로드되는지 확인합니다. 만약 당신이 문제를 해결했다면. [5단계](#step-5)로 진행되지 않는 경우
+b. 아니요 - [고급 보고를 사용하도록 설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)하고 저장하고 Adobe Commerce 및 고급 보고가 동기화되도록 24시간 동안 기다립니다. 이제 데이터가 로드되는지 확인합니다. 만약 당신이 문제를 해결했다면. [5단계](#step-5)로 진행되지 않는 경우
 
 +++
 
@@ -81,9 +81,9 @@ b. 아니요 - 토큰 값이 NULL이거나 데이터베이스에 레코드가 �
 
 a. 예 - 다음 단계를 수행합니다. 1. 아래 쿼리를 실행합니다.\
 ``DELETE from `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter';``\
-2\. [고급 보고 모듈을 사용하지 않도록 설정](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) 및 [토큰 재인증](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active)을 사용합니다.\
+2\. [고급 보고 모듈을 사용하지 않도록 설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) 및 [토큰 재인증](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active)을 사용합니다.\
 3\. Adobe Commerce 및 고급 보고가 동기화할 때까지 24시간 대기합니다. 고급 보고에서 여전히 데이터를 볼 수 없는 경우 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오.\
-b. 아니오 - 쿼리가 아무 것도 반환하지 않으면 다음 단계를 수행합니다. 1. [고급 보고 모듈을 사용하지 않도록 설정](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) 및 [토큰 재인증](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active)을 사용합니다.\
+b. 아니오 - 쿼리가 아무 것도 반환하지 않으면 다음 단계를 수행합니다. 1. [고급 보고 모듈을 사용하지 않도록 설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) 및 [토큰 재인증](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active)을 사용합니다.\
 2\. Adobe Commerce 및 고급 보고가 동기화할 때까지 24시간 대기합니다. 고급 보고에서 여전히 데이터를 볼 수 없는 경우 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오.
 
 +++
@@ -165,4 +165,4 @@ b. 아니요 - [지원 티켓을 제출](/help/help-center-guide/help-center/mag
 
 ## 관련 읽기
 
-Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

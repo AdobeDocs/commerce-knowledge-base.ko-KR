@@ -25,14 +25,14 @@ ht-degree: 0%
 
 <u>재현 단계</u>:
 
-1. [결제 서비스 설치](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)를 시도합니다.
+1. [결제 서비스 설치](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=ko)를 시도합니다.
 1. 다음 오류를 참조하십시오.
 
    *패키지 magento/payment-services와 일치하는 버전을 찾을 수 없습니다. 패키지 철자, 버전 제약 조건 및 최소 안정성(안정성)에 맞는 안정성으로 패키지를 사용할 수 있는지 확인하십시오.*
 
 <u>예상 결과</u>:
 
-개발자 설명서에서 다음 [설치 지침](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)에 따라 결제 서비스를 설치할 수 있습니다.
+개발자 설명서에서 다음 [설치 지침](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=ko)에 따라 결제 서비스를 설치할 수 있습니다.
 
 <u>실제 결과</u>:
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ### 솔루션
 
-[작성기 키가 결제 서비스 등록 중에 사용된 Magento ID](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#incorrect-composer-keys)에 연결되어 있는지 확인하십시오.
+[작성기 키가 결제 서비스 등록 중에 사용된 Magento ID](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=ko#incorrect-composer-keys)에 연결되어 있는지 확인하십시오.
 
 ## 문제 - 여러 인스턴스에서 동일한 데이터 공간 사용
 
@@ -59,7 +59,7 @@ SaaS 프로젝트를 만들 때 Commerce은 Commerce 라이선스에 따라 하�
 * Adobe Commerce - 프로덕션 데이터 공간 1개, 테스트 데이터 공간 2개
 * Magento Open Source - 프로덕션 데이터 공간 1개, 테스트 데이터 공간 없음
 
-[Commerce API 키 및 개인 키](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#obtain-api-credentials)의 지침에 따라 결제 서비스 확장을 구성하십시오.
+[Commerce API 키 및 개인 키](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html?lang=ko#obtain-api-credentials)의 지침에 따라 결제 서비스 확장을 구성하십시오.
 
 ## 문제 - 메모리가 부족하여 PHP를 할 수 없습니다.
 
@@ -67,14 +67,14 @@ SaaS 프로젝트를 만들 때 Commerce은 Commerce 라이선스에 따라 하�
 
 <u>재현 단계</u>:
 
-1. [결제 서비스 설치](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)를 시도합니다.
+1. [결제 서비스 설치](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=ko)를 시도합니다.
 1. 다음 오류 또는 유사한 오류를 참조하십시오.
 
    *치명적인 오류: phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php에서 52행에 2146435072바이트를 소진하여 4096바이트를 할당하려고 시도한 허용 메모리 크기*
 
 <u>예상 결과</u>:
 
-개발자 설명서에서 다음 [설치 지침](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)에 따라 결제 서비스를 설치할 수 있습니다.
+개발자 설명서에서 다음 [설치 지침](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=ko)에 따라 결제 서비스를 설치할 수 있습니다.
 
 <u>실제 결과</u>:
 
@@ -86,4 +86,4 @@ SaaS 프로젝트를 만들 때 Commerce은 Commerce 라이선스에 따라 하�
 
 ### 솔루션
 
-`php.ini`의 환경에서 [PHP에 대한 메모리 제한을 늘리세요](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php).
+`php.ini`의 환경에서 [PHP에 대한 메모리 제한을 늘리세요](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=ko#not-enough-memory-for-php).

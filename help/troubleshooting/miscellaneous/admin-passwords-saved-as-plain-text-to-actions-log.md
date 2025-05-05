@@ -45,5 +45,5 @@ ht-degree: 0%
 ## 추가 정보 {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation}
 
 * 보안 센터의 [Adobe Commerce 2.0.16 및 2.1.9 보안 업데이트 페이지](https://magento.com/security/patches/magento-2016-and-219-security-update)
-* 개발자 설명서에서 [Adobe Commerce 애플리케이션 및 구성 요소 업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html)
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 개발자 설명서에서 [Adobe Commerce 애플리케이션 및 구성 요소 업그레이드](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=ko)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

@@ -57,4 +57,4 @@ Adobe Commerce 온-프레미스: [품질 패치 도구 > 사용량](/docs/commer
 ## 관련 읽기
 
 * Commerce 도구 안내서의 [[!DNL Quality Patches Tool] > 릴리스 정보](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html).
-* [[!DNL Quality Patches Tool]: Commerce Tools 안내서에서 ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 패치를 검색합니다.
+* [[!DNL Quality Patches Tool]: Commerce Tools 안내서에서 ](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ko) 패치를 검색합니다.

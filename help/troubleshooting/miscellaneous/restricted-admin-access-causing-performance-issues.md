@@ -1,6 +1,6 @@
 ---
 title: 성능 문제를 일으키는 제한된 관리자 액세스
-description: 이 문서에서는 사용자 안내서에서 [웹 사이트에 의해 제한된 역할 범위의 관리자 역할](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources)을 사용함으로써 성능에 부정적인 영향을 미치는 경우에 대한 솔루션을 제공합니다.
+description: 이 문서에서는 사용자 안내서에서 [웹 사이트에 의해 제한된 역할 범위의 관리자 역할](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources)을 사용함으로써 성능에 부정적인 영향을 미치는 경우에 대한 솔루션을 제공합니다.
 exl-id: da168d6b-9cda-41e2-aa3c-f3f0dccc803d
 feature: Admin Workspace, Cache
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 성능 문제를 일으키는 제한된 관리자 액세스
 
-이 문서에서는 사용자 안내서에서 [웹 사이트에 의해 제한된 역할 범위의 관리자 역할](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources)을(를) 사용하여 성능에 부정적인 영향을 미치는 경우에 대한 솔루션을 제공합니다.
+이 문서에서는 사용자 안내서에서 [웹 사이트에 의해 제한된 역할 범위의 관리자 역할](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources)을(를) 사용하여 성능에 부정적인 영향을 미치는 경우에 대한 솔루션을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -30,10 +30,10 @@ ht-degree: 0%
 
 다음은 이 문제를 방지하는 옵션입니다.
 
-* Adobe Commerce 애플리케이션 버전을 2.2.10 또는 2.3.3으로 업그레이드하십시오. 자세한 내용은 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)를 참조하십시오.
+* Adobe Commerce 애플리케이션 버전을 2.2.10 또는 2.3.3으로 업그레이드하십시오. 자세한 내용은 개발자 설명서에서 [클라우드 인프라의 Adobe Commerce 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)를 참조하십시오.
 * 가능한 경우 웹 사이트별로 관리자 사용자 역할 범위를 제한하지 마십시오.
 * [Magento 지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 가능한 경우 패치를 요청합니다.
 
 ## 관련 읽기
 
-* 사용 안내서의 [사용자 역할](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles).
+* 사용 안내서의 [사용자 역할](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/user-accounts/permissions-user-roles).

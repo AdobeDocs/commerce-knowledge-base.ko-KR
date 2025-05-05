@@ -16,8 +16,8 @@ ht-degree: 0%
 
 장바구니에서 두 개 이상의 쿠폰 코드를 동시에 사용하려면 [Commerce Marketplace](https://marketplace.magento.com/)에서 해당 확장을 사용하는 것이 좋습니다.
 
-그러나 Adobe Commerce 버전 2.4.7부터는 장바구니에서 **둘 이상의 쿠폰 코드를 동시에 구성 및 사용할 수 있습니다**. 사용하도록 설정하려면 [다중 쿠키 설정](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales#multicoupon-settings)을 참조하세요.
+그러나 Adobe Commerce 버전 2.4.7부터는 장바구니에서 **둘 이상의 쿠폰 코드를 동시에 구성 및 사용할 수 있습니다**. 사용하도록 설정하려면 [다중 쿠키 설정](https://experienceleague.adobe.com/ko/docs/commerce-admin/config/sales/sales#multicoupon-settings)을 참조하세요.
 
 ## 추가 정보
 
-사용 안내서의 [쿠폰 코드](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html).
+사용 안내서의 [쿠폰 코드](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html?lang=ko).

@@ -45,6 +45,6 @@ ht-degree: 0%
 ## 관련 읽기
 
 * [페이지 빌더란 무엇입니까?개발자 설명서에서 ](https://developer.adobe.com/commerce/frontend-core/page-builder/).
-* 개발자 설명서에서 [페이지 빌더 설정](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html)을 참조하십시오.
-* 사용 안내서의 [페이지 빌더](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/introduction).
-* 사용 안내서의 [페이지 빌더 - 요소](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace#elements).
+* 개발자 설명서에서 [페이지 빌더 설정](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html?lang=ko)을 참조하십시오.
+* 사용 안내서의 [페이지 빌더](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/introduction).
+* 사용 안내서의 [페이지 빌더 - 요소](https://experienceleague.adobe.com/ko/docs/commerce-admin/page-builder/workspace#elements).

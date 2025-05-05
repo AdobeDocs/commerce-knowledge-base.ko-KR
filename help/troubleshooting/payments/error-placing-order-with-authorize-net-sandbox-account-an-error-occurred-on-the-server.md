@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >**사용 중단 알림**
 >
->결제 서비스 지시문 [PSD2](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive) 및 많은 API의 지속적인 발전으로 인해 Authorize.Net이 오래되어 향후 더 이상 보안 규정을 준수하지 않을 위험이 있습니다. 따라서 이제 더 이상 사용되지 않으며, Adobe Commerce 구성에서 비활성화하고 해당 [Commerce Marketplace 확장](https://marketplace.magento.com/extensions.html)(으)로 전환하는 것이 좋습니다.
+>결제 서비스 지시문 [PSD2](https://experienceleague.adobe.com/ko/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive) 및 많은 API의 지속적인 발전으로 인해 Authorize.Net이 오래되어 향후 더 이상 보안 규정을 준수하지 않을 위험이 있습니다. 따라서 이제 더 이상 사용되지 않으며, Adobe Commerce 구성에서 비활성화하고 해당 [Commerce Marketplace 확장](https://marketplace.magento.com/extensions.html)(으)로 전환하는 것이 좋습니다.
 >
 >**이 통합은 Adobe Commerce 2.4.0 릴리스에서 제거되었으며 현재 버전의 2.3.**&#x200B;에서 더 이상 사용되지 않습니다.
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 문제
 
-[Authorize.Net Direct Post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server) 샌드박스 계정을 사용하여 주문하면 다음과 같은 오류 메시지가 표시됩니다.
+[Authorize.Net Direct Post](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server) 샌드박스 계정을 사용하여 주문하면 다음과 같은 오류 메시지가 표시됩니다.
 
 &#x200B;>>
 &quot;서버에서 오류가 발생했습니다. 다시 주문해 보십시오.&quot;

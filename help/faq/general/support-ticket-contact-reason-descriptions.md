@@ -56,4 +56,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* Adobe Commerce용 Experience League 지원 사용 안내서의 [지원 사례를 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
+* Adobe Commerce용 Experience League 지원 사용 안내서의 [지원 사례를 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).

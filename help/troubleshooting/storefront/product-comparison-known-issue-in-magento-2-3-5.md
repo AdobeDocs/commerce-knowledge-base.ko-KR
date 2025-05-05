@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce 2.3.5의 제품 비교 알려진 문제
-description: 이 문서에서는 Adobe Commerce 온-프레미스 2.3.5 및 Adobe Commerce 온 클라우드 인프라 2.3.5에서 알려진 [제품 비교](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare) 문제를 방지하는 방법에 대한 권장 사항을 제공합니다.
+description: 이 문서에서는 Adobe Commerce 온-프레미스 2.3.5 및 Adobe Commerce 온 클라우드 인프라 2.3.5에서 알려진 [제품 비교](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/shopper-tools/product-compare) 문제를 방지하는 방법에 대한 권장 사항을 제공합니다.
 exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 feature: Products, Storefront
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.3.5의 제품 비교 알려진 문제
 
-이 문서에서는 Adobe Commerce 온-프레미스 2.3.5 및 Adobe Commerce 온-클라우드 인프라 2.3.5의 알려진 [제품 비교](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare) 문제를 방지하는 방법에 대한 권장 사항을 제공합니다.
+이 문서에서는 Adobe Commerce 온-프레미스 2.3.5 및 Adobe Commerce 온-클라우드 인프라 2.3.5의 알려진 [제품 비교](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/shopper-tools/product-compare) 문제를 방지하는 방법에 대한 권장 사항을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->제품 특성은 **Comparable on Storefront** 구성 설정을 사용하여 비교하는 데 사용하도록 설정되어 있습니다. 자세한 내용은 사용 안내서의 [제품 특성 만들기](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create#step-4-describe-the-storefront-properties)를 참조하세요.
+>제품 특성은 **Comparable on Storefront** 구성 설정을 사용하여 비교하는 데 사용하도록 설정되어 있습니다. 자세한 내용은 사용 안내서의 [제품 특성 만들기](https://experienceleague.adobe.com/ko/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create#step-4-describe-the-storefront-properties)를 참조하세요.
 
 수정 사항은 2020년 4분기에 릴리스될 예정인 Adobe Commerce 2.3.6에서 사용할 수 있습니다.
 

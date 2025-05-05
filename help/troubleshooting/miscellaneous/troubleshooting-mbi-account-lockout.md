@@ -70,6 +70,6 @@ BOB: Is this in TOC?
 
 ## 지원 기술 자료의 관련 항목:
 
-* [새 사용자 추가 및 권한 설정](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html)
-* [전자 메일 주소 또는 암호를 어떻게 업데이트합니까?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html)
-* [암호를 어떻게 재설정합니까?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html)
+* [새 사용자 추가 및 권한 설정](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html?lang=ko)
+* [전자 메일 주소 또는 암호를 어떻게 업데이트합니까?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html?lang=ko)
+* [암호를 어떻게 재설정합니까?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html?lang=ko)

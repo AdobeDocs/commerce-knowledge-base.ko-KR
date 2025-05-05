@@ -34,11 +34,11 @@ Next exception 'ReflectionException' with message 'Class Magento\CatalogRule\Mod
 
 ### 솔루션
 
-`root` 권한이 있는 사용자로 [파일 시스템 소유권 및 권한을 다시 설정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html)합니다.
+`root` 권한이 있는 사용자로 [파일 시스템 소유권 및 권한을 다시 설정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html?lang=ko)합니다.
 
 ## 증상(프로덕션 모드)
 
-현재 [프로덕션 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html)로 설정된 경우 [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html) 명령을 사용하면 샘플 데이터 설치가 실패합니다.
+현재 [프로덕션 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ko)로 설정된 경우 [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html?lang=ko) 명령을 사용하면 샘플 데이터 설치가 실패합니다.
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -48,7 +48,7 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 프로덕션 모드에서 샘플 데이터를 설치하지 마십시오. 개발자 모드로 전환하고 일부 `var` 디렉터리를 지운 후 다시 시도하십시오.
 
-[Adobe Commerce 파일 시스템 소유자](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html)(으)로 표시된 순서대로 다음 명령을 입력하십시오.
+[Adobe Commerce 파일 시스템 소유자](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html?lang=ko)(으)로 표시된 순서대로 다음 명령을 입력하십시오.
 
 ```php
 cd <magento_root>

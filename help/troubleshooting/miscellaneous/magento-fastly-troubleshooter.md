@@ -48,7 +48,7 @@ b. 아니요 - CLI/터미널에서 실행하여 DNS를 확인합니다. `dig [yo
 
 +++**`dig`을(를) 실행하면 어떻게 됩니까?**
 
-`dig`을(를) 실행했을 때 prod.magentocloud.map.fastly.net 또는 다음 IP 주소 중 하나를 가리키는 레코드를 반환했습니다(개발자 설명서에서 [프로덕션 설정으로 DNS 구성 업데이트](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings) 참조).
+`dig`을(를) 실행했을 때 prod.magentocloud.map.fastly.net 또는 다음 IP 주소 중 하나를 가리키는 레코드를 반환했습니다(개발자 설명서에서 [프로덕션 설정으로 DNS 구성 업데이트](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings) 참조).
 
 * 151.101.1.124
 * 151.101.65.124
@@ -56,7 +56,7 @@ b. 아니요 - CLI/터미널에서 실행하여 DNS를 확인합니다. `dig [yo
 * 151.101.193.124
 
 a. 예 - 이 문제는 DNS와 관련이 없습니다. [5단계](#step-5)로 진행합니다.\
-b. 아니요 - 이 문제는 DNS와 관련이 있을 수 있습니다. 고객은 [DNS 구성을 확인](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings)하거나 DNS 공급자에게 자세한 내용을 문의해야 합니다.
+b. 아니요 - 이 문제는 DNS와 관련이 있을 수 있습니다. 고객은 [DNS 구성을 확인](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings)하거나 DNS 공급자에게 자세한 내용을 문의해야 합니다.
 
 +++
 
@@ -74,7 +74,7 @@ b. 아니요 - [http://fastly-debug.com](https://www.fastly-debug.com/)을(를) 
 +++**인증서가 만료되었습니까?**
 
 a. 예 - 인증 기관(CA)으로 TLS 인증서를 갱신해야 합니다.\
-b. 아니요 - 인증서가 전혀 없을 수 있습니다. Adobe Commerce이 있는 경우 TLS 인증서를 구입하는 것이 좋습니다. 클라우드 인프라에서 Adobe Commerce을 사용하는 경우 Fastly에서 보안 HTTPS 트래픽을 제공하기 위해 도메인 유효성 검사 Let&#39;s Encrypt SSL/TLS 인증서를 가질 수 있습니다. 개발자 설명서에서 [SSL/TLS 인증서 프로비저닝](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)을 참조하십시오.
+b. 아니요 - 인증서가 전혀 없을 수 있습니다. Adobe Commerce이 있는 경우 TLS 인증서를 구입하는 것이 좋습니다. 클라우드 인프라에서 Adobe Commerce을 사용하는 경우 Fastly에서 보안 HTTPS 트래픽을 제공하기 위해 도메인 유효성 검사 Let&#39;s Encrypt SSL/TLS 인증서를 가질 수 있습니다. 개발자 설명서에서 [SSL/TLS 인증서 프로비저닝](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)을 참조하십시오.
 
 +++
 

@@ -25,7 +25,7 @@ Adobe Commerce의 Headless 구현을 개발 중입니다. Fastly를 CDN 서비�
 아니, 넌 몰라 이러한 상황에서는 Fastly 사용을 건너뛸 수 있습니다. 최소한 개발 초기에는 건너뛸 수 있습니다.
 
 Headless 배포를 사용하지 않으려는 유일한 상황입니다.
-개발자 설명서에서 [Adobe Commerce용 클라우드 > Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly)를 참조하십시오.
+개발자 설명서에서 [Adobe Commerce용 클라우드 > Fastly](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/fastly)를 참조하십시오.
 
 그래도 SSL 인증서를 사용하려면 Fastly가 필요할 것입니다.
 
@@ -34,4 +34,4 @@ Headless 배포를 사용하지 않으려는 유일한 상황입니다.
 ## 추가 정보
 
 * [&#128279;](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture)Headless 웹 사이트: 분리된 아키텍처의 주요 이점[Josh Koenig](https://pantheon.io/team/josh-koenig)의 .
-* 개발자 설명서에서 [Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly)
+* 개발자 설명서에서 [Fastly](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/fastly)

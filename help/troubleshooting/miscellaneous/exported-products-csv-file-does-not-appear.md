@@ -95,7 +95,7 @@ Adobe Commerce 애플리케이션 부품 버전 2.3.2의 내보내기 기능에 
 
 >[!TIP]
 >
->[YAML 파일](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)은(는) 대/소문자를 구분하므로 탭을 허용하지 않습니다. .magento.env.yaml 파일 전체에서 일관된 들여쓰기를 사용해야 합니다. 그렇지 않으면 구성이 예상대로 작동하지 않을 수 있습니다. 설명서와 샘플 파일의 예제에서는 두 개의 공백 들여쓰기를 사용합니다. ece-tools validate 명령을 사용하여 구성을 확인합니다.
+>[YAML 파일](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=ko)은(는) 대/소문자를 구분하므로 탭을 허용하지 않습니다. .magento.env.yaml 파일 전체에서 일관된 들여쓰기를 사용해야 합니다. 그렇지 않으면 구성이 예상대로 작동하지 않을 수 있습니다. 설명서와 샘플 파일의 예제에서는 두 개의 공백 들여쓰기를 사용합니다. ece-tools validate 명령을 사용하여 구성을 확인합니다.
 
 >[!NOTE]
 >

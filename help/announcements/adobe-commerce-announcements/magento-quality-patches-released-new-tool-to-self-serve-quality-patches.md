@@ -29,5 +29,5 @@ Adobe은 설치된 Adobe Commerce 버전(온-프레미스 및 클라우드 인�
 
 자세한 내용은 개발자 설명서 를 참조하십시오.
 
-* [품질 패치 도구에서 사용 가능한 패치](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
-* [품질 패치 도구 릴리스 정보](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [품질 패치 도구에서 사용 가능한 패치](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ko)
+* [품질 패치 도구 릴리스 정보](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/release-notes)

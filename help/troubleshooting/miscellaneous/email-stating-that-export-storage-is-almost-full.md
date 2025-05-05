@@ -41,8 +41,8 @@ ht-degree: 0%
 
 `du -shc` */path/to/folder*
 
-미디어 디스크 사용량이 전체 디스크 공간의 큰 부분을 차지하는 경우 [Fastly Deep Image Optimization](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization)을(를) 활성화한 다음 서버의 *pub/media/catalog/product/cache* 폴더에서 파일을 수동으로 삭제할 수 있습니다.
+미디어 디스크 사용량이 전체 디스크 공간의 큰 부분을 차지하는 경우 [Fastly Deep Image Optimization](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization)을(를) 활성화한 다음 서버의 *pub/media/catalog/product/cache* 폴더에서 파일을 수동으로 삭제할 수 있습니다.
 
 ## 관련 읽기
 
-지원 기술 자료에서 [전용 클러스터를 확인](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)하세요.
+지원 기술 자료에서 [전용 클러스터를 확인](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)하세요.

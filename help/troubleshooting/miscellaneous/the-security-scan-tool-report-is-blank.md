@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <u>재현 단계</u>:
 
-1. 사용 안내서의 [보안 검색](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)에 설명된 대로 웹 사이트를 확인하도록 보안 검색 도구를 구성합니다.
+1. 사용 안내서의 [보안 검색](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security-scan)에 설명된 대로 웹 사이트를 확인하도록 보안 검색 도구를 구성합니다.
 1. 작업 열에서 **검사 실행**&#x200B;을 선택합니다.
 
 <u>예상 결과</u>:
@@ -47,5 +47,5 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [라이브 및 시작](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview)을 하세요.
-* 사용 안내서의 [보안 검사](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan).
+* 개발자 설명서에서 [라이브 및 시작](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/launch/overview)을 하세요.
+* 사용 안내서의 [보안 검사](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security-scan).

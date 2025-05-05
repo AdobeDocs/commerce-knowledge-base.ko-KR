@@ -74,7 +74,7 @@ Adobe Commerce/Magento Open Source 버전에 따라 다음과 같이 첨부된 �
 
 ## 패치 적용 방법
 
-파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)을 참조하십시오.
+파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=ko)을 참조하십시오.
 
 ## 패치가 적용되었는지 확인하는 방법
 
@@ -82,7 +82,7 @@ Adobe Commerce/Magento Open Source 버전에 따라 다음과 같이 첨부된 �
 
 <u>다음 단계를 수행하여 이 작업을 수행할 수 있습니다</u>:
 
-1. [설치 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [설치 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=ko).
 1. 다음 명령을 실행합니다.
 
    ```bash

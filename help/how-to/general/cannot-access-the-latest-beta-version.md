@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### 조기 액세스 코드 위치
 
-베타 액세스 기간 동안에는 [repo.magento.com](https://repo.magento.com/)의 작성기를 통해서만 릴리스 패키지를 사용할 수 있습니다. 이 기간 동안 GitHub 및 Adobe Commerce 포털에서 릴리스 패키지를 사용할 수 없으며 GA 날짜에 이러한 위치에 게시합니다. 작성기 사용 방법에 대한 자세한 내용을 보려면 [여기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)를 클릭하십시오.
+베타 액세스 기간 동안에는 [repo.magento.com](https://repo.magento.com/)의 작성기를 통해서만 릴리스 패키지를 사용할 수 있습니다. 이 기간 동안 GitHub 및 Adobe Commerce 포털에서 릴리스 패키지를 사용할 수 없으며 GA 날짜에 이러한 위치에 게시합니다. 작성기 사용 방법에 대한 자세한 내용을 보려면 [여기](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/composer)를 클릭하십시오.
 
 ### 사용해야 하는 MageID
 

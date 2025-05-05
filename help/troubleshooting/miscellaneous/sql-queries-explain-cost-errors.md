@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 쿼리를 실행할 수 없습니다. \[xxx\]의 EXPLAIN 비용 값이 너무 커서 이 쿼리를 실행할 수 없습니다.
 
-이 메시지가 표시되면 쿼리를 실행하는 데 비용이 너무 많이 들었음을 의미합니다. 이러한 상황에 대한 두 가지 권장 사항이 있습니다. 하나는 쿼리에서 ORDER BY 절을 제거하는 것입니다. 이는 비용이 많이 드는 작업입니다. 두 번째는 쿼리를 수정하기 위한 [최적화 문서](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html)의 팁을 따르는 것입니다.
+이 메시지가 표시되면 쿼리를 실행하는 데 비용이 너무 많이 들었음을 의미합니다. 이러한 상황에 대한 두 가지 권장 사항이 있습니다. 하나는 쿼리에서 ORDER BY 절을 제거하는 것입니다. 이는 비용이 많이 드는 작업입니다. 두 번째는 쿼리를 수정하기 위한 [최적화 문서](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html?lang=ko)의 팁을 따르는 것입니다.
 
 ## 쿼리를 실행할 수 없습니다. 이 쿼리는 제한 값인 10,000개를 초과하는 \[xxx\]개의 행을 반환합니다.
 

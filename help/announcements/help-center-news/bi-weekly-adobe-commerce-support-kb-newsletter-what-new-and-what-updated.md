@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. [ACSD-45849: 스테이징 업데이트 후 비디오 메타데이터가 손실됨:](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-45849-video-metadata-lost-after-staging-update.md) ACSD-45849 패치는 스테이징 업데이트가 적용된 후 비디오 메타데이터가 손실되는 문제를 해결합니다. 이 패치는 QPT(Quality Patches Tool) 1.1.18이 설치된 경우 사용할 수 있습니다.
 
-1. [ACSD-45754: 장바구니에 쿠폰을 적용한 후 보상 포인트가 추가되지 않음:](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45754-reward-points-not-added-after-applying-coupon-to-the-cart.html) ACSD-45754 패치는 장바구니에 쿠폰을 적용한 후 보상 포인트가 추가되지 않는 문제를 해결합니다. 이 패치는 QPT(Quality Patches Tool) 1.1.18이 설치된 경우 사용할 수 있습니다.
+1. [ACSD-45754: 장바구니에 쿠폰을 적용한 후 보상 포인트가 추가되지 않음:](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45754-reward-points-not-added-after-applying-coupon-to-the-cart.html?lang=ko) ACSD-45754 패치는 장바구니에 쿠폰을 적용한 후 보상 포인트가 추가되지 않는 문제를 해결합니다. 이 패치는 QPT(Quality Patches Tool) 1.1.18이 설치된 경우 사용할 수 있습니다.
 
 1. [ACSD-45488: 여러 소스를 포함하는 구성 가능한 제품이 재고로 반환되지 않음:](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-45488-configurable-product-with-multiple-sources-not-returned-to-in-stock.md) ACSD-45488 패치는 여러 소스를 포함하는 구성 가능한 제품이 자동으로 재고로 반환되지 않는 문제를 해결합니다. 이 패치는 QPT(Quality Patches Tool) 1.1.18이 설치된 경우 사용할 수 있습니다.
 

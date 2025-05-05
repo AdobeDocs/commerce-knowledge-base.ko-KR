@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Live Search] 대시보드 및 검색 결과 순위가 올바르지 않음
 
-[!DNL Live Search] 대시보드에 표시된 데이터가 올바르지 않거나 [검색 결과 순위](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies)가 예상과 다른 경우 가능한 이유를 확인하려면 다음을 참조하십시오.
+[!DNL Live Search] 대시보드에 표시된 데이터가 올바르지 않거나 [검색 결과 순위](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies)가 예상과 다른 경우 가능한 이유를 확인하려면 다음을 참조하십시오.
 
 * `productView` 이벤트에 제품 컨텍스트의 `topLevelSku` 필드가 없습니다. 이로 인해 빈 전환 및 기타 예기치 않은 지표가 발생합니다.
 

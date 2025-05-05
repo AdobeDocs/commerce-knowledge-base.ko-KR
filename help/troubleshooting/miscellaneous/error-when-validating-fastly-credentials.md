@@ -26,7 +26,7 @@ Fastly 자격 증명의 유효성을 검사할 때 오류가 발생합니다.
 
 ## 솔루션
 
-1. 올바른 Fastly 서비스 ID 및 API 토큰이 있는지 확인하고 다시 확인하십시오. 자세한 지침은 개발자 설명서에서 [Fastly 자격 증명 테스트](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)를 참조하십시오.
+1. 올바른 Fastly 서비스 ID 및 API 토큰이 있는지 확인하고 다시 확인하십시오. 자세한 지침은 개발자 설명서에서 [Fastly 자격 증명 테스트](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)를 참조하십시오.
 1. 자격 증명 확인에 실패하면 다음 curl 명령을 실행하여 서비스 상태를 확인합니다.
 
    ```curl
@@ -45,6 +45,6 @@ Fastly 자격 증명의 유효성을 검사할 때 오류가 발생합니다.
 
 ## 개발자 설명서의 관련 내용:
 
-* [Adobe Commerce용 클라우드 > Fastly > Fastly 서비스 계정 및 자격 증명](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly#fastly-service-account-and-credentials)
+* [Adobe Commerce용 클라우드 > Fastly > Fastly 서비스 계정 및 자격 증명](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/fastly#fastly-service-account-and-credentials)
 
-* [Adobe Commerce용 클라우드 > Fastly 설정 > Fastly 자격 증명 테스트](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)
+* [Adobe Commerce용 클라우드 > Fastly 설정 > Fastly 자격 증명 테스트](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)

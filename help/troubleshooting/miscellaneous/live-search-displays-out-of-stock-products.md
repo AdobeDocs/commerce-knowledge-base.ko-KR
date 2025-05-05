@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이 문제는 [[!DNL Live Search] [2.0.4]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html)에서 해결되었습니다. 최신 버전을 설치하려면 사용 안내서에서 [업데이트 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#update)를 참조하세요.
+>이 문제는 [[!DNL Live Search] [2.0.4]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html?lang=ko)에서 해결되었습니다. 최신 버전을 설치하려면 사용 안내서에서 [업데이트 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=ko#update)를 참조하세요.
 
 이 문서에서는 검색 팝오버가 일부 항목을 반환하는 동안 PLP(제품 목록 페이지)에 *선택 항목과 일치하는 제품을 찾을 수 없습니다* 오류가 표시되는 알려진 문제에 대한 정보를 제공합니다.
 
@@ -49,4 +49,4 @@ PLP에서 *선택 항목과 일치하는 제품을 찾을 수 없습니다* 메�
 
 ## 관련 읽기
 
-사용 안내서에서 [설치 [!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
+사용 안내서에서 [설치 [!DNL Live Search]](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/live-search/install)

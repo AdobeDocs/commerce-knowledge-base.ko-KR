@@ -114,5 +114,5 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 1. 설치 또는 업그레이드 프로세스를 완료합니다.
 
-   * [클라우드 인프라에 설치 [!DNL B2B] 설치](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
-   * [온-프레미스 설치](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html)
+   * [클라우드 인프라에 설치 [!DNL B2B] 설치](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html?lang=ko)
+   * [온-프레미스 설치](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html?lang=ko)

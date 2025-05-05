@@ -19,4 +19,4 @@ ht-degree: 0%
 
 [!DNL Site-Wide Analysis Tool]은(는) Adobe Commerce 설치의 보안 및 운영을 보장하기 위한 자세한 시스템 통찰력과 권장 사항이 포함된 사전 예방적 셀프서비스 도구이자 중앙 저장소입니다. 모든 도구 관련 고객 사이트 정보는 3시간 내지 1일 1회씩 미리 정해진 일정에 따라 수집됩니다. 즉, SWAT는 고객 사이트 데이터를 지속적으로 분석하여 결과를 도출하고 있습니다.
 
-[!DNL Site-Wide Analysis Tool]에 대한 자세한 내용은 [[!DNL Site-Wide Analysis Tool] 안내서](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)를 참조하세요.
+[!DNL Site-Wide Analysis Tool]에 대한 자세한 내용은 [[!DNL Site-Wide Analysis Tool] 안내서](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=ko)를 참조하세요.
