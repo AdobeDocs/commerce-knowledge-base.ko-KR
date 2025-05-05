@@ -47,7 +47,7 @@ TLS(Transport Layer Security)는 보안 수준이 낮은 전임 SSL(Secure Socke
 
 Fastly의 TLS 강제 실행 기능을 사용하면 사이트 페이지에 대해 암호화되지 않은 모든 수신 요청을 TLS에 강제 적용할 수 있습니다.
 
->>
+&#x200B;>>
 TLS에 해당하는 TLS로 리디렉션되는 암호화되지 않은 요청에 대해 *301 Moved Permanently* 응답을 반환하면 작동합니다. 예를 들어 *http://www.example.com/foo.jpeg*&#x200B;을(를) 요청하면 *https://www.example.com/foo.jpeg*(으)로 리디렉션됩니다.
 
 [통신 보안](https://docs.fastly.com/guides/securing-communications/)(Fastly 설명서)

@@ -39,7 +39,7 @@ ACSD-55305 패치는 [!UICONTROL My Account]> [!UICONTROL Company Structure] 페
 1. 고객을 위한 다중 선택 속성을 만듭니다.
 1. 회사 관리자의 새로 만든 속성에 값을 할당합니다.
 1. 회사 관리자로 로그인합니다.
-1. [!UICONTROL account dashboard](으)로 이동하여 **[!UICONTROL Company Structure]**(으)로 이동합니다.
+1. [!UICONTROL account dashboard] (으)로 이동하여 **[!UICONTROL Company Structure]**(으)로 이동합니다.
 1. 사용자를 선택합니다.
 1. **[!UICONTROL Edit Selected]**&#x200B;을(를) 클릭합니다.
 

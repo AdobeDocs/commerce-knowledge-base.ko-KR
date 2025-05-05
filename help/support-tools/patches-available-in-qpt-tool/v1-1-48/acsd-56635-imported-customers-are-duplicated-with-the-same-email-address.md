@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-56635: 계정 공유를  [!DNL Global](으)로 설정하면 가져온 고객이 중복됩니다.'
-description: 계정 공유를  [!DNL Global](으)로 설정한 상태에서 가져오기를 사용할 때 가져온 고객이 동일한 이메일 주소로 복제되는 Adobe Commerce 문제를 해결하려면 ACSD-56635 패치를 적용합니다.
+title: 'ACSD-56635: 계정 공유를  [!DNL Global] (으)로 설정하면 가져온 고객이 중복됩니다.'
+description: 계정 공유를  [!DNL Global] (으)로 설정한 상태에서 가져오기를 사용할 때 가져온 고객이 동일한 이메일 주소로 복제되는 Adobe Commerce 문제를 해결하려면 ACSD-56635 패치를 적용합니다.
 feature: Customers, Attributes
 role: Admin, Developer
 exl-id: abd542a1-6764-4385-97a6-b46015363b42
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# ACSD-56635: 계정 공유를 [!DNL Global](으)로 설정하면 가져온 고객이 동일한 이메일 주소로 복제됩니다.
+# ACSD-56635: 계정 공유를 [!DNL Global] (으)로 설정하면 가져온 고객이 동일한 이메일 주소로 복제됩니다.
 
-ACSD-56635 패치는 계정 공유가 [!DNL Global](으)로 설정된 상태에서 가져오기를 사용할 때 가져온 고객이 동일한 이메일 주소로 복제되는 문제를 해결합니다. 이 패치는 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48이 설치된 경우에 사용할 수 있습니다. 패치 ID는 ACSD-56635입니다. 이 문제는 Adobe Commerce 2.4.7에서 수정됩니다.
+ACSD-56635 패치는 계정 공유가 [!DNL Global] (으)로 설정된 상태에서 가져오기를 사용할 때 가져온 고객이 동일한 이메일 주소로 복제되는 문제를 해결합니다. 이 패치는 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48이 설치된 경우에 사용할 수 있습니다. 패치 ID는 ACSD-56635입니다. 이 문제는 Adobe Commerce 2.4.7에서 수정됩니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -31,7 +31,7 @@ ACSD-56635 패치는 계정 공유가 [!DNL Global](으)로 설정된 상태에�
 
 ## 문제
 
-계정 공유를 [!DNL Global](으)로 설정하면 가져온 고객이 동일한 이메일 주소로 복제됩니다.
+계정 공유를 [!DNL Global] (으)로 설정하면 가져온 고객이 동일한 이메일 주소로 복제됩니다.
 
 <u>재현 단계</u>:
 

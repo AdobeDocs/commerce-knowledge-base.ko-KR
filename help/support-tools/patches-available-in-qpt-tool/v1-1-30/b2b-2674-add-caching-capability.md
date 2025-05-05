@@ -36,7 +36,7 @@ B2B-2674 패치는 `customAttributeMetadata` GraphQL 쿼리에 캐싱 기능을 
 <u>필수 구성 요소</u>:
 
 * 서버가 Adobe Commerce 백엔드에 프록싱하는 [!DNL Varnish]을(를) 가리키고 있습니다.
-* 구성 설정 `system/full_page_cache/caching_application`이(가) *2*([!DNL Varnish])(으)로 설정되어 있거나 Adobe Commerce 관리자 > **[!UICONTROL Stores]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!UICONTROL Caching Application]** >(으)로 이동하여 [!DNL Varnish](으)로 설정하십시오.
+* 구성 설정 `system/full_page_cache/caching_application`이(가) *2*([!DNL Varnish])(으)로 설정되어 있거나 Adobe Commerce 관리자 > **[!UICONTROL Stores]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!UICONTROL Caching Application]** >(으)로 이동하여 [!DNL Varnish] (으)로 설정하십시오.
 
 패치를 적용한 후 다음 단계를 실행하여 캐싱 기능을 사용할 수 있는지 확인합니다.
 

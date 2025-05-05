@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL regex]이(가) 아닌 리디렉션을 [!DNL Nginx](경로) 대신 [!DNL Fastly](으)로 오프로드
+# [!DNL regex]이(가) 아닌 리디렉션을 [!DNL Nginx] (경로) 대신 [!DNL Fastly] (으)로 오프로드
 
-이 항목에서는 클라우드 인프라의 Adobe Commerce에서 [!DNL regex]이 아닌 리디렉션을 [!DNL Nginx] 대신 [!DNL Fastly](으)로 오프로드할 때 발생할 수 있는 일반적인 리디렉션 성능 문제에 대한 해결 방법을 제안합니다.
+이 항목에서는 클라우드 인프라의 Adobe Commerce에서 [!DNL regex]이 아닌 리디렉션을 [!DNL Nginx] 대신 [!DNL Fastly] (으)로 오프로드할 때 발생할 수 있는 일반적인 리디렉션 성능 문제에 대한 해결 방법을 제안합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-해결 방법은 [!DNL regex]이 아닌 리디렉션을 대신 [!DNL Fastly](으)로 오프로드하는 것입니다. [!DNL Fastly](으)로 리디렉션할 일반 오류 경로를 만듭니다.
+해결 방법은 [!DNL regex]이 아닌 리디렉션을 대신 [!DNL Fastly] (으)로 오프로드하는 것입니다. [!DNL Fastly] (으)로 리디렉션할 일반 오류 경로를 만듭니다.
 
 다음 단계에서는 [!DNL Nginx] 대신 [!DNL Fastly]에 리디렉션을 배치하는 방법을 자세히 설명합니다.
 

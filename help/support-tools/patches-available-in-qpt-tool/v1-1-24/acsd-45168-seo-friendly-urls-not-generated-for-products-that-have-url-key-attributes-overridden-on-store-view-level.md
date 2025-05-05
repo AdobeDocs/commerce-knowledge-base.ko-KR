@@ -41,10 +41,10 @@ ACSD-45168 패치는 스토어-보기 수준에서 url_key 특성이 재정의�
 1. 구성 캐시를 정리합니다.
 1. [!UICONTROL Category 1]과(와) [!UICONTROL Category 2] 두 개의 범주를 만듭니다.
 1. [!UICONTROL Category 1]에 [!UICONTROL Product 1], [!UICONTROL Category 1]에 [!UICONTROL Product 2]의 두 제품을 만듭니다.
-1. [!UICONTROL Product 1]의 범위를 [!UICONTROL Default Store View](으)로 변경합니다.
+1. [!UICONTROL Product 1]의 범위를 [!UICONTROL Default Store View] (으)로 변경합니다.
 1. [!UICONTROL Search Engine Optimization]에서 선택적 URL [!UICONTROL Key]을(를) 선택 취소합니다.
 1. 제품을 저장합니다.
-1. [!UICONTROL All Store Views](으)로 다시 전환합니다.
+1. [!UICONTROL All Store Views] (으)로 다시 전환합니다.
 1. [!UICONTROL Category 2]에 [!UICONTROL Product 1]을(를) 추가하고 [!UICONTROL Category 2]에 [!UICONTROL Product 2]을(를) 추가합니다.
 1. [!UICONTROL url_rewrite] 테이블 또는 [!UICONTROL Marketing] > [!UICONTROL SEO & Search] > [!UICONTROL URL Rewrites]을(를) 확인합니다.
 

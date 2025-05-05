@@ -48,7 +48,7 @@ Adobe Commerce 및 Magento Open Source 버전 2.4.7 이상에서는 기본적으
 
 ### 솔루션
 
-[!UICONTROL CSP](으)로 인해 특정 스크립트가 차단되어 사용자에게 브라우저 오류가 표시될 수 있습니다.
+[!UICONTROL CSP] (으)로 인해 특정 스크립트가 차단되어 사용자에게 브라우저 오류가 표시될 수 있습니다.
 
 `Refused to execute inline script because it violates the following [!UICONTROL Content Security Policy] directive: "script-src`
 

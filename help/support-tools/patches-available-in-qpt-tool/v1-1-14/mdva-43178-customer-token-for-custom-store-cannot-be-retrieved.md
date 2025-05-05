@@ -44,10 +44,10 @@ GraphQL에서 사용자 지정 스토어에 대한 고객 토큰을 검색할 �
 
    <pre>
     <code class="language-graphql">
-    {
+    &lbrace;
       "username": "login",
       "password": "password"
-    }
+    &rbrace;
     </code>
     </pre>
 

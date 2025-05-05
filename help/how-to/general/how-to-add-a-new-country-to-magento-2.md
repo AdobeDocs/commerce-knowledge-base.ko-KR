@@ -37,27 +37,27 @@ ht-degree: 0%
 
 모듈 구조에 대한 자세한 내용은 개발자 설명서에서 [모듈 개요](https://developer.adobe.com/commerce/php/architecture/modules/overview/)를 참조하십시오.
 
-<pre><ExtraCountries>
+<pre>&lt;ExtraCountries>
  |
- <etc>
+ &lt;etc>
  | |
  | config.xml
  | di.xml
  | module.xml
  |
- <Plugin>
+ &lt;Plugin>
  | |
- | <Framework>
+ | &lt;Framework>
  |   |
- |   <Locale>
+ |   &lt;Locale>
  |     |
  |     TranslatedListsPlugin.php
  |
- <Setup>
+ &lt;Setup>
  | |
- | <Patch>
+ | &lt;Patch>
  |   |
- |   <Data>
+ |   &lt;Data>
  |     |
  |     AddDataForAbstractCountry.php
  |

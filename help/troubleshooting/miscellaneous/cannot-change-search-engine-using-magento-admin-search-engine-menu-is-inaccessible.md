@@ -18,7 +18,7 @@ ht-degree: 0%
 > [MySQL 카탈로그 검색 엔진이 Adobe Commerce 2.4.0에서 제거됩니다](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 버전 2.4.0을 설치하기 전에 Elasticsearch 호스트를 설정하고 를 구성해야 합니다.
 > 
 > 다음을 참조하십시오.
-> [](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch) Elasticsearch을 설치하고 구성합니다.
+> [&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch) Elasticsearch을 설치하고 구성합니다.
 > [Opensearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch) 설치 및 구성
 > [Live Search 설치 및 구성](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 1. **[!UICONTROL Admin]**&#x200B;에 관리자로 로그인합니다.
 1. **[!UICONTROL Admin]** 사이드바의 왼쪽에서 **[!UICONTROL Stores]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Settings]**(으)로 이동하여 **[!UICONTROL Configuration]**&#x200B;을(를) 선택합니다.
-1. 왼쪽 상단 모서리에서 **[!UICONTROL Store View]** 선택기를 클릭하고 **[!UICONTROL *기본 구성&#x200B;*]**을 선택합니다.
+1. 왼쪽 상단 모서리에서 **[!UICONTROL Store View]** 선택기를 클릭하고 **[!UICONTROL *기본 구성&#x200B;*]**&#x200B;을 선택합니다.
 1. 저장소 보기 변경 내용을 승인하려면 확인 대화 상자에서 **[!UICONTROL OK]**&#x200B;을(를) 클릭하십시오.
 
 ![change_store_view.png](assets/change_store_view.png)

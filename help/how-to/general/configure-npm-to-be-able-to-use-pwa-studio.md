@@ -40,7 +40,7 @@ ht-degree: 0%
    >
    >빌드뿐만 아니라 응용 프로그램에서도 Node.JS를 실행하려면 다음 명령을 추가하여 빌드 후크를 변경하십시오.
    > 
-   ```
+   > ```
    > echo 'unset NPM_CONFIG_PREFIX' >> .environment
    > echo 'export NO_UPDATE_NOTIFIER=1' >> .environment
    > echo 'export NVM_DIR="$MAGENTO_CLOUD_DIR/.nvm"' >> .environment

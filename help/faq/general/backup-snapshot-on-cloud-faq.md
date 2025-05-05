@@ -32,7 +32,7 @@ ht-degree: 0%
 * 자동 스냅숏 **의 보존 시간이 다릅니다**. [일정](/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=en#backup-and-disaster-recovery)을 따릅니다.
 
 >[!NOTE]
->클라우드 콘솔은 항상 스테이징 및 프로덕션 환경에 [!UICONTROL No backup]을(를) 표시합니다. 통합 환경에서 백업만 가져올 수 있습니다. 줄임표 드롭다운 메뉴에서 **[!UICONTROL Backup]**을(를) 선택합니다.
+>클라우드 콘솔은 항상 스테이징 및 프로덕션 환경에 [!UICONTROL No backup]을(를) 표시합니다. 통합 환경에서 백업만 가져올 수 있습니다. 줄임표 드롭다운 메뉴에서 **[!UICONTROL Backup]**&#x200B;을(를) 선택합니다.
 >![cloud_console_backup.png](assets/cloud_console_backup.png)
 
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 DB 백업은 클라우드 스냅샷의 일부입니다.
 
->>
+&#x200B;>>
 스냅샷은 실행 중인 모든 서비스(예: **MySQL 데이터베이스**, Redis 등)의 모든 영구 데이터와 마운트된 볼륨에 저장된 파일을 포함하는 환경의 전체 백업입니다.
 
 >[!NOTE]

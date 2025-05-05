@@ -27,7 +27,7 @@ Adobe Commerce on cloud infrastructure Pro 계획 아키텍처 고객이고 현�
 1. 판매자는 연락처 이유 &quot;*클라우드 구성 변경을 요청*&quot;을(를) 사용하여 향상된 통합 환경에 대한 업그레이드를 요청하는 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)해야 합니다.
 1. Adobe 고객 엔지니어링 팀이 통합 환경 수를 확인하고 변경을 시작합니다.
 1. 업그레이드가 완료되면 판매자에게 티켓에 알림이 전송됩니다.
-1. 판매자는 통합 환경을 다시 배포합니다. 개발자 설명서에서 [분기 병합](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch)의 단계를 따릅니다. *참고*: 다음을 실행하면 배포가 자동으로 수행됩니다. <pre>git 푸시 원본 <branch-name></pre>
+1. 판매자는 통합 환경을 다시 배포합니다. 개발자 설명서에서 [분기 병합](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch)의 단계를 따릅니다. *참고*: 다음을 실행하면 배포가 자동으로 수행됩니다. <pre>git 푸시 원본 &lt;branch-name></pre>
 
 향상된 성능은 향상된 통합 환경으로 성공적으로 업그레이드했음을 나타냅니다.
 
@@ -43,7 +43,7 @@ Adobe Commerce on cloud infrastructure Pro 계획 아키텍처 고객이고 현�
 1. 판매자는 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 향상된 통합 환경에 대한 업그레이드를 요청해야 합니다. 연락처 이유 *&quot;클라우드 구성 변경을 요청&quot;* - **스테이징 환경이 이름이 지정된 통합 환경입니다**.
 1. Adobe 고객 엔지니어링 팀이 통합 환경 수를 확인하고 변경을 시작합니다.
 1. 업그레이드가 완료되면 판매자에게 티켓에 알림이 전송됩니다.
-1. 판매자는 통합 환경을 다시 배포합니다. 개발자 설명서에서 [분기 병합](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch)의 단계를 따릅니다. *참고*: 다음을 실행하면 배포가 자동으로 수행됩니다. <pre>git 푸시 원본 <branch-name></pre>
+1. 판매자는 통합 환경을 다시 배포합니다. 개발자 설명서에서 [분기 병합](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch)의 단계를 따릅니다. *참고*: 다음을 실행하면 배포가 자동으로 수행됩니다. <pre>git 푸시 원본 &lt;branch-name></pre>
 
 향상된 성능은 향상된 통합 환경으로 성공적으로 업그레이드했음을 나타냅니다.
 

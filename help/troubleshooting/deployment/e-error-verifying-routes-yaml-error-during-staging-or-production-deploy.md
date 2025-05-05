@@ -36,9 +36,9 @@ ht-degree: 0%
 <pre>응용 프로그램 배포 구성 E 확인 중: routes.yaml을 확인하는 동안 오류가 발생했습니다.
 다음 도메인은 클러스터에 대해 구성되었지만 routes.yaml 파일에 정의된 경로가 없습니다.
 
-- store1.example.com
-- store2.example.com
-- test-store.example.com
+&#x200B;- store1.example.com
+&#x200B;- store2.example.com
+&#x200B;- test-store.example.com
 
 현재 routes.yaml 구성을 사용하여
   이들 도메인은 제공되지 않습니다!

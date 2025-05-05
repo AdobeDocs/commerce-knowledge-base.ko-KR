@@ -47,7 +47,7 @@ ACSD-49970 패치는 *[!UICONTROL New Relic Reporting]*&#x200B;이(가) 켜져 �
    }
    ```
 
-   (참고: 실행하기 전에 **[!UICONTROL Header]**&#x200B;을(를) [!UICONTROL Content-Currency:CA](으)로 설정합니다.)
+   (참고: 실행하기 전에 **[!UICONTROL Header]**&#x200B;을(를) [!UICONTROL Content-Currency:CA] (으)로 설정합니다.)
 
    ```cURL
    curl --location 'http://yourMagentoDomain/graphql' \--header 'Content-Currency: CA' \--header 'Content-Type: application/json' \--header 'Cookie: PHPSESSID=b5147f63fe5014ea523f262946; private_content_version=8d53dfda210a6e9bc46f4e4a01ffd6c5' \--data '{"query":"mutation {\r\n  createEmptyCart\r\n}","variables":{}}'

@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [Authorize.Net Direct Post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server) 샌드박스 계정을 사용하여 주문하면 다음과 같은 오류 메시지가 표시됩니다.
 
->>
+&#x200B;>>
 &quot;서버에서 오류가 발생했습니다. 다시 주문해 보십시오.&quot;
 
 ## 원인 1: 테스트 모드가 활성화되었습니다.

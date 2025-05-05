@@ -46,16 +46,16 @@ B2B 모듈을 설치해야 합니다.
 1. **관련 제품**&#x200B;에서 두 개의 더플 백(ID 7, 13)을 추가합니다.
 1. **Post** 요청 보내기:
 
-<pre>{
-  제품(필터: {sku: {eq: "24-MB01"}, 정렬: {name: ASC}) {
-    항목 {
-      related_products {
+<pre>&lbrace;
+  제품(필터: &lbrace;sku: {eq: "24-MB01"}, 정렬: {name: ASC}) &lbrace;
+    항목 &lbrace;
+      related_products &lbrace;
         uid
         이름
-      }
-    }
-  }
-}</pre>
+      &rbrace;
+    &rbrace;
+  &rbrace;
+&rbrace;</pre>
 
 <u>예상 결과</u>:
 
@@ -65,7 +65,7 @@ B2B 모듈을 설치해야 합니다.
 
 사용자에게 다음 오류가 표시됩니다.
 
-<pre>Magento\CatalogPermissionsGraphQl\Model\Store\StoreProcessor::getStoreId()의 반환 값은 int 유형이어야 합니다. null 반환 {"exception":"[object] (GraphQL\\Error\\Error(code: 0): Magento\\CatalogPermissionsGraphQl\\Model\\Store\\StoreProcessor::getStoreId()의 반환 값은 int 유형이어야 합니다. null 반환 </pre>
+<pre>Magento\CatalogPermissionsGraphQl\Model\Store\StoreProcessor::getStoreId()의 반환 값은 int 유형이어야 합니다. null 반환 &lbrace;"exception":"[object] (GraphQL\\Error\\Error(code: 0): Magento\\CatalogPermissionsGraphQl\\Model\\Store\\StoreProcessor::getStoreId()의 반환 값은 int 유형이어야 합니다. null 반환 </pre>
 
 ## 패치 적용
 

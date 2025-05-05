@@ -130,7 +130,7 @@ Adobe Experience League의 시작 페이지를 사용하여 새로운 지원 사
 
    >[!NOTE]
    >
-   >제품으로 선택된 &quot;**&quot; 클라우드 인프라의 &quot;**[!DNL Commerce]&quot;이(가) 있는 티켓을 제출하는 경우 조직에 여러 프로젝트가 나열되어 있으면 적절한 [!UICONTROL Project ID]을(를) 선택하라는 메시지가 표시됩니다. 원하는 [!UICONTROL Project ID]을(를) 찾을 수 없는 경우 다른 &quot;프로젝트 X&quot;에 대한 지원을 요청하는 메모를 티켓에 추가해야 합니다.<br>Managed Services에서 &quot;**[!DNL Commerce]&quot; 티켓을 제출하려 하고**[!DNL Commerce] 클라우드 인프라에서 **에 있지만** 클라우드 인프라에서 **[!DNL Commerce]을(를) 사용 가능한 제품으로 보지 않는 경우:<br>1.** **[!UICONTROL Case title]**&#x200B;에 문제에 대한 제목을 입력하십시오.<br>2. **[!UICONTROL Case description]**&#x200B;에 문제에 대한 설명을 입력하십시오.<br>3. 이 두 항목을 모두 입력하면 아래의 **[!UICONTROL Cloud Project URL]** 필드가 표시됩니다.
+   >제품으로 선택된 &quot;**&quot; 클라우드 인프라의 &quot;**&#x200B;[!DNL Commerce]&quot;이(가) 있는 티켓을 제출하는 경우 조직에 여러 프로젝트가 나열되어 있으면 적절한 [!UICONTROL Project ID]을(를) 선택하라는 메시지가 표시됩니다. 원하는 [!UICONTROL Project ID]을(를) 찾을 수 없는 경우 다른 &quot;프로젝트 X&quot;에 대한 지원을 요청하는 메모를 티켓에 추가해야 합니다.<br>Managed Services에서 &quot;**[!DNL Commerce]&quot; 티켓을 제출하려 하고**&#x200B;[!DNL Commerce] 클라우드 인프라에서 **에 있지만** 클라우드 인프라에서 **[!DNL Commerce]을(를) 사용 가능한 제품으로 보지 않는 경우:<br>1.**&#x200B; **&#x200B;[!UICONTROL Case title]**&#x200B;에 문제에 대한 제목을 입력하십시오.<br>2. **[!UICONTROL Case description]**&#x200B;에 문제에 대한 설명을 입력하십시오.<br>3. 이 두 항목을 모두 입력하면 아래의 **[!UICONTROL Cloud Project URL]** 필드가 표시됩니다.
 
 
 1. Adobe Experience League는 사례를 해결하는 데 도움이 되는 문서 및 모범 사례를 제안합니다. 여전히 직접 지원이 필요한 경우 사례를 제출하기 전에 몇 가지 추가 정보를 제공해야 합니다.

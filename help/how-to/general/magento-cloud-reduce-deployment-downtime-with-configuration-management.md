@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## 개발자 설명서의 구성 관리
 
-* *Adobe Commerce on cloud infrastructure 안내서*&#x200B;의 **2.1.X**](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) 및 [예](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)에 대한 [구성 관리
-* *Adobe Commerce on cloud infrastructure 안내서*&#x200B;의 **2.2.X**](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) 및 [예](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)에 대한 [구성 관리
+* *Adobe Commerce on cloud infrastructure 안내서*&#x200B;의 **2.1.X**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) 및 [예](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)에 대한 구성 관리
+* *Adobe Commerce on cloud infrastructure 안내서*&#x200B;의 **2.2.X**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) 및 [예](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)에 대한 구성 관리
 * *클라우드 인프라에서 Adobe Commerce 업그레이드* 항목의 [2.0.X 또는 2.1.X에서 업그레이드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html#upgrade-from-older-versions) 섹션
 * *Adobe Commerce on cloud infrastructure 구성 안내서의 [파이프라인 배포](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/overview.html)* - Adobe Commerce on cloud infrastructure의 경우 이 안내서의 지침을 따르지 않아도 됩니다. 그 내용은 참고용이다. Dell은 이미 클라우드 인프라에서 Adobe Commerce을 사용하여 빌드 서버, 통합 환경 등을 제공하고 있습니다.

@@ -44,7 +44,7 @@ ht-degree: 0%
 <u>[!UICONTROL Rollback]이(가) 필요한 경우</u>:
 
 1. [!DNL MariaDB]과(와) 같은 응용 프로그램이 이 계획된 활동의 일부로 업그레이드된 경우 먼저 해당 응용 프로그램을 이전 버전으로 다시 설치하도록 하십시오.
-1. [!UICONTROL Rollback] 로컬 [!UICONTROL Database Dump]을(를) 사용하여 데이터베이스를 [!DNL MariaDB](으)로 다시 가져옵니다.
+1. [!UICONTROL Rollback] 로컬 [!UICONTROL Database Dump]을(를) 사용하여 데이터베이스를 [!DNL MariaDB] (으)로 다시 가져옵니다.
 1. [!DNL Git]을(를) 통해 이전 작업 버전으로 코드를 [!UICONTROL Rollback]합니다.
 
 **의 2단계에서 위에서 설명한 대로 [!UICONTROL Rollback]이(가) 필요한 경우** 섹션에서 [!UICONTROL Snapshots]을(를) 사용하면 로컬 [!UICONTROL Database Dump]과(와) 비교하여 데이터를 검색하는 데 훨씬 더 오래 걸리기 때문에 업그레이드/계획된 활동 [!UICONTROL rollbacks/restores]에는 권장되는 방법이 아닙니다.

@@ -35,7 +35,7 @@ ACSD-58008 패치는 종료 날짜를 *empty*(으)로 편집하면 일정 업데
 
 <u>재현 단계</u>:
 
-1. [!UICONTROL Admin](으)로 로그인합니다.
+1. [!UICONTROL Admin] (으)로 로그인합니다.
 1. **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]**(으)로 이동하여 페이지를 만듭니다.
 1. 만든 페이지를 선택하고 **[!UICONTROL Schedule New Update]**&#x200B;을(를) 클릭합니다. *(페이지의 오른쪽 상단 모서리에서 탐색)*.
 1. 4개의 업데이트를 만듭니다. *(예:* 2 *분 증가)*.

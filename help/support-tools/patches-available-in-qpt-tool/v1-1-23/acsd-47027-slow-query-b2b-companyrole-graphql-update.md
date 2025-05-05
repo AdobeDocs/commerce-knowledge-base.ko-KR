@@ -44,43 +44,43 @@ B2B 모듈을 설치합니다.
 1. 이제 아래 [!DNL GraphQL] 요청을 보냅니다(ID는 [!UICONTROL base64] 인코딩된 역할 ID).
 
    <pre><code>
-   mutation {
+   mutation &lbrace;
    updateCompanyRole(
-      input: {
+      input: &lbrace;
          id: "Mg=="
-         permissions: [
+         permissions: &lbrack;
          "Magento_Company::view"
          "Magento_Company::view_account"
          "Magento_Company::user_management"
          "Magento_Company::roles_view"
-        ]
-      }
-    ) {
-      role {
+        &rbrack;
+      &rbrace;
+    ) &lbrace;
+      role &lbrace;
          id
 
          name
 
-         permissions {
+         permissions &lbrace;
          id
 
          text
 
-         children {
+         children &lbrace;
             id
 
             text
 
-            children {
+            children &lbrace;
                id
 
                text
-             }
-           }
-         }
-       }
-     }
-   }
+             &rbrace;
+           &rbrace;
+         &rbrace;
+       &rbrace;
+     &rbrace;
+   &rbrace;
    </code></pre>
 
 1. 쿼리 로그를 확인합니다.

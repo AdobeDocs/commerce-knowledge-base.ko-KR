@@ -1,5 +1,5 @@
 ---
-title: ''' [!DNL SOAP] 에서  [!DNL RESTful API](으)로 ''[!DNL UPS] 배송 방법 통합 마이그레이션'''
+title: ''' [!DNL SOAP] 에서  [!DNL RESTful API] (으)로 ''[!DNL UPS] 배송 방법 통합 마이그레이션'''
 promoted: true
 description: Adobe Commerce 2.4.4 - 2.4.6-pX용  [!DNL UPS] 배송 방법 통합 마이그레이션을  [!DNL SOAP] 부터 [!DNL RESTful API] 까지 처리하려면 패치를 적용하십시오.
 feature: Shipping/Delivery
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL SOAP]에서 [!DNL RESTful API](으)로 [!DNL UPS] 배송 방법 통합 마이그레이션
+# [!DNL SOAP]에서 [!DNL RESTful API] (으)로 [!DNL UPS] 배송 방법 통합 마이그레이션
 
 >[!NOTE]
 >
@@ -22,13 +22,13 @@ ht-degree: 0%
 >
 >**2023년 10월 10일** 전에 이 문서에서 세 개의 패치를 업로드한 경우, 이제 이 문서에 게시된 이러한 패치 중 하나를 Adobe Commerce/Magento Open Source 2.4.4+/2.4.5+/2.4.6+ 버전에 다시 적용해야 합니다. 그렇지 않으면 **[!DNL Admin configuration]**&#x200B;에서 특정 [!DNL UPS] 배송 방법을 선택하고 구성할 수 없으므로 이러한 패치를 모두 활성화해야 합니다. 이러한 새 패치는 이전에 릴리스된 패치와 호환됩니다.
 
-이 문서에서는 Adobe Commerce 2.4.4 - 2.4.6-pX에 대해 [!DNL SOAP]에서 [!DNL RESTful API](으)로 [!DNL United Parcel Service (UPS)] 배송 방법 통합 마이그레이션 문제를 해결하는 패치를 제공합니다.
+이 문서에서는 Adobe Commerce 2.4.4 - 2.4.6-pX에 대해 [!DNL SOAP]에서 [!DNL RESTful API] (으)로 [!DNL United Parcel Service (UPS)] 배송 방법 통합 마이그레이션 문제를 해결하는 패치를 제공합니다.
 
 [!DNL UPS API] 보안 모델의 최신 업데이트에 따라 [!DNL UPS]은(는) 모든 [!DNL APIs]에 대해 [!DNL OAuth 2.0] 보안 모델을 구현했습니다([[!DNL UPS] 개발자 포털 액세스 키 마이그레이션 안내서](https://developer.ups.com/oauth-developer-guide?loc=en_US&amp;sp_rid=NTA5MzQ1OTE2NjEyS0&amp;sp_mid=72989914)에서 사용 가능한 세부 정보). 이를 통해 전체적인 보안을 강화하여 사기를 줄이고 향상된 [!DNL API] 기능을 제공합니다.
 
-이 변경 사항은 Adobe Commerce의 현재 [!DNL UPS] 전달 방법 통합 구현에 영향을 미치며, 현재 구현을 수정하고 [!DNL OAuth 2.0] 인증 프로토콜을 지원할 수 있도록 [!DNL SOAP API]에서 [!DNL RESTful API](으)로 마이그레이션해야 합니다.
+이 변경 사항은 Adobe Commerce의 현재 [!DNL UPS] 전달 방법 통합 구현에 영향을 미치며, 현재 구현을 수정하고 [!DNL OAuth 2.0] 인증 프로토콜을 지원할 수 있도록 [!DNL SOAP API]에서 [!DNL RESTful API] (으)로 마이그레이션해야 합니다.
 
-**2024년 6월부터**&#x200B;에서는 Adobe Commerce 판매자가 현재 [!DNL UPS] 통합과 거래할 수 없으므로 Adobe Commerce 2.4.4+/2.4.5+/2.4.6+ 판매자가 최신 [!DNL UPS REST APIs](으)로 마이그레이션할 수 있도록 하는 이 핫픽스를 출시합니다.
+**2024년 6월부터**&#x200B;에서는 Adobe Commerce 판매자가 현재 [!DNL UPS] 통합과 거래할 수 없으므로 Adobe Commerce 2.4.4+/2.4.5+/2.4.6+ 판매자가 최신 [!DNL UPS REST APIs] (으)로 마이그레이션할 수 있도록 하는 이 핫픽스를 출시합니다.
 
 이 문제는 Adobe Commerce/Magento Open Source 버전 2.4.7에서 수정되며, 이 수정 사항은 2023년 10월 2.4.7-beta2 릴리스에도 포함될 예정입니다.
 
@@ -45,7 +45,7 @@ Adobe Commerce on cloud infrastructure 및 on-premise 및 Magento Open Source:
 
 ## 원인
 
-[!DNL UPS]이(가)  [!DNL API]](https://developer.ups.com/oauth-developer-guide?loc=en_US&amp;sp_rid=NTA5MzQ1OTE2NjEyS0&amp;sp_mid=72989914)에 대한 [보안 업데이트를 릴리스했습니다.
+[!DNL UPS]이(가)  [!DNL API][&#128279;](https://developer.ups.com/oauth-developer-guide?loc=en_US&amp;sp_rid=NTA5MzQ1OTE2NjEyS0&amp;sp_mid=72989914)에 대한 보안 업데이트를 릴리스했습니다.
 
 유럽 연합이 있는 경우(다른 원본에서 동일한 문제가 발생할 수 있음) [!DNL UPS REST] 요청에 오류가 발생합니다.
 &quot;*선적은 측정 단위로 KGS/IN 또는 LBS/CM 또는 OZS/CM을 가질 수 없습니다.*&quot;

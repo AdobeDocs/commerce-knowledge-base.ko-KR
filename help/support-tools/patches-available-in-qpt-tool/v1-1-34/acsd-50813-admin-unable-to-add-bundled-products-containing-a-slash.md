@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-50813: 관리자가 슬래시가 포함된 번들 제품을 추가할 수 없음'
-description: ACSD-50813 패치를 적용하여 관리자가 *SKU별 제품 추가* 기능이 있는 SKU의 슬래시 표시(`/`)가 포함된 번들 제품을 관리자 주문에 추가할 수 없는 Adobe Commerce 성능 문제를 해결합니다.
+description: ACSD-50813 패치를 적용하여 관리자가 *SKU별 제품 추가* 기능이 있는 SKU의 슬래시 표시(&grave;/&grave;)가 포함된 번들 제품을 관리자 주문에 추가할 수 없는 Adobe Commerce 성능 문제를 해결합니다.
 exl-id: 80dfe877-9dfd-44a9-9bf0-37e929642fc0
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt

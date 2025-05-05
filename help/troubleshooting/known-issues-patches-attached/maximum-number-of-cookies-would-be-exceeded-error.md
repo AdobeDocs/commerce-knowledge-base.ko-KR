@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)을(를) 사용하여 MDVA-12304 패치가 적용됨
 * [APSB25-08 격리 보안 패치](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
-*  [!DNL Commerce] 1.1.4](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)용 [클라우드 패치
+* [!DNL Commerce] 1.1.4[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)용 클라우드 패치
 
 ## 문제
 

@@ -37,7 +37,8 @@ ht-degree: 0%
 
 1. Adobe Commerce 관리자 > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Minimum Order Amount]**(으)로 이동하여 다음을 설정합니다.
    * [!UICONTROL Enable]: *[!UICONTROL Yes]*
-   * 
+   * &#x200B;
+
      [!UICONTROL Minimum Amount]: *2*
 
 1. [!UICONTROL Cart Price Rule] 만들기
@@ -45,7 +46,8 @@ ht-degree: 0%
    * [!UICONTROL Conditions]: *[!UICONTROL Keep empty]*
    * [!UICONTROL Actions]:
       * [!UICONTROL Apply]: *[!UICONTROL Percent of product price discount]*
-      * 
+      * &#x200B;
+
         [!UICONTROL Discount Amount]: *92*
       * [!UICONTROL Apply to Shipping Amount]: *[!UICONTROL Yes]*
 1. 가격이 $25인 제품을 만듭니다.

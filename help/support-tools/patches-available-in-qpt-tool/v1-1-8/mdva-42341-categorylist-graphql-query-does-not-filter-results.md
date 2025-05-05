@@ -42,19 +42,19 @@ MDVA-42341 패치는 요청에 스토어 헤더가 있는 경우 &quot;categoryL
 
 <pre>
 <code class="language-graphql">
-{
-  categoryList(filters: {name: {match: "category1"}}) {
+&lbrace;
+  categoryList(filters: {name: {match: "category1"}}) &lbrace;
     uid
     level
     name
-    breadcrumbs {
+    breadcrumbs &lbrace;
       category_uid
       category_name
       category_level
       category_url_key
-    }
-  }
-}
+    &rbrace;
+  &rbrace;
+&rbrace;
 </code>
 </pre>
 

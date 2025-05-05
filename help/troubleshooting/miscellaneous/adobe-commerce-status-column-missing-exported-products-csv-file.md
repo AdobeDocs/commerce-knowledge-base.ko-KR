@@ -32,7 +32,7 @@ Adobe Commerce(모든 배포 메서드) 모든 [지원되는 버전](https://www
 
 <u>예상 결과:</u>
 
-방금 내보낸 CSV 파일에 [!UICONTROL status](으)로 레이블이 지정된 열이 있습니다.
+방금 내보낸 CSV 파일에 [!UICONTROL status] (으)로 레이블이 지정된 열이 있습니다.
 
 <u>실제 결과:</u>
 

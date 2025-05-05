@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-50367: 고객 주소 내보내기가 다중 선택 특성과 함께 작동하지 않음'
-description: 값이 없는 다중 선택 **`고객 주소`** 속성이 생성될 때 고객 주소 내보내기가 작동하지 않는 Adobe Commerce 문제를 해결하려면 ACSD-50367 패치를 적용합니다.
+description: 값이 없는 다중 선택 **&grave;고객 주소&grave;** 속성이 생성될 때 고객 주소 내보내기가 작동하지 않는 Adobe Commerce 문제를 해결하려면 ACSD-50367 패치를 적용합니다.
 exl-id: 688831d4-b49e-48fa-b4db-1328cda09a2b
 feature: Admin Workspace, Attributes, Data Import/Export, Shipping/Delivery
 role: Admin

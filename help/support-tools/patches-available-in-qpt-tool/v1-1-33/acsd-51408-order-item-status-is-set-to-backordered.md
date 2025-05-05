@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-51408: 주문 항목 상태가 [!UICONTROL backordered](으)로 잘못 설정되었습니다.'
-description: ACSD-51408 패치를 적용하여 주문 항목 상태가 [!UICONTROL backordered](으)로 잘못 설정된 Adobe Commerce 문제를 해결합니다.
+title: 'ACSD-51408: 주문 항목 상태가 [!UICONTROL backordered] (으)로 잘못 설정되었습니다.'
+description: ACSD-51408 패치를 적용하여 주문 항목 상태가 [!UICONTROL backordered] (으)로 잘못 설정된 Adobe Commerce 문제를 해결합니다.
 feature: B2B, Orders
 role: Admin
 exl-id: 0355beca-4612-438f-8f91-be42d8d637e9
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ACSD-51408: 주문 항목 상태가 *[!UICONTROL backordered]*(으)로 잘못 설정되었습니다.
 
-ACSD-51408 패치는 주문 항목 상태가 [!UICONTROL backordered](으)로 잘못 설정된 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.33이 설치된 경우에 사용할 수 있습니다. 패치 ID는 ACSD-51408입니다. 이 문제는 Adobe Commerce 2.4.7에서 수정됩니다.
+ACSD-51408 패치는 주문 항목 상태가 [!UICONTROL backordered] (으)로 잘못 설정된 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.33이 설치된 경우에 사용할 수 있습니다. 패치 ID는 ACSD-51408입니다. 이 문제는 Adobe Commerce 2.4.7에서 수정됩니다.
 
 ## 영향을 받는 제품 및 버전
 

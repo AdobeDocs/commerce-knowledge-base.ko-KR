@@ -36,7 +36,7 @@ ACSD-53148 패치는 구성 가능한 동일한 제품을 장바구니에 추가
 <u>재현 단계</u>:
 
 1. SKU *Test*&#x200B;로 구성 가능한 제품을 만들고 SKU *Test-A*&#x200B;로 간단한 제품을 만듭니다.
-1. GraphQL을 통해 새 빈 장바구니를 만듭니다(고유한 [!DNL URL](으)로 위치 변경).
+1. GraphQL을 통해 새 빈 장바구니를 만듭니다(고유한 [!DNL URL] (으)로 위치 변경).
 
    ```GraphQL
    curl --location 'http://mag.local/graphql' \

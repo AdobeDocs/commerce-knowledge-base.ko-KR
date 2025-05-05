@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# ACSD-47444: PHP 7.4에서 알려진 제품에 대해 존재하지 않는 특정 범주 경로에 액세스할 때 _[!UICONTROL Trying to access array offset on value of type bool]_오류가 발생합니다.
+# ACSD-47444: PHP 7.4에서 알려진 제품에 대해 존재하지 않는 특정 범주 경로에 액세스할 때 _[!UICONTROL Trying to access array offset on value of type bool]_&#x200B;오류가 발생합니다.
 
-ACSD-47444 패치는 PHP 7.4에서 알려진 제품에 대해 존재하지 않는 특정 범주 경로에 액세스할 때 _[!UICONTROL Trying to access array offset on value of type bool]_오류가 표시되는 문제를 해결합니다. 이 패치는 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.22가 설치되어 있을 때 사용할 수 있습니다.
+ACSD-47444 패치는 PHP 7.4에서 알려진 제품에 대해 존재하지 않는 특정 범주 경로에 액세스할 때 _[!UICONTROL Trying to access array offset on value of type bool]_&#x200B;오류가 표시되는 문제를 해결합니다. 이 패치는 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.22가 설치되어 있을 때 사용할 수 있습니다.
 
 ## 영향을 받는 제품 및 버전
 

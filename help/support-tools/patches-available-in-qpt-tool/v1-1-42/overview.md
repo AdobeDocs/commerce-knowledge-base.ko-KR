@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 개요: [!DNL Quality Patches Tool](QPT) v1.1.42
+# 개요: [!DNL Quality Patches Tool] (QPT) v1.1.42
 
-이 하위 섹션에서는 [!DNL Quality Patches Tool](QPT) v1.1.42에서 사용할 수 있는 패치로 해결된 문제에 대한 자세한 설명을 제공합니다.
+이 하위 섹션에서는 [!DNL Quality Patches Tool] (QPT) v1.1.42에서 사용할 수 있는 패치로 해결된 문제에 대한 자세한 설명을 제공합니다.
 
 QPT v1.1.42에는 다음 패치가 포함됩니다.
 

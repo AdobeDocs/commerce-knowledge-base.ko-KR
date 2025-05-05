@@ -57,7 +57,7 @@ ht-degree: 0%
 
 1. 기본 [!DNL scope]에서 **[!UICONTROL Shared Catalog]**&#x200B;을(를) 사용하도록 설정합니다.
 1. [!DNL GraphQL] 요청에 더 이상 두 번째 웹 사이트에 대한 제품이 표시되지 않습니다. 이는 올바른 결과입니다.
-1. 두 번째 웹 사이트의 [!DNL scope](으)로 이동하여 **[!UICONTROL Company]**&#x200B;을(를) 비활성화합니다.
+1. 두 번째 웹 사이트의 [!DNL scope] (으)로 이동하여 **[!UICONTROL Company]**&#x200B;을(를) 비활성화합니다.
 
 <u>예상 결과</u>:
 

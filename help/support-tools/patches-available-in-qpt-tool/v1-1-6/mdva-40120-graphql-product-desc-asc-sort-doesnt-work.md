@@ -40,30 +40,30 @@ MDVA-40120 패치는 DESC/ASC별 GraphQL 정렬이 동일한 관련성 또는 �
 1. 다음 GraphQL 쿼리를 실행합니다.
    <pre>
     <code class="language-graphql">
-    {
-      products(filter: {category_id: {eq: "{{cat_id}}"}}, sort: {relevance: ASC}) {
+    &lbrace;
+      products(filter: {category_id: {eq: "{{cat_id}}"}}, sort: {relevance: ASC}) &lbrace;
         total_count
-        items {
+        items &lbrace;
           name
           sku
-        }
-      }
-    }
+        &rbrace;
+      &rbrace;
+    &rbrace;
     </code>
     </pre>
 1. 응답을 확인합니다.
 1. GraphQL 쿼리에서 정렬 순서를 **ASC**&#x200B;에서 **DESC**(으)로 변경합니다.
    <pre>
     <code class="language-graphql">
-    {
-      products(filter: {category_id: {eq: "{{cat_id}}"}}, sort: {relevance: DESC}) {
+    &lbrace;
+      products(filter: {category_id: {eq: "{{cat_id}}"}}, sort: {relevance: DESC}) &lbrace;
         total_count
-        items {
+        items &lbrace;
           name
           sku
-        }
-      }
-    }
+        &rbrace;
+      &rbrace;
+    &rbrace;
     </code>
     </pre>
 1. 응답을 확인합니다.

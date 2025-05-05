@@ -1,6 +1,6 @@
 ---
 title: 클라우드 인프라에서 Adobe Commerce의 관리 URL 변경
-description: 기본적으로 [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin) URL은 *&lt;domain\_name&gt;/admin*으로 설정됩니다. 이 문서에서는 URL을 변경하는 방법을 보여 줍니다.
+description: 기본적으로 [Commerce Admin](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin) URL은 *&lt;domain_name&gt;/admin*으로 설정됩니다. 이 문서에서는 URL을 변경하는 방법을 보여 줍니다.
 exl-id: 6236370c-e0a2-45a6-a38f-12e219c540af
 feature: Admin Workspace, Cloud
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733

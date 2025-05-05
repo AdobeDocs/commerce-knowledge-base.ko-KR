@@ -35,7 +35,7 @@ ACSD-51431 패치는 변경 로그에 항목이 없어도 인덱서 상태가 *[
 
 <u>재현 단계</u>:
 
-1. **[!UICONTROL indexers]**&#x200B;을(를) [!UICONTROL Update on Schedule](으)로 설정합니다.
+1. **[!UICONTROL indexers]**&#x200B;을(를) [!UICONTROL Update on Schedule] (으)로 설정합니다.
 1. cron 작업이 매 분마다 실행되도록 구성합니다.
 1. 다른 제품에 대한 변경 사항을 동시에 저장합니다.
 1. 몇 분 후에 `bin/magento indexer:status`을(를) 실행합니다.

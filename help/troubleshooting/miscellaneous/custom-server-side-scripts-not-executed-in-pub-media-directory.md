@@ -1,6 +1,6 @@
 ---
 title: 사용자 정의 서버측 스크립트가 pub 미디어 디렉토리에서 실행되지 않음
-description: 이 문서에서는 사용자 지정 서버측 스크립트가 `.에 배치된 경우 실행되지 않는 경우에 대한 수정 사항을 제공합니다.클라우드 인프라에 있는 Adobe Commerce 애플리케이션의 /pub/media/` 디렉터리 ` 이후 예상되는 보안 제한입니다./pub/media/` 디렉터리에 쓸 수 있습니다. 스크립트를 실행 가능한 디렉토리로 만들려면 ` 등의 쓰기 불가능한 디렉토리에 스크립트를 배치합니다./app/code/` 또는 `/pub/`.
+description: 이 문서에서는 사용자 지정 서버측 스크립트가 &grave;.에 배치된 경우 실행되지 않는 경우에 대한 수정 사항을 제공합니다.클라우드 인프라에 있는 Adobe Commerce 애플리케이션의 /pub/media/&grave; 디렉터리 &grave; 이후 예상되는 보안 제한입니다./pub/media/&grave; 디렉터리에 쓸 수 있습니다. 스크립트를 실행 가능한 디렉토리로 만들려면 &grave; 등의 쓰기 불가능한 디렉토리에 스크립트를 배치합니다./app/code/&grave; 또는 &grave;/pub/&grave;.
 exl-id: fcad8a5d-47d6-4729-93a4-2410d7710d69
 feature: Media
 role: Developer

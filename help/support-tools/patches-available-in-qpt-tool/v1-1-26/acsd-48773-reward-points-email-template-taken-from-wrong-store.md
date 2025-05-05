@@ -41,7 +41,7 @@ ACSD-48773 패치는 보상 지점 이메일 템플릿을 잘못된 저장소에
 **[!DNL default website scope]**(으)로 전환하고 **[!UICONTROL Customer Support Sender Email]** 주소를 설정합니다(예: *support_base@example.com*).
 **[!DNL second website scope]**(으)로 전환하고 **[!UICONTROL Customer Support Sender Email]** 주소를 다른 값으로 설정합니다(예: *support_second@example.com*).
 1. **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Customer Configuration]** > **[!UICONTROL Account Sharing Options]** > **[!UICONTROL Share Customer Accounts]**(으)로 이동한 다음 **[!UICONTROL Share Customer Accounts]** = *웹 사이트당*&#x200B;을(를) 설정합니다.
-1. **[!UICONTROL Reward Points]**에서 다음을 설정하십시오.
+1. **[!UICONTROL Reward Points]**&#x200B;에서 다음을 설정하십시오.
    **[!UICONTROL Enable Reward Points Functionality]** = *예*
    **[!UICONTROL Enable Reward Points Functionality on Storefront]** = *예*
    **[!UICONTROL Actions for Acquiring Reward Points by Customers]** > **[!UICONTROL Review Submission]** 및 설정 **[!UICONTROL Review Submission]** = *150*

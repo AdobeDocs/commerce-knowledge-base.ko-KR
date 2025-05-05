@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Commerce 2.4.6-p8의  [!DNL GraphQL] `placeOrder` [!DNL API] 에 대한 이전 버전과 호환되지 않는 변경 내용'
+title: 'Adobe Commerce 2.4.6-p8의  [!DNL GraphQL] &grave;placeOrder&grave; [!DNL API] 에 대한 이전 버전과 호환되지 않는 변경 내용'
 promoted: true
 description: 이 문서에서는 이전 2.4.6 패치 버전에 표시된 대로 'placeOrder' [!DNL GraphQL API] 가 예상 오류 응답을 반환하지 않는 알려진 Adobe Commerce 버전 2.4.6-p8 Cloud 및 온-프레미스 문제에 대한 패치를 제공합니다. 이로 인해 PWA 상점 또는 다른  [!DNL GraphQL API] 기반 상점을 사용하는 상인의 체크아웃 환경이 손상될 수 있습니다.
 feature: Checkout, REST, GraphQL

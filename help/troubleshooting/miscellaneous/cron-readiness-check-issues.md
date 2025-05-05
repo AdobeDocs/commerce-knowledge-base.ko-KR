@@ -20,7 +20,7 @@ ht-degree: 0%
   ![upgr-tshoot-no-cron.png](assets/upgr-tshoot-no-cron.png)
 * Commerce 관리자에 다음 오류가 표시됩니다.
   ![compman-cron-not-running.png](assets/compman-cron-not-running.png)
-오류를 확인하려면 다음과 같이 창 상단의 **시스템 메시지**를 클릭해야 할 수 있습니다.
+오류를 확인하려면 다음과 같이 창 상단의 **시스템 메시지**&#x200B;를 클릭해야 할 수 있습니다.
   ![compman_sys-messages.png](assets/compman_sys-messages.png)
 
 ## 기존 crontab 확인 {#check-your-existing-crontab}

@@ -41,15 +41,15 @@ Adobe Commerce(모든 배포 방법) 2.3.5 - 2.3.7-p1 및 2.4.1 - 2.4.2-p1
 
    <pre>
     <code class="language-graphql">
-    mutation {
+    mutation &lbrace;
         generateCustomerToken(
             email: "customer email"
             password: "customer password"
         )
-        {
+        &lbrace;
             token
-        }
-    }
+        &rbrace;
+    &rbrace;
     </code>
     </pre>
 
@@ -57,9 +57,9 @@ Adobe Commerce(모든 배포 방법) 2.3.5 - 2.3.7-p1 및 2.4.1 - 2.4.2-p1
 
    <pre>
     <code class="language-graphql">
-    mutation{
+    mutation&lbrace;
      createEmptyCart
-    }
+    &rbrace;
     </code>
     </pre>
 

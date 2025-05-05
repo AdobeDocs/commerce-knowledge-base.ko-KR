@@ -36,7 +36,7 @@ ACSD-48813 패치는 특성의 검색 가중치에 따라 검색 결과가 표�
 <u>재현 단계</u>:
 
 1. 샘플 데이터를 사용하여 Adobe Commerce을 설치합니다.
-1. 검색 엔진을 [!DNL Elasticsearch](으)로 설정합니다.
+1. 검색 엔진을 [!DNL Elasticsearch] (으)로 설정합니다.
 1. 관리자로 로그인합니다.
 1. **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Products]**(으)로 이동합니다.
 1. *name* 특성을 엽니다.

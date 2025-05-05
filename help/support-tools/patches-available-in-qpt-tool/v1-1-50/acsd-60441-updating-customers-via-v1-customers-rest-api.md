@@ -57,10 +57,10 @@ ACSD-60441 패치는 백엔드에서 생성된 통합 액세스 토큰을 사용
 다음 오류가 발생합니다.
 
     &quot;json
-    {
+    &lbrace;
     &quot;message&quot;: &quot;연결된 웹 사이트에 동일한 이메일 주소를 가진 고객이 이미 있습니다.&quot;,
     &quot;trace&quot;: ...
-    }
+    &rbrace;
     &quot;
 
 ## 패치 적용

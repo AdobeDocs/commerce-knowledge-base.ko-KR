@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Origin Cloaking의 이점은 무엇입니까?
 
-원본 클로킹은 트래픽이 [!DNL Fastly Web Application Firewall](WAF)을 건너뛰고 엄격하게 정의된 흐름(**[!DNL Fastly]** > **로드 밸런서** > **인스턴스**)을 통해 라우팅되는 것을 방지하기 위해 설계되었습니다. 이 구현에서는 모든 트래픽이 [!DNL Fastly] WAF와 부하 분산 장치에 내장된 내부 WAF를 통과하도록 보장됩니다.
+원본 클로킹은 트래픽이 [!DNL Fastly Web Application Firewall] (WAF)을 건너뛰고 엄격하게 정의된 흐름(**[!DNL Fastly]** > **로드 밸런서** > **인스턴스**)을 통해 라우팅되는 것을 방지하기 위해 설계되었습니다. 이 구현에서는 모든 트래픽이 [!DNL Fastly] WAF와 부하 분산 장치에 내장된 내부 WAF를 통과하도록 보장됩니다.
 
 ## 이 원본 차단 활성화가 발생하는 이유는 무엇입니까?
 

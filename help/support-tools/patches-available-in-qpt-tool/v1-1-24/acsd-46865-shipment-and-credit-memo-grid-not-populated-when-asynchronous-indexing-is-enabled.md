@@ -41,7 +41,7 @@ ACSD-46865 패치는 [!UICONTROL asynchronous indexing]을(를) 사용할 때 [!
 4. 간단한 제품에 대해 새로운 손님 주문을 합니다.
 5. 크론 실행
 6. **[!UICONTROL Sales]** > **[!UICONTROL Orders]**(으)로 이동하여 [!UICONTROL Commerce] 관리자의 주문을 열고 인보이스와 대변 메모를 생성합니다.
-7. 주문을 [!UICONTROL Archive](으)로 이동합니다.
+7. 주문을 [!UICONTROL Archive] (으)로 이동합니다.
 8. 간단한 제품에 대해 다른 주문을 만듭니다.
 9. 크론 실행
 10. 신규 주문으로 이동하여 신규 선적, 송장 및 대변 메모를 생성합니다.

@@ -1,6 +1,6 @@
 ---
-title: 'ACSD 49843: [!UICONTROL Payment Action] = [!UICONTROL Intent Sale](으)로 자동 송장 발행 후 제품 다운로드 링크를 사용할 수 없음'
-description: '[!UICONTROL Payment Action]이(가) [!UICONTROL Intent Sale](으)로 설정되어 있을 때 온라인 결제 방법으로 주문 항목에 자동 송장을 보낸 후 제품 다운로드 링크를 사용할 수 없는 Adobe Commerce 문제를 해결하려면 ACSD-49843 패치를 적용합니다.'
+title: 'ACSD 49843: [!UICONTROL Payment Action] = [!UICONTROL Intent Sale] (으)로 자동 송장 발행 후 제품 다운로드 링크를 사용할 수 없음'
+description: '[!UICONTROL Payment Action]이(가) [!UICONTROL Intent Sale] (으)로 설정되어 있을 때 온라인 결제 방법으로 주문 항목에 자동 송장을 보낸 후 제품 다운로드 링크를 사용할 수 없는 Adobe Commerce 문제를 해결하려면 ACSD-49843 패치를 적용합니다.'
 feature: Catalog Management, Configuration, Invoices, Orders, Storefront
 role: Admin, Developer
 exl-id: 4bfa3827-a2b1-4168-a39c-99c617ee4795
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# ACSD-49843: [!UICONTROL Payment Action] = [!UICONTROL Intent Sale](으)로 자동 송장 발행 후 제품 다운로드 링크를 사용할 수 없음
+# ACSD-49843: [!UICONTROL Payment Action] = [!UICONTROL Intent Sale] (으)로 자동 송장 발행 후 제품 다운로드 링크를 사용할 수 없음
 
-ACSD-49843 패치는 [!UICONTROL Payment Action]이(가) [!UICONTROL Intent Sale](으)로 설정되어 있을 때 온라인 결제 방법으로 주문 항목에 자동 송장을 보낸 후 제품 다운로드 링크를 사용할 수 없는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.37이 설치되어 있을 때 사용할 수 있습니다. 패치 ID는 ACSD-49843입니다. 이 문제는 Adobe Commerce 2.4.7에서 수정됩니다.
+ACSD-49843 패치는 [!UICONTROL Payment Action]이(가) [!UICONTROL Intent Sale] (으)로 설정되어 있을 때 온라인 결제 방법으로 주문 항목에 자동 송장을 보낸 후 제품 다운로드 링크를 사용할 수 없는 문제를 해결합니다. 이 패치는 [!DNL Quality Patches Tool (QPT)] 1.1.37이 설치되어 있을 때 사용할 수 있습니다. 패치 ID는 ACSD-49843입니다. 이 문제는 Adobe Commerce 2.4.7에서 수정됩니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -31,7 +31,7 @@ ACSD-49843 패치는 [!UICONTROL Payment Action]이(가) [!UICONTROL Intent Sale
 
 ## 문제
 
-[!UICONTROL Payment Action]이(가) [!UICONTROL Intent Sale](으)로 설정되어 있을 때 온라인 결제 방법으로 주문 항목에 자동 송장을 발행하면 제품 다운로드 링크를 사용할 수 없습니다.
+[!UICONTROL Payment Action]이(가) [!UICONTROL Intent Sale] (으)로 설정되어 있을 때 온라인 결제 방법으로 주문 항목에 자동 송장을 발행하면 제품 다운로드 링크를 사용할 수 없습니다.
 
 <u>재현 단계</u>:
 

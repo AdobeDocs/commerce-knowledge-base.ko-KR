@@ -131,7 +131,7 @@ git 재설정을 사용하면 코드를 이전의 원하는 상태로 되돌립�
 
 [3. Adobe Commerce 소프트웨어를 제거합니다.](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
 
-4&amp;period; 강제 재배포.
+4&period; 강제 재배포.
 
 이 단계를 수행하면 시나리오 1과 동일한 결과가 나옵니다.
 

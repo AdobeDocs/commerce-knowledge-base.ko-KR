@@ -25,9 +25,9 @@ ht-degree: 0%
 
 자세한 내용은 [[!DNL Google Maps Platform: Maps JavaScript API]](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions)을(를) 참조하세요.
 
-Adobe Commerce은 3.54+의 최신 [!DNL  Google Maps] 버전과 호환되지 않습니다.
+Adobe Commerce은 3.54+의 최신 [!DNL &#x200B; Google Maps] 버전과 호환되지 않습니다.
 
-호환되지 않는 이유는 레거시 `prototype.js script`이(가) `lib/web/legacy-build.min.js`을(를) 통해 로드되어 네이티브 Array.from 함수를 재정의했기 때문입니다. 재정의하면 [!DNL  Google Maps] API와 직접적으로 충돌합니다.
+호환되지 않는 이유는 레거시 `prototype.js script`이(가) `lib/web/legacy-build.min.js`을(를) 통해 로드되어 네이티브 Array.from 함수를 재정의했기 때문입니다. 재정의하면 [!DNL &#x200B; Google Maps] API와 직접적으로 충돌합니다.
 
 [[!DNL Google Maps: JS Best Practices]](https://developers.google.com/maps/documentation/javascript/best-practices)을(를) 참조하세요.
 

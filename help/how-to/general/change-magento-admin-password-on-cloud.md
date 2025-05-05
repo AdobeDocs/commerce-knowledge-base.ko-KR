@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ### 발신 이메일 활성화
 
-**암호를 잊으셨습니까** 양식을 사용하기 전에 [클라우드 콘솔을 사용하여 [발신 전자 메일을 사용하도록 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html)하십시오](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
+**암호를 잊으셨습니까** 양식을 사용하기 전에 [&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)클라우드 콘솔을 사용하여 [발신 전자 메일을 사용하도록 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html)하십시오.
 
 ### 정크 메일 폴더 확인
 

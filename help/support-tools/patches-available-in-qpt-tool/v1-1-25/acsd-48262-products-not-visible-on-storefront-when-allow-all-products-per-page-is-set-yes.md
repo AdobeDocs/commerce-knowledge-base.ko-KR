@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-48262: [!UICONTROL Allow All Products Per Page]이(가) [!UICONTROL Yes](으)로 설정된 경우 제품이 상점 앞에 표시되지 않음'
-description: ACSD-48262 패치를 적용하여 [!UICONTROL Allow All Products Per Page] 설정이 [!UICONTROL Yes](으)로 설정되어 있을 때 제품이 상점 앞에 표시되지 않는 Adobe Commerce 문제를 해결합니다.
+title: 'ACSD-48262: [!UICONTROL Allow All Products Per Page]이(가) [!UICONTROL Yes] (으)로 설정된 경우 제품이 상점 앞에 표시되지 않음'
+description: ACSD-48262 패치를 적용하여 [!UICONTROL Allow All Products Per Page] 설정이 [!UICONTROL Yes] (으)로 설정되어 있을 때 제품이 상점 앞에 표시되지 않는 Adobe Commerce 문제를 해결합니다.
 exl-id: 327cad03-441d-4adb-8a10-802f06d3fcd1
 feature: Admin Workspace, Cache, Categories, Orders, Products, Storefront
 role: Admin

@@ -73,7 +73,7 @@ Adobe은 클라우드 인프라의 Adobe Commerce Pro 계획 아키텍처 및 �
 
 ## 업사이징 내역 보기
 
-**CSM(Customer Success Manager)**에 정보를 요청하여 요청된 크기 조정 내역을 볼 수 있습니다.
+**CSM(Customer Success Manager)**&#x200B;에 정보를 요청하여 요청된 크기 조정 내역을 볼 수 있습니다.
 각 크기 조정 요청에 대해 다음 정보를 사용할 수 있습니다.
 
 * **크기 시작 날짜**: upsize 요청 날짜.

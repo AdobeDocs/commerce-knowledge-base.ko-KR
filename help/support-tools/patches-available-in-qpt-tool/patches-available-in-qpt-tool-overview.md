@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # QPT 도구 개요에서 사용할 수 있는 패치
 
-이 문서에서는 [!DNL Quality Patches Tool](QPT)에 대한 개요와 사용 방법을 설명하는 리소스 링크를 제공합니다.
+이 문서에서는 [!DNL Quality Patches Tool] (QPT)에 대한 개요와 사용 방법을 설명하는 리소스 링크를 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 

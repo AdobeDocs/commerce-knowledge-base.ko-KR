@@ -1,5 +1,5 @@
 ---
-title: 검색 엔진이  [!DNL Opensearch](으)로 설정된 경우  [!DNL Elasticsearch7] (으)로 폴백
+title: 검색 엔진이  [!DNL Opensearch] (으)로 설정된 경우  [!DNL Elasticsearch7] (으)로 폴백
 description: 이 문서에서는 *Adobe Commerce에서  [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch] 로 폴백 시 발생하는 문제에 대한 해결 방법을 제공합니다.
 feature: Search
 role: Developer
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 검색 엔진이 [!DNL Opensearch](으)로 설정된 경우 [!DNL Elasticsearch7](으)로 폴백
+# 검색 엔진이 [!DNL Opensearch] (으)로 설정된 경우 [!DNL Elasticsearch7] (으)로 폴백
 
-이 문서에서는 검색 엔진이 Adobe Commerce에서 [!DNL OpenSearch](으)로 설정되어 있을 때 *다시[!DNL Elasticsearch7]* 오류가 발생하는 문제에 대한 해결 방법을 제공합니다.
+이 문서에서는 검색 엔진이 Adobe Commerce에서 [!DNL OpenSearch] (으)로 설정되어 있을 때 *다시[!DNL Elasticsearch7]* 오류가 발생하는 문제에 대한 해결 방법을 제공합니다.
 
 ## 영향을 받는 버전
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 사용 중인 버전에서 [!DNL OpenSearch]을(를) 지원하지만 응용 프로그램에서 [!DNL Elasticsearch7]을(를) 검색 엔진으로만 인식/수락합니다.
 
 Adobe Commerce 버전 2.4.6부터 [!DNL OpenSearch]을(를) 검색 엔진으로 선택할 수 있도록 응용 프로그램이 업데이트되었습니다.
-클라우드가 아닌 환경에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**(으)로 이동하면 아래 **솔루션**에 표시된 대로 이 옵션을 변경할 수 있습니다.
+클라우드가 아닌 환경에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**(으)로 이동하면 아래 **솔루션**&#x200B;에 표시된 대로 이 옵션을 변경할 수 있습니다.
 (참고: 클라우드 환경에서는 검색 엔진이 `app/etc/env.php` 파일에서 잠겨 있으므로 이 필드를 변경할 수 없습니다.)
 
 ## 솔루션

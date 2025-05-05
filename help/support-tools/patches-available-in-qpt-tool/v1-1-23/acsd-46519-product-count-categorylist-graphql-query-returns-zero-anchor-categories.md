@@ -33,37 +33,37 @@ ACSD-46519 패치는 [!UICONTROL categoryList] [!DNL GraphQL] 쿼리의 [!UICONT
 
 <u>재현 단계</u>:
 
-1. 다음 [!DNL GraphQL] 요청을 사용하여 [!UICONTROL product_count](으)로 범주 계층 구조를 가져옵니다.
+1. 다음 [!DNL GraphQL] 요청을 사용하여 [!UICONTROL product_count] (으)로 범주 계층 구조를 가져옵니다.
 
 <pre><code>
-{
-  categoryList(filters: { ids: { eq: "2" } }) {
+&lbrace;
+  categoryList(filters: { ids: { eq: "2" } }) &lbrace;
     id
     name
     product_count
     level
-    children {
+    children &lbrace;
       name
       product_count
       level
-      children {
+      children &lbrace;
         name
         product_count
         level
-        children {
+        children &lbrace;
           name
           product_count
           level
-          children {
+          children &lbrace;
             name
             product_count
             level
-          }
-        }
-      }
-    }
-  }
-}
+          &rbrace;
+        &rbrace;
+      &rbrace;
+    &rbrace;
+  &rbrace;
+&rbrace;
 </code></pre>
 
 <u>예상 결과</u>:
@@ -75,46 +75,46 @@ ACSD-46519 패치는 [!UICONTROL categoryList] [!DNL GraphQL] 쿼리의 [!UICONT
 상위 카테고리가 고정된 카테고리인 경우 제품은 카테고리 레벨 2 및 아래쪽에 대해 0으로 표시됩니다.
 
 <pre><code>
-{
-    "data": {
-        "categoryList": [
-            {
+&lbrace;
+    "data": &lbrace;
+        "categoryList": &lbrack;
+            &lbrace;
                 "id": 2,
                 "name": "Default Category",
                 "product_count": 186,
                 "level": 1,
-                "children": [
-                    {
+                "children": &lbrack;
+                    &lbrace;
                         "name": "What's New",
                         "product_count": 0,
                         "level": 2,
                         "children": []
-                    },
-                    {
+                    &rbrace;,
+                    &lbrace;
                         "name": "Women",
                         "product_count": 0,
                         "level": 2,
-                        "children": [
-                            {
+                        "children": &lbrack;
+                            &lbrace;
                                 "name": "Tops",
                                 "product_count": 0,
                                 "level": 3,
                                 "children": []
-                            },
-                            {
+                            &rbrace;,
+                            &lbrace;
                                 "name": "Bottoms",
                                 "product_count": 0,
                                 "level": 3,
                                 "children": []
-                            }
-                        ]
-                    },
+                            &rbrace;
+                        &rbrack;
+                    &rbrace;,
                     ...
-                ]
-            }
-        ]
-    }
-}
+                &rbrack;
+            &rbrace;
+        &rbrack;
+    &rbrace;
+&rbrace;
 </code></pre>
 
 ## 패치 적용

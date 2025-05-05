@@ -49,7 +49,7 @@ magento/product-recommendations
 
 >[!NOTE]
 >
->[**[!UICONTROL Cookie Restriction Mode]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law)(사용 안내서)이 *enabled*인 경우 Adobe Commerce은 구매자가 동의할 때까지 행동 데이터를 수집하지 않습니다.**[!UICONTROL Cookie Restriction Mode]**이(가) *비활성화됨*인 경우 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
+>[**[!UICONTROL Cookie Restriction Mode]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law)(사용 안내서)이 *enabled*인 경우 Adobe Commerce은 구매자가 동의할 때까지 행동 데이터를 수집하지 않습니다.**[!UICONTROL Cookie Restriction Mode]**&#x200B;이(가) *비활성화됨*인 경우 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
 
 ## 카탈로그 [!DNL SaaS] 내보내기 모듈
 

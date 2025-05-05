@@ -29,7 +29,7 @@ ht-degree: 0%
 1. **[!DNL Cloud Project URL]**(예: `https://us-3.magento.cloud/projects/xxxxxx/edit`)로 이동합니다.
 1. 팀 구성원이 프로젝트에 추가되었으며 [!DNL Super User]인지 확인하십시오.
 
-프로젝트에 추가되지 않은 경우 [!DNL Super User](으)로 추가하고 [!DNL Shared Access]을(를) 부여해야 합니다.
+프로젝트에 추가되지 않은 경우 [!DNL Super User] (으)로 추가하고 [!DNL Shared Access]을(를) 부여해야 합니다.
 
 * 사용 안내서에서 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
 * [Adobe Commerce 기술 자료에서 사용자를 Commerce 클라우드 프로젝트에 추가할 수 없습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html).

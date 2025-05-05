@@ -49,13 +49,13 @@ GraphQL을 통해 고객 주문에서 선물 포장을 제거할 수 없습니�
 1. 이제 이 장바구니 쿼리를 사용하여 선물 포장 *Uid*&#x200B;을(를) 확인하세요.
 
    <pre><code class="language-GraphQL">
-    {
-      cart(cart_id: "{{CART_ID}}") {
-        available_gift_wrappings{
+    &lbrace;
+      cart(cart_id: "{{CART_ID}}") &lbrace;
+        available_gift_wrappings&lbrace;
             uid
-        }
-    }
-    }
+        &rbrace;
+    &rbrace;
+    &rbrace;
     </code></pre>
 
 1. `setGiftOptionsOnCart`을(를) 사용하여 선물 포장을 설정합니다.
@@ -66,38 +66,38 @@ GraphQL을 통해 고객 주문에서 선물 포장을 제거할 수 없습니�
 1. 고객 질의 실행: 고객.
 
    <pre><code class="language-graphql">
-    query {
-      customer {
+    query &lbrace;
+      customer &lbrace;
         firstname
         middlename
         lastname
         suffix
         email
-        orders {
-            items {
+        orders &lbrace;
+            items &lbrace;
                 order_date
-                gift_wrapping {
+                gift_wrapping &lbrace;
                     design
                     uid
-                }
-            }
-        }
-        addresses {
+                &rbrace;
+            &rbrace;
+        &rbrace;
+        addresses &lbrace;
           firstname
           middlename
           lastname
           street
           city
-          region {
+          region &lbrace;
             region_code
             region
-          }
+          &rbrace;
           postcode
           country_code
           telephone
-        }
-      }
-    }
+        &rbrace;
+      &rbrace;
+    &rbrace;
     </code></pre>
 
 <u>예상 결과</u>:

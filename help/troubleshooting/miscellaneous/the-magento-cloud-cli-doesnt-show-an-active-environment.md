@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 문제
 
-몇 가지 활성 환경이 있으며 `Magento-cloud` [!DNL CLI](명령줄 도구) 명령을 실행하여 환경과 상호 작용하려고 합니다. (예: `ssh`, `db:size`, `db:sql` 등)
+몇 가지 활성 환경이 있으며 `Magento-cloud` [!DNL CLI] (명령줄 도구) 명령을 실행하여 환경과 상호 작용하려고 합니다. (예: `ssh`, `db:size`, `db:sql` 등)
 그러나 원하는 환경을 선택하라는 메시지가 이 환경을 나열하지 않습니다. (예: 통합 환경)
 
 ```
@@ -50,6 +50,6 @@ Your environments are:
 |          Integration 2 | Integration 2    | Active       | Development    |
 ```
 
-2. 명령을 사용하여 환경 ID를 지정합니다.
+&#x200B;2. 명령을 사용하여 환경 ID를 지정합니다.
 
 `magento-cloud ssh -e integration`

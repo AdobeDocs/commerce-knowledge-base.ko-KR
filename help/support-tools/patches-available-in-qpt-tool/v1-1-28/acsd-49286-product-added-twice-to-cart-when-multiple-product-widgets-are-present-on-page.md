@@ -39,8 +39,8 @@ ACSD-49286 패치는 페이지에 여러 제품 위젯이 있을 때 제품이 �
 1. 콘텐츠 섹션에서 [!DNL Page Builder]을(를) 사용하여 **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Content]**&#x200B;에 두 개의 행 요소를 추가합니다.
 1. 두 행 요소에 제품을 추가합니다.
-1. 첫 번째 행에서 제품 모양을 [!UICONTROL Product Grid](으)로 설정하고 표시할 카테고리를 선택합니다.
-1. 두 번째 행에서 제품 모양을 [!UICONTROL Product Carousel](으)로 설정하고 표시할 다른 범주를 선택합니다.
+1. 첫 번째 행에서 제품 모양을 [!UICONTROL Product Grid] (으)로 설정하고 표시할 카테고리를 선택합니다.
+1. 두 번째 행에서 제품 모양을 [!UICONTROL Product Carousel] (으)로 설정하고 표시할 다른 범주를 선택합니다.
 1. 상점 **[!UICONTROL Home Page]**(으)로 이동하여 제품 그리드에서 제품 하나를 추가합니다.
 1. [!UICONTROL Product Carousel]에서 다른 제품을 추가합니다.
 

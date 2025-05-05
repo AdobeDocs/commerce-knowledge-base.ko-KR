@@ -1,6 +1,6 @@
 ---
-title: 'ACSD-48857:  [!DNL Page Builder](으)로 편집한 후 변경 내용을 저장할 수 없음'
-description: ACSD-48857 패치를 적용하여  [!DNL Page Builder](으)로 편집한 후 사용자가 변경 사항을 저장할 수 없는 Adobe Commerce 문제를 해결합니다.
+title: 'ACSD-48857:  [!DNL Page Builder] (으)로 편집한 후 변경 내용을 저장할 수 없음'
+description: ACSD-48857 패치를 적용하여  [!DNL Page Builder] (으)로 편집한 후 사용자가 변경 사항을 저장할 수 없는 Adobe Commerce 문제를 해결합니다.
 exl-id: c95b354d-8954-4e9c-9e92-8a64f62f0a68
 feature: Admin Workspace, CMS, Page Builder
 role: Admin
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# ACSD-48857: [!DNL Page Builder](으)로 편집한 후 변경 내용을 저장할 수 없음
+# ACSD-48857: [!DNL Page Builder] (으)로 편집한 후 변경 내용을 저장할 수 없음
 
-ACSD-48857 패치는 [!DNL Page Builder](으)로 편집한 후 사용자가 변경 사항을 저장할 수 없는 문제를 해결합니다. 이 패치는 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28이 설치된 경우에 사용할 수 있습니다. 패치 ID는 ACSD-48857입니다. 이 문제는 Adobe Commerce 2.4.7에서 수정됩니다.
+ACSD-48857 패치는 [!DNL Page Builder] (으)로 편집한 후 사용자가 변경 사항을 저장할 수 없는 문제를 해결합니다. 이 패치는 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28이 설치된 경우에 사용할 수 있습니다. 패치 ID는 ACSD-48857입니다. 이 문제는 Adobe Commerce 2.4.7에서 수정됩니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -31,7 +31,7 @@ ACSD-48857 패치는 [!DNL Page Builder](으)로 편집한 후 사용자가 변�
 
 ## 문제
 
-[!DNL Page Builder](으)로 편집한 후 변경 내용을 저장할 수 없습니다.
+[!DNL Page Builder] (으)로 편집한 후 변경 내용을 저장할 수 없습니다.
 
 <u>재현 단계</u>
 

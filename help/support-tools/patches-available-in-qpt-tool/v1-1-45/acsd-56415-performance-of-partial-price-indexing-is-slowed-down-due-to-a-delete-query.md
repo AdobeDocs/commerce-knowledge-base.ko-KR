@@ -40,15 +40,15 @@ ACSD-56415 패치는 데이터베이스에 부분 가격 데이터 인덱스가 
 1. *10개의 고객 그룹을 만듭니다*.
 1. 아래 쿼리를 실행하여 `_cl` 표에 제품을 추가하십시오.
 
-   ``
+   &grave;&grave;
     insert into catalog_product_price_cl (entity_id) select entity_id from catalog_product_entity
- ``
+ &grave;&grave;
 
 1. 아래 명령을 실행하여 부분 가격 색인화 프로세스를 트리거합니다.
 
-   ``
+   &grave;&grave;
     bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1
- ``
+ &grave;&grave;
 
 <u>예상 결과</u>:
 

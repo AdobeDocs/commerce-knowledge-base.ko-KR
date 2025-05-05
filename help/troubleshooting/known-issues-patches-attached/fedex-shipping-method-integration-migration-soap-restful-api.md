@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->이전에 제공한 패치 대신 [!DNL Quality Patches Tool](QPT) 1.1.57 릴리스의 ACSD-61622 패치를 사용하십시오. 새 패치는 Adobe Commerce 버전(모든 배포 방법) 2.4.6-p1 - 2.4.6-p8과 호환됩니다. 새로운 [!DNL Quality Patches Tool] 릴리스가 있는 다른 버전에 적용할 수 있습니다.
+>이전에 제공한 패치 대신 [!DNL Quality Patches Tool] (QPT) 1.1.57 릴리스의 ACSD-61622 패치를 사용하십시오. 새 패치는 Adobe Commerce 버전(모든 배포 방법) 2.4.6-p1 - 2.4.6-p8과 호환됩니다. 새로운 [!DNL Quality Patches Tool] 릴리스가 있는 다른 버전에 적용할 수 있습니다.
 >
 >자세한 내용은 Adobe Commerce 도구 안내서의 [ACSD-61622 패치 문서](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response)를 참조하십시오.
 

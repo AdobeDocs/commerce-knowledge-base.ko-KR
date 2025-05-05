@@ -1,6 +1,6 @@
 ---
-title: "MDVA-44660: 고객 이름에 중대한 악센트 문자 [`]를 사용할 수 없음"
-description: MDVA-44660 패치에서는 고객의 이름에 큰 악센트 문자(`)를 사용할 수 없는 문제가 해결되었습니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-44660입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
+title: "MDVA-44660: 고객 이름에 중대한 악센트 문자 [&grave;]를 사용할 수 없음"
+description: MDVA-44660 패치에서는 고객의 이름에 큰 악센트 문자(&grave;)를 사용할 수 없는 문제가 해결되었습니다. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15가 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-44660입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
 exl-id: 696f2690-2af5-4770-a4a8-c88c423c6c16
 feature: Variables
 role: Admin

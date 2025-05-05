@@ -38,7 +38,7 @@ ACSD-52786 패치는 지정된 SKU로 시작하는 모든 제품에 카탈로그
 1. SKU &quot;24&quot;와 SKU &quot;24-MB01&quot;의 두 제품을 만듭니다.
 1. **[!UICONTROL Marketing]** > **[!UICONTROL Catalog Price Rule]** > **[!UICONTROL Add New Rule]**(으)로 이동합니다.
 1. 다음 조건을 적용합니다.
-   * 이 조건 중 *[!UICONTROL If **&#x200B;모두&#x200B;**은(는)** TRUE **]*: *[!UICONTROL SKU is 24]*입니다.
+   * 이 조건 중 *[!UICONTROL If **&#x200B;모두&#x200B;**&#x200B;은(는)**&#x200B; TRUE &#x200B;**]*: *[!UICONTROL SKU is 24]*&#x200B;입니다.
 1. 액션에서 할인 금액을 설정합니다.
 1. **[!UICONTROL Save and Apply]**&#x200B;을(를) 클릭합니다.
 1. 캐시를 플러시합니다.

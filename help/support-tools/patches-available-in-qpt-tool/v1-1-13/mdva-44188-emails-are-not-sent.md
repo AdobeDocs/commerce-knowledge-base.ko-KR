@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-44188: 이메일이 "이 포함된 ID로 전송되지 않습니다.-"'
-description: MDVA-44188 패치는 이메일이 ` 가 포함된 이메일 ID로 전송되지 않는 문제를 해결합니다.-`. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13이 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-44188입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
+description: MDVA-44188 패치는 이메일이 &grave; 가 포함된 이메일 ID로 전송되지 않는 문제를 해결합니다.-&grave;. 이 패치는 [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13이 설치된 경우 사용할 수 있습니다. 패치 ID는 MDVA-44188입니다. 이 문제는 Adobe Commerce 2.4.5에서 수정됩니다.
 exl-id: 2abd300a-6cf3-4973-9b36-1bba7b578378
 feature: Communications
 role: Admin

@@ -1,5 +1,5 @@
 ---
-title: 서드파티 보안 검색을 통해 발견된 취약점은  [!DNL HackerOne](으)로 이동해야 합니다.
+title: 서드파티 보안 검색을 통해 발견된 취약점은  [!DNL HackerOne] (으)로 이동해야 합니다.
 description: 이 문서에서는 서드파티 보안 검색으로 발견된 취약점을 해결하는 솔루션을 제공합니다.
 feature: Security
 role: Developer, Admin
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# 서드파티 보안 검색을 통해 발견된 취약점은 [!DNL HackerOne](으)로 이동해야 합니다.
+# 서드파티 보안 검색을 통해 발견된 취약점은 [!DNL HackerOne] (으)로 이동해야 합니다.
 
 이 문서에서는 서드파티 보안 검색으로 발견된 취약점을 해결하는 솔루션을 제공합니다.
 

@@ -33,5 +33,5 @@ Headless 배포를 사용하지 않으려는 유일한 상황입니다.
 
 ## 추가 정보
 
-* [Headless 웹 사이트: 분리된 아키텍처의 주요 이점[Josh Koenig](https://pantheon.io/team/josh-koenig)의 ](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture).
+* [&#128279;](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture)Headless 웹 사이트: 분리된 아키텍처의 주요 이점[Josh Koenig](https://pantheon.io/team/josh-koenig)의 .
 * 개발자 설명서에서 [Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly)
