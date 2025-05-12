@@ -31,14 +31,14 @@ ht-degree: 0%
 
 프로젝트에 추가되지 않은 경우 [!DNL Super User]&#x200B;(으)로 추가하고 [!DNL Shared Access]을(를) 부여해야 합니다.
 
-* 사용 안내서에서 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
-* [Adobe Commerce 기술 자료에서 사용자를 Commerce 클라우드 프로젝트에 추가할 수 없습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html).
-* [Adobe Commerce 도움말 센터 사용 안내서: Commerce 기술 자료에서 액세스 공유](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access).
+* 사용 안내서에서 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko).
+* [Adobe Commerce 기술 자료에서 사용자를 Commerce 클라우드 프로젝트에 추가할 수 없습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html?lang=ko).
+* [Adobe Commerce 도움말 센터 사용 안내서: Commerce 기술 자료에서 액세스 공유](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#shared-access).
 
-[!DNL cloud project]에 추가되었지만 [!DNL Super User role]이(가) 없는 경우 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)에서 해당 [!DNL role]을(를) 업데이트합니다.
+[!DNL cloud project]에 추가되었지만 [!DNL Super User role]이(가) 없는 경우 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko)에서 해당 [!DNL role]을(를) 업데이트합니다.
 
-팀원이 조직에 대해 열린 모든 경우에 감시자가 되도록 하려면 [지원 티켓](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support)을 제출하세요.
+팀원이 조직에 대해 열린 모든 경우에 감시자가 되도록 하려면 [지원 티켓](https://experienceleague.adobe.com/home?lang=ko&amp;support-tab=home#support)을 제출하세요.
 
 ## 관련 읽기
 
-[이전 팀원이 Adobe Commerce 클라우드 알림 이메일을 받습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+[이전 팀원이 Adobe Commerce 클라우드 알림 이메일을 받습니다](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html?lang=ko)
