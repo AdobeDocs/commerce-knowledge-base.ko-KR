@@ -21,7 +21,7 @@ Adobe Commerce은 전자 상거래 스토어 경험을 개선하는 데 도움�
 
 * [!DNL Quality Patches Tool]&#x200B;(QPT)
 
-   * [QPT 도구 개요에서 사용 가능한 패치](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/patches-available-in-qpt-tool-overview)
+   * [QPT 도구 개요에서 사용 가능한 패치](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/patches-available-in-qpt-tool-overview)
 
      [[!DNL Quality Patches Tool]](https://github.com/magento/quality-patches)&#x200B;(QPT)는 Adobe 및 Magento Open Source 커뮤니티에서 개발한 개별 품질 패치를 적용할 수 있는 도구입니다.
 
@@ -35,20 +35,20 @@ Adobe Commerce은 전자 상거래 스토어 경험을 개선하는 데 도움�
 
 * Adobe Commerce 관찰
 
-   * [Adobe Commerce에 대한 관찰 개요](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/observation-for-adobe-commerce/intro)
+   * [Adobe Commerce에 대한 관찰 개요](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/observation-for-adobe-commerce/intro)
 
 * Adobe Commerce에서 관리되는 경고
-   * [Adobe Commerce에 대한 관리 경고: 메모리 위험 경고 준비](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert)
-   * [Adobe Commerce에 대한 관리 경고: 디스크 경고 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)
-   * [Adobe Commerce에 대한 관리 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce)
-   * [Adobe Commerce에 대한 관리 경고: 디스크 위험 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert)
-   * [Adobe Commerce에 대한 관리 경고: 메모리 경고 Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-warning-alert)
-   * [Adobe Commerce에 대한 관리 경고: 메모리 경고 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert)
-   * [Adobe Commerce의 관리 경고: CPU 중요 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert)
-   * [Adobe Commerce의 관리 경고: 메모리 위험 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert)
-   * [Adobe Commerce에 대한 관리 경고: Apdex 중요 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert)
-   * [Adobe Commerce에 대한 관리 경고: MariaDB 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts)
-   * [Adobe Commerce에 대한 관리 경고: Apdex 경고 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert)
-   * [Adobe Commerce에 대한 관리 경고: CPU 경고 경고](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert)
+   * [Adobe Commerce에 대한 관리 경고: 메모리 위험 경고 준비](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert)
+   * [Adobe Commerce에 대한 관리 경고: 디스크 경고 경고](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)
+   * [Adobe Commerce에 대한 관리 경고](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce)
+   * [Adobe Commerce에 대한 관리 경고: 디스크 위험 경고](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert)
+   * [Adobe Commerce에 대한 관리 경고: 메모리 경고 Redis](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-warning-alert)
+   * [Adobe Commerce에 대한 관리 경고: 메모리 경고 경고](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert)
+   * [Adobe Commerce의 관리 경고: CPU 중요 경고](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert)
+   * [Adobe Commerce의 관리 경고: 메모리 위험 경고](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert)
+   * [Adobe Commerce에 대한 관리 경고: Apdex 중요 경고](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert)
+   * [Adobe Commerce에 대한 관리 경고: MariaDB 경고](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts)
+   * [Adobe Commerce에 대한 관리 경고: Apdex 경고 경고](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert)
+   * [Adobe Commerce에 대한 관리 경고: CPU 경고 경고](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert)
 * Commerce 사이트 평가 도구
-   * [Commerce 사이트 평가](https://experienceleague.adobe.com/tools/commerce-site-assessment/index.html)
+   * [Commerce 사이트 평가](https://experienceleague.adobe.com/tools/commerce-site-assessment/index.html?lang=ko)
