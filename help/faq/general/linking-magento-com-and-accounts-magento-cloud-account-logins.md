@@ -33,4 +33,4 @@ ht-degree: 0%
 ## 관련 읽기
 
 * [Adobe Commerce 지원 또는 클라우드 계정에 로그인할 수 없음](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
-* [MageID 계정 소유자가 로그인하여 지원 티켓을 제출할 수 없습니다](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231)
+* [MageID 계정 소유자가 로그인하여 지원 티켓을 제출할 수 없습니다](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-25231)
