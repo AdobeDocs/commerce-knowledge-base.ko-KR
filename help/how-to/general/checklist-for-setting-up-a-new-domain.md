@@ -152,7 +152,7 @@ ht-degree: 0%
 ]
 ```
 
-즉, 이전에 `ece-tools` 패키지에서 `config:dump` 명령을 실행하여 빌드](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)에서 [SCD를 설정했습니다.
+즉, 이전에 `ece-tools` 패키지에서 `config:dump` 명령을 실행하여 빌드[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)에서 SCD를 설정했습니다.
 
 만든 새 스토어/웹 사이트가 `app/etc/config.php` 파일에 표시되지 않는 경우 명령을 다시 실행하여 변경 내용이 데이터베이스에 있는 `config.php` 파일을 동기화한 다음 `config.php` 파일을 커밋하고 다시 배포해야 합니다. 새 저장소/웹 사이트에 대한 정적 콘텐츠를 적절한 파일 경로로 쉽게 배포할 수 있도록 하기 위한 것입니다.
 
