@@ -3,9 +3,9 @@ title: Adobe Commerce 보안 검사 도구 FAQ
 description: 이 문서는 Adobe Commerce 보안 검색 도구에 대한 몇 가지 FAQ에 대한 답변을 제공합니다.
 exl-id: 380ce617-e3d9-491b-b425-8489abd3c541
 feature: Compliance
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: cff17a83648e10e85d95a5895acd8d1916a8eef9
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,6 @@ Security Scan Tool은 Adobe Commerce 도메인의 취약점을 스캔하도록 �
 
 ## 스캔 보고서에서 양성 오류가 발생하면 어떻게 해야 합니까? {#what-do-i-do-if-i-come-across-a-false-positive-in-the-scan-report}
 
-판매자에게 실패한 모든 검사를 조사하고 이러한 문제를 해결하기 위한 적절한 조치를 취할 것을 권장합니다. 조사 후, 만약 상인들이 거짓 양성으로 보이는 스캔 결과를 발견하게 되면, 우리는 상인이 적절한 조치를 취하도록 Adobe에 통지하도록 요청합니다.
+판매자에게 실패한 모든 검사를 조사하고 이러한 문제를 해결하기 위한 적절한 조치를 취할 것을 권장합니다. 조사 후, 상인이 거짓 양성으로 보이는 스캔 결과를 발견하면, 상인이 Adobe에 적절한 조치를 취하도록 통지할 것을 요청합니다.
 
-긍정 오류(false positive) 보고서를 제출하려면 Adobe Commerce 판매자 지원 기능이 있는 티켓을 입력하여 긍정 오류(false positive)를 평가하고, 필요한 변경을 수행하고, 향후 이러한 알림이 표시되지 않도록 권장 사항을 제공할 수 있습니다. 가맹점은 [securityscan@magento.com](mailto:securityscan@magento.com)로 전자 메일을 보내 긍정 오류(false positive)를 보고할 수도 있습니다.
+긍정 오류(false positive) 보고서를 제출하려면 Adobe Commerce 판매자 지원 기능이 있는 티켓을 입력하여 긍정 오류(false positive)를 평가하고, 필요한 변경을 수행하고, 향후 이러한 알림이 표시되지 않도록 권장 사항을 제공할 수 있습니다.
