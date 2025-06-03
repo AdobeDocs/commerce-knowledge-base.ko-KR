@@ -30,7 +30,7 @@ ht-degree: 0%
 
 Partner Sandbox Cloud 프로젝트가 있는 파트너는 Experience League을 통해 샌드박스 관련 문제에 대한 티켓을 제출할 수 없습니다. 이러한 티켓은 판매자의 계정을 사용하여 제출하면 판매자를 대신하여 제출되어 혼동을 일으킬 수 있으므로 사용하지 마십시오.
 
-공유 액세스 권한이 부여되지 않은 판매자를 대신하여 티켓을 제출하는 경우 계정 소유자에게 액세스 권한을 요청하십시오. 액세스 요청 방법에 대한 단계는 [공유 액세스: 다른 사용자가 계정에 액세스할 수 있는 권한 부여](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access)를 참조하십시오.
+공유 액세스 권한이 부여되지 않은 판매자를 대신하여 티켓을 제출하는 경우 계정 소유자에게 액세스 권한을 요청하십시오. 액세스 요청 방법에 대한 단계는 [공유 액세스: 다른 사용자가 계정에 액세스할 수 있는 권한 부여](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access)를 참조하십시오.
 
 * 솔루션 파트너는 [SPPHelp@adobe.com](mailto:SPPHelp@adobe.com)에 전자 메일을 보내 샌드박스 관련 지원 요청을 제출해야 합니다. 이러한 요청은 파트너 기술 지원 팀으로 전달됩니다.
 * 기술 파트너는 [Marketplace 지원](mailto:commercemarketplacesupport@adobe.com)에 문의하십시오.
