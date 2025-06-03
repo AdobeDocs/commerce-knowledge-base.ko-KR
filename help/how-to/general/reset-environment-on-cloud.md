@@ -40,9 +40,9 @@ ht-degree: 0%
 <u>변경 당일</u>:
 
 1. 웹 사이트를 [!UICONTROL Maintenance Mode]에 배치합니다.
-사용 안내서에서 [사용 또는 사용 안 함[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html) 및 업그레이드 안내서에서 [[!UICONTROL Maintenance Mode] 업그레이드 옵션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html)에 대해 자세히 알아보세요.
-1. cron 작업을 비활성화합니다. [cron 속성 안내서](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>)에서 cron 작업을 사용하지 않도록 설정하는 방법에 대해 자세히 알아보십시오.
-1. 로컬 [[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html)을(를) 사용합니다.
+사용 안내서에서 [사용 또는 사용 안 함[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html?lang=ko) 및 업그레이드 안내서에서 [[!UICONTROL Maintenance Mode] 업그레이드 옵션](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html?lang=ko)에 대해 자세히 알아보세요.
+1. cron 작업을 비활성화합니다. [cron 속성 안내서](<https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>)에서 cron 작업을 사용하지 않도록 설정하는 방법에 대해 자세히 알아보십시오.
+1. 로컬 [[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html?lang=ko)을(를) 사용합니다.
 
 <u>[!UICONTROL Rollback]이(가) 필요한 경우</u>:
 
@@ -58,13 +58,13 @@ ht-degree: 0%
 
 ## 시나리오 2: 스냅샷 복원
 
-개발자 설명서에서 [클라우드 인프라의 Adobe Commerce에서 스냅숏을 복원합니다](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot).
+개발자 설명서에서 [클라우드 인프라의 Adobe Commerce에서 스냅숏을 복원합니다](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot).
 
 >[!NOTE]
 >
 >클라우드 인프라 계정에서 Adobe Commerce에 액세스한 후 주요 변경 사항을 적용하기 전에 스냅샷을 만드는 것이 첫 번째 단계여야 합니다. 모범 사례이며 적극 권장합니다.
 
-개발자 설명서에서 [스냅숏 만들기](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot)를 참조하십시오.
+개발자 설명서에서 [스냅숏 만들기](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot)를 참조하십시오.
 
 ## 시나리오 3: 스냅샷 없음, 안정적인 빌드(SSH 연결 사용 가능)
 
@@ -91,24 +91,24 @@ ht-degree: 0%
 
 구성 파일을 제거하려면 다음 단계를 수행하십시오.
 
-1. [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko).
 1. 구성 파일 `rm app/etc/config.php`을(를) 제거합니다.
 
 구성 관리에 대해 자세히 알아보십시오.
 
 * 지원 기술 자료에서 [클라우드 인프라에서 Adobe Commerce 배포 중단 시간 감소](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md).
-* 개발자 설명서에서 [저장소 설정에 대한 구성 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html).
+* 개발자 설명서에서 [저장소 설정에 대한 구성 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=ko).
 
 ### 1단계: setup:uninstall 명령을 사용하여 Adobe Commerce 소프트웨어 제거
 
 
 Adobe Commerce 소프트웨어를 제거하면 데이터베이스가 삭제 및 복원되고 배포 구성이 제거되며 `var` 아래의 디렉터리가 지워집니다.
 
-개발자 설명서에서 [Adobe Commerce 소프트웨어 제거](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html)를 참조하십시오.
+개발자 설명서에서 [Adobe Commerce 소프트웨어 제거](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html?lang=ko)를 참조하십시오.
 
 Adobe Commerce 소프트웨어를 제거하려면 다음 단계를 따르십시오.
 
-1. [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko).
 1. `setup:uninstall` 실행: `bin/magento setup:uninstall`
 1. 제거를 확인합니다.
 
@@ -158,10 +158,10 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 `setup:uninstall` 명령을 실행하지 못하고 오류가 발생하여 완료할 수 없는 경우 다음 단계를 수행하여 DB를 수동으로 지울 수 있습니다.
 
-1. [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
-1. MySQL DB에 연결: `mysql -h database.internal`(Pro 환경의 경우: [MySQL 서비스 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)).
+1. [환경에 SSH](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko).
+1. MySQL DB에 연결: `mysql -h database.internal`(Pro 환경의 경우: [MySQL 서비스 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html?lang=ko)).
 1. `main` DB 삭제: `drop database main;`
 1. 빈 `main` DB 만들기: `create database main;`
 1. 구성 파일 `config.php`, `config.php.bak`, `env.php`, `env.php.bak`을(를) 삭제합니다.
 
-DB를 다시 설정한 후 [환경에 대한  [!DNL git] 푸시를 수행하여 재배포를 트리거](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html)하고 Adobe Commerce을 새로 만든 DB에 설치합니다. 또는 [재배포 명령을 실행](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands)합니다.
+DB를 다시 설정한 후 [환경에 대한  [!DNL git] 푸시를 수행하여 재배포를 트리거](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html?lang=ko)하고 Adobe Commerce을 새로 만든 DB에 설치합니다. 또는 [재배포 명령을 실행](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=ko#environment-commands)합니다.
