@@ -79,7 +79,7 @@ ht-degree: 0%
    ```
 
 1. [!DNL dump file] 데이터베이스(예: [!DNL Production]의 경우 `<cluster ID>.sql.gz`, [!DNL Staging]의 경우 `<cluster ID_stg>.sql.gz`)를 로컬 컴퓨터에 복사합니다.
-1. 개발자 설명서에서 데이터베이스에 원격으로 연결하도록 [!DNL SSH tunnel]을(를) 설정했습니다. [[!DNL SSH] 및 [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn).
+1. 개발자 설명서에서 데이터베이스에 원격으로 연결하도록 [!DNL SSH tunnel]을(를) 설정했습니다. [[!DNL SSH] 및 [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn).
 1. 데이터베이스에 연결합니다.
 
    ```bash
@@ -175,6 +175,6 @@ ht-degree: 0%
 
 개발자 설명서에서:
 
-* [코드 가져오기: 데이터베이스를 가져옵니다](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots] 및 [!DNL backup] 관리: [!DNL Dump] 데이터베이스](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [클라우드의 백업(스냅숏): FAQ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [코드 가져오기: 데이터베이스를 가져옵니다](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] 및 [!DNL backup] 관리: [!DNL Dump] 데이터베이스](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [클라우드의 백업(스냅숏): FAQ](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
