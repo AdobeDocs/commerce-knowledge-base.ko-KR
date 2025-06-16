@@ -3,7 +3,7 @@ title: Adobe Commerce P1 알림 핫라인
 description: 이 문서에서는 P1 인시던트를 보고하려고 할 때 사용할 수 있는 Adobe Commerce용 P1 알림 핫라인 번호를 제공하고 제공할 정보를 설명합니다.
 feature: Communications
 exl-id: 48c4fe93-676e-4c69-a96c-8fb3e6872973
-source-git-commit: 8c0c128f2469086c44dcea0e9edc87f934578a69
+source-git-commit: bbff778a020a05953b82b452cdede7c46f20c990
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 ## P1 알림 핫라인 전화 정책
 
 * P1 알림 핫라인은 P1 수준 문제를 보고할 수 있습니다. (이전 섹션에서 P1 인시던트 정의 참조).
-* Adobe Commerce P1 알림 핫라인으로 전화하기 전에 [지원 티켓을 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket).
+* Adobe Commerce P1 알림 핫라인으로 전화하기 전에 [지원 티켓을 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket).
 * 조사, 문제 해결 및 커뮤니케이션은 지원 티켓 내에서만 이루어집니다.
 * 문의 전화 전에 티켓에 문제와 관련된 모든 추가 정보를 직접 추가합니다.
 * 전화하실 때는 티켓 번호를 꼭 지참하세요.
@@ -32,7 +32,7 @@ ht-degree: 0%
 참고: 어떤 이유로든 음성 사서함에 연결하는 경우 전체 이름, 회사, 전화 번호 및 티켓 번호 정보를 남겨주십시오. 회선이 모니터링되고 엔지니어가 가능한 한 빨리 전화를 돌려 드립니다.
 
 * US
-   * 무료 전화: (+1) 800 497 0335(첫 번째 메뉴에서 Adobe Commerce P1 핫라인은 6번을 누르십시오)
+   * 무료 전화: (+1) 800 497 0335(첫 번째 메뉴에서 3번을 누르면 Adobe Commerce P1 핫라인)
 * EMEA
    * 영국: (+44) 800 169 0454(첫 번째 메뉴에서 Adobe Commerce P1 핫라인은 6번을 누르십시오)
    * 덴마크: (+45) 80206017(첫 번째 메뉴에서 Adobe Commerce P1 핫라인은 6번을 누르십시오)
