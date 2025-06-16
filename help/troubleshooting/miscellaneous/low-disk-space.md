@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 문제
 
-쓰기 가능한 디렉터리가 있는 디스크의 디스크 공간이 부족합니다. 한 가지 증상은 [중단된 배포](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26878)일 수 있습니다.
+쓰기 가능한 디렉터리가 있는 디스크의 디스크 공간이 부족합니다. 한 가지 증상은 [중단된 배포](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26878)일 수 있습니다.
 
 디스크 사용량을 확인하려면 다음 명령을 실행합니다.
 
@@ -45,7 +45,7 @@ Adobe Commerce은 모든 로그 파일을 `var` 디렉터리에 저장합니다.
 * `var` 디렉터리를 정리합니다.
 * `var` 디렉터리의 크기를 추적하고 정리하도록 크론 작업을 설정합니다.
 * 사용하지 않은 디스크 공간이 있는 경우 더 많은 디스크 공간을 할당하십시오. (공간 제한 사항을 확인하는 방법에 대한 자세한 내용은 아래 섹션을 참조하십시오.)
-   * 스타터 계획, 모든 환경 및 Pro 계획 통합 환경의 경우 [디스크 공간 관리: 디스크 공간 할당](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space)에 설명된 대로 사용하지 않는 디스크 공간이 있으면 디스크 공간을 할당할 수 있습니다.
+   * 스타터 계획, 모든 환경 및 Pro 계획 통합 환경의 경우 [디스크 공간 관리: 디스크 공간 할당](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space)에 설명된 대로 사용하지 않는 디스크 공간이 있으면 디스크 공간을 할당할 수 있습니다.
    * Pro 플랜 스테이징 및 프로덕션 환경의 경우, 일부 사용하지 않은 디스크 공간이 있는 경우 지원 센터에 문의하여 더 많은 디스크 공간을 할당하십시오.
 * 공간 제한에 도달했지만 여전히 공간 문제가 낮은 경우 더 많은 디스크 공간을 구입하는 것이 좋습니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
 
