@@ -4,9 +4,9 @@ description: Adobe Commerce 및 Magento Open Source용 보안 검색 도구와 �
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 feature: Compliance, Security
 role: Developer
-source-git-commit: 525352027bfa4a8728bdbbfe61af3dca5dbb18f9
+source-git-commit: c6e338fb33477ab107fe4de382b485339b57275a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Adobe Commerce 및 Magento Open Source용 보안 검색 도구와 관련된 다�
 
 ## 문제: 사이트를 제출할 수 없음
 
-보안 검색 도구를 사용하려면 도메인을 보안 검색 도구에 추가하려면 먼저 사이트 소유권을 증명해야 합니다. HTML 댓글 또는 `<meta>` 태그를 사용하여 사이트에 확인 코드를 추가하여 이 작업을 수행할 수 있습니다. HTML 설명은 `<body>` 태그 내부(예: 바닥글 섹션)에 배치해야 합니다. `<meta>` 태그는 페이지의 `<head>` 섹션 내부에 배치해야 합니다.
+보안 검색 도구를 사용하려면 도메인을 보안 검색 도구에 추가하려면 먼저 사이트 소유권을 증명해야 합니다. 이 작업은 HTML 댓글 또는 `<meta>` 태그를 사용하여 사이트에 확인 코드를 추가하여 수행할 수 있습니다. HTML 댓글은 `<body>` 태그 내부(예: 바닥글 섹션)에 배치해야 합니다. `<meta>` 태그는 페이지의 `<head>` 섹션 내부에 배치해야 합니다.
 
 Security Scan Tool이 판매자의 사이트 소유권을 확인할 수 없는 경우 판매자가 직면하는 일반적인 문제가 발생합니다.
 
@@ -25,7 +25,7 @@ Security Scan Tool이 판매자의 사이트 소유권을 확인할 수 없는 �
 
 ## 문제: 보안 검색 도구에서 생성한 빈 보고서
 
-보안 검색 도구에서 빈 검색 보고서를 가져오거나 *보안 도구가 기본 URL에 연결할 수 없거나*&#x200B;제공된 URL에서 *Magento 설치를 찾을 수 없습니다*&#x200B;와 같은 하나의 오류만 포함된 보고서를 가져옵니다.
+보안 검색 도구에서 빈 검색 보고서를 가져오거나 *보안 도구가 기본 URL에 연결할 수 없거나* *제공된 URL에서 Magento 설치를 찾을 수 없습니다*&#x200B;와 같은 하나의 오류만 포함된 보고서를 가져옵니다.
 
 ### 솔루션
 
@@ -57,7 +57,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 1. **통과**: 보안 검색 도구에서 업데이트된 데이터를 검사하고 변경 내용을 승인했습니다.
 1. **알 수 없음**: 보안 검색 도구에 아직 도메인에 대한 데이터가 없습니다. 다음 동기화 주기를 기다립니다.
-1. **실패**: 상태가 실패로 표시되면 문제를 해결해야 합니다(2FA 사용, 관리자 URL 변경 등). 다음 동기화 주기를 기다립니다.
+1. **실패**: 상태가 실패로 표시되면 문제를 해결하고(2FA 사용, 관리자 URL 변경 등) 다음 동기화 주기를 기다려야 합니다.
 
 인스턴스에 변경 사항이 적용된 후 24시간이 지났고 보안 검색 보고서에 반영되지 않은 경우 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)할 수 있습니다. 티켓을 제출할 때 스토어 URL을 입력합니다.
 
@@ -76,7 +76,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 1. 새로 생성된 SSH 계정, 파일 시스템 변경 사항 등을 확인합니다.
 1. 보안 검토를 수행합니다.
-1. Adobe Commerce 버전을 확인하고 업그레이드하십시오. 특히 더 이상 지원되지 않는 Magento 1을 계속 실행하고 있는 경우.
+1. Adobe Commerce 버전을 확인하고 업그레이드하십시오. 특히 더 이상 지원되지 않는 Magento 1이 여전히 실행 중인 경우 더욱 그렇습니다.
 1. 문제가 계속되면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하고 스토어 URL을 제공하십시오.
 
 ## 문제: 타협 주입 실패
@@ -104,8 +104,8 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 ### 지원 티켓을 제출할 때 어떤 정보가 필요합니까?
 
-도메인 이름을 입력하십시오.
+[보안 검사](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID 및 클라우드 프로젝트_ID에 대해 제출된 것과 동일한 도메인 이름을 제공하십시오. Adobe Commerce 온프레미스에 Cloud Project_ID가 필요하지 않습니다.
 
 ### 스캔 도구 스캔에서 스토어를 제거하면 어떻게 됩니까?
 
-스토어 제출을 삭제하면 스캔 보고서를 포함한 모든 관련 데이터가 삭제됩니다. 이 작업은 취소할 수 없습니다. 저장소 도메인을 삭제한 후 제출하면 새 제출이 만들어집니다.
+스토어 제출을 삭제하면 스캔 보고서를 포함한 모든 관련 데이터가 삭제됩니다. 이 작업은 취소할 수 없습니다. 삭제 후 저장소 도메인을 제출하면 새 제출이 만들어집니다.
