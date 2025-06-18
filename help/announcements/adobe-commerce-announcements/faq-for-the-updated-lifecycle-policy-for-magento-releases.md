@@ -4,9 +4,9 @@ description: Adobe Commerce은 다음 부 소프트웨어 릴리스의 일반 �
 exl-id: 4aa601d0-ee1d-4f1f-a684-188772a58dd1
 feature: Compliance, Support
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2898089896cc2cdc88110a999564669341a52136
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 Adobe Commerce은 다음 부 소프트웨어 릴리스의 일반 공급 날짜로부터 최소 12개월 동안 부 릴리스에 대한 품질 수정 사항을 제공합니다. 이 기간 동안 품질 수정 사항을 제공하는 방식은 다음과 같이 변경됩니다.
 
 * **이전 정책:** 현재 12개월 EOS 기간에 있는 이전 줄의 품질 수정 사항은 분기별 패치 릴리스를 통해 제공되므로 분기별 패치는 보안과 품질을 조합합니다.
-* **새 정책:** 2.4부터 가장 최신 마이너 릴리스 줄이므로 지원되는 이전 줄(2.3)에 대한 릴리스 패치는 보안 전용으로 이동합니다. 이전 지원 라인에 대한 품질 수정 사항은 마이너(예: 2.4) 및 후속 새로운 마이너 릴리스 라인의 출시 후 12개월 동안 계속 제공될 예정이지만, [품질 패치 도구(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)를 통해 제공되며 중요한 문제에만 집중할 수 있습니다.
+* **새 정책:** 2.4부터 가장 최신 마이너 릴리스 줄이므로 지원되는 이전 줄(2.3)에 대한 릴리스 패치는 보안 전용으로 이동합니다. 이전 지원 라인에 대한 품질 수정 사항은 마이너(예: 2.4) 및 후속 새로운 마이너 릴리스 라인의 출시 후 12개월 동안 계속 제공될 예정이지만, [품질 패치 도구(QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)를 통해 제공되며 중요한 문제에만 집중할 수 있습니다.
 
 ## 이 정책은 언제 시행됩니까?
 
@@ -26,7 +26,7 @@ Adobe Commerce 2.3.6은 2020년 10월 15일에 출시될 예정이며, 품질 + 
 
 >[!NOTE]
 >
->2.3의 정식 버전을 출시할 때는 PHP 또는 Elasticsearch과 같은 기술 스택에 대한 규정 준수를 유지해야 하는 경우뿐입니다. 이것은 2021년 2사분기에 PHP 7.4의 필수 업데이트와 함께 발생하고 있으며, 우리는 라인을 2.3.7로 늘릴 것입니다. 자세한 내용은 Adobe Commerce 2.3.x 릴리스 라인에 대한 [PHP 7.4 지원](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog 게시물을 참조하십시오.
+>2.3의 정식 버전을 출시할 때는 PHP 또는 Elasticsearch과 같은 기술 스택을 준수해야 하는 경우뿐입니다. 이것은 2021년 2사분기에 PHP 7.4의 필수 업데이트와 함께 발생하고 있으며, 우리는 라인을 2.3.7로 늘릴 것입니다. 자세한 내용은 Adobe Commerce 2.3.x 릴리스 라인에 대한 [PHP 7.4 지원](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog 게시물을 참조하십시오.
 
 ## 보안 전용 릴리스란 무엇입니까?
 
@@ -34,11 +34,11 @@ Adobe Commerce 2.3.6은 2020년 10월 15일에 출시될 예정이며, 품질 + 
 
 ## 최신 라인(발행일 기준, 2.4)에 대한 보안 전용 릴리스가 유지됩니까?
 
-Adobe은 최신 릴리스 라인에도 보안 전용 릴리스를 계속 사용할 수 있습니다. 이러한 프로세스에 대한 설명은 [새로운 보안 전용 패치 릴리스 소개](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287) DevBlog 게시물에 나와 있습니다.
+Adobe은 최신 릴리스 라인에도 보안 전용 릴리스를 계속 사용할 예정입니다. 이러한 프로세스에 대한 설명은 [새로운 보안 전용 패치 릴리스 소개](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287) DevBlog 게시물에 나와 있습니다.
 
 ## 품질 패치 도구란 무엇입니까?
 
-릴리스된 [품질 패치 도구: 품질 패치를 자체 제공하는 새로운 도구](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 문서를 지원 기술 자료에서 참조하십시오.
+릴리스된 [품질 패치 도구: 품질 패치를 자체 제공하는 새로운 도구](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) 문서를 지원 기술 자료에서 참조하십시오.
 
 ## 누가 이 새로운 정책을 사용하는 것을 고려해야 하는가?
 
@@ -50,7 +50,7 @@ Adobe은 최신 릴리스 라인에도 보안 전용 릴리스를 계속 사용�
 
 ## 최신 라인이 아닌 지원되는 부 버전에 대한 품질 수정 사항은 어떻게 받을 수 있습니까?
 
-[품질 패치 도구](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)를 통해 수정할 수 있습니다.
+[품질 패치 도구](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patche)를 통해 수정할 수 있습니다.
 
 ## 최신 제품에서 품질 수정을 받으려면 어떻게 해야 합니까?
 
@@ -62,7 +62,7 @@ Adobe은 최신 릴리스 라인에도 보안 전용 릴리스를 계속 사용�
 
 ## 최신 버전이 아닌 지원되는 부 버전에 대해 품질 수정 사항이 분기별 릴리스의 일부가 됩니까?
 
-예. 보안 전용 제품군의 일부로 해당 제품군에 대해 Adobe이 &quot;핫픽스&quot;라고 부르는 항목을 릴리스합니다. 이는 Adobe Commerce 애플리케이션에 영향을 주는 매우 중요한 문제입니다.
+예. 보안 전용 제품군의 일부로 Adobe에서 해당 제품군에 대해 &quot;핫픽스&quot;라고 부르는 항목을 릴리스합니다. 이는 Adobe Commerce 애플리케이션에 영향을 주는 매우 중요한 문제입니다.
 
 ## 보안 개선 사항과 QPT가 동시에 제공됩니까?
 
@@ -72,7 +72,7 @@ Adobe은 최신 릴리스 라인에도 보안 전용 릴리스를 계속 사용�
 
 이전 라인이 보안 전용이라는 것은 주된 혜택이 보안 유지라는 것을 의미한다. 핵심 흐름을 손상시키는 주요 문제에 대한 패치만 QPT를 통해 사용할 수 있습니다.
 
-핵심 흐름에 영향을 주지 않거나 해결 방법이 있는 문제는 가장 최근 줄에서만 해결됩니다. Adobe은 중요 수정 사항과 중요하지 않은 수정 사항을 모두 원하는 사람이 가장 최근 줄로 이동할 것을 권장합니다.
+핵심 흐름에 영향을 주지 않거나 해결 방법이 있는 문제는 가장 최근 줄에서만 해결됩니다. Adobe은 중요한 수정 사항과 중요하지 않은 수정 사항을 모두 원하는 사람이 가장 최근 줄로 이동할 것을 권장합니다.
 
 ## 보안 지원이 종료될 때까지 보안 전용 라인에 남아 있는 경우 업그레이드가 더 비싸거나 어려울까요?
 
