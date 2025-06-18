@@ -104,7 +104,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 ### 지원 티켓을 제출할 때 어떤 정보가 필요합니까?
 
-[보안 검사](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID 및 클라우드 프로젝트_ID에 대해 제출된 것과 동일한 도메인 이름을 제공하십시오. Adobe Commerce 온프레미스에 Cloud Project_ID가 필요하지 않습니다.
+[보안 검사](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID 및 클라우드 프로젝트_ID에 대해 제출된 것과 동일한 도메인 이름을 제공하십시오. Adobe Commerce 온프레미스에 Cloud Project_ID가 필요하지 않습니다.
 
 ### 스캔 도구 스캔에서 스토어를 제거하면 어떻게 됩니까?
 
