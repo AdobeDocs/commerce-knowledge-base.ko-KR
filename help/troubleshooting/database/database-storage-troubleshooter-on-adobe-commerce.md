@@ -4,9 +4,9 @@ description: 이 문서는 데이터베이스에 문제가 있는 Adobe Commerce
 exl-id: f7b09023-7129-4fd0-9bb5-02a2228bc148
 feature: Observability, Services, Storage, Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 IUse% > 90%입니까?
 
-a. 예 - 파일이 너무 많기 때문에 발생합니다. Adobe Commerce [클라우드 인프라에서 디스크 공간이 부족할 때 파일을 안전하게 삭제](/help/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md)하는 단계를 검토하십시오. 이 단계를 완료한 후 [2단계](#step-2)로 진행하십시오. 추가 공간을 요청하려면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하세요.\
+a. 예 - 파일이 너무 많기 때문에 발생합니다. Adobe Commerce [클라우드 인프라에서 디스크 공간이 부족할 때 파일을 안전하게 삭제](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889)하는 단계를 검토하십시오. 이 단계를 완료한 후 [2단계](#step-2)로 진행하십시오. 추가 공간을 요청하려면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하세요.\
 b. 아니요 - 공간을 확인합니다. CLI/터미널에서 `df -h | grep mysql`을(를) 실행한 다음 `df -h | grep tmp`을(를) 실행하여 `/tmp` 및 `/data/mysql` 디렉터리의 디스크 공간 사용량을 확인합니다. [3단계](#step-3)로 진행합니다.
 
 +++
@@ -93,4 +93,4 @@ b. 아니요 - [지원 티켓을 제출](/help/help-center-guide/help-center/mag
 
 ## 관련 읽기
 
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

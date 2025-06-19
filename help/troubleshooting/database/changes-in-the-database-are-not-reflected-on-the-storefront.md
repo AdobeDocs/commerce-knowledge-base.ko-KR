@@ -4,7 +4,7 @@ description: 이 문서에서는 엔티티 업데이트가 적용되지 않도�
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 원인
 
-인덱서가 [일정별로 업데이트되도록 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)되어 있는 경우 변경 로그가 너무 크거나 MySQL 트리거가 설정되지 않은 하나 이상의 테이블로 인해 문제가 발생할 수 있습니다.
+인덱서가 [일정별로 업데이트되도록 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)되어 있는 경우 변경 로그가 너무 크거나 MySQL 트리거가 설정되지 않은 하나 이상의 테이블로 인해 문제가 발생할 수 있습니다.
 
 ### 크기가 큰 변경 로그 테이블
 
@@ -71,7 +71,7 @@ select * from cron_schedule where job_code = "indexer_update_all_views" and stat
 
 >[!WARNING]
 >
->인덱서 모드를 전환하기 전에 데이터베이스 잠금을 방지하려면 웹 사이트를 [유지 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ko#maintenance-mode) 모드로 설정하고 [cron 작업을 사용하지 않도록 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=ko#disable-cron-jobs)하는 것이 좋습니다.
+>인덱서 모드를 전환하기 전에 데이터베이스 잠금을 방지하려면 웹 사이트를 [유지 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode) 모드로 설정하고 [cron 작업을 사용하지 않도록 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs)하는 것이 좋습니다.
 
 ```bash
 php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
@@ -83,6 +83,6 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## 관련 읽기
 
-* 지원 기술 자료에서 [[!DNL MySQL] 테이블이 너무 큽니다.](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/database/mysql-tables-are-too-large)
+* 지원 기술 자료에서 [[!DNL MySQL] 테이블이 너무 큽니다.](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945)
 * 개발자 설명서에서 [인덱싱: [!DNL Mview]](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

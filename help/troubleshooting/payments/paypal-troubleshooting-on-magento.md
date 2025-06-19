@@ -4,9 +4,9 @@ description: 이 문서에서는 PayPal을 통한 결제 처리, 특히 PayFlow 
 exl-id: f0772515-8456-4f08-84b4-aeef44516f2a
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ PayPal 결제 방법에 청구 계약 및 참조 트랜잭션과 함께 API가 �
 
 다음 문서를 참조하십시오.
 
-* [PayPal 게이트웨이에서 요청을 거부했습니다. 중복 송장 문제](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md)가 지원 기술 자료에서 발견되었습니다.
+* [PayPal 게이트웨이에서 요청을 거부했습니다. 중복 송장 문제](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838)가 지원 기술 자료에서 발견되었습니다.
 * 지원 기술 자료에서 [새 저장소 엔터티의 증분 ID를 변경](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)합니다.
 
 ## 고급 결제 로그를 수집하려면 지원 팀에 문의하십시오
