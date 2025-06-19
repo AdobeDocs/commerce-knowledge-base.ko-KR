@@ -42,4 +42,4 @@ Commerce 관리에서 검색 엔진을 변경하려고 하지만 필드가 잠�
 
 ## 관련 읽기
 
-* Cloud Infrastructure Guide의 Commerce Commerce Admin에서 [잠긴(회색으로 표시됨) 필드](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26879).
+* Cloud Infrastructure Guide의 Commerce Commerce Admin에서 [잠긴(회색으로 표시됨) 필드](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26879).

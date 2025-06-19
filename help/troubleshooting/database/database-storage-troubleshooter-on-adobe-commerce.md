@@ -30,7 +30,7 @@ ht-degree: 0%
 
 IUse% > 90%입니까?
 
-a. 예 - 파일이 너무 많기 때문에 발생합니다. Adobe Commerce [클라우드 인프라에서 디스크 공간이 부족할 때 파일을 안전하게 삭제](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889)하는 단계를 검토하십시오. 이 단계를 완료한 후 [2단계](#step-2)로 진행하십시오. 추가 공간을 요청하려면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하세요.\
+a. 예 - 파일이 너무 많기 때문에 발생합니다. Adobe Commerce [클라우드 인프라에서 디스크 공간이 부족할 때 파일을 안전하게 삭제](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26889)하는 단계를 검토하십시오. 이 단계를 완료한 후 [2단계](#step-2)로 진행하십시오. 추가 공간을 요청하려면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하세요.\
 b. 아니요 - 공간을 확인합니다. CLI/터미널에서 `df -h | grep mysql`을(를) 실행한 다음 `df -h | grep tmp`을(를) 실행하여 `/tmp` 및 `/data/mysql` 디렉터리의 디스크 공간 사용량을 확인합니다. [3단계](#step-3)로 진행합니다.
 
 +++
@@ -93,4 +93,4 @@ b. 아니요 - [지원 티켓을 제출](/help/help-center-guide/help-center/mag
 
 ## 관련 읽기
 
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
