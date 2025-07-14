@@ -4,7 +4,7 @@ description: Adobe Commerce은 다음 부 소프트웨어 릴리스의 일반 �
 exl-id: 4aa601d0-ee1d-4f1f-a684-188772a58dd1
 feature: Compliance, Support
 role: Admin
-source-git-commit: 2898089896cc2cdc88110a999564669341a52136
+source-git-commit: f11596ea844fead42141c7e1fea586b2a11f757a
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 Adobe Commerce은 다음 부 소프트웨어 릴리스의 일반 공급 날짜로부터 최소 12개월 동안 부 릴리스에 대한 품질 수정 사항을 제공합니다. 이 기간 동안 품질 수정 사항을 제공하는 방식은 다음과 같이 변경됩니다.
 
 * **이전 정책:** 현재 12개월 EOS 기간에 있는 이전 줄의 품질 수정 사항은 분기별 패치 릴리스를 통해 제공되므로 분기별 패치는 보안과 품질을 조합합니다.
-* **새 정책:** 2.4부터 가장 최신 마이너 릴리스 줄이므로 지원되는 이전 줄(2.3)에 대한 릴리스 패치는 보안 전용으로 이동합니다. 이전 지원 라인에 대한 품질 수정 사항은 마이너(예: 2.4) 및 후속 새로운 마이너 릴리스 라인의 출시 후 12개월 동안 계속 제공될 예정이지만, [품질 패치 도구(QPT)](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)를 통해 제공되며 중요한 문제에만 집중할 수 있습니다.
+* **새 정책:** 2.4부터 가장 최신 마이너 릴리스 줄이므로 지원되는 이전 줄(2.3)에 대한 릴리스 패치는 보안 전용으로 이동합니다. 이전 지원 라인에 대한 품질 수정 사항은 마이너(예: 2.4) 및 후속 새로운 마이너 릴리스 라인의 출시 후 12개월 동안 계속 제공될 예정이지만, [품질 패치 도구(QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)를 통해 제공되며 중요한 문제에만 집중할 수 있습니다.
 
 ## 이 정책은 언제 시행됩니까?
 
@@ -38,7 +38,7 @@ Adobe은 최신 릴리스 라인에도 보안 전용 릴리스를 계속 사용�
 
 ## 품질 패치 도구란 무엇입니까?
 
-릴리스된 [품질 패치 도구: 품질 패치를 자체 제공하는 새로운 도구](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) 문서를 지원 기술 자료에서 참조하십시오.
+릴리스된 [품질 패치 도구: 품질 패치를 자체 제공하는 새로운 도구](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) 문서를 지원 기술 자료에서 참조하십시오.
 
 ## 누가 이 새로운 정책을 사용하는 것을 고려해야 하는가?
 
@@ -50,7 +50,7 @@ Adobe은 최신 릴리스 라인에도 보안 전용 릴리스를 계속 사용�
 
 ## 최신 라인이 아닌 지원되는 부 버전에 대한 품질 수정 사항은 어떻게 받을 수 있습니까?
 
-[품질 패치 도구](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patche)를 통해 수정할 수 있습니다.
+[품질 패치 도구](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)를 통해 수정할 수 있습니다.
 
 ## 최신 제품에서 품질 수정을 받으려면 어떻게 해야 합니까?
 
