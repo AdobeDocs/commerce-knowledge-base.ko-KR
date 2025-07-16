@@ -3,9 +3,10 @@ title: Adobe Commerce에서 최대 쿠키 수 초과 오류
 description: 최대 쿠키 수를 초과한다고 발표하는 오류가 발생하는 Adobe Commerce 문제를 해결하는 방법에 대해 알아봅니다.
 feature: Deploy, Support, Upgrade, Tools and External Services
 role: Admin, Developer
-source-git-commit: 44e167c801bbcd313f74c9fc51f9cde9473ef96f
+exl-id: 5c42ea7a-f023-4d34-8417-bb470efc3b84
+source-git-commit: 87e98607ee5e1cc41e4266836fd09531a290725e
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -18,9 +19,9 @@ ht-degree: 0%
 
 다음 패치 중 하나가 적용된 Adobe Commerce(모든 배포 방법) 2.4.4 - 2.4.7
 
-* [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/release-notes)을(를) 사용하여 MDVA-12304 패치가 적용됨
-* [APSB25-08 격리 보안 패치](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
-* [!DNL Commerce] 1.1.4[&#128279;](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)용 클라우드 패치
+* [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)을(를) 사용하여 MDVA-12304 패치가 적용됨
+* [Adobe Commerce에 보안 업데이트 사용 가능 - APSB25-08](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27149)
+* [1.1.4 [!DNL Commerce] 용 ](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)클라우드 패치
 
 ## 문제
 
@@ -49,6 +50,6 @@ Adobe Commerce의 쿠키와 관련된 문제로 인해 오류 로그에 다음 �
 
 ### 관련 읽기
 
-* Adobe Commerce 업그레이드 가이드의 [패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/patches/apply)
-* Adobe Commerce 구현 플레이북의 [Adobe Commerce 패치를 대규모로 배포하는 모범 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale)
-* Commerce on Cloud 안내서의 [Commerce Cloud 도구 모음 릴리스 정보](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite).
+* Adobe Commerce 업그레이드 가이드의 [패치 적용](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/apply)
+* Adobe Commerce 구현 플레이북의 [Adobe Commerce 패치를 대규모로 배포하는 모범 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale)
+* Commerce on Cloud 안내서의 [Commerce Cloud 도구 모음 릴리스 정보](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite).

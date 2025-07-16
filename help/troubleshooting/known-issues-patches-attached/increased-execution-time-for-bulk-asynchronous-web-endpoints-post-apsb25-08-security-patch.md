@@ -3,9 +3,10 @@ title: APSB25-08 보안 패치 이후 대량 비동기 웹 엔드포인트의 �
 description: 이 문서에서는 APSB25-08 보안 패치를 적용한 후 1000+ 항목에 대한 POST rest/all/async/bulk/V1/products 요청에서 실행 시간이 크게 증가하는 문제에 대한 핫픽스를 제공합니다.
 feature: Security, Cache, REST, Products, Customers
 role: Admin, Developer
-source-git-commit: fce7f860b9fddd694b311ffc4acd56a48c06e14b
+exl-id: 784a48cb-1ef1-432b-b09f-ebcbb9bebf01
+source-git-commit: f0c2e20e0bd6dab713be59c1c686ee2948445bd4
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -55,8 +56,8 @@ APSB25-08 보안 패치를 적용한 후 항목이 1000개 이상인 `POST rest/
 
 ## 패치 적용 방법
 
-파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=ko)을 참조하십시오.
+파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)을 참조하십시오.
 
 ## 관련 읽기
 
-* [Adobe Commerce - APSB25-08에서 사용 가능한 보안 업데이트](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
+* [Adobe Commerce에 보안 업데이트 사용 가능 - APSB25-08](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27149)
