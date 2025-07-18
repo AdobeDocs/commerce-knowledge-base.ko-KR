@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 4d3f571c55feb4752037429b9708e71dcf2c571b
+source-git-commit: 2d9b1c0934e7f2646462a73a786e126ab29719b0
 workflow-type: tm+mt
-source-wordcount: '3164'
+source-wordcount: '3193'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
       * [Composer install 명령은 .gitigore 파일, Adobe Commerce을 감독합니다.](/help/troubleshooting/installation-and-upgrade/custom-gitignore-file-overridden.md)
       * [설치 중, PHP 날짜 경고](/help/troubleshooting/installation-and-upgrade/during-installation-php-date-warning.md)
       * [설치하는 동안 반사 예외 오류가 발생했습니다.](/help/troubleshooting/installation-and-upgrade/during-installation-reflection-exception-error.md)
-      * [setup:upgrade 실행 시 지역 코드가 설정되지 않음 오류](/help/troubleshooting/installation-and-upgrade/area-code-is-not-set-error-when-running-setup-upgrade.md)
+      * [설치 프로그램을 실행할 때 영역 코드가 설정되지 않음 오류 발생](/help/troubleshooting/installation-and-upgrade/area-code-is-not-set-error-when-running-setup-upgrade.md)
       * [설치 실패. install.log를 만들 수 없음](/help/troubleshooting/installation-and-upgrade/installation-fails-cannot-create-install-log.md)
       * [설치 중 예외](/help/troubleshooting/installation-and-upgrade/exceptions-during-installation.md)
       * [선택적 샘플 데이터를 설치하는 중 오류 발생](/help/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data.md)
@@ -114,7 +114,7 @@ ht-degree: 0%
       * [모든 Adobe Commerce 버전에서 Google 맵 액세스 손실에 대한 패치를 수정했습니다.](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 기타 {#miscellaneous}
       * [ [!DNL Commerce Data Exporter] 피드 및 [!DNL cron] 로그 테이블에서 업데이트되지 않은 데이터 수정 오류가 존재하지 않습니다.](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
-      * [[!DNL 오류  [!DNL opensearch] 검색 엔진이 없습니다.   livesearch] (으)로 돌아갑니다.](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
+      * [오류  [!DNL opensearch] 검색 엔진이 없습니다.  [!DNL livesearch](으)로 돌아갑니다.](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [내보내기 저장소가 거의 꽉 찼다는 이메일](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [구성 파일이 없거나 변경되었습니다.](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
       * [cURL 오류 60: SSL 인증서가 만료됨](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
@@ -266,7 +266,7 @@ ht-degree: 0%
       * [[!DNL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
       * [기존 클라우드 스타터 프로젝트에 대한 Adobe Commerce Intelligence 연결 구성](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
       * [[!DNL Google Tag Manager]이(가) 실시간 검색 위젯에 의해 손상되었습니다.](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
-      * [[!DNL 서드파티 보안 검색을 통해 발견된 취약점은 HackerOne] (으)로 이동해야 합니다.](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
+      * [서드파티 보안 검색을 통해 발견된 취약점은  [!DNL HackerOne](으)로 이동해야 합니다.](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
       * [2.4.2에서 2.4.5-p3로 업그레이드한 후 수천 개의 검색 결과를 가져오는 중](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2-4-5-p3.md)
       * [app/etc/env.php에서 검색 엔진을 변경할 수 없음](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [Magento-cloud CLI에 활성 환경이 표시되지 않음](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
@@ -286,10 +286,14 @@ ht-degree: 0%
       * [캐시 플러시 시 시 배포 실패: &quot;&#39;cache&#39; 네임스페이스에 정의된 명령이 없습니다.&quot; 오류](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
    * 알려진 문제 {#known-issues-patches-attached}
       * [저장소 보안 및 암호화 키 회전에 대한 지침:  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
-      * [관리자의 주문을 필터링할 때 오류 발생](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
-      * [허용 국가에서 아무것도 선택하지 않은 경우 사용자가 제품을 장바구니에 추가할 수 없음](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
-      * [Adobe Commerce 관리 URL 위치 공개됨](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
-      * [Braintree 결제가 활성화된 경우 책임자가 주문/재주문을 만들 수 없음](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
+      * [Adobe Commerce에 사용 가능한 보안 업데이트 - [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
+      * [암호화 키 회전 문제 해결: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
+      * [Adobe Commerce에서 사용할 수 있는 보안 업데이트 - [!DNL APSB24-40]  [!DNL CVE-2024-34102]에 대해 격리된 패치를 포함하도록 수정됨](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
+      * [[!DNL UPS]  [!DNL SOAP] 에서  [!DNL RESTful API](으)로 배송 방법 통합 마이그레이션](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
+      * [[!DNL USPS] AC-9182용 Ground Advantage 배송 방법 지원 핫픽스](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
+      * [Adobe Commerce 2.4.3-p2 - CVE-2022-35698용 2.4.5 보안 핫픽스](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
+      * [Adobe Commerce 2.4.4: 부분 송장을 생성할 수 없음](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
+      * [고급 검색에 가장 관련성이 높은 결과가 표시되지 않음](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [2.4.4에서 2.4.4-p1로 업그레이드한 후 패키지 다운그레이드됨](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [서버 이메일 주소에서 보낸 주문 이메일](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
       * [Adobe Commerce 2.4.6 관리 패널에서 순서 지정 중 오류 발생](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
@@ -301,7 +305,7 @@ ht-degree: 0%
       * [ [!DNL GraphQL]을(를) 통해 노출된 고객 그룹 이름, 세그먼트 및 프로모션 규칙 정보](/help/troubleshooting/known-issues-patches-attached/hotfix-for-exposed-customer-group-segments-promo-rules-information.md)
       * [Adobe Commerce - APSB25-50에서 사용 가능한 보안 업데이트](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-50.md)
    * Elasticsearch {#elasticsearch}
-      * [[!DNL 검색 엔진이  [!DNL Elasticsearch7] (으)로 설정된 경우   Opensearch] (으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+      * [검색 엔진이  [!DNL Elasticsearch7] (으)로 설정된 경우  [!DNL Opensearch](으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Adobe Commerce cloud infrastructure 2.3.1 이상 업그레이드 후 Elasticsearch 문제](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
       * [ElasticSuite 추적 인덱스로 인해 Elasticsearch 문제가 발생합니다.](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
       * [Elasticsearch이 제대로 설치되었는지 확인](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md)
