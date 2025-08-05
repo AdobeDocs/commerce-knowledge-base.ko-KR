@@ -1,12 +1,12 @@
 ---
-title: '"클래스를 코드 디렉터리에 저장할 수 없습니다" 오류"'
+title: '"클래스를 코드 디렉터리에 저장할 수 없습니다" 오류'
 description: 이 문서에서는 종속성을 지정하는 방식으로 인해 클래스가 즉시 자동 생성되지 않고 *"클래스가 생성된/코드 디렉터리에 저장될 수 없음"* 오류 메시지가 표시되는 문제를 해결하는 방법에 대해 설명합니다.
 exl-id: e2c00d4d-31c3-4446-a317-a8ac92c707d5
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 1. 로컬 환경에서 자동 생성된 클래스에 종속된 사용자 지정 클래스를 작성합니다.
 1. 사용자 지정 클래스가 트리거되는 시나리오를 실행하고 제대로 작동하는지 확인합니다.
 1. 통합 환경에 변경 사항을 커밋하고 푸시합니다. 이렇게 하면 배포 프로세스가 트리거됩니다. 배포가 완료되었습니다.
-1. [통합 환경](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)에서 사용자 지정 클래스가 트리거되는 시나리오를 실행합니다.
+1. [통합 환경](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)에서 사용자 지정 클래스가 트리거되는 시나리오를 실행합니다.
 
 <u>예상 결과</u>
 

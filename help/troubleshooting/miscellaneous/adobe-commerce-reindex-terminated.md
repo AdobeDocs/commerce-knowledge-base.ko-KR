@@ -1,12 +1,12 @@
 ---
-title: '''Adobe Commerce 클라우드: 리색인이 ''중단됨'' 메시지로 종료됨'''
+title: 'Adobe Commerce cloud: 리색인이 ''중단됨'' 메시지로 종료됨'
 description: '* 클라우드 인프라의 Adobe Commerce(모든 버전)'
 exl-id: 36ed9c9f-8280-41db-9df3-fe842dade4b1
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ PHP 프로세스에 메모리가 부족하기 때문에 일반적으로 발생�
 1. 제품 수를 줄입니다(해당되는 경우 고객 그룹 및 스토어 수 포함).
 1. 동시 사용자 한 명 또는 두 명으로 사용을 제한합니다.
 1. cron 작업을 비활성화하고 필요에 따라 수동으로 실행합니다.
-1. 이전에 수행한 적이 없는 경우 향상된 통합 환경으로 업그레이드를 요청하십시오. 업그레이드가 수행되면 제한되는 환경 수에 대한 제한 사항을 숙지하십시오. 자세한 내용은 지원 기술 자료에서 [통합 환경 개선 요청 - Pro 및 Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) 문서를 참조하십시오.
+1. 이전에 수행한 적이 없는 경우 향상된 통합 환경으로 업그레이드를 요청하십시오. 업그레이드가 수행되면 제한되는 환경 수에 대한 제한 사항을 숙지하십시오. 자세한 내용은 지원 기술 자료에서 [통합 환경 개선 요청 - Pro 및 Starter](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) 문서를 참조하십시오.
 
 ## 관련 읽기:
 
 개발자 설명서에서:
 
-* [Pro 아키텍처 > 통합 환경](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [시작 아키텍처 > 스테이징 환경](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
+* [Pro 아키텍처 > 통합 환경](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [시작 아키텍처 > 스테이징 환경](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)

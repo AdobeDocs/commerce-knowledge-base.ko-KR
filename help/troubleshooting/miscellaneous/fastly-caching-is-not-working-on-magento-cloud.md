@@ -4,7 +4,7 @@ description: 이 문서에서는 사이트에서 작동하지 않는 Fastly 캐�
 exl-id: 725949e9-b69b-456f-9c56-e2163143a71e
 feature: Cache, Cloud, Console, Paas
 role: Developer
-source-git-commit: 586a8c6340bfd2cbf773d1b009d6e106e930117d
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 0%
@@ -44,7 +44,7 @@ For example:
 
 ### curl 명령을 사용하여 테스트
 
-Magento 그런 다음 curl 명령을 사용하여 X-Tag가 있는지, 그리고 추가 헤더 정보가 있는지 확인합니다. 명령 형식은 스테이징 및 프로덕션에 따라 다릅니다.
+그런 다음 curl 명령을 사용하여 X-Magento-Tags와 추가 헤더 정보를 확인합니다. 명령 형식은 스테이징 및 프로덕션에 따라 다릅니다.
 
 이러한 명령에 대한 자세한 내용을 보려면 `-H "host:URL"`을(를) 삽입할 때 Fastly를 건너뛰고, 연결 위치에 원본(OneDrive 스프레드시트의 CNAME 정보)으로 바꾸고, `-k`에서 SSL을 무시하며, `-v`에서 자세한 응답을 제공합니다. 헤더가 올바르게 표시되면 라이브 사이트를 확인하고 헤더를 다시 확인합니다.
 
@@ -105,14 +105,14 @@ curl -k https://www.mymagento.biz.c.sv7gVom4qrpek.ent.magento.cloud -H 'Host: ww
 
 * 반환된 응답 헤더 및 값을 확인합니다.
 * Fastly-Magento-VCL-Uploaded가 있어야 합니다.
-* X-Magento-태그가 반환되어야 합니다.
+* X-Magento-Tags가 반환되어야 합니다.
 * Fastly-Module-Enabled는 Yes 또는 Fastly 확장 버전 번호여야 합니다.
 * X-Cache는 HIT 또는 HIT, HIT이어야 합니다.
 * x-cache-hits는 1,1이어야 합니다.
 * Cache-Control: max-age는 0보다 커야 합니다.
 * 프래그마는 캐시여야 합니다.
 
-Magento 다음 예제는 Pragma, X-Module-Tags 및 Fastly-Module-Enabled에 대한 올바른 값을 보여 줍니다.
+다음 예는 Pragma, X-Magento-Tags 및 Fastly-Module-Enabled에 대한 올바른 값을 보여줍니다.
 
 curl 명령의 출력은 길어질 수 있습니다. 다음은 요약만 제공합니다.
 
@@ -170,13 +170,13 @@ curl 명령의 출력은 길어질 수 있습니다. 다음은 요약만 제공�
    "fastly-magento2": {    "type": "vcs",    "url": "https://github.com/fastly/fastly-magento2.git"    }
    ```
 
-1. 구성 관리를 사용하는 경우 구성 파일이 있어야 합니다. app/etc/config.app.php(2.0, 2.1) 또는 app/etc/config.php(2.2) 파일을 편집하고 설정 `'Fastly_Cdn' => 1`이(가) 올바른지 확인하십시오. 설정이 `'Fastly_Cdn' => 0`이(가) 아니어야 합니다(사용 안 함).[Fastly]를 사용하도록 설정한 경우 구성 파일을 삭제하고 bin/magento magento-cloud:scd-dump 명령을 실행하여 업데이트하십시오. 이 파일에 대한 자세한 내용은 구성 안내서에서 [시스템별 설정 관리 예제](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html?lang=ko#manage-the-system-specific-configuration)를 참조하십시오.
+1. 구성 관리를 사용하는 경우 구성 파일이 있어야 합니다. app/etc/config.app.php(2.0, 2.1) 또는 app/etc/config.php(2.2) 파일을 편집하고 설정 `'Fastly_Cdn' => 1`이(가) 올바른지 확인하십시오. 설정이 `'Fastly_Cdn' => 0`(사용하지 않도록 설정됨)이(가) 아니어야 합니다. Fastly를 사용하도록 설정한 경우 구성 파일을 삭제하고 bin/magento magento-cloud:scd-dump 명령을 실행하여 업데이트하십시오. 이 파일에 대한 자세한 내용은 구성 안내서에서 [시스템별 설정 관리 예제](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration)를 참조하십시오.
 
-모듈이 설치되지 않은 경우 [통합 환경](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) 분기에 설치하여 스테이징 및 프로덕션에 배포해야 합니다. Commerce on Cloud Infrastructure Guide의 지침은 [Set up Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko)를 참조하십시오.
+모듈이 설치되지 않은 경우 [통합 환경](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) 분기에 설치하여 스테이징 및 프로덕션에 배포해야 합니다. Commerce on Cloud Infrastructure Guide의 지침은 [Set up Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)를 참조하십시오.
 
 ### Fastly-Magento-VCL-Uploaded가 없습니다.
 
-설치 및 구성 중에 Fastly VCL을 업로드해야 합니다. 이는 사용자가 생성하는 사용자 지정 VCL 스니펫이 아니라 Fastly 모듈에서 제공하는 기본 VCL 스니펫입니다. 자세한 내용은 Commerce on Cloud Infrastructure Guide의 [Upload Fastly VCL snippets](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko#upload-vcl-to-fastly)을(를) 참조하십시오.
+설치 및 구성 중에 Fastly VCL을 업로드해야 합니다. 이는 사용자가 생성하는 사용자 지정 VCL 스니펫이 아니라 Fastly 모듈에서 제공하는 기본 VCL 스니펫입니다. 자세한 내용은 Commerce on Cloud Infrastructure Guide의 [Upload Fastly VCL snippets](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly)을(를) 참조하십시오.
 
 ### X-Cache에 누락 포함
 
@@ -185,12 +185,12 @@ X-Cache가 HIT, MISS 또는 MISS, MISS인 경우 동일한 curl 명령을 다시
 동일한 결과를 얻으면 curl 명령을 사용하고 응답 헤더를 확인합니다.
 
 * Pragma가 캐시임
-* X-Magento-태그가 있음
+* X-Magento-Tags 존재
 * Cache-Control: max-age가 0보다 큼
 
 문제가 지속되면 다른 확장이 이러한 헤더를 재설정할 수 있습니다. 스테이징에서 다음 절차를 반복하여 문제를 일으키는 확장을 비활성화합니다. 문제를 일으키는 확장을 찾으면 프로덕션에서 확장을 비활성화해야 합니다.
 
-1. 확장을 비활성화하려면 Commerce on Cloud Infrastructure 안내서의 [확장 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=ko#manage-extensions) 섹션에 지정된 단계를 따릅니다.
+1. 확장을 비활성화하려면 Commerce on Cloud Infrastructure 안내서의 [확장 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions) 섹션에 지정된 단계를 따릅니다.
 1. 확장을 비활성화한 후 **[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**(으)로 이동합니다.
 1. **[!UICONTROL Flush Magento Cache]**&#x200B;을(를) 클릭합니다.
 1. 이제 한 번에 하나의 확장을 활성화하여 구성을 저장하고 캐시를 플러시합니다.
@@ -201,6 +201,6 @@ Fastly 헤더를 재설정하는 확장을 격리하면 확장 개발자에게 �
 
 ## 자세한 내용은 개발자 설명서를 참조하십시오.
 
-* [Fastly 정보](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=ko)
-* [빠르게 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko)
-* [사용자 지정 Fastly VCL 코드 조각](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=ko)
+* [Fastly 정보](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
+* [빠르게 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
+* [사용자 지정 Fastly VCL 코드 조각](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
