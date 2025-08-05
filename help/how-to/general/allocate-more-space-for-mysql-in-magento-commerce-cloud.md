@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 스타터 플랜 및 Pro 플랜 통합에 공간 할당
 
-모든 Starter 계획 환경 및 Pro 계획 [통합 환경](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)의 경우 `.magento/services.yaml` 매개 변수를 늘려 `mysql: disk:` 파일에서 MySQL에 더 많은 공간을 할당할 수 있습니다. For example:
+모든 Starter 계획 환경 및 Pro 계획 [통합 환경](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-27242)의 경우 `.magento/services.yaml` 매개 변수를 늘려 `mysql: disk:` 파일에서 MySQL에 더 많은 공간을 할당할 수 있습니다. For example:
 
 ```yaml
 mysql:
@@ -23,7 +23,7 @@ mysql:
     disk: 2048
 ```
 
-참조하려면 [MySQL 서비스 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql) 문서를 참조하십시오.
+참조하려면 [MySQL 서비스 설정](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/service/mysql) 문서를 참조하십시오.
 
 `.magento/services.yaml` 파일을 변경한 후에는 변경 내용을 커밋하고 푸시하여 적용해야 합니다. 푸시가 배포 프로세스를 트리거합니다.
 

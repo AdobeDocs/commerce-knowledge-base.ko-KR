@@ -26,7 +26,7 @@ ht-degree: 0%
 1. 로컬 환경에서 자동 생성된 클래스에 종속된 사용자 지정 클래스를 작성합니다.
 1. 사용자 지정 클래스가 트리거되는 시나리오를 실행하고 제대로 작동하는지 확인합니다.
 1. 통합 환경에 변경 사항을 커밋하고 푸시합니다. 이렇게 하면 배포 프로세스가 트리거됩니다. 배포가 완료되었습니다.
-1. [통합 환경](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)에서 사용자 지정 클래스가 트리거되는 시나리오를 실행합니다.
+1. [통합 환경](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-27242)에서 사용자 지정 클래스가 트리거되는 시나리오를 실행합니다.
 
 <u>예상 결과</u>
 

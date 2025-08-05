@@ -48,10 +48,10 @@ ht-degree: 0%
    > ```
 
 1. 파일에 변경 사항을 저장합니다.
-1. 편집된 파일을 [통합 환경](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)에 Git 푸시합니다.
+1. 편집된 파일을 [통합 환경](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-27242)에 Git 푸시합니다.
 
 Git에서 업데이트된 YAML 파일을 환경에 푸시하면 변경 사항이 적용됩니다.
 
 ## 관련 설명서
 
-* Adobe Commerce on Cloud Infrastructure 안내서의 [응용 프로그램 구성: 후크](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html).
+* Adobe Commerce on Cloud Infrastructure 안내서의 [응용 프로그램 구성: 후크](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=ko).
