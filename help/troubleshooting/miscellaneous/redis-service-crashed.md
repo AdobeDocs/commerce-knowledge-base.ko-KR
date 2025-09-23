@@ -43,7 +43,7 @@ redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_pe
 >
 >다음 CLI 명령을 실행하여 Redis 호스트 주소와 포트 번호를 검색할 수도 있습니다.
 >   
-```bash
+>   ```bash
 >   echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp
 >   ```
 
