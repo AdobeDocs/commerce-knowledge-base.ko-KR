@@ -4,9 +4,9 @@ description: 이 문서에서는 Redis 수정 방법을 권장합니다.
 exl-id: 5eb8fb70-0f41-433a-8d3f-c368781a2d1d
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 649e01b29b59bf77e6396acbeb7a83bd9c67e1ef
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,16 @@ redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_pe
 
 *REDIS\_PORT* 및 *REDIS\_HOST* 변수는 `app/etc/env.php`에서 검색할 수 있습니다.
 
-위의 쿼리를 실행한 결과 사용 가능한 메모리 비율이 40% 미만인 경우 Redis Server에서 `maxmemory` 설정의 증가를 요청하는 [Adobe Commerce 지원에 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)합니다. 제거된 키 값이 &quot;0&quot;이 아니거나 일 단위의 Redis 작동 시간이 0인 경우(Redis가 오늘 충돌했음을 나타냄) 이 문제에 대한 조사 및 수정 요청을 위해 [Adobe Commerce 지원에 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)해야 합니다.
+>[!NOTE]
+>
+>다음 CLI 명령을 실행하여 Redis 호스트 주소와 포트 번호를 검색할 수도 있습니다.
+>   
+```bash
+>   echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp
+>   ```
+
+
+위의 쿼리를 실행한 결과 사용 가능한 메모리 비율이 40% 미만인 경우 Redis Server에서 [ 설정의 증가를 요청하는 ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)Adobe Commerce 지원에 티켓을 제출`maxmemory`합니다. 제거된 키 값이 &quot;0&quot;이 아니거나 일 단위의 Redis 작동 시간이 0인 경우(Redis가 오늘 충돌했음을 나타냄) 이 문제에 대한 조사 및 수정 요청을 위해 [Adobe Commerce 지원에 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)해야 합니다.
 
 ## 관련 읽기
 
