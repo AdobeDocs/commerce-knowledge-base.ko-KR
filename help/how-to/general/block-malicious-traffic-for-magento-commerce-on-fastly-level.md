@@ -3,16 +3,18 @@ title: Fastly 수준에서 Adobe Commerce에 대한 악성 트래픽 차단
 description: 이 문서에서는 클라우드 인프라 스토어의 Adobe Commerce에서 DDoS 공격이 발생한다고 의심되는 경우 악성 트래픽을 차단하는 데 사용할 수 있는 단계를 제공합니다.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: b58e182c64b3fad508145d9078619ddbe0e2b887
+source-git-commit: 2555fbdb8a7a53d41c746df6414a7b0bad2de5d9
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
 
 # Fastly 수준에서 Adobe Commerce에 대한 악성 트래픽 차단
 
-이 문서에서는 클라우드 인프라 스토어의 Adobe Commerce에서 DDoS 공격이 발생한다고 의심되는 경우 악성 트래픽을 차단하는 데 사용할 수 있는 단계를 제공합니다.
+이 문서에서는 악의적인 위협에 응답할 뿐만 아니라 지리적 필터링 방법으로 스토어에 대한 원치 않는 트래픽을 차단하는 방법을 설명합니다.
+
+클라우드 인프라의 Adobe Commerce(및 Fastly CDN)는 DDoS 공격과 같은 악의적인 위협에 대응하여 스토어의 트래픽을 관리하는 도구를 제공합니다. 또한 악의적인 의도가 탐지되지 않더라도 비즈니스 정책, 규정 요구 사항 또는 기타 운영 요구 사항을 준수하기 위해 특정 국가 또는 지역의 요청을 차단할 수 있습니다.
 
 ## 영향을 받는 제품 및 버전:
 
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 웹 사이트가 DDoS에 의해 오버로드되는 경우 Commerce 관리자에 로그인하지 못할 수 있습니다(및 이 문서에 자세히 설명된 모든 단계를 수행).
 
-관리자에 액세스하려면 [유지 관리 모드 활성화 또는 비활성화](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)에 설명된 대로 웹 사이트를 유지 관리 모드로 전환하고 IP 주소를 허용 목록에 추가하십시오. 이 작업을 완료한 후 유지 관리 모드를 비활성화합니다.
+관리자에 액세스하려면 [유지 관리 모드 활성화 또는 비활성화](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)에 설명된 대로 웹 사이트를 유지 관리 모드로 전환하고 IP 주소를 허용 목록에 추가하십시오. 이 작업을 완료한 후 유지 관리 모드를 비활성화합니다.
 
 ## IP별 트래픽 차단
 
@@ -74,7 +76,7 @@ name: block_bad_useragents
 * 로봇은 `robots.txt`을(를) 무시할 수 있습니다. 특히 보안 취약점이 있는지 웹을 검색하는 멀웨어 로봇, 스패머가 사용하는 이메일 주소 추수기 등은 주의를 기울이지 않는다.
 * `robots.txt` 파일은 공개적으로 사용할 수 있는 파일입니다. 모든 사람이 사용자의 서버에서 로봇이 사용하지 않았으면 하는 섹션을 볼 수 있습니다.
 
-기본 정보 및 기본 Adobe Commerce `robots.txt` 구성은 개발자 설명서의 [검색 엔진 로봇](https://experienceleague.adobe.com/ko/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) 문서에서 확인할 수 있습니다.
+기본 정보 및 기본 Adobe Commerce `robots.txt` 구성은 개발자 설명서의 [검색 엔진 로봇](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) 문서에서 확인할 수 있습니다.
 
 `robots.txt`에 대한 일반 정보 및 권장 사항에 대해서는 다음을 참조하십시오.
 
@@ -86,4 +88,4 @@ name: block_bad_useragents
 ## 관련 읽기
 
 * [Cloud의 Adobe Commerce에 대한 제품별 라이선스 약관](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
-* Commerce on Cloud Guide의 [차단 요청에 대한 사용자 지정 VCL](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)
+* Commerce on Cloud Guide의 [차단 요청에 대한 사용자 지정 VCL](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)
