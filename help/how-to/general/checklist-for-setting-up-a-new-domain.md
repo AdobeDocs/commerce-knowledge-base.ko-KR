@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 2단계 - [!DNL Staging environment]: [!DNL Pro] 또는 [!DNL Starter]에 계십니까?
 
-* **[!DNL Pro]**: **요청을 제출**&#x200B;하여 [!DNL Fastly, Nginx]에 도메인을 추가하고 [!DNL SSL certificate]과(와) 필요한 경우 [!DNL Sendgrid domain]을(를) 구성합니다. 구성이 완료되면 [구성을  [!DNL DNS]  [!DNL development settings](으)로 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings)업데이트합니다.
+* **[!DNL Pro]**: **요청을 제출**&#x200B;하여 [!DNL Fastly, Nginx]에 도메인을 추가하고 [!DNL SSL certificate]과(와) 필요한 경우 [!DNL Sendgrid domain]을(를) 구성합니다. 구성이 완료되면 [구성을  [!DNL DNS]  [!DNL development settings] (으)로 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings)업데이트합니다.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->사용 안내서의 [!DNL domain] > [!DNL Fastly] > [!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** **[!UICONTROL Full Page Cache]****[!DNL Fastly Configuration]**&#x200B;에서 **[!UICONTROL Domains]**&#x200B;의 구성을 업데이트하여 새 [[!DNL Manage domains]을(를) 직접 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains)에 추가할 수 있습니다.
+>사용 안내서의 [!DNL domain] > [!DNL Fastly] > [!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** **[!UICONTROL Full Page Cache]**&#x200B;**[!DNL Fastly Configuration]**&#x200B;에서 **[!UICONTROL Domains]**&#x200B;의 구성을 업데이트하여 새 [[!DNL Manage domains]을(를) 직접 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains)에 추가할 수 있습니다.
 >
 >
 >도메인을 추가할 수 없는 경우 다음 이유 중 하나가 원인일 수 있습니다.
