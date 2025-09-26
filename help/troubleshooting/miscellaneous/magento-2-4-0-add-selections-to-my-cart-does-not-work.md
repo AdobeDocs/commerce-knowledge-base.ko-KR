@@ -41,6 +41,6 @@ Adobe Commerce이 선택 사항을 내 장바구니에 추가하지 않습니다
 
 ## 관련 읽기
 
-* 사용 안내서의 [장바구니 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage).
+* 사용 안내서의 [장바구니 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage).
 * [Adobe Commerce 2.4.0 알려진 문제: 지원 기술 자료에서 수출 세율이 작동하지 않습니다](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md).
 * [Adobe Commerce 2.4.0 알려진 문제: 지원 기술 자료의 여러 주소 체크아웃](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)에 Braintree 결제 방법이 표시되지 않습니다.
