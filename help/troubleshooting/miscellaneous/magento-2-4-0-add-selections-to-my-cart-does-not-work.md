@@ -1,12 +1,12 @@
 ---
-title: '"Adobe Commerce 2.4.0: "장바구니에 선택 항목 추가"가 작동하지 않음"'
+title: 'Adobe Commerce 2.4.0: "장바구니에 선택 항목 추가"가 작동하지 않음'
 description: 이 문서에서는 고객의 장바구니를 관리할 때 Commerce 관리자의 알려진 버튼 손상 문제에 대한 해결 방법을 제공합니다. 선택한 제품을 고객의 장바구니에 추가하려고 할 때 섹션 하단에 있는 **내 장바구니에 선택 항목 추가** 단추가 작동하지 않습니다. 이 문제는 두 개의 **내 장바구니에 선택 항목 추가** 단추가 있는 관리 패널 페이지에서 발생합니다. Adobe Commerce 2.4.1에서 영구 수정 사항을 사용할 수 있습니다.
 exl-id: b0830ec2-2aea-4afb-8d02-e9c8f54283be
 feature: Orders, Shopping Cart
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,6 @@ Adobe Commerce이 선택 사항을 내 장바구니에 추가하지 않습니다
 
 ## 관련 읽기
 
-* 사용 안내서의 [장바구니 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage).
-* [Adobe Commerce 2.4.0 알려진 문제: 원시 메시지 데이터가 지원 기술 자료의 상점](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)에 표시됩니다.
+* 사용 안내서의 [장바구니 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage).
 * [Adobe Commerce 2.4.0 알려진 문제: 지원 기술 자료에서 수출 세율이 작동하지 않습니다](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md).
 * [Adobe Commerce 2.4.0 알려진 문제: 지원 기술 자료의 여러 주소 체크아웃](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)에 Braintree 결제 방법이 표시되지 않습니다.

@@ -4,9 +4,9 @@ description: 이 문서에서는 B2B Quote 를 관리할 때 Commerce 관리자�
 exl-id: 73f7231b-b496-4250-b9e2-29427c772d56
 feature: Admin Workspace, B2B, Catalog Management, Configuration, Products, Quotes
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,5 @@ ht-degree: 0%
 ## 관련 읽기
 
 * [Adobe Commerce 2.4.0 알려진 문제: 고객의 활동에 대한 새로 고침이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Adobe Commerce 2.4.0 알려진 문제: Storefront에 원시 메시지 데이터 표시](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
 * [Adobe Commerce 2.4.0 알려진 문제: 수출 세율이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
-* [Adobe Commerce 2.4.0 알려진 문제: 주문 표시 오류](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
+

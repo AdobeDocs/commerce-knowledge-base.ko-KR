@@ -4,9 +4,9 @@ description: 이 문서에서는 가상 제품이 포함된 다중 배송 주문
 exl-id: 34ce79a2-5157-492b-8ee4-bdc09aae0c40
 feature: Orders, Products, Shipping/Delivery
 role: Developer
-source-git-commit: b3d39e6b02728f05f046adf7be94ffacbca944d5
+source-git-commit: 60f68b9edabd13a69e84705b85d84fd10ee6e2be
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -44,9 +44,7 @@ ht-degree: 0%
 
 지원 기술 자료에서:
 
-* [Adobe Commerce 2.3.5의 제품 비교 알려진 문제](/help/troubleshooting/storefront/product-comparison-known-issue-in-magento-2-3-5.md)
 * [Adobe Commerce 2.3.5의 대량 작업 제품 수 알려진 문제](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
-* [Amazon용 패치 Adobe Commerce 2.3.5-p1 의 결제 체크아웃 문제](/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md)
 
 개발자 설명서에서:
 

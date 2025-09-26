@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 446b3f6d49a5534187bb8706d5cf6068d8f40fec
+source-git-commit: 2b12aeb9227944fc80da50d50fbc5668f4622269
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 0%
       * [느린 쿼리 및 프로세스 MySQL 확인](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
       * [데이터베이스를 업로드하면 MySQL에 대한 연결이 끊어집니다.](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
       * [데이터베이스의 변경 사항은 상점 앞에 반영되지 않습니다](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)
-      * [MySQL 교착 상태](/help/troubleshooting/database/deadlocks-in-mysql.md)
       * [클라우드 인프라에서 Adobe Commerce의 MySQL 고부하 병목 현상](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md)
       * [MySQL Server가 클라우드의 Adobe Commerce&#x200B;에서 오류를 제거했습니다.](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
       * [클라우드 인프라의 Adobe Commerce에서 MySQL 디스크 공간 부족](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)
@@ -56,8 +55,6 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.0 Braintree 가상 터미널 페이지가 손상됨](/help/troubleshooting/payments/magento-2-4-0-known-issue-braintree-virtual-terminal-page-is-corrupted.md)
       * [다른 도메인의 책임자 및 프론트로부터 사이버소스 결제가 처리되지 않음](/help/troubleshooting/payments/cybersource-payment-from-admin-and-front-on-different-domains-not-processed.md)
       * [Adobe Commerce 2.4.0 알려진 문제: Amazon pay, 결제 방법 없음](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
-      * [Adobe Commerce 2.3.7-p1의 알려진 문제: PayPal에 대한 이전 주문 총계](/help/troubleshooting/payments/paypal-price-known-issue-commerce-237p1.md)
-      * [Amazon용 패치 Adobe Commerce 2.3.5-p1 의 결제 체크아웃 문제](/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md)
       * [Adobe Commerce 2.4.0: 로컬 결제를 선택하는 동안 체크아웃 오류 발생](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
       * [PayPal Payflow Pro 액티브 카딩 활동](/help/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.md)
       * [Adobe Commerce에서 PayPal 문제 해결](/help/troubleshooting/payments/paypal-troubleshooting-on-magento.md)
@@ -65,18 +62,11 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.2 B2B: 할인은 결제 방법 변경 사항으로 남음](/help/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change.md)
       * [Adobe Commerce 2.4.2: Braintree Venmo 결제가 작동하지 않음](/help/troubleshooting/payments/magento-2-4-2-braintree-venmo-payment-does-not-work.md)
       * [여러 주소가 있는 체크아웃 시 결제 방법이 표시되지 않음](/help/troubleshooting/payments/payment-methods-not-displayed-on-checkout-with-multiple-addresses.md)
-      * [EU 고객이 지불을 완료할 수 없음](/help/troubleshooting/payments/eu-customers-cannot-complete-payments.md)
       * [Adobe Commerce 2.4.0 알려진 문제: Klarna 온사이트 메시징 빈 페이지](/help/troubleshooting/payments/magento-2-4-0-known-issue-klarna-on-site-messaging-blank-pages.md)
    * 상점 첫 화면 {#storefront}
-      * [Adobe Commerce 2.4.0 알려진 문제: 주문 표시 오류](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
       * [Adobe Commerce 온-프레미스 2.4.2: 제품 이미지 누락](/help/troubleshooting/storefront/adobe-commerce-2-4-2-on-prem-product-image-missing.md)
-      * [설치 후 이미지와 스타일시트는 로드되지 않고 텍스트만 표시되고 그래픽은 표시되지 않습니다](/help/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.md)
       * [제품이 상점 앞에 표시되지 않음](/help/troubleshooting/storefront/product-is-not-displayed-on-storefront.md)
-      * [Adobe Commerce 2.4.0 문제: storefront raw 메시지 데이터 표시](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
-      * [Adobe Commerce 2.3.5에서 체크아웃 중 크레딧 문제 저장](/help/troubleshooting/storefront/store-credit-issue-during-checkout-in-magento-2-3-5.md)
       * [배포 후 표시되지 않는 이미지 저장](/help/troubleshooting/storefront/store-images-not-displayed-after-deployment.md)
-      * [Adobe Commerce 2.3.5의 제품 비교 알려진 문제](/help/troubleshooting/storefront/product-comparison-known-issue-in-magento-2-3-5.md)
-      * [Adobe Commerce 2.4.0: 다중 배송 체크아웃 시 보상 포인트를 제거하는 도중 404 오류 발생](/help/troubleshooting/storefront/magento-2-4-0-404-error-removing-rewards-points-on-multi-shipping-checkout.md)
       * [고객이 Adobe Commerce 상점 첫 화면에서 로그아웃되거나 장바구니 콘텐츠가 손실됨](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
       * [연락처를 URL 키로 저장할 수 없음](/help/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.md)
    * 설치 및 업그레이드 {#installation-and-upgrade}
@@ -107,7 +97,7 @@ ht-degree: 0%
       * [모든 Adobe Commerce 버전에서 Google 맵 액세스 손실에 대한 패치를 수정했습니다.](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 기타 {#miscellaneous}
       * [ [!DNL Commerce Data Exporter] 피드 및 [!DNL cron] 로그 테이블에서 업데이트되지 않은 데이터 수정 오류가 존재하지 않습니다.](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
-      * [[!DNL 오류  [!DNL opensearch] 검색 엔진이 없습니다.   livesearch] (으)로 돌아갑니다.](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
+      * [오류  [!DNL opensearch] 검색 엔진이 없습니다.  [!DNL livesearch](으)로 돌아갑니다.](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [내보내기 저장소가 거의 꽉 찼다는 이메일](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [구성 파일이 없거나 변경되었습니다.](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
       * [cURL 오류 60: SSL 인증서가 만료됨](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
@@ -259,7 +249,7 @@ ht-degree: 0%
       * [[!DNL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
       * [기존 클라우드 스타터 프로젝트에 대한 Adobe Commerce Intelligence 연결 구성](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
       * [[!DNL Google Tag Manager]이(가) 실시간 검색 위젯에 의해 손상되었습니다.](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
-      * [[!DNL 서드파티 보안 검색을 통해 발견된 취약점은 HackerOne] (으)로 이동해야 합니다.](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
+      * [서드파티 보안 검색을 통해 발견된 취약점은  [!DNL HackerOne](으)로 이동해야 합니다.](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
       * [2.4.2에서 2.4.5-p3로 업그레이드한 후 수천 개의 검색 결과를 가져오는 중](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2-4-5-p3.md)
       * [app/etc/env.php에서 검색 엔진을 변경할 수 없음](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [Magento-cloud CLI에 활성 환경이 표시되지 않음](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
@@ -280,7 +270,7 @@ ht-degree: 0%
    * 알려진 문제 {#known-issues-patches-attached}
       * [저장소 보안 및 암호화 키 회전에 대한 지침:  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
    * Elasticsearch {#elasticsearch}
-      * [[!DNL 검색 엔진이  [!DNL Elasticsearch7] (으)로 설정된 경우   Opensearch] (으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+      * [검색 엔진이  [!DNL Elasticsearch7] (으)로 설정된 경우  [!DNL Opensearch](으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Adobe Commerce cloud infrastructure 2.3.1 이상 업그레이드 후 Elasticsearch 문제](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
       * [ElasticSuite 추적 인덱스로 인해 Elasticsearch 문제가 발생합니다.](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
       * [Elasticsearch이 제대로 설치되었는지 확인](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md)

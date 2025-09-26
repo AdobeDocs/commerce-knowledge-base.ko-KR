@@ -4,9 +4,9 @@ description: 이 문서에서는 **수출 세율** 버튼이 작동하지 않는
 exl-id: 29a34a1f-d23a-43cb-ac1f-8711ce25fa6c
 feature: Data Import/Export, Orders
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,6 @@ ht-degree: 0%
 
 지원 기술 자료에서:
 
-* [Adobe Commerce 2.4.0 알려진 문제: Braintree 결제 방법이 다중 주소 체크아웃에 표시되지 않습니다](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md).
+* [Adobe Commerce 2.4.0 알려진 문제: Braintree 결제 방법이 여러 주소 체크아웃에 표시되지 않습니다](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md).
 * [Adobe Commerce 2.4.0 알려진 문제 - 고객 활동에 대한 새로 고침이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md).
-* [Adobe Commerce 2.4.0 알려진 문제: 원시 메시지 데이터가 상점 앞에 표시됨](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md).
 * [Adobe Commerce 2.4.0 알려진 문제: &quot;선택 항목을 내 장바구니에 추가&quot; 단추가 작동하지 않습니다](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md).

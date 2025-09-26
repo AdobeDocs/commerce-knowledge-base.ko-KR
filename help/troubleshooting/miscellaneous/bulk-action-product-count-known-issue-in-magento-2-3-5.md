@@ -4,9 +4,9 @@ description: 이 문서에서는 관리자의 대량 작업 후 판매자가 받
 exl-id: 3ede15d4-4c39-442a-8784-2d5e6650fe67
 feature: Products
 role: Developer
-source-git-commit: b3d39e6b02728f05f046adf7be94ffacbca944d5
+source-git-commit: ce456c46653c826b38c590eef89b67bea87ca605
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,4 @@ ht-degree: 0%
 
 * Adobe Commerce 2.3.5의 알려진 문제에 대한 Adobe Commerce 지원 기술 문서
    * [Adobe Commerce 2.3.5에서 가상 제품이 올바르게 처리되지 않는 다중 배송 주문](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
-   * [Adobe Commerce 2.3.5의 제품 비교 알려진 문제](/help/troubleshooting/storefront/product-comparison-known-issue-in-magento-2-3-5.md)
-   * [Amazon용 패치 Adobe Commerce 2.3.5-p1 의 결제 체크아웃 문제](/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md)
    * [개발자 설명서의 Adobe Commerce 2.3.5 알려진 문제](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
