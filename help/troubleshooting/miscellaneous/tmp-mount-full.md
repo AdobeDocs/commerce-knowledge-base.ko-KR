@@ -4,9 +4,9 @@ description: 이 문서에서는 "/tmp" 마운트가 꽉 차고, 사이트가 �
 exl-id: e72d0f99-0060-474b-bb1c-2851896e1e43
 feature: Storage
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: aa4cfbceb745f1a06b8a8f9e93cbdebbc151458b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -92,9 +92,9 @@ Use%가 70% 미만인지 확인합니다. Inode는 파일과 관련이 있습니
 
 #### MySQL 공간 확인 및 사용 가능
 
-[MySQL 디스크 공간이 클라우드 인프라의 Adobe Commerce에 부족함 > 지원 기술 자료에서 저장소 공간 확인 및 사용 중지](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md#check_and_free)의 지침을 따르십시오.
+[MySQL 디스크 공간이 클라우드 인프라의 Adobe Commerce에 부족함 > 지원 기술 자료에서 저장소 공간 확인 및 사용 중지](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806#check-and-free-up-storage-space)의 지침을 따르십시오.
 
-#### Elasticsearch 덤프 확인
+#### Elasticsearch 힙 덤프 확인
 
 >[!WARNING]
 >
@@ -120,7 +120,7 @@ find /tmp/*.hprof -type f -delete
 
 `/tmp`이(가) 가득 찬 문제가 발생하지 않도록 하려면 다음 권장 사항을 따르십시오.
 
-* 검색에 MySQL을 사용하지 마십시오. Elasticsearch을 사용하면 대부분의 무거운 임시 테이블을 만들 필요가 없습니다. 개발자 설명서에서 [Elasticsearch을 사용하도록 Adobe Commerce 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/search/configure-search-engine)을 참조하십시오.
+* 검색에 MySQL을 사용하지 마십시오. Elasticsearch for search를 사용하면 일반적으로 대량의 임시 테이블을 만들 필요가 없습니다. 개발자 설명서에서 [Elasticsearch을 사용하도록 Adobe Commerce 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine)을 참조하십시오.
 * 인덱스가 없는 열에서 `SELECT` 쿼리를 실행하지 마십시오. 이렇게 하면 많은 양의 임시 디스크 공간이 사용되기 때문입니다. 색인을 추가할 수도 있습니다.
 * CLI에서 다음 명령을 실행하여 `/tmp`을(를) 정리할 cron을 만드십시오.
 
@@ -130,4 +130,4 @@ find /tmp/*.hprof -type f -delete
 
 ## 관련 읽기
 
-지원 기술 자료의 [클라우드 인프라의 Adobe Commerce에서 MySQL 디스크 공간이 부족합니다](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md).
+지원 기술 자료의 [클라우드 인프라의 Adobe Commerce에서 MySQL 디스크 공간이 부족합니다](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806).
