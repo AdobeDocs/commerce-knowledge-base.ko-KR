@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 스냅샷을 통합 환경으로 가져오는 경우 데이터베이스 크기를 고려해야 합니다. 대용량 데이터베이스는 가져오기 후 성능 저하를 초래할 수 있습니다. 먼저 스냅샷을 스테이징 또는 로컬 환경으로 가져와서 통합으로 전송하기 전에 크기를 검토하고 줄이는 것이 좋습니다. 또한 가져오기 후에 성능 문제가 발생하는 경우 통합 분기에 cron 작업을 비활성화하는 것이 좋습니다. 자세한 내용은 Commerce on Cloud Infrastructure 안내서의 [통합 환경](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment)을 참조하십시오.
+> 스냅샷을 통합 환경으로 가져오는 경우 데이터베이스 크기를 고려해야 합니다. 대용량 데이터베이스는 가져오기 후 성능 저하를 초래할 수 있습니다. 먼저 스냅샷을 스테이징 또는 로컬 환경으로 가져와서 통합으로 전송하기 전에 크기를 검토하고 줄이는 것이 좋습니다. 또한 가져오기 후에 성능 문제가 발생하는 경우 통합 분기에 cron 작업을 비활성화하는 것이 좋습니다. 자세한 내용은 Commerce on Cloud Infrastructure 안내서의 [통합 환경](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment)을 참조하십시오.
 
 * [메서드 1: 데이터베이스를 로컬 컴퓨터로 전송 [!DNL dump] 하고 가져오기](#meth2).
 * [메서드 2:  [!DNL dump] 서버에서 직접 데이터베이스 가져오기](#meth3).
@@ -83,7 +83,7 @@ ht-degree: 0%
    ```
 
 1. [!DNL dump file] 데이터베이스(예: `<cluster ID>.sql.gz`의 경우 [!DNL Production], `<cluster ID_stg>.sql.gz`의 경우 [!DNL Staging])를 로컬 컴퓨터에 복사합니다.
-1. 개발자 설명서에서 데이터베이스에 원격으로 연결하도록 [!DNL SSH tunnel]을(를) 설정했습니다. [[!DNL SSH] 및 [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn).
+1. 개발자 설명서에서 데이터베이스에 원격으로 연결하도록 [!DNL SSH tunnel]을(를) 설정했습니다. [[!DNL SSH] 및 [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn).
 1. 데이터베이스에 연결합니다.
 
    ```bash
@@ -179,6 +179,6 @@ ht-degree: 0%
 
 개발자 설명서에서:
 
-* [코드 가져오기: 데이터베이스를 가져옵니다](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots] 및 [!DNL backup] 관리: [!DNL Dump] 데이터베이스](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [클라우드의 백업(스냅숏): FAQ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [코드 가져오기: 데이터베이스를 가져옵니다](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] 및 [!DNL backup] 관리: [!DNL Dump] 데이터베이스](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [클라우드의 백업(스냅숏): FAQ](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
