@@ -60,7 +60,7 @@ php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 
 Adobe에서 관리하는 SendGrid 서비스를 사용하는 경우:
 
-SendGrid를 사용하여 전송 도메인을 인증하도록 요청하는 [지원 티켓을 제출](https://experienceleague.adobe.com/home?support-tab=home#support)&#x200B;(*흰색 레이블*이라고도 함).
+SendGrid를 사용하여 전송 도메인을 인증하도록 요청하는 [지원 티켓을 제출](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)&#x200B;(*흰색 레이블*이라고도 함).
 이 프로세스에는 DNS 레코드(DKIM 및 SPF)를 추가하여 SendGrid가 도메인을 대신하여 이메일을 보내도록 승인하는 작업이 포함되며, 이렇게 하면 이메일이 스팸 폴더가 아닌 받은 편지함으로 배달될 가능성이 높아집니다.
 
 고유한 SendGrid 계정을 사용하는 경우:
@@ -74,4 +74,4 @@ SendGrid 계정 대시보드 내에서 직접 도메인 인증 설정을 관리�
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid)
+* 개발자 설명서에서 [SendGrid](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/project/sendgrid)
