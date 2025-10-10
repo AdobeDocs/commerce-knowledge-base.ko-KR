@@ -2,22 +2,22 @@
 title: 스테이징 또는 프로덕션에서 DB 스냅샷 복원
 description: 이 문서에서는 클라우드 인프라의 Adobe Commerce에서 스테이징 또는 프로덕션에서 DB 스냅샷을 복원하는 방법을 보여 줍니다.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: 193b5118342f380cef925766c0f7956a6592800c
+source-git-commit: 62815213ce54f72d27812b9c2d7b3997f2e88897
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # [!DNL Staging] 또는 [!DNL Production]에서 DB 스냅숏 복원
 
-이 문서에서는 Cloud Pro 인프라의 Adobe Commerce에서 [!DNL Staging] 또는 [!DNL Production]에서 DB [!DNL snapshot]을(를) 복원하는 방법을 보여 줍니다.
+이 문서에서는 Cloud Pro 인프라의 Adobe Commerce에서 [!DNL snapshot] 또는 [!DNL Staging]에서 DB [!DNL Production]을(를) 복원하는 방법을 보여 줍니다.
 
 
 >[!NOTE]
 >
->이 메서드는 **전체 스냅숏**&#x200B;을 복원합니다.
->&#x200B;>**부분적으로** 스냅숏을 복원해야 하는 경우(예: 주문 테이블은 그대로 두고 카탈로그 테이블만 복원해야 하는 경우) 개발자 또는 DBA와 상담해야 합니다.
+>이 메서드는 **전체 스냅숏**을 복원합니다.
+>>**부분적으로** 스냅숏을 복원해야 하는 경우(예: 주문 테이블은 그대로 두고 카탈로그 테이블만 복원해야 하는 경우) 개발자 또는 DBA와 상담해야 합니다.
 
 
 ## 영향을 받는 제품 및 버전
@@ -25,6 +25,10 @@ ht-degree: 0%
 * 클라우드 인프라의 Adobe Commerce, [지원되는 모든 버전](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 사용 사례에 가장 적합한 항목 선택:
+
+>[!NOTE]
+>
+> 스냅샷을 통합 환경으로 가져오는 경우 데이터베이스 크기를 고려해야 합니다. 대용량 데이터베이스는 가져오기 후 성능 저하를 초래할 수 있습니다. 먼저 스냅샷을 스테이징 또는 로컬 환경으로 가져와서 통합으로 전송하기 전에 크기를 검토하고 줄이는 것이 좋습니다. 또한 가져오기 후에 성능 문제가 발생하는 경우 통합 분기에 cron 작업을 비활성화하는 것이 좋습니다. 자세한 내용은 Commerce on Cloud Infrastructure 안내서의 [통합 환경](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment)을 참조하십시오.
 
 * [메서드 1: 데이터베이스를 로컬 컴퓨터로 전송 [!DNL dump] 하고 가져오기](#meth2).
 * [메서드 2:  [!DNL dump] 서버에서 직접 데이터베이스 가져오기](#meth3).
@@ -78,8 +82,8 @@ ht-degree: 0%
    --init-command="SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT ;SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS ;SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION ;SET NAMES utf8 ;SET @OLD_TIME_ZONE=@@TIME_ZONE ;SET TIME_ZONE='+00:00' ;SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 ;SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 ;SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' ;SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0;"
    ```
 
-1. [!DNL dump file] 데이터베이스(예: [!DNL Production]의 경우 `<cluster ID>.sql.gz`, [!DNL Staging]의 경우 `<cluster ID_stg>.sql.gz`)를 로컬 컴퓨터에 복사합니다.
-1. 개발자 설명서에서 데이터베이스에 원격으로 연결하도록 [!DNL SSH tunnel]을(를) 설정했습니다. [[!DNL SSH] 및 [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn).
+1. [!DNL dump file] 데이터베이스(예: `<cluster ID>.sql.gz`의 경우 [!DNL Production], `<cluster ID_stg>.sql.gz`의 경우 [!DNL Staging])를 로컬 컴퓨터에 복사합니다.
+1. 개발자 설명서에서 데이터베이스에 원격으로 연결하도록 [!DNL SSH tunnel]을(를) 설정했습니다. [[!DNL SSH] 및 [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn).
 1. 데이터베이스에 연결합니다.
 
    ```bash
@@ -175,6 +179,6 @@ ht-degree: 0%
 
 개발자 설명서에서:
 
-* [코드 가져오기: 데이터베이스를 가져옵니다](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots] 및 [!DNL backup] 관리: [!DNL Dump] 데이터베이스](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [클라우드의 백업(스냅숏): FAQ](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [코드 가져오기: 데이터베이스를 가져옵니다](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] 및 [!DNL backup] 관리: [!DNL Dump] 데이터베이스](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [클라우드의 백업(스냅숏): FAQ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
