@@ -4,9 +4,9 @@ description: 이 문서에서는 클라우드 인프라의 Adobe Commerce에서 
 exl-id: 7ab6b2b4-6aca-4323-a45b-2b4e52955160
 feature: Admin Workspace, Communications
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 9eaea028886e74fc06c9516801919cd7f650f98c
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,24 @@ ht-degree: 0%
 php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 ```
 
-스팸 폴더에서 이메일을 확인합니다. 전자 메일이 여기에 표시되면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login)하여 SendGrid에서 흰색 레이블이 지정되도록 도메인을 요청합니다.
+스팸 폴더에서 이메일을 확인합니다.
+
+이메일이 스팸 폴더에 표시된 경우 도메인의 이메일 인증이 SendGrid를 통한 아웃바운드 게재에 대해 완전히 구성되지 않을 수 있습니다.
+
+Adobe에서 관리하는 SendGrid 서비스를 사용하는 경우:
+
+SendGrid를 사용하여 전송 도메인을 인증하도록 요청하는 [지원 티켓을 제출](https://experienceleague.adobe.com/home?support-tab=home#support)&#x200B;(*흰색 레이블*이라고도 함).
+이 프로세스에는 DNS 레코드(DKIM 및 SPF)를 추가하여 SendGrid가 도메인을 대신하여 이메일을 보내도록 승인하는 작업이 포함되며, 이렇게 하면 이메일이 스팸 폴더가 아닌 받은 편지함으로 배달될 가능성이 높아집니다.
+
+고유한 SendGrid 계정을 사용하는 경우:
+
+SendGrid 계정 대시보드 내에서 직접 도메인 인증 설정을 관리할 책임이 있습니다. 자세한 내용은 SendGrid 설명서의 [도메인 인증을 설정하는 방법](https://www.twilio.com/docs/sendgrid/ui/account-and-settings/how-to-set-up-domain-authentication)을 참조하십시오.
+
+>[!NOTE]
+>
+>일부 고객은 이메일 전달성 및 규정 준수(예: HIPAA 요구 사항)를 완벽하게 제어하기 위해 별도로 프로비저닝된 SendGrid 서비스를 사용하도록 선택할 수 있습니다. 사용 중인 SendGrid 서비스 유형(Adobe 관리 및 자체 관리)에 따라 올바른 문제 해결 단계를 따르고 있는지 확인합니다.
+
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [SendGrid](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/project/sendgrid)
+* 개발자 설명서에서 [SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid)
