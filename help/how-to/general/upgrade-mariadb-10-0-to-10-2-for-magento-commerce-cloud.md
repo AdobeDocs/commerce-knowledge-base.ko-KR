@@ -29,7 +29,7 @@ MariaDB 10.0에서 10.2 또는 10.2에서 10.3 또는 10.4로 업그레이드하
 
 1. ECE-Tools DB 백업 명령을 사용하여 [DB 백업을 만듭니다](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots). 테이블/행을 업데이트하는 동안 문제가 발생할 경우 2단계와 3단계 전에 이 작업을 수행해야 합니다.
 1. [모든 소형 테이블을 확인하고 동적 테이블로 변환](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=ko)합니다. 데이터베이스 업그레이드 중에 발생할 수 있는 데이터 손실을 방지하기 위해 필요합니다.
-1. MYISAM 테이블을 확인합니다. [모든 MyISAM 테이블을 ](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=ko)(으)로 변환해야 합니다.
+1. MYISAM 테이블을 확인합니다. [모든 MyISAM 테이블을 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=ko)(으)로 변환해야 합니다.
 1. 데이터베이스 테이블 및 행을 준비한 후(앞의 두 단계) ECE-Tools DB 백업 명령을 사용하여 [DB 백업을 만듭니다](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots).
 1. [지원 티켓을 엽니다](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) MariaDB 10.0에서 10.2 또는 10.2에서 10.3 또는 10.4로 업그레이드를 예약합니다. 티켓에는 DB를 업그레이드하려는 날짜 및 시간이 자세히 설명되어 있습니다. 지원 팀은 48시간 전에 통보해야 하며 상인 개발자 팀은 사용할 수 있어야 합니다. 업그레이드에 대한 시간 및 날짜가 합의되면 다음을 수행합니다.
    1. 사이트를 유지 관리 모드로 전환하고 크론과 같은 DB 활동을 중지합니다.

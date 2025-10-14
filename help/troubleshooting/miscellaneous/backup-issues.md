@@ -42,7 +42,7 @@ bin/magento config:set system/backup/functionality_enabled 1
 디스크 공간이 부족하여 백업이 실패한 경우 일반적으로 일부 파일을 다른 저장 장치 또는 드라이브로 이동하여 디스크 공간을 확보해야 합니다. 그러나 다른 방법으로 문제를 해결할 수도 있습니다. 팁은 다음 리소스 중 하나를 참조하십시오.
 
 * [디스크가 꽉 찼거나 디스크에 쓸 수 없는 것과 같은 Linux 및 Unix 시스템 하드 디스크 문제를 해결하기 위한 팁](https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk)
-* [serverfault: df에 디스크가 꽉 찼다고 되어 있지만 ](https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not)은(는) 아닙니다.
+* [serverfault: df에 디스크가 꽉 찼다고 되어 있지만 &#x200B;](https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not)은(는) 아닙니다.
 * [unix.stackexchange.com: Linux에서 디스크 공간이 사라진 위치를 추적하시겠습니까?](https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux)
 
 ## 운영 체제 오류 {#operating-system-error-trouble-backup-os-}

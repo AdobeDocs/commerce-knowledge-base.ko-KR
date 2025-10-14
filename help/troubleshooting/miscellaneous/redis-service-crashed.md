@@ -48,7 +48,7 @@ redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_pe
 >   ```
 
 
-위의 쿼리를 실행한 결과 사용 가능한 메모리 비율이 40% 미만인 경우 Redis Server에서 [ 설정의 증가를 요청하는 ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)Adobe Commerce 지원에 티켓을 제출`maxmemory`합니다. 제거된 키 값이 &quot;0&quot;이 아니거나 일 단위의 Redis 작동 시간이 0인 경우(Redis가 오늘 충돌했음을 나타냄) 이 문제에 대한 조사 및 수정 요청을 위해 [Adobe Commerce 지원에 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)해야 합니다.
+위의 쿼리를 실행한 결과 사용 가능한 메모리 비율이 40% 미만인 경우 Redis Server에서 [&#x200B; 설정의 증가를 요청하는 &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)Adobe Commerce 지원에 티켓을 제출`maxmemory`합니다. 제거된 키 값이 &quot;0&quot;이 아니거나 일 단위의 Redis 작동 시간이 0인 경우(Redis가 오늘 충돌했음을 나타냄) 이 문제에 대한 조사 및 수정 요청을 위해 [Adobe Commerce 지원에 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)해야 합니다.
 
 ## 관련 읽기
 

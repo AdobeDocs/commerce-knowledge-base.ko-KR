@@ -30,7 +30,7 @@ b. 아니요 - [2단계](#step-2)로 진행합니다.
 
 [백엔드 테스터 - Fastly](https://magento-tester.global.ssl.fastly.net/magento-tester/)를 통해 프로젝트 URL을 실행합니다. 이 페이지에는 VCL 구성 파일의 버전(페이지를 캐시할 수 있는 경우), Fastly 모듈의 버전 및 기타 유용한 문제 해결 정보가 표시됩니다. 착오가 있으십니까?
 
-a. 예 - _플러그 인 VCL 버전이 오래되었습니다! 다시 업로드하십시오._ 이 오류에 대한 해결 방법은 [Fastly 오류를 참조하십시오. 플러그 인 VCL 버전이 오래되었습니다! ](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md)을(를) 다시 업로드하십시오.\
+a. 예 - _플러그 인 VCL 버전이 오래되었습니다! 다시 업로드하십시오._ 이 오류에 대한 해결 방법은 [Fastly 오류를 참조하십시오. 플러그 인 VCL 버전이 오래되었습니다! &#x200B;](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md)을(를) 다시 업로드하십시오.\
 b. 아니요 - [3단계](#step-3).
 
 +++

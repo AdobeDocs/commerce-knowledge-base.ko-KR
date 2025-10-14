@@ -45,4 +45,4 @@ Adobe Commerce은 공유 카탈로그에 있는 하나 이상의 제품에 대�
 
 ## 기본 가격에 대한 가격 업데이트 예약
 
-관련 문서를 참조하세요. [기본 가격 변경이 공유된 카탈로그 가격에 어떤 영향을 줍니까?지원 기술 자료의 ](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md).
+관련 문서를 참조하세요. [기본 가격 변경이 공유된 카탈로그 가격에 어떤 영향을 줍니까?지원 기술 자료의 &#x200B;](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md).

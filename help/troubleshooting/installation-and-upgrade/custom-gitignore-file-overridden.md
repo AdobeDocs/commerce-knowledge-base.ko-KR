@@ -84,4 +84,4 @@ composer install 명령을 실행할 때 `.gitignore` 파일을 덮어쓰는 중
 
 ## 관련 읽기
 
-* [추적된 .gitigore 파일이 작성기에 의해 재정의됩니다.Magento2 GitHub의 ](https://github.com/magento/magento2/issues/32888).
+* [추적된 .gitigore 파일이 작성기에 의해 재정의됩니다.Magento2 GitHub의 &#x200B;](https://github.com/magento/magento2/issues/32888).

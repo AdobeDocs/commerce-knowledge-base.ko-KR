@@ -77,7 +77,7 @@ bin/magento indexer:reset catalogsearch_fulltext;
 
 사용 안내서에서 다음을 수행합니다.
 
-* [색인 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management?itm_source=merchdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=reindexing)
+* [색인 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=reindexing)
 
 개발자 설명서에서:
 

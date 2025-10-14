@@ -37,7 +37,7 @@ ht-degree: 0%
 
 [!DNL cloud project]에 추가되었지만 [!DNL Super User role]이(가) 없는 경우 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko)에서 해당 [!DNL role]을(를) 업데이트합니다.
 
-팀원이 조직에 대해 열린 모든 경우에 감시자가 되도록 하려면 [지원 티켓](https://experienceleague.adobe.com/home?lang=ko&amp;support-tab=home#support)을 제출하세요.
+팀원이 조직에 대해 열린 모든 경우에 감시자가 되도록 하려면 [지원 티켓](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)을 제출하세요.
 
 ## 관련 읽기
 

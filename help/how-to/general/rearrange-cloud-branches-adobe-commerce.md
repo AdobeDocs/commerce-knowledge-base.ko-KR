@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-개발자 설명서에서 [ [!DNL CLI]](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/cli-branches)을(를) 사용하여 분기를 관리합니다.
+개발자 설명서에서 [&#x200B; [!DNL CLI]](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/cli-branches)을(를) 사용하여 분기를 관리합니다.

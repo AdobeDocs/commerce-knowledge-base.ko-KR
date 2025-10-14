@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 2단계 - [!DNL Staging environment]: [!DNL Pro] 또는 [!DNL Starter]에 계십니까?
 
-* **[!DNL Pro]**: **요청을 제출**&#x200B;하여 [!DNL Fastly, Nginx]에 도메인을 추가하고 [!DNL SSL certificate]과(와) 필요한 경우 [!DNL Sendgrid domain]을(를) 구성합니다. 구성이 완료되면 [구성을  [!DNL DNS]  [!DNL development settings] (으)로 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko#update-dns-configuration-with-development-settings)업데이트합니다.
+* **[!DNL Pro]**: **요청을 제출**&#x200B;하여 [!DNL Fastly, Nginx]에 도메인을 추가하고 [!DNL SSL certificate]과(와) 필요한 경우 [!DNL Sendgrid domain]을(를) 구성합니다. 구성이 완료되면 [구성을  [!DNL DNS]  [!DNL development settings] (으)로 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko#update-dns-configuration-with-development-settings)업데이트합니다.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->사용 안내서의 [!DNL domain] > [!DNL Fastly] > [!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** **[!UICONTROL Full Page Cache]**&#x200B;**[!DNL Fastly Configuration]**&#x200B;에서 **[!UICONTROL Domains]**&#x200B;의 구성을 업데이트하여 새 [[!DNL Manage domains]을(를) 직접 ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html?lang=ko#manage-domains)에 추가할 수 있습니다.
+>사용 안내서의 [!DNL domain] > [!DNL Fastly] > [!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** **[!UICONTROL Full Page Cache]**&#x200B;**[!DNL Fastly Configuration]**&#x200B;에서 **[!UICONTROL Domains]**&#x200B;의 구성을 업데이트하여 새 [[!DNL Manage domains]을(를) 직접 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html?lang=ko#manage-domains)에 추가할 수 있습니다.
 >
 >
 >도메인을 추가할 수 없는 경우 다음 이유 중 하나가 원인일 수 있습니다.
@@ -56,11 +56,11 @@ ht-degree: 0%
 ### 4단계 - [!DNL domain]이(가) 라이브입니까?
 
 * **예**: [구성을  [!DNL DNS]  설정으로 업데이트[!UICONTROL production]합니다](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=ko#update-dns-configuration-with-production-settings).
-* **아니요**: [ [!DNL DNS]  설정으로 [!UICONTROL development]구성을 업데이트](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko#update-dns-configuration-with-development-settings).
+* **아니요**: [&#x200B; [!DNL DNS]  설정으로 [!UICONTROL development]구성을 업데이트](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko#update-dns-configuration-with-development-settings).
 
 ### 5단계 - `magento-vars.php`에 도메인 리디렉션이 구성되어 있습니까?
 
-도메인이 구성되면 [ 파일에서 ](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites#modify-variables)변수를 수정`magento-vars.php`하여 도메인을 적절한 웹 사이트/스토어 URL로 이동해야 합니다.
+도메인이 구성되면 [&#x200B; 파일에서 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites#modify-variables)변수를 수정`magento-vars.php`하여 도메인을 적절한 웹 사이트/스토어 URL로 이동해야 합니다.
 
 ### 6단계 - [!DNL domain] 구성이 확인되었습니까?
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 ]
 ```
 
-즉, 이전에 [ 패키지에서 ](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build) 명령을 실행하여 빌드`config:dump`에서 `ece-tools`SCD를 설정했습니다.
+즉, 이전에 [&#x200B; 패키지에서 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build) 명령을 실행하여 빌드`config:dump`에서 `ece-tools`SCD를 설정했습니다.
 
 만든 새 스토어/웹 사이트가 `app/etc/config.php` 파일에 표시되지 않는 경우 명령을 다시 실행하여 변경 내용이 데이터베이스에 있는 `config.php` 파일을 동기화한 다음 `config.php` 파일을 커밋하고 다시 배포해야 합니다. 새 저장소/웹 사이트에 대한 정적 콘텐츠를 적절한 파일 경로로 쉽게 배포할 수 있도록 하기 위한 것입니다.
 

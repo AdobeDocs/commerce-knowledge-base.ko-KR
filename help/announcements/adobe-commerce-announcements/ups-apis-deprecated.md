@@ -15,4 +15,4 @@ ht-degree: 0%
 
 UPS(통합 우편 서비스) API는 UPS와의 Adobe Commerce 통합에서 현재 OAuth 2.0 보안 모델을 지원하지 않으므로 일시적으로 더 이상 사용되지 않습니다. 그러나 2023년 말까지 이 모델에 대한 지원이 가능할 것으로 예상합니다. UPS는 2024년 6월 3일까지 API 키를 통해 인증을 지원하므로 생성된 API 키를 사용하는 현재 가맹점에는 영향을 미치지 않습니다. 생성된 키가 없는 판매자는 당사의 통합을 사용할 수 없지만 마켓플레이스에서 기존 통합을 사용할 수 있습니다.
 
-자세한 내용은 developer.ups.com을 참조하세요. [개발자 포털 액세스 키 마이그레이션 안내서](https://developer.ups.com/oauth-developer-guide?loc=en_US&amp;sp_rid=NTA5MzQ1OTE2NjEyS0&amp;sp_mid=72989914).
+자세한 내용은 developer.ups.com을 참조하세요. [개발자 포털 액세스 키 마이그레이션 안내서](https://developer.ups.com/oauth-developer-guide?loc=en_US&sp_rid=NTA5MzQ1OTE2NjEyS0&sp_mid=72989914).
