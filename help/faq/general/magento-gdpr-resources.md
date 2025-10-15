@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Adobe Commerce, GDPR 준비 완료
 
-모든 Adobe Commerce GDPR 리소스에 대한 [공식 홈 페이지](https://business.adobe.com/privacy/general-data-protection-regulation.html)입니다.
+모든 Adobe Commerce GDPR 리소스에 대한 [공식 홈 페이지](https://business.adobe.com/kr/privacy/general-data-protection-regulation.html)입니다.
 
 ## 공식 Adobe Commerce 성명
 

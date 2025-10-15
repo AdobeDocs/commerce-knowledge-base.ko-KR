@@ -103,4 +103,4 @@ Adobe Commerce 지원 기술 자료에서는 Adobe Commerce 지원 팀에서 제
 
 * Adobe 트러스트 센터(보안 업데이트 및 패치): [https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
 * Adobe Commerce 커뮤니티 개발자 블로그(사용 방법, 모범 사례 및 커뮤니티의 기술 뉴스): [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
-* Adobe Commerce 블로그(고급 전자 상거래):[https://business.adobe.com/blog/](https://business.adobe.com/blog/)
+* Adobe Commerce 블로그(고급 전자 상거래):[https://business.adobe.com/kr/blog/](https://business.adobe.com/kr/blog/)
