@@ -21,7 +21,7 @@ ht-degree: 0%
 ## P1 알림 핫라인 전화 정책
 
 * P1 알림 핫라인은 P1 수준 문제를 보고할 수 있습니다(이전 섹션의 P1 문제 정의 참조).
-* Adobe Commerce P1 알림 핫라인으로 전화하기 전에 [지원 티켓을 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket).
+* Adobe Commerce P1 알림 핫라인으로 전화하기 전에 [지원 티켓을 제출](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket).
 * 조사, 문제 해결 및 커뮤니케이션은 지원 티켓 내에서만 이루어집니다.
 * 문의 전화 전에 티켓에 문제와 관련된 모든 추가 정보를 직접 추가합니다.
 * 전화하실 때는 티켓 번호를 꼭 지참하세요.
