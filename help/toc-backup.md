@@ -338,11 +338,11 @@ ht-degree: 0%
       * [Realpath 캐시 크기 모범 사례](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
       * [Adobe Commerce에서 CSS 및 JS 파일 최적화](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
    * 데이터베이스 {#database}
-      * [Adobe Commerce 2.3.5 업그레이드: 동적 테이블로 축소](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
+      * [Adobe Commerce 2.3.5 업그레이드: 동적 테이블로 축소](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=ko)
       * [트리거 사용에 대한 우수 사례](/help/best-practices/database/best-practice-for-triggers-usage.md)
-      * [클라우드 인프라에서 Adobe Commerce의 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
+      * [클라우드 인프라에서 Adobe Commerce의 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=ko)
       * [MySQL 슬레이브 연결을 위한 클라우드 인프라의 Adobe Commerce 모범 사례](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
-      * [클라우드 인프라의 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+      * [클라우드 인프라의 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=ko)
    * 일반 {#general}
       * [비공개 콘텐츠 블록의 _isScopePrivate으로 Adobe Commerce 성능 저하](/help/best-practices/general/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
       * [클라우드 인프라에서 Adobe Commerce에 대한 문제 해결 우수 사례](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
@@ -370,7 +370,7 @@ ht-degree: 0%
       * [클라우드 인프라에서 Adobe Commerce의 이미지에 대한 우수 사례](/help/best-practices/performance/best-practice-for-images-in-magento-commerce-cloud.md)
       * [Adobe Commerce 우수 사례: 관리에서 중요한 작업 수행](/help/best-practices/performance/magento-best-practice-conducting-critical-actions-in-admin.md)
       * [Adobe Commerce 우수 사례: 을 사용하지 않을 경우 보고서 비활성화](/help/best-practices/performance/magento-best-practice-disable-reports-if-not-using.md)
-      * [인덱서 &quot;일정에 따라 업데이트&quot;가 Adobe Commerce 성능을 최적화합니다](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
+      * [인덱서 &quot;일정에 따라 업데이트&quot;가 Adobe Commerce 성능을 최적화합니다](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html?lang=ko)
       * [모범 사례 Adobe Commerce 제품 변형](/help/best-practices/performance/best-practice-magento-product-variations.md)
       * [Adobe Commerce 주문 배치 성능 모범 사례](/help/best-practices/performance/best-practice-magento-order-placement-performance.md)
       * [Adobe Commerce 우수 사례: 비동기 주문 처리 활성화](/help/best-practices/performance/magento-best-practice-enable-asynchronous-orders-processing.md)
