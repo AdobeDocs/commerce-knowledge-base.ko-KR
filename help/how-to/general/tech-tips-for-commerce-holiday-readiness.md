@@ -5,9 +5,9 @@ description: 첨부된 PDF는 트래픽이 많도록 인프라를 준비하고, 
 feature: Cloud, Configuration, Paas, Logs, Iaas, Build, Best Practices
 role: Admin, Developer
 exl-id: b61955ba-bc52-42de-8a55-07c19bf42596
-source-git-commit: dccb8dde1666fa0c72c7c94cd94c82daddaadc54
+source-git-commit: 11890cde797ea7d2ecfa446b19288caa3d9130cc
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Commerce 휴일 준비를 위한 기술 팁
 
 첨부된 PDF는 트래픽이 많도록 인프라를 준비하고, 가동 중단을 방지하고, 휴일 기간에 성능을 최적화하는 방법에 대한 팁을 제공합니다.
+
+성수기를 위한 조직, 인프라 및 팀 준비에 대한 추가적인 교차 솔루션 지침은 [Adobe DX 솔루션 통합 휴일 준비 안내서](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness)를 참조하십시오.
 
 ## 영향을 받는 제품 및 버전
 
