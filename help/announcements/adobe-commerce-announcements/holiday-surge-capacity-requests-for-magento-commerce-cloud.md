@@ -25,7 +25,7 @@ ht-degree: 0%
 
 **업사이징 내역 보기**
 
-**CSM(Customer Success Manager)**에 정보를 요청하여 요청된 크기 조정 내역을 볼 수 있습니다.
+**CSM(Customer Success Manager)**&#x200B;에 정보를 요청하여 요청된 크기 조정 내역을 볼 수 있습니다.
 각 크기 조정 요청에 대해 다음 정보를 사용할 수 있습니다.
 
 * **크기 시작 날짜**: upsize 요청 날짜.
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 **서지 용량 요청**
 
-휴가철 동안 추가 용량이 필요할 것으로 예상되는 클라우드 인프라의 Adobe Commerce 판매자는 [도움말 센터를 통해 ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html)서지 용량 지원 티켓을 제출[해야 합니다](/help/overview.md). 티켓 내의 날짜 및 예상 용량 요구 사항입니다. 용량을 늘리기 위해서는 라이선스가 부여된 초과 용량을 사용해야 합니다.
+휴가철 동안 추가 용량이 필요할 것으로 예상되는 클라우드 인프라의 Adobe Commerce 판매자는 [도움말 센터를 통해 &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html)서지 용량 지원 티켓을 제출[해야 합니다](/help/overview.md). 티켓 내의 날짜 및 예상 용량 요구 사항입니다. 용량을 늘리기 위해서는 라이선스가 부여된 초과 용량을 사용해야 합니다.
 
 **용량이 필요한 시간 전에 최소 48시간 전에 이 티켓을 제출하는 것이 좋습니다. 또한 블랙 프라이데이/사이버 먼데이 기간에 대한 요청이 이 기간 동안 용량이 제한되므로 가능한 한 빨리 예약하는 것이 좋습니다.**
 
