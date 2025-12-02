@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 전제 조건: SSH를 환경에
 
-이 문서에 설명된 변형을 사용하여 클라우드 인프라의 Adobe Commerce에 있는 DB를 덤프하려면 먼저 [SSH를 환경에 연결](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)해야 합니다.
+이 문서에 설명된 변형을 사용하여 클라우드 인프라의 Adobe Commerce에 있는 DB를 덤프하려면 먼저 [SSH를 환경에 연결](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=ko)해야 합니다.
 
 >[!WARNING]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 옵션 1: db-dump(**ece-tools; 권장**)
 
-[ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) 명령을 사용하여 DB를 덤프할 수 있습니다.
+[ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=ko) 명령을 사용하여 DB를 덤프할 수 있습니다.
 
 ```php
 vendor/bin/ece-tools db-dump
@@ -34,7 +34,7 @@ vendor/bin/ece-tools db-dump
 
 권장되는 가장 안전한 옵션입니다.
 
-Commerce on Cloud Infrastructure 안내서의 [데이터베이스 덤프(ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html)를 참조하십시오.
+Commerce on Cloud Infrastructure 안내서의 [데이터베이스 덤프(ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html?lang=ko)를 참조하십시오.
 
 ## 옵션 2: mariadb-dump(또는 이전 버전의 경우 mysqldump)
 
@@ -73,4 +73,4 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
 **관련 설명서:**
 
 * 공식 MySQL 설명서의 [mysqldump - 데이터베이스 백업 프로그램](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html).
-* Commerce on Cloud Infrastructure 안내서의 [클라우드별 변수](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html)&#x200B;(`MAGENTO_CLOUD_RELATIONSHIPS` 참조).
+* Commerce on Cloud Infrastructure 안내서의 [클라우드별 변수](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html?lang=ko)&#x200B;(`MAGENTO_CLOUD_RELATIONSHIPS` 참조).
