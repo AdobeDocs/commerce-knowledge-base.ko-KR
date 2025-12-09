@@ -4,9 +4,9 @@ description: 이 문서에서는 청구 주소와 다른 배송 주소를 사용
 exl-id: c2abeb96-e837-4d16-92dd-82fea5661dd9
 feature: Shipping/Delivery
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: ce377064efabaf09d3856da7c6c5c742a9fdcc2f
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,6 @@ ht-degree: 0%
 
 ## 문제
 
-사전 요구 사항:
-
-**Vertex 주소 정리**&#x200B;를 사용하도록 설정합니다. 단계는 사용 안내서의 [상점 주소 정리 구성](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html?lang=ko)을 참조하십시오.
 
 <u>재현 단계:</u>
 
