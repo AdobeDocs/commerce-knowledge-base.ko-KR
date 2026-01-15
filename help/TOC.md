@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 466435b0f73d1fb26ce492c0063104b1dd932e2d
+source-git-commit: 881fdb528850471fcf34dbdf94c7980fff0f248b
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2417'
 ht-degree: 0%
 
 ---
@@ -83,8 +83,8 @@ ht-degree: 0%
       * [패치를 적용하면 사이트가 다운됩니다.](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [모든 Adobe Commerce 버전에서 Google 맵 액세스 손실에 대한 패치를 수정했습니다.](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 기타 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 피드 및 [!DNL cron] 로그 테이블에서 업데이트되지 않은 데이터 수정 오류가 존재하지 않습니다.](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
-      * [[!DNL 오류  [!DNL opensearch] 검색 엔진이 없습니다.   livesearch] (으)로 돌아갑니다.](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
+      * [ [!DNL Commerce Data Exporter] 피드 및 [!DNL cron] 로그 테이블에서 업데이트되지 않은 데이터 수정 오류가 존재하지 않습니다.](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [오류  [!DNL opensearch] 검색 엔진이 없습니다.  [!DNL livesearch](으)로 돌아갑니다.](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [내보내기 저장소가 거의 꽉 찼다는 이메일](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [구성 파일이 없거나 변경되었습니다.](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
       * [cURL 오류 60: SSL 인증서가 만료됨](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
@@ -94,7 +94,6 @@ ht-degree: 0%
       * [Redis 서비스 충돌](/help/troubleshooting/miscellaneous/redis-service-crashed.md)
       * [SQL 쿼리: 비용 오류 설명](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
       * [Adobe Commerce 2.4.0 B2B 관리자가 구성 가능한 제품을 견적에 추가할 수 없음](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
-      * [Adobe Commerce 2.3.6: 주소 저장에 무한 회전자가 표시됨](/help/troubleshooting/miscellaneous/magento-2-3-6-endless-spinner-displayed-on-address-save.md)
       * [클라우드 인프라의 Adobe Commerce에서 New Relic 문제 해결](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
       * [성능 저하를 방지하기 위해 캐시 활성화](/help/troubleshooting/miscellaneous/enable-magento-cache-to-avoid-performance-degradation.md)
       * [Adobe Commerce Security Scan 도구 문제 해결 안내서](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
@@ -124,7 +123,6 @@ ht-degree: 0%
       * [구성 요소 종속성 준비 확인 문제](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
       * [클라우드 인프라 UI에서 Adobe Commerce에 액세스할 수 없음](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
       * [범주 변경 사항이 저장되지 않음](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
-      * [Adobe Commerce 2.4.0 알려진 문제 - 수출 세율이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
       * [Adobe Commerce 처리 오류에 대한 OMS(Magento Order Management System)](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
       * [캐시된 이미지는 2.2.X에서 2.3.X로 업그레이드한 후 로드되지 않음](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
       * [보안 검색에 사이트를 추가할 때 오류 메시지 표시](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
@@ -146,37 +144,24 @@ ht-degree: 0%
       * [PHP mcrypt 확장이 제대로 설치되지 않았습니다.](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
       * [Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 알려진 문제: dotdigital 로그인](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
       * [Cron 작업이 &quot;실행 중&quot; 상태에서 중단되었습니다.](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
-      * [배포 후 env.php에 .magento.env.yaml 변경 사항이 표시되지 않음](/help/troubleshooting/miscellaneous/magento-env-yaml-changes-not-shown-in-env-php-after-deploy.md)
-      * [모듈 비활성화 후 문제 발생](/help/troubleshooting/miscellaneous/issues-after-disabling-a-module.md)
       * [Nginx(경로) 대신 Fastly로 리디렉션되지 않는 리디렉션 오프로드](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
-      * [Adobe Commerce 2.4.0 알려진 문제: 새 주문 만들기 버튼이 없음](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-create-new-order-buttons-missing.md)
       * [Adobe Commerce용 고급 보고 문제 해결사](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
       * [일반적인 PHP 치명적인 오류 및 솔루션](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
-      * [Adobe Commerce에서 작성기 업데이트 실패: 호환되지 않는 인수 유형](/help/troubleshooting/miscellaneous/composer-update-fail-on-adobe-commerce-incompatible-argument-type.md)
       * [Adobe Commerce 2.4.2 B2B: 이메일 템플릿이 이메일을 업데이트하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-2-b2b-email-template-not-updating-email.md)
       * [PWA Studio: 브라우저가 생성된 SSL 인증서를 신뢰하지 않음](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
       * [기본 바니시 설정을 변경해야 하는 경우 발생하는 503 오류 문제 해결](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)
       * [Cron 작업은 다른 그룹의 작업을 잠급니다.](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
       * [설치 xdebug 최대 함수 중첩 수준 오류](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
-      * [브라우저에서 Adobe Commerce에 액세스할 때 PHP 버전 오류 또는 404 오류 발생](/help/troubleshooting/miscellaneous/php-version-error-or-404-error-when-accessing-magento-in-browser.md)
-      * [가져오기로 번들 옵션 순서가 업데이트되지 않음](/help/troubleshooting/miscellaneous/bundle-options-order-is-not-updated-by-import.md)
-      * [Adobe Commerce 2.4.0: &quot;장바구니에 선택 항목 추가&quot;가 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
       * [MBI: 데이터 불일치](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)
       * [사용자 정의 서버측 스크립트가 pub 미디어 디렉토리에서 실행되지 않음](/help/troubleshooting/miscellaneous/custom-server-side-scripts-not-executed-in-pub-media-directory.md)
-      * [PHP 버전 준비 확인 문제](/help/troubleshooting/miscellaneous/php-version-readiness-check-issues.md)
       * [클라우드 사이트가 느립니다.](/help/troubleshooting/miscellaneous/cloud-site-is-slow.md)
       * [사용자 정의 SSL 인증서 만료 정보](/help/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.md)
       * [PWA Studio: 개발자 모드를 실행할 때 유효성 검사 오류 발생](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
       * [Adobe Commerce 사용 시 시간별 Amazon 이메일 끄기](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
       * [Github 토큰 문제 및 작성기 주요 절차](/help/troubleshooting/miscellaneous/github-token-issue-and-composer-key-procedures.md)
-      * [Adobe Commerce 2.4.1 문제: Chrome에서 Amazon 계정을 변경할 수 없음](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
-      * [ECE-Tools 및 패치 업데이트 오류 Adobe Commerce cloud infrastructure 2.2.x., 2.3.x](/help/troubleshooting/miscellaneous/ece-tools-and-patch-update-errors-magento-commerce-cloud-2-2-x-2-3-x.md)
       * [PWA Studio: 컴파일을 시작하기 전에 Webpack이 중단됨](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
-      * [Adobe Commerce Redis 문제 해결을 위한 최신 패치 설치](/help/troubleshooting/miscellaneous/install-latest-patches-to-fix-magento-redis-issues.md)
       * [잘못된 오프셋 오류 해결](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
       * [프로그래밍 방식으로 만들 때 제품 상태가 올바르지 않음](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
-      * [Fastly 오류: 플러그인 VCL 버전이 오래되었습니다! 다시 업로드하십시오.](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md)
-      * [Adobe Commerce 2.4.0: 고객 활동 새로 고침이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
       * [클라우드에서 변수/내보내기 폴더 권한 문제 Adobe Commerce](/help/troubleshooting/miscellaneous/issue-in-the0email-folder-adobe-commerce.md)
       * [예약된 컨텐츠 스테이징 업데이트가 오래된 Fastly 캐시와 함께 표시되지 않음](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
       * [cron 문제 해결](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
@@ -199,12 +184,10 @@ ht-degree: 0%
       * [Adobe Commerce Intelligence 계정 잠금 문제 해결](/help/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.md)
       * [xdebug 설치에 영향을 주는 알려진 문제](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md)
       * [Adobe Commerce 지원 또는 클라우드 계정에 로그인할 수 없음](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
-      * [충돌하는 구성 요소 종속성](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md)
       * [Adobe Commerce Intelligence 서비스 정책](/help/troubleshooting/miscellaneous/mbi-service-policies.md)
       * [Git에서 푸시할 때 프로덕션에 배치되는 새 환경](/help/troubleshooting/miscellaneous/when-pushed-from-git-environments-placed-under-production-on-magento-cloud.md)
       * [Commerce 관리자에 로그인한 후 오류 발생](/help/troubleshooting/miscellaneous/error-after-logging-in-to-the-magento-admin.md)
       * [Adobe Commerce용 OMS(Magento Order Management System) 시간 초과](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
-      * [Commerce 관리자의 캐시를 제거하는 동안 오류 발생](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
       * [Adobe Commerce 2.4.1: dotdigital Page Builder 양식이 저장될 때 빈 페이지가 표시됨](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
       * [Adobe Commerce cloud: 리색인이 중단됨 메시지로 종료됨](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
       * [Adobe Commerce 상태 열에 내보낸 제품 CSV 파일이 없음](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)
@@ -217,7 +200,7 @@ ht-degree: 0%
       * [[!DNL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
       * [기존 클라우드 스타터 프로젝트에 대한 Adobe Commerce Intelligence 연결 구성](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
       * [[!DNL Google Tag Manager]이(가) 실시간 검색 위젯에 의해 손상되었습니다.](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
-      * [[!DNL 서드파티 보안 검색을 통해 발견된 취약점은 HackerOne] (으)로 이동해야 합니다.](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
+      * [서드파티 보안 검색을 통해 발견된 취약점은  [!DNL HackerOne](으)로 이동해야 합니다.](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
       * [2.4.2에서 2.4.5-p3로 업그레이드한 후 수천 개의 검색 결과를 가져오는 중](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2-4-5-p3.md)
       * [app/etc/env.php에서 검색 엔진을 변경할 수 없음](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [Magento-cloud CLI에 활성 환경이 표시되지 않음](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
@@ -238,7 +221,7 @@ ht-degree: 0%
    * 알려진 문제 {#known-issues-patches-attached}
       * [저장소 보안 및 암호화 키 회전에 대한 지침:  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
    * Elasticsearch {#elasticsearch}
-      * [[!DNL 검색 엔진이  [!DNL Elasticsearch7] (으)로 설정된 경우   Opensearch] (으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+      * [검색 엔진이  [!DNL Elasticsearch7] (으)로 설정된 경우  [!DNL Opensearch](으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [ElasticSuite 추적 인덱스로 인해 Elasticsearch 문제가 발생합니다.](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 도움말 센터 안내서 {#help-center-guide}
    * [Adobe Commerce용 Experience League 지원 사용 안내서](/help/help-center-guide/help-center/magento-help-center-user-guide.md)

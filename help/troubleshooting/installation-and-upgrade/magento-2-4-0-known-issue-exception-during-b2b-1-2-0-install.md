@@ -4,9 +4,9 @@ description: 이 문서에서는 B2B 1.2.0을 설치할 때 'setup:upgrade' 도�
 exl-id: 2c1dadd9-7754-4b4c-8d37-b75c13beae5c
 feature: B2B, Install, Upgrade
 role: Developer
-source-git-commit: 60f68b9edabd13a69e84705b85d84fd10ee6e2be
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -69,14 +69,11 @@ Module 'Magento_PurchaseOrder':
 
 <u>Git 패치 </u>
 
-* 클라우드 인프라의 Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
-* Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용: 사용자 지정 패치](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)를 참조하십시오.
+* 클라우드 인프라의 Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
+* Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용: 사용자 지정 패치](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)를 참조하십시오.
 
 ## 관련 읽기
 
-* [Adobe Commerce 2.4.0 알려진 문제: 수출 세율이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 * [Adobe Commerce 2.4.0 알려진 문제: Braintree 결제 방법이 여러 주소 체크아웃에 표시되지 않음](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
 * [Adobe Commerce 2.4.0 알려진 문제: 체크아웃 중에 일부 국가에 대해 표시되는 로컬 결제 방법을 선택하는 동안 오류 메시지](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
 * [Adobe Commerce 2.4.0 B2B 관리자가 구성 가능한 제품을 견적에 추가할 수 없음](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
-* [Adobe Commerce 2.4.0 알려진 문제 - 고객 활동 새로 고침이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Adobe Commerce 2.4.0 알려진 문제: &quot;내 장바구니에 선택 항목 추가&quot; 버튼이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)

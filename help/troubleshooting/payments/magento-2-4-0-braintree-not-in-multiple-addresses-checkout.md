@@ -4,9 +4,9 @@ description: 이 문서에서는 다중 주소 체크아웃 작업에 Braintree 
 exl-id: efde0bba-fd4a-490b-becb-856cb9ea58a5
 feature: Checkout, Compliance, Orders, Payments, Shipping/Delivery
 role: Developer
-source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,3 @@ Braintree은 결제 수단으로 사용할 수 없습니다.
 ## 해결 방법
 
 Adobe Commerce 2.4.0에서 Braintree을 사용하는 경우 다중 주소 옵션을 활성화하지 마십시오. 이 문제는 Adobe Commerce 2.4.1에서 해결되었습니다.
-
-## 지원 기술 자료의 관련 읽기
-
-* [Adobe Commerce 2.4.0 알려진 문제 - 고객 활동 새로 고침이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Adobe Commerce 2.4.0 알려진 문제 - 수출 세율이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
-* [Adobe Commerce 2.4.0 알려진 문제: &quot;장바구니에 선택 항목 추가&quot; 버튼이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)

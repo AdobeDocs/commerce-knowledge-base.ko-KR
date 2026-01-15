@@ -4,9 +4,9 @@ description: 이 문서에서는 B2B Quote 를 관리할 때 Commerce 관리자�
 exl-id: 73f7231b-b496-4250-b9e2-29427c772d56
 feature: Admin Workspace, B2B, Catalog Management, Configuration, Products, Quotes
 role: Developer
-source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,4 @@ ht-degree: 0%
 ## 추천
 
 현재 B2B 견적 편집 시 이 문제에 대한 해결 방법이 없지만 주문 및 장바구니 관리의 경우 **SKU**&#x200B;별로 제품을 추가하는 대신 **제품 목록**&#x200B;에서 제품을 선택할 수 있습니다. 이 문제를 해결하기 위한 패치는 2020년 4분기 릴리스될 예정인 Adobe Commerce 2.4.1에서 사용할 수 있습니다.
-
-## 관련 읽기
-
-* [Adobe Commerce 2.4.0 알려진 문제: 고객의 활동에 대한 새로 고침이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Adobe Commerce 2.4.0 알려진 문제: 수출 세율이 작동하지 않음](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 
