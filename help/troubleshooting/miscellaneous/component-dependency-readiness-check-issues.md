@@ -49,7 +49,7 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-개발자 설명서의 [소유권 및 권한 개요](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) 문서에 설명된 대로 파일 시스템 권한을 설정해야 합니다.
+개발자 설명서의 [소유권 및 권한 개요](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) 문서에 설명된 대로 파일 시스템 권한을 설정해야 합니다.
 
 ## 구성 요소 종속성 확인 상태는 변경되지 않습니다 {#trouble-depend-state}
 
