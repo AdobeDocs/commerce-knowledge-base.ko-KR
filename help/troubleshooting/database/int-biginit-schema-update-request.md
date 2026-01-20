@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >이 문서에서 솔루션을 구현하기 전에(`INT`에서 `BIGINT` 스키마 업데이트로) 판매자는 항상 변경할 필드에 다른 테이블에 대한 외래 키 관계가 없는지 확인해야 합니다. 필드에 다른 테이블에 대한 외래 키 관계가 있는 경우 관련 필드가 `INT`이므로 문제가 발생합니다. 다음 쿼리를 사용하여 이를 확인할 수 있습니다. 이 쿼리는 주어진 테이블 필드에 대해 데이터베이스에서 사용할 수 있는 외래 키 관계를 나열합니다.
 >
-```mysql
+>```mysql
 >SELECT 
 >     TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
 >FROM

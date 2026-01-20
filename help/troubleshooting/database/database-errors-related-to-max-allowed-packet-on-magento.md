@@ -34,7 +34,7 @@ ht-degree: 0%
 ## 솔루션
 
 1. 개별 행이 현재 `max_allowed_packet` 제한을 초과하는 쿼리를 식별합니다. 이러한 쿼리는 반환되는 데이터의 양을 줄이기 위해 다시 작성해야 합니다. 이 작업은 `SELECT` 문에 더 적은 수의 열이 있거나 테이블 디자인의 일부로 다양한 열에 대해 더 작은 데이터 형식을 선택하여 수행할 수 있습니다. New Relic 계정이 있는 경우 [New Relic APM 오류 페이지](https://docs.newrelic.com/docs/apm/apm-ui-pages/error-analytics/errors-page-explore-events-behind-errors), [New Relic APM 데이터베이스 페이지](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time) 및 [New Relic 로그](https://docs.newrelic.com/docs/logs/log-management/get-started/get-started-log-management)를 사용하여 관련 쿼리를 검색하십시오.
-1. 빠른 수정을 위해 `max_allowed_packet`티켓을 제출[할 때 ](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 크기를 늘리도록 일시적으로 요청할 수 있지만, 값이 너무 크면 네트워크 정체가 발생하여 복제 오류가 발생할 수 있으므로 이는 고객 엔지니어링 팀의 판단에 따른 것입니다.
+1. 빠른 수정을 위해 `max_allowed_packet`티켓을 제출[할 때 &#x200B;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 크기를 늘리도록 일시적으로 요청할 수 있지만, 값이 너무 크면 네트워크 정체가 발생하여 복제 오류가 발생할 수 있으므로 이는 고객 엔지니어링 팀의 판단에 따른 것입니다.
 1. 가장 좋은 방법은 일부 대용량 데이터베이스 테이블에 대해 CLI에서 다음 명령을 실행하는 것입니다.
 
    ```
