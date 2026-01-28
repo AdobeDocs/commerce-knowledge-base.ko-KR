@@ -4,9 +4,9 @@ description: 이 문서에서는 dotdigital 계정이 활성화되어 있을 때
 exl-id: 427d895c-8c03-4ced-813a-eeaa67f1d1f0
 feature: Configuration
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 38b4d310cab9dccad142c244f6e07f8421a9894d
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,3 @@ Dotdigital에 로그인할 수 없습니다.
 ## 솔루션
 
 해결 방법: 이 특정 상황에 대해 Safari를 대체할 수 있는 브라우저를 사용하십시오.
-
-## 관련 읽기
-
-[Adobe Commerce 2.4.1 알려진 문제 - 지원 기술 자료에서 Vertex 주소가 다른 배송/청구 주소로 확인되지 않음](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md).
