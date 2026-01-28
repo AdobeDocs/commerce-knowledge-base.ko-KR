@@ -1,29 +1,29 @@
 ---
-title: Sensei에 대한 API 키를 구성했지만 하나의 SaaS 데이터 공간만 표시됨
-description: 이 문서에서는 Sensei에 대한 API 키를 구성한 후 하나의 SaaS 데이터 공간만 표시되는 문제에 대한 솔루션을 제공합니다.
+title: Adobe AI에 대한 API 키를 구성했지만 하나의 SaaS 데이터 공간만 표시됨
+description: 이 문서에서는 Adobe AI에 대한 API 키를 구성한 후 하나의 SaaS 데이터 공간만 표시되는 문제에 대한 해결 방법을 제공합니다.
 exl-id: e13041da-b122-4684-8287-42132931f47a
 feature: REST, Saas, Observability
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 27b0836380c3040b26076b9cb81b9328cb2c9ff2
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
-# Sensei에 대한 API 키를 구성했지만 하나의 SaaS 데이터 공간만 표시됨
+# Adobe AI에 대한 API 키를 구성했지만 하나의 SaaS 데이터 공간만 표시됨
 
-이 문서에서는 Sensei에 대한 API 키를 구성한 후 하나의 SaaS 데이터 공간만 표시되는 문제에 대한 솔루션을 제공합니다.
+이 문서에서는 Adobe AI에 대한 API 키를 구성한 후 하나의 SaaS 데이터 공간만 표시되는 문제에 대한 해결 방법을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
 * Adobe Commerce(모든 배포 메서드): 모든 버전
 * Magento Open Source: 모든 버전
-* 확장 또는 기술(Fastly, New Relic 등), Adobe Sensei(제품 Recommendations/라이브 검색)
+* 확장 또는 기술(Fastly, New Relic 등), Adobe AI(제품 추천/라이브 검색)
 
 ## 문제
 
-Sensei에 대한 API 키를 구성했지만 SaaS 데이터 공간은 하나만 표시됩니다.
+Adobe AI에 대한 API 키를 구성했지만 SaaS 데이터 공간은 하나만 표시됩니다.
 
 ## 원인
 

@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: d9985fecdafa63882f8411b32e296cc47583c93d
+source-git-commit: 27b0836380c3040b26076b9cb81b9328cb2c9ff2
 workflow-type: tm+mt
-source-wordcount: '9207'
+source-wordcount: '9208'
 ht-degree: 0%
 
 ---
@@ -338,11 +338,11 @@ ht-degree: 0%
       * [Realpath 캐시 크기 모범 사례](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
       * [Adobe Commerce에서 CSS 및 JS 파일 최적화](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
    * 데이터베이스 {#database}
-      * [Adobe Commerce 2.3.5 업그레이드: 동적 테이블로 축소](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=ko)
+      * [Adobe Commerce 2.3.5 업그레이드: 동적 테이블로 축소](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
       * [트리거 사용에 대한 우수 사례](/help/best-practices/database/best-practice-for-triggers-usage.md)
-      * [클라우드 인프라에서 Adobe Commerce의 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=ko)
+      * [클라우드 인프라에서 Adobe Commerce의 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
       * [MySQL 슬레이브 연결을 위한 클라우드 인프라의 Adobe Commerce 모범 사례](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
-      * [클라우드 인프라의 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=ko)
+      * [클라우드 인프라의 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
    * 일반 {#general}
       * [비공개 콘텐츠 블록의 _isScopePrivate으로 Adobe Commerce 성능 저하](/help/best-practices/general/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
       * [클라우드 인프라에서 Adobe Commerce에 대한 문제 해결 우수 사례](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
@@ -370,7 +370,7 @@ ht-degree: 0%
       * [클라우드 인프라에서 Adobe Commerce의 이미지에 대한 우수 사례](/help/best-practices/performance/best-practice-for-images-in-magento-commerce-cloud.md)
       * [Adobe Commerce 우수 사례: 관리에서 중요한 작업 수행](/help/best-practices/performance/magento-best-practice-conducting-critical-actions-in-admin.md)
       * [Adobe Commerce 우수 사례: 을 사용하지 않을 경우 보고서 비활성화](/help/best-practices/performance/magento-best-practice-disable-reports-if-not-using.md)
-      * [인덱서 &quot;일정에 따라 업데이트&quot;가 Adobe Commerce 성능을 최적화합니다](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html?lang=ko)
+      * [인덱서 &quot;일정에 따라 업데이트&quot;가 Adobe Commerce 성능을 최적화합니다](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
       * [모범 사례 Adobe Commerce 제품 변형](/help/best-practices/performance/best-practice-magento-product-variations.md)
       * [Adobe Commerce 주문 배치 성능 모범 사례](/help/best-practices/performance/best-practice-magento-order-placement-performance.md)
       * [Adobe Commerce 우수 사례: 비동기 주문 처리 활성화](/help/best-practices/performance/magento-best-practice-enable-asynchronous-orders-processing.md)
@@ -471,7 +471,7 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.2-p1: 잘못된 값이 있는 송장 메모](/help/troubleshooting/general/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
       * [최신 Adobe Commerce 프리릴리스에 액세스할 수 없음](/help/troubleshooting/general/cannot-access-the-latest-magento-commerce-pre-release.md)
       * [관리자 암호가 작업 로그에 일반 텍스트로 저장되었습니다.](/help/troubleshooting/general/admin-passwords-saved-as-plain-text-to-actions-log.md)
-      * [실행 중 오류 &#x200B;](/help/troubleshooting/general/error-running-the-setup-di-compile-command-manually.md)
+      * [실행 중 오류 ](/help/troubleshooting/general/error-running-the-setup-di-compile-command-manually.md)
       * [색인이 다른 프로세스에 의해 잠겼습니다.](/help/troubleshooting/general/index-is-locked-by-another-process.md)
       * [데이터 불일치 진단](/help/troubleshooting/general/diagnosing-a-data-discrepancy.md)
       * [배포 오류: SQLSTATE[HY000]](/help/troubleshooting/general/deployment-error-sql-hy000.md)
@@ -855,7 +855,7 @@ ht-degree: 0%
    * [파일 권한 준비 확인 문제](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
    * [클라우드 인프라의 Adobe Commerce에서 Fastly 캐싱이 작동하지 않음](/help/troubleshooting/miscellaneous/fastly-caching-is-not-working-on-magento-cloud.md)
    * [Google eCommerce 매출 불일치 진단](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
-   * [Sensei에 대한 API 키를 구성했지만 하나의 SaaS 데이터 공간만 표시됨](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
+   * [Adobe AI에 대한 API 키를 구성했지만 하나의 SaaS 데이터 공간만 표시됨](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
    * [Fastly가 활성화된 하위 페이지에 메인 메뉴(카테고리)가 표시되지 않음](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
    * [파일 스토리지 부족, 특정 페이지 로드 속도가 느림](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
    * [전체 리인덱싱으로 인한 성능 저하](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
@@ -902,12 +902,12 @@ ht-degree: 0%
    * [Adobe Commerce 2.4.2-p1: 잘못된 값이 있는 송장 메모](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
    * [최신 Adobe Commerce 프리릴리스에 액세스할 수 없음](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
    * [관리자 암호가 작업 로그에 일반 텍스트로 저장되었습니다.](/help/troubleshooting/miscellaneous/admin-passwords-saved-as-plain-text-to-actions-log.md)
-   * [실행 중 오류 &#x200B;](/help/troubleshooting/miscellaneous/error-running-the-setup-di-compile-command-manually.md)
+   * [실행 중 오류 ](/help/troubleshooting/miscellaneous/error-running-the-setup-di-compile-command-manually.md)
    * [색인이 다른 프로세스에 의해 잠겼습니다.](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
    * [데이터 불일치 진단](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
    * [관리자 2FA 이메일 알림이 수신되지 않음](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
    * [&quot;현재 세션이 만료되었습니다&quot; 오류가 있는 Commerce 관리자 로그인 양식으로 다시 리디렉션합니다.](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
-   * [Redis unserialize 오류 &#x200B;](/help/troubleshooting/miscellaneous/redis-unserialize-error-setup-static-content-deploy.md)
+   * [Redis unserialize 오류 ](/help/troubleshooting/miscellaneous/redis-unserialize-error-setup-static-content-deploy.md)
    * [사이트가 유지 관리 모드이지만 고객이 사용 가능](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
    * [Adobe Commerce 소프트웨어를 업데이트할 때 git 가져오기 원본 개발에 실패함](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
    * [클라우드 인프라의 Adobe Commerce에서 시작되는 차단기](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
@@ -976,7 +976,7 @@ ht-degree: 0%
    * [Adobe Commerce Fastly 문제 해결사](/help/troubleshooting/miscellaneous/magento-fastly-troubleshooter.md)
    * [처리량이 많은 AJAX 요청으로 인해 성능이 저하됨](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)
    * [PWA Studio: 브라우저에 &quot;프록시 대상 불가&quot; 오류 표시](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
-   * [실행 &#x200B;](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed_version.txt-issue.md)
+   * [실행 ](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed_version.txt-issue.md)
    * [단일 사용을 위한 쿠폰은 여러 번 사용됨, Adobe Commerce](/help/troubleshooting/miscellaneous/coupon-code-used-more-than-once-adobe-commerce.md)
    * [&quot;계정이 일시적으로 비활성화됨&quot; 오류가 표시된 Commerce 관리자 로그인 양식으로 다시 리디렉션합니다.](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
    * [배포 후 Google Analytics이 비활성화됨](/help/troubleshooting/miscellaneous/google-analytics-gets-disabled-after-deployment.md)
@@ -992,7 +992,7 @@ ht-degree: 0%
    * [Commerce 관리자의 캐시를 제거하는 동안 오류 발생](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
    * [Adobe Commerce에서 SendGrid 크레딧을 초과하면 이메일이 전송되지 않음](/help/troubleshooting/miscellaneous/emails-not-being-sent-sendgrid-credits-exceeded.md)
    * [Adobe Commerce 2.4.1: dotdigital Page Builder 양식이 저장될 때 빈 페이지가 표시됨](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
-   * [Adobe Commerce cloud: 리인덱싱이 다음으로 종료됨 &#x200B;](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
+   * [Adobe Commerce cloud: 리인덱싱이 다음으로 종료됨 ](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
    * [배포 실패: Elasticsearch 및 Adobe Commerce 버전이 호환되지 않음](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
    * [배포 실패: MDVA-43395 패치를 적용할 수 없음](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
    * [초기 알파 발러 모듈 사용으로 인한 배포 오류](/help/troubleshooting/deployment/deployment-errors-from-enabling-early-alpha-baler-javascript-bundling-build.md)
