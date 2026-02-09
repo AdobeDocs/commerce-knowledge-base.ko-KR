@@ -136,7 +136,7 @@ Adobe Commerce 소프트웨어를 제거하려면 다음 단계를 따르십시�
 
 이 시나리오에서는 먼저 [!DNL git] 재설정을 사용하여 Adobe Commerce 응용 프로그램의 작업 상태를 복원한 다음 Adobe Commerce 소프트웨어를 제거해야 합니다(데이터베이스를 삭제하고 복원하려면 배포 구성을 제거하는 등). 시나리오에는 시나리오 3과 동일한 단계가 포함되지만 단계 순서가 다르고 추가 단계인 강제 재배포가 있습니다. 단계는 다음과 같습니다.
 
-1. [ [!DNL git] 분기를 다시 설정합니다.](/help/how-to/general/reset-environment-on-cloud.md#reset-git-branch)
+1. [&#x200B; [!DNL git] 분기를 다시 설정합니다.](/help/how-to/general/reset-environment-on-cloud.md#reset-git-branch)
 1. [구성 관리를 비활성화합니다.](/help/how-to/general/reset-environment-on-cloud.md#disable_config_management)
 1. [Adobe Commerce 소프트웨어를 제거합니다.](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
 1. 강제 재배포.
