@@ -4,7 +4,7 @@ description: 이 문서에서는 'setup:static-content:deploy' 명령을 수동�
 exl-id: 88d8c126-349f-49cd-8f02-2a32e4994521
 feature: Deploy, Page Content, SCD
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # `setup:static-content:deploy` deployed_version.txt 문제 실행
 
-이 문서에서는 `setup:static-content:deploy` 명령을 수동으로 실행할 때 `deployed_version.txt`에 대한 쓰기 불가능 오류를 수정합니다.
+이 문서에서는 `deployed_version.txt` 명령을 수동으로 실행할 때 `setup:static-content:deploy`에 대한 쓰기 불가능 오류를 수정합니다.
 
 ## 문제
 
-Adobe Commerce 클라우드 인프라 권장 사항에 따라 [구성 관리](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)를 사용하고 배포 중 웹 사이트 가동 중단을 줄이기 위해 정적 에셋 생성을 빌드 단계로 이동하는 경우 `setup:static-content:deploy` 명령을 수동으로 실행할 때 다음 오류가 발생할 수 있습니다.
+클라우드 인프라의 Adobe Commerce 권장 사항에 따라 구성 관리를 사용하고 배포 중 웹 사이트 가동 중단을 줄이기 위해 정적 에셋 생성을 빌드 단계로 이동하는 경우 `setup:static-content:deploy` 명령을 수동으로 실행할 때 다음 오류가 발생할 수 있습니다.
 
 ```
 {{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy

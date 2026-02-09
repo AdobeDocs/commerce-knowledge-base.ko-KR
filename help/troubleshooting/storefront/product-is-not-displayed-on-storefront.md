@@ -4,9 +4,9 @@ description: 이 문서에서는 제품이 상점 앞에 표시되지 않는 경
 exl-id: 454eca5b-4722-46e0-8e5d-3daf8e3e675a
 feature: Cache, Categories, Console, Products, Storefront
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -59,5 +59,5 @@ ht-degree: 0%
 
 ## 지원 기술 자료의 관련 읽기
 
-* [Pro 아키텍처용 로그 위치(디렉토리)](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
-* [스타터 아키텍처용 로그 위치(디렉토리)](/help/how-to/general/log-locations-directories-for-starter-plan.md)
+[Pro 아키텍처용 로그 위치(디렉토리)](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
+
