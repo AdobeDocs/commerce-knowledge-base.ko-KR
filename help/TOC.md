@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 014b425a0db4b5824a1caf033318fe7fd74d9a92
+source-git-commit: 41585ba5bc50e9a65d5d28963f43054f5f98b918
 workflow-type: tm+mt
-source-wordcount: '2226'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,8 @@ ht-degree: 0%
       * [패치를 적용하면 사이트가 다운됩니다.](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [모든 Adobe Commerce 버전에서 Google 맵 액세스 손실에 대한 패치를 수정했습니다.](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 기타 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 피드 및 [!DNL cron] 로그 테이블에서 업데이트되지 않은 데이터 수정 오류가 존재하지 않습니다.](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
-      * [[!DNL 오류  [!DNL opensearch] 검색 엔진이 없습니다.   livesearch] (으)로 돌아갑니다.](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
+      * [ [!DNL Commerce Data Exporter] 피드 및 [!DNL cron] 로그 테이블에서 업데이트되지 않은 데이터 수정 오류가 존재하지 않습니다.](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [오류  [!DNL opensearch] 검색 엔진이 없습니다.  [!DNL livesearch](으)로 돌아갑니다.](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [내보내기 저장소가 거의 꽉 찼다는 이메일](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [구성 파일이 없거나 변경되었습니다.](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
       * [cURL 오류 60: SSL 인증서가 만료됨](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
@@ -110,7 +110,6 @@ ht-degree: 0%
       * [storefront 또는 Commerce 관리자에 액세스할 때 빈 페이지 또는 리디렉션 루프 오류 발생](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
       * [Commerce 관리자에 로그인할 때 로그인 리디렉션](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
       * [암호화 키 관련 문제 해결](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
-      * [PWA Studio: Adobe Commerce에 대한 Venia GraphQL 쿼리에서 유효성 검사 오류가 발생했습니다.](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
       * [데이터 내보내기를 사용하여 불일치 항목 파악](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
       * [데이터 마이그레이션 도구 문제 해결](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
       * [구성 요소 종속성 준비 확인 문제](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
@@ -186,7 +185,7 @@ ht-degree: 0%
       * [잘못 구성되거나 누락되어 Cron이 중지됨 [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
       * [[!DNL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
       * [[!DNL Google Tag Manager]이(가) 실시간 검색 위젯에 의해 손상되었습니다.](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
-      * [[!DNL 서드파티 보안 검색을 통해 발견된 취약점은 HackerOne] (으)로 이동해야 합니다.](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
+      * [서드파티 보안 검색을 통해 발견된 취약점은  [!DNL HackerOne](으)로 이동해야 합니다.](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
       * [2.4.2에서 2.4.5-p3로 업그레이드한 후 수천 개의 검색 결과를 가져오는 중](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2-4-5-p3.md)
       * [app/etc/env.php에서 검색 엔진을 변경할 수 없음](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [Magento-cloud CLI에 활성 환경이 표시되지 않음](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
@@ -206,7 +205,7 @@ ht-degree: 0%
    * 알려진 문제 {#known-issues-patches-attached}
       * [저장소 보안 및 암호화 키 회전에 대한 지침:  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
    * Elasticsearch {#elasticsearch}
-      * [[!DNL 검색 엔진이  [!DNL Elasticsearch7] (으)로 설정된 경우   Opensearch] (으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+      * [검색 엔진이  [!DNL Elasticsearch7] (으)로 설정된 경우  [!DNL Opensearch](으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [ElasticSuite 추적 인덱스로 인해 Elasticsearch 문제가 발생합니다.](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 도움말 센터 안내서 {#help-center-guide}
    * [Adobe Commerce용 Experience League 지원 사용 안내서](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
