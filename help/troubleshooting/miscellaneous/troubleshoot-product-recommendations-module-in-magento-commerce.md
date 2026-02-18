@@ -49,7 +49,7 @@ magento/product-recommendations
 
 >[!NOTE]
 >
->[**[!UICONTROL Cookie Restriction Mode]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law)&#x200B;(사용 안내서)이 *enabled*인 경우 Adobe Commerce은 구매자가 동의할 때까지 행동 데이터를 수집하지 않습니다.**[!UICONTROL Cookie Restriction Mode]**이(가) *비활성화됨*인 경우 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
+>[**[!UICONTROL Cookie Restriction Mode]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law)&#x200B;(사용 안내서)이 *enabled*인 경우 Adobe Commerce은 구매자가 동의할 때까지 행동 데이터를 수집하지 않습니다.**[!UICONTROL Cookie Restriction Mode]**&#x200B;이(가) *비활성화됨*인 경우 Adobe Commerce은 기본적으로 동작 데이터를 수집합니다.
 
 ## 카탈로그 [!DNL SaaS] 내보내기 모듈
 
@@ -81,7 +81,7 @@ saas-export
 * 개발자 설명서에서 [제품 추천 관리자 개발](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/developer/development-overview)
 * 제품 추천 가이드 [제품 추천 소개](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/overview)
 * 제품 추천 가이드의 [제품 추천 만들기](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create)
-* [ 데이터 내보내기 가이드의 ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)로그 검토 및 문제 해결[!DNL SaaS]
-* [[!DNL SaaS]  서비스에 대한 Adobe Commerce 데이터 내보내기 안내서의 ](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes)데이터 내보내기 확장 릴리스 노트[!DNL SaaS]
+* [&#x200B; 데이터 내보내기 가이드의 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)로그 검토 및 문제 해결[!DNL SaaS]
+* [[!DNL SaaS]  서비스에 대한 Adobe Commerce 데이터 내보내기 안내서의 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes)데이터 내보내기 확장 릴리스 노트[!DNL SaaS]
 * Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
 

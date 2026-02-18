@@ -36,7 +36,7 @@ Adobe Commerce for cloud에서 복잡한 [!DNL cron]개의 작업(장기 실행 
 
 ## 솔루션
 
-1. 자체 관리 [을(를) 활성화하려면 ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)Adobe Commerce 지원[!DNL crons]에 문의하십시오.
+1. 자체 관리 [을(를) 활성화하려면 &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)Adobe Commerce 지원[!DNL crons]에 문의하십시오.
 1. `.magento.app.yaml` 분기에 있는 Adobe Commerce용 코드의 루트 디렉터리에서 [!DNL Git] 파일을 편집합니다. 다음을 추가합니다.
 
    ```yaml

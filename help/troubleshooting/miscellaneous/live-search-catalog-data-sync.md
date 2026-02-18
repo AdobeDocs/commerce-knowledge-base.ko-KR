@@ -153,7 +153,7 @@ bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 Live Search 색인의 다시 색인을 요청하려면 [지원 요청을 제출](https://experienceleague.adobe.com/home?support-tab=home#support)하세요. 문제 설명에서 **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** 아래의 관리 패널에 있는 데이터 공간/환경 ID를 포함합니다.
 
 >[!IMPORTANT]
->다른 경우에 `--cleanup-feed` 옵션을 사용하면 데이터 손실 및 데이터 동기화 문제가 발생할 수 있습니다.  새 빈 환경이 있거나, Adobe 팀이 데이터 공간 정리 작업을 완료한 후 또는 `saas:resync`—dry-run[ 옵션을 사용하여 ](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) 명령을 실행하는 경우에만 사용합니다. 다른 경우에 `--cleanup-feed` 옵션을 사용하면 데이터 손실 및 데이터 동기화 문제가 발생할 수 있습니다.
+>다른 경우에 `--cleanup-feed` 옵션을 사용하면 데이터 손실 및 데이터 동기화 문제가 발생할 수 있습니다.  새 빈 환경이 있거나, Adobe 팀이 데이터 공간 정리 작업을 완료한 후 또는 `saas:resync`—dry-run[&#x200B; 옵션을 사용하여 &#x200B;](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) 명령을 실행하는 경우에만 사용합니다. 다른 경우에 `--cleanup-feed` 옵션을 사용하면 데이터 손실 및 데이터 동기화 문제가 발생할 수 있습니다.
 
 ## 관련 읽기
 
