@@ -59,7 +59,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 1. **알 수 없음**: 보안 검색 도구에 아직 도메인에 대한 데이터가 없습니다. 다음 동기화 주기를 기다립니다.
 1. **실패**: 상태가 실패로 표시되면 문제를 해결하고(2FA 사용, 관리자 URL 변경 등) 다음 동기화 주기를 기다려야 합니다.
 
-인스턴스에 변경 사항이 적용된 후 24시간이 지났고 보안 검색 보고서에 반영되지 않은 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)할 수 있습니다. 티켓을 제출할 때 스토어 URL을 입력합니다.
+인스턴스에 변경 사항이 적용된 후 24시간이 지났고 보안 검색 보고서에 반영되지 않은 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)할 수 있습니다. 티켓을 제출할 때 스토어 URL을 입력합니다.
 
 ## BotNet Suspect 오류
 
@@ -77,7 +77,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 1. 새로 생성된 SSH 계정, 파일 시스템 변경 사항 등을 확인합니다.
 1. 보안 검토를 수행합니다.
 1. Adobe Commerce 버전을 확인하고 업그레이드하십시오. 특히 더 이상 지원되지 않는 Magento 1이 여전히 실행 중인 경우 더욱 그렇습니다.
-1. 문제가 계속되면 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하고 스토어 URL을 제공하십시오.
+1. 문제가 계속되면 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하고 스토어 URL을 제공하십시오.
 
 ## 문제: 타협 주입 실패
 
@@ -90,7 +90,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 1. 시스템 구성 변경 내용, 특히 `HTML head` 섹션 값에서 사용자 지정 `Miscellaneous HTML` 및 `footer`을(를) 검토합니다.
 1. 삽입된 맬웨어의 익숙하지 않은 변경 사항 및 징후가 있는지 코드 및 데이터베이스 검토를 수행합니다.
 
-위의 방법 중 어느 것도 도움이 되지 않는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)하고 보고서의 스토어 URL 및 오류 메시지를 제공하십시오.
+위의 방법 중 어느 것도 도움이 되지 않는 경우 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)하고 보고서의 스토어 URL 및 오류 메시지를 제공하십시오.
 
 ## 자주 묻는 질문
 
@@ -104,7 +104,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 ### 지원 티켓을 제출할 때 어떤 정보가 필요합니까?
 
-[보안 검사](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID 및 클라우드 프로젝트_ID에 대해 제출된 것과 동일한 도메인 이름을 제공하십시오. Adobe Commerce 온프레미스에 Cloud Project_ID가 필요하지 않습니다.
+[보안 검사](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID 및 클라우드 프로젝트_ID에 대해 제출된 것과 동일한 도메인 이름을 제공하십시오. Adobe Commerce 온프레미스에 Cloud Project_ID가 필요하지 않습니다.
 
 ### 스캔 도구 스캔에서 스토어를 제거하면 어떻게 됩니까?
 

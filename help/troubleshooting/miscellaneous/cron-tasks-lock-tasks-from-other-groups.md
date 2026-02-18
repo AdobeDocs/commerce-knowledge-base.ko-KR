@@ -36,7 +36,7 @@ Adobe Commerce for cloud에서 복잡한 [!DNL cron]개의 작업(장기 실행 
 
 ## 솔루션
 
-1. 자체 관리 [을(를) 활성화하려면 &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)Adobe Commerce 지원[!DNL crons]에 문의하십시오.
+1. 자체 관리 [을(를) 활성화하려면 &#x200B;](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)Adobe Commerce 지원[!DNL crons]에 문의하십시오.
 1. `.magento.app.yaml` 분기에 있는 Adobe Commerce용 코드의 루트 디렉터리에서 [!DNL Git] 파일을 편집합니다. 다음을 추가합니다.
 
    ```yaml
@@ -71,5 +71,5 @@ Adobe Commerce for cloud에서 복잡한 [!DNL cron]개의 작업(장기 실행 
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [설정 [!DNL cron] 작업](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 개발자 설명서에서 [설정 [!DNL cron] 작업](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

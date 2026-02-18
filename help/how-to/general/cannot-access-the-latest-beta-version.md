@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### 조기 액세스 코드 위치
 
-베타 액세스 기간 동안에는 [repo.magento.com](https://repo.magento.com/)의 작성기를 통해서만 릴리스 패키지를 사용할 수 있습니다. 이 기간 동안 GitHub 및 Adobe Commerce 포털에서 릴리스 패키지를 사용할 수 없으며 GA 날짜에 이러한 위치에 게시합니다. 작성기 사용 방법에 대한 자세한 내용을 보려면 [여기](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)를 클릭하십시오.
+베타 액세스 기간 동안에는 [repo.magento.com](https://repo.magento.com/)의 작성기를 통해서만 릴리스 패키지를 사용할 수 있습니다. 이 기간 동안 GitHub 및 Adobe Commerce 포털에서 릴리스 패키지를 사용할 수 없으며 GA 날짜에 이러한 위치에 게시합니다. 작성기 사용 방법에 대한 자세한 내용을 보려면 [여기](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/composer)를 클릭하십시오.
 
 ### 사용해야 하는 MageID
 
@@ -47,7 +47,7 @@ MageID가 기본 인지 확인하려면 다음을 시도해 보십시오.
    * 활성 파트너 라이센스 정보가 표시되면 MageID는 기본 입니다. END DATE 값이 미래의 날짜인 경우 Partner 라이센스가 활성화됩니다.
    * 활성 파트너 라이선스 정보가 표시되지 않으면 MageID에는 공유 액세스만 있습니다. 기본 ID 보유자를 확인하려면 **나와 공유**(으)로 이동하십시오. SHARENAME이 여기에 지정되어 있습니다. **계정 전환**&#x200B;을 클릭하고 SHARENAME에서 지정한 값을 선택합니다. 시작 페이지에 기본 ID 소유자의 이메일이 표시됩니다.
 1. [magento.com](https://account.magento.com/customer/account/login)에서 이 정보를 찾을 수 없는 경우 파트너 관리자에게 문의하십시오.
-1. 위의 방법 중 어느 것도 작동하지 않는 경우 [지원팀에 문의](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하십시오.
+1. 위의 방법 중 어느 것도 작동하지 않는 경우 [지원팀에 문의](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하십시오.
 
 #### 개발자가 키에 올바르게 액세스할 수 없음
 

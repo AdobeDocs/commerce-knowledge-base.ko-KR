@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-1. 올바른 [!DNL Fastly] 서비스 ID 및 API 토큰이 있는지 확인하고 다시 유효성 검사를 시도하십시오. 자세한 지침은 개발자 설명서에서 [자격 증명 테스트 [!DNL Fastly] 를 참조하십시오.](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
+1. 올바른 [!DNL Fastly] 서비스 ID 및 API 토큰이 있는지 확인하고 다시 유효성 검사를 시도하십시오. 자세한 지침은 개발자 설명서에서 [자격 증명 테스트 [!DNL Fastly] 를 참조하십시오.](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
 1. 자격 증명 확인에 실패하면 다음 curl 명령을 실행하여 서비스 상태를 확인합니다.
 
    ```curl
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 위의 명령이 `{"msg":"Token $TOKEN expired at 2021-09-28T02:03:37Z"}`과(와) 유사한 오류를 반환하는 경우 지원 티켓을 제출하여 새 API 토큰을 요청하십시오. 새 토큰을 받은 후 환경에서 구성을 업데이트합니다.
 
-   지원 티켓을 제출하는 방법에 대해 알아보려면 지원 기술 자료에서 [Adobe Commerce 도움말 센터 사용 안내서 > 지원 티켓](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-tickets)을 참조하세요.
+   지원 티켓을 제출하는 방법에 대해 알아보려면 지원 기술 자료에서 [Adobe Commerce 도움말 센터 사용 안내서 > 지원 티켓](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-tickets)을 참조하세요.
 
    >[!NOTE]
    >
@@ -50,6 +50,6 @@ ht-degree: 0%
 
 ## 개발자 설명서의 관련 내용:
 
-* [Adobe Commerce용 클라우드 > [!DNL Fastly] > [!DNL Fastly] 서비스 계정 및 자격 증명](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
+* [Adobe Commerce용 클라우드 > [!DNL Fastly] > [!DNL Fastly] 서비스 계정 및 자격 증명](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
 
-* [Adobe Commerce용 클라우드 > 설정 [!DNL Fastly] > [!DNL Fastly] 자격 증명 테스트](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
+* [Adobe Commerce용 클라우드 > 설정 [!DNL Fastly] > [!DNL Fastly] 자격 증명 테스트](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)

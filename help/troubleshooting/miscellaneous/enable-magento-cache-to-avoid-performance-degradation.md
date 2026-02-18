@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-1. 먼저 Adobe Commerce 캐시의 상태를 확인하여 문제가 있는지 확인합니다. 이를 위해 [환경에 SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)를 실행하고 다음 명령을 실행하십시오.
+1. 먼저 Adobe Commerce 캐시의 상태를 확인하여 문제가 있는지 확인합니다. 이를 위해 [환경에 SSH](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)를 실행하고 다음 명령을 실행하십시오.
 
    ```bash
    php bin/magento cache:status
@@ -41,17 +41,17 @@ ht-degree: 0%
 1. 비활성화된 캐시 유형을 조사합니다. Adobe에서 대체 지침을 받지 않은 경우 모든 Adobe Commerce 캐시 유형을 활성화해야 합니다. 타사 확장을 사용하려면 Adobe Commerce 캐시를 비활성화할 필요가 없습니다.
 1. 검사 결과 실수로 일부 캐시 유형을 사용하지 않도록 설정한 경우 각 캐시 유형에 대해 다음 명령을 실행하여 사용하도록 설정하십시오. `php bin/magento cache:enable <your_disabled_cache_type>`
 
-특정 Adobe Commerce 캐시 유형을 비활성화할 수 있는지 또는 비활성화해야 하는지에 대한 우려 및/또는 질문이 있는 경우 [Adobe Commerce 지원 센터에 문의](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하여 권장 사항을 요청하십시오.
+특정 Adobe Commerce 캐시 유형을 비활성화할 수 있는지 또는 비활성화해야 하는지에 대한 우려 및/또는 질문이 있는 경우 [Adobe Commerce 지원 센터에 문의](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하여 권장 사항을 요청하십시오.
 
 ## 관련 읽기
 
 Adobe Commerce 캐시 설명서 의 개발자 설명서:
 
 * [Adobe Commerce 캐시 개요](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
-* [캐시 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
+* [캐시 관리](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 성능 문제와 그에 대한 솔루션에 대한 기타 가능한 이유는 다음과 같습니다.
 
-* [사이트 성능을 개선하기 위해 Adobe Commerce 배너 출력을 사용하지 않도록 설정](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26909)
-* [MySQL 테이블이 너무 큽니다.](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945)
+* [사이트 성능을 개선하기 위해 Adobe Commerce 배너 출력을 사용하지 않도록 설정](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26909)
+* [MySQL 테이블이 너무 큽니다.](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26945)
 * [성능 저하, 느리고 오래 실행되는 크론](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)

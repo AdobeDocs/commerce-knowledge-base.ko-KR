@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 스타터 플랜 및 Pro 플랜 통합에 공간 할당
 
-모든 Starter 계획 환경 및 Pro 계획 [통합 환경](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)의 경우 `.magento/services.yaml` 매개 변수를 늘려 `mysql: disk:` 파일에서 MySQL에 더 많은 공간을 할당할 수 있습니다. For example:
+모든 Starter 계획 환경 및 Pro 계획 [통합 환경](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-27242)의 경우 `.magento/services.yaml` 매개 변수를 늘려 `mysql: disk:` 파일에서 MySQL에 더 많은 공간을 할당할 수 있습니다. For example:
 
 ```yaml
 mysql:
@@ -23,7 +23,7 @@ mysql:
     disk: 2048
 ```
 
-참조하려면 [MySQL 서비스 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql) 문서를 참조하십시오.
+참조하려면 [MySQL 서비스 설정](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/service/mysql) 문서를 참조하십시오.
 
 `.magento/services.yaml` 파일을 변경한 후에는 변경 내용을 커밋하고 푸시하여 적용해야 합니다. 푸시가 배포 프로세스를 트리거합니다.
 
@@ -33,7 +33,7 @@ mysql:
 
 ## Pro 계획 스테이징 또는 프로덕션에 공간 할당
 
-Pro 플랜의 스테이징 또는 프로덕션 환경에 대해 이러한 변경 작업을 수행하려면 [지원 티켓](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)을 만들어야 합니다. 저장소를 늘리기 위해 지원 티켓을 제출할 때 지원자는 저장소를 적용할 파티션(`/mysql` 또는 `/exports`)의 양과 종류를 알아야 합니다. 저장소 증가 요청을 수행하려면 Adobe 계정 팀의 승인이 필요합니다. 이 팀은 승인 전에 주문 양식에 따라 권한이 부여된 저장소 양을 검토합니다.
+Pro 플랜의 스테이징 또는 프로덕션 환경에 대해 이러한 변경 작업을 수행하려면 [지원 티켓](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)을 만들어야 합니다. 저장소를 늘리기 위해 지원 티켓을 제출할 때 지원자는 저장소를 적용할 파티션(`/mysql` 또는 `/exports`)의 양과 종류를 알아야 합니다. 저장소 증가 요청을 수행하려면 Adobe 계정 팀의 승인이 필요합니다. 이 팀은 승인 전에 주문 양식에 따라 권한이 부여된 저장소 양을 검토합니다.
 
 ## 할당된 공간 축소를 사용할 수 없음(Pro 및 Starter 계획)
 

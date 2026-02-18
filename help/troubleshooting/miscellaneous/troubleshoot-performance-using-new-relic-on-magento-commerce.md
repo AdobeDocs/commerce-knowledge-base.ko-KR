@@ -45,7 +45,7 @@ ht-degree: 0%
 <li>아래로 스크롤하여 모든 트랜잭션 표시 테이블을 누릅니다.</li>
 <li><a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#table_view">다양한 매개 변수</a>별로 트랜잭션을 정렬하고 의심이 드는 항목으로 이동할 수 있습니다.</li>
 <li>Apdex 점수가 낮거나, 이례적으로 높은 카운트 또는 높은 평균 시간 또는 불일치 %가 있는 거래를 검토합니다.</li>
-<li>각 개별 트랜잭션을 클릭합니다. 문제를 해결할 수 없는 경우 <a href="https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket">지원 티켓을 제출합니다.</a>
+<li>각 개별 트랜잭션을 클릭합니다. 문제를 해결할 수 없는 경우 <a href="https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket">지원 티켓을 제출합니다.</a>
 </li>
 <li>추가 조사가 필요한 경우 웹이 아닌 트랜잭션을 확인하는 것이 좋습니다.</li>
 </ol>
@@ -60,7 +60,7 @@ ht-degree: 0%
 </ol>
 </td>
 <td>
-<p>New Relic Apdex 점수에 대한 자세한 내용은 <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic 설명서 &gt; APM Apdex &gt; 사용자 만족도 측정</a>을 참조하십시오. 지원 기술 자료에서 <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce에 대한 관리 경고: Apdex 경고 경고</a>를 참조할 수도 있습니다.</p>
+<p>New Relic Apdex 점수에 대한 자세한 내용은 <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic 설명서 &gt; APM Apdex &gt; 사용자 만족도 측정</a>을 참조하십시오. 지원 기술 자료에서 <a href="https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce에 대한 관리 경고: Apdex 경고 경고</a>를 참조할 수도 있습니다.</p>
 </td>
 </tr>
 <tr>

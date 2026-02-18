@@ -95,8 +95,8 @@ Adobe Commerce 애플리케이션 부품 버전 2.3.2의 내보내기 기능에 
 
 >[!TIP]
 >
->[YAML 파일](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)은(는) 대/소문자를 구분하므로 탭을 허용하지 않습니다. .magento.env.yaml 파일 전체에서 일관된 들여쓰기를 사용해야 합니다. 그렇지 않으면 구성이 예상대로 작동하지 않을 수 있습니다. 설명서와 샘플 파일의 예제에서는 두 개의 공백 들여쓰기를 사용합니다. ece-tools validate 명령을 사용하여 구성을 확인합니다.
+>[YAML 파일](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=ko)은(는) 대/소문자를 구분하므로 탭을 허용하지 않습니다. .magento.env.yaml 파일 전체에서 일관된 들여쓰기를 사용해야 합니다. 그렇지 않으면 구성이 예상대로 작동하지 않을 수 있습니다. 설명서와 샘플 파일의 예제에서는 두 개의 공백 들여쓰기를 사용합니다. ece-tools validate 명령을 사용하여 구성을 확인합니다.
 
 >[!NOTE]
 >
->Adobe Commerce on cloud infrastructure Pro 프로젝트에서 [을(를) 사용하여 스테이징 및 프로덕션 환경에 사용자 지정 cron 작업을 추가하려면 먼저 Adobe Commerce on cloud infrastructure에서 &#x200B;](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab)auto-cron 기능`.magento.app.yaml`을(를) 활성화해야 합니다. 이 기능이 활성화되어 있지 않으면 [지원 티켓을 만들어](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) 작업을 추가하세요.
+>Adobe Commerce on cloud infrastructure Pro 프로젝트에서 [을(를) 사용하여 스테이징 및 프로덕션 환경에 사용자 지정 cron 작업을 추가하려면 먼저 Adobe Commerce on cloud infrastructure에서 &#x200B;](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab)auto-cron 기능`.magento.app.yaml`을(를) 활성화해야 합니다. 이 기능이 활성화되어 있지 않으면 [지원 티켓을 만들어](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) 작업을 추가하세요.

@@ -42,7 +42,7 @@ ht-degree: 0%
 1. 이렇게 하면 해당 Composer 패키지 버전에 대한 요구 사항이 추가됩니다. 잠금 파일을 확인하십시오. `composer/composer` 버전은 1.0.22 이상이어야 합니다.
 1. `composer.json` 및 `composer.lock`을(를) 커밋하고 배포를 푸시합니다.
 
-이 메서드가 작동하지 않으면 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)하십시오.
+이 메서드가 작동하지 않으면 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)하십시오.
 
 ## 관련 읽기
 
