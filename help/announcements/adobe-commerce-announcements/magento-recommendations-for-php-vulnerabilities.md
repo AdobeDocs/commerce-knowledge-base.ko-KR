@@ -1,23 +1,23 @@
 ---
-title: PHP 취약성용 Adobe Commerce Recommendations
+title: PHP 취약성에 대한 Adobe Commerce 권장 사항
 description: 9월 3일, 다중 주 정보 공유 및 분석 센터(MS-ISAC)는 임의의 코드 실행을 허용할 수 있는 여러 취약점과 관련된 경고와, PHP를 사용하는 모든 사이트가 최신 PHP 버전으로 즉시 업데이트해야 한다는 권장 사항을 발표했습니다([전체 경고는 여기에서 사용 가능](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/).
 exl-id: 0bc7caab-0b89-463a-a7f2-a7c92df9f84e
 feature: Compliance, Recommendations
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-# PHP 취약성용 Adobe Commerce Recommendations
+# PHP 취약성에 대한 Adobe Commerce 권장 사항
 
 9월 3일, 다중 상태 정보 공유 및 분석 센터(MS-ISAC)는 임의의 코드 실행을 허용할 수 있는 여러 취약성과 관련된 경고와 PHP를 사용하는 모든 사이트가 가능한 한 최신 PHP 버전으로 업데이트해야 한다는 권장 사항을 발표했습니다([전체 경고는 여기에서 제공](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/)).
 
 >[!WARNING]
 >
->Adobe Commerce on cloud infrastructure의 경우 48시간 동안 인프라 팀에 통지하지 않으면 서비스 업그레이드를 프로덕션 환경으로 푸시할 수 없습니다. 이는 인프라 지원 엔지니어가 운영 환경에 대한 가동 중지 시간을 최소화하면서 원하는 기간 내에 구성을 업데이트할 수 있도록 해야 하기 때문에 필요합니다. 따라서 변경 사항이 프로덕션에 적용되기 48시간 전에 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하여 필요한 서비스 업그레이드에 대해 자세히 설명하고 업그레이드 프로세스를 시작할 시간을 지정하십시오.
+>Adobe Commerce on cloud infrastructure의 경우 48시간 동안 인프라 팀에 통지하지 않으면 서비스 업그레이드를 프로덕션 환경으로 푸시할 수 없습니다. 이는 인프라 지원 엔지니어가 운영 환경에 대한 가동 중지 시간을 최소화하면서 원하는 기간 내에 구성을 업데이트할 수 있도록 해야 하기 때문에 필요합니다. 따라서 변경 사항이 프로덕션에 적용되기 48시간 전에 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)하여 필요한 서비스 업그레이드에 대해 자세히 설명하고 업그레이드 프로세스를 시작할 시간을 지정하십시오.
 
 Adobe Commerce 사이트에 대한 영향 및 단계는 을 참조하십시오.
 
@@ -28,7 +28,7 @@ Adobe Commerce 사이트에 대한 영향 및 단계는 을 참조하십시오.
 이 업데이트의 클라우드 사이트 재배포에 대한 추가 참고 사항:
 
 * 사이트에서 여전히 PHP 버전 7.0을 사용하는 경우 이러한 보안 업데이트를 활용하려면 먼저 지원되는 PHP 버전으로 업그레이드한 후 다시 배포해야 합니다.
-* 2.1.x/2.2.x의 경우 PHP 업그레이드에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=ko)에서 확인할 수 있습니다.
+* 2.1.x/2.2.x의 경우 PHP 업그레이드에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html)에서 확인할 수 있습니다.
 
 \* *이 문서와 메시지의 이전 버전은 9월 19일에 명시되었지만, 우리 팀은 일정보다 빨리 작업을 완료했습니다.*
 

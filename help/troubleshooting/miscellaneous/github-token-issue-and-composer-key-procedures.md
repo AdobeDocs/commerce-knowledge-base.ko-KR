@@ -4,7 +4,7 @@ description: 이 문서에서는 오래된 작성기 키로 인한 Github 토큰
 exl-id: 202cb936-f9ba-49ea-bf0a-6e6994d2337a
 feature: Identity Management
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 배포가 실패하고 배포 로그에 다음과 유사한 정보가 포함됩니다.
 
-*치명적인 오류: 발견되지 않은 UnexpectedValueException: github.com에 대한 github oauth 토큰에 /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*&#x200B;에 잘못된 문자 &quot;ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;가 포함되어 있습니다.
+*치명적인 오류: 발견되지 않은 UnexpectedValueException: github.com에 대한 github oauth 토큰에 /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*&#x200B;에 잘못된 문자 &quot;ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;가 포함되어 있습니다.
 
 ## 원인
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 1. 이렇게 하면 해당 Composer 패키지 버전에 대한 요구 사항이 추가됩니다. 잠금 파일을 확인하십시오. `composer/composer` 버전은 1.0.22 이상이어야 합니다.
 1. `composer.json` 및 `composer.lock`을(를) 커밋하고 배포를 푸시합니다.
 
-이 메서드가 작동하지 않으면 [지원 티켓을 제출](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)하십시오.
+이 메서드가 작동하지 않으면 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)하십시오.
 
 ## 관련 읽기
 

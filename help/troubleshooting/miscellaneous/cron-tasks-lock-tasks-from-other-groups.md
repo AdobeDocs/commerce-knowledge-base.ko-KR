@@ -4,9 +4,9 @@ description: 이 문서에서는 특정 장기 실행 [!DNL cron] 작업 차단 
 exl-id: b5b9e8b3-373c-4f93-af9c-85da84dbc928
 feature: Configuration
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,8 @@ Adobe Commerce for cloud에서 복잡한 [!DNL cron]개의 작업(장기 실행 
 
 ## 솔루션
 
-1. 자체 관리 [!DNL crons]을(를) 활성화하려면 [Adobe Commerce 지원](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)에 문의하십시오.
-1. [!DNL Git] 분기에 있는 Adobe Commerce용 코드의 루트 디렉터리에서 `.magento.app.yaml` 파일을 편집합니다. 다음을 추가합니다.
+1. 자체 관리 [을(를) 활성화하려면 ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)Adobe Commerce 지원[!DNL crons]에 문의하십시오.
+1. `.magento.app.yaml` 분기에 있는 Adobe Commerce용 코드의 루트 디렉터리에서 [!DNL Git] 파일을 편집합니다. 다음을 추가합니다.
 
    ```yaml
      crons:
@@ -50,7 +50,7 @@ Adobe Commerce for cloud에서 복잡한 [!DNL cron]개의 작업(장기 실행 
 
 >[!NOTE]
 >
->여러 `cron:run`이(가) 있는 이전 [!DNL cron] 구성을 새 [!DNL cron] 일정으로 전송할 필요가 없습니다. 위에서 설명한 대로 추가된 일반 `cron:run` 작업이면 됩니다. 단, 사용자 정의 작업이 있는 경우 전송해야 합니다.
+>여러 [!DNL cron]이(가) 있는 이전 `cron:run` 구성을 새 [!DNL cron] 일정으로 전송할 필요가 없습니다. 위에서 설명한 대로 추가된 일반 `cron:run` 작업이면 됩니다. 단, 사용자 정의 작업이 있는 경우 전송해야 합니다.
 
 ### 자체 관리 [!DNL cron]이(가) 활성화되어 있는지 확인(Cloud Pro 스테이징 및 프로덕션에만 해당)
 
@@ -63,7 +63,7 @@ Adobe Commerce for cloud에서 복잡한 [!DNL cron]개의 작업(장기 실행 
   SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun
   ```
 
-* 작업을 볼 수 없고 *을(를) 가져올 수 없는 경우 자체 관리 [!DNL cron]을(를) 사용할 수 없습니다.&quot;이 프로그램을 사용할 수 없습니다.&quot;* 오류 메시지가 표시됩니다.
+* 작업을 볼 수 없고 [!DNL cron]을(를) 가져올 수 없는 경우 자체 관리 *을(를) 사용할 수 없습니다.&quot;이 프로그램을 사용할 수 없습니다.&quot;* 오류 메시지가 표시됩니다.
 
 >[!NOTE]
 >
@@ -71,5 +71,5 @@ Adobe Commerce for cloud에서 복잡한 [!DNL cron]개의 작업(장기 실행 
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [설정 [!DNL cron] 작업](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 개발자 설명서에서 [설정 [!DNL cron] 작업](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

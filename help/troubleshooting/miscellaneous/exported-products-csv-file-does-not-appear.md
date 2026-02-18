@@ -4,9 +4,9 @@ description: 이 문서에서는 Commerce 관리자의 .csv 파일로 원하는 
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: b6f1222918b027eaecda42b767e6f83b2cf0f5d0
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Adobe Commerce 애플리케이션 부품 버전 2.3.2의 내보내기 기능에 
 내보내기 파일을 가져오려면 `bin/magento queue:consumers:start exportProcessor` 명령을 실행합니다. 이 작업을 실행한 후에는 파일이 격자에 표시되어야 합니다.
 
 
-필요한 경우 프로세스를 cron 작업으로 추가하려면 `.magento.env.yaml` 파일에 `CRON_CONSUMERS` 변수를 추가해야 합니다.
+필요한 경우 프로세스를 cron 작업으로 추가하려면 `CRON_CONSUMERS` 파일에 `.magento.env.yaml` 변수를 추가해야 합니다.
 
 #### 프로세스를 cron 작업으로 추가(선택 사항)
 
@@ -95,8 +95,8 @@ Adobe Commerce 애플리케이션 부품 버전 2.3.2의 내보내기 기능에 
 
 >[!TIP]
 >
->[YAML 파일](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=ko)은(는) 대/소문자를 구분하므로 탭을 허용하지 않습니다. .magento.env.yaml 파일 전체에서 일관된 들여쓰기를 사용해야 합니다. 그렇지 않으면 구성이 예상대로 작동하지 않을 수 있습니다. 설명서와 샘플 파일의 예제에서는 두 개의 공백 들여쓰기를 사용합니다. ece-tools validate 명령을 사용하여 구성을 확인합니다.
+>[YAML 파일](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)은(는) 대/소문자를 구분하므로 탭을 허용하지 않습니다. .magento.env.yaml 파일 전체에서 일관된 들여쓰기를 사용해야 합니다. 그렇지 않으면 구성이 예상대로 작동하지 않을 수 있습니다. 설명서와 샘플 파일의 예제에서는 두 개의 공백 들여쓰기를 사용합니다. ece-tools validate 명령을 사용하여 구성을 확인합니다.
 
 >[!NOTE]
 >
->Adobe Commerce on cloud infrastructure Pro 프로젝트에서 `.magento.app.yaml`을(를) 사용하여 스테이징 및 프로덕션 환경에 사용자 지정 cron 작업을 추가하려면 먼저 Adobe Commerce on cloud infrastructure에서 [auto-cron 기능](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab)을(를) 활성화해야 합니다. 이 기능이 활성화되어 있지 않으면 [지원 티켓을 만들어](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 작업을 추가하세요.
+>Adobe Commerce on cloud infrastructure Pro 프로젝트에서 [을(를) 사용하여 스테이징 및 프로덕션 환경에 사용자 지정 cron 작업을 추가하려면 먼저 Adobe Commerce on cloud infrastructure에서 ](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab)auto-cron 기능`.magento.app.yaml`을(를) 활성화해야 합니다. 이 기능이 활성화되어 있지 않으면 [지원 티켓을 만들어](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) 작업을 추가하세요.
