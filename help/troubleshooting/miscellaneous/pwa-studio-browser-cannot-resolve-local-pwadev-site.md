@@ -1,10 +1,10 @@
 ---
 title: 'PWA Studio: 브라우저가 .local.pwadev 사이트를 확인할 수 없습니다.'
-description: 이 문서에서는 다른 프로그램 또는 프로세스가 [host file] (https://en.wikipedia.org/wiki/Hosts_(file)을 편집하고 프로젝트 도메인의 항목을 제거한 경우에 대한 해결 방법을 제공합니다.
+description: 이 문서에서는 다른 프로그램 또는 프로세스가 [host file](https://en.wikipedia.org/wiki/Hosts_(file\)을 편집하고 프로젝트 도메인의 항목을 제거한 경우에 대한 해결 방법을 제공합니다.
 exl-id: a1606016-906a-433f-9e40-9faa5f9bd790
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1d0d51209bdc02360c6f8527701cdf0da811659d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # PWA Studio: 브라우저가 .local.pwadev 사이트를 확인할 수 없습니다.
 
-이 문서에서는 다른 프로그램 또는 프로세스가 [호스트 파일] (https://en.wikipedia.org/wiki/Hosts_(file\)을 편집하고 프로젝트 도메인의 항목을 제거한 경우에 대한 해결 방법을 제공합니다.
+이 문서에서는 다른 프로그램 또는 프로세스가 [호스트 파일]&#x200B;(https://en.wikipedia.org/wiki/Hosts_(file\)을 편집하고 프로젝트 도메인의 항목을 제거한 경우에 대한 해결 방법을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
-Adobe Commerce PWA Studio
+Adobe Commerce용 PWA Studio
 
 ## 문제
 
@@ -31,7 +31,7 @@ PWA Studio을 사용하면 프로젝트에 대한 사용자 지정 호스트 이
 
 ## 솔루션
 
-[호스트 파일을 수동으로 편집](https://support.rackspace.com/how-to/modify-your-hosts-file/)하여 항목을 다시 추가할 수 있지만 설치된 다른 소프트웨어를 검사하여 이전 변경 내용을 덮어쓴 내용을 확인해야 합니다.
+[호스트 파일을 수동으로 편집](https://docs.rackspace.com/docs/modify-your-hosts-file)하여 항목을 다시 추가할 수 있지만 설치된 다른 소프트웨어를 검사하여 이전 변경 내용을 덮어쓴 내용을 확인해야 합니다.
 
 ## 지원 기술 자료의 관련 읽기
 
