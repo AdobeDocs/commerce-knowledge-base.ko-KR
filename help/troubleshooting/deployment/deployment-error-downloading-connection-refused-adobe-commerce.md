@@ -59,6 +59,6 @@ magento-cloud project:clear-build-cache -p <project ID>
 
 ## 권장 읽기
 
-* [Adobe Commerce 배포 문제 해결사](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640).
+* [Adobe Commerce 배포 문제 해결사](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-29640).
 * [클라우드 저장소의 Adobe Commerce에 액세스할 수 없습니다. 배포 시 403 사용할 수 없음 또는 404 찾을 수 없음 오류](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
 * [배포 실패. &quot;프로젝트 빌드 오류: 빌드 후크가 실패하고 상태 코드가 1&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).
