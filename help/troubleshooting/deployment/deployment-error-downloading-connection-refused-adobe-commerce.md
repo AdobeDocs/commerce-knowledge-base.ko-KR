@@ -1,12 +1,12 @@
 ---
 title: '배포 오류: *다운로드 중 오류 7.. 포트 443: 연결이 거부되었습니다.*'
-description: '이 문서에서는 배포 오류에 대한 솔루션을 제공합니다. *"다운로드 중 오류 7... 포트 443: 연결이 거부되었습니다."*.'
+description: '이 문서에서는 배포 오류에 대한 솔루션을 제공합니다. *"다운로드 중 오류 7.. 포트 443: 연결이 거부되었습니다."*'
 exl-id: 520cf50f-3682-441d-87a7-8e05301a2b0c
 feature: Cache, Deploy
 role: Developer
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: c005409900021a72d73c10a2df5f23be3f2bc2cf
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,6 @@ magento-cloud project:clear-build-cache -p <project ID>
 
 ## 권장 읽기
 
-* [Adobe Commerce 배포 문제 해결사](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html).
+* [Adobe Commerce 배포 문제 해결사](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640).
 * [클라우드 저장소의 Adobe Commerce에 액세스할 수 없습니다. 배포 시 403 사용할 수 없음 또는 404 찾을 수 없음 오류](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
 * [배포 실패. &quot;프로젝트 빌드 오류: 빌드 후크가 실패하고 상태 코드가 1&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).
