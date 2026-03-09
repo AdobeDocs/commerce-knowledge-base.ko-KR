@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 난 아직도 도움이 필요해!
 
-보고서가 여전히 부정확하다면 걱정하지 마십시오. 지원 팀이 기꺼이 도와 드리겠습니다. [다음 정보를 사용하여 ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)에 문의하세요.
+보고서가 여전히 부정확하다면 걱정하지 마십시오. 지원 팀이 기꺼이 도와 드리겠습니다. [다음 정보를 사용하여 &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)에 문의하세요.
 
 * 불일치를 본 보고서의 이름은 무엇입니까?
 * 보고서에서 잘못된 값
