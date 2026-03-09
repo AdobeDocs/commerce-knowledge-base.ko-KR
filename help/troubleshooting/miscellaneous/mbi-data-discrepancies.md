@@ -18,11 +18,11 @@ ht-degree: 0%
 * [데이터 불일치 진단 검사 목록](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [내보내기를 사용하여 데이터 불일치 파악](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-또한 불일치와 관련된 테이블 및 열에 대해 올바른 [복제 메서드](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) 및 [다시 확인](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)이 설정되었는지 확인하는 것이 좋습니다. 복제 방법에 액세스하고 정보를 다시 확인하려면 관리자 권한이 필요합니다.
+또한 불일치와 관련된 테이블 및 열에 대해 올바른 [복제 메서드](https://experienceleague.adobe.com/ko/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) 및 [다시 확인](https://experienceleague.adobe.com/ko/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)이 설정되었는지 확인하는 것이 좋습니다. 복제 방법에 액세스하고 정보를 다시 확인하려면 관리자 권한이 필요합니다.
 
 ## 난 아직도 도움이 필요해!
 
-보고서가 여전히 부정확하다면 걱정하지 마십시오. 지원 팀이 기꺼이 도와 드리겠습니다. [다음 정보를 사용하여 &#x200B;](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)에 문의하세요.
+보고서가 여전히 부정확하다면 걱정하지 마십시오. 지원 팀이 기꺼이 도와 드리겠습니다. [다음 정보를 사용하여 &#x200B;](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)에 문의하세요.
 
 * 불일치를 본 보고서의 이름은 무엇입니까?
 * 보고서에서 잘못된 값
@@ -31,4 +31,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* [구조적 데이터베이스 변경](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html)
+* [구조적 데이터베이스 변경](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html?lang=ko)
