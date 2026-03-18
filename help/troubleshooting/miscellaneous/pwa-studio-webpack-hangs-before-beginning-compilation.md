@@ -1,10 +1,10 @@
 ---
 title: 'PWA Studio: 컴파일을 시작하기 전에 Webpack이 중단됨'
-description: 이 문서에서는 Progressive Web App Studio(PWA Studio)에서 컴파일을 시작하기 전에 Javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)이 오랫동안 중단되는 경우에 대한 제안 해결 방법에 대해 설명합니다.
+description: 이 문서에서는 Progressive Web App Studio(PWA Studio)에서 컴파일을 시작하기 전에 Javascript [Webpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)이 오랫동안 중단되는 경우에 대한 제안된 해결 방법에 대해 설명합니다.
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 032fe4d32921c63570672b9c68e8c03e00bd1077
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: 컴파일을 시작하기 전에 Webpack이 중단됨
 
-이 문서에서는 Progressive Web App Studio(PWA Studio)에서 컴파일을 시작하기 전에 Javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)이 오랫동안 중단되는 경우에 대한 제안 해결 방법에 대해 설명합니다.
+이 문서에서는 Progressive Web App Studio(PWA Studio)에서 컴파일을 시작하기 전에 Javascript [Webpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)이 오랫동안 중단되는 경우에 대한 제안 해결 방법에 대해 설명합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -37,7 +37,7 @@ pwa-buildpack
 
 <u>재현 단계</u>:
 
-<u>필수 구성 요소</u>: 로컬 Adobe Commerce 인스턴스로 Venia와 같은 PWA Studio 상점(storefront)을 설정하고
+<u>필수 구성 요소</u>: 로컬 Adobe Commerce 인스턴스로 Venia와 같은 PWA Studio 상점 환경을 설정하고
 
 ```yaml
 build
@@ -93,7 +93,7 @@ OSX의 경우 [Homebrew](https://brew.sh/), Windows의 경우 [Chocolatey](https
 ## 관련 읽기
 
 * [Javascript Webpack: 개념](https://webpack.js.org/concepts/)
-* [Venia storefront 설정](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
-* [PWA Buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/)
-* [buildpack 명령줄 인터페이스](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
-* [도구 및 라이브러리: buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)
+* [Venia storefront 설정](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
+* [PWA Buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
+* [buildpack 명령줄 인터페이스](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
+* [도구 및 라이브러리: buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)
