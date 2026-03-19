@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ## Adobe Commerce, GDPR 준비 완료
 
-모든 Adobe Commerce GDPR 리소스에 대한 [공식 홈 페이지](https://business.adobe.com/privacy/general-data-protection-regulation.html)입니다.
+모든 Adobe Commerce GDPR 리소스에 대한 [공식 홈 페이지](https://business.adobe.com/kr/privacy/general-data-protection-regulation.html)입니다.
 
 ## 공식 Adobe Commerce 성명
 
-* [일반 데이터 보호 규정 GDPR](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/privacy/gdpr.html)
-* [GDPR 준수](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html)
+* [일반 데이터 보호 규정 GDPR](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/privacy/gdpr.html?lang=ko)
+* [GDPR 준수](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html?lang=ko)
 
 ## 개발자 설명서: Adobe Commerce 2.X 및 1.X의 GDPR 준수
 
-* [고객 개인 정보 참조(버전 2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-* [고객 개인 정보 참조(버전 1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+* [고객 개인 정보 참조(버전 2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=ko)
+* [고객 개인 정보 참조(버전 1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=ko)
 
 이 Adobe Commerce 개발자 설명서 항목에서는 판매자 및 시스템 통합자가 다음과 유사한 사용 사례를 해결하는 데 도움이 되는 데이터 흐름 다이어그램 및 데이터베이스 정보를 제공합니다.
 

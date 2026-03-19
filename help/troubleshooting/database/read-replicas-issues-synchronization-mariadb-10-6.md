@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-1. `slave_parallel_mode` 매개 변수가 *conservative*(값이 [conservative](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)&#x200B;(으)로 표시되지 않는 경우 *지원 티켓을 높여야 함*)로 설정되어 있는지 확인하십시오. 확인하려면 다음 명령을 실행합니다.
+1. `slave_parallel_mode` 매개 변수가 *conservative*(값이 [conservative](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=ko#submit-ticket)&#x200B;(으)로 표시되지 않는 경우 *지원 티켓을 높여야 함*)로 설정되어 있는지 확인하십시오. 확인하려면 다음 명령을 실행합니다.
 
    ```
     MariaDB [main]> show variables like 'slave_parallel_mode';
@@ -54,10 +54,10 @@ ht-degree: 0%
 
 
 
-데이터베이스 구성을 업데이트하는 단계는 Commerce on Cloud Infrastructure Guide의 Deploy variables 항목에서 [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration)을 참조하십시오.
+데이터베이스 구성을 업데이트하는 단계는 Commerce on Cloud Infrastructure Guide의 Deploy variables 항목에서 [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=ko#database_configuration)을 참조하십시오.
 
 
 ## 관련 읽기
 
-* Commerce on Cloud Infrastructure 안내서의 [배포를 위한 환경 변수 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html).
-* 구현 플레이북의 [데이터베이스 구성 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html).
+* Commerce on Cloud Infrastructure 안내서의 [배포를 위한 환경 변수 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=ko).
+* 구현 플레이북의 [데이터베이스 구성 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=ko).

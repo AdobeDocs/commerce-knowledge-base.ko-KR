@@ -55,10 +55,10 @@ W:    refused
 magento-cloud project:clear-build-cache -p <project ID>
 ```
 
-프로젝트에서 누가 수퍼 유저인지 확인하려면 Commerce on Cloud Infrastructure Guide에서 [사용자의 프로젝트 역할 보기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user's-project-role)를 참조하십시오.
+프로젝트에서 누가 수퍼 유저인지 확인하려면 Commerce on Cloud Infrastructure Guide에서 [사용자의 프로젝트 역할 보기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko#view-a-user's-project-role)를 참조하십시오.
 
 ## 권장 읽기
 
-* [Adobe Commerce 배포 문제 해결사](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640).
-* [클라우드 저장소의 Adobe Commerce에 액세스할 수 없습니다. 배포 시 403 사용할 수 없음 또는 404 찾을 수 없음 오류](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
-* [배포 실패. &quot;프로젝트 빌드 오류: 빌드 후크가 실패하고 상태 코드가 1&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).
+* [Adobe Commerce 배포 문제 해결사](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-29640).
+* [클라우드 저장소의 Adobe Commerce에 액세스할 수 없습니다. 배포 시 403 사용할 수 없음 또는 404 찾을 수 없음 오류](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html?lang=ko).
+* [배포 실패. &quot;프로젝트 빌드 오류: 빌드 후크가 실패하고 상태 코드가 1&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html?lang=ko).

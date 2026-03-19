@@ -21,6 +21,6 @@ ht-degree: 0%
 * 지표에 필터 세트를 적용하는 방법
 * 계산된 데이터 차원에 필터 세트를 적용하는 방법
 
-비디오를 보려면 Adobe Experience League의 [Commerce Intelligence - 필터 세트](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html)&#x200B;(으)로 이동하십시오.
+비디오를 보려면 Adobe Experience League의 [Commerce Intelligence - 필터 세트](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html?lang=ko)&#x200B;(으)로 이동하십시오.
 
-**계속 진행하시겠습니까?** 지침을 보려면 [지표에 대한 필터 집합 만들기 자습서](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html)를 확인하십시오.
+**계속 진행하시겠습니까?** 지침을 보려면 [지표에 대한 필터 집합 만들기 자습서](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html?lang=ko)를 확인하십시오.

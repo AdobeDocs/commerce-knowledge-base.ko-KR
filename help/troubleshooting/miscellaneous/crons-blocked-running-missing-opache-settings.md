@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 원인
 
-[!DNL OpCache] 모듈이 런타임에 [!DNL GraphQL]을(를) 재작성하는 `env.php` 플러그인을 도입한 최신 버전으로 업데이트되었으며, 이로 인해 크론 설정이 재정의될 수 있습니다. [!DNL OpCache] 패키지의 `env.php file`버전 2002.1.13[에서 해결된 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13)의 문제를 방지하려면 [!DNL ECE Tools] 구성을 업데이트해야 합니다.
+[!DNL OpCache] 모듈이 런타임에 [!DNL GraphQL]을(를) 재작성하는 `env.php` 플러그인을 도입한 최신 버전으로 업데이트되었으며, 이로 인해 크론 설정이 재정의될 수 있습니다. [!DNL OpCache] 패키지의 `env.php file`버전 2002.1.13[에서 해결된 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=ko#v2002.1.13)의 문제를 방지하려면 [!DNL ECE Tools] 구성을 업데이트해야 합니다.
 
 ## 솔루션
 
@@ -56,6 +56,6 @@ cron 이 비활성화되어 있다는 메시지가 표시될 수 있습니다.
 
 ## 관련 읽기
 
-* [크론 준비 검사 문제](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
-* [Crons 속성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
-* [Cron 작업이 &quot;실행 중&quot; 상태에서 중단되었습니다.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+* [크론 준비 검사 문제](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html?lang=ko)
+* [Crons 속성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=ko)
+* [Cron 작업이 &quot;실행 중&quot; 상태에서 중단되었습니다.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=ko)

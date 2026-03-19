@@ -12,5 +12,5 @@ ht-degree: 0%
 # MOM(Magento Order Management)을 제거하는 방법
 
 1. [통합 사용 안 함 또는 사용](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/#disable-or-enable-the-integration)의 단계에 따라 MOM 통합을 사용하지 않도록 설정하십시오.
-1. [모듈 제거](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html)의 단계에 따라 MOM 모듈을 사용하지 않도록 설정하십시오.
+1. [모듈 제거](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html?lang=ko)의 단계에 따라 MOM 모듈을 사용하지 않도록 설정하십시오.
 1. 전체 주문 데이터를 추출하기 위해 API를 제공합니다. 자세한 내용은 Adobe에서 [저장소 주문](https://commerce-docs.github.io/oms-documentation-archive/specifications/#magento.sales.order_repository)을 검토하여 확인할 수 있습니다. | 주문 정보(order_repository)를 다루는 Magento OMS 문서. Adobe의 [사양 섹션](https://commerce-docs.github.io/oms-documentation-archive/specifications/#services)을(를) 사용합니다. | 다른 API를 사용하여 다양한 정보 유형을 추출하는 Magento OMS 문서.
