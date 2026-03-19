@@ -1,19 +1,19 @@
 ---
-title: '[!DNL regex]이(가) 아닌 리디렉션을  [!DNL Nginx] (경로) 대신  [!DNL Fastly] 에 오프로드합니다.'
-description: 이 항목에서는 클라우드 인프라의 Adobe Commerce에서  [!DNL Nginx] 이(가) 아닌  [!DNL Fastly] 로 [!DNL regex]하지 않은 리디렉션을 오프로드할 때 발생할 수 있는 일반적인 리디렉션 성능 문제에 대한 해결 방법을 제안합니다.
+title: '[!DNL regex]이(가) 아닌  [!DNL Fastly] (으)로 리디렉션 오프로드  [!DNL Nginx] (경로)'
+description: 이 항목에서는 클라우드 인프라의 Adobe Commerce에서 [!DNL regex]이(가) 아닌  [!DNL Fastly] 로  [!DNL Nginx] 하지 않은 리디렉션을 오프로드할 때 발생할 수 있는 일반적인 리디렉션 성능 문제에 대한 해결 방법을 제안합니다.
 exl-id: 8b22d25d-0865-4d21-b275-d344ba8748f2
 feature: Routes
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# [!DNL regex]이(가) 아닌 리디렉션을 [!DNL Nginx] (경로) 대신 [!DNL Fastly] (으)로 오프로드
+# [!DNL regex]이(가) 아닌 리디렉션을 [!DNL Fastly]&#x200B;(경로) 대신 [!DNL Nginx]&#x200B;(으)로 오프로드
 
-이 항목에서는 클라우드 인프라의 Adobe Commerce에서 [!DNL regex]이 아닌 리디렉션을 [!DNL Nginx] 대신 [!DNL Fastly] (으)로 오프로드할 때 발생할 수 있는 일반적인 리디렉션 성능 문제에 대한 해결 방법을 제안합니다.
+이 항목에서는 클라우드 인프라의 Adobe Commerce에서 [!DNL regex]이 아닌 리디렉션을 [!DNL Fastly] 대신 [!DNL Nginx]&#x200B;(으)로 오프로드할 때 발생할 수 있는 일반적인 리디렉션 성능 문제에 대한 해결 방법을 제안합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 ## 문제
 
-클라우드 인프라의 Adobe Commerce에서는 [!DNL Nginx] 계층에서 [!DNL regex]이(가) 아닌 많은 리디렉션/다시 쓰기를 수행할 수 없으므로 성능 문제가 발생할 수 있습니다.
+클라우드 인프라의 Adobe Commerce에서는 [!DNL regex] 계층에서 [!DNL Nginx]이(가) 아닌 많은 리디렉션/다시 쓰기를 수행할 수 없으므로 성능 문제가 발생할 수 있습니다.
 
 ## 원인
 
-`.magento/routes.yaml` 디렉터리의 `routes.yaml` 파일은 클라우드 인프라의 Adobe Commerce 경로를 정의합니다.
+`routes.yaml` 디렉터리의 `.magento/routes.yaml` 파일은 클라우드 인프라의 Adobe Commerce 경로를 정의합니다.
 
 `routes.yaml` 파일의 크기가 32KB 이상인 경우 [!DNL regex]이 아닌 사용자가 [!DNL Fastly]에 리디렉션/다시 쓰는 작업을 오프로드해야 합니다.
 
@@ -33,13 +33,13 @@ ht-degree: 0%
 
 ## 솔루션
 
-해결 방법은 [!DNL regex]이 아닌 리디렉션을 대신 [!DNL Fastly] (으)로 오프로드하는 것입니다. [!DNL Fastly] (으)로 리디렉션할 일반 오류 경로를 만듭니다.
+해결 방법은 [!DNL regex]이 아닌 리디렉션을 대신 [!DNL Fastly]&#x200B;(으)로 오프로드하는 것입니다. [!DNL Fastly]&#x200B;(으)로 리디렉션할 일반 오류 경로를 만듭니다.
 
-다음 단계에서는 [!DNL Nginx] 대신 [!DNL Fastly]에 리디렉션을 배치하는 방법을 자세히 설명합니다.
+다음 단계에서는 [!DNL Fastly] 대신 [!DNL Nginx]에 리디렉션을 배치하는 방법을 자세히 설명합니다.
 
 1. Edge 사전 만들기
 
-   먼저 [[!DNL VCL] Adobe Commerce의 코드 조각](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)을 사용하여 Edge 사전을 정의할 수 있습니다. 여기에는 리디렉션이 포함됩니다.
+   먼저 [[!DNL VCL] Adobe Commerce의 코드 조각](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)을 사용하여 Edge 사전을 정의할 수 있습니다. 여기에는 리디렉션이 포함됩니다.
 
    이에 대한 몇 가지 주의 사항:
 
@@ -100,7 +100,7 @@ Adobe Commerce 스테이징 환경을 실행하지 않고 이러한 리디렉션
 ## 관련 읽기
 
 * [[!DNL Fastly VCL] 참조](https://docs.fastly.com/vcl/)
-* 개발자 설명서에서 [경로 구성](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html)
-* 개발자 설명서에서 [설정 [!DNL Fastly]](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
+* 개발자 설명서에서 [경로 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html)
+* 개발자 설명서에서 [설정 [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
 * 개발자 설명서의 [[!DNL VCL] 정규 표현식 치트 시트](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet)
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
