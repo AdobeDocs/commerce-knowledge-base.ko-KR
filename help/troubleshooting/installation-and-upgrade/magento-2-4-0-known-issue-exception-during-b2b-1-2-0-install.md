@@ -65,12 +65,12 @@ Module 'Magento_PurchaseOrder':
 
 <u>작성기 패치 </u>
 
-작성기 패치 지침은 [Adobe에서 제공하는 작성기 패치 적용 방법](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
+작성기 패치 지침은 [Adobe에서 제공하는 작성기 패치 적용 방법](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 <u>Git 패치 </u>
 
-* 클라우드 인프라의 Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
-* Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용: 사용자 지정 패치](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)를 참조하십시오.
+* 클라우드 인프라의 Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
+* Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용: 사용자 지정 패치](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)를 참조하십시오.
 
 ## 관련 읽기
 

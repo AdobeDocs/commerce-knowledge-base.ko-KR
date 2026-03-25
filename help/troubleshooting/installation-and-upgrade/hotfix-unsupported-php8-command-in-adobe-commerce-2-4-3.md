@@ -54,7 +54,7 @@ PHP 치명적인 오류.
 
 ## 패치 적용 방법
 
-지침은 [Magento에서 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
+지침은 [Magento에서 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 ## 관련 읽기
 

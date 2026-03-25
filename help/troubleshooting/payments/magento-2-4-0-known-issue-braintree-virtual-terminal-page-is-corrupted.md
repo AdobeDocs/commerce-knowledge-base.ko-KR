@@ -69,6 +69,6 @@ Commerce 관리에서 **판매** > **Braintree 가상 터미널**(으)로 이동
 
 ## 패치 적용 방법
 
-지침은 [Adobe에서 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
+지침은 [Adobe에서 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 ## 첨부 파일
