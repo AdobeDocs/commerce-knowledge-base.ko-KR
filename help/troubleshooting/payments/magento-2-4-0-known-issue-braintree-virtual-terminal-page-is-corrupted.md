@@ -1,19 +1,19 @@
 ---
 title: Adobe Commerce 2.4.0 Braintree 가상 터미널 페이지가 손상됨
-description: 이 문서에서는 Braintree 가상 터미널 페이지가 적절한 UI 요소를 로드하지 않거나 Braintree이 구성되지 않은 경우 적절한 오류 메시지가 표시되는 알려진 Adobe Commerce 2.4.0 문제에 대한 패치를 제공합니다.
+description: 이 문서에서는 Braintree이 구성되지 않은 경우 Braintree 가상 터미널 페이지가 적절한 UI 요소 또는 적절한 오류 메시지를 로드하지 않는 알려진 Adobe Commerce 2.4.0 문제에 대한 패치를 제공합니다.
 exl-id: 1d4d762d-2ab3-4752-ad6d-1eb6a179917d
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce 2.4.0 Braintree 가상 터미널 페이지가 손상됨
 
-이 문서에서는 Braintree 가상 터미널 페이지가 적절한 UI 요소를 로드하지 않거나 Braintree이 구성되지 않은 경우 적절한 오류 메시지가 표시되는 알려진 Adobe Commerce 2.4.0 문제에 대한 패치를 제공합니다.
+이 문서에서는 Braintree이 구성되지 않은 경우 Braintree 가상 터미널 페이지가 적절한 UI 요소 또는 적절한 오류 메시지를 로드하지 않는 알려진 Adobe Commerce 2.4.0 문제에 대한 패치를 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -26,21 +26,21 @@ ht-degree: 0%
 
 <u>재현 단계:</u>
 
-Commerce 관리에서 **판매** > **가상 터미널 Braintree**(으)로 이동합니다 **&#x200B; &#x200B;**
+Commerce 관리에서 **판매** > **Braintree 가상 터미널**(으)로 이동합니다** **
 
 <u>예상 결과:</u>
 
-**Braintree 가상 터미널** 페이지가 적절한 UI를 사용하여 로드됩니다.
+적절한 UI를 사용하여 **Braintree 가상 터미널** 페이지가 로드됩니다.
 
 <u>실제 결과:</u>
 
-**가상 터미널 Braintree** 페이지의 UI가 손상되었습니다.
+**Braintree 가상 터미널** 페이지의 UI가 손상되었습니다.
 
 ### 시나리오 2: Braintree 결제 방법이 구성됨
 
 <u>재현 단계:</u>
 
-Commerce 관리에서 **판매** > **가상 터미널 Braintree**(으)로 이동합니다 **&#x200B; &#x200B;**
+Commerce 관리에서 **판매** > **Braintree 가상 터미널**(으)로 이동합니다** **
 
 <u>예상 결과:</u>
 
@@ -69,6 +69,6 @@ Commerce 관리에서 **판매** > **가상 터미널 Braintree**(으)로 이동
 
 ## 패치 적용 방법
 
-지침은 [Adobe에서 제공한 작성기 패치 적용 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
+지침은 [Adobe에서 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 ## 첨부 파일

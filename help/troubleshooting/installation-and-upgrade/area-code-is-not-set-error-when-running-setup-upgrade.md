@@ -1,12 +1,12 @@
 ---
-title: '" setup:upgrade 실행 시 "영역 코드가 설정되지 않음" 오류 발생"'
+title: setup:upgrade 실행 시 '영역 코드가 설정되지 않음' 오류 발생
 description: 이 문서에서는 setup:upgrade 명령을 실행할 때 *영역 코드가 설정되지 않음* 오류와 관련된 클라우드 인프라 2.2.3의 알려진 Adobe Commerce 문제에 대한 패치를 제공합니다.
 exl-id: ace92331-6022-49fa-a776-d06d841b3b32
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 4617b915a62093e00da428a753d913a39d30f3a0
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,6 @@ bin/magento setup:upgrade
 
 ## 패치 적용 방법
 
-지침은 지원 기술 자료에서 [Adobe이 제공한 작성기 패치를 적용하는 방법](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)을 참조하십시오.
+자세한 지침은 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치 적용 방법](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 ## 첨부 파일
