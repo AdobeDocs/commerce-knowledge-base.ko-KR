@@ -4,9 +4,9 @@ description: 이 문서에서는 제품이 상점 앞에 표시되지 않는 경
 exl-id: 454eca5b-4722-46e0-8e5d-3daf8e3e675a
 feature: Cache, Categories, Console, Products, Storefront
 role: Admin
-source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
+source-git-commit: ae2a4508daeaf2d29a5f615918fcc46626b2e196
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,5 @@ ht-degree: 0%
 * 콘솔에서 `bin/magento indexer:reindex`을(를) 실행하여 전체 리인덱싱을 수행하고 **시스템** > **도구** > **캐시 관리**&#x200B;에서 관리자의 모든 캐시를 플러시하거나 `bin/magento cache:clean`을(를) 실행하여 콘솔에서 모든 캐시를 플러시합니다.
 * 위의 사항이 도움이 되지 않으면 `var/log` 디렉터리의 로그를 확인하여 추가 조사를 시작할 수 있습니다.
 
-## 지원 기술 자료의 관련 읽기
 
-[Pro 아키텍처용 로그 위치(디렉토리)](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
 
