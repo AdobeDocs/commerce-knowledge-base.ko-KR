@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce 상태 업데이트에 가입하는 방법
-description: 이 문서에서는 상태 알림, 업데이트 및 주요 중단 또는 유지 관리에 대한 정보를 보려면 [Adobe 상태](https://status.adobe.com)에서 Adobe Commerce 상태를 구독하는 방법에 대해 설명합니다.
+description: 이 문서에서는 상태 알림, 업데이트 및 주요 중단 또는 유지 관리에 대한 정보를 보려면 [Adobe 상태](https://status.adobe.com/ko-kr)에서 Adobe Commerce 상태를 구독하는 방법에 대해 설명합니다.
 exl-id: 17b39925-4726-45da-b55d-c04c9b782df1
 source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
 workflow-type: tm+mt
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Adobe Magento 상태 업데이트에 가입하는 방법
 
-1. [Adobe 상태](https://status.adobe.com)(으)로 이동합니다.
+1. [Adobe 상태](https://status.adobe.com/ko-kr)(으)로 이동합니다.
 1. **로그인**&#x200B;을 클릭합니다.
 1. Adobe 자격 증명으로 로그인합니다.
 1. 옵션이 표시되면 **회사 또는 학교 계정**&#x200B;을 선택합니다.
