@@ -2,13 +2,15 @@
 cloud: Experience Cloud
 solution: Commerce
 feature-set: Commerce
+landing-page-name: commerce
+landing-page-breadcrumb-title: Commerce
 product: magento
 type: Troubleshooting
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/commerce-knowledge-base.ko-KR
 index: true
-badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/ko/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
-source-git-commit: 563c7ab49adda6f126c8d7c0e9d12a20526f2bcd
+badgePaas: label="PaaS만" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Adobe Commerce 온 클라우드 프로젝트(Adobe 관리 PaaS 인프라) 및 온프레미스 프로젝트에만 적용됩니다."
+source-git-commit: 6eee53edaf3c4a69cd6bddd8a095302d8e457d96
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
