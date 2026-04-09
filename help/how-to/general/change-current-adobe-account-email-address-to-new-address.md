@@ -28,7 +28,7 @@ ht-degree: 0%
 
 이메일 주소를 변경하려면 다음 단계를 따르십시오.
 
-1. 이전 이메일 주소에 사용된 암호를 재설정합니다. Adobe helpx에서 [잊어버린 암호 재설정](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)의 지침을 따르십시오.
+1. 이전 이메일 주소에 사용된 암호를 재설정합니다. Adobe helpx에서 [잊어버린 암호 재설정](https://helpx.adobe.com/kr/manage-account/using/change-or-reset-password.html)의 지침을 따르십시오.
 1. 암호 재설정 링크가 지침과 함께 현재 소유자의 사서함으로 전송됩니다.
 1. [Adobe 계정 페이지](https://account.adobe.com)&#x200B;(으)로 이동하여 새 전자 메일로 로그인하고 암호를 설정합니다.
 
@@ -50,9 +50,9 @@ MAGE ID의 이메일 주소를 변경한 후에는 다음 단계도 완료하여
 ### Commerce Marketplace 이메일 확인
 
 1. Commerce Marketplace 계정에 로그인하고 계정 이메일이 새 주소로 업데이트되었는지 확인합니다.
-1. 전자 메일이 업데이트되지 않은 경우 Commerce Marketplace 계정 전자 메일을 수정하도록 요청하는 [지원 티켓](https://experienceleague.adobe.com/en/support#home)을 제출하십시오.
+1. 전자 메일이 업데이트되지 않은 경우 Commerce Marketplace 계정 전자 메일을 수정하도록 요청하는 [지원 티켓](https://experienceleague.adobe.com/ko/support#home)을 제출하십시오.
 
 ### 지원 팀에 내부 계정 업데이트 완료 요청
 
-1. 필요한 내부 업데이트(예: 이전 및 새 Adobe ID와 MAGE ID 간의 연결 업데이트)를 완료하도록 요청하는 [지원 티켓](https://experienceleague.adobe.com/en/support#home)을 제출하십시오.
+1. 필요한 내부 업데이트(예: 이전 및 새 Adobe ID와 MAGE ID 간의 연결 업데이트)를 완료하도록 요청하는 [지원 티켓](https://experienceleague.adobe.com/ko/support#home)을 제출하십시오.
 1. 이전 섹션에서 Commerce Marketplace 이메일이 업데이트되지 않아 지원 티켓을 이미 연 경우 동일한 티켓을 사용하여 이러한 추가 내부 업데이트를 요청할 수 있습니다.
