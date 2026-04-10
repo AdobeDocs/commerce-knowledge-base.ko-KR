@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 992746d72bd6251d3a830f8bb03d7ed11e848b9b
+source-git-commit: 8b9d7908c4c6b99424e40e24e4de08968b203d18
 workflow-type: tm+mt
-source-wordcount: '1837'
+source-wordcount: '1834'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,7 @@ ht-degree: 1%
    * [공지 개요](/help/announcements/overview.md)
    * Adobe Commerce 알림 {#commerce-announcements}
       * [클라우드 인프라의 Adobe Commerce에 대한 휴일 서지 용량 요청](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
-      * [Adobe Commerce 지원 Experience League으로 접수 프로세스 마이그레이션](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
-   * 도움말 센터 뉴스 {#news}
+      * {hide-from-toc}[Adobe Commerce에서 Experience League으로 접수 프로세스 마이그레이션 지원](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
 * 문제 해결 {#troubleshooting}
    * [문제 해결 개요](/help/troubleshooting/overview.md)
    * 데이터베이스 {#database}
