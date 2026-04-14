@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 8b9d7908c4c6b99424e40e24e4de08968b203d18
+source-git-commit: ef65f8cf94b86511661b9fe2605d14d3a3027e58
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1828'
 ht-degree: 1%
 
 ---
@@ -204,7 +204,6 @@ ht-degree: 1%
    * [클라우드 인프라 크론 작업에서 중단된 Adobe Commerce을 수동으로 재설정](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [라이브 사이트에서 동일한 도메인을 사용하는 경우 프로덕션에서 Fastly 테스트](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
    * [클라우드 인프라에서 Adobe Commerce의 중단을 식별하고 측정합니다.](/help/how-to/general/how-to-identify-outages.md)
-   * [Adobe Commerce에서 클라우드 분기 재배열](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
    * [클라우드 인프라의 Adobe Commerce에 있는 모든 페이지에 대해 HTTP를 HTTPS로 리디렉션(TLS 적용)](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
    * [클라우드의 Adobe Commerce에서 MySQL에 더 많은 공간 할당](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [특정 스토어의 DB 엔티티(주문, 송장, 대변 메모 등)에 대한 증분 ID 변경](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
