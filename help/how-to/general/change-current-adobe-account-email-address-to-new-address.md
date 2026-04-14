@@ -3,9 +3,9 @@ title: 현재 Adobe 계정 이메일 주소 변경
 description: Adobe 계정에 등록된 현재 이메일 주소를 Adobe 계정 또는 Magento 계정에 현재 등록되지 않은 새 주소로 변경하는 방법을 알아봅니다.
 exl-id: ca549d38-0d62-4206-9727-0ed85b733dc3
 feature: Communications
-source-git-commit: 8d91d4c21dc981accf25537cdb61e1271e17b78c
+source-git-commit: 95d4507be9ac06a4cb3b1150000d7f9df30d35f8
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ MAGE ID의 이메일 주소를 변경한 후에는 다음 단계도 완료하여
 
 ### Commerce Marketplace 이메일 확인
 
-1. Commerce Marketplace 계정에 로그인하고 계정 이메일이 새 주소로 업데이트되었는지 확인합니다.
+1. [Commerce Marketplace 계정](https://commercemarketplace.adobe.com/)에 로그인하고 계정 전자 메일이 새 주소로 업데이트되었는지 확인합니다.
 1. 전자 메일이 업데이트되지 않은 경우 Commerce Marketplace 계정 전자 메일을 수정하도록 요청하는 [지원 티켓](https://experienceleague.adobe.com/ko/support#home)을 제출하십시오.
 
 ### 지원 팀에 내부 계정 업데이트 완료 요청
