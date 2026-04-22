@@ -4,9 +4,9 @@ description: 이 문서에서는 내보내기 저장소가 거의 가득 찼다�
 feature: Cloud, Storage, Media
 role: Developer
 exl-id: 7dae295c-919c-46c5-bf63-7d3467c2e07f
-source-git-commit: 89f985b832545f1fbccf94aac1d60f1e767b5bc4
+source-git-commit: 11cf981c7ebe813219a0cd311632eafce086bbf6
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -29,19 +29,53 @@ ht-degree: 0%
 
 ## 원인
 
-이메일은 파일/미디어에 할당된 디스크 양인 **exports** 저장소를 참조하며 *exports*(이)라는 특정 폴더는 아닙니다.
+경고는 미디어 및 기타 파일 데이터가 저장되는 디스크 볼륨인 익스포트 스토리지 파일 시스템을 나타냅니다. 이 파일 시스템은 일반적으로 `/data/exports`에 마운트됩니다. 경고는 문자 그대로 exports라는 단일 디렉토리가 있음을 나타내지는 않습니다.
+
+경고가 무엇을 나타내는지 확인하려면 내보내기 스토리지 사용을 확인합니다.
+
+* `df -h | grep exports`을(를) 실행하면 다음 출력 예가 나타납니다.
+
+  ```
+  /dev/nvme1n1 50G 38G 12G 77% /data/exports
+  tmpfs         7.7G 4.0K 7.7G  1% /data/exports/shared
+  ```
+
+* 이 예제에서 `/data/exports`은(는) 기본 내보내기 파일 시스템입니다.
+
+   * 총 50GB
+   * 38GB 사용
+   * 12GB 사용 가능(77% 활용도)
+
+* `/data/exports/shared`은(는) 공유 데이터에 사용되는 `tmpfs`(메모리 내) 마운트이며 디스크 압력에 크게 기여하지 않습니다.
+
+이렇게 하면 exports라는 단일 폴더가 아니라 `/data/exports`의 전체 디스크 사용률에 의해 경고가 트리거됩니다.
+
+`/data/exports`이(가) 높은 사용률을 보이는 경우, 이 파일 시스템 아래의 큰 디렉터리(예: pub/media 또는 기타 사용자 지정 파일 위치)가 일반적으로 사용률 증가에 대한 원인입니다.
 
 ## 솔루션
 
-환경에서 파일 사용을 검토해야 합니다. 이 명령을 실행하여 기존 사용량을 가져옵니다.
+내보내기 스토리지 사용을 검토, 정리 및 확인하려면 다음 단계를 따르십시오.
 
-`df -h |grep data`
+1. `df -h | grep exports` 명령을 실행하여 내보내기 저장소 파일 시스템의 현재 사용량을 확인합니다. **에 대한** Use%`/data/exports` 열 검토:
 
-파일 저장소가 가득 찬 일반적인 위치는 *pub/media/catalog/product/cache* 또는 *var/log* 폴더입니다. 파일에서 사용하는 디스크 공간을 확인하려면 적절한 경로 */path/to/folder*(으)로 이 명령을 실행하십시오.
+   * 사용량이 70~85%인 경우 정리 계획을 시작합니다.
+   * 사용량이 90%를 초과하는 경우 쓰기 실패나 서비스에 영향을 주지 않도록 즉시 조치를 취하십시오.
 
-`du -shc` */path/to/folder*
+1. 다음을 실행하여 `/data/exports`에서 상당한 디스크 공간을 사용하는 디렉터리를 식별합니다.
 
-미디어 디스크 사용량이 전체 디스크 공간의 큰 부분을 차지하는 경우 [Fastly Deep Image Optimization](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization)을(를) 활성화한 다음 서버의 *pub/media/catalog/product/cache* 폴더에서 파일을 수동으로 삭제할 수 있습니다.
+   ```bash
+   du -sh /data/exports/* 2>/dev/null
+   ```
+
+   파일 저장소가 가득 찬 일반적인 위치는 `pub/media/catalog/product/cache` 또는 `var/log`개 폴더입니다.
+
+1. 환경에 따라 파일 정리:
+
+   * 오래되거나 사용되지 않은 내보내기 파일, 로그 또는 임시 데이터를 먼저 제거합니다.
+   * 비프로덕션 환경에서는 일반적으로 테스트 미디어나 이전 아티팩트를 더 적극적으로 제거할 수 있습니다.
+   * 프로덕션 환경에서는 미디어 또는 비즈니스 크리티컬 파일을 삭제하기 전에 팀과 상의하십시오.
+
+1. 정리 후 다음 명령 `df -h | grep exports`을(를) 실행하여 **의** Use%`/data/exports` 값이 안전한 작동 수준으로 떨어졌는지 확인하십시오.
 
 ## 관련 읽기
 
