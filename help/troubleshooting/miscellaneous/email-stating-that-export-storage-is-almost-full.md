@@ -79,4 +79,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-지원 기술 자료에서 [전용 클러스터를 확인](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)하세요.
+지원 기술 자료에서 [전용 클러스터를 확인](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)하세요.
