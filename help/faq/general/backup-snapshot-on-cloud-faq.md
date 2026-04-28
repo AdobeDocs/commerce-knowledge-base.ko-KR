@@ -3,9 +3,9 @@ title: '클라우드에서 백업(스냅샷): FAQ'
 description: 이 문서에서는 클라우드 인프라의 Adobe Commerce에서 스냅샷을 사용하여 환경을 백업하는 데 필요한 필수 사항을 다룹니다.
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 79e7cd40665b1857a9c68916679f07b1c046028a
+source-git-commit: 878a49fd1bbfa98dd506f0e81008ebe3bf7ecaca
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,14 @@ ht-degree: 0%
 * 아키텍처 계획: Starter, Pro Legacy, Pro
 
 ## 환경 스냅샷, Pro 플랜
+
+### 업그레이드 준비 중
+
+업그레이드를 준비하기 위해 데이터베이스를 백업해야 하는 경우 계속하기 전에 자체 백업을 만들고 유효성을 검사해야 합니다. 재해 복구 스냅샷은 업그레이드에 실패한 경우에만 데이터베이스 복원을 위한 것이며 업그레이드 준비 백업의 대용은 아닙니다.
+
+오류가 발생하여 백업을 직접 만들 수 없는 경우 [지원 팀에 문의](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)하여 티켓에 백업 오류 세부 정보를 포함하십시오.
+
+참고: 재해 복구 스냅샷은 이전에 캡처한 시스템 복구 지점이며, 계획된 업그레이드를 위해 수동으로 만든 백업이 아니며 요청 시 생성할 수 없습니다. 스냅샷이 요청되면 사용 가능한 가장 최근 복구 지점이 제공되므로 해당 지점 이후의 변경 사항은 복구할 수 없습니다.
 
 ### 스테이징 및 프로덕션 환경
 
@@ -58,7 +66,7 @@ ht-degree: 0%
 **개발자 설명서의 관련 문서:**
 
 * [백업 및 재해 복구](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [스냅숏 만들기](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/storage/snapshots)
+* [스냅샷 만들기](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/storage/snapshots)
 
 ## 환경 스냅샷, 시작 계획
 
