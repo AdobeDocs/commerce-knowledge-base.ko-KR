@@ -3,9 +3,9 @@ title: Fastly 수준에서 Adobe Commerce에 대한 악성 트래픽 차단
 description: 이 문서에서는 클라우드 인프라 스토어의 Adobe Commerce에서 DDoS 공격이 발생한다고 의심되는 경우 악성 트래픽을 차단하는 데 사용할 수 있는 단계를 제공합니다.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: 2555fbdb8a7a53d41c746df6414a7b0bad2de5d9
+source-git-commit: 8bde15deccc24c548c20cf5955cbebc45ac1d9a1
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -49,27 +49,27 @@ Adobe Commerce on cloud infrastructure store의 경우 특정 IP 주소 및 서�
 
 1. Commerce 관리에서 **스토어** > **구성** > **고급** > **시스템** > **전체 페이지 캐시**&#x200B;로 이동합니다.
 1. 그런 다음 **빠르게 구성** > **사용자 지정 VCL 조각**&#x200B;을 수행합니다.
-1. Fastly\_Cdn 모듈에 대한 [사용자 지정 VCL 코드 조각](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md) 안내서에 설명된 대로 새 사용자 지정 코드 조각을 만듭니다. 다음 코드 샘플을 예로 사용할 수 있습니다. 이 샘플은 `AhrefsBot` 및 `SemrushBot` 사용자 에이전트에 대한 트래픽을 허용하지 않습니다.
+1. Fastly\_Cdn 모듈에 대한 [사용자 지정 VCL 코드 조각](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md) 안내서에 설명된 대로 새 사용자 지정 코드 조각을 만듭니다. 다음 코드 샘플을 예로 사용할 수 있습니다. 이 샘플은 `AhrefsBot` 사용자 에이전트에 대한 트래픽을 허용하지 않습니다.
 
 ```php
 name: block_bad_useragents
   type: recv
   priority: 5
   VCL:
-  if ( req.http.User-Agent ~ "(AhrefsBot|SemrushBot)" ) {
+  if ( req.http.User-Agent ~ "(AhrefsBot)" ) {
       error 405 "Not allowed";
   }
 ```
 
 ## 속도 제한(실험적 Fastly 기능)
 
-특정 경로 및 크롤러에 대한 속도 제한을 지정할 수 있는 클라우드 인프라의 Adobe Commerce에 대한 실험적인 Fastly 기능이 있습니다. 자세한 내용은 [Fastly 모듈 설명서](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/RATE-LIMITING.md)를 참조하십시오.
+특정 경로 및 웹 크롤러에 대한 속도 제한을 지정할 수 있는 클라우드 인프라의 Adobe Commerce에 대한 실험적인 Fastly 기능이 있습니다. 자세한 내용은 [Fastly 모듈 설명서](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/RATE-LIMITING.md)를 참조하십시오.
 
 이 기능은 적법한 트래픽을 차단할 수 있으므로 프로덕션에서 사용하기 전에 스테이징에서 광범위하게 테스트되어야 합니다.
 
 ## 권장: robots.txt 업데이트를 고려합니다.
 
-`robots.txt` 파일을 업데이트하면 특정 검색 엔진, 크롤러 및 로봇이 특정 페이지를 크롤링하지 않도록 하는 데 도움이 될 수 있습니다. 크롤링해서는 안 되는 페이지의 예로는 검색 결과 페이지, 체크아웃, 고객 정보 등이 있습니다. 로봇이 이러한 페이지를 크롤링하지 않도록 하면 해당 로봇이 생성하는 요청 수를 줄이는 데 도움이 될 수 있습니다.
+`robots.txt` 파일을 업데이트하면 특정 검색 엔진, 웹 크롤러 및 로봇을 특정 페이지에서 유지할 수 있습니다. 크롤링, 고객 검색 결과 페이지, 체크아웃 등이 아니어야 합니다. 이러한 페이지에서 로봇을 유지하는 것은 로봇이 생성하는 요청의 수를 줄이는 데 도움이 될 수 있습니다.
 
 `robots.txt`을(를) 사용할 때 두 가지 중요한 고려 사항이 있습니다.
 
@@ -81,11 +81,11 @@ name: block_bad_useragents
 `robots.txt`에 대한 일반 정보 및 권장 사항에 대해서는 다음을 참조하십시오.
 
 * Google 지원에서 [robots.txt 만들기](https://developers.google.com/search/docs/advanced/robots/create-robots-txt) 파일
-* /robots.txtrobotstxt.org 의 [정보](https://www.robotstxt.org/robotstxt.html)
+* robotstxt.org 의 [정보](https://www.robotstxt.org/robotstxt.html)
 
 개발자 및/또는 SEO 전문가와 협력하여 허용하거나 허용하지 않을 사용자 에이전트를 결정합니다.
 
 ## 관련 읽기
 
-* [Cloud의 Adobe Commerce에 대한 제품별 라이선스 약관](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+* [Adobe Commerce on Cloud에 대한 제품별 라이선스 약관](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
 * Commerce on Cloud Guide의 [차단 요청에 대한 사용자 지정 VCL](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)
