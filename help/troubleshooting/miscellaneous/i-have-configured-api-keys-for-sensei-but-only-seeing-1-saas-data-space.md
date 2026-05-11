@@ -57,4 +57,4 @@ Adobe 결제 서비스를 사용하는 Magento Open Source 고객도 추가 데�
 
 ## 관련 읽기
 
-[SaaS 데이터 공간 프로비저닝](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)
+[SaaS 데이터 공간 프로비저닝](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)
