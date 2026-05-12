@@ -15,8 +15,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce 지원 기술 자료를 재구성 중이며, 콘텐츠가 Adobe Experience League 내의 다른 위치로 이동하고 있습니다. [Experience League 검색 페이지 및 필터](https://experienceleague.adobe.com/en/search#)를 사용하여 최신 Adobe Commerce 문제 해결 및 지원 관련 콘텐츠를 찾으십시오.
+>Adobe Commerce 지원 기술 자료를 재구성 중이며, 콘텐츠가 Adobe Experience League 내의 다른 위치로 이동하고 있습니다. [Experience League 검색 페이지 및 필터](https://experienceleague.adobe.com/ko/search#)를 사용하여 최신 Adobe Commerce 문제 해결 및 지원 관련 콘텐츠를 찾으십시오.
 
 ![기술 자료 홈 페이지](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
 
-이 기술 자료의 정보는 [Adobe Commerce 개발자 설명서](https://developer.adobe.com/commerce/docs), [Adobe Commerce 판매자 안내서](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) 및 기타 Adobe Commerce 발행물을 보완하는 것으로 디자인되었습니다. 문제 해결 및 모범 사례를 다루고, 발표를 호스팅하고, FAQ에 답변하고, 공식 설명서에서 (어떤 이유로든) 언급되지 않은 특정 시나리오를 강조합니다.
+이 기술 자료의 정보는 [Adobe Commerce 개발자 설명서](https://developer.adobe.com/commerce/docs), [Adobe Commerce 판매자 안내서](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=ko) 및 기타 Adobe Commerce 발행물을 보완하는 것으로 디자인되었습니다. 문제 해결 및 모범 사례를 다루고, 발표를 호스팅하고, FAQ에 답변하고, 공식 설명서에서 (어떤 이유로든) 언급되지 않은 특정 시나리오를 강조합니다.
