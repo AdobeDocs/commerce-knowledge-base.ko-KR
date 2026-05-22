@@ -4,9 +4,9 @@ description: 이 문서에서는 라이브 검색 확장을 사용할 때 카탈
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+source-git-commit: beca5aa3fa796e4b12afc4882024db718b65ac0c
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->테이블 이름 `catalog_data_exporter_products` 및 `catalog_data_exporter_product_attributes`은(는) 이제 `cde_products_feed` 버전 4.2.1부터 `cde_product_attributes_feed` 및 [!DNL Live Search]&#x200B;(으)로 호출됩니다. 4.2.1 이전 버전의 판매자의 경우 이전 테이블 이름 `catalog_data_exporter_products` 및 `catalog_data_exporter_product_attributes`에서 데이터를 찾습니다.
+>테이블 이름 `catalog_data_exporter_products` 및 `catalog_data_exporter_product_attributes`은(는) 이제 [!DNL Live Search] 버전 4.2.1부터 `cde_products_feed` 및 `cde_product_attributes_feed`(으)로 호출됩니다. 4.2.1 이전 버전의 판매자의 경우 이전 테이블 이름 `catalog_data_exporter_products` 및 `catalog_data_exporter_product_attributes`에서 데이터를 찾습니다.
 
 <u>재현 단계</u>
 
@@ -153,10 +153,10 @@ bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 Live Search 색인의 다시 색인을 요청하려면 [지원 요청을 제출](https://experienceleague.adobe.com/home?lang=ko&support-tab=home#support)하세요. 문제 설명에서 **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** 아래의 관리 패널에 있는 데이터 공간/환경 ID를 포함합니다.
 
 >[!IMPORTANT]
->다른 경우에 `--cleanup-feed` 옵션을 사용하면 데이터 손실 및 데이터 동기화 문제가 발생할 수 있습니다.  새 빈 환경이 있거나, Adobe 팀이 데이터 공간 정리 작업을 완료한 후 또는 `saas:resync`—dry-run[&#x200B; 옵션을 사용하여 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) 명령을 실행하는 경우에만 사용합니다. 다른 경우에 `--cleanup-feed` 옵션을 사용하면 데이터 손실 및 데이터 동기화 문제가 발생할 수 있습니다.
+>다른 경우에 `--cleanup-feed` 옵션을 사용하면 데이터 손실 및 데이터 동기화 문제가 발생할 수 있습니다.  새 빈 환경이 있거나, Adobe 팀이 데이터 공간 정리 작업을 완료한 후 또는 [—dry-run](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run) 옵션을 사용하여 `saas:resync` 명령을 실행하는 경우에만 사용합니다. 다른 경우에 `--cleanup-feed` 옵션을 사용하면 데이터 손실 및 데이터 동기화 문제가 발생할 수 있습니다.
 
 ## 관련 읽기
 
 * 사용자 설명서의 [실시간 검색 온보딩](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html?lang=ko)
-* Adobe Commerce SaaS 데이터 내보내기 안내서의 [로그 검토 및 Adobe Commerce SaaS 데이터 내보내기 및 동기화 문제 해결](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)
+* Adobe Commerce SaaS 데이터 내보내기 안내서의 [로그 검토 및 Adobe Commerce SaaS 데이터 내보내기 및 동기화 문제 해결](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/logs-troubleshooting/troubleshooting-logging)
 * Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

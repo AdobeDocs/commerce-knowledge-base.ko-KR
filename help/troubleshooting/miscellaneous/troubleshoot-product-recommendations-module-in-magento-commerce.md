@@ -4,9 +4,9 @@ description: 이 문서에서는 Adobe Commerce의 [!UICONTROL Product Recommend
 exl-id: 431ee31e-eb5b-400c-9c99-cc86613453d7
 feature: Cache, Compliance, Extensions, Marketing Tools, Personalization, Products, Recommendations
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+source-git-commit: beca5aa3fa796e4b12afc4882024db718b65ac0c
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ saas-export
 magento/product-recommendations
 ```
 
-모듈이 올바르지만(개발자 설명서에서 [[!UICONTROL Product Recommendations - Install and Configure]](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)을(를) 확인하십시오.) 권장 사항이 표시되지 않으면 다음을 시도하십시오.
+모듈이 올바릅니다. 개발자 설명서에서 [[!UICONTROL Product Recommendations - Install and Configure]](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)을(를) 확인하십시오. 하지만 권장 사항이 표시되지 않습니다. 다음을 시도해 보십시오.
 
 * 모듈에서 동작 데이터를 수집할 시간이 충분하지 않았을 수 있습니다. 시스템이 데이터 수집을 시작할 수 있도록 24시간 동안 실행되도록 허용합니다. &quot;*이와 유사한 항목*&quot;과(와) 같이 동작 데이터가 필요하지 않은 권장 사항 유형을 배포하는 것이 좋습니다.
 
@@ -62,8 +62,8 @@ saas-export
 ) 모듈:
 
 1. 개발자 설명서에서 [[!DNL cron]](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) 작업이 실행 중인지 확인하십시오.
-1. 개발자 설명서에서 [[!UICONTROL indexers]](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers)이(가) 실행 중인지 확인하고    ```php    Product Feed    ```    [!UICONTROL indexer]이(가) 다음으로 설정됨:    ```php    Update by Schedule    ```    .
-1. 모듈이 *활성화됨*&#x200B;인지 확인하십시오. 다음    ```php    saas-export    ```    metapackage는 *enabled*&#x200B;여야 하는 다음 모듈을 설치합니다.    ```php    "magento/module-catalog-data-exporter"      "magento/module-catalog-inventory-data-exporter"      "magento/module-catalog-url-rewrite-data-exporter"      "magento/module-configurable-product-data-exporter"      "magento/module-data-exporter"      "magento/module-saas-catalog"    ```
+1. 개발자 설명서에서 [[!UICONTROL indexers]](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers)이(가) 실행 중이고 ```php    Product Feed    ``` [!UICONTROL indexer]이(가) ```php    Update by Schedule    ```(으)로 설정되어 있는지 확인하십시오.
+1. 모듈이 *활성화됨*&#x200B;인지 확인하십시오. ```php    saas-export    ``` 메타패키지는 다음 모듈을 설치합니다. 이 모듈은 모두 *사용*&#x200B;이어야 합니다. ```php    "magento/module-catalog-data-exporter"      "magento/module-catalog-inventory-data-exporter"      "magento/module-catalog-url-rewrite-data-exporter"      "magento/module-configurable-product-data-exporter"      "magento/module-data-exporter"      "magento/module-saas-catalog"    ```
 1. 개발자 설명서에서 [로그](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/enable-logging)를 확인하십시오. 위의 모듈과 관련된 오류가 없는지 확인합니다.
 1. [!UICONTROL Configuration cache]을(를) 새로 고칩니다. **시스템** > **도구** > **캐시 관리**(으)로 이동하여 [!UICONTROL Configuration cache]을(를) 지웁니다.
 1. `cde_products_products_feed` 데이터베이스 테이블에 데이터가 있는지 확인하십시오.
@@ -81,7 +81,7 @@ saas-export
 * 개발자 설명서에서 [제품 추천 관리자 개발](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/product-recommendations/developer/development-overview)
 * 제품 추천 가이드 [제품 추천 소개](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/product-recommendations/overview)
 * 제품 추천 가이드의 [제품 추천 만들기](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/product-recommendations/admin/create)
-* [&#x200B; 데이터 내보내기 가이드의 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)로그 검토 및 문제 해결[!DNL SaaS]
-* [[!DNL SaaS]  서비스에 대한 Adobe Commerce 데이터 내보내기 안내서의 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/saas-data-export/release-notes)데이터 내보내기 확장 릴리스 노트[!DNL SaaS]
+* [!DNL SaaS] 데이터 내보내기 가이드의 [로그 검토 및 문제 해결](https://experienceleague.adobe.com/ko/docs/commerce/saas-data-export/logs-troubleshooting/troubleshooting-logging)
+* [!DNL SaaS] 서비스에 대한 Adobe Commerce 데이터 내보내기 안내서의 [[!DNL SaaS] 데이터 내보내기 확장 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/saas-data-export/release-notes)
 * Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
 
