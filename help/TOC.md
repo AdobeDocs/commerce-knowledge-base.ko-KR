@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 1f8558e14c82e9f5ca3c050b15394c1361bdd179
+source-git-commit: 5cb7550f95d48b89fc0d68c5e282bc3efe817f17
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1799'
 ht-degree: 1%
 
 ---
@@ -185,7 +185,7 @@ ht-degree: 1%
       * [PHP 8.1을 지원하는 버전으로 업그레이드할 때 배포 도중 오류 발생](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
       * [배포 오류: &quot;다운로드 중 오류 7.. 포트 443: 연결이 거부되었습니다.&quot;](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [잘못된 파일을 커밋할 때 배포 오류 발생](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
-      * [패치를 찾을 수 없는 배포 오류](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
+      * [배포 또는 수동 응용 프로그램 중 패치에 오류가 없습니다.](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
       * [캐시 플러시 시 시 배포 실패: &quot;&#39;cache&#39; 네임스페이스에 정의된 명령이 없습니다.&quot; 오류](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
    * 알려진 문제 {#known-issues-patches-attached}
       * [저장소 보안 및 암호화 키 회전에 대한 지침:  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)

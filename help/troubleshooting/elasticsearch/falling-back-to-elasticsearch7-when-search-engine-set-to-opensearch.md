@@ -4,9 +4,9 @@ description: 이 문서에서는 *Adobe Commerce에서  [!DNL Elasticsearch7]* e
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
-source-git-commit: d17af0f8f92726aa5a6914fc9e1ff13268256d04
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 **검색 엔진**&#x200B;을(를) **[!DNL OpenSearch]**(으)로 설정했지만 `var/log/support_report.log` 파일에 다음과 같은 유형의 오류가 있습니다.
 
-```[2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] []```
+`[2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] []`
 
 <u>재현 단계</u>:
 

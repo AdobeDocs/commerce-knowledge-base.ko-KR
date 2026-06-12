@@ -4,9 +4,9 @@ description: 이 문서에서는  [!DNL Commerce Data Exporter mview] 구독에�
 feature: Data Import/Export, Saas, Logs
 role: Developer
 exl-id: 50f2223b-bfcf-4c3c-b0f1-dbcc4365edc2
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-사용자 지정된 확장에서 [!DNL Mview] 구성 파일(```./etc/mview.xml```)을 편집하여 `catalog_data_exporter_products` 테이블 이름을 *`cde_products_feed`*(으)로 변경합니다.
+사용자 지정된 확장에서 [!DNL Mview] 구성 파일(`./etc/mview.xml`)을 편집하여 `catalog_data_exporter_products` 테이블 이름을 *`cde_products_feed`*(으)로 변경합니다.
 
 다음 예제에서는 [!DNL Mview] 구독에서 추적한 테이블을 지정하는 코드를 보여 줍니다.
 
