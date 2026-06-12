@@ -4,9 +4,9 @@ description: 이 문서에서는 색인이 다른 프로세스에 의해 잠기�
 exl-id: 542c714c-fad5-4f0e-9757-d90044c36bfc
 feature: Catalog Management, Categories
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 1536ad8672498cf36f3d28452762744e4ffcc5de
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 문제
 
-CLI에서 전체 색인 재지정 중에 Adobe Commerce에 다음과 같은 오류 메시지가 표시됩니다. *색인이 다른 색인 재지정 프로세스에 의해 잠겼습니다. 건너뛰기.&#39;* 다시 말해, 프로세스나 색인 유형이 잠겨 있으면 그 특정 색인 유형을 다시 색인화할 수 없습니다. 색인 재지정은 항상 해당 색인 유형을 건너뜁니다.
+CLI에서 전체 색인 재지정 중에 Adobe Commerce에 다음과 같은 오류 메시지가 표시됩니다. *색인이 다른 색인 재지정 프로세스에 의해 잠겼습니다. 건너뛰는 중입니다.&#39;* 다시 말해, 프로세스나 인덱스 유형이 잠겨 있으면 그 특정 잠금 인덱스 유형을 다시 인덱싱할 수 없습니다. 색인 재지정은 항상 해당 색인 유형을 건너뜁니다.
 
 ## 원인
 
@@ -34,10 +34,28 @@ CLI에서 전체 색인 재지정 중에 Adobe Commerce에 다음과 같은 오�
 
 ## 재현 단계
 
-1. 예를 들어    ```bash    cataloginventory_stock ```    색인 유형이 잠겨 있습니다.
-1. CLI 명령을 실행하여 모든 데이터를 다시 인덱싱하려고 할 때    ```bash    php bin/magento indexer:reindex    ```, 다음 출력 결과를 가져옵니다.    ```bash    customer_grid index has been rebuilt successfully in 00:00:09    catalog_category_product index has been rebuilt successfully in 00:00:07    catalog_product_category index has been rebuilt successfully in 00:00:00    catalogrule_rule index has been rebuilt successfully in 00:00:05    catalog_product_attribute index has been rebuilt successfully in 00:00:04    cataloginventory_stock index is locked by another reindex process. Skipping.    catalog_product_price index has been rebuilt successfully in 00:00:01    catalogrule_product has been rebuilt successfully in 00:00:00    catalogsearch_fulltext index has been rebuilt successfully in 00:00:01    ```
-1. 위에서 볼 수 있듯이    ```bash    cataloginventory_stock```    인덱스 프로세스를 건너뛰었습니다.
+1. 예를 들어 `cataloginventory_stock` 인덱스 유형이 잠겨 있다고 가정해 보겠습니다.
+1. CLI 명령을 실행하여 모든 데이터를 다시 인덱싱하려고 할 때:
 
+   ```bash
+   php bin/magento indexer:reindex
+   ```
+
+   다음과 같은 출력 결과를 얻을 수 있습니다.
+
+   ```
+   customer_grid index has been rebuilt successfully in 00:00:09
+   catalog_category_product index has been rebuilt successfully in 00:00:07
+   catalog_product_category index has been rebuilt successfully in 00:00:00
+   catalogrule_rule index has been rebuilt successfully in 00:00:05
+   catalog_product_attribute index has been rebuilt successfully in 00:00:04
+   cataloginventory_stock index is locked by another reindex process. Skipping.
+   catalog_product_price index has been rebuilt successfully in 00:00:01
+   catalogrule_product has been rebuilt successfully in 00:00:00
+   catalogsearch_fulltext index has been rebuilt successfully in 00:00:01
+   ```
+
+1. 위에서 보듯이 `cataloginventory_stock` 인덱스 프로세스를 건너뛰었습니다.
 
 ## 솔루션
 
@@ -68,7 +86,6 @@ bin/magento indexer:reset catalogrule_product;
 bin/magento indexer:reset catalogsearch_fulltext;
 ```
 
-
 ## 관련 읽기
 
 지원 기술 자료에서:
@@ -77,12 +94,12 @@ bin/magento indexer:reset catalogsearch_fulltext;
 
 사용 안내서에서 다음을 수행합니다.
 
-* [색인 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=reindexing)
+* [색인 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=reindexing)
 
 개발자 설명서에서:
 
-* [인덱싱 개요](https://developer.adobe.com/commerce/php/development/components/indexing/)
-* [인덱서 모범 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/performance-best-practices/configuration)
-* [Cron 구성 및 실행](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
-* [인덱서 관리](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers)
+* [색인 생성 개요](https://developer.adobe.com/commerce/php/development/components/indexing/)
+* [인덱서 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration)
+* [Cron 구성 및 실행](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
+* [인덱서 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)
 * [인덱서 최적화](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)

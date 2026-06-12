@@ -4,9 +4,9 @@ description: 이 문서에서는 Progressive Web App Studio(PWA Studio)에서 �
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
-source-git-commit: 032fe4d32921c63570672b9c68e8c03e00bd1077
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,8 @@ watch
 
 <u>예상 결과</u>:
 
-* 을 사용하는 경우    ```yaml    build    ```    명령을 실행하면 일반적으로 Venia에 대한 빌드 아티팩트가 생성됩니다.
-* 을 사용하는 경우    ```yaml    watch    ```    여긴 베니아 점포가 정상적으로 시작됩니다
+* `build` 명령을 사용하는 경우 일반적으로 Venia에 대한 빌드 아티팩트를 생성합니다.
+* `watch` 명령을 사용하는 경우 Venia storefront가 정상적으로 시작됩니다.
 
 <u>실제 결과</u>:
 

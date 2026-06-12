@@ -4,9 +4,9 @@ description: 이 문서에서는 특정 바니시 캐시 기본값이 저장소�
 exl-id: 3f001cc9-b19a-4dee-bff0-fc8ba89e2646
 feature: Cache, Categories
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe Commerce에서 사용하는 캐시 태그의 길이가 Varnish의 기본�
    * 우분투: `/etc/default/varnish`
 1. `http_resp_hdr_len` 매개 변수를 검색합니다.
 1. 매개 변수가 없으면 `thread_pool_max` 뒤에 추가하십시오.
-1. `http_resp_hdr_len`을(를) 가장 큰 범주의 제품 수에 21을 곱한 값과 같은 값으로 설정하십시오. (각 제품 태그의 길이는 약 21자입니다.)    예를 들어 가장 큰 카테고리에 3,000개의 제품이 있는 경우 값을 65536바이트로 설정하면 작동합니다.    예:    ```conf    -p http_resp_hdr_len=65536 \    ```
+1. `http_resp_hdr_len`을(를) 가장 큰 범주의 제품 수에 21을 곱한 값과 같은 값으로 설정하십시오. (각 제품 태그의 길이는 약 21자입니다.) 예를 들어 가장 큰 카테고리에 3,000개의 제품이 있는 경우 값을 65536바이트로 설정하면 작동합니다. 예: `-p http_resp_hdr_len=65536 \`
 1. `http_resp_size`을(를) 증가된 응답 헤더 길이를 수용하는 값으로 설정하십시오.    예를 들어, 증가된 헤더 길이와 기본 응답 크기의 합을 사용하는 것이 좋은 시작점입니다(예: 65536 + 32768 = 98304). `-p http_resp_size=98304`. 코드 조각은 다음과 같습니다.
 
    ```
@@ -63,4 +63,4 @@ Varnish가 캐싱 애플리케이션으로 구성되고 Adobe Commerce이 개발
 $ bin/magento cache:enable
 ```
 
-명령줄 사용에 대한 자세한 내용은 [명령줄 구성 시작](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/config-cli)을 참조하십시오.
+명령줄 사용에 대한 자세한 내용은 [명령줄 구성 시작](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli)을 참조하십시오.
