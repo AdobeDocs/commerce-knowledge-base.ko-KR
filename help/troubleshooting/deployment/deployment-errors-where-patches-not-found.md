@@ -72,11 +72,11 @@ Check the availability of these patches for the  current Magento version using t
     * ACSD-XXXXX
    ```
 
-1. [품질 패치 릴리스 정보](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html)에서 패치 ID를 검색하여 업그레이드하려는 새 버전의 Adobe Commerce에 각 ID를 적용할 수 있는지 확인하십시오.
+1. [품질 패치 릴리스 정보](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html?lang=ko)에서 패치 ID를 검색하여 업그레이드하려는 새 버전의 Adobe Commerce에 각 ID를 적용할 수 있는지 확인하십시오.
 1. 패치를 업그레이드하려는 새 버전의 Adobe Commerce에 적용할 수 없는 경우 `.magento.env.yaml` 파일에서 패치 ID를 제거하십시오.
 1. 오류로 표시된 모든 패치 ID를 검토한 후 변경 사항을 푸시하고 다시 배포합니다.
 
 ## 관련 읽기
 
-* Commerce on Cloud Infrastructure Guide의 [패치 적용](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment).
+* Commerce on Cloud Infrastructure Guide의 [패치 적용](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=ko#apply-a-patch-in-a-local-environment).
 
