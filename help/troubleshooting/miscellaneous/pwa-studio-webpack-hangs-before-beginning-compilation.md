@@ -4,7 +4,7 @@ description: 이 문서에서는 Progressive Web App Studio(PWA Studio)에서 �
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -97,3 +97,4 @@ OSX의 경우 [Homebrew](https://brew.sh/), Windows의 경우 [Chocolatey](https
 * [PWA Buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
 * [buildpack 명령줄 인터페이스](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
 * [도구 및 라이브러리: buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)
+

@@ -4,7 +4,7 @@ description: 이 문서에서는 특정 바니시 캐시 기본값이 저장소�
 exl-id: 3f001cc9-b19a-4dee-bff0-fc8ba89e2646
 feature: Cache, Categories
 role: Admin
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -64,3 +64,4 @@ $ bin/magento cache:enable
 ```
 
 명령줄 사용에 대한 자세한 내용은 [명령줄 구성 시작](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/config-cli)을 참조하십시오.
+

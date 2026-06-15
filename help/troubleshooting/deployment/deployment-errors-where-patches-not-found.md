@@ -2,7 +2,7 @@
 title: 배포 또는 수동 응용 프로그램 중 패치에 오류가 없습니다.
 description: '이 문서에서는 오류가 발생하는 문제에 대한 해결 방법을 제공합니다. *다음 패치를 찾을 수 없는 경우: MDVA-XXXXX, ACSD-XXXXX. ''status'' 명령*을 사용하여 현재 Magento 버전에 대한 이러한 패치의 가용성을 확인하십시오.'
 exl-id: 5a2fd35a-892a-48af-a41f-f275297b3e2e
-source-git-commit: 180f0e00ec1a2c6c3bd2ebca4dafe387c7bb3852
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -79,3 +79,4 @@ Check the availability of these patches for the  current Magento version using t
 ## 관련 읽기
 
 * Commerce on Cloud Infrastructure Guide의 [패치 적용](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=ko#apply-a-patch-in-a-local-environment).
+

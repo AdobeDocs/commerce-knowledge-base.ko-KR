@@ -4,7 +4,7 @@ description: 이 문서에서는 Commerce 관리자의 .csv 파일로 원하는 
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -100,3 +100,4 @@ Adobe Commerce 애플리케이션 부품 버전 2.3.2의 내보내기 기능에 
 >[!NOTE]
 >
 >Adobe Commerce on cloud infrastructure Pro 프로젝트에서 `.magento.app.yaml`을(를) 사용하여 스테이징 및 프로덕션 환경에 사용자 지정 cron 작업을 추가하려면 먼저 Adobe Commerce on cloud infrastructure에서 [auto-cron 기능](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=ko#crontab)을(를) 활성화해야 합니다. 이 기능이 활성화되어 있지 않으면 [지원 티켓을 만들어](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) 작업을 추가하세요.
+
