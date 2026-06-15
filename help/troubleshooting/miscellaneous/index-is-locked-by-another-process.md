@@ -4,7 +4,7 @@ description: 이 문서에서는 색인이 다른 프로세스에 의해 잠기�
 exl-id: 542c714c-fad5-4f0e-9757-d90044c36bfc
 feature: Catalog Management, Categories
 role: Developer
-source-git-commit: 1536ad8672498cf36f3d28452762744e4ffcc5de
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -94,12 +94,13 @@ bin/magento indexer:reset catalogsearch_fulltext;
 
 사용 안내서에서 다음을 수행합니다.
 
-* [색인 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/index-management?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=reindexing)
+* [색인 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management?itm_source=merchdocs&itm_medium=search_page&itm_campaign=federated_search&itm_term=reindexing)
 
 개발자 설명서에서:
 
 * [색인 생성 개요](https://developer.adobe.com/commerce/php/development/components/indexing/)
-* [인덱서 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/performance-best-practices/configuration)
-* [Cron 구성 및 실행](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
-* [인덱서 관리](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/manage-indexers)
+* [인덱서 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration)
+* [Cron 구성 및 실행](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
+* [인덱서 관리](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)
 * [인덱서 최적화](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
+
