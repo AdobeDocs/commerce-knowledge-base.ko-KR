@@ -4,9 +4,9 @@ description: 이 문서에서는 'cron.log' 파일에 "*SQL Server가 없어짐*
 exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
 feature: Cloud, Paas, Services, Variables
 role: Developer
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+source-git-commit: 467d214d25b2154af0545054a026a588de883f58
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 0%
 
 ## 솔루션
 
+1. CLI `php -i |grep default_socket_timeout`에서 실행하여 `default_socket_timeout`의 현재 시간 제한 기간을 확인하십시오.
 1. CLI에서 실행하여 `default_socket_timeout`의 현재 시간 제한 기간을 확인하십시오. `php -i |grep default_socket_timeout`
 1. 시간 제한 설정 증가에 따라 `default_socket_timeout` 변수가 `/etc/platform/<project_name>/php.ini` 파일에서 가능한 가장 긴 실행 시간으로 설정됩니다. 10~15분 사이를 설정하는 것이 좋습니다.
 1. GIT에 커밋하고 재배포합니다.
@@ -49,4 +50,3 @@ ht-degree: 0%
 
 * [클라우드 인프라의 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=ko)
 * [클라우드 인프라의 Adobe Commerce에서 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=ko)
-
