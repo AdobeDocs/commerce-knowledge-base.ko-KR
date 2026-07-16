@@ -65,7 +65,7 @@ Fastly는 일반적으로 애플리케이션에서 들어오는 응답 헤더를
 
 전체 캐시 적중률을 확인하려면 다음을 수행합니다.
 
-1. 클라우드 인프라 환경에서 Adobe Commerce에 대한 [Fastly 자격 증명을 가져옵니다](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration).
+1. 클라우드 인프라 환경에서 Adobe Commerce에 대한 [Fastly 자격 증명을 가져옵니다](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration).
 1. 다음 Linux/macOS cURL 명령을 실행하여 지난 30분 동안 사이트에 대한 적중률을 확인하고 Fastly 자격 증명에 대한 값으로 및 을 바꿉니다.
 
    `curl -H "Fastly-Key: " https://api.fastly.com/stats/service//field/hit_ratio?by=minute | json_pp`
@@ -82,8 +82,8 @@ Fastly는 일반적으로 애플리케이션에서 들어오는 응답 헤더를
 
 1. 시간별 및 일별 적중률 통계를 사용하여 적중률이 감소하기 시작한 시기를 식별합니다. 사이트에 변경 사항을 배포한 시점과 거의 동시에 적중률이 갑자기 떨어진 경우 사이트 로드가 감소할 때까지 변경 사항을 롤백하는 것이 좋습니다.
 1. Commerce 관리자의 **스토어** > **구성** > 고급 > **시스템** > **전체 페이지 캐시**&#x200B;에서 구성을 확인하십시오. **공개 콘텐츠에 대한 TTL** 값이 너무 낮게 설정되어 있지 않은지 확인하십시오.
-1. [VCL 코드 조각을 업로드했는지](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)확인하십시오.
-1. 사용자 지정 VCL 스니펫을 사용하는 경우 &quot;전달&quot; 또는 &quot;파이프&quot; 작업을 올바르게 사용하도록 디버깅하십시오. 이러한 스니펫은 주의 깊게 사용해야 하며, 최소한 일종의 조건에서 사용해야 합니다. 추가 팁은 개발자 설명서에서 [사용자 지정 Fastly VCL 코드 조각](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)을 참조하십시오.
+1. [VCL 코드 조각을 업로드했는지](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)확인하십시오.
+1. 사용자 지정 VCL 스니펫을 사용하는 경우 &quot;전달&quot; 또는 &quot;파이프&quot; 작업을 올바르게 사용하도록 디버깅하십시오. 이러한 스니펫은 주의 깊게 사용해야 하며, 최소한 일종의 조건에서 사용해야 합니다. 추가 팁은 개발자 설명서에서 [사용자 지정 Fastly VCL 코드 조각](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)을 참조하십시오.
 
 ### 3단계: 높은 서버 로드를 유발하는 웹 사이트 식별
 
