@@ -6,7 +6,7 @@ feature: Cache, Categories, Cloud, Paas
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---

@@ -1,7 +1,7 @@
 ---
 source-git-commit: c992521cae8c847adc0cc23d2323300e0ba69cdc
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ Adobe Commerce 버전 2.4.0
 
 </td>
 
-<td colspan="1">Adobe Commerce 2.4.0(v. 또는 버전 없음)</td>
+<td colspan="1">Adobe Commerce 2.4.0(v 없음) 또는 버전)</td>
 
 <td colspan="1"></td>
 
@@ -276,4 +276,4 @@ Use tables for information that is best presented along two axes (rows and colum
 
 ## 브랜딩
 
-* 이제 Magento Commerce은 Adobe Commerce입니다. 최신 브랜딩 언어를 사용하는 방법에 대한 자세한 내용은 [용어 다시 브랜딩](https://github.com/magento/knowledge-base/wiki) 위키를 참조하십시오.
+* Magento Commerce가 이제 Adobe Commerce으로 바뀌었습니다. 최신 브랜딩 언어를 사용하는 방법에 대한 자세한 내용은 [용어 다시 브랜딩](https://github.com/magento/knowledge-base/wiki) 위키를 참조하십시오.
