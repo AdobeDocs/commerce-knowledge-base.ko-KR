@@ -40,5 +40,5 @@ GraphQL 요청의 고유한 특성으로 인해 [!DNL Fastly] WAF에 의한 요�
 
 ## 관련 읽기
 
-* Commerce on Cloud Infrastructure 안내서의 [웹 응용 프로그램 방화벽(WAF)](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service).
-* Cloud Infrastructure의 Commerce 안내서에서 [사용자 지정 VCL 시작하기](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets).
+* Commerce on Cloud Infrastructure 안내서의 [웹 응용 프로그램 방화벽(WAF)](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service).
+* Cloud Infrastructure의 Commerce 안내서에서 [사용자 지정 VCL 시작하기](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets).
