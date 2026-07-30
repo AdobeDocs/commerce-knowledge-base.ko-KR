@@ -6,7 +6,7 @@ feature: B2B, Orders, Payments, Personalization
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 <u>실제 결과</u>:
 
-결제 방법 할인이 주문 총액에 적용된 상태로 유지됩니다.  오류 메시지가 표시되지 않습니다. 스토어 소유자는 주문 내역을 확인하여 이 오류를 확인할 수 있습니다.
+결제 방법 할인이 주문 총액에 적용된 상태로 유지됩니다.  오류 메시지가 표시되지 않습니다.매장 주인은 주문 내역을 확인하여 이 같은 사실을 알 수 있습니다.
 
-<u>예상 결과</u>: 예상대로 결제 방법 할인이 주문 합계에서 제거됩니다.
+<u>예상 결과</u> :The 결제 방법 할인이 예상대로 주문 합계에서 제거되었습니다.
 
 ## 솔루션
 

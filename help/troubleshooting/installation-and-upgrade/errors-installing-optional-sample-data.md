@@ -6,7 +6,7 @@ feature: Console, Install, Upgrade
 role: Developer
 source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Next exception 'ReflectionException' with message 'Class Magento\CatalogRule\Mod
 
 ### 솔루션
 
-`root` 권한이 있는 사용자로 [파일 시스템 소유권 및 권한을 다시 설정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html?lang=ko)합니다.
+`root` 권한이 있는 사용자로 [파일 시스템 소유권 및 권한을 다시 설정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html)합니다.
 
 ## 증상(프로덕션 모드)
 
-현재 [프로덕션 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ko)로 설정된 경우 [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html?lang=ko) 명령을 사용하면 샘플 데이터 설치가 실패합니다.
+현재 [프로덕션 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html)로 설정된 경우 [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html) 명령을 사용하면 샘플 데이터 설치가 실패합니다.
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -48,7 +48,7 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 프로덕션 모드에서 샘플 데이터를 설치하지 마십시오. 개발자 모드로 전환하고 일부 `var` 디렉터리를 지운 후 다시 시도하십시오.
 
-[Adobe Commerce 파일 시스템 소유자](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html?lang=ko)(으)로 표시된 순서대로 다음 명령을 입력하십시오.
+[Adobe Commerce 파일 시스템 소유자](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html)&#x200B;(으)로 표시된 순서대로 다음 명령을 입력하십시오.
 
 ```php
 cd <magento_root>
@@ -119,4 +119,4 @@ php --ini
 
 >[!NOTE]
 >
->이 문서에는 일부 사람들이 인종차별주의자, 성차별주의자 또는 억압적이라고 생각할 수 있고 독자로 하여금 상처받거나, 트라우마를 받거나, 환영받지 못하게 만들 수 있는 업계 표준 소프트웨어 용어가 여전히 포함되어 있을 수 있다는 것을 알고 있습니다. Adobe이 코드, 설명서 및 사용자 경험에서 이러한 용어를 제거하고 있습니다.
+>이 문서에는 일부 사람들이 인종차별주의자, 성차별주의자 또는 억압적이라고 생각할 수 있고 독자로 하여금 상처받거나, 트라우마를 받거나, 환영받지 못하게 만들 수 있는 업계 표준 소프트웨어 용어가 여전히 포함되어 있을 수 있다는 것을 알고 있습니다. Adobe은 코드, 설명서 및 사용자 경험에서 이러한 용어를 제거하고 있습니다.

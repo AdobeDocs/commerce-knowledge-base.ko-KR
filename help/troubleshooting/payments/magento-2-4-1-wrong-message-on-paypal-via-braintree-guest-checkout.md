@@ -1,17 +1,17 @@
 ---
-title: 'Adobe Commerce 2.4.1: PayPal-Braintree 게스트 체크아웃 시 잘못된 메시지'
+title: 'Adobe Commerce 2.4.1: PayPal-Braintree 게스트 체크아웃에서 잘못된 메시지'
 description: 이 문서에서는 게스트 체크아웃이 비활성화된 경우 Braintree을 통해 PayPal로 주문하려는 게스트 고객에게 유익하지 않은 오류 메시지가 표시되는 알려진 Adobe Commerce 2.4.1 문제에 대해 설명합니다.
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
 source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce 2.4.1: PayPal-Braintree 게스트 체크아웃 시 잘못된 메시지
+# Adobe Commerce 2.4.1: PayPal-Braintree 게스트 체크아웃에서 잘못된 메시지
 
 이 문서에서는 게스트 체크아웃이 비활성화된 경우 Braintree을 통해 PayPal로 주문하려는 게스트 고객에게 유익하지 않은 오류 메시지가 표시되는 알려진 Adobe Commerce 2.4.1 문제에 대해 설명합니다.
 
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 ## 문제
 
-백엔드에서 게스트 체크아웃이 비활성화되고 PayPal through Braintree 결제 옵션이 Mini-Cart 또는 Shopping Cart에서 선택되면 구체적이지 않은 오류가 표시됩니다.
+백엔드에서 게스트 체크아웃이 비활성화되고 Mini-Cart 또는 Shopping Cart에서 Braintree 결제 옵션을 통한 PayPal이 선택되면 구체적이지 않은 오류가 표시됩니다.
 
 <u>필수 구성 요소</u>:
 
 1. Commerce 관리자의 **스토어** > **구성** > **판매** > **체크아웃**&#x200B;에서 **게스트 체크아웃 허용** = *아니요*&#x200B;를 설정하십시오.
-1. 사용 안내서의 [Braintree](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/payments/braintree?)에 설명된 대로 Braintree을 통해 PayPal을 사용하도록 설정하십시오.
+1. 사용 안내서의 [Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?)에 설명된 대로 Braintree을 통해 PayPal을 사용하도록 설정합니다.
 
 <u>재현 단계</u>:
 
@@ -55,7 +55,7 @@ Braintree을 사용하지 않고 직접 Paypal을 사용하는 경우 이 시나
 
 ## 해결 방법
 
-이 문제에 대한 해결 방법은 고객이 게스트 체크아웃이 비활성화된 스토어(로그인한 사용자는 게스트 체크아웃을 사용하지 않음)에 로그인할 수 있다는 것입니다. 이 문제는 Adobe Commerce 버전 2.4.2에서 해결되었습니다.
+이 문제에 대한 해결 방법은 고객이 스토어에 로그인할 수 있다는 것입니다(로그인한 사용자는 게스트 체크아웃을 사용하지 않음). 게스트 체크아웃이 비활성화된 경우. 이 문제는 Adobe Commerce 버전 2.4.2에서 해결되었습니다.
 
 ## 관련 읽기
 
