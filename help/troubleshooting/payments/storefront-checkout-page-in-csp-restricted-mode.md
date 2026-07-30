@@ -6,18 +6,18 @@ role: Developer
 exl-id: fb92b75d-c88b-4810-a309-d6ab38485e86
 source-git-commit: 6d0c4ea9576440d66be3b8053a6e362b8ac0ebcb
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL CSP] 제한 모드에서 storefront 체크아웃 페이지 문제 해결
 
-이 문서에서는 **[!UICONTROL CSP restricted mode]**&#x200B;에서 체크아웃 페이지를 보는 동안 브라우저 콘솔 로그에 있는 &quot;script-src ...*&quot; 오류 메시지를 위반하기 때문에 &quot;*&#x200B;인라인 스크립트 실행을 거부함&quot; 오류 메시지와 함께 Adobe Commerce 2.4.7 문제에 대한 설명 및 수정 사항을 제공합니다.
+이 문서에서는 **[!UICONTROL CSP restricted mode]**&#x200B;에서 체크아웃 페이지를 보는 동안 &quot;script-src ...*&quot; 콘텐츠 보안 정책 지시문을 위반하므로 &quot;*&#x200B;인라인 스크립트 실행을 거부함&quot;과 함께 Adobe Commerce 2.4.7 문제에 대한 설명 및 수정 사항을 제공합니다. 브라우저 콘솔 로그에 오류 메시지가 표시됩니다.
 
 ## 영향을 받는 제품 및 버전
 
-Adobe Commerce on cloud infrastructure, Adobe Commerce 온프레미스 및 Magento Open Source:
+Adobe Commerce on cloud infrastructure, Adobe Commerce on-premise 및 Magento Open Source:
 
 * 2.4.7
 * 2.4.6-pX
@@ -26,7 +26,7 @@ Adobe Commerce on cloud infrastructure, Adobe Commerce 온프레미스 및 Magen
 
 ## 문제 - Storefront 체크아웃 페이지가 손상되었거나 로드할 수 없음
 
-**Storefront 체크아웃** 페이지가 손상되었거나 로드할 수 없습니다. &quot;*다음 콘텐츠 보안 정책 지시문을 위반하므로 인라인 스크립트 실행이 거부됨: 브라우저 콘솔 로그에 &quot;script-src ...*&quot; 오류 메시지가 표시됩니다.
+**storefront checkout** 페이지가 손상되었거나 로드할 수 없습니다. &quot;*다음 콘텐츠 보안 정책 지시문 &quot;script-src ...*&quot;을(를) 위반하므로 인라인 스크립트 실행을 거부했습니다.&quot; 브라우저 콘솔 로그에 오류 메시지가 표시됩니다.
 
 <u>재현 단계</u>:
 
@@ -95,7 +95,7 @@ Adobe Commerce 및 Magento Open Source 2.4.7 이상에는 각 요청에 대해 �
 
 ## 문제 - 결제 방법이 없거나 작동하지 않음
 
-결제 방법이 없거나 **storefront 체크아웃** 페이지에서 작동하지 않습니다. &quot;*다음 콘텐츠 보안 정책 지시문 &quot;script-src ...*&quot; 오류 메시지를 위반하므로 인라인 스크립트 실행이 거부됨.
+결제 방법이 없거나 **storefront 체크아웃** 페이지에서 작동하지 않습니다. &quot;*다음 콘텐츠 보안 정책 지시문 &quot;script-src ...*&quot;을(를) 위반하므로 인라인 스크립트 실행이 거부됨&quot; 브라우저 콘솔 로그에 오류 메시지가 표시됩니다.
 
 <u>재현 단계</u>:
 
@@ -165,7 +165,7 @@ Adobe Commerce 및 Magento Open Source 2.4.7 이상에는 각 요청에 대해 �
 
 ## 문제 - 고객이 주문할 수 없음
 
-고객은 브라우저 콘솔 로그에 &quot;script-src ...*&quot; 오류 메시지를 위반하기 때문에 &quot;*&#x200B;인라인 스크립트 실행을 거부함&quot;을 사용하여 주문을 할 수 없습니다.
+다음 콘텐츠 보안 정책 지시문 &quot;script-src ...*&quot;을 위반하므로 고객이 &quot;*&#x200B;인라인 스크립트 실행을 거부함&quot;을 사용하여 주문을 할 수 없습니다. 브라우저 콘솔 로그에 오류 메시지가 표시됩니다.
 
 <u>재현 단계</u>:
 

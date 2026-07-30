@@ -1,19 +1,19 @@
 ---
-title: 'Adobe Commerce 2.4.1 알려진 문제: PayPal Braintree을 사용하여 체크아웃할 때 오류 발생'
-description: 이 문서에서는 PayPal Braintree 결제를 사용하고 여러 주소 선적을 선택한 경우 체크아웃의 청구 단계에서 오류 메시지가 표시되며 사라지는 알려진 Adobe Commerce 2.4.1 문제에 대해 설명합니다.
+title: 'Adobe Commerce 2.4.1 알려진 문제: PayPal Braintree으로 체크아웃할 때 오류 발생'
+description: 이 문서에서는 PayPal Adobe Commerce 결제를 사용하고 여러 주소 선적을 선택한 경우 체크아웃의 청구 단계에서 오류 메시지가 표시되며 사라지는 알려진 Braintree 2.4.1 문제에 대해 설명합니다.
 exl-id: db3830b2-4885-4d89-85cd-bdcbd4b396e6
 feature: Checkout, Orders, Payments
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce 2.4.1 알려진 문제: PayPal Braintree을 사용하여 체크아웃할 때 오류 발생
+# Adobe Commerce 2.4.1 알려진 문제: PayPal Braintree으로 체크아웃할 때 오류 발생
 
-이 문서에서는 PayPal Braintree 결제를 사용하고 여러 주소 선적을 선택한 경우 체크아웃의 청구 단계에서 오류 메시지가 표시되며 사라지는 알려진 Adobe Commerce 2.4.1 문제에 대해 설명합니다.
+이 문서에서는 PayPal Adobe Commerce 결제를 사용하고 여러 주소 선적을 선택한 경우 체크아웃의 청구 단계에서 오류 메시지가 표시되며 사라지는 알려진 Braintree 2.4.1 문제에 대해 설명합니다.
 
 ## 영향을 받는 제품 및 버전
 
