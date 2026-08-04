@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: b82083924e570e6a0bc004b47ab41f597836b3aa
+source-git-commit: 694ab6fe606195c40b15d2752c09dd380d3dcedb
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1771'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,6 @@ ht-degree: 1%
     * [패치를 적용하면 사이트가 다운됩니다.](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [모든 Adobe Commerce 버전에서 Google 맵 액세스 손실에 대한 패치를 수정했습니다.](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * 기타 {#miscellaneous}
-    * [&#x200B; [!DNL Commerce Data Exporter] 피드 및 [!DNL cron] 로그 테이블에서 업데이트되지 않은 데이터 수정 오류가 존재하지 않습니다.](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
     * [내보내기 저장소가 거의 꽉 찼다는 이메일](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
     * [구성 파일이 없거나 변경되었습니다.](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
     * [cURL 오류 60: SSL 인증서가 만료됨](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
