@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 4787dec7aefd10f0b8db97ee5e76b09abe78af6c
+source-git-commit: 5bb5ce75f5bd20f21762c0c43ab0f54286baf076
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1734'
 ht-degree: 1%
 
 ---
@@ -73,19 +73,15 @@ ht-degree: 1%
     * [모든 Adobe Commerce 버전에서 Google 맵 액세스 손실에 대한 패치를 수정했습니다.](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * 기타 {#miscellaneous}
     * [내보내기 저장소가 거의 꽉 찼다는 이메일](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
-    * [cURL 오류 60: SSL 인증서가 만료됨](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
     * [Adobe Commerce의 제품 권장 사항 모듈 문제 해결](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
     * [알 수 없는 모듈 Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
-    * [SQL 쿼리: 비용 오류 설명](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
     * [Adobe Commerce Security Scan 도구 문제 해결 안내서](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
-    * [파일 권한 준비 확인 문제](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
     * [Google eCommerce 매출 불일치 진단](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [Adobe AI에 대한 API 키를 구성했지만 하나의 SaaS 데이터 공간만 표시됨](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
     * [Fastly가 활성화된 하위 페이지에 메인 메뉴(카테고리)가 표시되지 않음](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
     * [파일 스토리지 부족, 특정 페이지 로드 속도가 느림](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
     * [전체 리인덱싱으로 인한 성능 저하](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
     * [일반 사용자 정의 모듈 문제 해결 도움말](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
-    * [디스크 공간 부족](/help/troubleshooting/miscellaneous/low-disk-space.md)
     * [캐시 준비 및 Adobe Commerce에서 사이트를 사용할 수 없음](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [CSV 파일 업로드에 대한 UTF-8 오류 해결](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
     * [Adobe Commerce에서 New Relic을 사용하여 성능 문제 해결](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)
