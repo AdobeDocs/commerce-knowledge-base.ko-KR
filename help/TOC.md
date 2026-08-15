@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 5bb5ce75f5bd20f21762c0c43ab0f54286baf076
+source-git-commit: 9216789f967ee842ee41d669779d8037fd47897f
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1724'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,6 @@ ht-degree: 1%
     * [Adobe Commerce Security Scan 도구 문제 해결 안내서](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [Google eCommerce 매출 불일치 진단](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [Adobe AI에 대한 API 키를 구성했지만 하나의 SaaS 데이터 공간만 표시됨](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
-    * [Fastly가 활성화된 하위 페이지에 메인 메뉴(카테고리)가 표시되지 않음](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
     * [파일 스토리지 부족, 특정 페이지 로드 속도가 느림](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
     * [전체 리인덱싱으로 인한 성능 저하](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
     * [일반 사용자 정의 모듈 문제 해결 도움말](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
