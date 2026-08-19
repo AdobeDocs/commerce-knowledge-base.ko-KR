@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 9216789f967ee842ee41d669779d8037fd47897f
+source-git-commit: a57fca068b8154dfa451b2ba76e297f57e7229eb
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1688'
 ht-degree: 1%
 
 ---
@@ -73,19 +73,14 @@ ht-degree: 1%
     * [모든 Adobe Commerce 버전에서 Google 맵 액세스 손실에 대한 패치를 수정했습니다.](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * 기타 {#miscellaneous}
     * [내보내기 저장소가 거의 꽉 찼다는 이메일](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
-    * [Adobe Commerce의 제품 권장 사항 모듈 문제 해결](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
-    * [알 수 없는 모듈 Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
     * [Adobe Commerce Security Scan 도구 문제 해결 안내서](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [Google eCommerce 매출 불일치 진단](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [Adobe AI에 대한 API 키를 구성했지만 하나의 SaaS 데이터 공간만 표시됨](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
     * [파일 스토리지 부족, 특정 페이지 로드 속도가 느림](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
-    * [전체 리인덱싱으로 인한 성능 저하](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
     * [일반 사용자 정의 모듈 문제 해결 도움말](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [캐시 준비 및 Adobe Commerce에서 사이트를 사용할 수 없음](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [CSV 파일 업로드에 대한 UTF-8 오류 해결](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
-    * [Adobe Commerce에서 New Relic을 사용하여 성능 문제 해결](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)
     * [CLI에서 DDoS 공격 확인](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
-    * [storefront 또는 Commerce 관리자에 액세스할 때 빈 페이지 또는 리디렉션 루프 오류 발생](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
     * [Commerce 관리자에 로그인할 때 로그인 리디렉션](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
     * [암호화 키 관련 문제 해결](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
     * [데이터 내보내기를 사용하여 불일치 항목 파악](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
