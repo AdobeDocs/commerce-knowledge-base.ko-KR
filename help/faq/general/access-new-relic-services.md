@@ -2,9 +2,9 @@
 title: New Relic 서비스 액세스
 description: 이 문서에서는 충분한 라이선스/구독 권한을 가진 고객이 New Relic 서비스에 액세스하는 방법을 설명합니다.
 exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
-source-git-commit: eb7dfd0f3285fc210b942ce7c9c18ab92d8a7204
+source-git-commit: 2ae94bc621d0cc4b308fbf7d5c0f58a5284b6f4d
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,9 @@ Pro 아키텍처를 사용하는 고객은 구독이 자동 설치된 New Relic 
 
 **Adobe Commerce on cloud infrastructure Starter 계획 아키텍처 고객 중 New Relic을 사용하려는 고객:**
 
-스타터 아키텍처 고객은 구독의 일부로 New Relic 인프라 서비스를 제공받지 않습니다. 그러나 개발자 설명서에서 [New Relic에 연결](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)하는 단계에 따라 라이선스를 추가하는 경우 New Relic APM(Application Performance Monitoring)을 사용할 수 있습니다.
+스타터 아키텍처 고객은 구독의 일부로 New Relic 인프라 서비스를 제공받지 않습니다. 그러나 개발자 설명서에서 [New Relic에 연결](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)하는 단계에 따라 라이선스를 추가하는 경우 New Relic APM(Application Performance Monitoring)을 사용할 수 있습니다.
 
 ## 관련 읽기
 
-New Relic 서비스에 대한 자세한 내용은 개발자 설명서에서 [성능 조사](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)를 참조하십시오.
+New Relic 서비스에 대한 자세한 내용은 개발자 설명서에서 [성능 조사](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)를 참조하십시오. 또한 지원 기술 자료에서 [클라우드 인프라에서 Adobe Commerce을 사용하여 성능 문제 해결](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-40830)을 검토할 수 있습니다.
+
