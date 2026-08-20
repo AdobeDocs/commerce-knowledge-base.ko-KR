@@ -35,4 +35,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-Adobe Commerce 설명서 > 릴리스 정보 > Adobe Commerce 2.4.4 릴리스 노트의 [공급업체 번들 확장](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions).
+Adobe Commerce 설명서 > 릴리스 정보 > Adobe Commerce 2.4.4 릴리스 노트의 [공급업체 번들 확장](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?lang=ko&#vendor-bundled-extensions).
