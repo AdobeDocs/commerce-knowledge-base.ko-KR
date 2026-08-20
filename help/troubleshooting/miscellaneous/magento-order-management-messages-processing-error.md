@@ -1,19 +1,19 @@
 ---
-title: Adobe Commerce 처리 오류에 대한 OMS(Magento Order Management 시스템)
+title: Adobe Commerce 처리 오류에 대한 OMS(Magento Order Management System)
 description: 이 문서에서는 Adobe Commerce용 Magento Order Management 시스템(OMS)에서 'bin/magento oms:messages:process'를 실행하는 CLI에서 'getMode()' 오류가 발생하는 문제에 대한 해결 방법을 제공합니다.
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce 처리 오류에 대한 OMS(Magento Order Management 시스템)
+# Adobe Commerce 처리 오류에 대한 OMS(Magento Order Management System)
 
-이 문서에서는 Adobe Commerce용 Magento Order Management 시스템(OMS)에서 `bin/magento oms:messages:process`을(를) 실행하는 CLI에서 `getMode()` 오류가 발생하는 문제에 대한 해결 방법을 제공합니다.
+이 문서에서는 Adobe Commerce용 OMS(Magento Order Management System)에서 `bin/magento oms:messages:process`을(를) 실행하는 CLI에서 `getMode()` 오류가 발생할 때 발생하는 문제에 대한 해결 방법을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -68,4 +68,4 @@ E
 ## 관련 읽기
 
 * OMS 문서 [OMS 커넥터 설정 자습서](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/)
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

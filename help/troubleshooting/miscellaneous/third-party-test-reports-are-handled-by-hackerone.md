@@ -1,17 +1,17 @@
 ---
-title: 서드파티 보안 검색을 통해 발견된 취약점은  [!DNL HackerOne] (으)로 이동해야 합니다.
+title: 서드파티 보안 검색을 통해 발견된 취약점은  [!DNL HackerOne](으)로 이동해야 합니다.
 description: 이 문서에서는 서드파티 보안 검색으로 발견된 취약점을 해결하는 솔루션을 제공합니다.
 feature: Security
 role: Developer, Admin
 exl-id: db2e15f0-11e3-48ed-84b4-94567a50fe5f
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
-# 서드파티 보안 검색을 통해 발견된 취약점은 [!DNL HackerOne] (으)로 이동해야 합니다.
+# 서드파티 보안 검색을 통해 발견된 취약점은 [!DNL HackerOne]&#x200B;(으)로 이동해야 합니다.
 
 이 문서에서는 서드파티 보안 검색으로 발견된 취약점을 해결하는 솔루션을 제공합니다.
 
@@ -25,4 +25,4 @@ ht-degree: 0%
 
 ## 솔루션
 
-타사 보안 검색에서 발견된 취약성은 [!DNL HackerOne] 웹 사이트로 전송해야 합니다. Adobe Commerce은 [!DNL HackerOne]에 직접 연락처가 없으므로 [!DNL HackerOne]에 직접 연결해야 합니다. Adobe은 MST(Magento 보안 검사 도구) 보고서만 처리합니다.
+타사 보안 검색에서 발견된 취약성은 [!DNL HackerOne] 웹 사이트로 전송해야 합니다. Adobe Commerce은 [!DNL HackerOne]에 직접 연락처가 없으므로 [!DNL HackerOne]에 직접 연결해야 합니다. Adobe은 MST(Magento 보안 검색 도구) 보고서만 처리합니다.

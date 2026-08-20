@@ -6,7 +6,7 @@ feature: Categories
 role: Developer
 source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ### 두 번째 DB 항목(및 그 다음 항목 모두)은 하나의 동일한 범주에 대한 DB에 어떻게 표시됩니까?
 
-영향을 받는 범주에 대한 두 번째 DB 레코드(및 가능한 경우 다음 레코드)는 Magento\_스테이징 모듈을 사용하여 범주 업데이트가 예약되었음을 의미합니다. 모듈이 `catalog_category_entity`의 범주에 대한 추가 레코드를 만듭니다. 이는 예상된 응용 프로그램 동작입니다. 문제는 레코드가 `created_in` 열에 대해 동일한 값을 가지고 있다는 것입니다.
+영향을 받는 범주에 대한 두 번째 DB 레코드(및 가능한 경우 다음 레코드)는 Magento\_Staging 모듈을 사용하여 범주 업데이트가 예약되었음을 의미합니다. 모듈이 `catalog_category_entity`의 범주에 대한 추가 레코드를 만듭니다. 이는 예상된 응용 프로그램 동작입니다. 문제는 레코드가 `created_in` 열에 대해 동일한 값을 가지고 있다는 것입니다.
 
 ### 동일한 값이 어떻게 표시됩니까?
 
@@ -92,4 +92,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

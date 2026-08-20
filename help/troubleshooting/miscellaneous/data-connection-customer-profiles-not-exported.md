@@ -1,17 +1,17 @@
 ---
-title: 고객 프로필이 Experience Platform에 표시되지 않음
+title: Experience Platform에 고객 프로필이 표시되지 않음
 description: 이 문서에서는  [!DNL Data Connection] 확장을 사용할 때 고객 프로필 데이터가 Experience Platform에 표시되지 않는 경우의 문제 해결 단계를 제공합니다.
 feature: Personalization, Integration, Configuration
 role: Admin, Developer
 exl-id: 4f12b032-0bee-47da-927a-8d4c2d8b8276
 source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# 고객 프로필이 Experience Platform에 표시되지 않음
+# Experience Platform에 고객 프로필이 표시되지 않음
 
 이 문서에서는 데이터 연결 확장을 사용할 때 고객 프로필 데이터가 Experience Platform에 표시되지 않는 경우 문제 해결 단계를 제공합니다.
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 문제
 
-[[!DNL Data Connection]](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/data-connection/overview) 확장을 설치 및 구성하고 고객 프로필 데이터를 Experience Platform에게 보낼 수 있도록 했지만 해당 프로필 데이터가 Experience Platform에 표시되지 않습니다.
+[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 확장을 설치 및 구성하고 고객 프로필 데이터를 Experience Platform으로 보낼 수 있도록 했지만 해당 프로필 데이터가 Experience Platform에 표시되지 않습니다.
 
 ## 솔루션
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 `experience-platform-connector` 확장의 최신 버전을 설치했는지 확인하십시오.
 
-최신 버전에 대한 자세한 내용은 [[!DNL Data Connection] 확장 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/data-connection/release-notes)를 참조하세요.
+최신 버전에 대한 자세한 내용은 [[!DNL Data Connection] 확장 릴리스 노트](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/release-notes)를 참조하세요.
 
 >[!NOTE]
 >
->최신 버전의 [!DNL Data Connection] 확장에는 Experience Platform 데이터를 프로필로 보내는 `customers-connector` 모듈이 포함되어 있습니다. `customers-connector` 모듈은 버전 `1.2.0` 이상이어야 합니다.
+>최신 버전의 [!DNL Data Connection] 확장에는 Experience Platform으로 프로필 데이터를 전송하는 `customers-connector` 모듈이 포함되어 있습니다. `customers-connector` 모듈은 버전 `1.2.0` 이상이어야 합니다.
 
 ### 고객 커넥터 모듈이 구성되었는지 확인합니다.
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 #### 클라우드 인프라의 Adobe Commerce
 
-1. `.magento.env.yaml`에서 `ENABLE_EVENTING` 전역 변수를 사용하도록 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global).
+1. `.magento.env.yaml`에서 `ENABLE_EVENTING` 전역 변수를 사용하도록 설정합니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global)
 
    ```bash
        stage:
@@ -69,7 +69,7 @@ ht-degree: 0%
    bin/magento config:set adobe_io_events/eventing/enabled 1
 ```
 
-### Experience Platform 데이터를 캡처하여 프로필로 전송하도록 활성화했는지 확인
+### 프로필 데이터를 캡처하여 Experience Platform에 전송할 수 있도록 활성화했는지 확인
 
 Commerce 관리에서 다음 필드가 설정되어 있는지 확인합니다.
 
@@ -116,14 +116,14 @@ select * from event_data_saas;
    "error_code": "403003" } } }
    ```
 
-1. 관리자의 *[!UICONTROL Commerce Services Connector]* 페이지로 이동하여 지정된 [!UICONTROL sandbox/production] 키가 올바르게 구성되었는지 확인하십시오. 또한 Commerce 계정 [!UICONTROL sandbox/production] 설정이 [!UICONTROL Commerce Services Connector]에 표시된 설정과 일치하는지 확인하십시오. [자세히](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/user-guides/integration-services/saas#apikey)를 알아보세요.
+1. 관리자의 *[!UICONTROL Commerce Services Connector]* 페이지로 이동하여 지정된 [!UICONTROL sandbox/production] 키가 올바르게 구성되었는지 확인하십시오. 또한 Commerce 계정 [!UICONTROL sandbox/production] 설정이 [!UICONTROL Commerce Services Connector]에 표시된 설정과 일치하는지 확인하십시오. [자세히](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#apikey)를 알아보세요.
 
 ### 서비스 ID가 허용 목록에 추가하다에 있는지 확인하고 Adobe Commerce 지원을 통해 확인합니다.
 
 1. Adobe Commerce에서 [!UICONTROL Commerce Services Connector] `serviceId`이(가) 허용 목록에 추가하다에 표시되는지 확인하십시오.
-1. Adobe Commerce 상태를 확인하려면 [허용 목록에 추가하다 지원](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)에 문의하십시오.
+1. Adobe Commerce 상태를 확인하려면 [허용 목록에 추가하다 지원](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)에 문의하십시오.
 
 ## 관련 읽기
 
-* Commerce 서비스 사용 안내서의 [[!DNL Data Connection]](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/data-connection/overview) 확장
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce 서비스 사용 안내서의 [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) 확장
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

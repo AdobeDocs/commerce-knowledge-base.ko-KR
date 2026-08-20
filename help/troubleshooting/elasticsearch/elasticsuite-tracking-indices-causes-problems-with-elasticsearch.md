@@ -4,7 +4,7 @@ description: 이 문서에서는 ElasticSuite 플러그인으로 생성된 인�
 exl-id: 67bfd06a-c801-4306-8510-a84a6fe5351a
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ ht-degree: 0%
 
 ## 문제
 
-ElasticSuite 타사 플러그인이 설치된 경우 Elasticsearch 메모리 문제가 발생할 수 있으며, Elasticsearch 서비스가 ElasticSuite 추적 인덱스로 인해 충돌할 수 있습니다. 증상은 다음과 같습니다.
+ElasticSuite 서드파티 플러그인이 설치된 경우 Elasticsearch 메모리 문제가 발생할 수 있으며, Elasticsearch 서비스가 ElasticSuite 추적 인덱스로 인해 충돌할 수 있습니다. 증상은 다음과 같습니다.
 
 * 메모리 오류 없이 Elasticsearch이 충돌합니다.
 * 상태 명령 `curl -m1 localhost:9200/_cluster/health?pretty` 또는 `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty`(시작 계정용)을(를) 실행할 때 `unassigned_shards`이(가) 수백 또는 수천 개 있습니다.
 * Elasticsearch 또는 사이트 성능이 심각하게 저하됩니다.
 * *&quot;Elasticsearch 배포 또는 로그 오류의 클러스터 &quot;*&#x200B;에 활성 노드가 없습니다.
-* *&quot;배포 또는 로그 오류에서 [&lt;\*>_ tracking_log_event _&lt;\*>]&quot;*&#x200B;에 대한 매핑 업데이트를 거부합니다.
+* *&quot;배포 또는 로그 오류에서 [&lt;\*>_tracking_ log_event_&lt;\*>]&quot;*에 대한 매핑 업데이트를 거부합니다.
 
 ## 원인
 
@@ -68,5 +68,5 @@ ElasticSuite 플러그인을 버전 > 2.9.8 / 2.10.7로 업그레이드하면 �
 
 설정된 시간 빈도에서 인덱스를 삭제하려면 개발자 설명서에서 다음 문서를 참조하여 cron 작업을 만듭니다.
 
-* [사용자 지정 cron 작업 및 cron 그룹 구성(튜토리얼)](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
-* [cron 작업 설정](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
+* [사용자 정의 cron 작업 및 cron 그룹 구성(튜토리얼)](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [cron 작업 설정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
