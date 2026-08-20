@@ -1,18 +1,18 @@
 ---
-title: 특정 스토어의 DB 엔티티(주문, 송장, 대변 메모 등)에 대한 증분 ID 변경
-description: 이 문서에서는 'ALTER TABLE' SQL 문을 사용하여 특정 Adobe Commerce 저장소의 Adobe Commerce 데이터베이스(DB) 엔티티(주문, 송장, 대변 메모 등)에 대한 증분 ID를 변경하는 방법에 대해 설명합니다.
+title: DB 엔티티에 대한 증분 ID 변경(주문, 송장, 대변 메모 등) 특정 스토어
+description: 이 문서에서는 Adobe Commerce 데이터베이스(DB) 엔티티(주문, 송장, 대변 메모 등)에 대한 증분 ID를 변경하는 방법에 대해 설명합니다. 'ALTER TABLE' SQL 문을 사용하는 특정 Adobe Commerce 저장소.
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
 source-git-commit: e33d0bf6c857d0d54ec1373db79910d78296b054
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
-# 특정 스토어의 DB 엔티티(주문, 송장, 대변 메모 등)에 대한 증분 ID 변경
+# DB 엔티티에 대한 증분 ID 변경(주문, 송장, 대변 메모 등) 특정 스토어
 
-이 문서에서는 `ALTER TABLE` SQL 문을 사용하여 특정 Adobe Commerce 저장소의 Adobe Commerce 데이터베이스(DB) 엔터티(주문, 송장, 메모 등)에 대한 증분 ID를 변경하는 방법에 대해 설명합니다.
+이 문서에서는 Adobe Commerce 데이터베이스(DB) 엔티티(주문, 송장, 대변 메모 등)에 대한 증분 ID를 변경하는 방법에 대해 설명합니다. `ALTER TABLE` SQL 문을 사용하는 특정 Adobe Commerce 스토어에서.
 
 >[!NOTE]
 >

@@ -1,12 +1,12 @@
 ---
-title: '''계정이 일시적으로 비활성화됨'' 오류가 발생하여 [!UICONTROL Commerce Admin] 로그인 양식으로 다시 리디렉션합니다.'''
-description: '이 문서는 다음 오류 메시지와 함께 로그인 양식으로 다시 리디렉션되는 Commerce 관리자 로그인 문제에 대해 가능한 솔루션을 제공합니다. *"계정이 일시적으로 비활성화되었습니다."* 제안되는 해결 방법은 관리 사용자 데이터베이스 설정을 확인 및 수정하는 것입니다.'
+title: '"계정이 일시적으로 비활성화되었습니다" 오류가 발생하여 [!UICONTROL Commerce Admin] 로그인 양식으로 다시 리디렉션합니다.'
+description: 이 문서에서는 다음 오류 메시지와 함께 로그인 양식으로 다시 리디렉션되는 Commerce 관리자 로그인 문제에 대해 가능한 해결 방법을 제공합니다. *"귀하의 계정이 일시적으로 비활성화되었습니다"*. 제안되는 해결 방법은 관리 사용자 데이터베이스 설정을 확인 및 수정하는 것입니다.
 exl-id: 1c7ffa1c-1fb1-4f69-9534-77d1e119318a
 feature: Admin Workspace, Customer Service
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---

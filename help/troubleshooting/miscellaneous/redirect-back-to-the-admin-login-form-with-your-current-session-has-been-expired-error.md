@@ -1,12 +1,12 @@
 ---
-title: '''현재 세션이 만료되었습니다'' 오류가 발생하여 [!UICONTROL Commerce Admin] 로그인 양식으로 다시 리디렉션합니다.'''
-description: '''이 문서는 다음 오류 메시지와 함께 로그인 양식으로 다시 리디렉션되는 [!UICONTROL Commerce Admin] 로그인 문제에 대해 가능한 해결 방법을 제공합니다. *"현재 세션이 만료되었습니다"*. 해결 방법에는 서버 시간 설정 문제 확인 및 세션 저장소 설정 변경이 포함됩니다.'
+title: '"현재 세션이 만료되었습니다" 오류가 발생하여 [!UICONTROL Commerce Admin] 로그인 양식으로 다시 리디렉션합니다.'
+description: 이 문서에서는 다음 오류 메시지와 함께 로그인 양식으로 다시 리디렉션되는 [!UICONTROL Commerce Admin] 로그인 문제에 대해 가능한 해결 방법을 제공합니다. *"현재 세션이 만료되었습니다"*. 해결 방법에는 서버 시간 설정 문제 확인 및 세션 저장소 설정 변경이 포함됩니다.
 exl-id: 29df2ed2-ff4a-4f1a-bdb7-1160416cda00
 feature: Admin Workspace
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
