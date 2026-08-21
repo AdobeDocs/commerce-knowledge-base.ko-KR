@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 82e5a4168fb4e79577bbccb1b2384943bf045708
+source-git-commit: f0181656eb18a7d9e4b7a78639c9fadb130d74e6
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1673'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 1%
     * [일반 사용자 정의 모듈 문제 해결 도움말](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [캐시 준비 및 Adobe Commerce에서 사이트를 사용할 수 없음](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [CSV 파일 업로드에 대한 UTF-8 오류 해결](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
-    * [CLI에서 DDoS 공격 확인](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
     * [Commerce 관리자에 로그인할 때 로그인 리디렉션](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
     * [데이터 내보내기를 사용하여 불일치 항목 파악](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
     * [구성 요소 종속성 준비 확인 문제](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
