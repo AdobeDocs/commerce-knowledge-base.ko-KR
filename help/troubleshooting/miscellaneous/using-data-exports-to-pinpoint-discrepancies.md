@@ -1,19 +1,19 @@
 ---
 title: 데이터 내보내기를 사용하여 불일치 항목 파악
-description: 이 문서에서는 Magento BI 데이터의 불일치 문제를 해결하는 솔루션을 제공합니다. 데이터 내보내기는 보고서에서 데이터 불일치를 찾아내기 위해 Magento BI 데이터를 소스 데이터와 비교하는 데 유용한 도구입니다. 특히 [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)에서 문제를 찾아내는 데 도움이 되지 않은 경우 유용합니다. 이 문서에서는 데이터 내보내기를 사용하여 데이터 불일치를 찾아내는 방법에 대한 실제 사례를 소개합니다.
+description: 이 문서에서는 Magento BI 데이터의 불일치 문제를 해결하는 솔루션을 제공합니다. 데이터 내보내기는 보고서에서 데이터 불일치를 찾아내기 위해 Magento BI 데이터를 소스 데이터와 비교하는 데 유용한 도구입니다. 특히 [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)에서 문제를 찾아내는 데 도움이 되지 않은 경우 유용합니다. 이 문서에서는 데이터 내보내기를 사용하여 데이터 불일치를 찾아내는 방법에 대한 실제 사례를 소개합니다.
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 3d73611b812833820eda5b906eb700c89f50cbbe
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
 
 # 데이터 내보내기를 사용하여 불일치 항목 파악
 
-이 문서에서는 Magento BI 데이터의 불일치 문제를 해결하는 솔루션을 제공합니다. 데이터 내보내기는 보고서에서 데이터 불일치를 찾아내기 위해 Magento BI 데이터와 소스 데이터를 비교하는 데 유용한 도구입니다. 특히 [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)이 문제를 찾아내는 데 도움이 되지 않는 경우 유용합니다. 이 문서에서는 데이터 내보내기를 사용하여 데이터 불일치를 찾아내는 방법에 대한 실제 사례를 소개합니다.
+이 문서에서는 Magento BI 데이터의 불일치 문제를 해결하는 솔루션을 제공합니다. 데이터 내보내기는 보고서에서 데이터 불일치를 찾아내기 위해 Magento BI 데이터와 소스 데이터를 비교하는 데 유용한 도구입니다. 특히 [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)이 문제를 찾아내는 데 도움이 되지 않는 경우 유용합니다. 이 문서에서는 데이터 내보내기를 사용하여 데이터 불일치를 찾아내는 방법에 대한 실제 사례를 소개합니다.
 
 이 분석을 예로 들 수 있습니다.
 
@@ -89,7 +89,7 @@ Data Warehouse Manager에서 기본 키 열은 키 기호로 표시됩니다. �
 
 ## 관련 읽기
 
-* [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
 * [Adobe Commerce Intelligence 서비스 정책](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
 * Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
 

@@ -4,9 +4,9 @@ description: 이 문서에서는 관리자에게 로그인하려고 할 때 로�
 exl-id: ff3114fd-8690-4983-8221-cf807f083b15
 feature: Admin Workspace, Cache
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: ec2111316458420c51a6b6f3b3881bd3f9d10c06
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -90,4 +90,4 @@ Commerce 관리자에 로그인됩니다.
 ## 관련 문서
 
 * [지원 기술 자료에서 &quot;귀하의 계정이 일시적으로 비활성화되었습니다&quot; 오류가 있는 관리자 로그인 양식으로 다시 리디렉션합니다](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md).
-* [지원 기술 자료에서 &quot;현재 세션이 만료되었습니다&quot; 오류가 발생한 관리자 로그인 양식으로 다시 리디렉션합니다](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md).
+* [지원 기술 자료에서 &quot;현재 세션이 만료되었습니다&quot; 오류가 발생한 관리자 로그인 양식으로 다시 리디렉션합니다](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41686).

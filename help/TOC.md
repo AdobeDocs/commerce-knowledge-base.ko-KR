@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: f0181656eb18a7d9e4b7a78639c9fadb130d74e6
+source-git-commit: 85213549e150c6f00e03201750694c0d51b8309d
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1653'
 ht-degree: 1%
 
 ---
@@ -95,9 +95,7 @@ ht-degree: 1%
     * [Adobe Commerce 2.4.2-p1: 잘못된 값이 있는 송장 메모](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [최신 Adobe Commerce 프리릴리스에 액세스할 수 없음](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [색인이 다른 프로세스에 의해 잠겼습니다.](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
-    * [데이터 불일치 진단](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
     * [관리자 2FA 이메일 알림이 수신되지 않음](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
-    * [&quot;현재 세션이 만료되었습니다&quot; 오류가 있는 Commerce 관리자 로그인 양식으로 다시 리디렉션합니다.](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
     * [사이트가 유지 관리 모드이지만 고객이 사용 가능](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
     * [Adobe Commerce 소프트웨어를 업데이트할 때 git 가져오기 원본 개발에 실패함](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
     * [클라우드 인프라의 Adobe Commerce에서 시작되는 차단기](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
