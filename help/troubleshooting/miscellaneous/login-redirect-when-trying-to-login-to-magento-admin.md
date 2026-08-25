@@ -52,7 +52,7 @@ Commerce 관리자에 로그인됩니다.
 관리 세션 수명을 늘리려면 다음 단계를 수행합니다.
 
 1. 데이터베이스 백업을 만듭니다.
-1. [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다.
+1. [phpMyAdmin](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다.
 
    ```sql
    UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
@@ -69,7 +69,7 @@ Commerce 관리자에 로그인됩니다.
 쿠키 설정 값을 확인하고 지우려면 다음 단계를 수행하십시오.
 
 1. 데이터베이스 백업을 만듭니다.
-1. [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다.
+1. [phpMyAdmin](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다.
 
    ```sql
    SELECT * FROM core_config_data WHERE (path = "web/cookie/cookie_domain" OR path = "web/cookie/cookie_path");
