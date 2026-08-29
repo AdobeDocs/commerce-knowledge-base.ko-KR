@@ -90,4 +90,4 @@ Commerce 관리자에 로그인됩니다.
 ## 관련 문서
 
 * [지원 기술 자료에서 &quot;귀하의 계정이 일시적으로 비활성화되었습니다&quot; 오류가 있는 관리자 로그인 양식으로 다시 리디렉션합니다](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md).
-* [지원 기술 자료에서 &quot;현재 세션이 만료되었습니다&quot; 오류가 발생한 관리자 로그인 양식으로 다시 리디렉션합니다](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41686).
+* [지원 기술 자료에서 &quot;현재 세션이 만료되었습니다&quot; 오류가 발생한 관리자 로그인 양식으로 다시 리디렉션합니다](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-41686).
