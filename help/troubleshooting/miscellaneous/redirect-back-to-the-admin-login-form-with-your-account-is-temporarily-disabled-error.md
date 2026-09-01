@@ -37,8 +37,8 @@ ht-degree: 0%
 ## 솔루션
 
 1. 데이터베이스 백업을 만듭니다.
-1. [[!DNL phpMyAdmin]](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)과(와) 같은 데이터베이스 도구를 사용하거나 명령줄에서 수동으로 DB에 액세스합니다. `admin_user` 데이터베이스 테이블에서 관리자 사용자 레코드에 대해 `is_active`이(가) &quot;`1`&quot;(으)로 설정되어 있고 `lock_expires`이(가) `NULL`인지 확인하십시오. 필요한 경우 이러한 값을 재설정합니다.
+1. [[!DNL phpMyAdmin]](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)과(와) 같은 데이터베이스 도구를 사용하거나 명령줄에서 수동으로 DB에 액세스합니다. `admin_user` 데이터베이스 테이블에서 관리자 사용자 레코드에 대해 `is_active`이(가) &quot;`1`&quot;(으)로 설정되어 있고 `lock_expires`이(가) `NULL`인지 확인하십시오. 필요한 경우 이러한 값을 재설정합니다.
 
 ## 관련 읽기
 
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
