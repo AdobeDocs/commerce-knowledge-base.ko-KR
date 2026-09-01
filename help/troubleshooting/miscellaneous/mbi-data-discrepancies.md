@@ -15,7 +15,7 @@ ht-degree: 0%
 
 특정 보고서에 있는 수치가 부정확해 보입니까? 예기치 않은 NULL 값이 표시됩니까? 제대로 표시되지 않는 것이 발견되면 다음 리소스를 사용하여 문제를 해결하는 것이 좋습니다.
 
-* [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
+* [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-41479)
 * [내보내기를 사용하여 데이터 불일치 파악](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
 또한 불일치와 관련된 테이블 및 열에 대해 올바른 [복제 메서드](https://experienceleague.adobe.com/ko/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) 및 [다시 확인](https://experienceleague.adobe.com/ko/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)이 설정되었는지 확인하는 것이 좋습니다. 복제 방법에 액세스하고 정보를 다시 확인하려면 관리자 권한이 필요합니다.

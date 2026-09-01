@@ -4,9 +4,9 @@ description: 이 문서에서는 다음 오류 메시지와 함께 로그인 양
 exl-id: 1c7ffa1c-1fb1-4f69-9534-77d1e119318a
 feature: Admin Workspace, Customer Service
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 9f4777deac8e9d367643158cf6947f4cb61e8fdd
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -41,5 +41,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* [[!UICONTROL Commerce Admin]에 로그인하려고 할 때 오류 없이 로그인 양식으로 다시 리디렉션합니다.](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin)
 * Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
