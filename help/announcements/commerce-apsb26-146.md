@@ -3,17 +3,12 @@ title: 긴급 작업 필요 Adobe Commerce에 사용할 수 있는 중요 보안
 description: Adobe은 Adobe Commerce의 0일 취약점인 CVE-2026-75650을 해결하는 보안 게시판 APSB26-146을 발표했습니다. 핫픽스를 적용하고 자격 증명을 회전하는 방법을 알아봅니다.
 autotag-review: '2026-09-07T17:27:44.037Z'
 TQID: 'https://experienceleague.adobe.com/ADVRRn85--ZgWtPdi4qA49fsDPVW976N4MYWp26taho'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ed1b477ed153bdb91c828d051fd4eeb078fd33fa
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: d0e075aabc24a1719098754b456b71a0025e47bf
 workflow-type: tm+mt
-source-wordcount: 841
+source-wordcount: 842
 ht-degree: 0%
 
 ---
@@ -101,7 +96,7 @@ Magento Open Source 버전:
 
 ### 핫픽스 적용 방법
 
-파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
+파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 ### 핫픽스가 적용되었는지 확인(Adobe Commerce on Cloud 판매자만 해당)
 
@@ -109,7 +104,7 @@ Magento Open Source 버전:
 
 파일 `VULN-39341_Hotfix_COMPOSER.patch`을(를) 예로 사용하여 다음 단계를 수행하여 이 작업을 수행할 수 있습니다.
 
-1. [품질 패치 도구 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/usage).
+1. [품질 패치 도구 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage#install).
 1. `vendor/bin/magento-patches -n status | grep "39341\|Status"` 명령을 실행합니다.
 1. 다음과 유사한 출력이 표시되어야 합니다. 여기서 VULN-39341 예는 적용됨 상태를 반환합니다.
 
@@ -130,7 +125,7 @@ Magento Open Source 버전:
 1. 핫픽스 적용.
 1. 유지 관리 모드를 활성화합니다.
 1. 크론 실행을 사용하지 않도록 설정합니다(클라우드 명령: `vendor/bin/ece-tools cron:disable`의 Commerce).
-1. [암호화 키를 회전합니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/encryption-key?lang=en).
+1. [암호화 키를 회전합니다](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key?lang=en).
 1. 모든 관리자 패널 사용자 암호를 회전합니다.
 1. 모든 REST/SOAP/GraphQL 통합 토큰을 비활성화하고 다시 생성합니다(**[!UICONTROL System]** > **[!UICONTROL Extensions]** > **[!UICONTROL Integrations]**).
 1. 연결된 타사 애플리케이션에 대한 OAuth 클라이언트 보안을 회전합니다.
@@ -151,4 +146,4 @@ Adobe Commerce에서 사용할 수 있는 보안 업데이트:
 
 ### 관련 읽기
 
-Adobe Commerce 설치 가이드의 [유지 관리 모드 활성화 또는 비활성화](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en)
+Adobe Commerce 설치 가이드의 [유지 관리 모드 활성화 또는 비활성화](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en)
