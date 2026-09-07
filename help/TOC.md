@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 2c7e07dac7bb2c6d3ea5e4266511d519a60fbe8a
+source-git-commit: d8f408d530a9106a1b26c602085bd6ce0db3fef3
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1614'
 ht-degree: 1%
 
 ---
@@ -91,8 +91,6 @@ ht-degree: 1%
     * [Adobe Commerce 2.4.2-p1: 잘못된 값이 있는 송장 메모](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [최신 Adobe Commerce 프리릴리스에 액세스할 수 없음](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [색인이 다른 프로세스에 의해 잠겼습니다.](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
-    * [데이터 불일치 진단](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
-    * [&quot;현재 세션이 만료되었습니다&quot; 오류가 있는 Commerce 관리자 로그인 양식으로 다시 리디렉션합니다.](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
     * [사이트가 유지 관리 모드이지만 고객이 사용 가능](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
     * [Adobe Commerce 소프트웨어를 업데이트할 때 git 가져오기 원본 개발에 실패함](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
     * [클라우드 인프라의 Adobe Commerce에서 시작되는 차단기](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
@@ -147,7 +145,7 @@ ht-degree: 1%
     * [잘못 구성되거나 누락되어 Cron이 중지됨 [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
     * [[!DNL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
     * [[!DNL Google Tag Manager]이(가) 실시간 검색 위젯에 의해 손상되었습니다.](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
-    * [[!DNL 서드파티 보안 검색을 통해 발견된 취약점은 HackerOne] (으)로 이동해야 합니다.](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
+    * [서드파티 보안 검색을 통해 발견된 취약점은  [!DNL HackerOne](으)로 이동해야 합니다.](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
     * [2.4.2에서 2.4.5-p3로 업그레이드한 후 수천 개의 검색 결과를 가져오는 중](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2-4-5-p3.md)
     * [app/etc/env.php에서 검색 엔진을 변경할 수 없음](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
     * [Magento-cloud CLI에 활성 환경이 표시되지 않음](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
@@ -166,7 +164,7 @@ ht-degree: 1%
   * 알려진 문제 {#known-issues-patches-attached}
     * [저장소 보안 및 암호화 키 회전에 대한 지침:  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
   * Elasticsearch {#elasticsearch}
-    * [[!DNL 검색 엔진이 Opensearch] (으)로 설정된 경우  [!DNL Elasticsearch7] (으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+    * [검색 엔진이  [!DNL Opensearch](으)로 설정된 경우  [!DNL Elasticsearch7] (으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [ElasticSuite 추적 인덱스로 인해 Elasticsearch 문제가 발생합니다.](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 방법 {#how-to}
   * [방법 개요](/help/how-to/overview.md)
