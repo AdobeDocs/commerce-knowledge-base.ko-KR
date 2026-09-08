@@ -1,7 +1,7 @@
 ---
 source-git-commit: 88a2b8fe11d718f33c26bbc6f407c55d9f1fd189
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -10,7 +10,7 @@ ht-degree: 0%
 이 문서에서는 Adobe Commerce 지원 기술 자료에서 문서에 레이블을 추가하는 방법에 대한 지침을 제공합니다.
 레이블(태그라고도 함)을 사용하면 [Adobe Commerce 지원 기술 자료](https://support.magento.com/hc/en-us)에서 검색 환경을 향상시킬 수 있습니다.
 문서 파일의 메타데이터 섹션에 있는 &quot;레이블&quot; 필드에 쉼표로 구분하여 레이블이 추가되며, 쉼표와 다음 레이블 사이에는 공백이 없습니다.
-자세한 내용은 [../../.github/CONTRIBUTING.md#metadata]을(를) 참조하십시오.
+자세한 내용은 [../../.#metadata]을(를) 참조하십시오.
 
 ## 일반 규정
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 * 제품에 대한 레이블입니다. (필수)
 * 영향을 받는 버전의 레이블입니다. (일반 지원 관련 문서를 제외한 필수 항목)
 * 콘텐츠 유형에 대한 레이블입니다. (필수)
-* 주요 기술 구성 요소에 대한 레이블입니다.(해당되는 경우)
+* 주요 기술 구성 요소에 대한 레이블입니다(해당하는 경우).
 * 문제 해결/설명 중인 프로세스/기능에 대한 레이블입니다. (해당되는 경우)
 * 수정/설명 중인 문제에 대한 레이블입니다. (해당되는 경우)
 
@@ -66,7 +66,7 @@ ht-degree: 0%
     <td>"B2B"</td>
   </tr>
   <tr>
-    <td>Adobe Commerce PWA</td>
+    <td>Adobe Commerce용 PWA</td>
     <td>"PWA"</td>
   </tr>
   <tr>
@@ -93,7 +93,7 @@ ht-degree: 0%
 <table>
   <tbody>
     <tr>
-      <th>범주</th>
+      <th>카테고리</th>
       <th>레이블</th>
     </tr>
     <tr>
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 * 구성 요소의 공식 이름에 따라 대소문자를 사용합니다.
 * 하나의 구성 요소에 대해 하나의 레이블인 동의어를 사용하지 마십시오.
-* 한 단어 레이블이 선호되지만 구성 요소 이름에 여러 단어가 포함된 경우 여러 단어를 사용하십시오. 문제 설명을 추가하지 마십시오. 즉, &quot;Elasticsearch 문제&quot; 대신 &quot;Elasticsearch&quot;을 넣습니다.
+* 한 단어 레이블이 선호되지만 구성 요소 이름에 여러 단어가 포함된 경우 여러 단어를 사용하십시오. 문제 설명을 추가하지 마십시오. 즉, &quot;Elasticsearch 문제&quot; 대신 &quot;Elasticsearch&quot;를 넣습니다.
 * 콘텐츠가 구성 요소의 특정 버전에만 관련이 있는 경우 - 이름 + 버전을 포함하는 레이블을 추가합니다.\
   예: &quot;Elasticsearch 5&quot;. 여러 특정 버전과 관련이 있는 경우 이 유형의 레이블을 몇 개 추가합니다. 예: &quot;Elasticsearch 5&quot;, &quot;Elasticsearch 6&quot;. 관련성이 있는 경우 여러 버전에 대해 &quot;x&quot;를 사용하십시오. 예: &quot;Elasticsearch 2.x&quot;
 
