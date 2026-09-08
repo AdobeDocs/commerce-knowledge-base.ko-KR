@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: d8f408d530a9106a1b26c602085bd6ce0db3fef3
+source-git-commit: 16bf1de71bfc6ab2836cb2e98dd60fe191d942d1
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1618'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 1%
 * [Adobe Commerce 지원 기술 자료](/help/overview.md)
 * 공지 {#announcements}
   * [공지 개요](/help/announcements/overview.md)
+  * [Adobe Commerce - APSB26-146에서 사용 가능한 보안 업데이트](/help/announcements/commerce-apsb26-146.md)
   * Adobe Commerce 알림 {#commerce-announcements}
     * {hide-from-toc}[Adobe Commerce에서 Experience League으로 접수 프로세스 마이그레이션 지원](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
 * 문제 해결 {#troubleshooting}
