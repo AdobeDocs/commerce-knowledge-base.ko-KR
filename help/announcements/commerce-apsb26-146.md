@@ -11,9 +11,9 @@ feature_v2:
   - id: c32adafa-ed01-4b31-997e-2413013911b0
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d0e075aabc24a1719098754b456b71a0025e47bf
+source-git-commit: e95fb4ca696be9f6d348ff66196565797575f74a
 workflow-type: tm+mt
-source-wordcount: 842
+source-wordcount: 954
 ht-degree: 0%
 
 ---
@@ -65,39 +65,24 @@ Magento Open Source 버전:
 
 ### Adobe Commerce on Cloud, Adobe Commerce 온프레미스 및 Magento Open Source용 솔루션
 
-영향을 받는 제품 및 버전에 대한 취약성을 해결하려면 VULN-39341 패치(버전에 따라)를 적용하고 암호화 키를 회전해야 합니다.
+>[!NOTE]
+>
+>CVE-2026-75650용 핫픽스는 이제 2.4.4 - 2.4.7 사이의 모든 Adobe Commerce 및 Magento Open Source 버전과 호환됩니다. 아래 표를 참조하시고 해당 버전에 맞는 패치를 다운로드하십시오.
 
-호환성 참고: 이 핫픽스는 아래 나열된 버전에 대해서만 테스트되었습니다. 지원되는 다른 버전에서 작동할 수 있지만 공식적으로 확인되지 않았습니다.
+영향을 받는 제품 및 버전에 대한 취약성을 해결하려면 **아래 패치**&#x200B;를 적용하고(버전에 따라) 암호화 키를 회전해야 합니다.
 
-Adobe Commerce 버전:
+| 버전 번호 | 패치 |
+|---|---|
+| 2.4.9-8월, 2.4.8-2026년 8월, 2.4.7-2026년 8월, 2.4.6-2026년 8월, 2.4.5-2026년 8월, 2.4.4-2026년 8월, 2.4.9-2026년 7월, 2.4.8-2026년 7월, 2.4.7-2026년 7월, 2.4.6-2026년 7월, 2.4.5-2026년 7월, 2.4.4-2026년 7월, 2.4.8-p5, 2.4.8-p4, 2.4.8-p3, 2.4.7 -p10, 2.4.7 -p9, 2.4.6-p15, 2.4.6-p14, 2.4.5-p17, 2.4.5-p16, 2.4.4-p18, 2.4.4-p17 | [핫픽스 VULN-39341-composer-patches.zip](https://repo.magento.com/patch/VULN-39341-composer-patches.zip) |
+| 2.4.8-p3, 2.4.8-p2 | [VULN-39341_248-p3.patch.zip](https://repo.magento.com/patch/VULN-39341-248-p3-patch.zip) |
+| 2.4.8-p1, 2.4.8 | [VULN-39341_248-p1.patch.zip](https://repo.magento.com/patch/VULN-39341-248-p1-patch.zip) |
+| 2.4.7-p8, 2.4.7-p7 | [VULN-39341_247-p8.patch.zip](https://repo.magento.com/patch/VULN-39341-247-p8-patch.zip) |
+| 2.4.7 - 2.4.7-p6 | [VULN-39341_247-p5.patch.zip](https://repo.magento.com/patch/VULN-39341-247-p5-patch.zip) |
+| 2.4.6-p13, 2.4.6-p12, 2.4.5-p15, 2.4.5-p14, 2.4.4-p16, 2.4.4-p15 | [VULN-39341_246-p13.patch.zip](https://repo.magento.com/patch/VULN-39341-246-p13-patch.zip) |
+| 2.4.6 - 2.4.6-p11, 2.4.5 - 2.4.5-p13, 2.4.4 - 2.4.4-p14 | [VULN-39341_246-p11.patch.zip](https://repo.magento.com/patch/VULN-39341-246-p11-patch.zip) |
 
-* 2.4.9-2026-8월
-* 2.4.8-2026-8월
-* 2.4.7-2026-8월
-* 2.4.6-2026-8월
-* 2.4.5-2026-8월
-* 2.4.4-2026-8월
 
-Adobe Commerce B2B 버전:
-
-* 1.5.3-2026-8월
-* 1.5.2-2026-8월
-* 1.4.2-2026-8월
-* 1.3.4-2026-8월
-* 1.3.3-2026년 8월
-
-Magento Open Source 버전:
-
-* 2.4.9-2026-8월
-* 2.4.8-2026-8월
-* 2.4.7-2026-8월
-* 2.4.6-2026-8월
-
-### 핫픽스 링크
-
-영향을 받는 제품 버전에 다음 핫픽스를 적용합니다.
-
-* [VULN-39341-composer-patches.zip 핫픽스 다운로드](https://repo.magento.com/patch/VULN-39341-composer-patches.zip)
+{style="table-layout:auto"}
 
 ### 핫픽스 적용 방법
 
@@ -141,6 +126,7 @@ Magento Open Source 버전:
 1. 캐시를 플러시합니다.
 1. 크론 실행을 사용하도록 설정합니다(클라우드 명령: `vendor/bin/ece-tools cron:enable`의 Commerce).
 1. 유지 관리 모드를 비활성화합니다.
+1. Commerce on Cloud만 해당: 재배포하여 새 데이터베이스 자격 증명을 적용합니다.
 
 ### 보안 업데이트
 
