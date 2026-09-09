@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 16bf1de71bfc6ab2836cb2e98dd60fe191d942d1
+source-git-commit: b4a9384a0d72eec790e08382dd2e45d53cbb9831
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1611'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,6 @@ ht-degree: 1%
     * [캐시된 이미지는 2.2.X에서 2.3.X로 업그레이드한 후 로드되지 않음](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
     * [보안 검색에 사이트를 추가할 때 오류 메시지 표시](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
     * [공유 액세스 문제 해결](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
-    * [성능 저하, 느리고 오래 실행되는 크론](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
     * [Fastly 자격 증명의 유효성을 검사할 때 오류 발생](/help/troubleshooting/miscellaneous/error-when-validating-fastly-credentials.md)
     * [Security Scan Tool 보고서가 비어 있음](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
     * [Adobe Commerce 2.4.2-p1: 잘못된 값이 있는 송장 메모](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
