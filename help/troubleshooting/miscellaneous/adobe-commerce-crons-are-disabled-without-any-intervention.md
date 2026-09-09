@@ -2,9 +2,9 @@
 title: Adobe Commerce [!DNL crons] 개입 없이 비활성화됨
 description: 이 문서를 사용하여  [!DNL crons] 이(가) 개입 없이 비활성화되는 문제를 해결할 수 있습니다.
 exl-id: 5172d2ae-53ad-4db6-ae00-7b27c96911e9
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 6bff1d7a0578ceb8ea17dff347b1bcd4f0068e7a
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -39,10 +39,10 @@ ht-degree: 0%
 
 ## 솔루션
 
-[!DNL ECE Tools]을(를) 최신 버전 [2002.1.13](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113)(으)로 업그레이드하십시오.
+[!DNL ECE Tools]을(를) 최신 버전 [2002.1.13](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113)&#x200B;(으)로 업그레이드하십시오.
 
 ## 관련 읽기
 
-* 지원 기술 자료에서 [느린 성능, 느리고 긴 실행 [!DNL crons]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=ko).
-* [[!DNL Cron] 작업은 다른 그룹의 작업을 잠그고](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=ko)있습니다.
-* [[!DNL Cron] 작업이 지원 기술 자료에서 &quot;실행 중&quot; 상태](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=ko)에서 중단되었습니다.
+* 지원 기술 자료에서 [느린 성능, 느리고 긴 실행 [!DNL crons]](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-42802).
+* [[!DNL Cron] 작업은 다른 그룹의 작업을 잠그고](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=en)있습니다.
+* [[!DNL Cron] 작업이 지원 기술 자료에서 &quot;실행 중&quot; 상태](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=en)에서 중단되었습니다.
