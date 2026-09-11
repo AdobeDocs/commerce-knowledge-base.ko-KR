@@ -29,7 +29,7 @@ ht-degree: 0%
 
 Adobe은 보안 게시판 APSB26-146을 발표했습니다. 해당 게시판은 이 취약점을 해결합니다. 이 게시판은 여기에서 볼 수 있습니다.
 
-[Adobe Commerce 보안 업데이트 사용 가능 | APSB26-146](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
+[Adobe Commerce 보안 업데이트 사용 가능 | APSB26-146](https://helpx.adobe.com/kr/security/products/magento/apsb26-146.html)
 
 이 문서에서는 현재 및 이전 버전의 Adobe Commerce 및 Magento Open Source에 핫픽스를 적용하는 방법에 대해 설명합니다.
 
@@ -86,7 +86,7 @@ Magento Open Source 버전:
 
 ### 핫픽스 적용 방법
 
-파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
+파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 ### 핫픽스가 적용되었는지 확인(Adobe Commerce on Cloud 판매자만 해당)
 
@@ -94,7 +94,7 @@ Magento Open Source 버전:
 
 파일 `VULN-39341_Hotfix_COMPOSER.patch`을(를) 예로 사용하여 다음 단계를 수행하여 이 작업을 수행할 수 있습니다.
 
-1. [품질 패치 도구 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage#install).
+1. [품질 패치 도구 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/usage#install).
 1. `vendor/bin/magento-patches -n status | grep "39341\|Status"` 명령을 실행합니다.
 1. 다음과 유사한 출력이 표시되어야 합니다. 여기서 VULN-39341 예는 적용됨 상태를 반환합니다.
 
@@ -115,7 +115,7 @@ Magento Open Source 버전:
 1. 핫픽스 적용.
 1. 유지 관리 모드를 활성화합니다.
 1. 크론 실행을 사용하지 않도록 설정합니다(클라우드 명령: `vendor/bin/ece-tools cron:disable`의 Commerce).
-1. [암호화 키를 회전합니다](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key?lang=en).
+1. [암호화 키를 회전합니다](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/encryption-key?lang=en).
 1. 모든 관리자 패널 사용자 암호를 회전합니다.
 1. 모든 REST/SOAP/GraphQL 통합 토큰을 비활성화하고 다시 생성합니다(**[!UICONTROL System]** > **[!UICONTROL Extensions]** > **[!UICONTROL Integrations]**).
 1. 연결된 타사 애플리케이션에 대한 OAuth 클라이언트 보안을 회전합니다.
@@ -132,9 +132,9 @@ Magento Open Source 버전:
 
 Adobe Commerce에서 사용할 수 있는 보안 업데이트:
 
-* [Adobe 보안 게시판 (APSB26-146)](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
-* [Adobe Commerce에서 사용할 수 있는 최신 보안 업데이트](https://helpx.adobe.com/security/products/magento.html)
+* [Adobe 보안 게시판 (APSB26-146)](https://helpx.adobe.com/kr/security/products/magento/apsb26-146.html)
+* [Adobe Commerce에서 사용할 수 있는 최신 보안 업데이트](https://helpx.adobe.com/kr/security/products/magento.html)
 
 ### 관련 읽기
 
-Adobe Commerce 설치 가이드의 [유지 관리 모드 활성화 또는 비활성화](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en)
+Adobe Commerce 설치 가이드의 [유지 관리 모드 활성화 또는 비활성화](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en)
