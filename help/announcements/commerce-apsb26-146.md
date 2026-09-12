@@ -11,9 +11,9 @@ feature_v2:
   - id: c32adafa-ed01-4b31-997e-2413013911b0
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 7526f999381e9f117ea2d52dc59330b0d34cba62
+source-git-commit: 8a165b274bf508d849c60fd6768569af1885fdb7
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: 957
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 Adobe은 보안 게시판 APSB26-146을 발표했습니다. 해당 게시판은 이 취약점을 해결합니다. 이 게시판은 여기에서 볼 수 있습니다.
 
-[Adobe Commerce 보안 업데이트 사용 가능 | APSB26-146](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
+[Adobe Commerce 보안 업데이트 사용 가능 | APSB26-146](https://helpx.adobe.com/kr/security/products/magento/apsb26-146.html)
 
 이 문서에서는 현재 및 이전 버전의 Adobe Commerce 및 Magento Open Source에 핫픽스를 적용하는 방법에 대해 설명합니다.
 
@@ -120,7 +120,7 @@ Magento Open Source 버전:
 1. 모든 REST/SOAP/GraphQL 통합 토큰을 비활성화하고 다시 생성합니다(**[!UICONTROL System]** > **[!UICONTROL Extensions]** > **[!UICONTROL Integrations]**).
 1. 연결된 타사 애플리케이션에 대한 OAuth 클라이언트 보안을 회전합니다.
 1. 공급자 수준에서 결제 게이트웨이 API 자격 증명을 회전(Stripe, Braintree, Adyen, PayPal 등)합니다.
-1. 데이터베이스 자격 증명을 회전합니다.
+1. 데이터베이스 및 Fastly 자격 증명을 회전(지원 티켓을 통해)합니다.
 1. SSH/배포 키와 cron 또는 시스템 권한 서비스 계정 자격 증명을 회전합니다.
 1. 배송, 세금 및 기타 통합 타사 확장에 대한 API 키를 회전합니다.
 1. 캐시를 플러시합니다.
@@ -132,8 +132,8 @@ Magento Open Source 버전:
 
 Adobe Commerce에서 사용할 수 있는 보안 업데이트:
 
-* [Adobe 보안 게시판 (APSB26-146)](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
-* [Adobe Commerce에서 사용할 수 있는 최신 보안 업데이트](https://helpx.adobe.com/security/products/magento.html)
+* [Adobe 보안 게시판 (APSB26-146)](https://helpx.adobe.com/kr/security/products/magento/apsb26-146.html)
+* [Adobe Commerce에서 사용할 수 있는 최신 보안 업데이트](https://helpx.adobe.com/kr/security/products/magento.html)
 
 ### 관련 읽기
 
