@@ -2,13 +2,11 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: f88551f595f1907957301f2ebdf9c0c9dc685939
+source-git-commit: 75d326acaa5926506fe3078da18abbbcdf2f3df4
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1589'
 ht-degree: 1%
-
 ---
-
 # Adobe Commerce 기술 자료 {#kb}
 
 * [Adobe Commerce 지원 기술 자료](/help/overview.md)
@@ -73,7 +71,6 @@ ht-degree: 1%
     * [패치를 적용하면 사이트가 다운됩니다.](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [모든 Adobe Commerce 버전에서 Google 맵 액세스 손실에 대한 패치를 수정했습니다.](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * 기타 {#miscellaneous}
-    * [내보내기 저장소가 거의 꽉 찼다는 이메일](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
     * [Adobe AI에 대한 API 키를 구성했지만 하나의 SaaS 데이터 공간만 표시됨](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
     * [일반 사용자 정의 모듈 문제 해결 도움말](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [캐시 준비 및 Adobe Commerce에서 사이트를 사용할 수 없음](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
