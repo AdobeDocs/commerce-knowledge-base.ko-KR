@@ -1,15 +1,14 @@
 ---
 title: '[!DNL Live Search] 패싯이 알파벳순으로 정렬되지 않음'
-description: 이 문서에서는  [!DNL Live Search] 패싯이 알파벳순으로 정렬되지 않은 경우의 문제 해결 정보를 제공합니다.
+description: 이 문서에서는 [!DNL Live Search] 패싯이 알파벳순으로 정렬되지 않은 경우의 문제 해결 정보를 제공합니다.
 feature: Admin Workspace, Categories, Search
 role: Developer
-source-git-commit: b20a98e44cfad6667b9fe0ab232b0020ed834ca2
+exl-id: 59f86727-c2a6-4418-8753-40f7937e059c
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '146'
 ht-degree: 0%
-
 ---
-
 # [!DNL Live Search] 패싯이 알파벳순으로 정렬되지 않음
 
 ## 영향을 받는 제품 및 버전
@@ -22,7 +21,7 @@ Adobe Commerce 버전 2.4.x 이상
 
 ## 해결 방법
 
-그러나 특정 경계 사례에서는 패싯이 [[!DNL Live Search] 페이스팅 작업 영역](https://experienceleague.adobe.com/ko/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace)에 설정된 대로 알파벳순으로 정렬되지 않을 수 있습니다.
+그러나 특정 경계 사례에서는 패싯이 [[!DNL Live Search] 페이스팅 작업 영역](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace)에 설정된 대로 알파벳순으로 정렬되지 않을 수 있습니다.
 
 해결 방법으로 [!UICONTROL Admin] 특성 섹션에서 제품 특성을 정렬할 수 있습니다.
 

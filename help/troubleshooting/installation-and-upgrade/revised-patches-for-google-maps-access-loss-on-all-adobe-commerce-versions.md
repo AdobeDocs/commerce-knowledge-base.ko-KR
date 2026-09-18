@@ -1,15 +1,14 @@
 ---
 title: 모든 Adobe Commerce 버전에서 Google 맵 액세스 손실에 대한 패치를 수정했습니다.
-description: '이 문서는 3.54+의 최신  [!DNL Google Maps] 버전과 호환되지 않는 Adobe Commerce 가맹점에 대한 수정 사항을 제공합니다.'
+description: 이 문서에서는 3.54+의 최신 [!DNL Google Maps] 버전과 호환되지 않는 Adobe Commerce 판매자에 대한 수정 사항을 제공합니다.
 feature: Install, Upgrade
 role: Developer
-source-git-commit: cf235c2fdd7a36d7e3b126de35c51e6711cd3845
+exl-id: 6151e89a-3190-40cb-b599-94ae5530488b
+source-git-commit: d7e58d6a9ed8e9b369ea41165cbdd6b362e40824
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '345'
 ht-degree: 0%
-
 ---
-
 # 모든 Adobe Commerce 버전에서 [!DNL Google Maps] 액세스 손실에 대한 패치를 수정했습니다.
 
 이 문서에서는 3.54+의 최신 [!DNL Google Maps] 버전과 호환되지 않는 Adobe Commerce 판매자에 대한 수정 사항을 제공합니다. 이 수정 사항은 Adobe Commerce 판매자가 더 이상 Adobe Commerce 버전의 [!DNL Google Maps]에 액세스할 수 없는 문제를 해결하기 위한 것입니다.
@@ -25,9 +24,9 @@ ht-degree: 0%
 
 자세한 내용은 [[!DNL Google Maps Platform: Maps JavaScript API]](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions)을(를) 참조하세요.
 
-Adobe Commerce은 3.54+의 최신 [!DNL &#x200B; Google Maps] 버전과 호환되지 않습니다.
+Adobe Commerce은 3.54+의 최신 [!DNL  Google Maps] 버전과 호환되지 않습니다.
 
-호환되지 않는 이유는 레거시 `prototype.js script`이(가) `lib/web/legacy-build.min.js`을(를) 통해 로드되어 네이티브 Array.from 함수를 재정의했기 때문입니다. 재정의하면 [!DNL &#x200B; Google Maps] API와 직접적으로 충돌합니다.
+호환되지 않는 이유는 레거시 `prototype.js script`이(가) `lib/web/legacy-build.min.js`을(를) 통해 로드되어 네이티브 Array.from 함수를 재정의했기 때문입니다. 재정의하면 [!DNL  Google Maps] API와 직접적으로 충돌합니다.
 
 [[!DNL Google Maps: JS Best Practices]](https://developers.google.com/maps/documentation/javascript/best-practices)을(를) 참조하세요.
 
@@ -72,4 +71,4 @@ Adobe Commerce 버전에 따라 다음과 같은 첨부 패치를 사용합니�
 
 ## 관련 읽기
 
-[Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)
+[Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)
