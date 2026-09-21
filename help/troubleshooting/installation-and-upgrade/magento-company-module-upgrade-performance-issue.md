@@ -1,15 +1,14 @@
 ---
 title: B2B 1.5.2 업데이트 후 Magento_Company 모듈 업그레이드의 성능 문제
-description: 이 문서에서는 B2B 1.5.2 업데이트 후 Magento_Company 모듈 업그레이드의 성능 문제에 대한 핫픽스를 제공하여 company_structure 테이블의 대규모 데이터 세트에 대해 지나치게 긴 처리 시간을 해결합니다.
+description: 이 문서에서는 B2B 1.5.2 업데이트 후 Magento_Company 모듈 업그레이드의 성능 문제에 대한 핫픽스를 제공하여 company_structure 테이블의 대규모 데이터 세트에 대해 너무 긴 처리 시간을 해결합니다.
 feature: B2B, Upgrade
 role: Admin, Developer
-source-git-commit: d06f0045b4c4c1615bd3abec963eb17fdee93860
+exl-id: b091d761-2e8a-4535-b461-ee9a46b5c2bc
+source-git-commit: e0524b54ee0adae1caa809212e98dda3a33c1954
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '439'
 ht-degree: 0%
-
 ---
-
 # B2B 1.5.2 업데이트 후 Magento_Company 모듈 업그레이드의 성능 문제
 
 이 문서에서는 B2B 1.5.2 업데이트 후 `Magento_Company` 모듈 업그레이드의 성능 문제에 대한 핫픽스를 제공하여 `company_structure` 테이블의 대규모 데이터 세트(~10만 개 이상의 레코드)에 대해 너무 긴 처리 시간을 해결합니다.
@@ -84,4 +83,4 @@ Adobe Commerce on Cloud 판매자의 경우 아래 단계를 따르십시오.
 
 ## 관련 읽기
 
-* [REGEXP_LIKE 함수 누락으로 인해 SQL 구문 오류가 발생하여 B2B 1.5.2로 업그레이드할 수 없습니다](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)
+* [REGEXP_LIKE 함수 누락으로 인해 B2B 1.5.2로 업그레이드하지 못하고 SQL 구문 오류가 발생합니다](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)

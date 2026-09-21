@@ -4,13 +4,11 @@ description: 이 문서에서는 특정 Adobe Commerce 캐시 유형이 비활�
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+source-git-commit: 42aa1d4ef3540d4eb9682627dc5bf1dd14091dc3
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '366'
 ht-degree: 0%
-
 ---
-
 # 성능 저하를 방지하기 위해 캐시 활성화
 
 이 문서에서는 특정 Adobe Commerce 캐시 유형이 비활성화되어 있어 발생하는 느린 사이트 문제를 해결하는 방법에 대해 설명합니다.
@@ -52,6 +50,6 @@ Adobe Commerce 캐시 설명서 의 개발자 설명서:
 
 성능 문제와 그에 대한 솔루션에 대한 기타 가능한 이유는 다음과 같습니다.
 
-* [사이트 성능을 개선하기 위해 Adobe Commerce 배너 출력을 사용하지 않도록 설정](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26909)
+* [Adobe Commerce 배너 출력을 비활성화하여 사이트 성능 향상](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26909)
 * [MySQL 테이블이 너무 큽니다.](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26945)
-* [성능 저하, 느리고 오래 실행되는 크론](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
+* [성능 저하, 느리고 오래 실행되는 크론](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-42802)

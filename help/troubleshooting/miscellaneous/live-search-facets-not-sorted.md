@@ -1,15 +1,14 @@
 ---
 title: '[!DNL Live Search] 패싯이 알파벳순으로 정렬되지 않음'
-description: 이 문서에서는  [!DNL Live Search] 패싯이 알파벳순으로 정렬되지 않은 경우의 문제 해결 정보를 제공합니다.
+description: 이 문서에서는 [!DNL Live Search] 패싯이 알파벳순으로 정렬되지 않은 경우의 문제 해결 정보를 제공합니다.
 feature: Admin Workspace, Categories, Search
 role: Developer
-source-git-commit: b20a98e44cfad6667b9fe0ab232b0020ed834ca2
+exl-id: 59f86727-c2a6-4418-8753-40f7937e059c
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '146'
 ht-degree: 0%
-
 ---
-
 # [!DNL Live Search] 패싯이 알파벳순으로 정렬되지 않음
 
 ## 영향을 받는 제품 및 버전

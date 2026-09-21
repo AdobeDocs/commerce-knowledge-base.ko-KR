@@ -3,13 +3,11 @@ title: Fastly 수준에서 Adobe Commerce에 대한 악성 트래픽 차단
 description: 이 문서에서는 클라우드 인프라 스토어의 Adobe Commerce에서 DDoS 공격이 발생한다고 의심되는 경우 악성 트래픽을 차단하는 데 사용할 수 있는 단계를 제공합니다.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: 8bde15deccc24c548c20cf5955cbebc45ac1d9a1
+source-git-commit: 8e64b148938394e67265da543784b2769df56c58
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # Fastly 수준에서 Adobe Commerce에 대한 악성 트래픽 차단
 
 이 문서에서는 악의적인 위협에 응답할 뿐만 아니라 지리적 필터링 방법으로 스토어에 대한 원치 않는 트래픽을 차단하는 방법을 설명합니다.
@@ -47,8 +45,8 @@ Adobe Commerce on cloud infrastructure store의 경우 특정 IP 주소 및 서�
 
 사용자 에이전트를 기반으로 차단을 설정하려면 Fastly 구성에 사용자 지정 VCL 코드 조각을 추가해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
-1. Commerce 관리에서 **스토어** > **구성** > **고급** > **시스템** > **전체 페이지 캐시**&#x200B;로 이동합니다.
-1. 그런 다음 **빠르게 구성** > **사용자 지정 VCL 조각**&#x200B;을 수행합니다.
+1. Commerce **[!UICONTROL Admin]**&#x200B;에서 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]**(으)로 이동합니다.
+1. **[!UICONTROL Fastly Configuration]** > **[!UICONTROL Custom VCL Snippets]**&#x200B;을(를) 클릭합니다.
 1. Fastly\_Cdn 모듈에 대한 [사용자 지정 VCL 코드 조각](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md) 안내서에 설명된 대로 새 사용자 지정 코드 조각을 만듭니다. 다음 코드 샘플을 예로 사용할 수 있습니다. 이 샘플은 `AhrefsBot` 사용자 에이전트에 대한 트래픽을 허용하지 않습니다.
 
 ```php
@@ -60,6 +58,64 @@ name: block_bad_useragents
       error 405 "Not allowed";
   }
 ```
+
+## JA3/JA4/OH 서명별 트래픽 차단(Newrelic에서 JA3, JA4 및 OHFP 값 가져오기)
+
+1. 사전 만들기: **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL System]** > **[!UICONTROL Full page cache]** > **[!UICONTROL Fastly configuration]** > **[!UICONTROL Edge Dictionary]**(으)로 이동하여 이 샘플 블록을 만듭니다.
+
+   ```
+   #table ja3_blocklist:
+   table ja3_blocklist {
+       "********************************": "********************************",
+   }
+   
+   #table ja4_blocklist:
+   table filter_bad_ja4 {
+       "************************************": "************************************",
+   }
+   ```
+
+1. 그런 다음 VCL을 추가하여 위에서 정의한 표에 나열된 모든 JA3, JA4를 차단합니다.
+
+   ```
+   name: block_traffic_ja3_ja4
+   type: recv 
+   priority: 5 
+   
+   VCL:
+   if (req.restarts == 0 && fastly.ff.visits_this_service == 0) {
+     if(table.contains(ja3_blocklist, tls.client.ja3_md5)){
+       error 403;
+     }
+     if(table.contains(ja4_blocklist, tls.client.ja4)){
+       error 403;
+     }
+   }
+   ```
+
+1. OHFP를 기반으로 하는 샘플 차단:
+
+   ```
+   #table ohfp_h2fp_blocklist
+   table ohfp_h2fp_blocklist {
+       "xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx":"xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx",
+   }
+   ```
+
+
+1. 그런 다음 VCL을 추가하여 위에서 정의한 표에 나열된 모든 OHFP를 차단합니다.
+
+   ```
+   # Snippet block_ohfp_h2fp
+   name: block_ohfp_h2fp
+   type: recv 
+   Priority: 5
+   
+   if (table.contains(ohfp_h2fp_blocklist, fastly_info.oh_fingerprint)) {
+     error 403 "Forbidden";
+   }
+   ```
+
 
 ## 속도 제한(실험적 Fastly 기능)
 
