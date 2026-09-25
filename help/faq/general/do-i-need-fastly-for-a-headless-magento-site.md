@@ -5,11 +5,9 @@ exl-id: d7e07160-6a61-4c03-8f8c-4f879d86ea44
 feature: Cache, GraphQL, Compliance
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '362'
 ht-degree: 0%
-
 ---
-
 # Headless Adobe Commerce 사이트에 Fastly가 필요합니까?
 
 >[!NOTE]
@@ -33,5 +31,5 @@ Headless 배포를 사용하지 않으려는 유일한 상황입니다.
 
 ## 추가 정보
 
-* [&#128279;](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture)Headless 웹 사이트: 분리된 아키텍처의 주요 이점[Josh Koenig](https://pantheon.io/team/josh-koenig)의 .
+* [헤드리스 웹 사이트: 분리된 아키텍처가 큰 문제가 되는 것은 무엇입니까?](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture) [Josh Koenig](https://pantheon.io/team/josh-koenig)의
 * 개발자 설명서에서 [Fastly](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/fastly)
