@@ -1,16 +1,14 @@
 ---
-title: Adobe Commerce 버전 2.4.5로 업그레이드한 후 '[!UICONTROL Recommendations] [!DNL JS] 오류 발생'
-description: 이 문서에서는 Adobe Commerce(모든 배포 메서드)로 업그레이드한 후 제품 [!UICONTROL Recommendations] 모듈과 관련된 콘솔에  [!DNL JS] 오류가 있는 경우를 수정합니다.
+title: Adobe Commerce 버전 2.4.5로 업그레이드한 후 [!UICONTROL Recommendations]개의 [!DNL JS] 오류
+description: 이 문서에서는 Adobe Commerce(모든 배포 메서드)로 업그레이드한 후 제품 [!UICONTROL Recommendations] 모듈과 관련된 콘솔에 [!DNL JS]개의 오류가 있는 경우에 대한 수정 사항을 제공합니다.
 feature: Install, Upgrade
 role: Developer
 exl-id: 51d899eb-48f7-48c5-8bda-bd72a4d28945
 source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 버전 2.4.5로 업그레이드한 후 [!UICONTROL Recommendations]개의 [!DNL JS] 오류
 
 이 문서에서는 Adobe Commerce(모든 배포 메서드)로 업그레이드한 후 제품 [!UICONTROL Recommendations] 모듈/단위와 관련된 콘솔에 [!DNL JS]개의 오류가 있는 경우에 대한 수정 사항을 제공합니다.
@@ -29,7 +27,7 @@ Storefront 웹 페이지가 홈 페이지 [!DNL CMS]에서 일부 삭제된 제�
 
 1. Adobe Commerce 2.4.5로 업그레이드하십시오.
 1. Storefront 웹 페이지에 액세스합니다.
-1. 마우스를 마우스 오른쪽 단추로 클릭하고 **Inspect**&#x200B;을 선택하여 웹 브라우저에서 웹 관리자를 엽니다.
+1. 마우스를 마우스 오른쪽 단추로 클릭하고 **검사**&#x200B;를 선택하여 웹 브라우저에서 웹 검사기를 엽니다.
 1. **[!UICONTROL Console]** 탭을 클릭합니다.
 1. [!DNL JS] 오류를 검토합니다.
 
