@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 75d326acaa5926506fe3078da18abbbcdf2f3df4
+source-git-commit: 50b733947e4c62b9a318df1f86a51c456f9f15d1
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1583'
 ht-degree: 1%
 ---
 # Adobe Commerce 기술 자료 {#kb}
@@ -139,7 +139,7 @@ ht-degree: 1%
     * [잘못 구성되거나 누락되어 Cron이 중지됨 [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
     * [[!DNL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
     * [[!DNL Google Tag Manager]이(가) 실시간 검색 위젯에 의해 손상되었습니다.](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
-    * [[!DNL 서드파티 보안 검색을 통해 발견된 취약점은 HackerOne] (으)로 이동해야 합니다.](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
+    * [서드파티 보안 검색을 통해 발견된 취약점은  [!DNL HackerOne](으)로 이동해야 합니다.](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
     * [2.4.2에서 2.4.5-p3로 업그레이드한 후 수천 개의 검색 결과를 가져오는 중](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2-4-5-p3.md)
     * [app/etc/env.php에서 검색 엔진을 변경할 수 없음](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
     * [Magento-cloud CLI에 활성 환경이 표시되지 않음](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
@@ -158,7 +158,7 @@ ht-degree: 1%
   * 알려진 문제 {#known-issues-patches-attached}
     * [저장소 보안 및 암호화 키 회전에 대한 지침:  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
   * Elasticsearch {#elasticsearch}
-    * [[!DNL 검색 엔진이 Opensearch] (으)로 설정된 경우  [!DNL Elasticsearch7] (으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+    * [검색 엔진이  [!DNL Opensearch](으)로 설정된 경우  [!DNL Elasticsearch7] (으)로 폴백](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [ElasticSuite 추적 인덱스로 인해 Elasticsearch 문제가 발생합니다.](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 방법 {#how-to}
   * [방법 개요](/help/how-to/overview.md)
@@ -196,7 +196,6 @@ ht-degree: 1%
   * [배포가 실패했습니다. error.md.](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
   * [필드가 회색으로 표시되는 경우 magento.com 계정의 이메일 주소를 변경하는 방법](/help/how-to/general/change-email-address-on-magento-account.md)
   * [Magento Order Management를 제거하는 방법](/help/how-to/general/how-to-remove-mom.md)
-  * [Commerce 휴일 준비를 위한 기술 팁](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
   * [GraphQL 요청을 위해 WAF을 우회하는 방법](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
   * [클라우드에서 Adobe Commerce용 MariaDB 10.4를 10.5로 업그레이드](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * FAQ {#faq}
