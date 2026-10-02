@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 기술 자료
 user-guide-description: Commerce 스토어와 관련된 문제를 해결하고 유지 관리하는 데 필요한 모든 것을 제공합니다.
 breadcrumb-title: Commerce KB
-source-git-commit: 75d326acaa5926506fe3078da18abbbcdf2f3df4
+source-git-commit: 50b733947e4c62b9a318df1f86a51c456f9f15d1
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1583'
 ht-degree: 1%
 ---
 # Adobe Commerce 기술 자료 {#kb}
@@ -196,7 +196,6 @@ ht-degree: 1%
   * [배포가 실패했습니다. error.md.](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
   * [필드가 회색으로 표시되는 경우 magento.com 계정의 이메일 주소를 변경하는 방법](/help/how-to/general/change-email-address-on-magento-account.md)
   * [Magento Order Management를 제거하는 방법](/help/how-to/general/how-to-remove-mom.md)
-  * [Commerce 휴일 준비를 위한 기술 팁](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
   * [GraphQL 요청을 위해 WAF을 우회하는 방법](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
   * [클라우드에서 Adobe Commerce용 MariaDB 10.4를 10.5로 업그레이드](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * FAQ {#faq}
