@@ -1,15 +1,14 @@
 ---
 source-git-commit: c587986edc925c49bf95ab935888b59f265371af
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '611'
 ht-degree: 0%
-
 ---
 # KB Formatting 안내서
 
 ## Markdown 작성자
 
-일반적으로 [Adobe Experience League Markdown 구문 스타일 가이드](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=ko)를 사용하지만 몇 가지 차이점과 예외가 있습니다. 또한 경우에 따라 특정 HTML 태그가 필요합니다.
+일반적으로 [Adobe Experience League Markdown 구문 스타일 가이드](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en)를 사용하지만 몇 가지 차이점과 예외가 있습니다. 또한 경우에 따라 특정 HTML 태그가 필요합니다.
 
 다음은 보고서에서 가장 일반적으로 사용되는 Markdown 서식의 예입니다.
 
@@ -55,7 +54,7 @@ H2에서 H5까지의 헤더에 대해 다음 서식을 사용합니다. 문서 �
 \`\`\` sql
 
 TABLE_NAME을 `Table`(으)로 선택합니다.
-ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024)(`Size (MB)`)
+ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
 FROM 정보_스키마.테이블
 여기서 TABLE_SCHEMA = &quot;%project_id%&quot;
 (DATA_LENGTH + INDEX_LENGTH) 내림차순;
@@ -139,7 +138,7 @@ your code here
 ![alt text](assets/image.png)
 ```
 
-이미지 크기를 사용자 지정하려면 다음 HTML 태그를 사용하여 이 작업을 수행해야 합니다.
+이미지 크기를 사용자 정의하려면 다음 HTML 태그를 사용하여 이 작업을 수행해야 합니다.
 
 ```html
 <img src = "assets/image.png" alt = "your alt text" width="custom width, ex: 250px">
@@ -165,7 +164,7 @@ your code here
 [this is link to the anchor in the same article](#this-is-header)
 ```
 
-헤더가 아닌 요소를 참조해야 하는 경우 HTML을 사용하여 추가할 요소를 정의하십시오. [id 특성](https://www.w3schools.com/html/html_id.asp)을 사용하십시오. 그런 다음 Markdown 또는 HTML 을 사용하여 이 ID를 참조할 수 있습니다.
+헤더가 아닌 요소를 참조해야 하는 경우 HTML을 사용하여 추가할 요소를 정의하고 [id 특성](https://www.w3schools.com/html/html_id.asp)을 사용하십시오. 그런 다음 Markdown 또는 HTML을 사용하여 이 ID를 참조할 수 있습니다.
 
 ### 상대 링크 및 기타 문서에 대한 링크
 
