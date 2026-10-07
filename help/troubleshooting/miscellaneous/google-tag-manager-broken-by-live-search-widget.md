@@ -1,16 +1,14 @@
 ---
-title: Google Tag Manager가  [!DNL Live Search] 위젯에 의해 중단되었습니다.
-description: 이 문서에서는  [!DNL Live Search Product Listing Widget] 원인 [!DNL Google Tag Manager] 의 기능을 중지하는 방법에 대한 해결 방법을 제공합니다.
+title: '[!DNL Live Search] 위젯에 의해 Google Tag Manager가 손상되었습니다.'
+description: 이 문서에서는 [!DNL Google Tag Manager]의 기능을 중지하는 [!DNL Live Search Product Listing Widget]에 대한 해결 방법을 제공합니다.
 feature: Install, Search, Best Practices
 role: Admin, Developer
 exl-id: 485f8ccb-cba2-4785-a8e1-a1e98c88b21e
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # [!DNL Live Search] 위젯에 의해 [!DNL Google Tag Manager]이(가) 손상되었습니다.
 
 이 문서에서는 [!DNL Google Tag Manager]의 기능을 중지하는 [!DNL Live Search Product Listing Widget]에 대한 해결 방법을 제공합니다.

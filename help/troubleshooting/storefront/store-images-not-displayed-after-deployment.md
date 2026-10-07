@@ -6,11 +6,9 @@ feature: Cache, Categories, Deploy, Storefront
 role: Admin
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '184'
 ht-degree: 0%
-
 ---
-
 # 배포 후 표시되지 않는 이미지 저장
 
 이 문서에서는 배포 후 이미지가 올바르게 표시되지 않는 문제에 대한 해결 방법을 제공합니다.

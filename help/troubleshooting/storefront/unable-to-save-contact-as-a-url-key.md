@@ -6,11 +6,9 @@ feature: CMS, Marketing Tools, Storefront
 role: Admin
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '350'
 ht-degree: 0%
-
 ---
-
 # *연락처*&#x200B;을(를) URL 키로 저장할 수 없음
 
 이 문서에서는 *연락처*&#x200B;을(를) 제품 또는 CMS 페이지의 URL 키(예: &quot;/contact&quot;)로 저장할 수 없는 문제에 대한 해결 방법을 제공합니다.
