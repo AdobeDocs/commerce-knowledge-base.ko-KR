@@ -5,11 +5,9 @@ exl-id: ea478cbc-2dc2-41c9-8ea7-7e2f308e5948
 feature: Cloud
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '309'
 ht-degree: 0%
-
 ---
-
 # Cloud pro 아키텍처에서 데이터베이스 auto_increment 변수가 &quot;3&quot; Adobe Commerce으로 설정됨
 
 이는 3노드 아키텍처로 인해 Adobe Commerce on cloud infrastructure Pro 플랜 아키텍처 솔루션에 예상되는 동작으로, 수정할 수 없습니다.
@@ -31,5 +29,5 @@ Galera 데이터베이스 클러스터가 사용됩니다. Galera 데이터베�
 
 개발자 설명서에서 를 참조하십시오.
 
-* [Adobe Commerce용 클라우드 > Pro 아키텍처 > 백업 및 재해 복구](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [Adobe Commerce용 클라우드 > 필수 구성 요소 설치: 데이터베이스](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/overview)
+* [Cloud for Adobe Commerce > Pro 아키텍처 > 백업 및 재해 복구](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [Adobe Commerce용 클라우드 > 사전 요구 사항 설치: 데이터베이스](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)
