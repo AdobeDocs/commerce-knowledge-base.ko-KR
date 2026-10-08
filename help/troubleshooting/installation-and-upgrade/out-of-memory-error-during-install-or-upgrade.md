@@ -1,19 +1,17 @@
 ---
 title: 설치 또는 업그레이드 도중 메모리 부족 오류 발생
-description: 이 문서에서는 Adobe Commerce 온-프레미스 및 Magento Open Source 온-프레미스 제품 설치/업그레이드 시 메모리 부족 오류에 대한 솔루션에 대해 설명합니다.
+description: 이 문서에서는 Adobe Commerce 온-프레미스 및 Magento Open Source 온-프레미스 제품을 설치/업그레이드하는 동안 메모리 부족 오류에 대한 솔루션에 대해 설명합니다.
 exl-id: c0ed8228-9357-4a3b-a102-1119386ea52a
 feature: Install, Upgrade
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '359'
 ht-degree: 0%
-
 ---
-
 # 설치 또는 업그레이드 도중 메모리 부족 오류 발생
 
-이 문서에서는 Adobe Commerce 온-프레미스 및 Magento Open Source 온-프레미스 제품 설치/업그레이드 시 메모리 부족 오류에 대한 솔루션에 대해 설명합니다.
+이 문서에서는 Adobe Commerce 온-프레미스 및 Magento Open Source 온-프레미스 제품을 설치/업그레이드하는 동안 메모리 부족 오류에 대한 솔루션에 대해 설명합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -50,14 +48,14 @@ proc_open(): fork failed - Cannot allocate memory
 
 다음 참조에 설명된 대로 `fallocate` 명령을 사용합니다.
 
-* [Ubuntu 14.04(Digitalocean)에서 스왑을 추가하는 방법](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
-* [Ubuntu 16.04(Digitalocean)에서 스왑 공간을 추가하는 방법](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
+* [Ubuntu 14.04 (Digitalocean)에서 스왑을 추가하는 방법](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
+* [우분투 16.04 (Digitalocean)에서 스왑 공간을 추가하는 방법](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
 * [SwapFaq(help.ubuntu.com)](https://help.ubuntu.com/community/SwapFaq)
 
 ### CentOS에서 파일 교체 {#swap-file-on-centos}
 
 다음 참조에 설명된 대로 `mkswap` 명령을 사용합니다.
 
-* [CentOS 6(Digitalocean)에서 스왑을 추가하는 방법](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
-* [CentOS 7(Digitalocean)에서 스왑을 추가하는 방법](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
-* [공간 교체(RedHat 고객 포털)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-swapspace.html)
+* [CentOS 6에서 스왑을 추가하는 방법(Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
+* [CentOS 7에 스왑 추가 방법 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
+* [스왑 공간(RedHat 고객 포털)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-swapspace.html)
