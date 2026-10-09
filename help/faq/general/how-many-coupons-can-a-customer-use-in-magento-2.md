@@ -3,13 +3,17 @@ title: Adobe Commerce에서 고객이 사용할 수 있는 쿠폰은 몇 개입�
 description: 이 문서에서는 고객이 Adobe Commerce에서 사용할 수 있는 쿠폰 수량을 제공합니다.
 exl-id: 7ec409fc-0660-425f-bfaa-aa55b712e162
 feature: Marketing Tools
-source-git-commit: c6de1eddec4269dec34c021c3277668dd57fa01e
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '140'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce에서 고객이 사용할 수 있는 쿠폰은 몇 개입니까?
 
 2.4.7 이하 버전의 Adobe Commerce의 경우 여러 쿠폰 코드를 구성할 수 있지만 **장바구니에 하나의 쿠폰 코드만 사용**&#x200B;할 수 있습니다.

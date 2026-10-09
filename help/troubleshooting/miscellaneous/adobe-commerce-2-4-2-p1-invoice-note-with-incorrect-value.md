@@ -4,13 +4,25 @@ description: 이 문서에서는 주문을 생성하는 동안 고객 그룹을 
 exl-id: bde90251-625f-4c9d-8e5a-9a2019656125
 feature: Customer Service, Invoices
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '229'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.2-p1: 잘못된 값이 있는 송장 메모
 
 이 문서에서는 주문을 생성하는 동안 고객 그룹을 변경할 때 값이 잘못된 송장 노트가 생성되는 알려진 Adobe Commerce 2.4.2-p1 문제에 대해 설명합니다. 이 문제는 버전 2.4.3에서 해결되었습니다.
@@ -29,7 +41,7 @@ ht-degree: 0%
 1. **고객 계정 테스트**&#x200B;를 만들어 **소매 고객 그룹**&#x200B;에 추가합니다.
 1. 테스트 고객을 위한 **새 주문**&#x200B;을 만들고 **제품** 및 **주소**&#x200B;를 추가하십시오.
 1. **배송 방법**&#x200B;을 선택하세요.
-1. **계정 정보** 섹션에서 고객 그룹을 **소매업자**&#x200B;에서 **정부**(으)로 변경하십시오.
+1. **계정 정보** 섹션에서 고객 그룹을 **Retailer**&#x200B;에서 **정부**(으)로 변경합니다.
 1. **주문**&#x200B;을 클릭하세요.
 1. **청구서** > **청구서 제출**&#x200B;을 클릭합니다.
 

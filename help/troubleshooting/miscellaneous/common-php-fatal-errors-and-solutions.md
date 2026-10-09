@@ -4,13 +4,23 @@ description: 이 문서에서는 Adobe Commerce 로그와 문제가 표시된 �
 exl-id: 3e42d38f-97bc-4d38-8e36-23b1453f81d9
 feature: Support
 role: Developer
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: a59f76dc-e003-5617-951e-dffa5bd3de81
+    internal-label: Support
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # 일반적인 PHP 치명적인 오류 및 솔루션
 
 이 문서에서는 Adobe Commerce 로그와 문제가 표시된 솔루션을 통해 확인할 수 있는 몇 가지 일반적인 PHP 치명적 오류 빠른 예제를 나열합니다.
@@ -21,7 +31,7 @@ ht-degree: 0%
 
 ## 솔루션
 
-`max_execution_time` 파일에서 사용자 지정 `php.ini` 값을 설정하고 다시 배포하여 최대 실행 시간을 업데이트할 수 있습니다.
+`php.ini` 파일에서 사용자 지정 `max_execution_time` 값을 설정하고 다시 배포하여 최대 실행 시간을 업데이트할 수 있습니다.
 
 For example:
 
@@ -66,7 +76,7 @@ MySQL 환경의 디스크 공간이 부족합니다. MySQL 환경에 더 많은 
 개발자 설명서에서:
 
 * [PHP 설정 오류](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/overview)
-* [필요한 PHP 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [필수 PHP 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/php-settings)
 * [Redis 확인](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
 * [Redis 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
 * [PHP 메모리 제한 오류](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/overview)

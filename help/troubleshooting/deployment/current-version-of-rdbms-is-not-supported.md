@@ -4,13 +4,20 @@ description: 이 문서에서는 배포가 실패하고 배포 로그에 다음 
 exl-id: e7300f64-5749-4de8-b4d2-bc4789437282
 feature: Deploy
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '331'
 ht-degree: 0%
-
 ---
-
 # 배포 시 &#39;현재 버전의 RDBMS가 지원되지 않음&#39; 오류 발생
 
 이 문서에서는 배포가 실패하고 배포 로그에 다음 오류가 있는 경우에 대한 솔루션을 제공합니다. *현재 버전의 RDBMS가 지원되지 않음*.

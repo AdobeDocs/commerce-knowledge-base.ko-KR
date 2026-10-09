@@ -4,13 +4,22 @@ description: 이 문서에서는 추적된 '.gitignore' 파일이 클라우드 �
 exl-id: b0604bae-d630-4292-88d7-6945db30fcf4
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '163'
 ht-degree: 0%
-
 ---
-
 # Composer install 명령은 .gitigore 파일, Adobe Commerce을 감독합니다.
 
 이 문서에서는 추적된 `.gitignore` 파일이 클라우드 인프라 2.4.2-p1 및 2.3.7의 Adobe Commerce에서 작성기에 의해 재정의되는 경우에 대한 솔루션을 제공합니다.
@@ -84,4 +93,4 @@ composer install 명령을 실행할 때 `.gitignore` 파일을 덮어쓰는 중
 
 ## 관련 읽기
 
-* [추적된 .gitigore 파일이 작성기에 의해 재정의됩니다.Magento2 GitHub의 &#x200B;](https://github.com/magento/magento2/issues/32888).
+* [추적된 .gitigore 파일이 작성기에 의해 재정의됩니다.](https://github.com/magento/magento2/issues/32888) Magento2 GitHub에서.

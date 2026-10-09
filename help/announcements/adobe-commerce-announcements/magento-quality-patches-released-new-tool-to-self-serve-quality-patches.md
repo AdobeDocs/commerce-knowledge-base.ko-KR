@@ -1,19 +1,29 @@
 ---
 title: '품질 패치 툴 출시: 품질 패치를 셀프서비스할 수 있는 새로운 툴'
-description: Adobe은 설치된 Adobe Commerce 버전(온-프레미스 및 클라우드 인프라) 또는 Magento Open Source에서 사용할 수 있는 품질 패치에 대한 일반 정보를 적용, 복원 및 볼 수 있는 도구인 일반 가용성을 위한 품질 패치 도구를 발표했습니다.
+description: Adobe은 설치된 버전의 Adobe Commerce(온-프레미스 및 클라우드 인프라) 또는 Magento Open Source에서 사용할 수 있는 품질 패치에 대한 일반 정보를 적용, 복원 및 볼 수 있는 도구인 일반 가용성을 위한 품질 패치 도구를 발표했습니다.
 exl-id: e6a79d16-84be-4a71-a41d-ef2b43ec98d9
 feature: Tools and External Services
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: 618ab558-d6ad-5352-99d6-d5702c6fdf80
+    internal-label: Tools and External Services
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # 품질 패치 툴 출시: 품질 패치를 셀프서비스할 수 있는 새로운 툴
 
-Adobe은 설치된 Adobe Commerce 버전(온-프레미스 및 클라우드 인프라) 또는 Magento Open Source에서 사용할 수 있는 품질 패치에 대한 일반 정보를 적용, 복원 및 볼 수 있는 도구인 일반 가용성을 위한 품질 패치 도구를 발표했습니다.
+Adobe은 설치된 버전의 Adobe Commerce(온-프레미스 및 클라우드 인프라) 또는 Magento Open Source에서 사용할 수 있는 품질 패치에 대한 일반 정보를 적용, 복원 및 볼 수 있는 도구인 일반 가용성을 위한 품질 패치 도구를 발표했습니다.
 
 이 도구는 더 빠른 셀프서비스 문제 해결을 제공하여 Adobe Commerce에서 발생할 수 있는 문제에 대해 Adobe Commerce 지원에서 제안하는 패치를 쉽게 적용할 수 있도록 합니다.
 
@@ -29,5 +39,5 @@ Adobe은 설치된 Adobe Commerce 버전(온-프레미스 및 클라우드 인�
 
 자세한 내용은 개발자 설명서 를 참조하십시오.
 
-* [품질 패치 도구에서 사용 가능한 패치](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ko)
-* [품질 패치 도구 릴리스 정보](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [품질 패치 도구에서 사용할 수 있는 패치](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=ko)
+* [품질 패치 도구 릴리스 노트](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/quality-patches-tool/release-notes)

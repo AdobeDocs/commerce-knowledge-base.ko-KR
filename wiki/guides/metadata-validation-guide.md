@@ -1,10 +1,13 @@
 ---
-source-git-commit: 0cfb7dc0dce68bcb0933a5ae49b0cd5a8b5b5a39
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
-
 ---
+
 # 메타데이터 유효성 검사 안내서
 
 MD 파일에서 메타데이터의 올바른 형식을 보장하기 위해 메타데이터 유효성 검사 테스트를 실시했습니다. 이 문서에서는 기여자가 가장 일반적인 메타데이터 유효성 검사 오류 중 일부를 방지하는 데 도움이 되는 지침을 제공합니다.

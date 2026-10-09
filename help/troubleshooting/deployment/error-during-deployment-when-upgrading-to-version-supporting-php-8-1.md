@@ -4,22 +4,31 @@ description: 이 문서에서는 PHP 8.1을 지원하는 버전으로 업그레�
 exl-id: bdc4a355-4f2b-49a7-9c5d-63c950f7ca30
 feature: Deploy, Observability
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: 4239b8a6-e74f-567d-a7a5-b98b9ead0ea4
+    internal-label: Observability
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '148'
 ht-degree: 0%
-
 ---
-
 # PHP 8.1을 지원하는 버전으로 업그레이드할 때 배포 도중 오류 발생
 
 이 문서에서는 PHP 8.1을 지원하는 버전으로 업그레이드할 때 배포 중에 발생하는 오류에 대한 해결책을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
-* cloud infrastructure 2.4.4 이상 버전의 Adobe Commerce
+* 클라우드 인프라의 Adobe Commerce 2.4.4. 및 나중에
 
-* 확장 또는 기술 (Fastly, New Relic 등) 버전 PHP 8.1
+* 확장 또는 기술(Fastly, New Relic 등) 버전 PHP 8.1
 
 ## 문제
 

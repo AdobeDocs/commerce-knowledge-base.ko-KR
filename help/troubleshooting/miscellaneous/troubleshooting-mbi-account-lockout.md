@@ -4,13 +4,29 @@ description: 이 문서에서는 Adobe Commerce Intelligence 계정 잠금에 �
 exl-id: 85968257-ba4b-4cfb-a4fa-497b4c5b5aea
 feature: Cache, Commerce Intelligence, Console
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '639'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce Intelligence 계정 잠금 문제 해결
 
 <!--
@@ -27,7 +43,7 @@ BOB: Is this in TOC?
 
 ## 암호 재설정 시도
 
-올바른 이메일을 사용하고 있는지 확인한 경우 암호를 재설정해 보십시오. **찾기를 사용할 수 있습니까?암호 재설정 이메일을 트리거하기 위해 이전 섹션의 로그인 페이지에 있는** 링크입니다.
+올바른 이메일을 사용하고 있는지 확인한 경우 암호를 재설정해 보십시오. **잊으셨습니까?**&#x200B;를 사용할 수 있습니다. 암호 재설정 이메일을 트리거하기 위해 이전 섹션의 로그인 페이지에 연결합니다.
 
 이메일이 처음에 표시되지 않으면 정크 메일 폴더를 확인해야 합니다. 때때로 선의의 이메일조차도 정크 메일로 오인될 수 있습니다. **이 전자 메일의 임시 액세스 링크는 한 번만 사용할 수 있습니다!**
 
@@ -46,7 +62,7 @@ BOB: Is this in TOC?
 
 ![Chrome 개발자 도구를 여는 중](assets/Opening_Chrome_dev_tools.gif)
 
-위의 예에서는 콘솔을 여는 가장 일반적인 방법(**마우스 오른쪽 단추 클릭** > **Inspect**)을 사용했습니다. 브라우저에 이 방법이 없거나 도움이 필요한 경우 사용 중인 웹 브라우저에 대해 아래 설명서 링크를 사용하십시오.
+위의 예에서는 콘솔을 여는 가장 일반적인 방법(**마우스 오른쪽 단추 클릭** > **검사**)을 사용했습니다. 브라우저에 이 방법이 없거나 도움이 필요한 경우 사용 중인 웹 브라우저에 대해 아래 설명서 링크를 사용하십시오.
 
 <table>
 <tbody>
@@ -71,5 +87,5 @@ BOB: Is this in TOC?
 ## 지원 기술 자료의 관련 항목:
 
 * [새 사용자 추가 및 권한 설정](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html?lang=ko)
-* [전자 메일 주소 또는 암호를 어떻게 업데이트합니까?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html?lang=ko)
-* [암호를 어떻게 재설정합니까?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html?lang=ko)
+* [이메일 주소 또는 암호는 어떻게 업데이트합니까?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html?lang=ko)
+* [암호를 재설정하려면 어떻게 해야 합니까?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html?lang=ko)

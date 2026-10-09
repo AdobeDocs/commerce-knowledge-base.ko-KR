@@ -3,7 +3,18 @@ title: Fastly 수준에서 Adobe Commerce에 대한 악성 트래픽 차단
 description: 이 문서에서는 클라우드 인프라 스토어의 Adobe Commerce에서 DDoS 공격이 발생한다고 의심되는 경우 악성 트래픽을 차단하는 데 사용할 수 있는 단계를 제공합니다.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: 8e64b148938394e67265da543784b2769df56c58
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%

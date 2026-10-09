@@ -3,13 +3,26 @@ title: 클라우드 스냅숏을 사용하지 않고 환경 롤백
 description: 이 문서에서는 클라우드 인프라의 Adobe Commerce에서 환경 스냅숏을 만들지 않고 환경을 롤백하는 두 가지 솔루션을 보여 줍니다.
 exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
 feature: Build, Cloud, Console
-source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: adedf3b3-e153-47a3-ae73-b5d65067b544
+    internal-label: Build system
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '949'
 ht-degree: 0%
-
 ---
-
 # 클라우드 스냅숏을 사용하지 않고 환경 롤백
 
 이 문서에서는 클라우드 인프라의 Adobe Commerce에서 환경 스냅숏을 만들지 않고 환경을 롤백하는 두 가지 솔루션을 보여 줍니다.
@@ -94,7 +107,7 @@ Adobe Commerce 소프트웨어를 제거하려면 다음 단계를 따르십시�
 
 git 재설정을 사용하면 코드를 이전의 원하는 상태로 되돌립니다.
 
-1. 환경을 로컬 개발 환경에 복제합니다. 클라우드 콘솔에서 명령을 복사할 수 있습니다.    ![copy_git_clone.png](assets/copy_git_clone.png)
+1. 환경을 로컬 개발 환경에 복제합니다. 클라우드 콘솔에서 명령을 복사할 수 있습니다. ![copy_git_clone.png](assets/copy_git_clone.png)
 1. 커밋 내역에 액세스합니다. 편의를 위해 `--reverse`을(를) 사용하여 내역을 역순으로 표시합니다.
 
    ```git
@@ -171,9 +184,9 @@ DB를 다시 설정한 후 [환경에 git 푸시를 만들어 다시 배포](htt
 
 개발자 설명서에서:
 
-* [클라우드에서 스냅숏 복원](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
-* [스냅숏 만들기](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
+* [클라우드에서 스냅샷 복원](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+* [스냅샷 만들기](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
 * [스냅샷 및 백업 관리](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [클라우드 콘솔로 분기 관리 - 로그 보기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=ko#view-logs)
+* [Cloud Console로 분기 관리 - 로그 보기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=ko#view-logs)
 * [구성 요소 배포 실패](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html?lang=ko)
 * [프로젝트 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=ko#configure-the-project)

@@ -1,10 +1,13 @@
 ---
-source-git-commit: 49befebc020b4a8250567c38a532c2e6a9b84afc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '99'
 ht-degree: 0%
-
 ---
+
 # Adobe Commerce 지원 기술 자료 저장소 설명서
 
 Adobe Commerce 지원 기술 자료 저장소 설명서의 홈페이지입니다.

@@ -3,13 +3,22 @@ title: 공유 카탈로그의 가격에 대한 콘텐츠 스테이징 업데이�
 description: Adobe Commerce은 공유 카탈로그에 있는 하나 이상의 제품에 대한 가격 업데이트([Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=ko))를 예약하는 기능을 제공하지 않습니다.
 exl-id: 5482326f-54c2-4efc-8e5e-6d075ee5be55
 feature: Catalog Management, Customer Service
-source-git-commit: c3120f7df24e105b082df6544ab82241d6b6851f
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+subfeature_v2:
+  - id: deedbb4d-f1b7-58ea-a34a-de1f481f9d4c
+    internal-label: Customer Service
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '290'
 ht-degree: 0%
-
 ---
-
 # 공유 카탈로그의 가격에 대한 콘텐츠 스테이징 업데이트를 예약할 수 있습니까?
 
 Adobe Commerce은 공유 카탈로그에 있는 하나 이상의 제품에 대한 가격 업데이트([콘텐츠 스테이징](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=ko))를 예약하는 기능을 제공하지 않습니다.
@@ -45,4 +54,4 @@ Adobe Commerce은 공유 카탈로그에 있는 하나 이상의 제품에 대�
 
 ## 기본 가격에 대한 가격 업데이트 예약
 
-관련 문서를 참조하세요. [기본 가격 변경이 공유된 카탈로그 가격에 어떤 영향을 줍니까?지원 기술 자료의 &#x200B;](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md).
+관련 문서를 참조하십시오. [기본 가격 변경이 공유 카탈로그 가격에 어떤 영향을 줍니까?](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md) 을 참조하십시오.

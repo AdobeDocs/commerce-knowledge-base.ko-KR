@@ -1,16 +1,23 @@
 ---
 title: '[!DNL Cron] 작업이 다른 그룹의 작업을 잠급니다.'
-description: 이 문서에서는 특정 장기 실행 [!DNL cron] 작업 차단 [!DNL cron] 작업과 관련된 Adobe Commerce on cloud infrastructure 문제에 대한 해결 방법을 제공합니다.
+description: 이 문서에서는 다른 [!DNL cron] 작업을 차단하는 특정 장기 실행 [!DNL cron] 작업과 관련된 클라우드 인프라의 Adobe Commerce 문제에 대한 해결 방법을 제공합니다.
 exl-id: b5b9e8b3-373c-4f93-af9c-85da84dbc928
 feature: Configuration
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 # [!DNL Cron] 작업이 다른 그룹의 작업을 잠급니다.
 
 이 문서에서는 다른 [!DNL cron] 작업을 차단하는 특정 장기 실행 [!DNL cron] 작업과 관련된 클라우드 인프라의 Adobe Commerce 문제에 대한 해결 방법을 제공합니다.
@@ -36,8 +43,8 @@ Adobe Commerce for cloud에서 복잡한 [!DNL cron]개의 작업(장기 실행 
 
 ## 솔루션
 
-1. 자체 관리 [을(를) 활성화하려면 &#x200B;](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)Adobe Commerce 지원[!DNL crons]에 문의하십시오.
-1. `.magento.app.yaml` 분기에 있는 Adobe Commerce용 코드의 루트 디렉터리에서 [!DNL Git] 파일을 편집합니다. 다음을 추가합니다.
+1. 자체 관리 [!DNL crons]을(를) 활성화하려면 [Adobe Commerce 지원](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)에 문의하십시오.
+1. [!DNL Git] 분기에 있는 Adobe Commerce용 코드의 루트 디렉터리에서 `.magento.app.yaml` 파일을 편집합니다. 다음을 추가합니다.
 
    ```yaml
      crons:
@@ -50,7 +57,7 @@ Adobe Commerce for cloud에서 복잡한 [!DNL cron]개의 작업(장기 실행 
 
 >[!NOTE]
 >
->여러 [!DNL cron]이(가) 있는 이전 `cron:run` 구성을 새 [!DNL cron] 일정으로 전송할 필요가 없습니다. 위에서 설명한 대로 추가된 일반 `cron:run` 작업이면 됩니다. 단, 사용자 정의 작업이 있는 경우 전송해야 합니다.
+>여러 `cron:run`이(가) 있는 이전 [!DNL cron] 구성을 새 [!DNL cron] 일정으로 전송할 필요가 없습니다. 위에서 설명한 대로 추가된 일반 `cron:run` 작업이면 됩니다. 단, 사용자 정의 작업이 있는 경우 전송해야 합니다.
 
 ### 자체 관리 [!DNL cron]이(가) 활성화되어 있는지 확인(Cloud Pro 스테이징 및 프로덕션에만 해당)
 
@@ -63,7 +70,7 @@ Adobe Commerce for cloud에서 복잡한 [!DNL cron]개의 작업(장기 실행 
   SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun
   ```
 
-* 작업을 볼 수 없고 [!DNL cron]을(를) 가져올 수 없는 경우 자체 관리 *을(를) 사용할 수 없습니다.&quot;이 프로그램을 사용할 수 없습니다.&quot;* 오류 메시지가 표시됩니다.
+* 작업을 볼 수 없고 *을(를) 가져올 수 없는 경우 자체 관리 [!DNL cron]을(를) 사용할 수 없습니다.&quot;이 프로그램을 사용할 수 없습니다.&quot;* 오류 메시지가 표시됩니다.
 
 >[!NOTE]
 >

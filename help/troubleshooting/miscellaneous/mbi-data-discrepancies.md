@@ -4,13 +4,20 @@ description: 특정 보고서에 있는 수치가 부정확해 보입니까? 예
 exl-id: 2ecea990-7292-46c1-b6eb-75f0404aaf0b
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 3d73611b812833820eda5b906eb700c89f50cbbe
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 # MBI: 데이터 불일치
 
 특정 보고서에 있는 수치가 부정확해 보입니까? 예기치 않은 NULL 값이 표시됩니까? 제대로 표시되지 않는 것이 발견되면 다음 리소스를 사용하여 문제를 해결하는 것이 좋습니다.

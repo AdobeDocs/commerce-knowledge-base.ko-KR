@@ -4,13 +4,20 @@ description: 이 문서에서는 장바구니 가격 규칙 쿠폰이 제대로 
 exl-id: 9c81de40-65a3-422d-9053-3c894b863a0a
 feature: Orders
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
-
 ---
-
 # 단일 사용을 위한 쿠폰은 여러 번 사용됨, Adobe Commerce
 
 이 문서에서는 장바구니 가격 규칙 쿠폰이 제대로 작동하지 않는 문제에 대한 해결 방법을 제공합니다. 가맹점은 1회용 쿠폰을 설정해 고객이 여러 번 사용할 수 있다.

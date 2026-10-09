@@ -1,15 +1,24 @@
 ---
 title: Fastly 503 오류 대신 Adobe Commerce 오류 보고서 번호 표시
-description: '기본적으로 Fastly는 **503 Service Unavailable** 오류 뒤의 모든 Adobe Commerce 오류를 숨깁니다. Adobe Commerce 오류 로그 보고서 번호를 표시하려면(로그에서 찾고 오류 세부 정보를 보려면) 다음 단계를 수행하여 Fastly를 생략하고 웹 사이트를 여십시오.'
+description: 기본적으로 Fastly는 **503 Service Unavailable** 오류 뒤의 모든 Adobe Commerce 오류를 숨깁니다. Adobe Commerce 오류 로그 보고서 번호(로그에서 찾아 오류 세부 정보를 볼 수 있음)를 표시하려면 다음 단계를 사용하여 Fastly를 생략하고 웹 사이트를 엽니다.
 exl-id: c0a4a9f8-a674-4cef-8088-e844594e6076
 feature: Cache, Cloud
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '271'
 ht-degree: 0%
-
 ---
-
 # Fastly 503 오류 대신 Adobe Commerce 오류 보고서 번호 표시
 
 기본적으로 Fastly는 **503 Service Unavailable** 오류 뒤에 있는 모든 Adobe Commerce 오류를 숨깁니다. Adobe Commerce 오류 로그 보고서 번호(로그에서 찾아 오류 세부 정보를 볼 수 있음)를 표시하려면 다음 단계를 사용하여 Fastly를 생략하고 웹 사이트를 엽니다.

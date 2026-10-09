@@ -1,19 +1,26 @@
 ---
-title: '[!DNL regex]이(가) 아닌  [!DNL Fastly] (으)로 리디렉션 오프로드  [!DNL Nginx] (경로)'
-description: 이 항목에서는 클라우드 인프라의 Adobe Commerce에서 [!DNL regex]이(가) 아닌  [!DNL Fastly] 로  [!DNL Nginx] 하지 않은 리디렉션을 오프로드할 때 발생할 수 있는 일반적인 리디렉션 성능 문제에 대한 해결 방법을 제안합니다.
+title: '[!DNL regex]이(가) 아닌 리디렉션을 [!DNL Nginx] (경로) 대신 [!DNL Fastly] (으)로 오프로드'
+description: 이 항목에서는 클라우드 인프라의 Adobe Commerce에서 [!DNL regex]이 아닌 리디렉션을 [!DNL Nginx] 대신 [!DNL Fastly] (으)로 오프로드할 때 발생할 수 있는 일반적인 리디렉션 성능 문제에 대한 해결 방법을 제안합니다.
 exl-id: 8b22d25d-0865-4d21-b275-d344ba8748f2
 feature: Routes
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 1783ae9f-7157-5aeb-a915-91e260301e46
+    internal-label: Routes
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '796'
 ht-degree: 0%
-
 ---
+# [!DNL regex]이(가) 아닌 리디렉션을 [!DNL Nginx]&#x200B;(경로) 대신 [!DNL Fastly]&#x200B;(으)로 오프로드
 
-# [!DNL regex]이(가) 아닌 리디렉션을 [!DNL Fastly]&#x200B;(경로) 대신 [!DNL Nginx]&#x200B;(으)로 오프로드
-
-이 항목에서는 클라우드 인프라의 Adobe Commerce에서 [!DNL regex]이 아닌 리디렉션을 [!DNL Fastly] 대신 [!DNL Nginx]&#x200B;(으)로 오프로드할 때 발생할 수 있는 일반적인 리디렉션 성능 문제에 대한 해결 방법을 제안합니다.
+이 항목에서는 클라우드 인프라의 Adobe Commerce에서 [!DNL regex]이 아닌 리디렉션을 [!DNL Nginx] 대신 [!DNL Fastly]&#x200B;(으)로 오프로드할 때 발생할 수 있는 일반적인 리디렉션 성능 문제에 대한 해결 방법을 제안합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -21,11 +28,11 @@ ht-degree: 0%
 
 ## 문제
 
-클라우드 인프라의 Adobe Commerce에서는 [!DNL regex] 계층에서 [!DNL Nginx]이(가) 아닌 많은 리디렉션/다시 쓰기를 수행할 수 없으므로 성능 문제가 발생할 수 있습니다.
+클라우드 인프라의 Adobe Commerce에서는 [!DNL Nginx] 계층에서 [!DNL regex]이(가) 아닌 많은 리디렉션/다시 쓰기를 수행할 수 없으므로 성능 문제가 발생할 수 있습니다.
 
 ## 원인
 
-`routes.yaml` 디렉터리의 `.magento/routes.yaml` 파일은 클라우드 인프라의 Adobe Commerce 경로를 정의합니다.
+`.magento/routes.yaml` 디렉터리의 `routes.yaml` 파일은 클라우드 인프라의 Adobe Commerce 경로를 정의합니다.
 
 `routes.yaml` 파일의 크기가 32KB 이상인 경우 [!DNL regex]이 아닌 사용자가 [!DNL Fastly]에 리디렉션/다시 쓰는 작업을 오프로드해야 합니다.
 
@@ -35,7 +42,7 @@ ht-degree: 0%
 
 해결 방법은 [!DNL regex]이 아닌 리디렉션을 대신 [!DNL Fastly]&#x200B;(으)로 오프로드하는 것입니다. [!DNL Fastly]&#x200B;(으)로 리디렉션할 일반 오류 경로를 만듭니다.
 
-다음 단계에서는 [!DNL Fastly] 대신 [!DNL Nginx]에 리디렉션을 배치하는 방법을 자세히 설명합니다.
+다음 단계에서는 [!DNL Nginx] 대신 [!DNL Fastly]에 리디렉션을 배치하는 방법을 자세히 설명합니다.
 
 1. Edge 사전 만들기
 

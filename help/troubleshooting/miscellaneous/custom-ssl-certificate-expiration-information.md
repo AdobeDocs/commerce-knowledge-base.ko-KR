@@ -4,13 +4,23 @@ description: 이 문서에서는 사용자 정의 SSL 인증서가 Adobe에서 �
 exl-id: cc968bae-f742-449b-b291-bc121ec45935
 feature: Support
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: a59f76dc-e003-5617-951e-dffa5bd3de81
+    internal-label: Support
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 # 사용자 정의 SSL 인증서 만료 정보
 
 이 문서에서는 사용자 정의 SSL 인증서가 Adobe에서 제공한 SSL 인증서로 업데이트된 경우에 대한 솔루션을 제공합니다.

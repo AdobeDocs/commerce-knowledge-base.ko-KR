@@ -1,16 +1,23 @@
 ---
 title: 사용자 정의 서버측 스크립트가 pub 미디어 디렉토리에서 실행되지 않음
-description: 이 문서에서는 사용자 지정 서버측 스크립트가 &grave;.에 배치된 경우 실행되지 않는 경우에 대한 수정 사항을 제공합니다.클라우드 인프라에 있는 Adobe Commerce 애플리케이션의 /pub/media/&grave; 디렉터리 &grave; 이후 예상되는 보안 제한입니다./pub/media/&grave; 디렉터리에 쓸 수 있습니다. 스크립트를 실행 가능한 디렉토리로 만들려면 &grave; 등의 쓰기 불가능한 디렉토리에 스크립트를 배치합니다./app/code/&grave; 또는 &grave;/pub/&grave;.
+description: '이 문서에서는 클라우드 인프라에 있는 Adobe Commerce 애플리케이션의 "./pub/media/" 디렉토리에 사용자 정의 서버측 스크립트가 실행되지 않는 경우에 대한 수정 사항을 제공합니다. `./pub/media/` 디렉토리가 쓰기 가능하므로 예상되는 보안 제한입니다. 스크립트를 실행 가능한 디렉토리로 만들려면 쓰기 불가능한 디렉토리(예: ''./app/code/'' 또는 ''./pub/'')에 스크립트를 배치합니다.'
 exl-id: fcad8a5d-47d6-4729-93a4-2410d7710d69
 feature: Media
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '284'
 ht-degree: 0%
-
 ---
-
 # 사용자 정의 서버측 스크립트가 pub 미디어 디렉토리에서 실행되지 않음
 
 이 문서에서는 클라우드 인프라에 있는 Adobe Commerce 애플리케이션의 `./pub/media/` 디렉터리에 배치되었을 때 사용자 지정 서버측 스크립트가 실행되지 않는 경우에 대한 수정 사항을 제공합니다. `./pub/media/` 디렉터리는 쓰기 가능하므로 이는 예상되는 보안 제한입니다. 스크립트를 실행 가능한 디렉터리로 만들려면 `./app/code/` 또는 `./pub/`과(와) 같이 쓸 수 없는 디렉터리에 스크립트를 배치하십시오.

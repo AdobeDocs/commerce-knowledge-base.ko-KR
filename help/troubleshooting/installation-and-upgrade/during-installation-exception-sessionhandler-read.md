@@ -1,13 +1,14 @@
 ---
 title: 설치하는 동안 예외 SessionHandler::read()
-description: "이 문서에서는 Adobe Commerce 설치 중 **SessionHandler::read()** 오류에 대한 수정 사항을 제공합니다."
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+description: 이 문서에서는 Adobe Commerce 설치 중 발생한 예외 **SessionHandler::read()** 오류에 대한 수정 사항을 제공합니다.
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 
 # 설치하는 동안 예외 SessionHandler::read()
 

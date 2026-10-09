@@ -2,13 +2,14 @@
 title: '''app/etc/env.php''에서 검색 엔진을 변경할 수 없음'
 description: 이 문서에서는 Commerce 관리자의 검색 엔진을 변경하려고 하지만 필드가 잠겨 있는 문제에 대한 해결 방법을 제공합니다.
 exl-id: 61006ce7-34f9-4e4d-a197-f3d627dd277f
-source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 # `app/etc/env.php`에서 검색 엔진을 변경할 수 없습니다.
 
 이 문서에서는 `app/etc/env.php` 파일에서 검색 엔진 구성을 제거하려고 하지만 다시 배포한 후 구성이 이전 설정으로 되돌아가거나 기본적으로 [!DNL OpenSearch]&#x200B;(으)로 변경되는 문제에 대한 해결 방법을 제공합니다.
@@ -42,4 +43,4 @@ Commerce 관리에서 검색 엔진을 변경하려고 하지만 필드가 잠�
 
 ## 관련 읽기
 
-* Cloud Infrastructure Guide의 Commerce Commerce Admin에서 [잠긴(회색으로 표시됨) 필드](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26879).
+* Cloud Infrastructure Guide의 Commerce Admin에서 [잠긴(회색으로 표시됨) 필드](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26879).

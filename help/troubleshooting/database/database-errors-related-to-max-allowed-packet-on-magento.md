@@ -4,16 +4,27 @@ description: 이 문서에서는 'var/log/exception.log'에서 대량의 제품�
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 4239b8a6-e74f-567d-a7a5-b98b9ead0ea4
+    internal-label: Observability
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '626'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce의 max_allowed_packet 관련 데이터베이스 오류
 
-이 문서에서는 많은 수의 제품을 가져오거나 서버에서 기본값인 16MB보다 큰 `var/log/exception.log`에 설정된 것보다 큰 패킷을 처리하도록 하는 다른 작업을 수행할 때 발생할 수 있는 `max_allowed_packet`의 데이터베이스 연결 오류에 대한 해결 방법을 제공합니다.
+이 문서에서는 많은 수의 제품을 가져오거나 서버에서 기본값인 16MB보다 큰 `max_allowed_packet`에 설정된 것보다 큰 패킷을 처리하도록 하는 다른 작업을 수행할 때 발생할 수 있는 `var/log/exception.log`의 데이터베이스 연결 오류에 대한 해결 방법을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -21,7 +32,7 @@ ht-degree: 0%
 
 ## 문제
 
-[!DNL MySQL] 클라이언트 또는 [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) 서버가 [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet)바이트보다 큰 패킷을 받으면 [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) 오류가 발생하고(`exception.log`에서 볼 수 있음) 연결을 닫습니다. 일부 클라이언트의 경우 통신 패킷이 너무 큰 경우 *서버에 대한 [!DNL MySQL]연결 끊김* 오류가 발생할 수 있습니다.
+[!DNL MySQL] 클라이언트 또는 [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) 서버가 [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet)바이트보다 큰 패킷을 받으면 [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) 오류가 발생하고(`exception.log`에서 볼 수 있음) 연결을 닫습니다. 일부 클라이언트의 경우 통신 패킷이 너무 큰 경우 [!DNL MySQL] 서버에 대한 *연결 끊김* 오류가 발생할 수 있습니다.
 
 <u>재현 단계</u>
 
@@ -34,7 +45,7 @@ ht-degree: 0%
 ## 솔루션
 
 1. 개별 행이 현재 `max_allowed_packet` 제한을 초과하는 쿼리를 식별합니다. 이러한 쿼리는 반환되는 데이터의 양을 줄이기 위해 다시 작성해야 합니다. 이 작업은 `SELECT` 문에 더 적은 수의 열이 있거나 테이블 디자인의 일부로 다양한 열에 대해 더 작은 데이터 형식을 선택하여 수행할 수 있습니다. New Relic 계정이 있는 경우 [New Relic APM 오류 페이지](https://docs.newrelic.com/docs/apm/apm-ui-pages/error-analytics/errors-page-explore-events-behind-errors), [New Relic APM 데이터베이스 페이지](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time) 및 [New Relic 로그](https://docs.newrelic.com/docs/logs/log-management/get-started/get-started-log-management)를 사용하여 관련 쿼리를 검색하십시오.
-1. 빠른 수정을 위해 `max_allowed_packet`티켓을 제출[할 때 &#x200B;](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) 크기를 늘리도록 일시적으로 요청할 수 있지만, 값이 너무 크면 네트워크 정체가 발생하여 복제 오류가 발생할 수 있으므로 이는 고객 엔지니어링 팀의 판단에 따른 것입니다.
+1. 빠른 수정을 위해 [티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)할 때 `max_allowed_packet` 크기를 늘리도록 일시적으로 요청할 수 있지만, 값이 너무 크면 네트워크 정체가 발생하여 복제 오류가 발생할 수 있으므로 이는 고객 엔지니어링 팀의 판단에 따른 것입니다.
 1. 가장 좋은 방법은 일부 대용량 데이터베이스 테이블에 대해 CLI에서 다음 명령을 실행하는 것입니다.
 
    ```

@@ -2,13 +2,14 @@
 title: 최신 Beta 버전에 액세스할 수 없음
 description: 이 문서에서는 Adobe Commerce용 코드의 최신 Beta 버전을 활용하려고 할 때 발생하는 문제에 대한 솔루션을 제공합니다. Beta 코드는 [Adobe Commerce Beta 프로그램](https://github.com/magento/magento2/wiki/Magento-Beta-Program)에 설명된 프로세스를 수행한 공식 Adobe 파트너에 대해서만 사용할 수 있습니다.
 exl-id: a53c854e-38a8-4c8c-8586-9d99c576c835
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '660'
 ht-degree: 0%
-
 ---
-
 # 최신 Beta 버전에 액세스할 수 없음
 
 이 문서에서는 Adobe Commerce용 코드의 최신 Beta 버전을 활용하려고 할 때 발생하는 문제에 대한 솔루션을 제공합니다. Beta 코드는 [Adobe Commerce Beta 프로그램](https://github.com/magento/magento2/wiki/Magento-Beta-Program)에 설명된 프로세스를 수행한 공식 Adobe 파트너에 대해서만 사용할 수 있습니다.
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 이 문서에서는 조기 액세스 코드 액세스와 관련된 다음 문제를 다룹니다.
 
-* Adobe Commerce Beta 버전은 **magento.com**&#x200B;의 **내 계정** > [다운로드](https://account.magento.com/customer/account/login)에서 다운로드할 수 없습니다.
+* Adobe Commerce Beta 버전은 [magento.com](https://account.magento.com/customer/account/login)의 **내 계정** > **다운로드**&#x200B;에서 다운로드할 수 없습니다.
 * 작성기를 사용하여 [magento.com](https://account.magento.com/customer/account/login)에서 조기 액세스 Adobe Commerce 버전을 다운로드하지 못했습니다.
 
 ## 원인

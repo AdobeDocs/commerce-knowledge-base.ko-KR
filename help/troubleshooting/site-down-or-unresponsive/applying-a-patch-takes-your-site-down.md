@@ -4,13 +4,23 @@ description: 이 문서에서는 방금 적용한 패치가 사이트를 삭제�
 exl-id: dc765bcd-0761-4efd-a345-46a908d61272
 feature: Cache
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '289'
 ht-degree: 0%
-
 ---
-
 # 패치를 적용하면 사이트가 다운됩니다.
 
 이 문서에서는 방금 적용한 패치가 사이트를 삭제하는 문제에 대해 설명합니다. 이 문제를 해결하려면 패치를 제거합니다.
@@ -48,7 +58,7 @@ Adobe Commerce 온-프레미스 및 Magento Open Source 2.x 버전의 경우
    patch -p1 -R %patch_name%.composer.patch
    ```
 
-   (위 명령이 작동하지 않으면 `-p2` 대신 `-p1`을(를) 사용해 보십시오.)
+   (위 명령이 작동하지 않으면 `-p1` 대신 `-p2`을(를) 사용해 보십시오.)
 
 1. 변경 내용을 반영하려면 **시스템** > **캐시 관리**&#x200B;에서 관리자의 캐시를 새로 고치십시오.
 
@@ -56,7 +66,7 @@ Adobe Commerce 온-프레미스 및 Magento Open Source 2.x 버전의 경우
 
 클라우드 인프라의 Adobe Commerce, 모든 버전
 
-1. `%patch_name%.composer.patch` 디렉터리에서 `m2-hotfixes` 파일을 제거합니다.
+1. `m2-hotfixes` 디렉터리에서 `%patch_name%.composer.patch` 파일을 제거합니다.
 1. 코드 변경 사항을 커밋하고 푸시합니다.
 
    ```

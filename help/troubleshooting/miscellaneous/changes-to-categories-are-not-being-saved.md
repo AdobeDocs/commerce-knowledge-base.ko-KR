@@ -4,13 +4,23 @@ description: 이 문서에서는 Commerce 관리자를 통해 제품 카테고�
 exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 feature: Categories
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%
-
 ---
-
 # 범주 변경 사항이 저장되지 않음
 
 이 문서에서는 Commerce 관리자를 통해 제품 카테고리를 업데이트할 때 변경 사항이 관리자 및 상점 앞에 표시되지 않는 문제를 수정했습니다. `catalog_category_entity` 테이블의 데이터가 손상되어 문제가 발생합니다. 이 문제를 해결하려면 표에서 문제가 있는 범주 업데이트 레코드를 수정하거나 제거합니다. 그런 다음 관리자를 사용하여 제품 카테고리를 업데이트할 수 있습니다.

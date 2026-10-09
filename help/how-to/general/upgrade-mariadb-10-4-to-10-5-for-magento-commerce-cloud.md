@@ -3,13 +3,19 @@ title: 클라우드에서 Adobe Commerce용 MariaDB 10.4를 10.5로 업그레이
 description: MariaDB 10.4는 2024년 6월 18일에 지원이 종료됩니다. 이 문서에서는 클라우드 인프라에서 Adobe Commerce을 계속 사용하기 위해 MariaDB를 10.4에서 10.5로 업그레이드하는 방법에 대해 설명합니다.
 feature: Best Practices, Cloud
 exl-id: 065840b8-28c1-4686-95fc-df3e73152845
-source-git-commit: 70c2421cb28b45f82ab7c0568c6a45b9572897df
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '696'
 ht-degree: 0%
-
 ---
-
 # 클라우드에서 Adobe Commerce용 MariaDB 10.4를 10.5로 업그레이드
 
 MariaDB는 Adobe Commerce에서 사용되는 엔터프라이즈 오픈 소스 데이터베이스입니다.

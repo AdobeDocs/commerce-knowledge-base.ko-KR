@@ -4,13 +4,22 @@ description: Commerce Intelligence의 목표는 뛰어난 고객 서비스를 �
 exl-id: 2e1ef4b3-a77c-4281-8337-fb90574a44f7
 feature: Commerce Intelligence, User Account
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '539'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce Intelligence 서비스 정책
 
 Commerce Intelligence의 목표는 뛰어난 고객 서비스를 제공하고, 데이터를 보호하며, 데이터 중심의 의사 결정을 내리는 데 필요한 노하우를 제공하는 것입니다.
@@ -50,4 +59,4 @@ Commerce Intelligence의 목표는 뛰어난 고객 서비스를 제공하고, �
 
 ## 표는 어떻게 제출합니까?
 
-페이지 상단의 [티켓 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) 링크를 클릭하여 **티켓을 제출**&#x200B;할 수 있습니다. 필요한 모든 정보가 초기 제출에 있는지 확인하기 위해 연락하기 전에 [지원 티켓의 정보](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)를 확인하는 것이 좋습니다.
+페이지 상단의 **티켓 제출** 링크를 클릭하여 [티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)할 수 있습니다. 필요한 모든 정보가 초기 제출에 있는지 확인하기 위해 연락하기 전에 [지원 티켓의 정보](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)를 확인하는 것이 좋습니다.

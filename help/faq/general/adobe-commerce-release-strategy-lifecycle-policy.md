@@ -1,15 +1,19 @@
 ---
 title: 2024 및 2023년 Adobe Commerce 릴리스 전략 및 라이프사이클 정책에 대한 FAQ
-description: Adobe Commerce 고객의 미션 크리티컬 요구 사항을 충족하기 위해 Adobe Commerce 2.4.4 이상 버전에 대한 지원 기간을 버전 [!DNL GA] **에서 **3년으로 확대하고 있습니다. 지원에는 **보안 및 품질 패치 모두**가 포함됩니다. 시간 세부사항은 새 [릴리스 달력](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ko)을 참조하십시오.
+description: Adobe Commerce 고객의 미션 크리티컬 요구 사항을 충족하기 위해 Adobe Commerce 2.4.4 이상 버전에 대한 지원 기간을 버전 [!DNL GA] 날짜로부터 **3년**으로 확장하고 있습니다. 지원에는 **보안 및 품질 패치 모두**가 포함됩니다. 시간 세부사항은 새 [릴리스 달력](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=ko)을 참조하십시오.
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 feature: Compliance
-source-git-commit: 68587ca3e861ef326e006a7ab086d197f37ae9b3
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1293'
 ht-degree: 1%
-
 ---
-
 # 2024 및 2023년 Adobe Commerce 릴리스 전략 및 라이프사이클 정책에 대한 FAQ
 
 ## 2024년 및 2023년 릴리스 전략과 업데이트된 수명 주기 정책

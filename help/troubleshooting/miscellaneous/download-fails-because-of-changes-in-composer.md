@@ -4,13 +4,20 @@ description: 이 문서에서는 실패한 Adobe Commerce 다운로드 및 예�
 exl-id: 5abdab97-4b0c-466b-a68f-a2637d2826e5
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '190'
 ht-degree: 0%
-
 ---
-
 # 작성기의 변경 사항으로 인해 다운로드가 실패합니다.
 
 이 문서에서는 실패한 Adobe Commerce 다운로드 및 예외 오류에 대한 수정 사항을 제공합니다.

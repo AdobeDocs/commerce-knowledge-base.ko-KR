@@ -1,16 +1,23 @@
 ---
 title: 'PWA Studio: 브라우저가 .local.pwadev 사이트를 확인할 수 없습니다.'
-description: 이 문서에서는 다른 프로그램 또는 프로세스가 [host file] (https://en.wikipedia.org/wiki/Hosts_(file)을 편집하고 프로젝트 도메인의 항목을 제거한 경우에 대한 해결 방법을 제공합니다.
+description: 이 문서에서는 다른 프로그램 또는 프로세스가 [host file] (https://en.wikipedia.org/wiki/Hosts_(file\)을 편집하고 프로젝트 도메인의 항목을 제거한 경우에 대한 해결 방법을 제공합니다.
 exl-id: a1606016-906a-433f-9e40-9faa5f9bd790
 feature: Configuration
 role: Developer
-source-git-commit: 1d0d51209bdc02360c6f8527701cdf0da811659d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '255'
 ht-degree: 0%
-
 ---
-
 # PWA Studio: 브라우저가 .local.pwadev 사이트를 확인할 수 없습니다.
 
 이 문서에서는 다른 프로그램 또는 프로세스가 [호스트 파일]&#x200B;(https://en.wikipedia.org/wiki/Hosts_(file\)을 편집하고 프로젝트 도메인의 항목을 제거한 경우에 대한 해결 방법을 제공합니다.

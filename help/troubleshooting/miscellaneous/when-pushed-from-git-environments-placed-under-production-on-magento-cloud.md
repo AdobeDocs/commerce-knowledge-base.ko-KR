@@ -4,13 +4,22 @@ description: 이 문서에서는 git 버전 제어 시스템에서 푸시할 때
 exl-id: 279cd6d8-fd45-45ba-8456-8b397a01976f
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
-
 ---
-
 # Git에서 푸시할 때 프로덕션에 배치되는 새 환경
 
 이 문서에서는 git 버전 제어 시스템에서 푸시할 때 클라우드 인프라의 Adobe Commerce에서 프로덕션 환경 아래에 새 환경이 배치되는 문제에 대한 솔루션을 제공합니다.

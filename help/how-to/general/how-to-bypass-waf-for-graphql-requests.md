@@ -3,13 +3,20 @@ title: GraphQL 요청을 위해 WAF을 우회하는 방법
 description: 이 문서에서는 GraphQL 요청에 대해 WAF을 우회하는 방법을 설명합니다.
 feature: GraphQL
 exl-id: 3a0f2c22-f976-4596-b6a9-4634be1ea4c3
-source-git-commit: 2bec86818336a9ef4d8316e257a0ca4256cdd93c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+subfeature_v2:
+  - id: e396cff5-f586-484c-89f0-7f1da3308f92
+    internal-label: GraphQL
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
-
 ---
-
 # GraphQL 요청을 위해 WAF을 우회하는 방법
 
 이 문서에서는 [!DNL Fastly] WAF에서 GraphQL 요청을 차단하는 경우 WAF 요청을 우회하는 방법에 대해 설명합니다.
@@ -24,7 +31,7 @@ GraphQL 요청의 고유한 특성으로 인해 [!DNL Fastly] WAF에 의한 요�
 
 ## 솔루션
 
-1. [!DNL Fastly] Magento 모듈을 통해 사용자 지정 코드 조각을 추가하여 이러한 요청에 대해 WAF을 무시합니다.
+1. [!DNL Fastly] Magento 모듈을 통해 사용자 지정 코드 조각을 추가하여 이러한 요청에 대해 WAF을 건너뜁니다.
 
    유형: recv
    우선 순위: 15

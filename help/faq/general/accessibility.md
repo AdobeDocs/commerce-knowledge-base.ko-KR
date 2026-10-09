@@ -3,13 +3,17 @@ title: Adobe Commerce을 위한 웹 컨텐츠 액세스 가능성
 description: 'Adobe에서의 접근성의 중요성을 이해합니다. 액세스 가능성에 대한 책임은 파트너/판매자에게 있지만 각 릴리스를 통해 액세스 가능성을 지속적으로 개선하고 있으며 이 릴리스는 2022년 액세스 가능성 개선 계획에 포함될 예정입니다.  '
 exl-id: f3b4025e-37ef-44fc-9a18-b0d159994062
 feature: Compliance
-source-git-commit: 48453c667e5cc022ad9a551a0ec0016ca06fda52
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '202'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce을 위한 웹 컨텐츠 액세스 가능성
 
 Adobe에서의 접근성의 중요성을 이해합니다. 액세스 가능성에 대한 책임은 파트너/판매자에게 있지만 각 릴리스를 통해 액세스 가능성을 지속적으로 개선하고 있으며 이 릴리스는 2022년 액세스 가능성 개선 계획에 포함될 예정입니다.

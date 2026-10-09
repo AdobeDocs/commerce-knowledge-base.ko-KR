@@ -4,13 +4,20 @@ description: 이 문서에서는 Adobe Commerce의 최신 프리릴리스 코드
 exl-id: cbf54a15-b307-4bfc-90b7-cff98aeb4fce
 feature: Roles/Permissions
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e439352c-5b67-587d-b34e-d2a0aa5a0242
+    internal-label: Roles/Permissions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '719'
 ht-degree: 0%
-
 ---
-
 # 최신 Adobe Commerce 프리릴리스에 액세스할 수 없음
 
 이 문서에서는 Adobe Commerce의 최신 프리릴리스 코드를 활용하려고 할 때 발생하는 문제에 대한 솔루션을 제공합니다.
@@ -41,7 +48,7 @@ ht-degree: 0%
 프리릴리스 동안 릴리스 패키지는 다음 두 위치에서 사용할 수 있습니다.
 
 1. [magento.com](https://repo.magento.com/)의 작성기에서 계정에 기본 MageID를 사용합니다. 작성기 사용 방법에 대한 자세한 내용은 개발자 설명서에서 [작성기를 사용하여 Adobe Commerce 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/composer)를 참조하십시오.
-1. **account.magento.com**&#x200B;의 **내 계정** > [다운로드](https://account.magento.com/customer/account/login).
+1. [account.magento.com](https://account.magento.com/customer/account/login)의 **내 계정** > **다운로드**.
 
 >[!NOTE]
 >

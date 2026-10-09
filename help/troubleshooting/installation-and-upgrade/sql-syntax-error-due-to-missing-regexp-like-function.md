@@ -4,13 +4,27 @@ description: 이 문서에서는 company_structure 테이블을 업데이트하�
 feature: B2B, Upgrade
 role: Admin, Developer
 exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '366'
 ht-degree: 0%
-
 ---
-
 # REGEXP_LIKE 함수 누락으로 인해 B2B 1.5.2로 업그레이드하지 못하고 SQL 구문 오류가 발생합니다
 
 >[!INFO]
@@ -19,7 +33,7 @@ ht-degree: 0%
 >
 >자세한 내용은 Adobe Commerce 기술 자료에서 [B2B 1.5.2 업데이트 후 Magento_Company 모듈 업그레이드의 성능 문제](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)를 참조하십시오.
 
-이 문서에서는 `REGEXP_LIKE` 테이블을 업데이트하려고 할 때 `company_structure` 함수가 누락되어 발생하는 SQL 구문 오류에 대한 핫픽스를 제공합니다.
+이 문서에서는 `company_structure` 테이블을 업데이트하려고 할 때 `REGEXP_LIKE` 함수가 누락되어 발생하는 SQL 구문 오류에 대한 핫픽스를 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
@@ -28,7 +42,7 @@ ht-degree: 0%
 
 ## 문제
 
-`REGEXP_LIKE` 테이블을 업데이트하려고 할 때 `company_structure` 함수가 누락되어 B2B 버전 1.5.2로 업그레이드하지 못했습니다. SQL 구문 오류가 발생했습니다.
+`company_structure` 테이블을 업데이트하려고 할 때 `REGEXP_LIKE` 함수가 누락되어 B2B 버전 1.5.2로 업그레이드하지 못했습니다. SQL 구문 오류가 발생했습니다.
 
 <u>필수 구성 요소</u>:
 

@@ -4,13 +4,20 @@ description: 이 문서에서는 판매자 사이트 및 해당 사이트가 표
 exl-id: cae02e4f-d8cb-4074-abac-24ead22bdc07
 feature: Services
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 # 느린 쿼리 및 프로세스 MySQL 확인
 
 이 문서에서는 판매자 사이트 및 해당 사이트가 표시하는 솔루션에 부정적인 영향을 줄 수 있는 몇 가지 일반적인 MySQL 문제(느린 쿼리, 프로세스 시간이 너무 오래 걸림)에 대해 설명합니다.
@@ -21,7 +28,7 @@ ht-degree: 0%
 
 오버로드된 데이터베이스로 인해 잠재적으로 장애가 발생한 경우, 이러한 단계는 데이터베이스의 느린 쿼리 로그를 확인하는 데 도움이 됩니다.
 
-### MySQL 명령줄(Adobe Commerce Cloud/온-프레미스/Magento Open Source)을 사용하여 쿼리 분석
+### MySQL 명령줄(Adobe Commerce Cloud/on-premise/Magento Open Source)을 사용하여 쿼리 분석
 
 1. MySQL 명령줄(Adobe Commerce 온-프레미스/Magento Open Source)이나 명령줄에서 클라우드 서버(클라우드 인프라의 Adobe Commerce)에 로그인합니다.
 1. 느린 쿼리 로그에서 50초 이상의 쿼리를 검사합니다.

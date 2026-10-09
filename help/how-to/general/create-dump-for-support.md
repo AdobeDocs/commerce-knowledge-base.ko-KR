@@ -2,13 +2,14 @@
 title: 지원 에이전트가 요청할 때 "스크러빙된" 덤프를 만드는 방법
 description: 이 문서에서는 Adobe Commerce 지원 에이전트에서 데이터베이스 및 코드 제공을 요청받은 경우 Adobe Commerce 관리자로부터 "스크러빙된" 덤프(백업)를 만드는 방법에 대한 정보를 제공합니다. 이 덤프는 프로세스 속도를 높이고 훨씬 작은 파일을 만들기 위해 미디어 파일을 제외합니다. 데이터베이스 백업을 수행할 때 모든 중요한 데이터가 해시됩니다.
 exl-id: ad088bd2-3f92-416e-89f0-d037d53cd6a9
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '226'
 ht-degree: 0%
-
 ---
-
 # 지원 에이전트가 요청할 때 &quot;스크러빙된&quot; 덤프를 만드는 방법
 
 

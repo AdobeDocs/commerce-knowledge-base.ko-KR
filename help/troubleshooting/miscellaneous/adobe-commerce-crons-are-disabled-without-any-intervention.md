@@ -1,14 +1,15 @@
 ---
-title: Adobe Commerce [!DNL crons] 개입 없이 비활성화됨
-description: 이 문서를 사용하여  [!DNL crons] 이(가) 개입 없이 비활성화되는 문제를 해결할 수 있습니다.
+title: Adobe Commerce [!DNL crons]이(가) 개입 없이 비활성화되었습니다.
+description: '[!DNL crons]이(가) 개입 없이 비활성화되는 문제를 해결하려면 이 문서를 사용하십시오.'
 exl-id: 5172d2ae-53ad-4db6-ae00-7b27c96911e9
-source-git-commit: 6bff1d7a0578ceb8ea17dff347b1bcd4f0068e7a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '192'
 ht-degree: 0%
-
 ---
-
 # 개입 없이 Adobe Commerce 크론이 비활성화됨
 
 이 문서에서는 개입 없이 [!DNL crons]을(를) 사용하지 않도록 설정하는 경우에 대한 해결 방법을 제공합니다.

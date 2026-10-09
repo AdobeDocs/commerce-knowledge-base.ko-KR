@@ -4,13 +4,22 @@ description: 이 문서에서는 PayPal을 통한 결제 처리, 특히 PayFlow 
 exl-id: f0772515-8456-4f08-84b4-aeef44516f2a
 feature: Orders, Payments
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '540'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce에서 PayPal 문제 해결
 
 이 문서에서는 PayPal을 통한 결제 처리, 특히 PayFlow Pro 솔루션과 관련된 문제에 대한 솔루션을 제공합니다. 이 문서의 일부 권장 사항은 명확해 보일 수 있습니다. 이 기술 자료에 나열된 문제 해결 옵션을 시도하고 입력한 티켓에 모든 정보를 포함하시기 바랍니다. Adobe Commerce 또는 PayPal 지원 엔지니어는 문제를 진단할 때 이러한 단계를 수행하도록 요청합니다.

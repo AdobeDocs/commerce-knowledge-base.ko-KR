@@ -1,19 +1,35 @@
 ---
 title: 예약된 컨텐츠 스테이징 업데이트가 오래된 Fastly 캐시와 함께 표시되지 않음
-description: 이 문서에서는 컨텐츠 스테이징 및 Fastly를 사용할 때 Adobe Commerce 스토어에 예약된 업데이트가 표시되지 않는 경우에 대한 수정 사항을 제공합니다. 이 문제는 기본적으로 활성화된 Fastly Soft Purge 때문입니다. 이 기능은 애플리케이션 리소스 로드를 줄이고 두 번째 요청에 대해서만 새 캐시를 재생성합니다. 이 문제를 해결하려면 Commerce 관리를 통해 CMS 제거 페이지를 활성화하여 항상 새 콘텐츠를 재생성하고 제공할 수 있습니다.
+description: 이 문서에서는 컨텐츠 스테이징 및 Fastly를 사용할 때 Adobe Commerce 스토어에 예약된 업데이트가 표시되지 않는 경우에 대한 수정 사항을 제공합니다. 이 문제는 기본적으로 활성화된 Fastly Soft Purge 때문입니다. 이 기능은 애플리케이션 리소스 로드를 줄이고 두 번째 요청에 대해서만 새 캐시를 재생성합니다. 이 문제를 해결하려면 Commerce 관리자를 통해 CMS 제거 페이지를 활성화하여 항상 새로운 콘텐츠를 재생성하고 제공할 수 있습니다.
 exl-id: becbffaa-b6dd-4e9b-894e-17901c40223a
 feature: CMS, Cache, Page Content, Staging
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '491'
 ht-degree: 0%
-
 ---
-
 # 예약된 컨텐츠 스테이징 업데이트가 오래된 Fastly 캐시와 함께 표시되지 않음
 
-이 문서에서는 컨텐츠 스테이징 및 Fastly를 사용할 때 Adobe Commerce 스토어에 예약된 업데이트가 표시되지 않는 경우에 대한 수정 사항을 제공합니다. 이 문제는 기본적으로 활성화된 Fastly Soft Purge 때문입니다. 이 기능은 애플리케이션 리소스 로드를 줄이고 두 번째 요청에 대해서만 새 캐시를 재생성합니다. 이 문제를 해결하려면 Commerce 관리를 통해 CMS 제거 페이지를 활성화하여 항상 새 콘텐츠를 재생성하고 제공할 수 있습니다.
+이 문서에서는 컨텐츠 스테이징 및 Fastly를 사용할 때 Adobe Commerce 스토어에 예약된 업데이트가 표시되지 않는 경우에 대한 수정 사항을 제공합니다. 이 문제는 기본적으로 활성화된 Fastly Soft Purge 때문입니다. 이 기능은 애플리케이션 리소스 로드를 줄이고 두 번째 요청에 대해서만 새 캐시를 재생성합니다. 이 문제를 해결하려면 Commerce 관리자를 통해 CMS 제거 페이지를 활성화하여 항상 새로운 콘텐츠를 재생성하고 제공할 수 있습니다.
 
 ## 문제
 
@@ -31,7 +47,7 @@ Fastly의 소프트 제거 기능(기본적으로 활성화됨)으로 인해, �
 
 ## 솔루션
 
-첫 번째 요청에 대해서도 부실 콘텐츠를 제공하는 것이 허용되지 않는 경우 소프트 삭제를 비활성화하고 CMS 제거 페이지를 활성화할 수 있습니다.
+첫 번째 요청에 대해서도 부실 콘텐츠를 제공하는 것이 허용되지 않는 경우 [소프트 제거]를 비활성화하고 [CMS 제거] 페이지를 활성화할 수 있습니다.
 
 1. 로컬 Commerce 관리자에 관리자로 로그인합니다.
 1. **스토어** > **구성** > **고급** > **시스템** > **전체 페이지 캐시**&#x200B;로 이동합니다.

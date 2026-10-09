@@ -3,13 +3,20 @@ title: 라이브 사이트에서 동일한 도메인을 사용하는 경우 프�
 description: 프로덕션 도메인('example.com')에서 실행 중인 라이브 사이트가 있고 Fastly CDN이 활성화된 클라우드 인프라의 프로덕션 환경에서 Adobe Commerce에 있는 새 스토어를 테스트해야 하는 경우 실행 전 테스트 활동에 대해 이전에 Fastly에 추가한 하위 도메인('prod.example.com' 등)을 사용하는 것이 좋습니다. 이 문서에서는 자세한 내용을 살펴보고 관련 Adobe Commerce 설명서 리소스에 대한 유용한 링크를 제공합니다.
 exl-id: bc9d11c8-ce47-461d-b5b8-c03494bc4ceb
 feature: Cache
-source-git-commit: 6651963ea5843283dee40a8ce58280baac79053a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # 라이브 사이트에서 동일한 도메인을 사용하는 경우 프로덕션에서 Fastly 테스트
 
 프로덕션 도메인(`example.com`)에서 실행 중인 라이브 사이트가 있고 Fastly CDN이 활성화된 클라우드 인프라의 프로덕션 환경에서 Adobe Commerce에 있는 새 스토어를 테스트해야 하는 경우 실행 전 테스트 활동에 대해 이전에 Fastly에 추가한 하위 도메인(`prod.example.com` 등)을 사용하는 것이 좋습니다. 이 문서에서는 자세한 내용을 살펴보고 관련 Adobe Commerce 설명서 리소스에 대한 유용한 링크를 제공합니다.
@@ -28,7 +35,7 @@ ht-degree: 0%
 
 ## 해결 방법: 프로덕션 하위 도메인 사용
 
-기본 도메인(`prod.example.com`)에 현재 라이브 사이트를 유지하면서 프로덕션 환경의 클라우드 인프라 저장소에 있는 새 Adobe Commerce에 첫 번째 수준 하위 도메인(`example.com`)을 사용합니다.
+기본 도메인(`example.com`)에 현재 라이브 사이트를 유지하면서 프로덕션 환경의 클라우드 인프라 저장소에 있는 새 Adobe Commerce에 첫 번째 수준 하위 도메인(`prod.example.com`)을 사용합니다.
 
 클라우드 인프라 프로젝트에서 Adobe Commerce을 계획할 때 이러한 프로덕션 하위 도메인을 지정하고 클라우드 인프라 팀에 하위 도메인을 Fastly 서비스로 지정하도록 요청할 수 있습니다.
 
@@ -49,9 +56,9 @@ Adobe Commerce on cloud infrastructure 프로젝트 내에서 하위 도메인�
 지원 기술 자료에서:
 
 * [스테이징 및 프로덕션 환경에서 Fastly DNS 설정 구성](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=ko)
-* [클라우드 인프라의 Adobe Commerce에서 시작할 수 있는 차단기](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=ko)
+* [클라우드 인프라에서 Adobe Commerce을 시작할 수 있는 잠재적 차단기](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=ko)
 
 개발자 설명서에서:
 
 * [Fastly 개요](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=ko)
-* [라이브 검사 목록: Fastly에 대한 DNS 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=ko)
+* [라이브 검사 목록: Fastly용 DNS 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=ko)

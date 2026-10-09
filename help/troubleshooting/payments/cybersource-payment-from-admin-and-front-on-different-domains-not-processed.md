@@ -4,13 +4,27 @@ description: 이 문서에서는 서로 다른 도메인에 있는 경우 상점
 exl-id: 948d5907-70bd-4890-bc8a-23e04b116018
 feature: Admin Workspace, Orders, Payments
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '579'
 ht-degree: 0%
-
 ---
-
 # 다른 도메인의 책임자 및 프론트로부터 사이버소스 결제가 처리되지 않음
 
 이 문서에서는 서로 다른 도메인에 있는 경우 상점 및 Commerce 관리자 모두에서 사이버소스 결제를 처리할 수 없는 것과 관련된 알려진 Adobe Commerce 2.3.0 제한에 대한 패치를 제공합니다.
@@ -21,7 +35,7 @@ ht-degree: 0%
 
 ## 문제
 
-이전의 Cybersource 통합 구현에서는 한 도메인에서만 결제를 처리할 수 있었습니다. 따라서 Adobe Commerce 상점 전면이 Commerce 관리자와 다른 도메인에 있는 경우, 관리자에서 Cybersource를 사용하여 주문하려고 할 때 다음 오류가 발생합니다. &quot; *X-Frame-Options에서 로드 거부됨: https://%your\_domain%/cybersource/SilentOrder/TokenResponse/ 은 원본 간 프레이밍을 허용하지 않습니다.* .&quot;
+이전의 Cybersource 통합 구현에서는 한 도메인에서만 결제를 처리할 수 있었습니다. 따라서 Adobe Commerce 상점 전면이 Commerce 관리자와 다른 도메인에 있는 경우, 관리자에서 Cybersource를 사용하여 주문하려고 할 때 다음 오류가 발생합니다. &quot; *X-Frame-Options에서 로드 거부됨: https://%your\_domain%/cybersource/SilentOrder/TokenResponse/ 원본 간 프레이밍이 허용되지 않습니다.* ..&quot;
 
 <u>재현 단계</u>:
 

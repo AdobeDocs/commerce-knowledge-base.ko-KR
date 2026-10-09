@@ -4,13 +4,25 @@ description: '이 문서에서는 배포 오류에 대한 솔루션을 제공합
 exl-id: 520cf50f-3682-441d-87a7-8e05301a2b0c
 feature: Cache, Deploy
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '286'
 ht-degree: 0%
-
 ---
-
 # 배포 오류: *다운로드 중 오류 7... 포트 443: 연결이 거부되었습니다*
 
 이 문서에서는 다음 오류 메시지와 함께 배포에 실패하는 경우 발생하는 문제를 해결합니다.

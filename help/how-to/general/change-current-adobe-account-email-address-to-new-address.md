@@ -1,15 +1,19 @@
 ---
 title: 현재 Adobe 계정 이메일 주소 변경
-description: Adobe 계정에 등록된 현재 이메일 주소를 Adobe 계정 또는 Magento 계정에 현재 등록되지 않은 새 주소로 변경하는 방법을 알아봅니다.
+description: Adobe 계정에 등록된 현재 이메일 주소를 Adobe 계정 또는 Magento 계정에 현재 등록되지 않은 새 주소로 변경하는 방법에 대해 알아봅니다.
 exl-id: ca549d38-0d62-4206-9727-0ed85b733dc3
 feature: Communications
-source-git-commit: 95d4507be9ac06a4cb3b1150000d7f9df30d35f8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '487'
 ht-degree: 0%
-
 ---
-
 # 현재 Adobe 계정 이메일 주소 변경
 
 이 문서에서는 [Adobe 계정](https://account.adobe.com/)에 등록된 현재 전자 메일 주소를 [Adobe 계정](https://account.adobe.com/) 또는 [Magento 계정](https://account.magento.com/)에 현재 등록되지 않은 새 주소로 변경하는 방법에 대해 설명합니다.

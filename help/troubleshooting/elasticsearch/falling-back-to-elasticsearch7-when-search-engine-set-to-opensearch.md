@@ -1,16 +1,26 @@
 ---
-title: 검색 엔진이  [!DNL Opensearch] (으)로 설정된 경우  [!DNL Elasticsearch7] (으)로 폴백
-description: 이 문서에서는 *Adobe Commerce에서  [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch] 로 폴백 시 발생하는 문제에 대한 해결 방법을 제공합니다.
+title: 검색 엔진이 [!DNL Opensearch] (으)로 설정된 경우 [!DNL Elasticsearch7] (으)로 폴백
+description: 이 문서에서는 Adobe Commerce에서 검색 엔진이 [!DNL OpenSearch] (으)로 설정되어 있을 때 *다시 [!DNL Elasticsearch7]*으로 폴백 오류가 발생하는 문제에 대한 해결 방법을 제공합니다.
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # 검색 엔진이 [!DNL Opensearch]&#x200B;(으)로 설정된 경우 [!DNL Elasticsearch7]&#x200B;(으)로 폴백
 
 이 문서에서는 검색 엔진이 Adobe Commerce에서 [!DNL OpenSearch]&#x200B;(으)로 설정되어 있을 때 *다시[!DNL Elasticsearch7]* 오류가 발생하는 문제에 대한 해결 방법을 제공합니다.

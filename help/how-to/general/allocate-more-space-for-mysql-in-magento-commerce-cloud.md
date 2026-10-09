@@ -3,19 +3,23 @@ title: 클라우드의 Adobe Commerce에서 MySQL에 더 많은 공간 할당
 description: 이 문서에서는 클라우드 인프라의 Adode Commerce에서 MySQL에 더 많은 공간을 할당하는 방법에 대한 지침을 제공합니다.
 exl-id: 98501aa0-5ec7-4ea1-8856-13d171ad0be9
 feature: Cloud
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '322'
 ht-degree: 0%
-
 ---
-
 # 클라우드의 Adobe Commerce에서 MySQL에 더 많은 공간 할당
 
 
 ## 스타터 플랜 및 Pro 플랜 통합에 공간 할당
 
-모든 Starter 계획 환경 및 Pro 계획 [통합 환경](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-27242)의 경우 `.magento/services.yaml` 매개 변수를 늘려 `mysql: disk:` 파일에서 MySQL에 더 많은 공간을 할당할 수 있습니다. For example:
+모든 Starter 계획 환경 및 Pro 계획 [통합 환경](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-27242)의 경우 `mysql: disk:` 매개 변수를 늘려 `.magento/services.yaml` 파일에서 MySQL에 더 많은 공간을 할당할 수 있습니다. For example:
 
 ```yaml
 mysql:

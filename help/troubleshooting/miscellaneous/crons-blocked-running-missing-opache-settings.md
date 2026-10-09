@@ -1,16 +1,26 @@
 ---
-title: 잘못 구성되거나 누락된  [!DNL OpCache] 설정으로 인해 크론이 중지됨
-description: 이 문서에서는 잘못 구성되거나 누락된  [!DNL OpCache] 설정으로 인해 크론이 작동하지 않는 경우에 대한 해결 방법을 제공합니다.
+title: 잘못 구성되거나 [!DNL OpCache] 설정이 누락되어 Cron이 중지됨
+description: 이 문서에서는 잘못 구성되거나 [!DNL OpCache] 설정이 누락되어 크론 작업이 중지되는 경우에 대한 해결 방법을 제공합니다.
 exl-id: 30643ea9-969f-41c8-8e62-b24e56d690cf
 feature: Cache
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '373'
 ht-degree: 0%
-
 ---
-
 # 잘못 구성되었거나 [!DNL OpCache] 설정이 누락되어 Cron이 중지되었습니다.
 
 이 문서에서는 [!DNL OpCache] 설정이 없거나 잘못 구성되어 크론 작동이 중지되는 경우에 대한 해결 방법을 제공합니다.
@@ -25,7 +35,7 @@ ht-degree: 0%
 
 ## 원인
 
-[!DNL OpCache] 모듈이 런타임에 [!DNL GraphQL]을(를) 재작성하는 `env.php` 플러그인을 도입한 최신 버전으로 업데이트되었으며, 이로 인해 크론 설정이 재정의될 수 있습니다. [!DNL OpCache] 패키지의 `env.php file`버전 2002.1.13[에서 해결된 &#x200B;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=ko#v2002.1.13)의 문제를 방지하려면 [!DNL ECE Tools] 구성을 업데이트해야 합니다.
+[!DNL OpCache] 모듈이 런타임에 `env.php`을(를) 재작성하는 [!DNL GraphQL] 플러그인을 도입한 최신 버전으로 업데이트되었으며, 이로 인해 크론 설정이 재정의될 수 있습니다. [!DNL ECE Tools] 패키지의 [버전 2002.1.13](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=ko#v2002.1.13)에서 해결된 `env.php file`의 문제를 방지하려면 [!DNL OpCache] 구성을 업데이트해야 합니다.
 
 ## 솔루션
 
@@ -51,11 +61,11 @@ cron 이 비활성화되어 있다는 메시지가 표시될 수 있습니다.
    `composer show magento/ece-tools`
 1. [!DNL ECE Tools]의 최신 버전을 사용하고 있는 경우 `op-exclude.txt` 파일이 있는지 확인하십시오. 이렇게 하려면 이 명령을 실행합니다.
    `ls op-exclude.txt`.
-이 파일이 없으면 리포지토리에 https://github.com/magento/magento-cloud/blob/master/op-exclude.txt을 추가한 다음 변경 내용을 커밋하고 다시 배포합니다.
+   이 파일이 없으면 리포지토리에 https://github.com/magento/magento-cloud/blob/master/op-exclude.txt을 추가한 다음 변경 내용을 커밋하고 다시 배포합니다.
 1. [!DNL ECE Tools]을(를) 업그레이드하지 않고도 리포지토리에서 https://github.com/magento/magento-cloud/blob/master/op-exclude.txt을(를) 추가/수정한 다음 변경 내용을 커밋하고 다시 배포할 수도 있습니다.
 
 ## 관련 읽기
 
-* [크론 준비 검사 문제](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html?lang=ko)
+* [Cron 준비 확인 문제](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html?lang=ko)
 * [Crons 속성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=ko)
-* [Cron 작업이 &quot;실행 중&quot; 상태에서 중단되었습니다.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=ko)
+* [Cron 작업이 &quot;실행 중&quot; 상태로 중단됨](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=ko)

@@ -4,13 +4,24 @@ description: 이 문서에서는 알려진 Adobe Commerce 2.4.0 및 2.4.1 문제
 exl-id: ef6c8aa4-a2a7-4e07-a957-23173017baf2
 feature: Invoices, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '191'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.0, 2.4.1: Braintree Venmo 부분 송장 활성화
 
 이 문서에서는 알려진 Adobe Commerce 2.4.0 및 2.4.1 문제에 대해 설명합니다. 여기서 Venmo를 통해 Braintree을 사용하여 수행한 주문에 대해 부분 송장을 사용할 수 없습니다.
@@ -24,7 +35,7 @@ ht-degree: 0%
 
 <u>필수 구성 요소:</u>
 
-Braintree 결제 방법 구성에서 **결제 작업** = *인증*; **Braintree 결제를 위한 자격 증명 모음 사용** = *아니요*(으)로 **카드를 통한 Venmo 사용** = *예*&#x200B;을(를) 설정합니다.
+Braintree 결제 방법 구성에서 **결제 작업** = *인증*; **카드 결제에 대한 자격 증명 모음 사용** = *아니요*(으)로 **Braintree을 통해 Venmo 사용** = *예*&#x200B;을(를) 설정합니다.
 
 <u>재현 단계:</u>
 

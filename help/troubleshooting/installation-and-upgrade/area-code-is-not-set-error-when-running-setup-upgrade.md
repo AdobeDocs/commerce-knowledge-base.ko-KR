@@ -4,13 +4,22 @@ description: 이 문서에서는 setup:upgrade 명령을 실행할 때 *영역 �
 exl-id: ace92331-6022-49fa-a776-d06d841b3b32
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # `setup:upgrade`을(를) 실행할 때 &#39;영역 코드가 설정되지 않음&#39; 오류 발생
 
 이 문서에서는 다음 명령을 실행할 때 *&quot;영역 코드가 설정되지 않음&quot;* 오류 가져오기와 관련된 Cloud Infrastructure 2.2.3의 알려진 Adobe Commerce 문제에 대한 패치를 제공합니다.

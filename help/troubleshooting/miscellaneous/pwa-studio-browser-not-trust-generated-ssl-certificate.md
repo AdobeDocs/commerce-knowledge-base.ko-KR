@@ -4,20 +4,27 @@ description: 이 문서에서는 개발 중에 PWA Studio 저장소의 로컬 �
 exl-id: b7bfe1e6-5832-4472-9e51-f04b8583428a
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 # PWA Studio: 브라우저가 생성된 SSL 인증서를 신뢰하지 않음
 
 이 문서에서는 개발 중에 PWA Studio 저장소의 로컬 인스턴스로 이동할 때 브라우저에서 신뢰할 수 없고 생성된 SSL 인증서 경고에 대한 솔루션을 제공합니다.
 
 ## 영향을 받는 제품 및 버전
 
-Adobe Commerce PWA Studio
+Adobe Commerce용 PWA Studio
 
 ## 문제
 

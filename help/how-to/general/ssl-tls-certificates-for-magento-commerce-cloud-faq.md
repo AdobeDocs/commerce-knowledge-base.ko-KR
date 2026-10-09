@@ -3,20 +3,29 @@ title: 클라우드 인프라의 Adobe Commerce에 대한 SSL(TLS) 인증서
 description: 이 문서에서는 클라우드 인프라의 Adobe Commerce 사이트에 대한 SSL(TLS) 인증서를 가져오는 방법에 대한 빠른 답변을 제공합니다.
 exl-id: 5a682d07-e4d7-4e81-a2ad-3232f2d8d9c1
 feature: Cloud, Console
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1211'
 ht-degree: 0%
-
 ---
-
 # 클라우드 인프라의 Adobe Commerce에 대한 SSL(TLS) 인증서
 
 이 문서에서는 클라우드 인프라의 Adobe Commerce 사이트에 대한 SSL(TLS) 인증서를 가져오는 방법에 대한 빠른 답변을 제공합니다.
 
 ## Adobe에서 제공하는 SSL/TLS 인증서는 무엇입니까?
 
-Adobe은 [에서 보안 HTTPS 트래픽을 제공하기 위해 도메인 유효성 검사 &#x200B;](https://letsencrypt.org/)SSL/TLS 인증서를 암호화하겠습니다[!DNL Fastly]. Adobe은 클라우드 인프라의 각 Adobe Commerce Pro 계획 아키텍처, 스테이징 및 Adobe Commerce 클라우드 인프라의 시작 계획 아키텍처 환경에서 해당 환경의 모든 도메인을 보호할 수 있는 하나의 인증서를 제공합니다.
+Adobe은 [!DNL Fastly]에서 보안 HTTPS 트래픽을 제공하기 위해 도메인 유효성 검사 [SSL/TLS 인증서를 암호화하겠습니다](https://letsencrypt.org/). Adobe은 클라우드 인프라의 각 Adobe Commerce Pro 계획 아키텍처, 스테이징 및 Adobe Commerce 클라우드 인프라의 시작 계획 아키텍처 환경에서 해당 환경의 모든 도메인을 보호할 수 있는 하나의 인증서를 제공합니다.
 
 ## 인증서는 무엇을 포함합니까?
 
@@ -55,7 +64,7 @@ SSL 인증서가 있으면 [Adobe Commerce 지원 티켓](https://experienceleag
 >[!WARNING]
 >
 >인증서 파일을 티켓에 직접 업로드하지 않는 것이 중요합니다. 그렇지 않으면 인증서가 손상된 것으로 간주되므로 Adobe에서 새 인증서를 요청해야 합니다.
->파일을 SFTP를 통해 원하는 폴더로 서버에 업로드해야 합니다(예: `var/ssl`, `/tmp/ssl` 등). - 파일을 저장소에 커밋하는 것과 같은 다른 방법은 사용하지 마십시오(중요한 데이터가 포함되지 않은 변경 불가능한 파일에 대해서만 수행되어야 함).
+>파일을 SFTP를 통해 서버에 업로드하여 원하는 폴더(예: `var/ssl`, `/tmp/ssl` 등)로 이동해야 합니다. 저장소에 파일을 커밋하는 것과 같은 다른 방법은 사용하지 마십시오(중요한 데이터가 포함되지 않은 변경 불가능한 파일에만 이 작업을 수행해야 함).
 
 ## 인증서 이름
 
@@ -67,7 +76,7 @@ SSL 인증서의 이름은 기본 URL에만 해당되며, 첫 번째 URL에 의�
 
 ## 와일드카드 TLS 인증서를 사용할 수 있습니까?
 
-와일드카드 TLS 인증서는 사용자 정의 인증서에만 사용할 수 있고 Adobe Commerce Let&#39;s Encrypt 인증서에는 사용할 수 없습니다. TLS 최적화의 일환으로 Adobe은 와일드카드 TLS 인증서에 대한 지원을 종료합니다. Adobe의 Let&#39;s Encrypt 인증서를 사용하여 와일드카드 인증서를 사용하며 Adobe Commerce용 [!DNL Fastly] 콘솔에 구성된 판매자를 식별하고 연락하고 있습니다. 우리는 TLS의 적용 범위를 보장하기 위해 이러한 와일드카드 인증서를 정확한 도메인으로 바꿀 것을 요구하고 있다. 와일드카드 TLS 인증서를 바꾸려면 [&#x200B; 플러그인의 &#x200B;](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains)도메인 섹션[!DNL Fastly]을(를) 방문하십시오. 여기서 정확한 도메인을 추가하고 와일드카드를 제거할 수 있습니다. CDN을 통해 라우팅하려면 DNS가 이러한 새 도메인에 대해 [!DNL Fastly]을(를) 가리켜야 합니다. 도메인이 추가되고 DNS가 업데이트되면 일치하는 [Let&#39;s Encrypt](https://letsencrypt.org/) 인증서가 제공됩니다. 와일드카드를 사용하여 [!DNL Fastly]을(를) 가리키는 도메인을 제거하지 않으면 Adobe에서 공유 인증서를 삭제합니다. URL FQDN을 구성하지 않고 DNS에 동일한 URL FQDN을 설정하면 사이트가 중단될 수 있습니다. 따라서 구성된 URL도 [!DNL Fastly]을(를) 가리키는 DNS에서 일대일 일치하는지 확인해야 합니다.
+와일드카드 TLS 인증서는 사용자 정의 인증서에만 사용할 수 있고 Adobe Commerce Let&#39;s Encrypt 인증서에는 사용할 수 없습니다. TLS 최적화의 일환으로 Adobe은 와일드카드 TLS 인증서에 대한 지원을 종료합니다. Adobe의 Let&#39;s Encrypt 인증서를 사용하여 와일드카드 인증서를 사용하며 Adobe Commerce용 [!DNL Fastly] 콘솔에 구성된 판매자를 식별하고 연락하고 있습니다. 우리는 TLS의 적용 범위를 보장하기 위해 이러한 와일드카드 인증서를 정확한 도메인으로 바꿀 것을 요구하고 있다. 와일드카드 TLS 인증서를 바꾸려면 [!DNL Fastly] 플러그인의 [도메인 섹션](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains)을(를) 방문하십시오. 여기서 정확한 도메인을 추가하고 와일드카드를 제거할 수 있습니다. CDN을 통해 라우팅하려면 DNS가 이러한 새 도메인에 대해 [!DNL Fastly]을(를) 가리켜야 합니다. 도메인이 추가되고 DNS가 업데이트되면 일치하는 [Let&#39;s Encrypt](https://letsencrypt.org/) 인증서가 제공됩니다. 와일드카드를 사용하여 [!DNL Fastly]을(를) 가리키는 도메인을 제거하지 않으면 Adobe에서 공유 인증서를 삭제합니다. URL FQDN을 구성하지 않고 DNS에 동일한 URL FQDN을 설정하면 사이트가 중단될 수 있습니다. 따라서 구성된 URL도 [!DNL Fastly]을(를) 가리키는 DNS에서 일대일 일치하는지 확인해야 합니다.
 
 ## 도메인이 더 이상 Adobe Commerce을 가리키지 않으면 어떻게 해야 합니까?
 

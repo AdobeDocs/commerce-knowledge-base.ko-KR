@@ -4,13 +4,22 @@ description: 이 문서에서는 내보낸 제품이 포함된 CSV 파일에서 
 exl-id: 3cbe1e6c-fc73-4331-add7-1ebcb28a4580
 feature: Data Import/Export, Products
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '282'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 상태 열에 내보낸 제품 CSV 파일이 없음
 
 이 문서에서는 내보낸 제품이 포함된 CSV 파일에서 상태 열(예: 제품의 활성화 또는 비활성화 여부 표시)을 찾을 수 없는 경우의 문제에 대한 해결 방법을 제공합니다. 제품 상태는 [!UICONTROL product_online] 열로 표시됩니다.
@@ -32,7 +41,7 @@ Adobe Commerce(모든 배포 메서드) 모든 [지원되는 버전](https://www
 
 <u>예상 결과:</u>
 
-방금 내보낸 CSV 파일에 [!UICONTROL status] (으)로 레이블이 지정된 열이 있습니다.
+방금 내보낸 CSV 파일에 [!UICONTROL status]&#x200B;(으)로 레이블이 지정된 열이 있습니다.
 
 <u>실제 결과:</u>
 

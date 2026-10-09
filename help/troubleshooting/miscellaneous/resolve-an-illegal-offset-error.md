@@ -4,13 +4,20 @@ description: 이 문서에서는 Adobe Commerce 2.1 이상에서 Commerce 관리
 exl-id: 62d16d3c-7f4b-45e9-ae4b-fe2b58cc3620
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '324'
 ht-degree: 0%
-
 ---
-
 # 잘못된 오프셋 오류 해결
 
 이 문서에서는 Adobe Commerce 2.1 이상에서 Commerce 관리에서 새 제품을 만들 때 잘못된 오프셋 문제 해결 오류를 받는 문제를 해결할 수 있는 방법을 제공합니다.

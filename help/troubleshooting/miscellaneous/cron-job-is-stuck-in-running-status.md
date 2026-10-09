@@ -1,16 +1,23 @@
 ---
 title: '[!DNL Cron] 작업이 **실행 중** 상태에서 중단되었습니다.'
-description: 이 문서에서는 Adobe Commerce [!DNL cron] 작업 실행이 완료되지 않고 "실행 중" 상태로 유지되어 다른  [!DNL cron] 작업이 실행되지 않는 경우에 대한 해결 방법을 제공합니다. 이 문제는 네트워크 문제, 애플리케이션 충돌, 재배포 문제 등 여러 가지 이유로 발생할 수 있습니다.
+description: 이 문서에서는 Adobe Commerce [!DNL cron] 작업의 실행이 완료되지 않고 "실행 중" 상태로 유지되어 다른 [!DNL cron] 작업이 실행되지 않는 경우에 대한 해결 방법을 제공합니다. 이 문제는 네트워크 문제, 애플리케이션 충돌, 재배포 문제 등 여러 가지 이유로 발생할 수 있습니다.
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # [!DNL Cron] 작업이 &quot;실행 중&quot; 상태에서 중단되었습니다.
 
 이 문서에서는 Adobe Commerce [!DNL cron] 작업의 실행이 완료되지 않고 &quot;실행 중&quot; 상태로 유지되어 다른 [!DNL cron] 작업이 실행되지 않는 경우에 대한 해결 방법을 제공합니다. 이 문제는 네트워크 문제, 애플리케이션 충돌, 재배포 문제 등 여러 가지 이유로 발생할 수 있습니다.

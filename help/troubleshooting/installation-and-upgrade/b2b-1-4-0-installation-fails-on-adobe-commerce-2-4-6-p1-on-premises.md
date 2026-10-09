@@ -1,16 +1,30 @@
 ---
 title: Adobe Commerce 2.4.6-p1 온-프레미스에서 [!DNL B2B] 1.4.0 설치에 실패했습니다.
-description: 이 문서에서는  [!DNL B2B] 버전 1.4.0 설치에 실패하는 Adobe Commerce 2.4.6-p1 온-프레미스 문제에 대한 해결 방법을 제공합니다.
+description: 이 문서에서는 [!DNL B2B] 버전 1.4.0을 설치하지 못하는 Adobe Commerce 2.4.6-p1 온-프레미스 문제에 대한 해결 방법을 제공합니다.
 feature: Install, Upgrade, B2B
 role: Developer
 exl-id: 4a557c13-7ec2-4cfe-b86e-bb0d1a441658
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '196'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.6-p1 온-프레미스에서 [!DNL B2B] 1.4.0 설치에 실패했습니다.
 
 이 문서에서는 [!DNL B2B] 버전 1.4.0을 설치하지 못하는 Adobe Commerce 2.4.6-p1 온-프레미스 문제에 대한 해결 방법을 제공합니다.
@@ -114,5 +128,5 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 1. 설치 또는 업그레이드 프로세스를 완료합니다.
 
-   * [클라우드 인프라에 설치 [!DNL B2B] 설치](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html?lang=ko)
+   * [클라우드 인프라에  [!DNL B2B] 설치](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html?lang=ko)
    * [온-프레미스 설치](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html?lang=ko)

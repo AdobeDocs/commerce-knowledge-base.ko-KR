@@ -2,13 +2,14 @@
 title: New Relic 서비스 액세스
 description: 이 문서에서는 충분한 라이선스/구독 권한을 가진 고객이 New Relic 서비스에 액세스하는 방법을 설명합니다.
 exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
-source-git-commit: 09777d70272bdb78a0bcf7566cc398a53c474f4c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
-
 ---
-
 # New Relic 서비스 액세스
 
 이 문서에서는 충분한 라이선스/구독 권한을 가진 고객이 New Relic 서비스에 액세스하는 방법을 설명합니다.

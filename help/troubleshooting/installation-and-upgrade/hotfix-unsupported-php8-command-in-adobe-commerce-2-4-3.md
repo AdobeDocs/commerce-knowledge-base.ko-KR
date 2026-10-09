@@ -4,13 +4,22 @@ description: 이 문서에서는 판매자가 Adobe Commerce(모든 배포 방�
 exl-id: 1c472214-8387-403e-b2d2-d3f3c9e1da6a
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '333'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 업그레이드 2.4.3, 2.3.7-p1 PHP 치명적인 오류 핫픽스
 
 이 문서에서는 판매자가 Adobe Commerce(모든 배포 방법) 또는 Magento Open Source 2.4.3 또는 2.3.7-p1로 업그레이드하려고 하면 다음 오류가 표시되는 경우에 대한 수정 사항을 제공합니다.
@@ -42,7 +51,7 @@ PHP 치명적인 오류.
 
 ## 솔루션
 
-해결 방법으로 CLI/터미널에서 다음 명령을 실행합니다. `composer require symfony/polyfill-php80` Magento 루트 폴더에서 또는 작성기 패치를 설치합니다.
+해결 방법으로 CLI/터미널에서 `composer require symfony/polyfill-php80` 명령을 Magento 루트 폴더에서 실행하거나 작성기 패치를 설치하십시오.
 
 2.4.3에 대한 문제를 해결하려면 Adobe Commerce(모든 배포 방법) 및 Magento Open Source 판매자가 패치를 적용해야 합니다.
 
@@ -54,7 +63,7 @@ PHP 치명적인 오류.
 
 ## 패치 적용 방법
 
-지침은 [Magento에서 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
+지침은 [Magento에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 ## 관련 읽기
 

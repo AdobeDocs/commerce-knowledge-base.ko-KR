@@ -4,13 +4,22 @@ description: 이 문서에서는 Klarna 결제 방법과 관련하여 알려진 
 exl-id: f0f9edfc-eaad-4947-9200-41e217bfbe84
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '204'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.0 알려진 문제: Klarna 온사이트 메시징 빈 페이지
 
 이 문서에서는 Klarna 결제 방법과 관련하여 알려진 Adobe Commerce 2.4.0 문제에 대해 설명합니다. 여기에서 디자인 테마를 지정하지 않고 Klarna 온사이트 메시지를 활성화하면 상점 첫 화면에 제품 페이지가 올바르게 표시되지 않습니다(제품 페이지가 비어 있음).

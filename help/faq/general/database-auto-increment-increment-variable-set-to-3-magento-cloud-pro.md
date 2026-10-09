@@ -3,7 +3,13 @@ title: Cloud pro 아키텍처에서 데이터베이스 auto_increment 변수가 
 description: 이는 3노드 아키텍처로 인해 Adobe Commerce on cloud infrastructure Pro 플랜 아키텍처 솔루션에 예상되는 동작으로, 수정할 수 없습니다.
 exl-id: ea478cbc-2dc2-41c9-8ea7-7e2f308e5948
 feature: Cloud
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%

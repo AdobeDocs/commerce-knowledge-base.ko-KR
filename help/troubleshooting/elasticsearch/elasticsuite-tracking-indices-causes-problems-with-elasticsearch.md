@@ -2,13 +2,14 @@
 title: ElasticSuite 추적 인덱스로 인해 Elasticsearch 문제가 발생합니다.
 description: 이 문서에서는 ElasticSuite 플러그인으로 생성된 인덱스 추적으로 인한 Elasticsearch 메모리 문제 문제에 대해 설명합니다.
 exl-id: 67bfd06a-c801-4306-8510-a84a6fe5351a
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
 # ElasticSuite 추적 인덱스로 인해 Elasticsearch 문제가 발생합니다.
 
 >[!NOTE]

@@ -4,13 +4,25 @@ description: 이 문서에서는 이메일 템플릿의 일부 정보를 업데�
 exl-id: 31b7086f-a941-4682-aa07-301ac31d543b
 feature: B2B, Communications
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '286'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.2 B2B: 이메일 템플릿이 이메일을 업데이트하지 않음
 
 이 문서에서는 이메일 템플릿의 일부 정보를 업데이트해도 이메일에서 업데이트되지 않는 알려진 Adobe Commerce 2.4.2 B2B 문제에 대해 설명합니다. 이 문제는 고객 정보, 환율, 통화 기호, 이메일 템플릿 변경 등과 같은 이메일 콘텐츠에 영향을 줍니다. 현재 사용할 수 있는 해결책은 없지만 이 문서의 하단에 해결 방법이 있습니다.

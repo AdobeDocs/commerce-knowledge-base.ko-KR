@@ -4,13 +4,22 @@ description: 이 문서에서는 Magento BI 데이터의 불일치 문제를 해
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
-source-git-commit: 3d73611b812833820eda5b906eb700c89f50cbbe
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 0%
-
 ---
-
 # 데이터 내보내기를 사용하여 불일치 항목 파악
 
 이 문서에서는 Magento BI 데이터의 불일치 문제를 해결하는 솔루션을 제공합니다. 데이터 내보내기는 보고서에서 데이터 불일치를 찾아내기 위해 Magento BI 데이터와 소스 데이터를 비교하는 데 유용한 도구입니다. 특히 [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-41479)이 문제를 찾아내는 데 도움이 되지 않는 경우 유용합니다. 이 문서에서는 데이터 내보내기를 사용하여 데이터 불일치를 찾아내는 방법에 대한 실제 사례를 소개합니다.
@@ -59,7 +68,7 @@ ht-degree: 0%
 
 ## 소스 데이터베이스에 Magento BI보다 많은 행이 있습니다. {#morerows}
 
-소스 데이터베이스의 행이 Magento BI보다 많고 간격이 업데이트 주기 동안 발생할 것으로 예상되는 주문 수보다 큰 경우 연결 문제가 발생할 수 있습니다. 즉, Magento BI가 소스 데이터베이스에서 새 데이터를 가져올 수 없습니다. 이러한 작업은 몇 가지 이유로 발생할 수 있습니다.
+소스 데이터베이스의 행이 Magento BI보다 많고 간격이 업데이트 주기 동안 발생할 것으로 예상되는 주문 수보다 큰 경우 연결 문제가 발생할 수 있습니다. 즉, Magento BI가 소스 데이터베이스에서 새 데이터를 가져올 수 없습니다. 이 작업은 몇 가지 이유로 인해 발생할 수 있습니다.
 
 연결 페이지로 이동하여 `order` 테이블이 포함된 데이터 원본의 상태를 확인합니다.
 
@@ -69,7 +78,7 @@ ht-degree: 0%
 
 ## 소스 데이터베이스의 행 수가 Magento BI보다 적습니다. {#lessrows}
 
-소스 데이터베이스에 Magento BI보다 적은 수의 행이 있는 경우 소스 데이터베이스에서 행이 삭제되고 Magento BI가 이러한 삭제를 선택하지 않을 수 있습니다. **[데이터를 삭제하면 불일치가 발생하고 업데이트 시간이 길어질 수 있으며 많은 논리적 문제가 발생할 수 있습니다** 따라서 반드시 필요한 경우가 아니면 데이터를 삭제하지 않는 것이 좋습니다.](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=ko)
+소스 데이터베이스에 Magento BI보다 적은 행이 있는 경우 소스 데이터베이스에서 행이 삭제되고 Magento BI가 이러한 삭제를 선택하지 않을 수 있습니다. **[데이터를 삭제하면 불일치가 발생하고 업데이트 시간이 길어질 수 있으며 많은 논리적 문제가 발생할 수 있습니다** 따라서 반드시 필요한 경우가 아니면 데이터를 삭제하지 않는 것이 좋습니다.](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=ko)
 
 그러나 테이블에서 행이 삭제되면 기본 키의 재확인 빈도를 확인합니다. 기본 키를 다시 확인하면 삭제된 행에 대해 테이블을 검사하게 됩니다.
 
@@ -83,9 +92,9 @@ Data Warehouse Manager에서 기본 키 열은 키 기호로 표시됩니다. �
 
 문제의 원인을 정확하게 파악할 수 없는 경우 RJ 지원에서 반복해야 합니다. 티켓을 제출하기 전에 다음 작업을 수행하십시오.
 
-* **소스 데이터베이스와 Magento BI의 행 수가 같고**&#x200B;빈도가 올바르게 설정되어 있는 경우, 스프레드시트 **에서 VLOOKUP을 수행하여 Magento BI와 소스 데이터베이스 간에 다른 order\_total 값이 있는지 확인합니다.** 티켓을 제출할 때 이러한 값을 포함합니다.
+* **원본 데이터베이스와 Magento BI의 행 수가 같고**&#x200B;빈도가 올바르게 설정되어 있는 경우, 스프레드시트에서 VLOOKUP을 수행하여 **Magento BI와 원본 데이터베이스 간에 다른 order\_total 값이 있는지 확인합니다.** 티켓을 제출할 때 이러한 값을 포함합니다.
 * **원본 데이터베이스에 Magento BI보다 많은 행이 있는 경우** 연결이 성공으로 표시되거나 계속 실패하는 경우 연결 이름과 오류 메시지가 표시됩니다(있는 경우).
-* **소스 데이터베이스에 Magento BI보다 적은 행이 있는 경우**&#x200B;개 행이 테이블에서 삭제되지 않고 빈도가 올바르게 설정되어 있는지 다시 확인하는 경우, 스프레드시트 **에서 VLOOKUP을 수행하여 Magento BI에 있지만 소스 데이터베이스에 없는 order\_id 값을 찾습니다**. 티켓을 제출할 때 이러한 값을 포함합니다.
+* **원본 데이터베이스에 Magento BI보다 적은 행이 있는 경우**&#x200B;개 행이 테이블에서 삭제되지 않고 빈도가 올바르게 설정되어 있는지 다시 확인하는 경우, 스프레드시트에서 VLOOKUP을 수행하여 **Magento BI에 있지만 원본 데이터베이스에 없는 order\_id 값을 찾습니다**. 티켓을 제출할 때 이러한 값을 포함합니다.
 
 ## 관련 읽기
 

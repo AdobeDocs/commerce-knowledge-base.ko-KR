@@ -4,13 +4,27 @@ description: 이 문서에서는 페이지 캐시가 준비 중이고 중단된 
 exl-id: c91d5c1f-95e6-4240-be98-2acea49ae728
 feature: Cache, Variables
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+  - id: 2191e157-828a-5358-ad69-ebcaa8402915
+    internal-label: Variables
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '248'
 ht-degree: 0%
-
 ---
-
 # 캐시 준비 및 Adobe Commerce에서 사이트를 사용할 수 없음
 
 이 문서에서는 페이지 캐시가 준비 중이고 중단된 배포 또는 사이트 다운이 있는 경우에 대한 솔루션을 제공합니다.

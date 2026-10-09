@@ -4,13 +4,25 @@ description: 이 문서에서는 라이브 검색 확장을 사용할 때 카탈
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: beca5aa3fa796e4b12afc4882024db718b65ac0c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
-
 ---
-
 # 라이브 검색 카탈로그가 동기화되지 않음
 
 이 문서에서는 라이브 검색 확장을 사용할 때 카탈로그 데이터가 올바르게 동기화되지 않는 Adobe Commerce 문제에 대한 해결 방법을 제공합니다.
@@ -38,7 +50,7 @@ ht-degree: 0%
 Or
 
 1. 카탈로그에 새 제품을 추가합니다.
-1. Magento indexer + cron 이 데이터를 백엔드 서비스에 동기화하기 위해 실행한 시간으로부터 15~20분 후 제품 이름 또는 기타 검색 가능한 속성을 사용하여 검색 쿼리를 실행해 보십시오.
+1. 데이터를 백엔드 서비스에 동기화하기 위해 Magento 인덱서 + cron이 실행된 시간으로부터 15~20분 후 제품 이름 또는 기타 검색 가능한 속성을 사용하여 검색 쿼리를 실행해 보십시오.
 
 <u>예상 결과</u>
 

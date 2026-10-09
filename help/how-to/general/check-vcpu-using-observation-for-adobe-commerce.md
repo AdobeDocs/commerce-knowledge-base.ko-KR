@@ -3,7 +3,10 @@ title: Adobe Commerce에서 클러스터의 환경 vCPU 계층 보기
 promoted: true
 description: 이 문서에서는 Observation for Adobe Commerce의 New Relic 인프라 탭을 사용하여 vCPU 계층 할당을 확인하는 방법에 대해 설명합니다. Adobe Commerce 관찰은 Adobe Commerce 사이트의 상태, 현재 및 과거 시간 보기를 표시하는 New Relic nerdlet입니다.
 exl-id: a0332e7e-d38d-47d3-b3da-293902f45edc
-source-git-commit: ffb7b597d38eaed4b66e23ea533c275746e7181a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%

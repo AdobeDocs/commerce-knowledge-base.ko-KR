@@ -4,13 +4,23 @@ description: 이 문서에서는 Adobe Commerce의 사용자 정의 모듈 문�
 exl-id: c6603a2b-dc98-4022-ab29-c081c2b07415
 feature: Extensions
 role: Developer
-source-git-commit: ae2a4508daeaf2d29a5f615918fcc46626b2e196
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
+subfeature_v2:
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 # 일반 사용자 정의 모듈 문제 해결 도움말
 
 이 문서에서는 Adobe Commerce의 사용자 정의 모듈 문제를 해결하는 데 도움이 되는 일반 도구에 대해 설명합니다.
@@ -42,7 +52,7 @@ ht-degree: 0%
 개발자 설명서에서:
 
 * [모듈 개요](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
-* [선택적 샘플 데이터를 설치하는 동안 오류가 발생했습니다](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
+* [선택적 샘플 데이터를 설치하는 중 오류 발생](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
 * [예외 처리](https://developer.adobe.com/commerce/webapi/graphql/develop/exceptions/)
 * [설치 중 예외](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)
 * [모듈 관리자 실행](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/prepare/prerequisites)

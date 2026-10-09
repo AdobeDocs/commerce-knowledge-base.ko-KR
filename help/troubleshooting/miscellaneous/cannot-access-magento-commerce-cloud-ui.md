@@ -4,13 +4,22 @@ description: 이 문서에서는 클라우드 인프라 UI에서 Adobe Commerce�
 exl-id: 948e4acd-abd6-4562-b9c0-771a977188ba
 feature: Cloud, Paas
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '332'
 ht-degree: 0%
-
 ---
-
 # 클라우드 인프라 UI에서 Adobe Commerce에 액세스할 수 없음
 
 이 문서에서는 클라우드 인프라 UI에서 Adobe Commerce에 로그인하지 못하고 *403 오류*&#x200B;를 가져올 수 없는 문제에 대한 해결 방법을 제공합니다.
@@ -30,5 +39,5 @@ URL에 처음 액세스할 때 403 오류가 발생하는 경우 마스터 분�
 
    다음에 기본 URL에 액세스할 때 이 URL은 기본적으로 마지막으로 방문한 환경으로 설정됩니다.
 
-1. 여전히 로그인할 수 없는 경우 с 개발자 설명서에서 **클라우드 프로젝트 > 프로젝트에 사용자 추가**&#x200B;에 설명된 대로 프로젝트의 라이선스 소유자 또는 슈퍼 사용자에게 연락하여 [프로젝트 수준 사용자](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko#add-a-user-to-the-project)로 액세스 권한을 제공했는지 확인하십시오.
+1. 여전히 로그인할 수 없는 경우 с 개발자 설명서에서 [클라우드 프로젝트 > 프로젝트에 사용자 추가](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=ko#add-a-user-to-the-project)에 설명된 대로 프로젝트의 라이선스 소유자 또는 슈퍼 사용자에게 연락하여 **프로젝트 수준 사용자**&#x200B;로 액세스 권한을 제공했는지 확인하십시오.
 1. 오류가 계속되면 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)하십시오.
