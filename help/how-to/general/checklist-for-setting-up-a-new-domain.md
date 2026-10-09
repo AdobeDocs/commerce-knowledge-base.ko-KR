@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >도메인 설정을 진행하기 전에 다음을 확인하십시오.
 >
->모든 기본 URL은 올바른 웹 사이트 또는 스토어 보기의 범위에 있는 **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]**에서 HTTPS를 사용하도록 구성되어 있습니다.
+>모든 기본 URL은 올바른 웹 사이트 또는 스토어 보기의 범위에 있는 **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]**&#x200B;에서 HTTPS를 사용하도록 구성되어 있습니다.
 > [TLS](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996) 강제 적용을 사용하면 클라우드 인프라의 Adobe Commerce 사이트에서 모든 HTTP 트래픽을 HTTPS로 리디렉션할 수 있습니다.
 
 ### 1단계 - [!DNL Integration, Staging]에 대한 것입니까, 아니면 [!DNL Production environment]에 대한 것입니까?
@@ -166,7 +166,7 @@ ht-degree: 0%
 ]
 ```
 
-즉, 이전에 `ece-tools` 패키지에서 `config:dump` 명령을 실행하여 빌드](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)에서 [SCD를 설정했습니다.
+즉, 이전에 `ece-tools` 패키지에서 `config:dump` 명령을 실행하여 빌드[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)에서 SCD를 설정했습니다.
 
 만든 새 스토어/웹 사이트가 `app/etc/config.php` 파일에 표시되지 않는 경우 명령을 다시 실행하여 변경 내용이 데이터베이스에 있는 `config.php` 파일을 동기화한 다음 `config.php` 파일을 커밋하고 다시 배포해야 합니다. 새 저장소/웹 사이트에 대한 정적 콘텐츠를 적절한 파일 경로로 쉽게 배포할 수 있도록 하기 위한 것입니다.
 

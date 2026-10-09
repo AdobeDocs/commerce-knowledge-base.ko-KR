@@ -1,6 +1,6 @@
 ---
 title: '''Magento-cloud'' [!DNL CLI]에 활성 환경이 표시되지 않음'
-description: 이 문서에서는 'Magento-cloud' [!DNL CLI](명령줄 도구)에 활성 환경이 표시되지 않는 알려진 Adobe Commerce 문제에 대해 설명합니다.
+description: 이 문서에서는 'Magento-cloud' [!DNL CLI] (명령줄 도구)에 활성 환경이 표시되지 않는 알려진 Adobe Commerce 문제에 대해 설명합니다.
 feature: Cloud, Integration, Configuration
 role: Developer
 exl-id: 3c1b5de2-8888-4531-9dc1-cd478e3c96fc

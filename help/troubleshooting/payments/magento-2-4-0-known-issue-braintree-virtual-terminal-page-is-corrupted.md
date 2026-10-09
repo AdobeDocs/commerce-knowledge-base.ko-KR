@@ -35,7 +35,7 @@ ht-degree: 0%
 
 <u>재현 단계:</u>
 
-Commerce 관리에서 **판매** > **Braintree 가상 터미널** 로 이동합니다. ** **
+Commerce 관리에서 **판매** > **Braintree 가상 터미널** 로 이동합니다. **&#x200B; **
 
 <u>예상 결과:</u>
 
@@ -49,7 +49,7 @@ Commerce 관리에서 **판매** > **Braintree 가상 터미널** 로 이동합�
 
 <u>재현 단계:</u>
 
-Commerce 관리에서 **판매** > **Braintree 가상 터미널** 로 이동합니다. ** **
+Commerce 관리에서 **판매** > **Braintree 가상 터미널** 로 이동합니다. **&#x200B; **
 
 <u>예상 결과:</u>
 
