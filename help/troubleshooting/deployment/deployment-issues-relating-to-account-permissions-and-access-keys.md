@@ -59,7 +59,7 @@ Cloud 라이선스는 연락처 A(전자 메일 주소: *<u>first@e.mail</u>*)�
 
 ### 액세스 키를 비활성화하는 방법
 
-이전 키와 연결된 [Commerce Marketplace](https://marketplace.magento.com/) 계정에 대한 액세스 권한이 없는 경우 [Adobe Commerce 지원 팀에 문의](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)하여 키를 비활성화하십시오.
+이전 키와 연결된 [Commerce Marketplace](https://marketplace.magento.com/) 계정에 대한 액세스 권한이 없는 경우 [Adobe Commerce 지원 팀에 문의](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)하여 키를 비활성화하십시오.
 
 이전 키와 연결된 Marketplace 계정에 액세스할 수 있는 경우 다음 단계를 수행하여 키를 비활성화하십시오.
 
@@ -73,4 +73,4 @@ Cloud 라이선스는 연락처 A(전자 메일 주소: *<u>first@e.mail</u>*)�
 
 ## 관련 읽기
 
-* 개발자 설명서에서 [인증 키를 가져옵니다](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).
+* 개발자 설명서에서 [인증 키를 가져옵니다](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/authentication-keys).

@@ -60,7 +60,7 @@ Adobe Commerce을 다른 Adobe 솔루션과 통합하는 프로세스의 일부�
 - 기존 Adobe 기업/개인 계정.
 - Adobe 계정이 없는 경우 동일한 이메일 주소로 계정을 만듭니다.
 
-단계는 Adobe Experience League의 [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html)를 참조하십시오.
+단계는 Adobe Experience League의 [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=ko)를 참조하십시오.
 
 ## 관련 읽기
 

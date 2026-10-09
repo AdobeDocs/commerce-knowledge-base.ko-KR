@@ -44,4 +44,4 @@ New Relic 계정 소유자에게 연락하여 [!DNL New Relic]의 계정에 추�
 
 ## 관련 읽기
 
-개발자 설명서에서 [관리 [!DNL New Relic] 계정](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service).
+개발자 설명서에서 [관리 [!DNL New Relic] 계정](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service).

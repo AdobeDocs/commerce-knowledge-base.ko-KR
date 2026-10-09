@@ -37,7 +37,7 @@ Adobe Commerce(모든 배포) 및 Magento Open Source 구성 요소(모듈, 테�
 
 스토어 테마를 재설정해야 하지만 관리 패널에 액세스할 수 없는 경우, 다음을 수행하여 데이터베이스에서 재설정할 수 있습니다.
 
-1. [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다. `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
+1. [phpMyAdmin](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)과 같은 데이터베이스 도구를 사용하거나 명령줄에서 DB에 수동으로 액세스하여 다음 SQL 쿼리를 실행합니다. `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
 1. 다음 디렉터리를 지웁니다.
    * `pub/static/frontend`
    * `var/view_preprocessing`
