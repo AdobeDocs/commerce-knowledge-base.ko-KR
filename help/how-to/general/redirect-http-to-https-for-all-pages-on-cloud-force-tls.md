@@ -3,7 +3,18 @@ title: 클라우드 인프라의 Adobe Commerce에 있는 모든 페이지에 �
 description: Commerce 관리자에서 Fastly의 **TLS 강제 적용** 기능을 활성화하여 클라우드 인프라 스토어의 Adobe Commerce의 모든 페이지에 대해 글로벌 HTTP에서 HTTPS로 리디렉션할 수 있도록 합니다.
 exl-id: 71667f52-a99a-47a6-99d8-10532364870f
 feature: Cache, Cloud
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -27,7 +38,7 @@ Commerce 관리에서 Fastly의 **TLS 강제 적용** 기능을 활성화하여 
 1. **Storefront에서 보안 URL 사용** 및 **Admin에서 보안 URL 사용** 설정을 **예**&#x200B;로 설정합니다. ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
 1. 변경 내용을 적용하려면 오른쪽 상단의 **구성 저장**&#x200B;을 클릭하세요.
 
-**사용 안내서의 관련 설명서:** [URL 저장](https://experienceleague.adobe.com/ko/docs/commerce-admin/stores-sales/site-store/store-urls).
+**사용 안내서의 관련 설명서:** [URL 저장](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls).
 
 ### 2단계: 강제 TLS 활성화 {#step-2-enable-force-tls}
 
@@ -45,7 +56,7 @@ TLS(Transport Layer Security)는 보안 수준이 낮은 전임 SSL(Secure Socke
 
 Fastly의 TLS 강제 실행 기능을 사용하면 사이트 페이지에 대해 암호화되지 않은 모든 수신 요청을 TLS에 강제 적용할 수 있습니다.
 
-&#x200B;>>
+>>
 TLS에 해당하는 TLS로 리디렉션되는 암호화되지 않은 요청에 대해 *301 Moved Permanently* 응답을 반환하면 작동합니다. 예를 들어 *http://www.example.com/foo.jpeg*&#x200B;을(를) 요청하면 *https://www.example.com/foo.jpeg*(으)로 리디렉션됩니다.
 
 [통신 보안](https://docs.fastly.com/guides/securing-communications/)&#x200B;(Fastly 설명서)

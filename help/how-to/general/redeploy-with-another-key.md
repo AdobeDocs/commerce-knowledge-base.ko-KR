@@ -1,15 +1,21 @@
 ---
-title: '클라우드의 Adobe Commerce: 인증 키 변경 및 재배포'
+title: 'Adobe Commerce on cloud: 인증 키 변경 및 재배포'
 description: 이 문서에서는 다양한 인증 키를 사용하여 클라우드 인프라에 Adobe Commerce을 다시 배포하는 방법에 대한 지침을 제공합니다. 예를 들어, 다른 계정에 대해 키를 사용했거나 Adobe Commerce 키 대신 Magento Open Source 키를 사용했을 수 있습니다.
 exl-id: 47407c81-5c52-406f-812f-6c6b3ca5cafa
 feature: Cloud, Deploy
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce on cloud: 인증 키 변경 및 재배포
 
 이 문서에서는 다양한 인증 키를 사용하여 클라우드 인프라에 Adobe Commerce을 다시 배포하는 방법에 대한 지침을 제공합니다. 예를 들어, 다른 계정에 대해 키를 사용했거나 Adobe Commerce 키 대신 Magento Open Source 키를 사용했을 수 있습니다.

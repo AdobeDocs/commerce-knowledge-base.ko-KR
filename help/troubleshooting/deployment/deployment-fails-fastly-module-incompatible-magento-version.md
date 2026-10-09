@@ -4,13 +4,25 @@ description: '업데이트 날짜: 2019년 2월 29일'
 exl-id: aab77407-94e5-42de-92f4-2f0c19e24fa4
 feature: Deploy, Extensions
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
+subfeature_v2:
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # 배포가 실패함 호환되지 않는 Adobe Commerce 버전을 Fastly로 모듈화합니다.
 
 업데이트 날짜: 2019년 2월 29일
@@ -54,7 +66,7 @@ ht-degree: 0%
 [2019-01-23 00:00:00] CRITICAL: Command php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US returned code 1
 ```
 
-클라우드 인프라 솔루션에서 Adobe Commerce을 사용하는 경우 [배포 로그](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/test/log-locations)에 이 오류 메시지가 표시됩니다. Adobe Commerce 온-프레미스의 경우 명령줄에 오류가 표시됩니다.
+클라우드 인프라 솔루션에서 Adobe Commerce을 사용하는 경우 [배포 로그](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)에 이 오류 메시지가 표시됩니다. Adobe Commerce 온-프레미스의 경우 명령줄에 오류가 표시됩니다.
 
 ## 원인
 
@@ -70,4 +82,4 @@ Fastly 모듈을 버전 1.2.82 이상으로 업그레이드하십시오.
    * Fastly 모듈이 magento-cloud-metapackage에 포함된 경우:    <pre>작성기 업데이트 magento/magento-cloud-metapackage</pre>
    * fastly 모듈이 별도로 설치된 경우(예: cloud edition이 아닌 Adobe Commerce 온프레미스를 사용하는 경우) <pre>작성기 업데이트 fastly/magento2</pre>
 1. 변경 사항을 커밋하고 푸시하고, 자동으로 수행되지 않는 경우 배포 프로세스를 트리거합니다.
-1. 관리에서 [새 VCL을 Fastly로 업로드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)합니다.
+1. 관리에서 [새 VCL을 Fastly로 업로드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)합니다.

@@ -4,13 +4,22 @@ description: 이 문서에서는 PayPal Express Checkout에서 영역을 선택�
 exl-id: 9f5ec100-49b0-4ac5-8951-32b5c4fe6bed
 feature: Orders, Payments
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '442'
 ht-degree: 0%
-
 ---
-
 # 2.3.4 PayPal 문제 핫픽스
 
 이 문서에서는 PayPal Express Checkout에서 영역을 선택할 때 주문 배치 중에 발생하는 오류에 대한 수정 사항을 제공합니다. 이 문제는 Adobe Commerce v2.3.4 릴리스의 변경 사항으로 인해 발생하며 PayPal Express 체크아웃 주소 필드를 구문 분석하는 방법과 관련이 있습니다.
@@ -47,13 +56,13 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 ## 솔루션
 
-Adobe Commerce 온-프레미스 판매자의 경우: 내 계정의 [magento.com](https://magento.com/tech-resources/download#download2353) 포털의 다운로드 섹션에서 사용할 수 있는 [핫픽스,](https://magento.com)을(를) 적용합니다.
+Adobe Commerce 온-프레미스 판매자의 경우: 내 계정의 [magento.com](https://magento.com) 포털의 다운로드 섹션에서 사용할 수 있는 [핫픽스,](https://magento.com/tech-resources/download#download2353)을(를) 적용합니다.
 
-클라우드 인프라 판매자의 Adobe Commerce: Adobe은 Commerce v1.0.2용 클라우드 패치에 이 수정 사항을 포함했습니다. 최신 패키지 적용에 대한 지침은 개발자 설명서에서 [Commerce용 클라우드 패치](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche)를 참조하십시오.
+클라우드 인프라 판매자의 Adobe Commerce: Adobe은 Commerce v1.0.2용 클라우드 패치에 이 수정 사항을 포함했습니다. 최신 패키지 적용에 대한 지침은 개발자 설명서에서 [Commerce용 클라우드 패치](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche)를 참조하십시오.
 
 ## 패치 적용 방법
 
-자세한 지침은 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치 적용 방법](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
+자세한 지침은 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치 적용 방법](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 ## 관련 읽기
 

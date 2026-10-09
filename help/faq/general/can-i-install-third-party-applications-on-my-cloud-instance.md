@@ -3,13 +3,21 @@ title: 클라우드 인스턴스에 타사 애플리케이션을 설치할 수 �
 description: '아니. 클라우드 인프라 서버에서 Adobe Commerce에 타사 앱(예: WordPress 또는 Drupal)을 설치하는 것은 허용되지 않습니다. 외부 서버에서 이러한 응용 프로그램을 호스팅해야 합니다.'
 exl-id: 3abbe282-2a14-4597-8af8-da1edcbece30
 feature: Cloud, Compliance, Install
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # 클라우드 인스턴스에 타사 애플리케이션을 설치할 수 있습니까?
 
 아니. 클라우드 인프라 서버에서 Adobe Commerce에 타사 앱(예: WordPress 또는 Drupal)을 설치하는 것은 허용되지 않습니다. 외부 서버에서 이러한 응용 프로그램을 호스팅해야 합니다.

@@ -4,13 +4,20 @@ description: 이 문서에서는 가격 변경, 제품 삭제 및 복제와 같�
 exl-id: e2a00371-9032-4e81-b60e-5456ba35be94
 feature: Services
 role: Developer
-source-git-commit: 2fa4ab1fcba962033a6dd6a448a6cec49b5e8bf2
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '658'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 데이터베이스 숫자 값이 범위를 벗어났습니다. `INT`에서 `BIGINT`
 
 >[!WARNING]
@@ -33,7 +40,7 @@ WHERE
 * Adobe Commerce(모든 배포 메서드) 모든 [지원되는 버전](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 이 문서에서는 가격 변경, 제품 삭제 및 복제와 같은 제품 업데이트를 저장할 수 없는 경우에 대한 솔루션을 제공합니다.
-*재고 항목을 저장할 수 없다는 오류 메시지가 표시될 수 있습니다. 다시 시도하십시오.* 제품 업데이트 후 배포하지 못할 수 있습니다. [!DNL MySQL]을(를) 실행할 때 다음 `php bin/magento setup:upgrade` 오류 메시지가 표시될 수도 있습니다(클라우드 인프라의 Adobe Commerce에서 이 오류는 배포 로그에 표시됨).
+*재고 항목을 저장할 수 없다는 오류 메시지가 표시될 수 있습니다. 다시 시도하십시오.* 제품 업데이트 후 배포하지 못할 수 있습니다. `php bin/magento setup:upgrade`을(를) 실행할 때 다음 [!DNL MySQL] 오류 메시지가 표시될 수도 있습니다(클라우드 인프라의 Adobe Commerce에서 이 오류는 배포 로그에 표시됨).
 
 ```mysql
 SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column 'value_id' at row 1, query was: INSERT INTO `catalog_product_entity_decimal` (`attribute_id`,`store_id`,`row_id`,`value`) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE `attribute_id` = VALUES(`attribute_id`), `store_id` = VALUES(`store_id`), `row_id` = VALUES(`row_id`), `value` = VALUES(`value`)
@@ -57,7 +64,7 @@ SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column '
 
 >[!WARNING]
 >
->테이블을 변경하기 전에 데이터베이스 백업을 수행합니다. 또한 사이트를 [유지 관리 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ko#maintenance-mode)로 전환하세요. 또한 변경한 후 데이터베이스 테이블(변경된 테이블만)에서 [!DNL MySQL] optimize 명령을 실행하는 것이 좋습니다.
+>테이블을 변경하기 전에 데이터베이스 백업을 수행합니다. 또한 사이트를 [유지 관리 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode)로 전환하세요. 또한 변경한 후 데이터베이스 테이블(변경된 테이블만)에서 [!DNL MySQL] optimize 명령을 실행하는 것이 좋습니다.
 
 >[!NOTE]
 >
@@ -112,7 +119,7 @@ ALTER TABLE catalog_product_entity_int AUTO_INCREMENT = 4283174131;
 
 ## 관련 읽기
 
-* Commerce 설치 안내서의 [일반 [!DNL MySQL] 지침](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html?lang=ko)
-* 지원 기술 자료의 [클라우드 인프라에서 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html?lang=ko)
-* [클라우드 인프라의 Adobe Commerce에서 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html?lang=ko) 지원 기술 자료
-* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/ko/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce 설치 안내서의 [일반 [!DNL MySQL] 지침](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html)
+* 지원 기술 자료의 [클라우드 인프라에서 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html)
+* [클라우드 인프라의 Adobe Commerce에서 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html) 지원 기술 자료
+* Commerce 구현 플레이북의 [데이터베이스 테이블 수정 우수 사례](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

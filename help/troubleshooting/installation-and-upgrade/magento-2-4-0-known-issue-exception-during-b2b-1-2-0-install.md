@@ -4,13 +4,27 @@ description: 이 문서에서는 B2B 1.2.0을 설치할 때 'setup:upgrade' 도�
 exl-id: 2c1dadd9-7754-4b4c-8d37-b75c13beae5c
 feature: B2B, Install, Upgrade
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '334'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.0: B2B 1.2.0 설치 중 예외
 
 이 문서에서는 B2B 1.2.0을 설치할 때 `setup:upgrade` 중에 발생한 예외에 대한 Adobe Commerce 알려진 문제에 대한 수정 사항을 제공합니다.
@@ -65,12 +79,12 @@ Module 'Magento_PurchaseOrder':
 
 <u>작성기 패치 </u>
 
-작성기 패치 지침은 [Adobe에서 제공하는 작성기 패치 적용 방법](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
+작성기 패치 지침은 [Adobe에서 제공하는 작성기 패치 적용 방법](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 <u>Git 패치 </u>
 
-* 클라우드 인프라의 Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
-* Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용: 사용자 지정 패치](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)를 참조하십시오.
+* 클라우드 인프라의 Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
+* Adobe Commerce에 대한 git 패치 지침은 개발자 설명서에서 [패치 적용: 사용자 지정 패치](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)를 참조하십시오.
 
 ## 관련 읽기
 

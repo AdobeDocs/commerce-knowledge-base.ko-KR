@@ -3,13 +3,20 @@ title: 라이브 사이트에서 동일한 도메인을 사용하는 경우 프�
 description: 프로덕션 도메인('example.com')에서 실행 중인 라이브 사이트가 있고 Fastly CDN이 활성화된 클라우드 인프라의 프로덕션 환경에서 Adobe Commerce에 있는 새 스토어를 테스트해야 하는 경우 실행 전 테스트 활동에 대해 이전에 Fastly에 추가한 하위 도메인('prod.example.com' 등)을 사용하는 것이 좋습니다. 이 문서에서는 자세한 내용을 살펴보고 관련 Adobe Commerce 설명서 리소스에 대한 유용한 링크를 제공합니다.
 exl-id: bc9d11c8-ce47-461d-b5b8-c03494bc4ceb
 feature: Cache
-source-git-commit: 6651963ea5843283dee40a8ce58280baac79053a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # 라이브 사이트에서 동일한 도메인을 사용하는 경우 프로덕션에서 Fastly 테스트
 
 프로덕션 도메인(`example.com`)에서 실행 중인 라이브 사이트가 있고 Fastly CDN이 활성화된 클라우드 인프라의 프로덕션 환경에서 Adobe Commerce에 있는 새 스토어를 테스트해야 하는 경우 실행 전 테스트 활동에 대해 이전에 Fastly에 추가한 하위 도메인(`prod.example.com` 등)을 사용하는 것이 좋습니다. 이 문서에서는 자세한 내용을 살펴보고 관련 Adobe Commerce 설명서 리소스에 대한 유용한 링크를 제공합니다.
@@ -28,19 +35,19 @@ ht-degree: 0%
 
 ## 해결 방법: 프로덕션 하위 도메인 사용
 
-기본 도메인(`prod.example.com`)에 현재 라이브 사이트를 유지하면서 프로덕션 환경의 클라우드 인프라 저장소에 있는 새 Adobe Commerce에 첫 번째 수준 하위 도메인(`example.com`)을 사용합니다.
+기본 도메인(`example.com`)에 현재 라이브 사이트를 유지하면서 프로덕션 환경의 클라우드 인프라 저장소에 있는 새 Adobe Commerce에 첫 번째 수준 하위 도메인(`prod.example.com`)을 사용합니다.
 
 클라우드 인프라 프로젝트에서 Adobe Commerce을 계획할 때 이러한 프로덕션 하위 도메인을 지정하고 클라우드 인프라 팀에 하위 도메인을 Fastly 서비스로 지정하도록 요청할 수 있습니다.
 
 Adobe Commerce on cloud infrastructure 프로젝트 내에서 하위 도메인을 처리하려면 다음 단계를 따르십시오.
 
-* [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) Fastly 서비스/Nginx 구성에 하위 도메인을 추가할 것을 요청합니다(Cloud Infrastructure Pro 계획 아키텍처의 Adobe Commerce에 대해).
+* [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) Fastly 서비스/Nginx 구성에 하위 도메인을 추가할 것을 요청합니다(Cloud Infrastructure Pro 계획 아키텍처의 Adobe Commerce에 대해).
 * 사용자 측에서 해당 DNS 설정을 구성합니다.
 
 하위 도메인 구성에 대한 단계를 수행한 후 다음 단계를 수행하여 SSL 인증서에 대한 프로덕션 도메인의 유효성을 검사해야 합니다.
 
 * 프로덕션 도메인의 SSL 유효성 검사를 위한 DNS TXT 레코드를 업로드합니다.
-* SSL 인증서에 대한 프로덕션 도메인의 유효성을 검사하도록 요청하는 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
+* SSL 인증서에 대한 프로덕션 도메인의 유효성을 검사하도록 요청하는 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
 
 하위 도메인을 사용하면 해당 DNS 설정만 업데이트하면 되므로 나중에 스토어의 &quot;소프트 실행&quot;을 수행할 수 있습니다.
 
@@ -48,10 +55,10 @@ Adobe Commerce on cloud infrastructure 프로젝트 내에서 하위 도메인�
 
 지원 기술 자료에서:
 
-* [스테이징 및 프로덕션 환경에서 Fastly DNS 설정 구성](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=ko)
-* [클라우드 인프라의 Adobe Commerce에서 시작할 수 있는 차단기](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=ko)
+* [스테이징 및 프로덕션 환경에서 Fastly DNS 설정 구성](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
+* [클라우드 인프라에서 Adobe Commerce을 시작할 수 있는 잠재적 차단기](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
 
 개발자 설명서에서:
 
-* [Fastly 개요](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=ko)
-* [라이브 검사 목록: Fastly에 대한 DNS 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=ko)
+* [Fastly 개요](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
+* [라이브 검사 목록: Fastly용 DNS 구성](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)

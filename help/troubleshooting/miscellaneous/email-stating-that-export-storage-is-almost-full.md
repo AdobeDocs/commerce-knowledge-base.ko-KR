@@ -4,13 +4,24 @@ description: 이 문서에서는 내보내기 저장소가 거의 가득 찼다�
 feature: Cloud, Storage, Media
 role: Developer
 exl-id: 7dae295c-919c-46c5-bf63-7d3467c2e07f
-source-git-commit: 11cf981c7ebe813219a0cd311632eafce086bbf6
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: aa037b12-c774-5642-a947-459024feb1a2
+    internal-label: Storage
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '451'
 ht-degree: 0%
-
 ---
-
 # 내보내기 저장소가 거의 꽉 찼다는 이메일
 
 이 문서에서는 내보내기 저장소가 거의 가득 찼다는 내용의 이메일을 받는 문제에 대한 해결 방법을 제공합니다.
@@ -42,9 +53,9 @@ ht-degree: 0%
 
 * 이 예제에서 `/data/exports`은(는) 기본 내보내기 파일 시스템입니다.
 
-   * 총 50GB
-   * 38GB 사용
-   * 12GB 사용 가능(77% 활용도)
+  * 총 50GB
+  * 38GB 사용
+  * 12GB 사용 가능(77% 활용도)
 
 * `/data/exports/shared`은(는) 공유 데이터에 사용되는 `tmpfs`(메모리 내) 마운트이며 디스크 압력에 크게 기여하지 않습니다.
 
@@ -56,7 +67,7 @@ ht-degree: 0%
 
 내보내기 스토리지 사용을 검토, 정리 및 확인하려면 다음 단계를 따르십시오.
 
-1. `df -h | grep exports` 명령을 실행하여 내보내기 저장소 파일 시스템의 현재 사용량을 확인합니다. **에 대한** Use%`/data/exports` 열 검토:
+1. `df -h | grep exports` 명령을 실행하여 내보내기 저장소 파일 시스템의 현재 사용량을 확인합니다. `/data/exports`에 대한 **Use%** 열 검토:
 
    * 사용량이 70~85%인 경우 정리 계획을 시작합니다.
    * 사용량이 90%를 초과하는 경우 쓰기 실패나 서비스에 영향을 주지 않도록 즉시 조치를 취하십시오.
@@ -75,8 +86,8 @@ ht-degree: 0%
    * 비프로덕션 환경에서는 일반적으로 테스트 미디어나 이전 아티팩트를 더 적극적으로 제거할 수 있습니다.
    * 프로덕션 환경에서는 미디어 또는 비즈니스 크리티컬 파일을 삭제하기 전에 팀과 상의하십시오.
 
-1. 정리 후 다음 명령 `df -h | grep exports`을(를) 실행하여 **의** Use%`/data/exports` 값이 안전한 작동 수준으로 떨어졌는지 확인하십시오.
+1. 정리 후 다음 명령 `df -h | grep exports`을(를) 실행하여 `/data/exports`의 **Use%** 값이 안전한 작동 수준으로 떨어졌는지 확인하십시오.
 
 ## 관련 읽기
 
-지원 기술 자료에서 [전용 클러스터를 확인](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)하세요.
+지원 기술 자료에서 [전용 클러스터를 확인](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)하세요.

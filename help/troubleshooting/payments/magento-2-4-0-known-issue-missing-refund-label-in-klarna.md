@@ -4,13 +4,27 @@ description: 이 문서에서는 Klarna VBE(공급업체 번들 확장)에 누�
 exl-id: f08039b2-7f8b-481e-8ec8-1659e227744f
 feature: B2B, Orders, Payments
 role: Developer
-source-git-commit: 7705b6030d2f0877c228dae1707916ad38c9d587
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '332'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.0 알려진 문제: Klarna에 &quot;환불&quot; 레이블이 없음
 
 이 문서에서는 Klarna VBE(공급업체 번들 확장)에 누락된 **환불** 레이블에 대한 관리자의 알려진 문제에 대한 해결 방법을 제공합니다. Klarna 포털에서 환불을 진행하는 경우, 환불된 번들 제품 옆에 **Refund** 레이블이 표시되지 않습니다.

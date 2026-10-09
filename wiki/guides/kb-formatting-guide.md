@@ -1,9 +1,13 @@
 ---
-source-git-commit: c587986edc925c49bf95ab935888b59f265371af
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
 ---
+
 # KB Formatting 안내서
 
 ## Markdown 작성자

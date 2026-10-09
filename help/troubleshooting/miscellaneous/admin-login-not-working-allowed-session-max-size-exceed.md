@@ -2,13 +2,14 @@
 title: '[!UICONTROL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.'
 description: '[!UICONTROL Admin] 패널에 로그인하려고 하면 양식이 새로 고쳐지고 로그인할 수 없는 문제를 해결합니다.'
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: fe4a48581bdfe24da5082b69fb26a8032bd77334
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '413'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Admin] 로그인이 작동하지 않음 - 허용된 세션 최대 크기를 초과했습니다.
 
 이 문서에서는 [!UICONTROL Admin] 패널에 로그인하려고 하지만 양식이 새로 고침되어 로그인할 수 없거나 [!UICONTROL Admin] 패널에서 일부 작업을 수행하고 자동으로 로그아웃되는 경우에 대한 수정 사항을 제공합니다.
@@ -34,8 +35,8 @@ ht-degree: 0%
 
 `var/log/support_report.log` 파일에서 다음과 같은 오류를 확인합니다.
 
-*[2023-07-13T04:26:09.792060+00:00] 보고서.경고: 세션 크기260572 허용된 최대 세션 크기(256000)를 초과했습니다. [] []
-[2023-07-13T04:26:17.056714+00:00] 보고서.경고: 세션 크기260570 허용된 세션 최대 크기를 초과했습니다. 2560005&rbrace;[]*[]
+*[2023-07-13T04:26:09.792060+00:00] 보고서.경고: 세션 크기260572 허용된 세션 최대 크기를 초과했습니다256000 [] []
+[2023-07-13T04:26:17.056714+00:00] 보고서.경고: 세션 크기260570 허용된 세션 최대 크기를 초과했습니다. 256000} [][]*
 
 이러한 오류가 표시되면 해결 방법은 다음과 같습니다.
 
@@ -57,6 +58,6 @@ bin/magento config:set system/security/max_session_size_admin 500000
 
 ## 관련 읽기
 
-* 관리 시스템 안내서의 [세션 크기](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/security/security-session-management#admin-sessions)
-* 구성 가이드의 [작업 모드](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/set-mode)
-* Commerce on Cloud Infrastructure Guide의 [보안 연결](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/secure-connections)
+* 관리 시스템 안내서의 [세션 크기](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions)
+* 구성 가이드의 [작업 모드](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Commerce on Cloud Infrastructure Guide의 [보안 연결](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)

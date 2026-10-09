@@ -1,18 +1,22 @@
 ---
 title: 배포가 실패하여 Adobe Commerce *배포 후 건너뜀* 오류
-description: '이 문서에서는 배포 오류를 조사하는 방법에 대해 설명합니다. *배포가 실패했기 때문에 Post 배포를 건너뜁니다.*'
+description: 이 문서에서는 배포 오류를 조사하는 방법에 대해 설명합니다. *배포가 실패했기 때문에 사후 배포를 건너뜁니다.*
 exl-id: cd0a3015-b7b9-442e-8ac1-89447ef12cd7
 feature: Deploy
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '155'
 ht-degree: 0%
-
 ---
-
 # 배포가 실패했으므로 Adobe Commerce *후 배포를 건너뜁니다* 오류
 
-이 문서에서는 배포 오류를 조사하는 방법에 대해 설명합니다. *배포가 실패했기 때문에 Post-deploy를 건너뜁니다*. 이 오류는 업그레이드 등 다른 환경에 배포하는 동안 발생합니다.
+이 문서에서는 배포 오류를 조사하는 방법에 대해 설명합니다. *배포가 실패했기 때문에 사후 배포를 건너뜁니다*. 이 오류는 업그레이드 등 다른 환경에 배포하는 동안 발생합니다.
 
 ## 영향을 받는 제품 및 버전
 

@@ -4,13 +4,22 @@ description: 이 문서에서는 이러한 버전으로 업그레이드하는 �
 exl-id: 97479615-bf3f-4544-a9c1-8f19ba74318e
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '388'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 버전 2.3.4-p1 또는 2.3.5로 업그레이드하는 동안 위시리스트 오류 발생
 
 이 문서에서는 이러한 버전으로 업그레이드하는 동안의 위시리스트 오류와 관련된 Adobe Commerce 버전 2.3.4-p1 및 2.3.5로 업그레이드할 때 발생하는 알려진 문제에 대한 수정 사항을 제공합니다.
@@ -57,8 +66,8 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 개발자 설명서에서:
 
-* [클라우드 인프라의 Adobe Commerce 안내서](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/overview)
-* [클라우드 인프라의 Adobe Commerce - Adobe Commerce 버전 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
-* [Adobe Commerce 온-프레미스 및 Magento Open Source - Adobe Commerce 응용 프로그램 및 모듈 업그레이드](https://experienceleague.adobe.com/ko/docs/commerce-operations/upgrade-guide/overview)
+* [Adobe Commerce on cloud infrastructure 안내서](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/overview)
+* [클라우드 인프라의 Adobe Commerce - Adobe Commerce 버전 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
+* [Adobe Commerce 온-프레미스 및 Magento Open Source - Adobe Commerce 애플리케이션 및 모듈 업그레이드](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview)
 * [위시리스트 항목 구성 페이지](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts#wishlist-item-configure-page)
 * [고급 보고를 제공하는 모듈](https://developer.adobe.com/commerce/php/development/advanced-reporting/modules/)

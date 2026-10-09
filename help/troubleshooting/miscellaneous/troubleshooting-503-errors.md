@@ -4,13 +4,27 @@ description: 이 문서에서는 특정 바니시 캐시 기본값이 저장소�
 exl-id: 3f001cc9-b19a-4dee-bff0-fc8ba89e2646
 feature: Cache, Categories
 role: Admin
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
-
 ---
-
 # 기본 바니시 설정을 변경해야 하는 경우 발생하는 503 오류 문제 해결
 
 이 문서에서는 특정 바니시 캐시 기본값이 저장소에 충분하지 않아 발생한 503 오류를 해결하는 방법에 대해 설명합니다.
@@ -63,5 +77,5 @@ Varnish가 캐싱 애플리케이션으로 구성되고 Adobe Commerce이 개발
 $ bin/magento cache:enable
 ```
 
-명령줄 사용에 대한 자세한 내용은 [명령줄 구성 시작](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cli/config-cli)을 참조하십시오.
+명령줄 사용에 대한 자세한 내용은 [명령줄 구성 시작](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli)을 참조하십시오.
 

@@ -4,13 +4,31 @@ description: 이 문서에서는 Fastly 구성, SSL 인증서, 301 리디렉션 
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: d653957b94127e8b1d37a66c069a618f34ac5af9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: 4239b8a6-e74f-567d-a7a5-b98b9ead0ea4
+    internal-label: Observability
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '800'
 ht-degree: 0%
-
 ---
-
 # 클라우드 인프라의 Adobe Commerce에서 시작되는 차단기
 
 이 문서에서는 Fastly 구성, SSL 인증서, 301 리디렉션 및 정적 에셋 성능과 관련된 문제를 포함하여 클라우드 인프라에서 Adobe Commerce을 시작할 수 있는 차단기에 대한 수정 사항을 제공합니다.
@@ -23,28 +41,28 @@ ht-degree: 0%
 >
 >FPC(전체 페이지 캐시)가 활성화된 경우 웹 사이트가 다르게 수행됩니다. 시작하기 전에 테스트해야 합니다.
 
-Fastly 구성 프로세스는 사용 안내서의 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko) 항목에 자세히 설명되어 있습니다. 다음은 중요한 단계입니다.
+Fastly 구성 프로세스는 사용 안내서의 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) 항목에 자세히 설명되어 있습니다. 다음은 중요한 단계입니다.
 
 ### 1a. 최신 버전의 Fastly 모듈이 설치되어 있는지 확인합니다.
 
-최신 기능 및 개선 사항을 얻으려면 최신 버전의 Fastly 모듈이 설치되어 있는지 확인하십시오. 최신 버전의 Fastly가 있는지 확인하려면 사용 안내서에서 [Fastly 모듈 업그레이드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko#upgrade-the-fastly-module)를 검토하세요. 자세한 내용은 사용 안내서에서 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko)을 검토하세요.
+최신 기능 및 개선 사항을 얻으려면 최신 버전의 Fastly 모듈이 설치되어 있는지 확인하십시오. 최신 버전의 Fastly가 있는지 확인하려면 사용 안내서에서 [Fastly 모듈 업그레이드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module)를 검토하세요. 자세한 내용은 사용 안내서에서 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)을 검토하세요.
 
 ### 1b. Commerce 관리자를 사용하여 Fastly 활성화 및 구성
 
-자세한 내용은 사용 안내서에서 [Fastly 자격 증명 가져오기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko#get-fastly-credentials)를 검토하세요.
+자세한 내용은 사용 안내서에서 [Fastly 자격 증명 가져오기](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#get-fastly-credentials)를 검토하세요.
 
 ### 1c. Fastly VCL 코드 조각 업로드
 
-자세한 내용은 사용 안내서에서 [VCL을 Fastly에 업로드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko)를 참조하십시오.
+자세한 내용은 사용 안내서에서 [VCL을 Fastly에 업로드](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)를 참조하십시오.
 
-[사용자 지정 VCL 코드 조각을 만들고 추가](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=ko)할 수도 있습니다.
+[사용자 지정 VCL 코드 조각을 만들고 추가](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)할 수도 있습니다.
 
 ### 1d. Fastly를 위한 DNS 구성
 
 
-자세한 단계는 이 문서를 참조하십시오. 사용 안내서의 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=ko#update-dns-configuration-with-development-settings).
+자세한 단계는 이 문서를 참조하십시오. 사용 안내서의 [Fastly 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
 
-## &#x200B;2. 유효한 TLS(SSL) 인증서
+## &#x200B;2. 유효한 SSL(TLS) 인증서
 
 문제: 유효하고 작동하는 SSL 인증서가 없으면 스테이징 환경의 체크아웃 페이지에서 외부 결제 방법을 테스트할 수 없습니다.
 
@@ -63,9 +81,9 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
 **관련 문서:**
 
-* 사용 안내서에서 [route.yaml을 통해 리디렉션](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html?lang=ko)합니다.
-* 사용 안내서의 [클라우드 콘솔을 통해 리디렉션](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=ko).
-* 사용 안내서에서 [URL 재작성](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html?lang=ko).
+* 사용 안내서에서 [route.yaml을 통해 리디렉션](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html)합니다.
+* 사용 안내서의 [클라우드 콘솔을 통해 리디렉션](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
+* 사용 안내서에서 [URL 재작성](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html).
 
 ## &#x200B;4. 자산 성과
 
@@ -78,8 +96,8 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 * [New Relic](https://support.newrelic.com/): 데이터, 쿼리, Redis 전송 등과 같이 작업당 추적 체류 시간으로 성능이 느린 사이트의 프로세스 및 영역을 찾습니다.
 * [WebPageTest](https://www.webpagetest.org/)&#x200B;(무료) 및 [Pingdom](https://www.pingdom.com/)&#x200B;(유료): 원본 위치가 다른 사이트 페이지 로드 시간을 실시간으로 분석합니다.
 
-CSS, JavaScript 및 HTML에 대해 [축소](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=ko)를 고려할 수도 있습니다.
+CSS, JavaScript 및 HTML에 대해 [축소](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)를 고려할 수도 있습니다.
 
 **관련 문서:**
 
-* 개발자 설명서에서 [테스트 배포](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html?lang=ko).
+* 개발자 설명서에서 [테스트 배포](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html).

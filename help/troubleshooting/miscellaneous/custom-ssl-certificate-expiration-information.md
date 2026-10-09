@@ -4,13 +4,23 @@ description: 이 문서에서는 사용자 정의 SSL 인증서가 Adobe에서 �
 exl-id: cc968bae-f742-449b-b291-bc121ec45935
 feature: Support
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: a59f76dc-e003-5617-951e-dffa5bd3de81
+    internal-label: Support
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 # 사용자 정의 SSL 인증서 만료 정보
 
 이 문서에서는 사용자 정의 SSL 인증서가 Adobe에서 제공한 SSL 인증서로 업데이트된 경우에 대한 솔루션을 제공합니다.
@@ -41,11 +51,11 @@ Adobe Commerce은 만료 후 30일이 경과하면 모든 인증서를 업데이
 
 판매자가 자체 사용자 정의 SSL 인증서를 사용하도록 선택하는 경우 내부 Adobe Commerce SSL 인증서로 대체되지 않도록 인증서 만료 30일 이상 전에 업데이트해야 합니다.
 
-사용자 지정 SSL이 내부 SSL로 대체되었으며 업데이트된 사용자 지정 SSL 인증서로 대체하려는 경우 새 인증서 파일을 업로드한 위치로 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)하십시오. 새 SSL의 시작 날짜를 포함하십시오. 이 정보가 있으면 새 SSL 인증서를 설치할 수 있습니다.
+사용자 지정 SSL이 내부 SSL로 대체되었으며 업데이트된 사용자 지정 SSL 인증서로 대체하려는 경우 새 인증서 파일을 업로드한 위치로 [지원 요청을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)하십시오. 새 SSL의 시작 날짜를 포함하십시오. 이 정보가 있으면 새 SSL 인증서를 설치할 수 있습니다.
 
 ## 관련 읽기
 
 * Magento Commerce Cloud에 대한 [SSL(TLS) 인증서: FAQ](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)(지원 기술 자료)
-* 개발자 설명서에서 [명령줄 도구 참조: magento-cloud 인증서:add](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd)
-* 개발자 설명서에서 [Launch 검사 목록](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/launch/checklist)을 참조하세요.
-* 사용 안내서에서 [사이트 전체 분석 도구에 액세스](https://experienceleague.adobe.com/ko/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)합니다.
+* 개발자 설명서에서 [명령줄 도구 참조: magento-cloud 인증서:add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd)
+* 개발자 설명서에서 [Launch 검사 목록](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)을 참조하세요.
+* 사용 안내서에서 [사이트 전체 분석 도구에 액세스](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)합니다.

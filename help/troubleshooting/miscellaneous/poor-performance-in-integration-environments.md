@@ -4,13 +4,22 @@ description: 이 문서에서는 Pro 통합 환경 및 스타터 스테이징 �
 feature: Integration, Staging
 role: Developer
 exl-id: 46110dbc-2f54-4654-95e2-39e8ae1e6979
-source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
-
 ---
-
 # 통합 환경의 성능 저하
 
 이 문서에서는 Pro 통합 환경 및 스타터 스테이징 환경의 성능이 저하되는 문제에 대한 해결 방법을 제공합니다.
@@ -31,10 +40,10 @@ Pro 통합 환경 또는 스타터 스테이징 환경의 성능이 저하됩니
 
 성능 문제를 해결하려면 통합 환경에서 최상의 성능을 발휘하기 위한 모범 사례를 준수해야 합니다. 통합을 향상시키기 위해 환경 업그레이드를 요청해야 할 수도 있습니다.
 
-먼저 환경이 [향상된 통합 구성](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-27242)에 있는지 확인합니다.
+먼저 환경이 [향상된 통합 구성](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)에 있는지 확인합니다.
 
-* [Pro 아키텍처](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [스타터 아키텍처](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [Pro 아키텍처](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [스타터 아키텍처](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
 다음 방법 중 하나를 사용하여 배포 로그를 확인합니다.
 
@@ -59,10 +68,10 @@ opensearch (type: opensearch:2, size: L, disk: 1024)
 rabbitmq (type: rabbitmq:3.12, size: L, disk: 1024)
 ```
 
-고급 통합 구성에 있지 않은 경우 [개선/업그레이드를 요청](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-27242)할 수 있습니다.
+고급 통합 구성에 있지 않은 경우 [개선/업그레이드를 요청](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)할 수 있습니다.
 이미 향상된 통합 구성을 사용하고 있거나 업그레이드 후에도 성능 문제가 발생하는 경우 통합 환경에서 최적의 성능을 위한 모범 사례를 따라야 합니다.
 
-* [Pro 아키텍처](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [스타터 아키텍처](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [Pro 아키텍처](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [스타터 아키텍처](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
-위의 권장 사항을 이행한 경우 추가 지원을 받으려면 [지원 요청을 제출](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)하십시오.
+위의 권장 사항을 이행한 경우 추가 지원을 받으려면 [지원 요청을 제출](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)하십시오.

@@ -4,13 +4,27 @@ description: 이 문서에서는 Adobe AI에 대한 API 키를 구성한 후 하
 exl-id: e13041da-b122-4684-8287-42132931f47a
 feature: REST, Saas, Observability
 role: Developer
-source-git-commit: 61f5a526a0c36c91739103c0802bc9794a425f38
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: d3b92bef-63fa-5031-a925-d04d9362d616
+    internal-label: Saas
+  - id: 4239b8a6-e74f-567d-a7a5-b98b9ead0ea4
+    internal-label: Observability
+  - id: c4f010fa-1478-4300-a88d-706fbc036a7a
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: e0ca0e7a-9738-48d1-b98b-615468ab4aaf
+    internal-label: REST API
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
-
 ---
-
 # Adobe AI API 키를 구성한 후 여러 SaaS 데이터 공간을 볼 수 없음
 
 Adobe AI 서비스(제품 추천 또는 라이브 검색) 또는 Adobe Commerce용 결제 서비스 와 같은 Commerce 서비스에 대한 API 키를 구성하면 Commerce 서비스 커넥터에 여러 SaaS 데이터 공간이 표시됩니다. 제품 권한 및 배포 유형에 따라 커넥터는 하나의 SaaS 데이터 공간만 표시하므로 예상되는 동작입니다.
@@ -57,4 +71,4 @@ Adobe 결제 서비스를 사용하는 Magento Open Source 고객도 추가 데�
 
 ## 관련 읽기
 
-[SaaS 데이터 공간 프로비저닝](https://experienceleague.adobe.com/ko/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)
+[SaaS 데이터 공간 프로비저닝](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)

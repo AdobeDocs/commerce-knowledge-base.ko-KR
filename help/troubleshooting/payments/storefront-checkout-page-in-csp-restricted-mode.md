@@ -4,13 +4,26 @@ description: 이 문서에서는 CSP 제한 모드에서 체크아웃 페이지�
 feature: Checkout,Security,Orders,Payments
 role: Developer
 exl-id: fb92b75d-c88b-4810-a309-d6ab38485e86
-source-git-commit: 6d0c4ea9576440d66be3b8053a6e362b8ac0ebcb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '1065'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL CSP] 제한 모드에서 storefront 체크아웃 페이지 문제 해결
 
 이 문서에서는 **[!UICONTROL CSP restricted mode]**&#x200B;에서 체크아웃 페이지를 보는 동안 &quot;script-src ...*&quot; 콘텐츠 보안 정책 지시문을 위반하므로 &quot;*&#x200B;인라인 스크립트 실행을 거부함&quot;과 함께 Adobe Commerce 2.4.7 문제에 대한 설명 및 수정 사항을 제공합니다. 브라우저 콘솔 로그에 오류 메시지가 표시됩니다.
@@ -56,7 +69,7 @@ Adobe Commerce 및 Magento Open Source 버전 2.4.7 이상에서는 기본적으
 
 1. `SecureHtmlRenderer` 클래스를 사용하여 차단된 스크립트를 [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)합니다.
 1. 스크립트를 실행하려면 `CSPNonceProvider` 클래스를 사용합니다.
-Adobe Commerce 및 Magento Open Source 2.4.7 이상에는 각 요청에 대해 고유한 [!DNL nonce] 문자열을 쉽게 생성할 수 있도록 **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] 공급자가 포함됩니다. 그런 다음 이 [!DNL nonce] 문자열이 [!UICONTROL CSP] 헤더에 연결됩니다.
+Adobe Commerce 및 Magento Open Source 2.4.7 이상에는 각 요청에 대한 고유한 [!DNL nonce] 문자열을 쉽게 생성할 수 있도록 **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] 공급자가 포함됩니다. 그런 다음 이 [!DNL nonce] 문자열이 [!UICONTROL CSP] 헤더에 연결됩니다.
 
    `Magento\Csp\Helper\CspNonceProvider`에서 `generateNonce` 함수를 사용하여 [!DNL nonce] 문자열을 가져옵니다.
 
@@ -126,7 +139,7 @@ Adobe Commerce 및 Magento Open Source 버전 2.4.7 이상에서는 기본적으
 
 1. `SecureHtmlRenderer` 클래스를 사용하여 차단된 스크립트를 [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)합니다.
 1. 스크립트를 실행하려면 `CSPNonceProvider` 클래스를 사용합니다.
-Adobe Commerce 및 Magento Open Source 2.4.7 이상에는 각 요청에 대해 고유한 [!DNL nonce] 문자열을 쉽게 생성할 수 있도록 **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] 공급자가 포함됩니다. 그런 다음 이 [!DNL nonce] 문자열이 [!UICONTROL CSP] 헤더에 연결됩니다.
+Adobe Commerce 및 Magento Open Source 2.4.7 이상에는 각 요청에 대한 고유한 [!DNL nonce] 문자열을 쉽게 생성할 수 있도록 **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] 공급자가 포함됩니다. 그런 다음 이 [!DNL nonce] 문자열이 [!UICONTROL CSP] 헤더에 연결됩니다.
 
    `Magento\Csp\Helper\CspNonceProvider`에서 `generateNonce` 함수를 사용하여 [!DNL nonce] 문자열을 가져옵니다.
 
@@ -197,7 +210,7 @@ Adobe Commerce 및 Magento Open Source 버전 2.4.7 이상에서는 기본적으
 
 1. `SecureHtmlRenderer` 클래스를 사용하여 차단된 스크립트를 [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)합니다.
 1. 스크립트를 실행하려면 `CSPNonceProvider` 클래스를 사용합니다.
-Adobe Commerce 및 Magento Open Source 2.4.7 이상에는 각 요청에 대해 고유한 [!DNL nonce] 문자열을 쉽게 생성할 수 있도록 **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] 공급자가 포함됩니다. 그런 다음 이 [!DNL nonce] 문자열이 [!UICONTROL CSP] 헤더에 연결됩니다.
+Adobe Commerce 및 Magento Open Source 2.4.7 이상에는 각 요청에 대한 고유한 [!DNL nonce] 문자열을 쉽게 생성할 수 있도록 **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] 공급자가 포함됩니다. 그런 다음 이 [!DNL nonce] 문자열이 [!UICONTROL CSP] 헤더에 연결됩니다.
 
    `Magento\Csp\Helper\CspNonceProvider`에서 `generateNonce` 함수를 사용하여 [!DNL nonce] 문자열을 가져옵니다.
 

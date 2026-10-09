@@ -4,13 +4,22 @@ description: 이 문서에서는 PayPal을 통한 결제 처리, 특히 PayFlow 
 exl-id: f0772515-8456-4f08-84b4-aeef44516f2a
 feature: Orders, Payments
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '540'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce에서 PayPal 문제 해결
 
 이 문서에서는 PayPal을 통한 결제 처리, 특히 PayFlow Pro 솔루션과 관련된 문제에 대한 솔루션을 제공합니다. 이 문서의 일부 권장 사항은 명확해 보일 수 있습니다. 이 기술 자료에 나열된 문제 해결 옵션을 시도하고 입력한 티켓에 모든 정보를 포함하시기 바랍니다. Adobe Commerce 또는 PayPal 지원 엔지니어는 문제를 진단할 때 이러한 단계를 수행하도록 요청합니다.
@@ -31,7 +40,7 @@ Commerce 관리 및 PayPal 계정 설정에서 동일한 설정을 적용하고 
 
 PayPal Express 체크아웃 솔루션을 적용할 때 **PayPal 관리자**(서비스 설정 > 설정 > 보안 옵션) 및 **Commerce 관리자**(**스토어** > 구성 > **판매** > **결제 방법**...)에서 AVS/CSC 응답을 기반으로 하는 거래를 거절해야 합니다.
 ![magento_paypal_settings_2.4.1.png](assets/magento_paypal_settings_2.4.1.png)
-자세한 내용은 사용 안내서의 [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm) 및 [Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html?lang=ko) 설명서를 참조하십시오.
+자세한 내용은 사용 안내서의 [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm) 및 [Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html) 설명서를 참조하십시오.
 
 ## 참조 트랜잭션 허용
 
@@ -41,14 +50,14 @@ PayPal 결제 방법에 청구 계약 및 참조 트랜잭션과 함께 API가 �
 
 다음 문서를 참조하십시오.
 
-* [PayPal 게이트웨이에서 요청을 거부했습니다. 중복 송장 문제](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-26838)가 지원 기술 자료에서 발견되었습니다.
+* [PayPal 게이트웨이에서 요청을 거부했습니다. 중복 송장 문제](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838)가 지원 기술 자료에서 발견되었습니다.
 * 지원 기술 자료에서 [새 저장소 엔터티의 증분 ID를 변경](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)합니다.
 
 ## 고급 결제 로그를 수집하려면 지원 팀에 문의하십시오
 
 복잡한 결제 문제를 해결하기 위해 Adobe Commerce 지원 팀은 고급 결제 로깅을 활성화하기 위해 전용 패치를 적용하도록 요청할 수 있습니다. 이 경우 단계는 다음과 같아야 합니다.
 
-다음 세부 정보를 사용하여 [지원 티켓을 제출](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket):
+다음 세부 정보를 사용하여 [지원 티켓을 제출](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket):
 
 * 가능한 한 많은 세부 정보로 문제를 지정합니다.
 * 이 문서에서 시도한 단계, 기술 자료 및 기타 리소스를 나열합니다. 모든 결과를 포함합니다.
@@ -57,5 +66,5 @@ PayPal 결제 방법에 청구 계약 및 참조 트랜잭션과 함께 API가 �
 Advanced Payment Logging 패치를 받은 경우:
 
 * 패치를 적용합니다.
-* 로그를 수집하여 [지원 티켓](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)에 첨부합니다.
+* 로그를 수집하여 [지원 티켓](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)에 첨부합니다.
 * Adobe Commerce 지원 팀의 추가 권장 사항을 기다립니다.

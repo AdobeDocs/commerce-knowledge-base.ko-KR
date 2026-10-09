@@ -1,14 +1,15 @@
 ---
-title: Adobe Commerce [!DNL crons] 개입 없이 비활성화됨
-description: 이 문서를 사용하여  [!DNL crons] 이(가) 개입 없이 비활성화되는 문제를 해결할 수 있습니다.
+title: Adobe Commerce [!DNL crons]이(가) 개입 없이 비활성화되었습니다.
+description: '[!DNL crons]이(가) 개입 없이 비활성화되는 문제를 해결하려면 이 문서를 사용하십시오.'
 exl-id: 5172d2ae-53ad-4db6-ae00-7b27c96911e9
-source-git-commit: 6bff1d7a0578ceb8ea17dff347b1bcd4f0068e7a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '192'
 ht-degree: 0%
-
 ---
-
 # 개입 없이 Adobe Commerce 크론이 비활성화됨
 
 이 문서에서는 개입 없이 [!DNL crons]을(를) 사용하지 않도록 설정하는 경우에 대한 해결 방법을 제공합니다.
@@ -39,10 +40,10 @@ ht-degree: 0%
 
 ## 솔루션
 
-[!DNL ECE Tools]을(를) 최신 버전 [2002.1.13](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113)&#x200B;(으)로 업그레이드하십시오.
+[!DNL ECE Tools]을(를) 최신 버전 [2002.1.13](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113)&#x200B;(으)로 업그레이드하십시오.
 
 ## 관련 읽기
 
-* 지원 기술 자료에서 [느린 성능, 느리고 긴 실행 [!DNL crons]](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-42802).
-* [[!DNL Cron] 작업은 다른 그룹의 작업을 잠그고](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=ko)있습니다.
-* [[!DNL Cron] 작업이 지원 기술 자료에서 &quot;실행 중&quot; 상태](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=ko)에서 중단되었습니다.
+* 지원 기술 자료에서 [느린 성능, 느리고 긴 실행 [!DNL crons]](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-42802).
+* [[!DNL Cron] 작업은 다른 그룹의 작업을 잠그고](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=en)있습니다.
+* [[!DNL Cron] 작업이 지원 기술 자료에서 &quot;실행 중&quot; 상태](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=en)에서 중단되었습니다.

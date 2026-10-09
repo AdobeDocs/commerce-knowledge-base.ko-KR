@@ -4,7 +4,23 @@ description: 이 문서에서는 B2B 1.5.2 업데이트 후 Magento_Company 모�
 feature: B2B, Upgrade
 role: Admin, Developer
 exl-id: b091d761-2e8a-4535-b461-ee9a46b5c2bc
-source-git-commit: e0524b54ee0adae1caa809212e98dda3a33c1954
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -31,7 +47,7 @@ B2B 1.5.2로 업데이트한 후 `Magento_Company` 모듈을 업그레이드하�
 
 <u>재현 단계</u>:
 
-1. 회사를 모회사에 할당하여 회사 계층을 설정합니다. 자세한 내용은 Adobe Commerce B2B 안내서의 [회사 계층 관리](https://experienceleague.adobe.com/ko/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)를 참조하십시오.
+1. 회사를 모회사에 할당하여 회사 계층을 설정합니다. 자세한 내용은 Adobe Commerce B2B 안내서의 [회사 계층 관리](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)를 참조하십시오.
 1. B2B를 1.5.2 버전으로 업그레이드하십시오.
 
 <u>예상 결과</u>:
@@ -60,7 +76,7 @@ B2B 1.5.2로 업데이트한 후 `Magento_Company` 모듈을 업그레이드하�
 
 ### 패치 적용 방법
 
-파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
+파일의 압축을 풀고 지침이 필요하면 지원 기술 자료에서 [Adobe에서 제공하는 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 ### 클라우드 패치를 사용하여 패치 적용
 
@@ -79,8 +95,8 @@ Adobe Commerce on Cloud 판매자의 경우 아래 단계를 따르십시오.
    ```
 
 1. ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch를 `m2-hotfixes` 디렉터리에 추가합니다.
-1. 변경 내용을 커밋하고 푸시하여 재배포 및 `bin/magento setup:upgrade`을(를) 시작합니다. 지침은 Adobe Commerce on Cloud 안내서의 [패치 적용](https://experienceleague.adobe.com/ko/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
+1. 변경 내용을 커밋하고 푸시하여 재배포 및 `bin/magento setup:upgrade`을(를) 시작합니다. 지침은 Adobe Commerce on Cloud 안내서의 [패치 적용](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)을 참조하십시오.
 
 ## 관련 읽기
 
-* [REGEXP_LIKE 함수 누락으로 인해 B2B 1.5.2로 업그레이드하지 못하고 SQL 구문 오류가 발생합니다](https://experienceleague.adobe.com/ko/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)
+* [REGEXP_LIKE 함수 누락으로 인해 B2B 1.5.2로 업그레이드하지 못하고 SQL 구문 오류가 발생합니다](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)

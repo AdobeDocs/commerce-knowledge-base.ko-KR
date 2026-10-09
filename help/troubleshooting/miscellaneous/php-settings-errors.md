@@ -4,13 +4,20 @@ description: 이 문서에서는 PHP 설정 오류에 대한 해결책을 제공
 exl-id: 51fb3c95-2e25-4d86-a6cf-e08e90d097ca
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '348'
 ht-degree: 0%
-
 ---
-
 # PHP 설정 오류
 
 이 문서에서는 PHP 설정 오류에 대한 해결책을 제공합니다.
@@ -48,7 +55,7 @@ PHP 메모리 제한을 늘리려면:
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
-`max-input-vars`에 대한 &#39;적절한&#39; 값이 없습니다. 구성의 크기와 복잡성에 따라 다릅니다. 필요에 따라 `php.ini` 파일의 값을 수정합니다. [필수 PHP 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/php-settings)을 참조하세요.
+`max-input-vars`에 대한 &#39;적절한&#39; 값이 없습니다. 구성의 크기와 복잡성에 따라 다릅니다. 필요에 따라 `php.ini` 파일의 값을 수정합니다. [필수 PHP 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)을 참조하세요.
 
 ## xdebug 최대 함수 중첩 수준 오류
 
@@ -76,4 +83,4 @@ Parse error: syntax error, unexpected 'data' (T_STRING)
 
 [asp\_tags](http://php.net/manual/en/ini.core.php#ini.asp-tags)에 대한 추가 정보입니다.
 
-`php.ini`을(를) 편집하고 `asp_tags = off`을(를) 설정합니다. 자세한 내용은 [필수 PHP 설정](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/php-settings)을 참조하세요.
+`php.ini`을(를) 편집하고 `asp_tags = off`을(를) 설정합니다. 자세한 내용은 [필수 PHP 설정](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)을 참조하세요.

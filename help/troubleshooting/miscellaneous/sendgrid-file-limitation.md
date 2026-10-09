@@ -1,16 +1,27 @@
 ---
 title: Adobe Commerce Cloud에 대한 [!DNL SendGrid] 파일 제한
-description: 이 문서에서는 클라우드 인프라의 Adobe Commerce에 대한  [!DNL SendGrid]  제한에 대한 해결 방법을 제공합니다.
+description: 이 문서에서는 클라우드 인프라의 Adobe Commerce에 대한 [!DNL SendGrid] 제한에 대한 해결 방법을 제공합니다.
 feature: Deploy, Marketing Tools
 role: Developer, Admin
 exl-id: 48629f48-8100-4128-9211-53d947aecd49
-source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '206'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce Cloud에 대한 [!DNL SendGrid] 제한
 
 이 문서에서는 클라우드 인프라의 Adobe Commerce에 대한 [!DNL SendGrid] 제한에 대한 몇 가지 해결 방법을 제공합니다.
@@ -52,9 +63,9 @@ Month Date Time i-xxxxxxxxxxxxxxxxx postfix/sendmail[26434]: fatal: no-reply@xxx
 ## 해결 방법
 
 * 6Mb 또는 10Mb 이상의 첨부 파일을 사용하지 마십시오.
-* Adobe Commerce 인스턴스에서 원격 SMTP 서버를 사용하는 것이 좋습니다. 단계는 관리 시스템 안내서의 [전자 메일 통신 구성](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html?lang=ko)을 참조하세요.
+* Adobe Commerce 인스턴스에서 원격 SMTP 서버를 사용하는 것이 좋습니다. 단계는 관리 시스템 안내서의 [전자 메일 통신 구성](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html)을 참조하세요.
 * 파일을 모듈 내에 저장할 수 있도록 서버를 다시 구성한 다음 이메일의 파일에 대한 링크를 첨부합니다.
 
 ## 관련 읽기
 
-* Commerce on Cloud Infrastructure 안내서의 [[!DNL SendGrid] 이메일 서비스](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=ko).
+* Commerce on Cloud Infrastructure 안내서의 [[!DNL SendGrid] 이메일 서비스](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html).

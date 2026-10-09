@@ -4,13 +4,22 @@ description: 이 문서에서는 Adobe Commerce 지원 또는 클라우드 프�
 exl-id: 676b32d2-8197-4c60-a1b1-3c51b01dd3a3
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '276'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 지원 또는 클라우드 계정에 로그인할 수 없음
 
 이 문서에서는 Adobe Commerce 지원 또는 클라우드 프로젝트에 로그인하기 어려운 경우에 대한 솔루션을 제공합니다.
@@ -21,7 +30,7 @@ Adobe Commerce(모든 배포 메서드) 모든 [지원되는 버전](https://www
 
 ## 문제
 
-[https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/) 또는 [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user)(으)로 이동하면 이제 통합 로그인 양식이 있으며 이전처럼 자격 증명을 더 이상 입력할 수 없습니다.
+[https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/) 또는 [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user)&#x200B;(으)로 이동하면 이제 통합 로그인 양식이 있으며 이전처럼 자격 증명을 더 이상 입력할 수 없습니다.
 
 <u>재현 단계</u>:
 
@@ -35,7 +44,7 @@ Commerce 계정에 로그인하십시오.
 
 <u>실제 결과</u>:
 
-Adobe 계정으로 로그인하기 위한 페이지로 리디렉션되고 자격 증명이 작동하지 않습니다.
+Adobe 계정으로 로그인하기 위한 페이지로 리디렉션되며 자격 증명이 작동하지 않습니다.
 
 ![adobe-login-two](assets/adobe-login-two.png)
 
@@ -49,9 +58,9 @@ Adobe Commerce을 다른 Adobe 솔루션과 통합하는 프로세스의 일부�
 다음 계정으로 로그인할 수 있습니다.
 
 - 기존 Adobe 기업/개인 계정.
-- Adobe 계정이 없는 경우 동일한 이메일 주소로 계정을 만드십시오.
+- Adobe 계정이 없는 경우 동일한 이메일 주소로 계정을 만듭니다.
 
-단계는 Adobe Experience League의 [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=ko)을(를) 참조하십시오.
+단계는 Adobe Experience League의 [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html)를 참조하십시오.
 
 ## 관련 읽기
 

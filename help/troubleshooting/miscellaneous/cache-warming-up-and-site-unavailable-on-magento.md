@@ -4,13 +4,27 @@ description: 이 문서에서는 페이지 캐시가 준비 중이고 중단된 
 exl-id: c91d5c1f-95e6-4240-be98-2acea49ae728
 feature: Cache, Variables
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+  - id: 2191e157-828a-5358-ad69-ebcaa8402915
+    internal-label: Variables
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '248'
 ht-degree: 0%
-
 ---
-
 # 캐시 준비 및 Adobe Commerce에서 사이트를 사용할 수 없음
 
 이 문서에서는 페이지 캐시가 준비 중이고 중단된 배포 또는 사이트 다운이 있는 경우에 대한 솔루션을 제공합니다.
@@ -37,8 +51,8 @@ ht-degree: 0%
 
 ## 솔루션
 
-캐시 준비 중 동시 연결 수를 제한합니다. 이를 위해서는 `WARM_UP_CONCURRENCY` 사후 배포 변수를 추가하여 캐시 준비 스크립트에서 동시에 보낼 수 있는 준비 요청의 수를 지정해야 합니다. 이 옵션을 설정하면 Adobe Commerce 클라우드 인프라의 로드를 관리하는 데 도움이 될 수 있습니다. 개발자 설명서에서 [배포 후 변수 > WARM\_UP\_CONCURRENCY](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-post-deploy#warm_up_concurrency)을(를) 참조하십시오.
+캐시 준비 중 동시 연결 수를 제한합니다. 이를 위해서는 `WARM_UP_CONCURRENCY` 사후 배포 변수를 추가하여 캐시 준비 스크립트에서 동시에 보낼 수 있는 준비 요청의 수를 지정해야 합니다. 이 옵션을 설정하면 Adobe Commerce 클라우드 인프라의 로드를 관리하는 데 도움이 될 수 있습니다. 개발자 설명서에서 [배포 후 변수 > WARM\_UP\_CONCURRENCY](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-post-deploy#warm_up_concurrency)을(를) 참조하십시오.
 
 ## 관련 읽기
 
-사용 안내서의 [전체 페이지 캐시](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cache-management#full-page-caching)
+사용 안내서의 [전체 페이지 캐시](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching)

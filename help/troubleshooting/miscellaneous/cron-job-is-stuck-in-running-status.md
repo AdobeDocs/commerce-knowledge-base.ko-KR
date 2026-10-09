@@ -1,16 +1,23 @@
 ---
 title: '[!DNL Cron] 작업이 **실행 중** 상태에서 중단되었습니다.'
-description: 이 문서에서는 Adobe Commerce [!DNL cron] 작업 실행이 완료되지 않고 "실행 중" 상태로 유지되어 다른  [!DNL cron] 작업이 실행되지 않는 경우에 대한 해결 방법을 제공합니다. 이 문제는 네트워크 문제, 애플리케이션 충돌, 재배포 문제 등 여러 가지 이유로 발생할 수 있습니다.
+description: 이 문서에서는 Adobe Commerce [!DNL cron] 작업의 실행이 완료되지 않고 "실행 중" 상태로 유지되어 다른 [!DNL cron] 작업이 실행되지 않는 경우에 대한 해결 방법을 제공합니다. 이 문제는 네트워크 문제, 애플리케이션 충돌, 재배포 문제 등 여러 가지 이유로 발생할 수 있습니다.
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # [!DNL Cron] 작업이 &quot;실행 중&quot; 상태에서 중단되었습니다.
 
 이 문서에서는 Adobe Commerce [!DNL cron] 작업의 실행이 완료되지 않고 &quot;실행 중&quot; 상태로 유지되어 다른 [!DNL cron] 작업이 실행되지 않는 경우에 대한 해결 방법을 제공합니다. 이 문제는 네트워크 문제, 애플리케이션 충돌, 재배포 문제 등 여러 가지 이유로 발생할 수 있습니다.
@@ -37,7 +44,7 @@ ht-degree: 0%
 
 이 문제를 해결하려면 `cron:unlock` 명령을 사용하여 [!DNL cron] 작업을 재설정해야 합니다. 이 명령은 데이터베이스에서 [!DNL cron] 작업의 상태를 변경하여 다른 예약된 작업이 계속 진행될 수 있도록 작업을 강제로 종료합니다.
 
-1. 터미널을 열고 [SSH 키](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/secure-connections)를 사용하여 영향을 받는 환경에 연결합니다.
+1. 터미널을 열고 [SSH 키](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)를 사용하여 영향을 받는 환경에 연결합니다.
 1. MySQL 데이터베이스 자격 증명 가져오기: `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp`
 1. `mysql`을(를) 사용하여 데이터베이스에 연결: `mysql -hdatabase.internal -uuser -ppassword main`
 1. `main` 데이터베이스 선택: `use main`
@@ -47,7 +54,7 @@ ht-degree: 0%
 
 ### 단일 [!DNL cron]을(를) 중지하는 솔루션 {#solution-stop-a-single-cron}
 
-1. 터미널을 열고 [SSH 키](https://experienceleague.adobe.com/ko/docs/commerce-cloud-service/user-guide/develop/secure-connections)를 사용하여 영향을 받는 환경에 연결합니다.
+1. 터미널을 열고 [SSH 키](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)를 사용하여 영향을 받는 환경에 연결합니다.
 1. 다음 명령을 사용하여 장기 실행 작업을 확인하십시오.
 
    `date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'`

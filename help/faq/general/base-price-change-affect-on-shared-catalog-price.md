@@ -3,13 +3,17 @@ title: 기본 가격 변경이 공유된 카탈로그 가격에 영향을 미침
 description: '이 문서는 공유 카탈로그의 제품에 사용자 지정 가격이 있고 제품의 기본 가격이 변경되는 경우(예: 예정된 업데이트 후) 공유 카탈로그에 적용되는 가격에 대해 설명합니다.'
 exl-id: 916678c1-ada6-4f23-af16-b107cb83ff16
 feature: Catalog Management
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # 기본 가격 변경이 공유된 카탈로그 가격에 영향을 미침
 
 이 문서는 공유 카탈로그의 제품에 사용자 지정 가격이 있고 제품의 기본 가격이 변경되는 경우(예: 예정된 업데이트 후) 공유 카탈로그에 적용되는 가격에 대해 설명합니다.
@@ -30,4 +34,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-사용 안내서에서 [공유 카탈로그의 가격 및 구조 설정](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=ko).
+사용 안내서에서 [공유 카탈로그의 가격 및 구조 설정](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html).

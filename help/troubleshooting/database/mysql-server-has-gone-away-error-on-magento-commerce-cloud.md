@@ -4,13 +4,29 @@ description: 이 문서에서는 'cron.log' 파일에 "*SQL Server가 없어짐*
 exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
 feature: Cloud, Paas, Services, Variables
 role: Developer
-source-git-commit: 467d214d25b2154af0545054a026a588de883f58
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+subfeature_v2:
+  - id: 2191e157-828a-5358-ad69-ebcaa8402915
+    internal-label: Variables
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '312'
 ht-degree: 0%
-
 ---
-
 # MySQL Server가 클라우드의 &#x200B;에서 오류를 제거했습니다.
 
 이 문서에서는 `cron.log` 파일에 &quot;*SQL Server가 없어짐*&quot; 오류 메시지가 표시되는 문제에 대한 해결 방법에 대해 설명합니다. 이미지 파일 가져오기 문제 또는 배포 실패 등 다양한 증상이 나타날 수 있습니다.
@@ -33,7 +49,7 @@ ht-degree: 0%
 
 <u>실제 결과</u>
 
-`cron.log`의 오류 메시지:&quot; *SQLSTATE\[HY000\] \[2006\] MySQL 서버가 at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php:144&quot;*
+`cron.log`의 오류 메시지:&quot; *SQLSTATE\[HY000\] \[2006\] MySQL 서버가 at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php:144&quot;* 제거됨
 
 ## 원인
 
@@ -48,5 +64,5 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* [클라우드 인프라의 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=ko)
-* [클라우드 인프라의 Adobe Commerce에서 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=ko)
+* [클라우드 인프라의 Adobe Commerce에 대한 데이터베이스 모범 사례](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+* [클라우드 인프라의 Adobe Commerce에서 가장 일반적인 데이터베이스 문제](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)

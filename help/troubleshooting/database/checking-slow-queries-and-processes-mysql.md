@@ -4,13 +4,20 @@ description: 이 문서에서는 판매자 사이트 및 해당 사이트가 표
 exl-id: cae02e4f-d8cb-4074-abac-24ead22bdc07
 feature: Services
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 # 느린 쿼리 및 프로세스 MySQL 확인
 
 이 문서에서는 판매자 사이트 및 해당 사이트가 표시하는 솔루션에 부정적인 영향을 줄 수 있는 몇 가지 일반적인 MySQL 문제(느린 쿼리, 프로세스 시간이 너무 오래 걸림)에 대해 설명합니다.
@@ -21,7 +28,7 @@ ht-degree: 0%
 
 오버로드된 데이터베이스로 인해 잠재적으로 장애가 발생한 경우, 이러한 단계는 데이터베이스의 느린 쿼리 로그를 확인하는 데 도움이 됩니다.
 
-### MySQL 명령줄(Adobe Commerce Cloud/온-프레미스/Magento Open Source)을 사용하여 쿼리 분석
+### MySQL 명령줄(Adobe Commerce Cloud/on-premise/Magento Open Source)을 사용하여 쿼리 분석
 
 1. MySQL 명령줄(Adobe Commerce 온-프레미스/Magento Open Source)이나 명령줄에서 클라우드 서버(클라우드 인프라의 Adobe Commerce)에 로그인합니다.
 1. 느린 쿼리 로그에서 50초 이상의 쿼리를 검사합니다.
@@ -44,7 +51,7 @@ ht-degree: 0%
 Adobe Commerce 프로젝트가 Pro 아키텍처에 배포된 경우 [!DNL Percona Toolkit]을(를) 사용하여 쿼리를 분석할 수 있습니다.
 
 1. MySQL 느린 쿼리 로그에 대해 `pt-query-digest --type=slowlog` 명령을 실행합니다.
-   * 느린 쿼리 로그의 위치를 찾으려면 개발자 설명서에서 **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=ko)**&#x200B;을(를) 참조하십시오.
+   * 느린 쿼리 로그의 위치를 찾으려면 개발자 설명서에서 **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)**&#x200B;을(를) 참조하십시오.
    * [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) 설명서를 참조하십시오.
 1. 발견된 문제를 기반으로, 쿼리를 수정하는 단계를 수행하여 쿼리가 더 빨리 실행되도록 합니다.
 
@@ -81,4 +88,4 @@ Adobe Commerce 프로젝트가 Pro 아키텍처에 배포된 경우 [!DNL Percon
 * dev.mysql.com의 [MySQL Show Processlist 구문](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html).
 * dev.mysql.com의 [MySQL Kill 구문](https://dev.mysql.com/doc/refman/8.0/en/kill.html).
 * 개발자 설명서에서 [보안, 성능 및 데이터 처리](https://developer.adobe.com/commerce/php/best-practices/extensions/security/).
-* 개발자 설명서에서 [MySQL 도움말](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)
+* 개발자 설명서에서 [MySQL 도움말](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)

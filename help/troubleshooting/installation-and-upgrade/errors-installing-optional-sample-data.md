@@ -4,13 +4,27 @@ description: 이 항목에서는 선택적 샘플 데이터 설치를 통해 발
 exl-id: 14692e3a-188c-45f1-9df5-ac873cc9eff0
 feature: Console, Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 # 선택적 샘플 데이터를 설치하는 중 오류 발생
 
 이 항목에서는 선택적 샘플 데이터 설치를 통해 발생할 수 있는 오류 해결 방법에 대해 설명합니다.
@@ -34,11 +48,11 @@ Next exception 'ReflectionException' with message 'Class Magento\CatalogRule\Mod
 
 ### 솔루션
 
-`root` 권한이 있는 사용자로 [파일 시스템 소유권 및 권한을 다시 설정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html?lang=ko)합니다.
+`root` 권한이 있는 사용자로 [파일 시스템 소유권 및 권한을 다시 설정](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html)합니다.
 
 ## 증상(프로덕션 모드)
 
-현재 [프로덕션 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=ko)로 설정된 경우 [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html?lang=ko) 명령을 사용하면 샘플 데이터 설치가 실패합니다.
+현재 [프로덕션 모드](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html)로 설정된 경우 [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html) 명령을 사용하면 샘플 데이터 설치가 실패합니다.
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -48,7 +62,7 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 프로덕션 모드에서 샘플 데이터를 설치하지 마십시오. 개발자 모드로 전환하고 일부 `var` 디렉터리를 지운 후 다시 시도하십시오.
 
-[Adobe Commerce 파일 시스템 소유자](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html?lang=ko)&#x200B;(으)로 표시된 순서대로 다음 명령을 입력하십시오.
+[Adobe Commerce 파일 시스템 소유자](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html)&#x200B;(으)로 표시된 순서대로 다음 명령을 입력하십시오.
 
 ```php
 cd <magento_root>

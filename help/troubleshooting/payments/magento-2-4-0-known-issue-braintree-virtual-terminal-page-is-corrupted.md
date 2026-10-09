@@ -4,13 +4,22 @@ description: 이 문서에서는 Braintree이 구성되지 않은 경우 Braintr
 exl-id: 1d4d762d-2ab3-4752-ad6d-1eb6a179917d
 feature: Orders, Payments
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '304'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.0 Braintree 가상 터미널 페이지가 손상됨
 
 이 문서에서는 Braintree이 구성되지 않은 경우 Braintree 가상 터미널 페이지가 적절한 UI 요소 또는 적절한 오류 메시지를 로드하지 않는 알려진 Adobe Commerce 2.4.0 문제에 대한 패치를 제공합니다.
@@ -26,7 +35,7 @@ ht-degree: 0%
 
 <u>재현 단계:</u>
 
-Commerce 관리에서 **판매** > **Braintree 가상 터미널**(으)로 이동합니다 **&#x200B; **
+Commerce 관리에서 **판매** > **Braintree 가상 터미널** 로 이동합니다. ** **
 
 <u>예상 결과:</u>
 
@@ -40,7 +49,7 @@ Commerce 관리에서 **판매** > **Braintree 가상 터미널**(으)로 이동
 
 <u>재현 단계:</u>
 
-Commerce 관리에서 **판매** > **Braintree 가상 터미널**(으)로 이동합니다 **&#x200B; **
+Commerce 관리에서 **판매** > **Braintree 가상 터미널** 로 이동합니다. ** **
 
 <u>예상 결과:</u>
 
@@ -69,6 +78,6 @@ Commerce 관리에서 **판매** > **Braintree 가상 터미널**(으)로 이동
 
 ## 패치 적용 방법
 
-지침은 [Adobe에서 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
+지침은 [Adobe에서 제공한 작성기 패치를 적용하는 방법](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)을 참조하십시오.
 
 ## 첨부 파일

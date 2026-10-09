@@ -4,25 +4,32 @@ description: 특정 보고서에 있는 수치가 부정확해 보입니까? 예
 exl-id: 2ecea990-7292-46c1-b6eb-75f0404aaf0b
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 3d73611b812833820eda5b906eb700c89f50cbbe
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 # MBI: 데이터 불일치
 
 특정 보고서에 있는 수치가 부정확해 보입니까? 예기치 않은 NULL 값이 표시됩니까? 제대로 표시되지 않는 것이 발견되면 다음 리소스를 사용하여 문제를 해결하는 것이 좋습니다.
 
-* [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-41479)
+* [데이터 불일치 진단 검사 목록](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
 * [내보내기를 사용하여 데이터 불일치 파악](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-또한 불일치와 관련된 테이블 및 열에 대해 올바른 [복제 메서드](https://experienceleague.adobe.com/ko/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) 및 [다시 확인](https://experienceleague.adobe.com/ko/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)이 설정되었는지 확인하는 것이 좋습니다. 복제 방법에 액세스하고 정보를 다시 확인하려면 관리자 권한이 필요합니다.
+또한 불일치와 관련된 테이블 및 열에 대해 올바른 [복제 메서드](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) 및 [다시 확인](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)이 설정되었는지 확인하는 것이 좋습니다. 복제 방법에 액세스하고 정보를 다시 확인하려면 관리자 권한이 필요합니다.
 
 ## 난 아직도 도움이 필요해!
 
-보고서가 여전히 부정확하다면 걱정하지 마십시오. 지원 팀이 기꺼이 도와 드리겠습니다. [다음 정보를 사용하여 &#x200B;](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)에 문의하세요.
+보고서가 여전히 부정확하다면 걱정하지 마십시오. 지원 팀이 기꺼이 도와 드리겠습니다. [다음 정보를 사용하여 ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)에 문의하세요.
 
 * 불일치를 본 보고서의 이름은 무엇입니까?
 * 보고서에서 잘못된 값
@@ -31,4 +38,4 @@ ht-degree: 0%
 
 ## 관련 읽기
 
-* [구조적 데이터베이스 변경](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html?lang=ko)
+* [구조적 데이터베이스 변경](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html)

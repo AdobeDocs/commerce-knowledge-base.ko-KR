@@ -4,13 +4,20 @@ description: 이 문서에서는 Adobe Commerce의 최신 프리릴리스 코드
 exl-id: cbf54a15-b307-4bfc-90b7-cff98aeb4fce
 feature: Roles/Permissions
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e439352c-5b67-587d-b34e-d2a0aa5a0242
+    internal-label: Roles/Permissions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '719'
 ht-degree: 0%
-
 ---
-
 # 최신 Adobe Commerce 프리릴리스에 액세스할 수 없음
 
 이 문서에서는 Adobe Commerce의 최신 프리릴리스 코드를 활용하려고 할 때 발생하는 문제에 대한 솔루션을 제공합니다.
@@ -40,8 +47,8 @@ ht-degree: 0%
 
 프리릴리스 동안 릴리스 패키지는 다음 두 위치에서 사용할 수 있습니다.
 
-1. [magento.com](https://repo.magento.com/)의 작성기에서 계정에 기본 MageID를 사용합니다. 작성기 사용 방법에 대한 자세한 내용은 개발자 설명서에서 [작성기를 사용하여 Adobe Commerce 설치](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/composer)를 참조하십시오.
-1. **account.magento.com**&#x200B;의 **내 계정** > [다운로드](https://account.magento.com/customer/account/login).
+1. [magento.com](https://repo.magento.com/)의 작성기에서 계정에 기본 MageID를 사용합니다. 작성기 사용 방법에 대한 자세한 내용은 개발자 설명서에서 [작성기를 사용하여 Adobe Commerce 설치](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)를 참조하십시오.
+1. [account.magento.com](https://account.magento.com/customer/account/login)의 **내 계정** > **다운로드**.
 
 >[!NOTE]
 >
@@ -61,7 +68,7 @@ MageID가 기본 인지 확인하려면 다음을 시도해 보십시오.
    * Adobe Commerce 라이선스 정보가 표시되면 MageID는 기본 입니다.
    * Adobe Commerce 라이선스 정보가 표시되지 않으면 MageID에는 공유 액세스만 있습니다. 기본 ID 보유자를 확인하려면 **나와 공유**(으)로 이동하십시오. SHARENAME이 여기에 지정되어 있습니다. **계정 전환**&#x200B;을 클릭하고 SHARENAME에서 지정한 값을 선택합니다. 시작 페이지에 기본 ID 소유자의 이메일이 표시됩니다.
 1. [magento.com](https://account.magento.com/customer/account/login)에서 이 정보를 찾을 수 없는 경우 Adobe 계정 팀에 문의하십시오.
-1. 위의 방법 중 어느 것도 작동하지 않는 경우 [지원팀에 문의](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하십시오.
+1. 위의 방법 중 어느 것도 작동하지 않는 경우 [지원팀에 문의](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하십시오.
 
 **파트너용**
 
@@ -71,8 +78,8 @@ MageID가 기본 인지 확인하려면 다음을 시도해 보십시오.
    * 활성 파트너 라이센스 정보가 표시되면 MageID는 기본 입니다. END DATE 값이 미래의 날짜인 경우 Partner 라이센스가 활성화됩니다.
    * 활성 파트너 라이선스 정보가 표시되지 않으면 MageID에는 공유 액세스만 있습니다. 기본 ID 보유자를 확인하려면 **나와 공유**(으)로 이동하십시오. SHARENAME이 여기에 지정되어 있습니다. **계정 전환**&#x200B;을 클릭하고 SHARENAME에서 지정한 값을 선택합니다. 시작 페이지에 기본 ID 소유자의 이메일이 표시됩니다.
 1. [magento.com](https://account.magento.com/customer/account/login)에서 이 정보를 찾을 수 없는 경우 파트너 관리자에게 문의하십시오.
-1. 위의 방법 중 어느 것도 작동하지 않는 경우 [с지원팀에 문의](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하십시오.
+1. 위의 방법 중 어느 것도 작동하지 않는 경우 [с지원팀에 문의](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하십시오.
 
 ### 프리릴리스 프로그램의 일부가 아님
 
-프리릴리스 액세스 프로그램에 포함되려면 조직에 올바른 상태의 활성 Adobe Commerce 또는 파트너 계정이 있어야 합니다. 이 기준을 충족하고 시험판 코드에 액세스할 수 없는 경우 MageID를 사용하여 [지원팀에 문의](https://experienceleague.adobe.com/ko/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하십시오.
+프리릴리스 액세스 프로그램에 포함되려면 조직에 올바른 상태의 활성 Adobe Commerce 또는 파트너 계정이 있어야 합니다. 이 기준을 충족하고 시험판 코드에 액세스할 수 없는 경우 MageID를 사용하여 [지원팀에 문의](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)하십시오.

@@ -1,18 +1,22 @@
 ---
 title: Magento.com 및 accounts.magento.cloud 계정 로그인 연결
-description: 2020년 4월 1일부터 Adobe Commerce에서는 [accounts.magento.cloud](https://accounts.magento.cloud/)에 계정이 있는 사용자가 이 계정을 [Magento.com](https://account.magento.com/customer/account/login/) 계정과 연결해야 합니다. 이렇게 하면 [Magento.com](https://account.magento.com/customer/account/login/) 계정 로그인이 두 계정의 기본 로그인 방법으로 사용되고 사용자의 보안이 향상됩니다.
+description: 2020년 4월 1일부터 Adobe Commerce에서는 [accounts.magento.cloud](https://accounts.magento.cloud/)에 계정이 있는 사용자가 이 계정을 [Magento.com](https://account.magento.com/customer/account/login/) 계정과 연결해야 합니다. 이렇게 하면 [Magento.com](https://account.magento.com/customer/account/login/) 계정 로그인이 두 계정의 기본 로그인 방법으로 설정되고 사용자의 보안이 향상됩니다.
 exl-id: 89afec50-bc21-46cd-8440-2bcf717ded69
 feature: Cloud
-source-git-commit: 74b04ca74330037252334c288b15d8412d00d253
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # Magento.com 및 accounts.magento.cloud 계정 로그인 연결
 
-2020년 4월 1일부터 Adobe Commerce에서는 [accounts.magento.cloud](https://accounts.magento.cloud/)에 계정이 있는 사용자가 이 계정을 [Magento.com](https://account.magento.com/customer/account/login/) 계정과 연결해야 합니다. 이렇게 하면 [Magento.com](https://account.magento.com/customer/account/login/) 계정 로그인이 두 계정의 기본 로그인 방법으로 설정되고 사용자의 보안이 향상됩니다.
+2020년 4월 1일부터 Adobe Commerce에서는 [accounts.magento.cloud](https://accounts.magento.cloud/)에 계정이 있는 사용자가 이 계정을 [Magento.com](https://account.magento.com/customer/account/login/) 계정과 연결해야 합니다. 이렇게 하면 [Magento.com](https://account.magento.com/customer/account/login/) 계정 로그인이 두 계정의 기본 로그인 방법으로 지정되며 사용자의 보안이 향상됩니다.
 
 [accounts.magento.cloud](https://accounts.magento.cloud/)의 사용자는 다음 두 가지 방법 중 하나를 통해 이러한 계정에 연결할 수 있습니다.
 
@@ -20,7 +24,7 @@ ht-degree: 0%
 
 1. 원하는 방법으로 로그인한 후 [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user)의 **계정 설정**(으)로 이동합니다.
 1. 페이지의 **Single Sign-On** 섹션을 엽니다.
-1. **공급자: Magento.com**&#x200B;이 &quot;연결 안 됨&quot; 상태를 보고하면 **Magento.com에 연결** 단추를 선택하십시오.
+1. **공급자: Magento.com**&#x200B;에서 &quot;연결 안 됨&quot; 상태를 보고하면 **Magento.com에 연결** 단추를 선택하십시오.
 1. [https://account.magento.com/applications/customer/login/](https://account.magento.com/applications/customer/login/)&#x200B;(으)로 리디렉션됩니다.
 1. 여기에서 Adobe Commerce 계정을 만들거나 기존 계정에 로그인할 수 있습니다.
 
@@ -33,4 +37,4 @@ ht-degree: 0%
 ## 관련 읽기
 
 * [Adobe Commerce 지원 또는 클라우드 계정에 로그인할 수 없음](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
-* [MageID 계정 소유자가 로그인하여 지원 티켓을 제출할 수 없습니다](https://experienceleague.adobe.com/ko/docs/experience-cloud-kcs/kbarticles/ka-25231)
+* [MageID 계정 소유자가 로그인하여 지원 티켓을 제출할 수 없습니다.](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231)

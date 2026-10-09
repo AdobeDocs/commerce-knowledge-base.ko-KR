@@ -4,13 +4,26 @@ description: 이 문서에서는 여러 배송 주소를 지정할 때 결제 �
 exl-id: 68a9ee77-d0ef-43c5-9667-6d099b797666
 feature: Checkout, Orders, Payments, Shipping/Delivery
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: 04d3134c-2afb-5bd7-ac14-e19fa935e848
+    internal-label: Shipping/Delivery
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
-
 ---
-
 # 여러 주소가 있는 체크아웃 시 결제 방법이 표시되지 않음
 
 이 문서에서는 여러 배송 주소를 지정할 때 결제 방법의 대부분이 체크아웃 시 표시되지 않는데, 그 이유는 이 기능이 Cybersource에 대해서만 구현되기 때문입니다.

@@ -1,13 +1,14 @@
 ---
 title: 설치하는 동안 예외 SessionHandler::read()
-description: "이 문서에서는 Adobe Commerce 설치 중 **SessionHandler::read()** 오류에 대한 수정 사항을 제공합니다."
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+description: 이 문서에서는 Adobe Commerce 설치 중 발생한 예외 **SessionHandler::read()** 오류에 대한 수정 사항을 제공합니다.
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 
 # 설치하는 동안 예외 SessionHandler::read()
 
@@ -25,7 +26,7 @@ in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
 
 >[!NOTE]
 >
->이 오류는 2015년 9월 28일 이전 코드 버전에서만 발생합니다. 9월 29일 이상의 코드를 설치하는 경우 이 오류가 발생하지 않습니다. Redis 구성 옵션에 대한 자세한 내용은 개발자 설명서에서 [Redis 구성](https://experienceleague.adobe.com/ko/docs/commerce-operations/configuration-guide/cache/redis/config-redis)을 참조하십시오. 명령줄 설치 프로그램을 사용하여 Redis를 지정하는 방법에 대한 자세한 내용은 개발자 설명서에서 [설치 항목](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/advanced) 또는 [배포 구성 항목](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/deployment)을 참조하십시오.
+>이 오류는 2015년 9월 28일 이전 코드 버전에서만 발생합니다. 9월 29일 이상의 코드를 설치하는 경우 이 오류가 발생하지 않습니다. Redis 구성 옵션에 대한 자세한 내용은 개발자 설명서에서 [Redis 구성](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)을 참조하십시오. 명령줄 설치 프로그램을 사용하여 Redis를 지정하는 방법에 대한 자세한 내용은 개발자 설명서에서 [설치 항목](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced) 또는 [배포 구성 항목](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/deployment)을 참조하십시오.
 
 ## 원인
 
@@ -33,7 +34,7 @@ in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
 
 ## 솔루션:
 
-* Adobe Commerce 코드를 업그레이드합니다. 개발자 설명서에서 [설치 안내서 > Adobe Commerce 소프트웨어 업데이트](https://experienceleague.adobe.com/ko/docs/commerce-operations/installation-guide/tutorials/uninstall)를 참조하십시오.
+* Adobe Commerce 코드를 업그레이드합니다. 개발자 설명서에서 [설치 안내서 > Adobe Commerce 소프트웨어 업데이트](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall)를 참조하십시오.
 * 기존 코드에서 다음 해결 방법을 사용하십시오.
 
 ## `php.ini` 찾기 {#locate-php-ini}
