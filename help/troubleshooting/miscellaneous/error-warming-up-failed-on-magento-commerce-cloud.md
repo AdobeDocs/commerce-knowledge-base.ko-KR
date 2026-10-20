@@ -61,4 +61,4 @@ HTTP 액세스 제어를 사용하도록 설정한 경우 캐시 미리 보기�
 
 ## 관련 읽기
 
-* 사용 안내서의 [Adobe Commerce 사용 안내서 > 전체 페이지 캐시](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching).
+* 사용 안내서의 [Adobe Commerce 사용 안내서 > 전체 페이지 캐시](https://experienceleague.adobe.com/ko/docs/commerce-admin/systems/tools/cache-management#full-page-caching).
