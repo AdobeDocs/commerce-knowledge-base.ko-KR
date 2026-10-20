@@ -28,4 +28,4 @@ Adobe Commerce은 높은 수준의 맞춤화가 가능하며, 고객은 Luma 테
 
 ## 관련 읽기
 
-* [Adobe 접근성](https://www.adobe.com/trust/accessibility.html)
+* [Adobe 접근성](https://www.adobe.com/kr/trust/accessibility.html)

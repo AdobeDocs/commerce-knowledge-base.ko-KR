@@ -129,7 +129,7 @@ your code here
 외부 링크는 간단합니다.
 
 ```markdown
-[Adobe](https://www.adobe.com)
+[Adobe](https://www.adobe.com/kr)
 ```
 
 ### 첨부 파일 링크
