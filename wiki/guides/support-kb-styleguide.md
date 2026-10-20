@@ -256,7 +256,7 @@ Use tables for information that is best presented along two axes (rows and colum
 
 ### 외부 웹 사이트에 대한 링크
 
-[Adobe.com](http://Adobe.com) 외부 페이지에 연결하려면 goURL이 아닌 일반 URL을 사용하십시오.
+[Adobe.com](http://Adobe.com/kr) 외부 페이지에 연결하려면 goURL이 아닌 일반 URL을 사용하십시오.
 
 
 ## 쉼표
